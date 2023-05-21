@@ -1,20 +1,20 @@
 {
-	"name": "flarum-lang/xxish",
+	"name": "flarum-lang/indonesian",
 	"type": "flarum-extension",
-	"description": "Xxish language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/xxish",
+	"description": "Indonesian language pack for Flarum.",
+	"homepage": "https://github.com/flarum-lang/indonesian",
 	"keywords": [
 		"locale",
 		"flarum",
 		"flarum-locale",
-		"xx-locale",
-		"xxish-locale",
-		"xxish"
+		"id-locale",
+		"indonesian-locale",
+		"indonesian"
 	],
 	"license": "MIT",
 	"support": {
-		"issues": "https://github.com/flarum-lang/xxish/issues",
-		"source": "https://github.com/flarum-lang/xxish"
+		"issues": "https://github.com/flarum-lang/indonesian/issues",
+		"source": "https://github.com/flarum-lang/indonesian"
 	},
 	"require": {
 		"flarum/core": "^1.7"
@@ -23,7 +23,7 @@
 	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
-			"title": "Xxish",
+			"title": "Indonesian",
 			"category": "language",
 			"icon": {
 				"image": "icon.svg",
@@ -32,8 +32,8 @@
 			}
 		},
 		"flarum-locale": {
-			"code": "xx",
-			"title": "Xxish"
+			"code": "id",
+			"title": "Indonesian"
 		},
 		"extiverse": {
 			"discuss": ""
