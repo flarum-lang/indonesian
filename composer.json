@@ -1,0 +1,42 @@
+{
+	"name": "flarum-lang/xxish",
+	"type": "flarum-extension",
+	"description": "Xxish language pack for Flarum.",
+	"homepage": "https://github.com/flarum-lang/xxish",
+	"keywords": [
+		"locale",
+		"flarum",
+		"flarum-locale",
+		"xx-locale",
+		"xxish-locale",
+		"xxish"
+	],
+	"license": "MIT",
+	"support": {
+		"issues": "https://github.com/flarum-lang/xxish/issues",
+		"source": "https://github.com/flarum-lang/xxish"
+	},
+	"require": {
+		"flarum/core": "^1.7"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"extra": {
+		"flarum-extension": {
+			"title": "Xxish",
+			"category": "language",
+			"icon": {
+				"image": "icon.svg",
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
+			}
+		},
+		"flarum-locale": {
+			"code": "xx",
+			"title": "Xxish"
+		},
+		"extiverse": {
+			"discuss": ""
+		}
+	}
+}
