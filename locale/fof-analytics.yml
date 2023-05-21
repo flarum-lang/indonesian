@@ -24,7 +24,6 @@ fof-analytics:
       placeholder:
         piwikAuthToken: "Isi token ini untuk mengaktifkan tab Matomo stats di panel admin.\nAnda dapat menemukannya di Settings > Personal > API Authentication Token.\n"
       section:
-        Matomo: Matomo
         googleAnalytics: 'Google Analytics'
       trackAccounts:
         email: 'Tracking dengan email'

@@ -10,7 +10,6 @@ fof-user-directory:
       default-sort: 'Default sort'
       disable-global-search-source: 'Jangan tambahkan User Directoryke bidang pencarian global Flarum'
       link: 'Tambahkan daftar user pada halaman utama agar user dapat melihat'
-      title: 'Pengaturan Daftar User'
       use-small-cards: 'Gunakan user cards kecil'
   forum:
     header:

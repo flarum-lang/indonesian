@@ -46,11 +46,7 @@ flarum-tags:
       meta_description_text: 'Semua Tag'
       meta_title_text: '=> flarum-tags.ref.tags'
     choose_tags:
-      bypass_requirements: 'Bypass tag requirements'
-      choose_primary_placeholder: '{count, plural, one {Choose a primary tag} other {Choose # primary tags}}'
-      choose_secondary_placeholder: '{count, plural, one {Choose 1 more tag} other {Choose # more tags}}'
       edit_title: 'Edit Tag untuk {title}'
-      submit_button: '=> core.ref.okay'
       title: 'Pilih Tag Untuk Diskusi Anda'
     composer_discussion:
       choose_tags_link: 'Pilih Tag'
