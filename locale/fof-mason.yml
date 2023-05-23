@@ -4,8 +4,18 @@
 
 fof-mason:
   admin:
+    fields:
+      is_suggested: 'Sarankan jawaban kepada pengguna'
+      user_values_allowed-help: "Jika diaktifkan, pengguna dapat menambahkan nilai mereka sendiri, bukan nilai yang sudah ditentukan oleh admin. Nilai-nilai ini akan diperiksa terhadap pengaturan \"Validasi\".ika dinonaktifkan, mereka hanya akan dapat menggunakan jawaban yang \"disarankan\".\n"
+      validation: 'Validasi nilai pengguna'
+    messages:
+      delete-answer-confirmation: "Apakah Anda yakin ingin menghapus jawaban \"{content}\"? Jawaban tersebut akan dihapus dari semua diskusi yang menggunakannya. Jika Anda ingin menyimpan jawaban yang ada, nonaktifkan saran jawaban. Hapus jawaban?\n"
+      delete-field-confirmation: "Apakah Anda yakin ingin menghapus kolom \"{name}\"? Kolom dan jawabannya akan dihapus dari semua diskusi yang menggunakannya. Hapus kolom?\n"
     settings:
       fields-section-title: 'Judul dari bagian kolom khusus'
+      fields-section-title-help: "Pengguna akan melihat teks ini di atas kolom khusus di editor dan di diskusi.\n"
+      hide-empty-fields-section-help: "Secara default jika pengguna dapat mengedit kolom atau judul telah dibuat, bagian tersebut akan selalu ditampilkan, meskipun semua kolom disembunyikan. Dengan mengaktifkan opsi ini, bagian tersebut akan disembunyikan dan tombol \"edit kolom\" hanya akan tersedia di dalam menu dropdown \" reply\" ketika semua kolom kosong.\n"
+      labels-as-placeholders-help: "Kolom akan menggunakan lebih sedikit ruang vertikal dan ikon tidak akan ditampilkan lagi. Harap diingat bahwa hal ini mungkin berdampak pada kegunaan, khususnya saat mengedit kolom yang ada.\n"
       tags-as-field-help: "Ini akan menyembunyikan pemilih tag default dan menampilkan kolom dropdown kustom sebagai gantinya. Ini hanya akan berfungsi jika Anda mengizinkan hingga satu tag primer dan satu tag sekunder!\n"
   forum:
     answers:

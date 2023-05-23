@@ -5,15 +5,15 @@
 flarum-suspend:
   admin:
     permissions:
-      suspend_users_label: 'Suspend users'
+      suspend_users_label: 'Tangguhkan pengguna'
   email:
     no_reason_given: 'Tidak ada alasan yang diberikan untuk penangguhan ini.'
     suspended:
       body: "Hey {recipient_display_name},\nAnda telah ditangguhkan karena alasan berikut::\n---\n{suspension_message}\n---\n"
-      subject: 'Your account has been suspended'
+      subject: 'Akun Anda telah ditangguhkan'
     unsuspended:
       body: "Hey {recipient_display_name},\nAnda telah dibatalkan penangguhannya. Anda dapat kembali ke forum dengan mengklik tautan berikut:\n{forum_url}\n"
-      subject: 'Akun Anda telah dibatalkan penangguhannya'
+      subject: 'Akun Anda telah dihentikan penangguhannya'
   forum:
     notifications:
       user_suspended_indefinite_text: 'Anda telah ditangguhkan tanpa batas waktu'
@@ -23,7 +23,7 @@ flarum-suspend:
       display_message: 'Tampilkan pesan untuk User'
       indefinitely_label: 'Penangguhan tanpa batas waktu'
       limited_time_days_text: ' hari'
-      limited_time_label: 'Penangguhan untuk waktu yang terbatas...'
+      limited_time_label: 'Ditangguhkan untuk waktu yang terbatas...'
       not_suspended_label: 'Tidak ditangguhkan'
       placeholder_optional: Optional
       reason: 'Alasan penangguhan'
@@ -31,8 +31,8 @@ flarum-suspend:
       submit_button: '=> core.ref.save_changes'
       title: 'Tangguhkan {username}'
     suspension_info:
-      dismiss_button: Dismiss
-      indefinite: 'Ini adalah penangguhan tanpa batas'
+      dismiss_button: Tutup
+      indefinite: 'Ini adalah penangguhan tanpa batas waktu'
       limited: 'Penangguhan ini akan berlaku hingga {date}'
       title: 'Akun ini ditangguhkan'
     user_badge:
