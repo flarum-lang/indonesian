@@ -2,6 +2,27 @@ CHANGELOG
 =========
 
 
+1.1.0 (XXXX-XX-XX)
+------------------
+
+**Menambahkan dukungan untuk ekstensi baru**:
+
+* [`blomstra/readme`](https://extiverse.com/extension/blomstra/readme)
+* [`clarkwinkelmann/flarum-ext-create-user-modal`](https://github.com/clarkwinkelmann/flarum-ext-create-user-modal)
+* [`justoverclock/check-duplicate-discussions`](https://extiverse.com/extension/justoverclock/check-duplicate-discussions)
+* [`justoverclock/discussion-info`](https://github.com/justoverclockl/discussions-info)
+* [`justoverclock/hot-discussions`](https://github.com/justoverclockl/hot-discussions)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`afrux/asirem`](https://github.com/afrux/asirem)
+* [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml)
+
+
+Semua perubahan: [1.0.0...1.1.0](https://github.com/flarum-lang/indonesian/compare/1.0.0...1.1.0).
+
+
 1.0.0 (2023-05-23)
 ------------------
 
