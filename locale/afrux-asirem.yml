@@ -4,5 +4,17 @@
 
 afrux-theme-base:
   admin:
+    extension:
+      sections:
+        content: 'Pengaturan Utama'
     extensions:
+      description: 'Daftar semua ekstensi yang terinstal.'
       title: Ekstensi
+    header:
+      go_back: 'Kembali ke forum'
+    settings:
+      edit_footer_links: 'Edit Link Footer'
+      footer_description: 'Deskripsi Footer'
+      hero_banner_position: 'Posisi CSS Hero Image (contoh: ''center top'' atau ''center 20%'')'
+      links_modal:
+        add_link: 'Tambahkan link'
