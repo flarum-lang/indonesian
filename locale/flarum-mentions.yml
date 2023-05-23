@@ -4,9 +4,11 @@
 
 flarum-mentions:
   admin:
+    permissions:
+      mention_groups_label: 'Mention grup'
     settings:
-      allow_username_format_label: 'Allow username mention format (@Username)'
-      allow_username_format_text: "Format saat ini untuk  user mentions adalah @\"Display Name\"#ID.\nPengaturan ini memungkinkan penggunaan format lama @Username, namun akan tetap dikonversi ke format baru setelah disimpan.\n"
+      allow_username_format_label: 'izinkan format untuk mention username (@Username)'
+      allow_username_format_text: "Format saat ini untuk user mention adalah @\"Display Name\"#ID.\nPengaturan ini memungkinkan penggunaan format lama @Username, namun akan tetap dikonversi ke format baru setelah disimpan.\n"
   email:
     post_mentioned:
       body: "Hey {recipient_display_name}!\n\n{replier_display_name} replied to your post (#{post_number}) in {title}.\n\n{url}\n\n---\n\n{content}\n"
@@ -18,7 +20,10 @@ flarum-mentions:
     composer:
       mention_tooltip: 'Mention user atau post'
       reply_to_post_text: 'Balas ke #{number}'
+    mentioned_by:
+      title: 'Balasan ke post ini'
     notifications:
+      group_mentioned_text: '{username} me-mention grup tempat Anda terdaftar sebagai anggota'
       others_text: '=> core.ref.some_others'
       post_mentioned_text: '{username} menjawab posting Anda'
       user_mentioned_text: '{username} me-mention Anda'

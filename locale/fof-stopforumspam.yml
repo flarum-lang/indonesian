@@ -6,8 +6,9 @@ fof-stopforumspam:
   admin:
     settings:
       api_key_instructions_text: '<register>Daftar StopForumSpam</register>. Maka Anda perlu <key>mendapatkan kunci API</key>.'
-      api_key_label: 'API Key'
+      api_key_label: 'Kunci API'
       api_key_text: 'Anda mengaktifkan fof/spamblock, Anda sekarang memiliki opsi untuk melaporkan spammer ke StopForumSpam untuk menjaga komunitas Anda dari spam.'
+      confidence_label: Kepercayaan
       email_label: 'Periksa Spam Email'
       frequency_label: Threshold
       ip_label: 'Periksa Spam IP Address'

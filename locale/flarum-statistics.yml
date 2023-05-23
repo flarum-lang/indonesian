@@ -4,16 +4,29 @@
 
 flarum-statistics:
   admin:
+    date_selection_modal:
+      description: "Pilih rentang tanggal yang disesuaikan untuk menampilkan statistik. Memuat data mungkin \nmemerlukan waktu beberapa menit pada forum yang memiliki banyak aktivitas.\n"
+      end_date: 'Tanggal akhir (inklusif)'
+      errors:
+        end_before_start: 'Tanggal akhir harus setelah tanggal mulai.'
+      start_date: 'Tanggal mulai (inklusif)'
+      submit_button: 'Konfirmasi rentang tanggal'
+      title: 'Pilih rentang tanggal yang disesuaikan'
     statistics:
+      current_period: 'Periode saat ini'
+      custom_label: 'Pilih rentang yang disesuaikan...'
       discussions_heading: '=> core.ref.discussions'
+      export_chart_button: 'Ekspor chart ke SVG'
       last_12_months_label: '12 bulan terakhir'
       last_28_days_label: '28 hari terakhir'
       last_7_days_label: '7 hari terakhir'
       loading: '=> core.ref.loading'
       mini_heading: 'Statistik forum'
+      no_data: 'Tidak ada data yang tersedia untuk rentang tanggal ini.'
       posts_heading: '=> core.ref.posts'
       previous_28_days_label: '28 hari sebelumnya'
       previous_7_days_label: '7 hari sebelumnya'
+      previous_period: 'Periode sebelumnya'
       today_label: 'Hari ini'
       total_label: Total
       users_heading: '=> core.ref.users'

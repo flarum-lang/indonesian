@@ -46,6 +46,8 @@ core:
       welcome_banner_heading: 'Banner Selamat Datang'
       welcome_banner_text: 'Konfigurasikan teks yang ditampilkan di banner di halaman All Discussions. Gunakan ini untuk menyambut tamu di forum Anda.'
     create_user:
+      email_confirmed_label: 'User harus mengonfirmasi email ini'
+      submit_and_create_another_button: 'Buat dan tambahkan yang lain'
       submit_button: 'Buat user'
       title: 'Buat user baru'
       use_random_password: 'Hasilkan kata sandi acak'
@@ -54,6 +56,10 @@ core:
       description: 'Sekilas tentang forum Anda.'
       io_error_message: 'Tidak dapat menulis ke filesystem. Periksa izin filesystem Anda dan coba lagi. Atau coba jalankan dari command line.'
       status:
+        headers:
+          queue-driver: 'Driver Antrian'
+          scheduler-status: Penjadwalan
+          session-driver: 'Driver Sesi'
         scheduler:
           active: Aktif
           inactive: 'Tidak aktif'
@@ -63,7 +69,7 @@ core:
       detail: "Saat mode <code>debug</code> aktif, Flarum akan membangun kembali aset <code>JavaScript</code> dan <code>CSS</code> pada setiap request yang dijalankan, dan juga berpotensi membocorkan informasi lain, seperti rahasia di dalam database, environment variable, dll.\n\nKetika Anda siap untuk masuk ke dalam tahap produksi, sangat disarankan untuk menonaktifkan <code>debug</code> pada file <code>config.php</code> Anda. Lihat <link>Flarum docs</link> untuk informasi lebih lanjut.\n"
       label: 'Mode debug Aktif'
     edit_css:
-      customize_text: 'Customize your forum''s appearance by adding your own Less/CSS code to be applied on top of Flarum''s <a>default styles</a>.'
+      customize_text: 'Sesuaikan tampilan forum Anda dengan menambahkan kode Less/CSSuntuk diterapkan di atas <a>default styles</a> Flarum.'
       submit_button: '=> core.ref.save_changes'
       title: 'Edit Custom CSS'
     edit_footer:
@@ -160,9 +166,11 @@ core:
       userlist_button: '=> core.admin.users.title'
       userlist_title: '=> core.admin.users.description'
     permissions:
+      allow_hide_own_posts_label: 'Izinkan menghapus post sendiri'
       allow_post_editing_label: 'Edit post'
       allow_renaming_label: 'Ganti judul'
-      create_heading: Create
+      create_access_token_label: 'Buat akses token'
+      create_heading: Buat
       delete_discussions_forever_label: 'Hapus diskusi (permanen)'
       delete_discussions_label: 'Hapus diskusi'
       delete_posts_forever_label: 'Hapus post (permanen)'
@@ -177,7 +185,7 @@ core:
       new_group_button: 'Grup Baru'
       participate_heading: Partisipasi
       post_without_throttle_label: 'Balas beberapa kali tanpa harus menunggu'
-      read_heading: Read
+      read_heading: Baca
       rename_discussions_label: 'Ganti judul diskusi'
       reply_to_discussions_label: 'Balas diskusi'
       search_users_label: 'Cari User'
@@ -217,30 +225,37 @@ core:
             visibility_show: 'Tampilkan alamat email'
           group_badges:
             no_badges: None
-            title: Groups
+            title: Group
           join_time:
-            title: Joined
+            title: Bergabung
           user_id:
             title: ID
           username:
-            profile_link_tooltip: 'Visit {username}''s profile'
+            profile_link_tooltip: 'Kunjungi profil {username}'
             title: '=> core.ref.username'
-        invalid_column_content: Invalid
+        invalid_column_content: 'Tidak valid'
       pagination:
         back_button: 'Halaman sebelumnya'
+        first_button: 'Kembali ke halaman pertama'
+        go_to_page_textbox_a11y_label: 'Langsung ke nomor halaman'
+        last_button: 'Pergi ke halaman terakhir'
         next_button: 'Halaman selanjutnya'
         page_counter: 'Halaman {current} dari {total}'
       title: '=> core.ref.users'
       total_users: 'Total user: {count}'
   api:
-    invalid_username_message: 'The username may only contain letters, numbers, and dashes.'
+    invalid_filter_type:
+      must_be_numeric_message: 'Filter {filter} harus berupa angka.'
+      must_not_be_array_message: 'Filter {filter} tidak boleh berupa array.'
+      must_not_be_multidimensional_array_message: 'Filter {filter} tidak boleh berupa array multidimensi.'
+    invalid_username_message: 'Nama user hanya boleh terdiri dari huruf, angka, dan tanda hubung (dashes).'
   email:
     activate_account:
       body: "Hey {username}!\n\nSomeone (hopefully you!) has signed up to {forum} with this email address.\n\nIf this was you, simply click the following link and your account will be activated:\n{url}\n\nIf you did not sign up, please ignore this email.\n"
-      subject: 'Activate Your New Account'
+      subject: 'Aktifkan Akun Baru Anda'
     confirm_email:
       body: "Hey {username}!\n\nSomeone (hopefully you!) has changed their email address on {forum} to this one.\n\nIf this was you, simply click the following link and your email will be confirmed:\n{url}\n\nIf this was not you, please ignore this email.\n"
-      subject: 'Confirm Your New Email Address'
+      subject: 'Konfirmasi Alamat Email Baru Anda'
     reset_password:
       body: "Hey {username}!\n\nSomeone (hopefully you!) has submitted a forgotten password request for your account on {forum}.\n\nIf this was you, click the following link to reset your password:\n{url}\n\nIf you do not wish to change your password, just ignore this email and nothing will happen.\n"
       subject: '=> core.ref.reset_your_password'
@@ -376,7 +391,7 @@ core:
       viewing_text: '{count, plural, one {{index} of {formattedCount} post} other {{index} of {formattedCount} posts}}'
     post_stream:
       discussion_renamed_old_tooltip: 'Judul lama adalah: "{old}"'
-      discussion_renamed_text: '{username} changed the title to {new}.'
+      discussion_renamed_text: '{username} mengganti judul jadi {new} {time}.'
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
       time_lapsed_text: '{period} later'
@@ -387,6 +402,30 @@ core:
       all_discussions_button: 'Cari semua diskusi untuk "{query}"'
       discussions_heading: '=> core.ref.discussions'
       users_heading: '=> core.ref.users'
+    security:
+      browser_on_operating_system: '{browser} di {os}'
+      cannot_terminate_current_session: 'Tidak dapat mengakhiri sesi aktif saat ini. Sebagai gantinya, silahkan logout.'
+      created: Dibuat
+      current_active_session: 'Sesi Aktif Saat Ini'
+      developer_tokens_heading: 'Token untuk Developer'
+      empty_text: 'Sepertinya tidak ada yang bisa dilihat di sini.'
+      global_logout:
+        heading: 'Logout Secara Global'
+        help_text: 'Menghapus sesi cookie saat ini, mengakhiri semua sesi, mencabut token untuk developer, dan membatalkan email konfirmasi atau email pengaturan ulang kata sandi.'
+      hide_access_token: 'Sembunyikan Token'
+      last_activity: 'Aktivitas terakhir'
+      new_access_token_modal:
+        submit_button: 'Buat Token'
+        title_placeholder: Judul
+      revoke_access_token: Cabut
+      session_termination_failed: 'Terjadi kesalahan saat mengakhiri sesi Anda.'
+      sessions_heading: 'Sesi Yang Aktif'
+      show_access_token: 'Lihat Token'
+      terminate_all_other_sessions: 'Mengakhiri semua sesi lainnya'
+      terminate_session: Akhiri
+      token_item_title: '{title} - {token}'
+      token_revoked: 'Token telah dicabut.'
+      token_title_placeholder: /
     settings:
       account_heading: Akun
       change_email_button: '=> core.ref.change_email'
@@ -424,14 +463,14 @@ core:
       button: Kontrol
       delete_button: '=> core.ref.delete'
       delete_confirmation: 'Apakah Anda yakin ingin menghapus User ini? Post yang telah dibuat oleh User tersebut TIDAK akan ikut terhapus.'
-      delete_error_message: 'Deletion of user <i>{username} ({email})</i> failed'
+      delete_error_message: 'Penghapusan user <i>{username} ({email})</i> gagal'
       delete_success_message: 'User <i>{username} ({email})</i> telah dihapus'
       edit_button: '=> core.ref.edit'
-      toggle_dropdown_accessible_label: 'Toggle user controls dropdown menu'
+      toggle_dropdown_accessible_label: 'Ganti menu dropdown user control'
     user_email_confirmation:
       alert_message: '=> core.ref.confirmation_email_sent'
       resend_button: 'Kirim ulang email konfirmasi'
-      sent_message: Sent
+      sent_message: Terkirim
     welcome_hero:
       hide: 'Sembunyikan pesan selamat datang'
   group:
@@ -445,17 +484,17 @@ core:
     mods: Mods
   lib:
     alert:
-      dismiss_a11y_label: 'Dismiss alert'
+      dismiss_a11y_label: 'Abaikan peringatan'
     badge:
-      hidden_tooltip: Hidden
+      hidden_tooltip: Disembunyikan
     debug_button: Debug
     dropdown:
-      toggle_dropdown_accessible_label: 'Toggle dropdown menu'
+      toggle_dropdown_accessible_label: 'Ganti menu dropdown'
     edit_user:
-      activate_button: 'Activate User'
+      activate_button: 'Aktifkan User'
       email_heading: '=> core.ref.email'
       email_label: '=> core.ref.email'
-      groups_heading: Groups
+      groups_heading: Group
       nothing_available: 'Anda tidak diizinkan untuk mengedit User ini.'
       password_heading: '=> core.ref.password'
       password_label: '=> core.ref.password'
@@ -467,10 +506,11 @@ core:
     error:
       dependent_extensions_message: 'Tidak dapat menonaktifkan {extension} sebelum ekstensi dependen berikut dinonaktifkan: {extensions}'
       extension_initialiation_failed_message: '{extension} gagal untuk menginisialisasi, periksa konsol browser untuk informasi lebih lanjut.'
+      generic_cross_origin_message: 'Ups! Terjadi kesalahan saat melakukan request cross-origin. Silakan muat ulang halaman dan coba lagi.'
       generic_message: 'Ups! Sesuatu tidak beres. Muat ulang halaman dan coba lagi.'
       missing_dependencies_message: 'Tidak dapat mengaktifkan {extension} sebelum dependensi berikut diaktifkan: {extensions}'
       not_found_message: 'Resource yang diminta tidak ditemukan.'
-      payload_too_large_message: 'The request payload was too large.'
+      payload_too_large_message: 'Request payload terlalu besar.'
       permission_denied_message: 'Anda tidak memiliki izin untuk melakukan itu.'
       rate_limit_exceeded_message: 'Anda terlihat terlalu cepat. Silakan coba lagi dalam beberapa detik.'
       render_failed_message: 'Maaf, kami mengalami error saat menampilkan konten ini. Jika Anda adalah User, silakan coba lagi nanti. Jika Anda seorang Administrator, lihat file log Flarum Anda untuk informasi lebih lanjut.'
@@ -499,7 +539,7 @@ core:
     color: Warna
     confirm_email: 'Konfirmasi Email'
     confirm_password: 'Konfirmasi Password'
-    confirmation_email_sent: 'We''ve sent a confirmation email to {email}. If it doesn''t arrive soon, check your spam folder.'
+    confirmation_email_sent: 'Kami telah mengirimkan email konfirmasi ke {email}. Jika email tidak segera masuk, periksa folder spam Anda.'
     custom_footer_text: 'Tambahkan HTML untuk ditampilkan di bagian paling bawah halaman.'
     custom_footer_title: 'Edit Custom Footer'
     custom_header_text: 'Tambahkan HTML untuk ditampilkan di bagian paling atas halaman, di atas header.'
@@ -511,13 +551,15 @@ core:
     edit_user: 'Edit User'
     email: Email
     extensions: Ekstensi
-    icon: Icon
-    icon_text: 'Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix.'
+    generic_confirmation_message: 'Apakah Anda yakin ingin melanjutkan? Tindakan ini tidak dapat dibatalkan.'
+    icon: Ikon
+    icon_text: 'Masukkan nama kelas ikon <a>FontAwesome</a>, <em>termasuk</em> prefiks <code>fas fa-</code>.'
     load_more: 'Load More'
-    loading: Loading...
+    loading: Memuat...
     log_in: Masuk
     log_out: Keluar
     mark_all_as_read: 'Tandai Semua telah Dibaca'
+    new_token: 'Token Baru'
     next_page: 'Halaman Selanjutnya'
     notifications: Notifikasi
     okay: OK
@@ -525,17 +567,19 @@ core:
     posts: Posts
     previous_page: 'Halaman Sebelumnya'
     remove: Hapus
-    rename: Rename
+    rename: 'Ubah nama'
     reply: Balas
-    reset_your_password: 'Reset Your Password'
-    restore: Restore
+    reset_your_password: 'Atur Ulang Kata Sandi Anda'
+    restore: Memulihkan
     save_changes: 'Simpan Perubahan'
+    search_users: 'Cari user'
+    security: Keamanan
     settings: Pengaturan
     sign_up: Daftar
     some_others: '{count, plural, one {# other} other {# others}}'
-    start_a_discussion: 'Start a Discussion'
-    username: Username
-    users: Users
+    start_a_discussion: 'Mulai Diskusi'
+    username: 'Nama user (username)'
+    users: User
     view: View
     write_a_reply: 'Tulis Balasan...'
     you: Anda
