@@ -5,3 +5,4 @@
 justoverclock-export-post-to-pdf:
   forum:
     codeScreenshot: 'Simpan kode screenshot'
+    exportToPdf: 'Ekspor ke PDF'
