@@ -14,6 +14,7 @@ core:
       custom_footer_text: '=> core.ref.custom_footer_text'
       custom_header_heading: 'Custom Header'
       custom_header_text: '=> core.ref.custom_header_text'
+      custom_styles_cannot_use_less_features: 'Fitur @import dan data-uri tidak diperbolehkan dalam custom LESS.'
       custom_styles_heading: 'Custom Styles'
       custom_styles_text: 'Sesuaikan tampilan forum Anda dengan menambahkan kode Less/CSS Anda sendiri untuk diterapkan di atas Flarum''s default styles.'
       dark_mode_label: 'Dark Mode'
@@ -44,10 +45,18 @@ core:
       title: 'Pengaturan Dasar'
       welcome_banner_heading: 'Banner Selamat Datang'
       welcome_banner_text: 'Konfigurasikan teks yang ditampilkan di banner di halaman All Discussions. Gunakan ini untuk menyambut tamu di forum Anda.'
+    create_user:
+      submit_button: 'Buat user'
+      title: 'Buat user baru'
+      use_random_password: 'Hasilkan kata sandi acak'
     dashboard:
       clear_cache_button: 'Hapus Cache'
       description: 'Sekilas tentang forum Anda.'
       io_error_message: 'Tidak dapat menulis ke filesystem. Periksa izin filesystem Anda dan coba lagi. Atau coba jalankan dari command line.'
+      status:
+        scheduler:
+          active: Aktif
+          inactive: 'Tidak aktif'
       title: Dashboard
       tools_button: Peralatan
     debug-warning:
