@@ -228,6 +228,7 @@ php flarum cache:clear
 | [`justoverclock/check-duplicate-discussions`](https://extiverse.com/extension/justoverclock/check-duplicate-discussions) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/justoverclock-check-duplicate-discussions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-check-duplicate-discussions/id/) |
 | [`justoverclock/export-post-to-pdf`](https://extiverse.com/extension/justoverclock/export-post-to-pdf) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/justoverclock-export-post-to-pdf/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-export-post-to-pdf/id/) |
 | [`justoverclock/website-live-screenshot`](https://extiverse.com/extension/justoverclock/website-live-screenshot) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/justoverclock-website-live-screenshot/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-website-live-screenshot/id/) |
+| [`ziiven/flarum-raffle-ticket`](https://extiverse.com/extension/ziiven/flarum-raffle-ticket) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/ziiven-raffle-ticket/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-raffle-ticket/id/) |
 
 <!-- premium-extensions-list-stop -->
 
