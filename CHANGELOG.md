@@ -9,6 +9,8 @@ CHANGELOG
 
 * [`blomstra/readme`](https://extiverse.com/extension/blomstra/readme)
 * [`clarkwinkelmann/flarum-ext-create-user-modal`](https://github.com/clarkwinkelmann/flarum-ext-create-user-modal)
+* [`clarkwinkelmann/flarum-ext-email-whitelist`](https://github.com/clarkwinkelmann/flarum-ext-email-whitelist)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`justoverclock/check-duplicate-discussions`](https://extiverse.com/extension/justoverclock/check-duplicate-discussions)
 * [`justoverclock/discussion-info`](https://github.com/justoverclockl/discussions-info)
 * [`justoverclock/hot-discussions`](https://github.com/justoverclockl/hot-discussions)
@@ -18,6 +20,10 @@ CHANGELOG
 
 * [`afrux/asirem`](https://github.com/afrux/asirem)
 * [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 
 
 Semua perubahan: [1.0.0...1.1.0](https://github.com/flarum-lang/indonesian/compare/1.0.0...1.1.0).
