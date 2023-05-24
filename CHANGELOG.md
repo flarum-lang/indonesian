@@ -7,11 +7,16 @@ CHANGELOG
 
 **Menambahkan dukungan untuk ekstensi baru**:
 
+* [`askvortsov/flarum-checklist`](https://github.com/askvortsov1/flarum-checklist)
 * [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
+* [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
+* [`blomstra/mark-unread`](https://github.com/blomstra/flarum-ext-mark-unread)
 * [`blomstra/readme`](https://extiverse.com/extension/blomstra/readme)
 * [`clarkwinkelmann/flarum-ext-create-user-modal`](https://github.com/clarkwinkelmann/flarum-ext-create-user-modal)
 * [`clarkwinkelmann/flarum-ext-email-whitelist`](https://github.com/clarkwinkelmann/flarum-ext-email-whitelist)
+* [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`justoverclock/be-active-user-indicator`](https://github.com/justoverclockl/active-user-indicator)
 * [`justoverclock/check-duplicate-discussions`](https://extiverse.com/extension/justoverclock/check-duplicate-discussions)
@@ -19,16 +24,21 @@ CHANGELOG
 * [`justoverclock/flarum-ext-dontgoaway`](https://github.com/justoverclockl/flarum-ext-dontgoaway)
 * [`justoverclock/edit-posts`](https://github.com/justoverclockl/edit-posts)
 * [`justoverclock/hot-discussions`](https://github.com/justoverclockl/hot-discussions)
+* [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
 
 
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`afrux/asirem`](https://github.com/afrux/asirem)
+* [`antoinefr/flarum-ext-online`](https://github.com/AntoineFr/flarum-ext-online)
 * [`askvortsov/flarum-saml`](https://github.com/askvortsov1/flarum-saml)
 * [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 
 
 Semua perubahan: [1.0.0...1.1.0](https://github.com/flarum-lang/indonesian/compare/1.0.0...1.1.0).
