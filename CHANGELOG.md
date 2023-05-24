@@ -51,6 +51,7 @@ CHANGELOG
 * [`justoverclock/edit-posts`](https://github.com/justoverclockl/edit-posts)
 * [`justoverclock/hot-discussions`](https://github.com/justoverclockl/hot-discussions)
 * [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
+* [`ziiven/flarum-raffle-ticket`](https://extiverse.com/extension/ziiven/flarum-raffle-ticket)
 
 
 **Terjemahan terbaru untuk ekstensi**:
