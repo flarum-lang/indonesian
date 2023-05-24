@@ -7,7 +7,7 @@ CHANGELOG
 
 **Perubahan umum**:
 
-* Terjemahan Flarum core yang telah diperbarui.
+* Terjemahan untuk Flarum core telah diperbarui.
 
 
 **Menambahkan dukungan untuk beberapa ekstensi**:
@@ -51,18 +51,24 @@ CHANGELOG
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/html-errors`](https://github.com/FriendsOfFlarum/html-errors)
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+* [`fof/passport`](https://github.com/FriendsOfFlarum/passport)
 * [`fof/pretty-mail`](https://github.com/FriendsOfFlarum/pretty-mail)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`ianm/synopsis`](https://github.com/imorland/synopsis)
 * [`justoverclock/be-active-user-indicator`](https://github.com/justoverclockl/active-user-indicator)
 * [`justoverclock/check-duplicate-discussions`](https://extiverse.com/extension/justoverclock/check-duplicate-discussions)
 * [`justoverclock/discussion-info`](https://github.com/justoverclockl/discussions-info)
 * [`justoverclock/flarum-ext-dontgoaway`](https://github.com/justoverclockl/flarum-ext-dontgoaway)
 * [`justoverclock/edit-posts`](https://github.com/justoverclockl/edit-posts)
 * [`justoverclock/hot-discussions`](https://github.com/justoverclockl/hot-discussions)
+* [`malago/flarum-ads`](https://github.com/malago86/flarum-ads)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 * [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
+* [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat)
 * [`ziiven/flarum-raffle-ticket`](https://extiverse.com/extension/ziiven/flarum-raffle-ticket)
 
 
