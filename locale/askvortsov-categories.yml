@@ -6,3 +6,14 @@ askvortsov-categories:
   admin:
     basics:
       categories_label: Kategori
+    help:
+      child_bare_icon: 'Haruskah ikon pada kategori anak ditampilkan tanpa background melingkar?'
+    labels:
+      compact_mobile_mode: 'Mode ponsel yang praktis'
+      full_page_desktop: 'Desktop halaman penuh?'
+      keep_tags_nav: 'Pertahankan link halaman tag di navigasi sidebar?'
+      parent_remove_description: 'Sembunyikan deskripsi untuk top-level tag?'
+      parent_remove_icon: 'Sembunyikan ikon untuk top-level tag?'
+      parent_remove_last_discussion: 'Sembunyikan diskusi terbaru untuk top-level tag?'
+      parent_remove_stats: 'Sembunyikan statistik untuk top-level tag?'
+      small_forum_optimized: 'Optimalkan untuk forum yang kecil?'

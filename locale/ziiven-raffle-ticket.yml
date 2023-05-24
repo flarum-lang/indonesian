@@ -7,10 +7,15 @@ ziven-guaguale:
     guaguale-data-add: Tambah
     guaguale-data-cancel: Batal
     guaguale-data-confirm: Konfirmasi
+    guaguale-data-not-enough-tickets: 'Anda tidak memiliki cukup tiket'
     guaguale-data-remove: X
     guaguale-data-save: Simpan
+    guaguale-data-update: Perbarui
+    guaguale-data-win-price: Harga
     settings:
+      guaguale-display-name: 'Nama Tampilan'
       guaguale-item-color: Warna
+      guaguale-item-deactivated: Dinonaktifkan
       guaguale-item-delete: Hapus
       guaguale-item-desc: Deskripsi
       guaguale-item-status: Status
@@ -21,6 +26,8 @@ ziven-guaguale:
     guaguale-close: Tutup
     guaguale-list-item-soldout-text: 'Terjual Habis'
     guaguale-purchase-cancel: Batal
+    guaguale-purchase-input-placeholder: 'Silahkan masukkan jumlah yang ingin Anda beli'
     guaguale-purchase-soldout: 'Maaf, produk ini sudah habis terjual'
+    guaguale-purchase-success: 'Pembelian Berhasil'
     guaguale-purchase-view-result: Lihat
     guaguale-view-history: 'Riwayat Pembelian'
