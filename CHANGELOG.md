@@ -5,6 +5,11 @@ CHANGELOG
 1.1.0 (XXXX-XX-XX)
 ------------------
 
+**Perubahan umum**:
+
+* Terjemahan inti Flarum yang telah diperbarui.
+
+
 **Menambahkan dukungan untuk ekstensi baru**:
 
 * [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series)
