@@ -11,8 +11,11 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-create-user-modal`](https://github.com/clarkwinkelmann/flarum-ext-create-user-modal)
 * [`clarkwinkelmann/flarum-ext-email-whitelist`](https://github.com/clarkwinkelmann/flarum-ext-email-whitelist)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`justoverclock/be-active-user-indicator`](https://github.com/justoverclockl/active-user-indicator)
 * [`justoverclock/check-duplicate-discussions`](https://extiverse.com/extension/justoverclock/check-duplicate-discussions)
 * [`justoverclock/discussion-info`](https://github.com/justoverclockl/discussions-info)
+* [`justoverclock/flarum-ext-dontgoaway`](https://github.com/justoverclockl/flarum-ext-dontgoaway)
+* [`justoverclock/edit-posts`](https://github.com/justoverclockl/edit-posts)
 * [`justoverclock/hot-discussions`](https://github.com/justoverclockl/hot-discussions)
 
 
