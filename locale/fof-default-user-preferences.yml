@@ -8,5 +8,6 @@ fof-default-user-preferences:
       followAfterReply: 'Follow setelah membalas'
       followAfterReply-help: 'Ketika diaktifkan, pengguna baru akan secara otomatis mem-follow diskusi yang mereka balas atau komentari.'
       groupMentioned-help: 'Ketika diaktifkan, pengguna baru akan secara otomatis memilih untuk menerima notifikasi melalui email ketika grup yang mereka follow di-mention.'
+      postMentioned: 'Post email yang di-mention'
       postMentioned-help: 'Ketika diaktifkan, pengguna baru akan secara otomatis memilih untuk menerima notifikasi melalui email ketika salah satu post mereka di-mention.'
       userMentioned-help: 'Jika diaktifkan, pengguna baru akan secara otomatis memilih untuk menerima notifikasi melalui email ketika mereka di-mention.'

@@ -5,7 +5,7 @@
 fof-impersonate:
   admin:
     permissions:
-      login: 'Login sebagai user lain'
+      login: 'Login sebagai pengguna lain'
     settings:
       no_settings_available: 'Tidak ada pengaturan yang tersedia saat ini. Coba install fof/moderator-notes'
       require_reason: 'Dibutuhkan alasan untuk dimasukkan sebelum melanjutkan untuk impersonate user lain.'
@@ -15,7 +15,7 @@ fof-impersonate:
       impersonate_username: 'Login sebagai {username}'
       label: 'Dengan kekuatan besar datanglah tanggung jawab yang besar. Dengan melanjutkan, Anda akan menjadi {username} sampai Anda keluar.'
       placeholder_optional: '(Opsional) Berikan alasan Anda beralih ke user ini'
-      placeholder_required: Alasan
-      title: 'Login sebagai user lain'
+      placeholder_required: 'Anda harus memberikan alasan untuk beralih ke pengguna ini sebelum melanjutkan'
+      title: 'Login sebagai pengguna lain'
     user_controls:
-      impersonate_button: 'Login sebagai user'
+      impersonate_button: 'Login sebagai pengguna'

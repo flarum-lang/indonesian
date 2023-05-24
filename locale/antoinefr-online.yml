@@ -3,5 +3,10 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 antoinefr-online:
+  admin:
+    settings:
+      displaymax: 'Jumlah anggota yang ditampilkan'
+      titleoflist: 'Judul yang akan ditampilkan di atas list'
   forum:
+    andmore: 'dan {more} lainnya...'
     title: 'Siapa yang sedang online?'

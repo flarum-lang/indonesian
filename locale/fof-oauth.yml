@@ -10,6 +10,8 @@ fof-oauth:
       providers:
         callback_url_text: 'Jika memungkinkan, atur URL callback ke {url}.'
         discord:
+          client_id_label: '=> fof-oauth.ref.settings.client_id'
+          client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: 'Buat aplikasi di {link}. Tambahkan URL pengalihan di tab OAuth2.'
         facebook:
           description: 'Buat aplikasi di {link}.'

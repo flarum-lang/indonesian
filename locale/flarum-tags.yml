@@ -21,7 +21,7 @@ flarum-tags:
       title: '=> Buat Tag'
     nav:
       tags_button: '=> flarum-tags.ref.tags'
-      tags_text: 'Mengelola daftar tag yang tersedia untuk mengatur diskusi.'
+      tags_text: 'Kelola daftar tag yang tersedia untuk mengatur diskusi.'
     permissions:
       allow_edit_tags_label: 'Izinkan pengeditan tag'
       bypass_tag_counts_label: 'Abaikan persyaratan tag'
