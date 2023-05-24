@@ -8,12 +8,24 @@ fof-pages:
       hidden: Draf
       restricted: Dibatasi
     edit_page:
+      content_label: '=> fof-pages.ref.content'
+      content_placeholder: '=> fof-pages.ref.content'
       delete_page_button: 'Hapus halaman'
       delete_page_confirmation: 'Apakah Anda yakin ingin menghapus halaman ini?'
       hidden_label: 'Simpan sebagai draf'
       restricted_label: 'Batasi akses (konfigurasikan siapa saja yang dapat mengakses di tab Permissions)'
       set_as_home_page_confirmation: 'Apakah Anda yakin ingin menetapkan halaman ini sebagai halaman beranda Anda?'
       set_as_home_page_done: 'Beranda diperbarui'
+      slug_label: '=> fof-pages.ref.slug'
+      slug_placeholder: '=> fof-pages.ref.slug'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> fof-pages.ref.create_page'
+      title_label: '=> fof-pages.ref.title'
+      title_placeholder: '=> fof-pages.ref.title'
+      url_label: '=> fof-pages.ref.url'
+      url_placeholder: '=> fof-pages.ref.url'
+    pages:
+      create_button: '=> fof-pages.ref.create_page'
     pages_list:
       empty_text: 'Sepertinya tidak ada halaman di sini.'
     permissions:
@@ -22,4 +34,6 @@ fof-pages:
     content: Konten
     create_page: 'Buat halaman'
     pages: Halaman
+    slug: Slug
     title: Judul
+    url: URL
