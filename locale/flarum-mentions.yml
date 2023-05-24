@@ -28,6 +28,7 @@ flarum-mentions:
       post_mentioned_text: '{username} menjawab posting Anda'
       user_mentioned_text: '{username} me-mention Anda'
     post:
+      mentioned_by_more_text: '{count} balasan lagi.'
       mentioned_by_self_text: '{users} menjawab ini.'
       mentioned_by_text: '{users} menjawab ini.'
       others_text: '=> core.ref.some_others'
@@ -37,6 +38,7 @@ flarum-mentions:
     post_mention:
       deleted_text: '[unknown]'
     settings:
+      notify_group_mentioned_label: 'Seseorang me-mention grup tempat saya menjadi anggota dalam sebuah post'
       notify_post_mentioned_label: 'Seseorang membalas post Saya'
       notify_user_mentioned_label: 'Seseorang me-mention Saya dalam post'
     user:

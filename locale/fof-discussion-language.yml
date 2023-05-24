@@ -18,3 +18,14 @@ fof-discussion-language:
   api:
     discussion:
       validation_error: 'Anda harus memilih bahasa yang akan digunakan dalam diskusi Anda.'
+  forum:
+    change_language:
+      edit_title: 'Menyunting Bahasa untuk {title}'
+      submit_button: '=> core.ref.save_changes'
+      title: 'Menyunting Bahasa'
+    composer_discussion:
+      choose_language_link: Bahasa
+    discussion_controls:
+      change_language_button: 'Atur Bahasa'
+    index_language:
+      any: 'Semua Bahasa'
