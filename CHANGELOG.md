@@ -7,10 +7,10 @@ CHANGELOG
 
 **Perubahan umum**:
 
-* Terjemahan inti Flarum yang telah diperbarui.
+* Terjemahan Flarum core yang telah diperbarui.
 
 
-**Menambahkan dukungan untuk ekstensi baru**:
+**Menambahkan dukungan untuk beberapa ekstensi**:
 
 * [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series)
 * [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-auto-moderator)
@@ -41,7 +41,11 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-group-invitation`](https://github.com/clarkwinkelmann/flarum-ext-group-invitation)
 * [`clarkwinkelmann/flarum-ext-jwt-cookie-login`](https://github.com/clarkwinkelmann/flarum-ext-jwt-cookie-login)
 * [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
+* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read)
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
 * [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`extiverse/mercury`](https://github.com/extiverse/mercury)
+* [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
@@ -59,7 +63,7 @@ CHANGELOG
 * [`ziiven/flarum-raffle-ticket`](https://extiverse.com/extension/ziiven/flarum-raffle-ticket)
 
 
-**Terjemahan terbaru untuk ekstensi**:
+**Terjemahan terbaru untuk beberapa ekstensi**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`afrux/asirem`](https://github.com/afrux/asirem)
