@@ -3,8 +3,43 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-byobu:
+  admin:
+    permission:
+      make_private_into_public: 'Mengubah diskusi pribadi menjadi diskusi publik'
   forum:
+    badges:
+      is_private:
+        tooltip: 'Diskusi pribadi'
+    buttons:
+      add_recipients: Penerima
+      cancel: Batal
+      edit_recipients: 'Ubah Penerima'
+      make_public: 'Jadikan diskusi ini publik'
+      remove_from_discussion: 'Tinggalkan diskusi pribadi ini'
+      send_pd: 'Kirim pesan ke {username}'
+    composer_private_discussion:
+      title_placeholder: 'Judul Diskusi Pribadi'
+    confirm:
+      make_public: 'Apakah Anda yakin ingin menghapus penerima dan membuat diskusi ini dapat dilihat oleh siapa saja yang dapat melihat tag yang ditetapkan?'
+    input:
+      search_recipients: 'Cari penerima dengan mengetikkan tiga karakter pertama...'
     modal:
       help:
         add_recipients: 'Diskusi ini hanya akan terlihat oleh pengguna yang Anda pilih di sini. Setidaknya diperlukan 1 penerima (selain diri Anda sendiri).'
+        click_user_to_remove_tooltip: 'Klik untuk menghapus'
         update_recipients: 'Diskusi ini hanya akan terlihat oleh pengguna yang Anda pilih di sini.'
+    nav:
+      nav_item: 'Diskusi Pribadi'
+      start_button: 'Berdiskusi secara pribadi'
+    notifications:
+      pd_added_label: 'Seseorang menambahkan saya ke diskusi pribadi yang sudah ada'
+      pd_added_text: '{username} menambahkan Anda ke dalam diskusi pribadi'
+      pd_label: 'Seseorang memasukkan saya ke dalam diskusi pribadi baru'
+      pd_user_left_text: '{username} meninggalkan diskusi pribadi'
+    post:
+      recipients_modified:
+        made_public: '{username} menghapus semua penerima dan membuat diskusi menjadi publik'
+        removed_self: '{username} meninggalkan diskusi pribadi.'
+    user:
+      byobu_link: 'Diskusi Pribadi'
+      dropdown_label: 'Diskusi Pribadi'

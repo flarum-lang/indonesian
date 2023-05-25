@@ -10,18 +10,24 @@ ziven-guaguale:
     guaguale-data-not-enough-tickets: 'Anda tidak memiliki cukup tiket'
     guaguale-data-remove: X
     guaguale-data-save: Simpan
+    guaguale-data-setting-invalid: 'Nilai yang Anda masukkan tidak valid'
     guaguale-data-update: Perbarui
     guaguale-data-win-price: Harga
     settings:
       guaguale-display-name: 'Nama Tampilan'
+      guaguale-display-name-default: 'Tiket Undian'
+      guaguale-item-activated: Aktif
       guaguale-item-color: Warna
-      guaguale-item-deactivated: Dinonaktifkan
+      guaguale-item-deactivated: 'Tidak aktif'
       guaguale-item-delete: Hapus
+      guaguale-item-delete-confirmation: 'Apakah Anda yakin akan menghapus undian ini?'
       guaguale-item-desc: Deskripsi
+      guaguale-item-settings: 'Pengaturan Tiket'
       guaguale-item-status: Status
       guaguale-item-title: Judul
       guaguale-timezone: 'Zona waktu'
       guaguale-timezone-default: Asia/Shanghai
+      guaguale-timezone-help: 'Atur zona waktu untuk waktu transfer. Standarnya adalah "Asia/Shanghai"'
   forum:
     guaguale-close: Tutup
     guaguale-list-item-soldout-text: 'Terjual Habis'

@@ -5,9 +5,12 @@
 pay-to-see:
   admin:
     error_need_one_tag: 'Pilih setidaknya satu tag'
+    set_permission_tag_help: 'Ketika seorang pengguna memulai diskusi, dia dapat menggunakan P2S dengan memilih tag apa pun yang memiliki izin'
   forum:
+    modify_pay_to_see_price: 'Ubah Harga Konten'
     pay_to_see_content: 'Bayar Untuk Melihat Konten'
     pay_to_see_content_label: 'Bayar Untuk Melihat Konten'
+    purchase_error_not_found: 'Konten Tidak Dapat Dibeli'
     remove: Hapus
     tag_no_permission_title: 'Bayar Untuk Melihat Konten'
   lib:
