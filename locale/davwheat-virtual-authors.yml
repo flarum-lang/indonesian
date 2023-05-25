@@ -3,6 +3,17 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 davwheat-virtual-authors:
+  admin:
+    permissions:
+      set_virtual_authors: 'Atur penulis virtual pada diskusi'
+      view_virtual_authors_page: 'Lihat halaman yang merinci semua penulis virtual'
+    settings:
+      errored: 'Gagal memuat penulis virtual dari server.'
+      next: 'Halaman selanjutnya'
+      prev: 'Halaman sebelumnya'
+    virtual_author_item:
+      delete_a11y_tooltip: Hapus
+      description: Deskripsi
   forum:
     set_modal:
       add_button: Tambah
@@ -10,6 +21,8 @@ davwheat-virtual-authors:
       delete_button: Hapus
       save: 'Simpan perubahan'
       virtual_author_exists: 'Sudah dipilih!'
+    virtual_authors_list:
+      no_description: 'Penulis ini menyimpan kesan misterius tentang mereka.'
   lib:
     edit_modal:
       submit_edit: 'Simpan perubahan'

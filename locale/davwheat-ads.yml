@@ -6,5 +6,6 @@ davwheat:
   ads:
     admin:
       settings:
+        admin_bypass_warning: "Karena sifat dari sistem perizinan Flarum, anggota grup Admin tidak akan melihat iklan apa pun di forum. Jika Anda ingin menguji iklan Anda, silakan kunjungi forum dalam mode Incognito atau Private.\n"
         save_btn:
           dirty: 'Simpan perubahan'

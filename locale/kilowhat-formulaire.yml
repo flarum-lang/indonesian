@@ -4,5 +4,19 @@
 
 kilowhat-formulaire:
   forum:
+    form-edit-header:
+      delete: 'Hapus permanen'
+      disable-expert-mode: 'Nonaktifkan mode expert'
+      enable-expert-mode: 'Aktifkan mode expert'
+      hide: Hapus
+      tabs:
+        notifications: Notifikasi
+    form-edit:
+      expert-mode-warning: "Mode expert diaktifkan. Hal ini memungkinkan Anda untuk menyesuaikan pengenal kolom dan izin per kolom. Pastikan Anda membaca dokumentasi tentang fitur-fitur tersebut, karena Anda mungkin akan merusaknya!\n"
+      field:
+        automatic-discussion-help: "Ketika diaktifkan, formulir akan terus dapat diakses seperti formulir mandiri. Kiriman akan secara otomatis dibuat dan terhubung dengan diskusi baru.\n"
     save-controls:
       save: Simpan
+    submission:
+      delete: 'Hapus permanen'
+      hide: Hapus

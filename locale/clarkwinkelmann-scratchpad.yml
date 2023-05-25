@@ -5,4 +5,5 @@
 clarkwinkelmann-scratchpad:
   admin:
     controls:
+      delete: Hapus
       save: Simpan
