@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 kilowhat-rich-embeds:
+  admin:
+    settings:
+      imageProxyHelp: 'Semua gambar OpenGraph dan favicon akan di-proxy oleh Flarum, alih-alih diambil oleh browser pengunjung'
   api:
     error:
       invalidUrl: 'URL {url} tidak valid.'
