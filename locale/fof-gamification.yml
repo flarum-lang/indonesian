@@ -9,12 +9,16 @@ fof-gamification:
         button: 'Mengonversi like menjadi upvote'
         converting: 'Jumlah like Anda sekarang sedang dikonversi. Refresh situs Anda setelah beberapa menit untuk melihat prosesnya selesai. (Waktu konversi mungkin memerlukan waktu agak lama, tergantung pada total like di forum Anda)'
         help: 'Konversi like sebelumnya dari flarum-ext-likes menjadi upvotes, serta hitung tingkat popularitas untuk semua diskusi saat ini.'
+      groups:
+        add: 'Tambahkan aturan baru'
+        delete: 'Hapus aturan'
       rankings:
         blocked:
           help: 'Pengguna ini tidak akan ditampilkan di halaman peringkat. Username harus dipisahkan dengan koma yang diikuti dengan spasi.'
       ranks:
         help:
           help: 'Masukkan jumlah upvote yang diperlukan, nama peringkat, dan warna heksa peringkat'
+          name: Nama
       save_settings: 'Simpan pengaturan'
       votes:
         allow_self_votes: 'Pengguna dapat melakukan voting pada postingan mereka sendiri'

@@ -5,6 +5,33 @@
 xsoft-mason-tag:
   admin:
     buttons:
+      add-field: 'Tambahkan kolom'
+      delete-answer: 'Hapus jawaban'
+      delete-field: 'Hapus kolom'
+      edit-answer: 'Edit Jawaban'
+      edit-field: 'Klik untuk mengedit kolom'
       save-answer: 'Simpan perubahan jawaban'
+      save-field: 'Simpan perubahan kolom'
     fields:
+      description-help: "Deskripsi opsional untuk menjelaskan penggunaan/kebutuhan kolom ini.\n"
       icon: Ikon
+      new-answer-placeholder: 'Beberapa teks'
+    messages:
+      delete-field-confirmation: "Apakah Anda yakin ingin menghapus kolom \"{name}\"? Kolom dan jawabannya akan dihapus dari semua diskusi yang menggunakannya. Hapus kolom?\n"
+    settings:
+      composer-height-help: 'default adalah 200, harus lebih tinggi dari itu untuk mengakomodasi kolom.'
+      fields-section-title-help: "User akan melihat teks ini di atas kolom khusus di editor dan di diskusi.\n"
+      fields-section-title-placeholder: 'Secara default tidak ada judul yang akan ditampilkan'
+      hide-empty-fields-section-help: "Secara default jika user dapat mengedit kolom atau judul yang telah ditetapkan, bagian tersebut akan selalu ditampilkan, meskipun semua kolom disembunyikan. Dengan mengaktifkan opsi ini, bagian tersebut akan disembunyikan dan tombol \"edit kolom\" hanya akan tersedia di dalam menu dropdown \"balasan\" ketika semua kolom kosong.\n"
+      labels-as-placeholders: 'Tampilkan label sebagai placeholder dalam form'
+      labels-as-placeholders-help: "Kolom akan menggunakan lebih sedikit ruang vertikal dan ikon tidak akan ditampilkan lagi. Harap diingat bahwa hal ini mungkin berdampak pada kegunaan, khususnya saat mengedit kolom yang ada.\n"
+      n-columns: '{count} kolom'
+      tags-as-field-help: "Ini akan menyembunyikan tag selector default dan menampilkan kolom dropdown khusus sebagai gantinya. Ini hanya akan berfungsi jika Anda mengizinkan hingga satu tag primer dan satu tag sekunder!\n"
+    titles:
+      field-settings: 'Pengaturan kolom'
+      fields: Kolom
+      settings: Pengaturan
+      tag-settings: 'Pengaturan tag'
+  forum:
+    post-answers:
+      no-answer: 'Tidak ada jawaban'

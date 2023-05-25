@@ -5,20 +5,17 @@
 fof-user-directory:
   admin:
     permissions:
-      view_user_directory: 'Lihat daftar user'
+      view_user_directory: 'Lihat direktori user'
     settings:
-      default-sort: 'Default sort'
-      disable-global-search-source: 'Jangan tambahkan User Directoryke bidang pencarian global Flarum'
-      link: 'Tambahkan daftar user pada halaman utama agar user dapat melihat'
-      use-small-cards: 'Gunakan user cards kecil'
+      disable-global-search-source: 'Jangan menambahkan Direktori User ke kolom pencarian global Flarum'
+      link: 'Tambahkan link di beranda agar user dapat melihat direktori'
   forum:
     header:
-      back_to_user_directory_tooltip: 'Kembali ke User Directory'
+      back_to_user_directory_tooltip: 'Kembali ke Direktori User'
     page:
-      empty_text: 'We could not find any user matching your search.'
-      filter_button: 'Filter Groups'
+      empty_text: 'Kami tidak dapat menemukan user yang cocok dengan pencarian Anda.'
       load_more_button: '=> core.ref.load_more'
-      nav: 'Daftar User'
+      nav: 'Direktori User'
       refresh_tooltip: '=> core.forum.index.refresh_tooltip'
       usercard:
         discussion-count: '{count, plural, one { {count} discussion} other {{count} discussions}}'
@@ -27,18 +24,13 @@ fof-user-directory:
       field:
         placeholder: 'Cari semua user'
       kinds:
-        group: Group
-        text: 'Free text'
+        group: Grup
+        text: 'Teks bebas'
       users_heading: 'Cari semua user untuk "{query}"'
   lib:
     sort:
-      default: Default
-      least_discussions: 'Least discussions'
-      least_posts: 'Least posts'
-      most_discussions: 'Most discussions'
-      most_posts: 'Most posts'
       newest: Terbaru
-      not_specified: 'Gunakan Flarum default'
+      not_specified: 'Gunakan Flarum standar'
       oldest: Terlama
       username_az: 'Username (a-z)'
       username_za: 'Username (z-a)'

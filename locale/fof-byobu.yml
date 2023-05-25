@@ -6,6 +6,8 @@ fof-byobu:
   admin:
     permission:
       make_private_into_public: 'Mengubah diskusi pribadi menjadi diskusi publik'
+    settings:
+      enable-make-public-option-help: 'Menambahkan kemampuan bagi mereka yang memiliki izin untuk menghapus semua penerima, menetapkan tag baru, dan membuat diskusi dapat dilihat oleh publik (sesuai dengan pengaturan visibilitas tag yang dipilih).'
   forum:
     badges:
       is_private:

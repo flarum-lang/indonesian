@@ -9,6 +9,7 @@ fof-mason:
     fields:
       icon: Ikon
       is_suggested: 'Sarankan jawaban kepada pengguna'
+      show_when_empty-help: 'Apakah akan menampilkan kolom pada diskusi ketika tidak ada jawaban'
       user_values_allowed-help: "Jika diaktifkan, pengguna dapat menambahkan nilai mereka sendiri, bukan nilai yang sudah ditentukan oleh admin. Nilai-nilai ini akan diperiksa terhadap pengaturan \"Validasi\".ika dinonaktifkan, mereka hanya akan dapat menggunakan jawaban yang \"disarankan\".\n"
       validation: 'Validasi nilai pengguna'
     messages:
@@ -16,7 +17,7 @@ fof-mason:
       delete-field-confirmation: "Apakah Anda yakin ingin menghapus kolom \"{name}\"? Kolom dan jawabannya akan dihapus dari semua diskusi yang menggunakannya. Hapus kolom?\n"
     settings:
       fields-section-title: 'Judul dari bagian kolom khusus'
-      fields-section-title-help: "Pengguna akan melihat teks ini di atas kolom khusus di editor dan di diskusi.\n"
+      fields-section-title-help: "User akan melihat teks ini di atas kolom khusus di editor dan di diskusi.\n"
       fields-section-title-placeholder: 'Secara default tidak ada judul yang akan ditampilkan'
       hide-empty-fields-section-help: "Secara default jika pengguna dapat mengedit kolom atau judul telah dibuat, bagian tersebut akan selalu ditampilkan, meskipun semua kolom disembunyikan. Dengan mengaktifkan opsi ini, bagian tersebut akan disembunyikan dan tombol \"edit kolom\" hanya akan tersedia di dalam menu dropdown \" reply\" ketika semua kolom kosong.\n"
       labels-as-placeholders-help: "Kolom akan menggunakan lebih sedikit ruang vertikal dan ikon tidak akan ditampilkan lagi. Harap diingat bahwa hal ini mungkin berdampak pada kegunaan, khususnya saat mengedit kolom yang ada.\n"

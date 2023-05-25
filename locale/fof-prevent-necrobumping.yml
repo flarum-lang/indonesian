@@ -6,7 +6,7 @@ fof-prevent-necrobumping:
   admin:
     settings:
       days_help: 'Suatu diskusi akan ditandai sebagai old (sudah tua) ketika jumlah hari yang ditentukan telah mencapai batas sejak posting terakhir pada diskusi itu diposting. Gunakan <code>0</code> untuk menonaktifkannya secara default.'
-      days_label: Days
+      days_label: Hari
       message_agreement_label: 'Perjanjian Pesan Khusus (Checkbox / Kotak Centang)'
       message_description_label: 'Deskripsi Pesan Khusus'
       message_title_help: 'Gunakan <code>[time]</code> untuk text waktu, misalkan "14 days".'
@@ -16,7 +16,7 @@ fof-prevent-necrobumping:
   forum:
     composer:
       warning:
-        checkbox_label: 'Saya sadar bahwa diskusi ini agak lama tetapi masih ingin membalas.'
-        description: 'Hal ini sangat mungkin bahwa hal ini tidak memerlukan pembahasan lebih lanjut dan dengan demikian jika terus dilanjutkan, kemungkinan tidak ada gunanya.'
-        error: 'Diskusi ini sudah terlalu tua untuk Anda balas.'
+        checkbox_label: 'Saya sadar bahwa diskusi ini sudah agak lama, tetapi saya masih ingin menjawabnya.'
+        description: 'Kemungkinan besar hal ini tidak perlu didiskusikan lebih lanjut dan dengan demikian tidak ada gunanya untuk membahasnya.'
+        error: 'Diskusi ini sudah terlalu lama untuk dijawab.'
         title: 'Diskusi ini berusia lebih dari <b>{time}</b>.'
