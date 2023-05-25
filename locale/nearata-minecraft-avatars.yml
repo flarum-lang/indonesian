@@ -6,3 +6,4 @@ nearata-minecraft-avatars:
   forum:
     minotar_enabled: Diaktifkan
     submit_button: 'Simpan Perubahan'
+    username_uuid_not_valid: 'Username atau UUID tidak valid.'

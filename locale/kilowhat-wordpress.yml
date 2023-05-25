@@ -11,3 +11,11 @@ kilowhat-wordpress:
     tabs:
       disabled: Dinonaktifkan
       enabled: Diaktifkan
+  api:
+    health:
+      cookie-domain-format: 'Domain cookie tampaknya bukan domain yang valid. Periksa apakah itu hanya sebuah domain tanpa protokol atau path'
+  forum:
+    embed-link-modal:
+      open: 'Buka link'
+    embed:
+      title: Komentar

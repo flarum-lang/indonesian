@@ -58,3 +58,16 @@ askvortsov-pwa:
       share_button: Bagikan
     post_controls:
       share_button: Bagikan
+    settings:
+      pwa_notifications:
+        access_default: 'Karena adanya pembatasan browser, Anda harus memilih untuk menerima push notification pada perangkat ini.'
+        access_denied: 'Anda harus menyesuaikan pengaturan browser Anda untuk menerima push notification pada perangkat ini.'
+        access_denied_button: 'Pelajari Caranya'
+        no_browser_support: 'Browser ini tidak mendukung push notification untuk aplikasi web progresif.'
+        no_browser_support_button: 'Pelajari Lebih Lanjut'
+    user_controls:
+      share_button: Bagikan
+  views:
+    offline:
+      header: 'Kesalahan koneksi jaringan'
+      text: 'Aplikasi ini membutuhkan koneksi jaringan; tidak dapat digunakan secara offline. Silakan periksa koneksi Anda.'

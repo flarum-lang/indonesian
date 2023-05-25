@@ -3,6 +3,8 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 pay-to-see:
+  admin:
+    error_need_one_tag: 'Pilih setidaknya satu tag'
   forum:
     pay_to_see_content: 'Bayar Untuk Melihat Konten'
     pay_to_see_content_label: 'Bayar Untuk Melihat Konten'

@@ -25,9 +25,12 @@ fof-oauth:
           description: 'Buat aplikasi di {link}. Anda perlu menetapkan URL Ketentuan Layanan dan URL Kebijakan Privasi. Pastikan untuk menambahkan izin permintaan melalui email.'
   forum:
     error:
+      bad_verification_code: 'Token verifikasi tidak valid atau kedaluwarsa. Silakan coba lagi.'
       invalid_state: 'Status tidak valid. Silakan coba lagi.'
     log_in:
       with_button: 'Log In dengan {provider}'
+    signup:
+      username_help: 'Pilih username yang ingin dikenal di sini'
     unlink: 'Hapus link'
     user:
       settings:

@@ -6,6 +6,21 @@ davwheat:
   ads:
     admin:
       settings:
-        admin_bypass_warning: "Karena sifat dari sistem perizinan Flarum, anggota grup Admin tidak akan melihat iklan apa pun di forum. Jika Anda ingin menguji iklan Anda, silakan kunjungi forum dalam mode Incognito atau Private.\n"
+        admin_bypass_warning: "Karena sifat dari sistem perizinan Flarum, anggota grup Admin \ntidak akan melihat iklan apa pun di forum. Jika Anda ingin menguji iklan Anda, silakan kunjungi forum \ndalam mode Incognito atau Private.\n"
+        alert:
+          code_has_script: 'Satu atau beberapa unit iklan Anda mengandung script tag, yang tidak diizinkan. Hapus dan coba lagi.'
+          fix_errors: 'Harap perbaiki error di atas sebelum menyimpan perubahan'
+        code_input: 'Kode HTML'
+        code_input_disabled: 'Aktifkan lokasi ini untuk mengedit kode HTML-nya.'
+        js_input: 'Kode javascript'
+        js_input_disabled: 'Aktifkan lokasi ini untuk mengedit kode JS-nya.'
         save_btn:
           dirty: 'Simpan perubahan'
+          fix_errors: 'Perbaiki error sebelum menyimpan'
+          saved: 'Semua perubahan disimpan'
+          saving: Menyimpan...
+        script_deletion: 'Untuk menghapus skrip, biarkan kotak teks kosong dan tekan ''Simpan Perubahan''.'
+        use_adsense: 'Gunakan AdSense'
+    lib:
+      locations:
+        between_posts: 'Di antara post'
