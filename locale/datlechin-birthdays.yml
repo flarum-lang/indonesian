@@ -12,12 +12,18 @@ datlechin-birthdays:
     invalid_age_message: 'Usia Anda minimal harus berusia {minAge} tahun.'
     invalid_dob_message: 'Tanggal lahir tidak valid'
   forum:
+    change_dob:
+      date_of_birth_text: 'Tanggal Lahir'
+    edit_user:
+      dob_heading: 'Tanggal Lahir'
     nav:
       nav_item: 'Hari ini Ulang Tahun'
     settings:
       change_dob_label: 'Ubah Tanggal Lahir'
       dob_heading: 'Tanggal Lahir'
+      show_dob_date_label: 'Tampilkan hari dan bulan kelahiran'
       show_dob_year_help: 'Hal ini akan memungkinkan orang melihat usia Anda.'
+      show_dob_year_label: 'Tampilkan tahun kelahiran'
     user:
       age_text: 'Usia: {age}'
       birthday_text: 'Ulang tahun: {date}'
