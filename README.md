@@ -123,6 +123,7 @@ php flarum cache:clear
 | [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/fof-user-bio/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-user-bio/id/) |
 | [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/fof-user-directory/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-user-directory/id/) |
 | [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/fof-username-request/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-username-request/id/) |
+| [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/fof-webhooks/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-webhooks/id/) |
 
 <!-- fof-extensions-list-stop -->
 
@@ -244,6 +245,7 @@ php flarum cache:clear
 | [`justoverclock/thread-read-time`](https://github.com/justoverclockl/thread-read-time) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/justoverclock-thread-read-time/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-thread-read-time/id/) |
 | [`justoverclock/username-blacklist`](https://github.com/justoverclockl/username-blacklist) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/justoverclock-username-blacklist/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-username-blacklist/id/) |
 | [`katosdev/signature`](https://github.com/katosdev/signature) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/katosdev-signature/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/katosdev-signature/id/) |
+| [`kyrne/websocket`](https://github.com/KyrneDev/websocket) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/kyrne-websocket/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/kyrne-websocket/id/) |
 | [`malago/flarum-ads`](https://github.com/malago86/flarum-ads) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/malago-ads/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/malago-ads/id/) |
 | [`matteociaroni/flarum-public-suspensions`](https://github.com/matteociaroni/flarum-public-suspensions) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/matteociaroni-public-suspensions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/matteociaroni-public-suspensions/id/) |
 | [`miniflar/sidenav-download-button`](https://github.com/miniflar/sidenav-download-button) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/miniflar-sidenav-download-button/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/miniflar-sidenav-download-button/id/) |
@@ -267,6 +269,7 @@ php flarum cache:clear
 | [`widayn/flarum-avatar-cropper`](https://github.com/WiDayn/flarum-avatar-cropper) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/widayn-avatar-cropper/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/widayn-avatar-cropper/id/) |
 | [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/xelson-chat/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/xelson-chat/id/) |
 | [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/xsoft-ict-mason-tag/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/xsoft-ict-mason-tag/id/) |
+| [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/ziiven-money-transfer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-money-transfer/id/) |
 
 <!-- various-extensions-list-stop -->
 
