@@ -5,7 +5,7 @@
 fof-masquerade:
   admin:
     buttons:
-      add-field: 'Buat kolom'
+      add-field: 'Membuat kolom'
       delete-field: 'Hapus kolom'
       edit-field: 'Simpan perubahan'
     fields:

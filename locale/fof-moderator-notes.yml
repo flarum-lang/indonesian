@@ -5,7 +5,7 @@
 fof-moderator-notes:
   admin:
     permissions:
-      createnotes: 'Buat catatan moderator'
+      createnotes: 'Membuat catatan moderator'
       deletenotes: 'Hapus catatan moderator'
       viewnotes: 'Lihat catatan moderator'
   api:
@@ -16,7 +16,7 @@ fof-moderator-notes:
     moderatorNotes:
       add_button: 'Catatan baru'
       confirm: 'Apakah Anda yakin ingin menghapus catatan ini?'
-      create-heading: 'Buat catatan moderator'
+      create-heading: 'Membuat catatan moderator'
       created_text: '{username} membuat catatan ini pada {date}'
       delete: Hapus
       dismiss_button: Selesai

@@ -9,15 +9,15 @@ fof-polls:
       moderate: 'Edit & hapus polling'
       self_edit: 'Izinkan user untuk merubah pollingnya'
       start: 'Mulai polling'
-      view_results_without_voting: 'Lihat hasil tanpa memberikan vote'
-      vote: 'Berikan vote pada polling'
+      view_results_without_voting: 'Lihat hasil tanpa melakukan voting'
+      vote: 'Lakukan voting pada polling'
     settings:
       allow_option_image: 'Izinkan URL gambar disediakan untuk setiap opsi polling'
   forum:
     composer_discussion:
       add_poll: 'Membuat Polling'
       edit_poll: '=> fof-polls.forum.moderation.edit'
-    days_remaining: 'Polling berakhir pada {time}'
+    days_remaining: 'Polling berakhir {time}.'
     modal:
       add_option_label: 'Masukkan Pilihan'
       add_title: 'Membuat Polling'
@@ -30,18 +30,18 @@ fof-polls:
       no_voters: 'Belum Ada Suara'
       option_placeholder: Jawaban
       options_label: Jawaban
-      public_poll_label: 'Izinkan orang lain melihat siapa yang sudah memilih'
+      public_poll_label: 'Izinkan orang untuk melihat siapa yang melakukan voting'
       question_placeholder: Pertanyaan
       submit: Masukkan
     moderation:
       delete: 'Hapus Polling'
       delete_confirm: 'Apakah anda yakin ingin menghapus polling ini?'
       edit: 'Edit polling'
-    no_permission: 'Anda tidak memiliki izin untuk melakukan polling'
+    no_permission: 'Anda tidak memiliki izin untuk melakukan voting'
     poll_ended: 'Polling ini sudah berakhir'
     public_poll: 'Lihat voter'
     tooltip:
       badge: Polling
       votes: '{count, plural, one {# vote} other {# votes}}'
     votes_modal:
-      title: Pemilih
+      title: 'Para voter'

@@ -6,7 +6,7 @@ fof-drafts:
   admin:
     permissions:
       schedule: 'Penjadwalan draft'
-      start: 'Buat draft'
+      start: 'Membuat draft'
     settings:
       enable_scheduled_drafts: 'Aktifkan Draft Terjadwal'
       schedule_log_output: 'Tambahkan output penjadwalan ke penyimpanan log'

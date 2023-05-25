@@ -5,9 +5,9 @@
 clarkwinkelmann-create-user-modal:
   admin:
     permissions:
-      view: 'Lihat modal pembuatan pengguna'
+      view: 'Lihat modal pembuatan user'
   forum:
-    link: 'Membuat pengguna baru'
+    link: 'Membuat user baru'
     modal:
-      submit: 'Buat Pengguna'
-      title: 'Buat Pengguna'
+      submit: 'Membuat User'
+      title: 'Membuat User'

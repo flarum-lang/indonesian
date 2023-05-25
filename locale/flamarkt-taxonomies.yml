@@ -8,7 +8,7 @@ flamarkt-taxonomies:
       section:
         info: Informasi
       title:
-        new: 'Buat Taksonomi'
+        new: 'Membuat Taksonomi'
     menu:
       title: Taksonomi
     page:

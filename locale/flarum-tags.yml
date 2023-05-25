@@ -18,7 +18,7 @@ flarum-tags:
       name_placeholder: '=> flarum-tags.ref.name'
       slug_label: Slug
       submit_button: '=> core.ref.save_changes'
-      title: '=> Buat Tag'
+      title: 'Membuat Tag'
     nav:
       tags_button: '=> flarum-tags.ref.tags'
       tags_text: 'Kelola daftar tag yang tersedia untuk mengatur diskusi.'
