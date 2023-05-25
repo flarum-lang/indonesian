@@ -26,7 +26,7 @@ fof-links:
     settings:
       show_icons_only_on_tablet: 'Menampilkan ikon hanya pada layar tablet'
   ref:
-    create_link: 'Buat Link'
+    create_link: 'Membuat Link'
     links: Link
     title: Judul
     url: URL

@@ -12,6 +12,6 @@ flamarkt-backoffice:
       backoffice: 'Gunakan backoffice'
     settingsNotAvailableForNonAdmin: 'Ekstensi ini memiliki pengaturan, tetapi hanya akun admin yang dapat melihat dan mengeditnya.'
     users:
-      new: 'Buat pengguna'
+      new: 'Membuat user'
       searchPlaceholder: 'Cari pengguna...'
       title: Pengguna

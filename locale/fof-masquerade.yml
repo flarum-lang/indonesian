@@ -17,6 +17,7 @@ fof-masquerade:
     general-options: 'Pilihan umum'
   forum:
     alerts:
+      profile-completed: 'Profile sudah lengkap! <a>Lanjutkan ke beranda</a>'
       profile-completion-required: "Lengkapi kolom profil yang diperlukan di bawah ini.\n"
     buttons:
       edit-profile: 'Edit profil'

@@ -60,8 +60,8 @@ xelson-chat:
           channel: Saluran
           chat: Obrolan
           create:
-            channel: 'Buat saluran baru'
-            chat: 'Buat obrolan baru'
+            channel: 'Membuat saluran baru'
+            chat: 'Membuat obrolan baru'
           form:
             title:
               channel: 'Nama saluran'

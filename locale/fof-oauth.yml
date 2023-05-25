@@ -20,9 +20,9 @@ fof-oauth:
         gitlab:
           domain_label: 'Domain GitLab'
         google:
-          description: 'Buat aplikasi di {link}.'
+          description: 'Membuat aplikasi di {link}.'
         twitter:
-          description: 'Buat aplikasi di {link}. Anda perlu menetapkan URL Ketentuan Layanan dan URL Kebijakan Privasi. Pastikan untuk menambahkan izin permintaan melalui email.'
+          description: 'Membuat aplikasi di {link}. Anda perlu menetapkan URL untuk Ketentuan Layanan dan Kebijakan Privasi. Pastikan untuk menambahkan izin permintaan melalui email.'
     settings_accessibility_label: 'Pengaturan {name}'
   forum:
     error:

@@ -5,8 +5,8 @@
 kilowhat-cimaise:
   admin:
     permissions:
-      createCommunityAlbums: 'Buat album komunitas'
-      createPersonalAlbums: 'Buat album pribadi'
+      createCommunityAlbums: 'Membuat album komunitas'
+      createPersonalAlbums: 'Membuat album pribadi'
       editOwnImage: 'Gunakan editor gambar pada gambar Anda sendiri (crop, mask, dan stiker)'
       editOwnPublishedImage: 'Gunakan editor gambar pada gambar Anda sendiri setelah dipublikasikan'
       uploadCommunityPicturesWithoutApproval: 'Upload gambar tanpa persetujuan di album komunitas'

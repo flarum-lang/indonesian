@@ -13,7 +13,7 @@ askvortsov-auto-moderator:
     automoderator_instructions:
       header: 'Petunjuk Ekstensi'
     automoderator_page:
-      create_criterion_button: 'Buat Kriteria Baru'
+      create_criterion_button: 'Membuat Kriteria Baru'
       criterion_invalid: 'Kriteria saat ini tidak valid. Silakan periksa pengaturannya untuk informasi lebih lanjut'
       list_heading: Kriteria
     criterion_page:
@@ -25,7 +25,7 @@ askvortsov-auto-moderator:
       icon_label: Ikon
       metrics_and_requirements_help: 'Ini menentukan apakah pengguna memenuhi syarat untuk kriteria ini. Metrik mewakili rentang nilai, persyaratan adalah kondisi boolean.'
       name_label: Nama
-      new_criterion: 'Buat Kriteria'
+      new_criterion: 'Membuat Kriteria'
     criterion_status:
       invalid: 'Kriteria saat ini tidak valid. Silakan periksa driver di bawah ini untuk mengetahui adanya error.'
       no_actions: 'Tidak ada tindakan yang didefinisikan untuk kriteria ini. Tidak ada yang akan terjadi ketika pengguna menambah atau menghapus kriteria ini.'

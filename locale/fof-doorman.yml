@@ -16,11 +16,11 @@ fof-doorman:
       success: 'Email berhasil dikirim'
       title: 'Kirim Kode Undangan'
     nav:
-      desc: 'Buat kode undangan bagi user untuk mendaftar dan ditempatkan ke grup'
+      desc: 'Membuat kode undangan untuk pendaftaran pengguna baru dan dimasukkan ke dalam grup'
     page:
       doorkey:
         allow-public:
-          switch-label: 'Buat kode undangan opsional ketika mendaftar'
+          switch-label: 'Membuat kode undangan opsional ketika mendaftar'
           title: 'Izinkan Pendaftaran Untuk Umum'
         heading:
           activate: 'Mengaktifkan User'
