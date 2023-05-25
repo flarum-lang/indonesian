@@ -5,12 +5,12 @@
 fof-polls:
   admin:
     permissions:
-      change_vote: 'Edit suara'
+      change_vote: 'Edit vote'
       moderate: 'Edit & hapus polling'
       self_edit: 'Izinkan user untuk merubah pollingnya'
       start: 'Mulai polling'
       view_results_without_voting: 'Lihat hasil tanpa memberikan vote'
-      vote: 'Pemungutan suara pada polling'
+      vote: 'Berikan vote pada polling'
     settings:
       allow_option_image: 'Izinkan URL gambar disediakan untuk setiap opsi polling'
   forum:
@@ -39,7 +39,7 @@ fof-polls:
       edit: 'Edit polling'
     no_permission: 'Anda tidak memiliki izin untuk melakukan polling'
     poll_ended: 'Polling ini sudah berakhir'
-    public_poll: 'Lihat pemilih'
+    public_poll: 'Lihat voter'
     tooltip:
       badge: Polling
       votes: '{count, plural, one {# vote} other {# votes}}'
