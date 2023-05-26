@@ -90,6 +90,7 @@ CHANGELOG
 * [`ianm/html-head`](https://github.com/imorland/html-head)
 * [`ianm/synopsis`](https://github.com/imorland/synopsis)
 * [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
+* [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge)
 * [`justoverclock/be-active-user-indicator`](https://github.com/justoverclockl/active-user-indicator)
 * [`justoverclock/check-duplicate-discussions`](https://extiverse.com/extension/justoverclock/check-duplicate-discussions)
 * [`justoverclock/country-flags`](https://github.com/justoverclockl/country-flags)
