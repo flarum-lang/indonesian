@@ -18,14 +18,14 @@ flarum-mentions:
       subject: '{mentioner_display_name} mentioned you in {title}'
   forum:
     composer:
-      mention_tooltip: 'Mention user atau post'
+      mention_tooltip: 'Me-mention user, grup, atau postingan'
       reply_to_post_text: 'Balas ke #{number}'
     mentioned_by:
       title: 'Balasan ke post ini'
     notifications:
       group_mentioned_text: '{username} me-mention grup tempat Anda terdaftar sebagai anggota'
       others_text: '=> core.ref.some_others'
-      post_mentioned_text: '{username} menjawab posting Anda'
+      post_mentioned_text: '{username} menjawab postingan Anda'
       user_mentioned_text: '{username} me-mention Anda'
     post:
       mentioned_by_more_text: '{count} balasan lagi.'
@@ -40,6 +40,6 @@ flarum-mentions:
     settings:
       notify_group_mentioned_label: 'Seseorang me-mention grup tempat saya menjadi anggota dalam sebuah post'
       notify_post_mentioned_label: 'Seseorang membalas post Saya'
-      notify_user_mentioned_label: 'Seseorang me-mention Saya dalam post'
+      notify_user_mentioned_label: 'Seseorang me-mention saya dalam sebuah postingan'
     user:
       mentions_link: Mention

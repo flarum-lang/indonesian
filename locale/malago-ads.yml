@@ -9,7 +9,7 @@ flagrow-ads:
     positions:
       between-posts:
         placeholder: '=> flagrow-ads.admin.positions.under-header.placeholder'
-        title: 'Posisi iklan berada di antara post'
+        title: 'Posisi iklan di antara postingan'
       under-header:
         placeholder: 'Masukkan kode Anda di sini.'
         title: 'Posisi iklan di bawah navigational header'
@@ -22,6 +22,6 @@ flagrow-ads:
       between-n-posts: 'Tentukan setelah berapa post untuk menempatkan iklan'
       header-only-frontpage: 'Di bawah navigational header, iklan hanya ditampilkan di halaman depan'
       position-title: 'Penempatan Iklan'
-      start-from-post: 'Tentukan dari post mana untuk mulai menampilkan iklan'
+      start-from-post: 'Tentukan dari postingan yang mana untuk mulai menampilkan iklan'
     tab:
       description: 'Atur preferensi dan posisi iklan.'

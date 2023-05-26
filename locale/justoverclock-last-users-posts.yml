@@ -5,8 +5,8 @@
 justoverclock-last-users-posts:
   admin:
     charlength: 'Panjang Karakter (standarnya adalah 80 jika kosong)'
-    charlength-help: 'tulis di sini panjang maksimal dari sebuah post (karakter)'
+    charlength-help: 'tuliskan di sini panjang maksimal dari sebuah postingan (karakter)'
     limit: 'Batas Post (standarnya adalah 10 jika Anda mengosongkan)'
-    limit-help: 'tulis di sini jumlah post yang ingin Anda tampilkan'
+    limit-help: 'tulis di sini jumlah postingan yang ingin Anda tampilkan'
   forum:
     widget-title: 'Post Terakhir'

@@ -8,7 +8,7 @@ askvortsov-help-tags:
       view_tag_label: 'Tampilkan Tag'
   forum:
     badge:
-      show_to_all_tooltip: 'Diskusi ini dapat dilihat oleh semua pengguna yang dapat memposting di tag-nya.'
+      show_to_all_tooltip: 'Diskusi ini dapat dilihat oleh semua User yang dapat membuat post di tag-nya.'
     discussion_controls:
       show_to_all_button: 'Tunjukkan kepada semua orang yang dapat memposting di sini.'
       unshow_to_all_button: 'Hanya tampilkan kepada mereka yang dapat melihat Forum'

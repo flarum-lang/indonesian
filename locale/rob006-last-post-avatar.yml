@@ -9,7 +9,9 @@ rob006-last-post-avatar:
         help: 'Centang opsi ini jika Anda tidak ingin mengubah perilaku avatar untuk diskusi pribadi.'
         label: 'Abaikan diskusi pribadi (FoF Byōbu)'
       mode:
-        help: 'Pilih kapan dan di mana avatar penulis post terakhir akan ditampilkan pada daftar diskusi. Periksa file README untuk melihat visualisasi setiap opsi.'
+        help: 'Pilih kapan dan di mana avatar penulis postingan terakhir akan ditampilkan pada daftar diskusi. Periksa file README untuk melihat visualisasi setiap opsi.'
         options:
+          all-replies: 'Hanya balasan'
           always: Selalu
+          non-op-replies: 'Hanya balasan saja, kecuali postingan dari pembuat diskusi'
           replace-main: 'Ganti avatar diskusi utama'
