@@ -4,10 +4,38 @@
 
 ianm-follow-users:
   admin:
+    permissions:
+      be_followed_label: 'Izinkan pengguna untuk mengikuti'
     settings:
+      button-on-profile-label: 'Tampilkan tombol Ikuti secara langsung di header profil pengguna'
       stats-on-profile-label: 'Tampilkan jumlah pengikut dan mengikuti pada profil pengguna'
   forum:
+    index:
+      follow_tag_button: '=> ianm-follow-users.lib.follow'
+      unfollow_tag_button: '=> ianm-follow-users.lib.change_follow_type'
     modals:
       select_follow_level:
         cancel_btn: Batal
         save_btn: Simpan
+    profile_link: '=> ianm-follow-users.lib.following_link'
+    profile_page:
+      no_following: 'Sepertinya Anda tidak mengikuti siapa pun.'
+    settings:
+      notify_new_discussion_label: 'Seseorang yang Saya ikuti memulai diskusi'
+      notify_new_follower_label: 'Seseorang mengikuti Saya'
+      notify_new_unfollower_label: 'Seseorang berhenti mengikuti Saya'
+    user_controls:
+      follow_button: '=> ianm-follow-users.lib.follow'
+      unfollow_button: '=> ianm-follow-users.lib.change_follow_type'
+  lib:
+    follow: Ikuti
+    follow_levels:
+      follow:
+        description: "Menerima notifikasi ketika <em>{username}</em> memulai diskusi baru.\n"
+        name: 'Ikuti diskusi'
+      lurk:
+        description: "Menerima notifikasi ketika <em>{username}</em> memulai diskusi baru atau memposting di dalam diskusi.\n"
+        name: 'Ikuti semua'
+      unfollow:
+        description: "Tidak menerima notifikasi apa pun terkait aktivitas <em>{username}</em>.\n"
+        name: 'Jangan ikuti'

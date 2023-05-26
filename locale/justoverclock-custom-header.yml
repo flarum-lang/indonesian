@@ -8,3 +8,8 @@ custom-header:
     githubIcon-help: 'Paste URL yang valid di sini untuk halaman GitHub Anda'
     twitterIcon-help: 'Paste URL yang valid di sini untuk halaman twitter Anda'
     youtubeIcon-help: 'Paste URL yang valid di sini untuk halaman youtube Anda'
+  forum:
+    facebook: 'Ikuti kami di Facebook'
+    github: 'Halaman GitHub'
+    twitter: 'Ikuti kami di Twitter'
+    youtube: 'Ikuti kami di Twitter'
