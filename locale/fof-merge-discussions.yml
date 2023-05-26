@@ -31,7 +31,7 @@ fof-merge-discussions:
       ordering_suffix_help: 'Post yang telah digabungkan ke dalam diskusi yang bertahan akan ditambahkan di akhir diskusi'
       ordering_suffix_label: 'Tambahkan post telah yang digabungkan ke bagian akhir diskusi'
       submit_button: '=> fof-merge-discussions.ref.merge'
-      title: 'Merge Discussions'
+      title: 'Gabungkan Diskusi'
       type_from_help_text: 'Pilih diskusi target untuk digabungkan ke dalam <b>{title}</b>.'
       type_from_label: 'Gabungkan diskusi ini ke diskusi lain'
       type_heading: 'Merge type'
