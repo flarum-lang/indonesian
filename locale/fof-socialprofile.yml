@@ -5,19 +5,21 @@
 fof-socialprofile:
   admin:
     permissions:
-      editAny: 'Edit social profile siapapun'
-      editOwn: 'Edit social profile milik sendiri'
-      view: 'Lihat social profile'
+      editAny: 'Edit profil sosial siapa pun'
+      editOwn: 'Edit profil sosial Anda sendiri'
+      view: 'Lihat profil sosial'
     settings:
       allow_external_favicons_label: 'Izinkan ikon situs web eksternal (menggunakan API favicon DuckDuckGo)'
   forum:
     edit:
-      add: 'Tambahkan tombol media sosial Anda'
+      add: 'Tambahkan tombol ke media sosial Anda'
       delete: Hapus
-      deletetitle: 'Hapus Tombol'
+      deletetitle: 'Tombol Hapus'
       edit: 'Edit tombol media sosial Anda'
-      headtitle: 'Edit Tombol'
-      save_disabled_fetching_favicons: 'Satu atau beberapa ikon sedang diambil. Mohon tunggu.'
+      favicon: Favicon
+      grey_favicon: 'Grey Favicon'
+      headtitle: 'Tombol Edit'
+      save_disabled_fetching_favicons: 'Satu atau beberapa ikon sedang dalam proses pengambilan. Mohon menunggu.'
       submit: Simpan
       title: Judul
-      url: Tautan
+      url: URL

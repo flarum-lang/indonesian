@@ -10,8 +10,8 @@ fof-doorman:
       group: 'Mengirim undangan untuk grup {group}'
       help: 'Menerima daftar yang dipisahkan koma, spasi, atau koma-spasi. Ketik email satu per satu atau paste list-nya lalu tekan spasi untuk menambahkannya.'
       invalid_emails: 'Email berikut ini tidak valid: {emails}'
-      max_use_conflict: 'Jumlah email melebihi jumlah penggunaan maksimum untuk kode ini.'
-      placeholder: 'Masukkan email-email di sini'
+      max_use_conflict: 'Jumlah email melebihi jumlah maksimum penggunaan kode ini.'
+      placeholder: 'Masukkan email di sini'
       send: 'Kirim Email'
       success: 'Email berhasil dikirim'
       title: 'Kirim Kode Undangan'
@@ -28,20 +28,19 @@ fof-doorman:
           key: Key
           max_uses: 'Penggunaan Maksimal'
         help:
-          activates: 'Mengaktifkan User: Secara otomatis mengaktifkan user ketika mereka mendaftar.'
-          group: 'Group: Grup tempat user akan ditambahkan saat mendaftar.'
-          key: 'Key: Kode yang akan diketik user saat mendaftar.'
-          max: 'Max Uses: Jumlah maksimum berapa kali kode dapat digunakan, diatur ke 0 untuk penggunaan tanpa batas'
+          activates: 'Activates User: Secara otomatis mengaktifkan user ketika mereka melakukan pendaftaran.'
+          group: 'Grup: Grup tempat user akan ditambahkan saat mereka melakukan pendaftaran.'
+          key: 'Key: Kode yang akan diketikkan oleh user saat mereka melakukan pendaftaran.'
+          max: 'Max Uses: Jumlah maksimum kode yang dapat digunakan, diatur ke 0 untuk penggunaan tak terbatas'
         key: Key
-        max_uses: 'Penggunaan Maksimal'
+        max_uses: 'Max Uses'
         title: 'Kode Undangan'
-        used_times: '1 Use left|{remaining} Uses left'
-        warning: 'Kode invitasi ini telah digunakan dalam jumlah maksimal.'
+        warning: 'Kode undangan ini telah digunakan berkali-kali.'
       title: Doorman
   forum:
     email:
-      body: "Halo,\n\nAnda telah diundang untuk mendaftar ke {forum}.\n\nSaat Anda siap membuat akun, cukup klik link berikut dan masukkan kode saat mendaftar:\n\nUrl: {url}\nKode invitasi: {code}\n\nJika Anda menerima ini karena kesalahan, harap abaikan email ini.\n"
-      subject: 'Invite to Join'
+      body: "Halo,\n\nAnda telah diundang untuk mendaftar ke {forum}.\n\nJika Anda sudah siap untuk membuat akun, cukup klik link berikut dan masukkan kode saat mendaftar:\n\nUrl: {url}\nKode undangan: {code}\n\nJika Anda menerima email ini karena kesalahan, harap abaikan email ini.\n"
+      subject: 'Ajak untuk Bergabung'
     sign_up:
       doorkey_required: 'Silakan masukkan kode undangan.'
       doorman_placeholder: 'Kode Undangan'

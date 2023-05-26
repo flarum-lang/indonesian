@@ -8,24 +8,25 @@ fof-analytics:
       title: Matomo
     popup:
       field:
-        googleGTMCode: 'GTM code ID (optional)'
-        googleTrackingCode: 'Kode ID Pelacakan'
+        googleGTMCode: 'ID kode GTM (opsional)'
+        googleTrackingCode: 'ID Kode Pelacakan'
         optTrackingCode: 'Optimalkan Kode Pelacakan (opsional)'
-        piwikAliasUrl: 'Alias URL'
+        piwikAliasUrl: 'URL Alias'
         piwikAuthToken: 'Token Otentikasi'
-        piwikHideAliasUrl: 'Dalam laporan "Link keluar", sembunyikan klik ke URL alias yang dikenal'
-        piwikPrependDomain: 'Tambahkan domain situs ke judul halaman saat men-tracking'
-        piwikSiteId: 'Site ID'
-        piwikTrackAccounts: 'Tracking setiap akun user'
-        piwikTrackSubdomain: 'Tracking pengunjung di semua subdomain Flarum'
+        piwikHideAliasUrl: 'Dalam laporan "Link Keluar", sembunyikan klik ke URL alias yang dikenal'
+        piwikPrependDomain: 'Menyesuaikan domain situs dengan judul halaman saat melakukan pelacakan'
+        piwikSiteId: 'ID Situs'
+        piwikTrackAccounts: 'Lacak akun pengguna individu'
+        piwikTrackSubdomain: 'Melacak pengunjung di semua subdomain Flarum'
         piwikUrl: 'Domain Matomo atau URL'
         statusGoogle: 'Aktifkan Google Analytics (UA/GA4)'
         statusPiwik: 'Aktifkan Matomo'
       placeholder:
-        piwikAuthToken: "Isi token ini untuk mengaktifkan tab Matomo stats di panel admin.\nAnda dapat menemukannya di Settings > Personal > API Authentication Token.\n"
+        piwikAuthToken: "Isi token ini untuk mengaktifkan widget statistik Matomo di panel admin.\nAnda dapat menemukannya di Settings > Personal > API Authentication Token.\n"
       section:
         googleAnalytics: 'Google Analytics'
+        piwik: Matomo
       trackAccounts:
-        email: 'Tracking dengan email'
-        none: 'Jangan ditracking'
-        username: 'Tracking dengan username'
+        email: 'Lacak berdasarkan email'
+        none: 'Jangan lacak'
+        username: 'Lacak berdasarkan username'

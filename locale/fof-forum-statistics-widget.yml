@@ -5,18 +5,18 @@
 fof-forum-statistics-widget:
   admin:
     permissions:
-      view_discussions_count_label: 'View forum statistics widget discussions count'
-      view_lastest_member_label: 'View forum statistics widget latest member'
-      view_posts_count_label: 'View forum statistics widget posts count'
-      view_users_count_label: 'View forum statistics widget users count'
+      view_discussions_count_label: 'Lihat widget statistik jumlah diskusi'
+      view_lastest_member_label: 'Lihat widget statistik anggota forum terbaru'
+      view_posts_count_label: 'Lihat widget statistik jumlah post'
+      view_users_count_label: 'Lihat widget statistik jumlah pengguna forum'
     settings:
       widget_helper_text: 'Edit pengaturan ini untuk menyesuaikan posisi widget di bagian sidenav dari forum Flarum Anda. Semakin tinggi angkanya, semakin tinggi widget ini akan ada di daftar item sidenav (nilai ini bisa positif atau negatif).'
       widget_ignore_private_discussions_label: 'Abaikan Diskusi Pribadi'
-      widget_order_label: 'Widget Order'
+      widget_order_label: 'Urutan Widget'
   forum:
     navbar:
       discussions_count: 'Diskusi: {discussionsCount}'
-      latest_member: 'Anggota terbaru: '
+      latest_member: 'Anggota Terbaru: '
       posts_count: 'Post: {postsCount}'
-      users_count: 'Member: {usersCount}'
+      users_count: 'Anggota: {usersCount}'
       widget_title: 'Statistik Forum'
