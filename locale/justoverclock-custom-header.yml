@@ -4,12 +4,21 @@
 
 custom-header:
   admin:
+    facebookIcon: 'Link ke Halaman facebook Anda'
     facebookIcon-help: 'Paste URL yang valid di sini untuk halaman facebook Anda'
+    githubIcon: 'Link ke Halaman GitHub Anda'
     githubIcon-help: 'Paste URL yang valid di sini untuk halaman GitHub Anda'
+    headerBackgroundImage: 'Gambar Background Header'
+    headerTagline: 'Slogan Utama'
+    headerTagline-help: 'Di sini Anda dapat mengubah slogan Anda'
+    headerTitle: 'Judul Header'
+    headerTitle-help: 'di sini Anda dapat mengubah judul utama header Anda'
+    twitterIcon: 'Link ke Halaman Twitter'
     twitterIcon-help: 'Paste URL yang valid di sini untuk halaman twitter Anda'
+    youtubeIcon: 'Link ke Halaman youtube Anda'
     youtubeIcon-help: 'Paste URL yang valid di sini untuk halaman youtube Anda'
   forum:
-    facebook: 'Ikuti kami di Facebook'
+    facebook: 'Ikuti Kami di Facebook'
     github: 'Halaman GitHub'
-    twitter: 'Ikuti kami di Twitter'
-    youtube: 'Ikuti kami di Twitter'
+    twitter: 'Ikuti Kami di Twitter'
+    youtube: 'Ikuti Kami di Twitter'
