@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 ianm-follow-users:
+  admin:
+    settings:
+      stats-on-profile-label: 'Tampilkan jumlah pengikut dan mengikuti pada profil pengguna'
   forum:
     modals:
       select_follow_level:
