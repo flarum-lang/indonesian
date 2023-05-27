@@ -179,6 +179,7 @@ CHANGELOG
 * [`flarum/sticky`](https://github.com/flarum/sticky)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`flarum/tags`](https://github.com/flarum/tags)
+* [`flarumite/simple-discussion-views`](https://github.com/flarumite/simple-discussion-views)
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
@@ -198,6 +199,7 @@ CHANGELOG
 * [`fof/pages`](https://github.com/FriendsOfFlarum/pages)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
+* [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`fof/secure-https`](https://github.com/FriendsOfFlarum/secure-https)
 * [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
@@ -207,6 +209,7 @@ CHANGELOG
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
 * [`justoverclock/last-post-useravatar`](https://github.com/justoverclockl/last-post-useravatar)
+* [`nearata/flarum-ext-signup-confirm-password`](https://github.com/Nearata/flarum-ext-signup-confirm-password)
 * [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
 
 
