@@ -49,7 +49,7 @@ xelson-chat:
         search:
           failed: 'Tidak ditemukan pengguna yang cocok'
           invited: Diundang
-          placeholder: 'Cari Pengguna'
+          placeholder: 'Cari User'
         title: 'Pengaturan obrolan'
       kick: Keluarkan
       leave: Keluar
@@ -71,7 +71,7 @@ xelson-chat:
           search:
             failed: 'Tidak ditemukan pengguna yang cocok'
             invited: Diundang
-            placeholder: 'Cari Pengguna'
+            placeholder: 'Cari User'
           title: 'Pilih pengguna'
         preview:
           empty: 'Tidak ada pesan'
