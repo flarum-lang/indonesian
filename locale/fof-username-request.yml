@@ -43,7 +43,7 @@ fof-username-request:
       title: '=> fof-username-request.ref.name_change_requests'
       tooltip: '=> fof-username-request.ref.name_change_requests'
       username_exerpt: 'Username yang diajukan: {requestedName}'
-      username_item_text: '{name} meminta perubahan username'
+      username_item_text: '{name} mengajukan perubahan username'
     settings:
       nickname_request_button: 'Ganti Nickname (Nama Panggilan)'
       username_request_button: 'Ganti Username'
