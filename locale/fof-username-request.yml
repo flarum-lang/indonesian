@@ -5,8 +5,8 @@
 fof-username-request:
   admin:
     permissions:
-      moderate_requests: 'Setujui permintaan perubahan username'
-      request_nickname: 'Minta perubahan nickname'
+      moderate_requests: 'Setujui permintaan tentang perubahan username/nickname'
+      request_nickname: 'Minta perubahan nickname (nama panggilan)'
       request_username: 'Minta perubahan username'
   forum:
     nickname_modals:
@@ -18,7 +18,7 @@ fof-username-request:
         reason_title: 'Alasan Penolakan'
         rejected_label: Tolak
         submit_button: Kirim
-        success: 'Keputusan dikirim.'
+        success: 'Keputusan telah terkirim.'
         title: '=> fof-username-request.ref.nickname_change_request'
       request:
         confirmation_message: 'Permintaan perubahan nickname Anda telah dikirim dan menunggu persetujuan.'
@@ -29,12 +29,12 @@ fof-username-request:
         submit_button: 'Kirim Permintaan'
         title: 'Minta Perubahan Nickname'
       results:
-        approved: 'Permintaan perubahan nickname Anda telah disetujui'
+        approved: 'Permintaan tentang perubahan nickname Anda telah disetujui'
         dismiss_button: '=> core.ref.okay'
         new_name: 'Nickname Anda telah berhasil diubah menjadi: {name}'
-        reason: 'Alasan Penolakan: <i>"{reason}"</i>.'
+        reason: 'Alasan penolakan: <i>"{reason}"</i>.'
         rejected: 'Permintaan perubahan nickname Anda ditolak'
-        resubmit: 'Saat ini Anda dapat mengirim ulang permintaan perubahan nickname baru dari pengaturan akun Anda jika Anda mau.'
+        resubmit: 'Pada saat ini, Anda dapat mengirimkan kembali permintaan tentang perubahan nickname baru dari pengaturan akun Anda jika Anda menginginkannya.'
         title: 'Permintaan Perubahan Nickname'
     pending_requests:
       empty_text: 'Tidak ditemukan permintaan perubahan nama.'
