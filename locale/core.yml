@@ -128,7 +128,7 @@ core:
         discuss: Discuss
         documentation: Dokumentasi
         donate: Donasi
-        source: Source
+        source: 'Kode Sumber'
         support: Support
         website: Website
       no_permissions: 'Ekstensi ini tidak memiliki pengaturan untuk mengatur perizinan.'

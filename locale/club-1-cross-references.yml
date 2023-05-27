@@ -8,3 +8,5 @@ club-1-cross-references:
       label: 'Aktifkan referensi singkat'
   forum:
     comment: komentar
+    post_stream:
+      discussion_referenced_text: '{username} mereferensikan diskusi ini dari {source}'

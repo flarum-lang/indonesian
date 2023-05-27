@@ -5,8 +5,14 @@
 fof-cookie-consent:
   admin:
     settings:
+      buttonText: 'Teks Tombol Tutup'
+      buttonTextColor: Teks
       ccTheme: Tema
+      configuration_button_title: 'Tombol Pelajari Lebih Lanjut'
       configuration_title: 'Parameter Konfigurasi'
       consentText: 'Isi Pesan'
       learnMoreLinkText: Teks
+      textColor: Teks
+      theme_dismiss_title: 'Warna Tombol Tutup'
+      theme_popup_title: 'Warna Popup'
       theme_title: 'Pilihan Tema'
