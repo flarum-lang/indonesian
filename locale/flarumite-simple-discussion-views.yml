@@ -14,4 +14,4 @@ flarumite-simple-discussion-views:
   forum:
     modal_resetviews:
       submit: Kirim
-      title: 'Atur ulang jumlah penayangan diskusi'
+      title: 'Reset jumlah tampilan diskusi'

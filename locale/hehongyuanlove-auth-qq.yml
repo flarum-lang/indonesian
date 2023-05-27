@@ -7,4 +7,4 @@ hehongyuanlove-auth-qq:
     modals:
       unlink:
         info:
-          no_providers: 'Anda tidak memiliki metode login lainnya. Silakan atur ulang password akun Anda terlebih dahulu.'
+          no_providers: 'Anda tidak memiliki metode login lainnya. Mohon untuk mereset password akun Anda terlebih dahulu.'

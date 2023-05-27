@@ -11,4 +11,4 @@ nomiscz-auth-wechat:
         buttons:
           cancel: Tidak!
         info:
-          no_providers: 'Anda tidak memiliki penyedia login lain! Anda mungkin harus mengatur ulang password Anda.'
+          no_providers: 'Anda tidak memiliki penyedia login lain! Anda mungkin harus mereset password Anda.'
