@@ -7,6 +7,7 @@ datlechin-birthdays:
     settings:
       min_age_help: 'Usia minimum untuk pendaftaran'
       min_age_label: 'Usia minimum'
+      required_label: 'Wajib memasukkan hari ulang tahun'
       set_on_registration_label: 'Izinkan pengaturan ulang tahun saat pendaftaran'
   api:
     invalid_age_message: 'Usia Anda minimal harus berusia {minAge} tahun.'
