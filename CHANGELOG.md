@@ -8,6 +8,7 @@ CHANGELOG
 **Terjemahan Terbaru Untuk Ekstensi**:
 
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`justoverclock/first-visit-indexpage`](https://github.com/justoverclockl/first-visit-indexpage)
 
 
 Semua perubahan: [1.1.0...1.1.1](https://github.com/flarum-lang/indonesian/compare/1.1.0...1.1.1).
