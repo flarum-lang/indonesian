@@ -4,23 +4,33 @@
 
 datlechin-birthdays:
   admin:
+    permissions:
+      edit_own_birthday_label: 'Mengedit hari ulang tahun'
+      view_birthday_label: 'Melihat hari ulang tahun'
     settings:
-      min_age_help: 'Usia minimum untuk pendaftaran'
+      date_format_help: 'Gunakan format tanggal <a>dayjs</a>. Biarkan kosong untuk menggunakan format default.'
+      date_format_label: 'Format tanggal'
+      date_none_year_label: 'Format tanggal tanpa tahun'
+      min_age_help: 'Usia minimum saat pendaftaran'
       min_age_label: 'Usia minimum'
-      required_label: 'Wajib memasukkan hari ulang tahun'
-      set_on_registration_label: 'Izinkan pengaturan ulang tahun saat pendaftaran'
+      required_help: 'Anda perlu mengaktifkan opsi "pengaturan hari ulang tahun saat pendaftaran" untuk membuat opsi ini berfungsi'
+      required_label: 'Harus memasukkan hari ulang tahun'
+      set_on_registration_label: 'Izinkan pengaturan hari ulang tahun saat pendaftaran'
   api:
-    invalid_age_message: 'Usia Anda minimal harus berusia {minAge} tahun.'
+    invalid_age_message: 'Usia Anda harus minimal {minAge} tahun.'
     invalid_dob_message: 'Tanggal lahir tidak valid'
   forum:
     change_dob:
       date_of_birth_text: 'Tanggal Lahir'
+      title: 'Edit Tanggal Lahir'
     edit_user:
       dob_heading: 'Tanggal Lahir'
+    header:
+      edit_dob_button: 'Edit Tanggal Lahir'
     nav:
       nav_item: 'Hari ini Ulang Tahun'
     settings:
-      change_dob_label: 'Ubah Tanggal Lahir'
+      change_dob_label: 'Ganti Tanggal Lahir'
       dob_heading: 'Tanggal Lahir'
       show_dob_date_label: 'Tampilkan hari dan bulan kelahiran'
       show_dob_year_help: 'Hal ini akan memungkinkan orang melihat usia Anda.'
