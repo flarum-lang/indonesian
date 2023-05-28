@@ -10,7 +10,7 @@ CHANGELOG
 * Terjemahan untuk Flarum core telah diperbarui.
 
 
-**Menambahkan dukungan untuk beberapa ekstensi**:
+**Menambahkan dukungan untuk ekstensi**:
 
 * [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series)
 * [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-auto-moderator)
@@ -156,7 +156,7 @@ CHANGELOG
 * [`ziiven/flarum-raffle-ticket`](https://extiverse.com/extension/ziiven/flarum-raffle-ticket)
 
 
-**Terjemahan terbaru untuk beberapa ekstensi**:
+**Terjemahan Terbaru Untuk Ekstensi**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`afrux/asirem`](https://github.com/afrux/asirem)
