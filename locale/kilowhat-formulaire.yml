@@ -20,3 +20,13 @@ kilowhat-formulaire:
     submission:
       delete: 'Hapus permanen'
       hide: Hapus
+  ref:
+    permissions:
+      editAnyDiscussion: 'Mengedit semua kolom diskusi'
+      editAnyUser: 'Mengedit kolom profil siapa pun'
+      editOwnDiscussion: 'Mengedit kolom diskusi sendiri'
+      editOwnUser: 'Mengedit kolom profil sendiri'
+      seeAnyDiscussion: 'Melihat semua kolom diskusi'
+      seeAnyUser: 'Melihat kolom profil siapa pun'
+      seeOwnDiscussion: 'Melihat kolom diskusi sendiri'
+      seeOwnUser: 'Melihat kolom profil sendiri'

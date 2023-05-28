@@ -15,6 +15,9 @@ fof-mason:
     messages:
       delete-answer-confirmation: "Apakah Anda yakin ingin menghapus jawaban \"{content}\"? Jawaban tersebut akan dihapus dari semua diskusi yang menggunakannya. Jika Anda ingin menyimpan jawaban yang ada, nonaktifkan saran jawaban. Hapus jawaban?\n"
       delete-field-confirmation: "Apakah Anda yakin ingin menghapus kolom \"{name}\"? Kolom dan jawabannya akan dihapus dari semua diskusi yang menggunakannya. Hapus kolom?\n"
+    permissions:
+      see-other-fields: 'Melihat kolom pada semua diskusi yang ada'
+      see-own-fields: 'Melihat kolom pada diskusi sendiri yang sudah ada'
     settings:
       fields-section-title: 'Judul dari bagian kolom khusus'
       fields-section-title-help: "User akan melihat teks ini di atas kolom khusus di editor dan di diskusi.\n"

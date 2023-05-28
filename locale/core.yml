@@ -144,7 +144,7 @@ core:
       get_help: Bantuan
       log_out_button: '=> core.ref.log_out'
     loading:
-      title: 'Mohon Menunggu...'
+      title: 'Mohon menunggu...'
     nav:
       appearance_button: '=> core.admin.appearance.title'
       appearance_title: '=> core.admin.appearance.description'

@@ -3,5 +3,12 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 v17development-flarum-badges:
+  admin:
+    confirm_dialog:
+      'no': Tidak
+      title: Konfirmasi
+      'yes': Ya
+    permissions:
+      badge_detail_users: 'Dapat melihat user di halaman detail badge'
   forum:
     save_changes: 'Simpan perubahan'
