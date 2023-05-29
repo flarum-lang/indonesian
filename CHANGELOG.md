@@ -15,17 +15,21 @@ CHANGELOG
 * [`ianm/syndication`](https://github.com/imorland/syndication)
 
 
-**Terjemahan Terbaru Untuk Ekstensi**:
+**Terjemahan terbaru untuk ekstensi**:
 
 * [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth)
 * [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
 * [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change)
 * [`clarkwinkelmann/flarum-ext-collapsible-posts`](https://github.com/clarkwinkelmann/flarum-ext-collapsible-posts)
+* [`clarkwinkelmann/flarum-ext-see-past-first-post`](https://github.com/clarkwinkelmann/flarum-ext-see-past-first-post)
 * [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
 * [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
 * [`justoverclock/custom-header`](https://github.com/justoverclockl/custom-header)
 * [`justoverclock/first-visit-indexpage`](https://github.com/justoverclockl/first-visit-indexpage)
+* [`justoverclock/last-tweet`](https://github.com/justoverclockl/last-tweet)
+* [`justoverclock/last-users-posts`](https://github.com/justoverclockl/last-users-posts)
+* [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 
 
