@@ -2,22 +2,34 @@ CHANGELOG
 =========
 
 
-1.1.1 (XXXX-XX-XX)
+1.2.0 (XXXX-XX-XX)
 ------------------
+
+**Perubahan umum**:
+
+* Terjemahan untuk Flarum core telah diperbarui.
+
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`ianm/syndication`](https://github.com/imorland/syndication)
+
 
 **Terjemahan Terbaru Untuk Ekstensi**:
 
 * [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth)
+* [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
 * [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change)
 * [`clarkwinkelmann/flarum-ext-collapsible-posts`](https://github.com/clarkwinkelmann/flarum-ext-collapsible-posts)
 * [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
 * [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`justoverclock/custom-header`](https://github.com/justoverclockl/custom-header)
 * [`justoverclock/first-visit-indexpage`](https://github.com/justoverclockl/first-visit-indexpage)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 
 
-Semua perubahan: [1.1.0...1.1.1](https://github.com/flarum-lang/indonesian/compare/1.1.0...1.1.1).
+Semua perubahan: [1.1.0...1.2.0](https://github.com/flarum-lang/indonesian/compare/1.1.0...1.2.0).
 
 
 1.1.0 (2023-05-28)
