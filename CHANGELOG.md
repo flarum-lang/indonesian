@@ -18,6 +18,7 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`acpl/my-tags`](https://github.com/android-com-pl/my-tags)
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series)
 * [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
 * [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth)
@@ -31,6 +32,7 @@ CHANGELOG
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
 * [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
 * [`datlechin/flarum-silent-edit`](https://github.com/datlechin/flarum-silent-edit)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
 * [`justoverclock/country-flags`](https://github.com/justoverclockl/country-flags)
 * [`justoverclock/custom-header`](https://github.com/justoverclockl/custom-header)
@@ -41,6 +43,7 @@ CHANGELOG
 * [`nearata/flarum-ext-minecraft-avatars`](https://github.com/Nearata/flarum-ext-minecraft-avatars)
 * [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+* [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
 
 
 Semua perubahan: [1.1.0...1.2.0](https://github.com/flarum-lang/indonesian/compare/1.1.0...1.2.0).
