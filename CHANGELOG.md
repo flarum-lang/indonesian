@@ -7,7 +7,7 @@ CHANGELOG
 
 **Perubahan umum**:
 
-* Terjemahan untuk Flarum core telah diperbarui.
+* Memperbarui terjemahan untuk Flarum core.
 
 
 **Menambahkan dukungan untuk ekstensi**:
@@ -19,10 +19,13 @@ CHANGELOG
 
 * [`acpl/my-tags`](https://github.com/android-com-pl/my-tags)
 * [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series)
+* [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
 * [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth)
 * [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
 * [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change)
 * [`clarkwinkelmann/flarum-ext-collapsible-posts`](https://github.com/clarkwinkelmann/flarum-ext-collapsible-posts)
+* [`clarkwinkelmann/flarum-ext-discussion-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-discussion-bookmarks)
+* [`clarkwinkelmann/flarum-ext-external-email-validation`](https://github.com/clarkwinkelmann/flarum-ext-external-email-validation)
 * [`clarkwinkelmann/flarum-ext-see-past-first-post`](https://github.com/clarkwinkelmann/flarum-ext-see-past-first-post)
 * [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
@@ -31,6 +34,7 @@ CHANGELOG
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
 * [`justoverclock/country-flags`](https://github.com/justoverclockl/country-flags)
 * [`justoverclock/custom-header`](https://github.com/justoverclockl/custom-header)
+* [`justoverclock/flarum-ext-dontgoaway`](https://github.com/justoverclockl/flarum-ext-dontgoaway)
 * [`justoverclock/first-visit-indexpage`](https://github.com/justoverclockl/first-visit-indexpage)
 * [`justoverclock/last-tweet`](https://github.com/justoverclockl/last-tweet)
 * [`justoverclock/last-users-posts`](https://github.com/justoverclockl/last-users-posts)
