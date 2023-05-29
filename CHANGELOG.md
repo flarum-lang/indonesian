@@ -18,6 +18,7 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`acpl/my-tags`](https://github.com/android-com-pl/my-tags)
+* [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series)
 * [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth)
 * [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
 * [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change)
