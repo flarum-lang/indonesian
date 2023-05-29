@@ -4,6 +4,10 @@
 
 custom-header:
   admin:
+    button-text: 'Tombol Kiri - Teks'
+    button-text-help: 'Teks untuk tombol di sebelah kiri'
+    button2-text: 'Tombol Kanan - Teks'
+    button2-text-help: 'Teks untuk tombol di sebelah kanan'
     facebookIcon: 'Link ke Halaman facebook Anda'
     facebookIcon-help: 'Paste URL yang valid di sini untuk halaman facebook Anda'
     githubIcon: 'Link ke Halaman GitHub Anda'
@@ -14,6 +18,10 @@ custom-header:
     headerTagline-help: 'Di sini Anda dapat mengubah slogan Anda'
     headerTitle: 'Judul Header'
     headerTitle-help: 'di sini Anda dapat mengubah judul utama header Anda'
+    link-button-one: 'Tombol Kiri - Link'
+    link-button-one-help: 'URL yang valid untuk tombol sebelah kiri'
+    link-button-two: 'Tombol Kanan - Link'
+    link-button-two-help: 'URL yang valid untuk tombol sebelah kanan'
     twitterIcon: 'Link ke Halaman Twitter'
     twitterIcon-help: 'Paste URL yang valid di sini untuk halaman twitter Anda'
     youtubeIcon: 'Link ke Halaman youtube Anda'

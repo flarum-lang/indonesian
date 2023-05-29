@@ -11,6 +11,8 @@ askvortsov-article-series:
       next_article: 'Artikel selanjutnya'
       prev_article: 'Artikel sebelumnya'
     article_series_modal:
+      order_label: 'Indeks Urutan (diurutkan secara ascending)'
+      submit_button: Kirim
       tag_id_label: 'Label Seri Artikel'
       title: 'Pengaturan Seri Artikel'
     discussion_controls:
