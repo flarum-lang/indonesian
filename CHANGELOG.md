@@ -7,8 +7,14 @@ CHANGELOG
 
 **Terjemahan Terbaru Untuk Ekstensi**:
 
+* [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth)
+* [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change)
+* [`clarkwinkelmann/flarum-ext-collapsible-posts`](https://github.com/clarkwinkelmann/flarum-ext-collapsible-posts)
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
 * [`justoverclock/first-visit-indexpage`](https://github.com/justoverclockl/first-visit-indexpage)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 
 
 Semua perubahan: [1.1.0...1.1.1](https://github.com/flarum-lang/indonesian/compare/1.1.0...1.1.1).
