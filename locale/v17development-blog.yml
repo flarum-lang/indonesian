@@ -66,11 +66,14 @@ v17development-flarum-blog:
       no_title: 'Tidak ada judul'
       nothing_to_preview: 'Tidak ada yang dapat dipratinjau'
       post_article: 'Post artikel'
-      post_without_blog_info: 'Apakah Anda yakin ingin memposting postingan blog ini? Anda belum memasukkan ringkasan blog atau gambar.'
+      post_without_blog_info: 'Apakah Anda yakin ingin memposting artikel blog ini? Anda belum memasukkan ringkasan blog ataupun gambar.'
       select_category: 'Pilih kategori'
       update_settings: 'Perbarui pengaturan blog'
       view: Lihat
       write: Tulis
+    no_more_posts: 'Tidak ada lagi artikel blog.'
+    recent_posts: 'Artikel blog terbaru'
+    return_to_overview: 'Kembali ke ikhtisar blog '
     review_article:
       approve_article: 'Setujui artikel'
       approve_article_approved: 'Artikel telah disetujui dan telah dipublikasikan'
