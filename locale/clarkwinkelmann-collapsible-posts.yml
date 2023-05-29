@@ -8,5 +8,6 @@ clarkwinkelmann-collapsible-posts:
       add: 'Alasan baru'
       explanationUrl: 'URL Penjelasan'
       header:
+        explanation: 'Pesan penjelasan khusus'
         key: 'Kunci unik database'
       reasons: Alasan

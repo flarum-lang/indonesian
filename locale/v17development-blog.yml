@@ -6,8 +6,8 @@ v17development-flarum-blog:
   admin:
     permissions:
       approve_posts: 'Dapat menyetujui artikel blog'
-      auto_approve_posts: 'Posting artikel tanpa persetujuan'
-      write_articles: 'Tulis dan edit artikel blog'
+      auto_approve_posts: 'Mem-posting artikel tanpa persetujuan'
+      write_articles: 'Menulis dan mengedit artikel blog'
     settings:
       add_hero_label: 'Tampilkan welcome banner'
       add_hero_text: 'Tampilkan welcome banner di halaman blog jika belum ditutup.'
@@ -19,6 +19,7 @@ v17development-flarum-blog:
       default_article_image_label: 'Gambar artikel bawaan'
       default_article_image_text: 'Pilih gambar artikel bawaan untuk ditampilkan apabila tidak ada gambar yang ditetapkan.'
       featured_count_text: 'Berapa banyak post yang harus ditampilkan dalam grid besar di bagian atas halaman blog?'
+      hide_on_discussion_list_label: 'Jangan tampilkan dalam daftar diskusi'
       hide_on_discussion_list_text: 'Sembunyikan postingan blog di daftar diskusi.'
       hide_tags_in_taglist_label: 'Sembunyikan tag dalam daftar tag'
       hide_tags_in_taglist_text: 'Ketika diaktifkan, ekstensi ini akan menyembunyikan tag blog dari beranda Anda.'
@@ -36,6 +37,7 @@ v17development-flarum-blog:
   forum:
     article:
       summary: Ringkasan
+      title: Judul
     article_settings:
       fields:
         highlight:

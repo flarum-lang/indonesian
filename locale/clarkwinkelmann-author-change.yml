@@ -5,11 +5,14 @@
 clarkwinkelmann-author-change:
   admin:
     permissions:
-      edit-date: 'Perbarui diskusi dan tanggal posting'
+      edit-date: 'Memperbarui diskusi dan tanggal posting'
+      edit-user: 'Memperbarui diskusi dan penulis postingan'
   forum:
     modal:
       cancel: Batal
+      created_at: 'Waktu pembuatan'
       submit: Simpan
+      user: Penulis
     search:
       no-results: 'Tidak ada hasil'
       placeholder: 'Cari seseorang'

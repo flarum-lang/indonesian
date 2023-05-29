@@ -3,6 +3,11 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 cccyun-clogin-oauth:
+  admin:
+    appurl_help: 'Harus dimulai dengan http:// atau https:// dan diakhiri dengan /'
+    openqq_label: 'Buka Login QQ'
+    opensina_label: 'Buka Login Weibo'
+    openwx_label: 'Buka Login WeChat'
   forum:
     alerts:
       error: 'Ada yang tidak beres, silakan coba lagi nanti!'

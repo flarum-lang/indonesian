@@ -6,6 +6,8 @@ club-1-cross-references:
   admin:
     enable_short_references:
       label: 'Aktifkan referensi singkat'
+    retrofit_links_in_frontend:
+      help: "<p><strong>Deprecated</strong> (akan dihapus pada <code>v1.2.0</code>) Consider using the <code>chore:reparse</code> command of <code>club-1/flarum-ext-chore-commands</code> extension instead. See: <code>https://github.com/club-1/flarum-ext-chore-commands</code></p> <p>Tampilkan link judul diskusi dalam pesan yang dikirim ketika ekstensi ini tidak diaktifkan. Hal ini dilakukan di frontend, sehingga dapat menyebabkan pengalaman pengguna menjadi buruk.</p>\n"
   forum:
     comment: komentar
     post_stream:
