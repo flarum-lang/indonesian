@@ -14,3 +14,7 @@ clarkwinkelmann-anonymous-posting:
       composerHelpTextPositionHelp: 'Kotak centang dan teks ini hanya muncul bagi para user yang memiliki izin pengalihan.'
       defaultAnonymity: 'Konten baru bersifat anonim secara default'
       defaultAnonymityWhenAbleToSwitch: 'Konten baru bersifat anonim secara default bagi para user yang memiliki izin pengalihan'
+  forum:
+    composerControls:
+      anonymize: 'Memposting secara anonim'
+      anonymizeHelp: 'Moderator akan tetap mengetahui bahwa Anda yang telah membuat konten ini'

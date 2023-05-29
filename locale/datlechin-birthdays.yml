@@ -17,7 +17,7 @@ datlechin-birthdays:
       required_label: 'Tanggal lahir harus diisi'
       set_on_registration_label: 'Izinkan pengaturan hari ulang tahun saat pendaftaran'
   api:
-    invalid_age_message: 'Usia Anda harus minimal {minAge} tahun.'
+    invalid_age_message: 'Anda harus berusia minimal {minAge} tahun.'
     invalid_dob_message: 'Tanggal lahir tidak valid'
   forum:
     change_dob:

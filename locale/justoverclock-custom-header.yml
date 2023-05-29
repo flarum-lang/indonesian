@@ -9,6 +9,7 @@ custom-header:
     githubIcon: 'Link ke Halaman GitHub Anda'
     githubIcon-help: 'Paste URL yang valid di sini untuk halaman GitHub Anda'
     headerBackgroundImage: 'Gambar Background Header'
+    headerBackgroundImage-help: 'Paste di sini URL gambar background khusus Anda'
     headerTagline: 'Slogan Utama'
     headerTagline-help: 'Di sini Anda dapat mengubah slogan Anda'
     headerTitle: 'Judul Header'
@@ -20,5 +21,6 @@ custom-header:
   forum:
     facebook: 'Ikuti Kami di Facebook'
     github: 'Halaman GitHub'
+    signup: Daftar
     twitter: 'Ikuti Kami di Twitter'
     youtube: 'Ikuti Kami di Twitter'
