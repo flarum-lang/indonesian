@@ -9,4 +9,4 @@ justoverclock-last-users-posts:
     limit: 'Batas Post (standarnya adalah 10 jika Anda mengosongkan)'
     limit-help: 'tulis di sini jumlah postingan yang ingin Anda tampilkan'
   forum:
-    widget-title: 'Post Terakhir'
+    widget-title: 'Postingan Terbaru'
