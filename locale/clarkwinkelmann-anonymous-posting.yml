@@ -4,6 +4,10 @@
 
 clarkwinkelmann-anonymous-posting:
   admin:
+    permissions:
+      moderate: 'Anonimkan atau tidak menganonimkan pada diskusi atau postingan apa pun'
+      reveal: 'Melihat penulis asli dari diskusi dan postingan anonim'
+      use: 'Opsi anonimitas konten saat membuat konten'
     settings:
       alwaysAnonymiseEdits: 'Selalu menganonimkan pengeditan'
       alwaysAnonymiseEditsHelp: "Secara default, pengedit/penyembunyi konten oleh penulis post yang bersifat anonim akan dianonimkan, tetapi setiap moderator yang mengedit post atau diskusi akan tetap ditampilkan sebagai penulis dari konten yang di-edit/disembunyikan. Ketika opsi ini diaktifkan, aktor untuk pengedit/penyembunyi konten tidak akan pernah tercatat di konten anonim, siapa pun mereka.\n"
@@ -19,5 +23,25 @@ clarkwinkelmann-anonymous-posting:
       defaultAnonymityWhenAbleToSwitch: 'Konten baru bersifat anonim secara default bagi para user yang memiliki izin pengalihan'
   forum:
     composerControls:
-      anonymize: 'Posting secara anonim'
+      anonymize: 'Post secara anonim'
       anonymizeHelp: 'Moderator akan tetap mengetahui bahwa Anda yang telah membuat konten ini'
+    discussionControls:
+      anonymize: Anonimkan
+      anonymizeConfirmation: 'Hal ini akan membuat penulis diskusi menjadi anonim. Postingan pertama harus dibuat anonim secara terpisah. Lanjutkan?'
+      deanonymize: 'Tidak menganonimkan'
+      deanonymizeConfirmation: 'Hal ini akan membuat penulis asli dari diskusi tersebut menjadi publik lagi. Lanjutkan?'
+    discussionList:
+      genericReplyText: 'Terakhir dijawab {ago}'
+    postControls:
+      anonymize: Anonimkan
+      deanonymize: 'Tidak menganonimkan'
+      deanonymizeConfirmation: 'Ini akan membuat penulis asli postingan menjadi publik lagi. Lanjutkan?'
+      firstPostConfirmation: 'Ini akan membuat penulis postingan pertama menjadi anonim. Diskusi harus dibuat anonim secara terpisah. Lanjutkan?'
+    postPrivacy:
+      mine: Saya
+      mineHelp: 'Hanya Anda yang dapat melihat informasi ini'
+      profile: 'Hanya dapat dilihat oleh Anda'
+      profileHelp: 'Hanya Anda yang dapat melihat postingan anonim di profil Anda'
+  lib:
+    userMeta:
+      username: Anonim

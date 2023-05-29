@@ -52,6 +52,7 @@ v17development-flarum-blog:
           title: 'Ringkasan artikel'
       title: 'Pengaturan postingan blog'
     categories: Kategori
+    category_empty: 'Tidak ada postingan blog dalam kategori ini.'
     comment_section:
       comments: Komentar
       locked: 'Bagian komentar dinonaktifkan untuk artikel ini'
