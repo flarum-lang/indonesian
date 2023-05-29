@@ -12,9 +12,12 @@ clarkwinkelmann-anonymous-posting:
       avatarsHelp: "Fitur ini membutuhkan ekstensi <a>Formulaire</a> premium. Menggunakan fitur ini akan berdampak pada performa karena memerlukan permintaan database tambahan untuk mengambil diskusi dan postingan. Lihat file README untuk rincian lebih lanjut tentang format untuk setiap input.\n"
       composerHelpTextPosition: 'Posisi teks bantuan'
       composerHelpTextPositionHelp: 'Kotak centang dan teks ini hanya muncul bagi para user yang memiliki izin pengalihan.'
+      composerHelpTextPositionHidden: Tersembunyi
+      composerHelpTextPositionTooltip: 'Tooltip (setelah label)'
+      composerHelpTextPositionVisible: 'Visible (di bawah label)'
       defaultAnonymity: 'Konten baru bersifat anonim secara default'
       defaultAnonymityWhenAbleToSwitch: 'Konten baru bersifat anonim secara default bagi para user yang memiliki izin pengalihan'
   forum:
     composerControls:
-      anonymize: 'Memposting secara anonim'
+      anonymize: 'Posting secara anonim'
       anonymizeHelp: 'Moderator akan tetap mengetahui bahwa Anda yang telah membuat konten ini'

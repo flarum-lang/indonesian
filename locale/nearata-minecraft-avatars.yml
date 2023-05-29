@@ -3,7 +3,16 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 nearata-minecraft-avatars:
+  admin:
+    retrieve_avatar_on_register:
+      help: 'Jika tidak ada Akun Minecraft dengan username tersebut, gunakan Steve atau Alex sebagai skin default.'
+      label: 'Ambil Avatar saat Registrasi'
   forum:
+    help_text: 'Username akan diubah menjadi UUID.'
     minotar_enabled: Diaktifkan
+    page_title: 'Avatar Minecraft'
+    placeholder: 'Username atau UUID'
     submit_button: 'Simpan Perubahan'
+    username_not_found: 'Username tidak ditemukan.'
     username_uuid_not_valid: 'Username atau UUID tidak valid.'
+    userpage_nav_button: 'Avatar Minecraft'

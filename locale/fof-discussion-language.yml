@@ -8,21 +8,23 @@ fof-discussion-language:
       allow_change_language_label: 'Izinkan pengeditan bahasa'
     settings:
       config:
+        country_label: 'Negara (untuk menampilkan bendera)'
         language_label: Bahasa
       errors:
         missing_assets: 'Kami tidak dapat memuat aset yang dibutuhkan oleh ekstensi ini. Coba jalankan <code>php flarum assets:publish</code> dan lihat apakah itu dapat mengatasi masalah ini.'
       locale_sort_label: 'Gunakan bahasa yang terdeteksi untuk filter diskusi default'
       native_label: 'Gunakan nama bahasa asli'
       show_any_lang_opt_label: 'Tampilkan opsi untuk memilih "Bahasa Apa Saja"'
+      show_flag_label: 'Tampilkan bendera negara dengan nama bahasa'
       tags_page_discussion_locale_label: 'Hanya tampilkan diskusi dari lokasi pengguna saat ini di halaman Tag'
   api:
     discussion:
       validation_error: 'Anda harus memilih bahasa yang akan digunakan dalam diskusi Anda.'
   forum:
     change_language:
-      edit_title: 'Menyunting Bahasa untuk {title}'
+      edit_title: 'Mengedit Bahasa untuk {title}'
       submit_button: '=> core.ref.save_changes'
-      title: 'Menyunting Bahasa'
+      title: 'Mengedit Bahasa'
     composer_discussion:
       choose_language_link: Bahasa
     discussion_controls:

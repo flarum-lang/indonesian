@@ -8,11 +8,20 @@ clarkwinkelmann-author-change:
       edit-date: 'Memperbarui diskusi dan tanggal posting'
       edit-user: 'Memperbarui diskusi dan penulis postingan'
   forum:
+    controls:
+      edit: 'Edit Penulis dan Tanggal'
     modal:
       cancel: Batal
       created_at: 'Waktu pembuatan'
+      edited_at: 'Waktu pengeditan'
       submit: Simpan
+      sync-impossible: 'Tidak dapat menemukan postingan pertama. Coba scroll ke bagian awal diskusi.'
+      sync-with-discussion: 'Sinkronkan dengan diskusi'
+      sync-with-post: 'Sinkronkan dengan postingan pertama'
+      title-discussion: 'Edit Penulis dan Tanggal Diskusi'
+      title-post: 'Edit Penulis dan Tanggal Postingan'
       user: Penulis
     search:
       no-results: 'Tidak ada hasil'
       placeholder: 'Cari seseorang'
+      type-more: 'Ketik 3 karakter untuk mencari database'
