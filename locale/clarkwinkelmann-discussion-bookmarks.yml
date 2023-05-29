@@ -15,5 +15,5 @@ clarkwinkelmann-discussion-bookmarks:
       add: Bookmark
       remove: Dibookmark
     page:
-      link: 'Diskusi yang dibookmark'
-      title: 'Diskusi yang dibookmark'
+      link: 'Bookmark (diskusi)'
+      title: 'Bookmark (diskusi)'

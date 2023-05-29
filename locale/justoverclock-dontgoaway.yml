@@ -4,5 +4,20 @@
 
 flarum-ext-dontgoaway:
   admin:
+    altdesc: 'Atur atribut "alt" untuk gambar Anda'
+    altext: 'Atribut Alt untuk gambar'
+    btn: 'Sesuaikan Tombol'
+    btndesc: 'Contoh sintaks di placeholder. Anda dapat mengatur ikon fontawesome dan teks untuk tombol.'
+    enableExtLink: 'Aktifkan Popup pada link eksternal'
+    heightdesc: 'Atur tinggi gambar Anda (misalnya, 450)'
     heightext: 'Tinggi Gambar'
+    modtextdesc: 'Menyesuaikan teks popup.'
+    modtitledesc: 'Menyesuaikan judul popup'
+    urltext: 'Url gambar khusus'
+    urltextdesc: 'Paste di sini url gambar khusus Anda'
+    widthdesc: 'Atur lebar gambar Anda (misalnya, 450)'
     widthtext: 'Lebar Gambar'
+  forum:
+    confbutton: Lanjutkan
+    extlinktext: 'Anda meninggalkan situs dengan mengklik link eksternal'
+    extlinktitle: 'Link Eksternal'

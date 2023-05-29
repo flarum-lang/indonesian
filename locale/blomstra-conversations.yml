@@ -5,11 +5,11 @@
 blomstra-conversations:
   admin:
     permissions:
-      view-conversation-source: 'Lihat sumber percakapan'
-      view-raw-source: 'Lihat HTML atau kode sumber HTML dari kiriman yang masuk'
+      view-conversation-source: 'Melihat sumber percakapan'
+      view-raw-source: 'Melihat HTML naitif atau sumber HTML dari postingan yang masuk'
   forum:
     post:
       controls:
         view: 'Lihat Versi HTML'
-        view-code: 'Periksa Kode Sumber HTML'
+        view-code: 'Periksa Sumber HTML'
       source-raw-heading: 'Lihat HTML'
