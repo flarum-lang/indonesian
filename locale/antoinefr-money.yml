@@ -4,5 +4,20 @@
 
 antoinefr-money:
   admin:
+    automoderator:
+      action_name: 'Berikan money'
+    autoremove:
+      - 'Jangan pernah menghapus money'
+      - 'Ketika diskusi/postingan disembunyikan atau dipulihkan (default)'
+      - 'Ketika diskusi/postingan dihapus'
+    permissions:
+      edit_money_label: 'Mengedit money'
     settings:
+      autoremove: 'Perbarui money secara otomatis'
+      helpextensionlikes: 'Membutuhkan ekstensi <code>flarum/likes</code>'
+      moneyfordiscussion: 'Money yang diberikan untuk diskusi baru'
+      moneyforlike: 'Money yang diberikan ketika sebuah postingan mendapatkan like'
+      moneyforpost: 'Money yang diberikan untuk postingan baru'
+      noshowzero: 'Jangan tampilkan jika nilainya nol'
+      postminimumlength: 'Panjang postingan minimum untuk mendapatkan money (0 untuk menonaktifkan)'
       title: Pengaturan

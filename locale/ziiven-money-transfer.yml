@@ -9,4 +9,6 @@ ziven-transfer-money:
     transfer-money-timezone-help: 'Atur zona waktu untuk waktu transfer. Standarnya adalah "Asia/Shanghai".'
   forum:
     cancel: Batal
+    receive-transfer-from-user: 'Menerima transfer money dari pengguna lain'
     transfer-error-no-permission: 'Anda tidak memiliki izin'
+    transfer-list-empty: 'Riwayat transfer tidak ada atau kosong'
