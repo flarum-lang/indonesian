@@ -6,6 +6,7 @@ antoinefr-money:
   admin:
     automoderator:
       action_name: 'Berikan money'
+      metric_name: Money
     autoremove:
       - 'Jangan pernah menghapus money'
       - 'Ketika diskusi/postingan disembunyikan atau dipulihkan (default)'
@@ -21,3 +22,7 @@ antoinefr-money:
       noshowzero: 'Jangan tampilkan jika nilainya nol'
       postminimumlength: 'Panjang postingan minimum untuk mendapatkan money (0 untuk menonaktifkan)'
       title: Pengaturan
+  forum:
+    modal:
+      current: 'Saat ini:'
+      submit_button: '=> core.ref.save_changes'

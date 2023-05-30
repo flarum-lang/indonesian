@@ -4,11 +4,38 @@
 
 ziven-transfer-money:
   admin:
+    permission:
+      allow_use_transfer_money: 'Izinkan transfer money'
     transfer-money-client-customization-help: 'Fitur yang dikembangkan untuk klien. Dapat menyebabkan kesalahan yang tidak terduga bagi pengguna lain.'
     transfer-money-timezone: 'Zona waktu'
     transfer-money-timezone-help: 'Atur zona waktu untuk waktu transfer. Standarnya adalah "Asia/Shanghai".'
   forum:
     cancel: Batal
+    current-money-amount: 'Money saat ini: '
+    need-money-amount: 'Total money yang ditransfer: '
+    notifications:
+      user-transfer-money-details: 'Anda telah menerima {cost}. ID Transfer：{id}'
+      user-transfer-money-to-you: '{username} mentransfer money kepada Anda'
+    ok: OK
     receive-transfer-from-user: 'Menerima transfer money dari pengguna lain'
+    search_user_header: User
+    transfer-error: 'Transfer Error'
     transfer-error-no-permission: 'Anda tidak memiliki izin'
+    transfer-list-assign-at: 'Tanggal Transfer'
     transfer-list-empty: 'Riwayat transfer tidak ada atau kosong'
+    transfer-list-id: ID
+    transfer-list-transfer-amount: Jumlah
+    transfer-list-transfer-notes: Catatan
+    transfer-list-transfer-notes-none: 'Tidak ada'
+    transfer-list-type: Tipe
+    transfer-money: 'Transfer Money'
+    transfer-money-history: 'Riwayat Transfer'
+    transfer-money-in: 'Transfer Masuk'
+    transfer-money-input-placeholder: 'Masukkan nominal transfer'
+    transfer-money-notes: 'Catatan (Opsional)'
+    transfer-money-out: 'Transfer Keluar'
+    transfer-money-search-user: 'Tambah User'
+    transfer-money-success: 'Transfer Berhasil'
+    transfer-money-to: 'Transfer money ke {username}'
+    transfer-money-to-user: 'Transfer money ke user (klik untuk menghapus)'
+    transfered-money-to: 'mentransfer {money} ke'

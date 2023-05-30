@@ -6,21 +6,67 @@ fof-linguist:
   admin:
     buttons:
       apply: Terapkan
+      copy-original: 'Copy teks asli'
       delete-all: 'Hapus semua terjemahan'
       delete-all-confirm: "Ini akan menghapus SEMUA terjemahan khusus {count} Anda. Pastikan Anda telah mengekspor atau mem-backup semua yang mungkin ingin Anda simpan.\n"
+      delete-redundant: 'Hapus terjemahan yang tidak perlu'
+      delete-redundant-confirm: "Ini akan menghapus {count} terjemahan yang memiliki nilai asli dan nilai kustom yang sama. Hal ini berguna untuk membersihkan setelah update paket bahasa.\n"
+      load-more: 'Muat lainnya'
+      reset: 'Kembalikan ke aslinya'
     clear-cache:
       button: 'Hapus cache'
       text: "Terjemahan baru belum diterapkan. Catatan: menghapus cache dapat memperlambat forum Anda untuk sementara waktu.\n"
+    coverage:
+      all-namespaces: Semua
+      apply-missing-filter: 'Tampilkan terjemahan yang belum diterjemahkan yang cocok'
+      column-options:
+        locale: 'Berdasarkan bahasa'
+        namespace: 'Berdasarkan frontend'
+      columns:
+        all-except-admin: 'Forum dan frontend lainnya'
+        all-frontends: 'Tampilkan semua frontend'
+        total: Total
+      count:
+        details: '{total} total / {original} original / {custom} custom'
+        percent: '{percent} %'
+        total: '{translated} / {total}'
+      total-options:
+        percent: Persen
+    export:
+      download: Download
+      locale: Lokal
+      namespace-all: Semua
+      title: Ekspor
     filters:
       for-extension: 'Untuk ekstensi'
+      frontend: 'Untuk frontend'
       frontend-all-except-admin: 'Semua, kecuali Admin'
+      mass-edit: 'Edit massal'
+      missing: 'Temukan terjemahan yang belum diterjemahkan'
+      missing-middle-label: 'terjemahan dalam'
       negation-options:
         with: Dengan
         without: Tanpa
       operation-options:
+        and: Semua
         or: 'Salah satu dari'
       results: 'Menampilkan {shown} dari {total} terjemahan yang cocok'
+      search: 'Cari string terjemahan...'
+      type-options:
+        any: 'Original atau Custom'
+        original: Original
+        own: Custom
       with-own-translations: 'Terjemahan saya'
+    import:
+      results: "Impor telah selesai. {imported}string telah diimpor dan {identical}string yang identik diabaikan. Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.\n"
+      results-with-ignore: "Impor telah selesai. {imported} telah diimpor, {ignored} string yang sudah ada telah diabaikan dan {identical}string yang identik telah dilewati. Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.\n"
+      submit: Impor
+      title: Impor
+    known-frontend:
+      admin: Admin
+      forum: Forum
+      lib: 'Lib (digunakan pada Forum dan Admin)'
+      ref: 'Ref (digunakan kembali pada kolom lain)'
     locales:
       all: Semua
     permissions:
@@ -30,4 +76,6 @@ fof-linguist:
       not-translated: 'Tidak diterjemahkan'
     tabs:
       coverage: Cakupan
+      export: Ekspor
+      import: Impor
       strings: Terjemahan

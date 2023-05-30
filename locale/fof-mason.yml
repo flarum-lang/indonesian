@@ -5,10 +5,27 @@
 fof-mason:
   admin:
     buttons:
+      add-answer: 'Tambah jawaban'
+      add-field: 'Tambah kolom'
+      delete-answer: 'Hapus jawaban'
+      delete-field: 'Hapus kolom'
+      edit-answer: 'Edit Jawaban'
+      edit-answer-prompt: 'Mengedit konten di mana pun konten itu digunakan'
+      edit-field: 'Klik untuk mengedit kolom'
+      new-field: 'Kolom baru'
       save-answer: 'Simpan perubahan jawaban'
+      save-field: 'Simpan perubahan kolom'
+      show-user-answers: 'Tampilkan jawaban yang tidak disarankan ({count})'
     fields:
+      add: 'Tambahkan kolom{field}'
+      description: 'Deskripsi kolom'
+      description-help: "Deskripsi opsional untuk menjelaskan penggunaan/kebutuhan dari kolom ini.\n"
+      edit: 'Edit kolom {field}'
       icon: Ikon
       is_suggested: 'Sarankan jawaban kepada pengguna'
+      name: 'Nama kolom'
+      name-help: "Label kolom yang dapat dilihat oleh publik (tidak dapat diterjemahkan).\n"
+      show_when_empty: 'Tampilkan saat kosong'
       show_when_empty-help: 'Apakah akan menampilkan kolom pada diskusi ketika tidak ada jawaban'
       user_values_allowed-help: "Jika diaktifkan, pengguna dapat menambahkan nilai mereka sendiri, bukan nilai yang sudah ditentukan oleh admin. Nilai-nilai ini akan diperiksa terhadap pengaturan \"Validasi\".ika dinonaktifkan, mereka hanya akan dapat menggunakan jawaban yang \"disarankan\".\n"
       validation: 'Validasi nilai pengguna'
@@ -26,8 +43,13 @@ fof-mason:
       labels-as-placeholders-help: "Kolom akan menggunakan lebih sedikit ruang vertikal dan ikon tidak akan ditampilkan lagi. Harap diingat bahwa hal ini mungkin berdampak pada kegunaan, khususnya saat mengedit kolom yang ada.\n"
       tags-as-field-help: "Ini akan menyembunyikan pemilih tag default dan menampilkan kolom dropdown kustom sebagai gantinya. Ini hanya akan berfungsi jika Anda mengizinkan hingga satu tag primer dan satu tag sekunder!\n"
   forum:
+    answers-modal:
+      save: 'Simpan kolom'
     answers:
       choose-option: 'Pilih salah satu opsi'
       no-option-selected: 'Tidak ada opsi yang dipilih'
+    post-answers:
+      no-answer: 'Tidak ada jawaban'
     tags:
       inadequate-settings: "Pengaturan tag tidak dikonfigurasi dengan benar. Izinkan hingga satu tag primer dan sekunder atau nonaktifkan fitur \"Tag sebagai kolom\".\n"
+      tags-label: Tag
