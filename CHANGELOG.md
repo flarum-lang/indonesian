@@ -34,6 +34,8 @@ CHANGELOG
 * [`datlechin/flarum-silent-edit`](https://github.com/datlechin/flarum-silent-edit)
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason)
 * [`justoverclock/country-flags`](https://github.com/justoverclockl/country-flags)
 * [`justoverclock/custom-header`](https://github.com/justoverclockl/custom-header)
 * [`justoverclock/flarum-ext-dontgoaway`](https://github.com/justoverclockl/flarum-ext-dontgoaway)
