@@ -21,30 +21,43 @@ fof-mason:
       description: 'Deskripsi kolom'
       description-help: "Deskripsi opsional untuk menjelaskan penggunaan/kebutuhan dari kolom ini.\n"
       edit: 'Edit kolom {field}'
+      enable-user-values-for-validation: 'Aktifkan "user value" untuk mengonfigurasi aturan validasi'
       icon: Ikon
       icon-preview: 'pratinjau: {preview}'
       is_suggested: 'Sarankan jawaban kepada pengguna'
       name: 'Nama kolom'
       name-help: "Label kolom yang dapat dilihat oleh publik (tidak dapat diterjemahkan).\n"
+      new-answer: 'Jawaban baru'
       new-answer-placeholder: 'Beberapa teks'
       save-field-for-answers: 'Simpan kolom untuk menambahkan jawaban'
       show_when_empty: 'Tampilkan saat kosong'
       show_when_empty-help: 'Apakah akan menampilkan kolom pada diskusi ketika tidak ada jawaban'
+      user_values_allowed: 'User value yang diizinkan'
       user_values_allowed-help: "Jika diaktifkan, pengguna dapat menambahkan nilai mereka sendiri, bukan nilai yang sudah ditentukan oleh admin. Nilai-nilai ini akan diperiksa terhadap pengaturan \"Validasi\".ika dinonaktifkan, mereka hanya akan dapat menggunakan jawaban yang \"disarankan\".\n"
-      validation: 'Validasi nilai pengguna'
+      validation: 'Validasi user value'
     messages:
       delete-answer-confirmation: "Apakah Anda yakin ingin menghapus jawaban \"{content}\"? Jawaban tersebut akan dihapus dari semua diskusi yang menggunakannya. Jika Anda ingin menyimpan jawaban yang ada, nonaktifkan saran jawaban. Hapus jawaban?\n"
       delete-field-confirmation: "Apakah Anda yakin ingin menghapus kolom \"{name}\"? Kolom dan jawabannya akan dihapus dari semua diskusi yang menggunakannya. Hapus kolom?\n"
     permissions:
       see-other-fields: 'Melihat kolom pada semua diskusi yang ada'
-      see-own-fields: 'Melihat kolom pada diskusi sendiri yang sudah ada'
+      see-own-fields: 'Melihat kolom-kolom pada diskusi yang ada saat ini'
     settings:
+      column-count: 'Jumlah kolom saat menampilkan bidang'
+      fields-in-hero: 'Tampilkan kolom di banner diskusi, bukan di postingan pertama'
       fields-section-title: 'Judul dari bagian kolom khusus'
       fields-section-title-help: "User akan melihat teks ini di atas kolom khusus di editor dan di diskusi.\n"
       fields-section-title-placeholder: 'Secara default tidak ada judul yang akan ditampilkan'
+      hide-empty-fields-section: 'Sembunyikan judul dan kontrol ketika semua kolom kosong dan tersembunyi'
       hide-empty-fields-section-help: "Secara default jika pengguna dapat mengedit kolom atau judul telah dibuat, bagian tersebut akan selalu ditampilkan, meskipun semua kolom disembunyikan. Dengan mengaktifkan opsi ini, bagian tersebut akan disembunyikan dan tombol \"edit kolom\" hanya akan tersedia di dalam menu dropdown \" reply\" ketika semua kolom kosong.\n"
+      labels-as-placeholders: 'Tampilkan label sebagai placeholder dalam formulir'
       labels-as-placeholders-help: "Kolom akan menggunakan lebih sedikit ruang vertikal dan ikon tidak akan ditampilkan lagi. Harap diingat bahwa hal ini mungkin berdampak pada kegunaan, khususnya saat mengedit kolom yang ada.\n"
+      n-columns: '{count} kolom'
       tags-as-field-help: "Ini akan menyembunyikan pemilih tag default dan menampilkan kolom dropdown kustom sebagai gantinya. Ini hanya akan berfungsi jika Anda mengizinkan hingga satu tag primer dan satu tag sekunder!\n"
+      tags-field-name-placeholder: '=> fof-mason.forum.tags.tags-label'
+    titles:
+      field-settings: 'Pengaturan kolom'
+      fields: Kolom
+      settings: Pengaturan
   forum:
     answers-modal:
       save: 'Simpan kolom'
