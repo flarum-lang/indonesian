@@ -36,6 +36,7 @@ CHANGELOG
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
 * [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
 * [`datlechin/flarum-silent-edit`](https://github.com/datlechin/flarum-silent-edit)
+* [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice)
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
@@ -48,10 +49,12 @@ CHANGELOG
 * [`justoverclock/first-visit-indexpage`](https://github.com/justoverclockl/first-visit-indexpage)
 * [`justoverclock/last-tweet`](https://github.com/justoverclockl/last-tweet)
 * [`justoverclock/last-users-posts`](https://github.com/justoverclockl/last-users-posts)
+* [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
 * [`nearata/flarum-ext-minecraft-avatars`](https://github.com/Nearata/flarum-ext-minecraft-avatars)
 * [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 * [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
+* [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see)
 
 
 Semua perubahan: [1.1.0...1.2.0](https://github.com/flarum-lang/indonesian/compare/1.1.0...1.2.0).
