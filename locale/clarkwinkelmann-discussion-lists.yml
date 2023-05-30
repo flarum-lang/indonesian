@@ -3,6 +3,15 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-discussion-lists:
+  admin:
+    permissions:
+      createPrivate: 'Membuat daftar diskusi pribadi'
+      createPublic: 'Membuat daftar diskusi publik'
+      createSeriesFromAny: 'Membuat diskusi series dengan konten dari siapa pun pengguna'
+      createSeriesFromOwn: 'Membuat diskusi series dengan konten sendiri'
+      moderate: 'Mengubah dan menghapus daftar diskusi'
+      viewPrivate: 'Melihat semua daftar diskusi pribadi'
+      viewPublic: 'Melihat daftar diskusi publik'
   api:
     manualLimit: 'Daftar yang diurutkan secara manual tidak dapat berisi lebih dari 50 diskusi'
     seriesAnyAddNotAllowed: 'Anda hanya dapat menambahkan diskusi Anda sendiri ke dalam serangkaian list'

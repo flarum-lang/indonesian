@@ -5,7 +5,7 @@
 datlechin-chatgpt:
   admin:
     permissions:
-      use_chatgpt_assistant_label: 'Gunakan ChatGPT Assistant'
+      use_chatgpt_assistant_label: 'Menggunakan ChatGPT Assistant'
     settings:
       api_key_help: 'Dapatkan kunci API OpenAI dari <a>openai.com</a>.'
       api_key_label: 'Kunci API'

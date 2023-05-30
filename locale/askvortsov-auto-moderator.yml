@@ -13,7 +13,7 @@ askvortsov-auto-moderator:
     automoderator_instructions:
       header: 'Petunjuk Ekstensi'
     automoderator_page:
-      create_criterion_button: 'Membuat Kriteria Baru'
+      create_criterion_button: 'Buat Kriteria Baru'
       criterion_invalid: 'Kriteria saat ini tidak valid. Silakan periksa pengaturannya untuk informasi lebih lanjut'
       list_heading: Kriteria
     criterion_page:
