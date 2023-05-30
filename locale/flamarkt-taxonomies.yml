@@ -14,5 +14,7 @@ flamarkt-taxonomies:
     page:
       title: Taksonomi
   ref:
+    field:
+      iconDescription: '=> core.ref.icon_text'
     submit:
       edit: Simpan

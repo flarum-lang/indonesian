@@ -17,5 +17,9 @@ justoverclock-auto-post-count-badge:
     levelTwo: 'Ganti ikon di tingkat 2 - "The Newbie"'
     levelTwo-help: 'paste di sini ikon fontawesome yang ingin Anda tampilkan di tingkat 2 (misalnya "fas fa-square")'
     settings:
+      icon-manager:
+        title: 'Pengaturan Ikon'
       label-manager:
         help: 'Sesuaikan nama tingkat'
+        title: 'Pengaturan Label Teks'
+      tier: 'Tingkat {tier}: dari {from} hingga {to} post'
