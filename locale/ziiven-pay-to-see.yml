@@ -6,6 +6,8 @@ pay-to-see:
   admin:
     error_need_one_tag: 'Pilih setidaknya satu tag'
     set_permission_tag_help: 'Ketika seorang pengguna memulai diskusi, dia dapat menggunakan P2S dengan memilih tag apa pun yang memiliki izin'
+    settings:
+      badge_icon_desc: 'Masukkan nama kelas ikon FontAwesome, termasuk yang berawalan<code>fas fa-</code>. Biarkan kosong untuk menghapus badge.'
   forum:
     modify_pay_to_see_price: 'Ubah Harga Konten'
     pay_to_see_content: 'Bayar Untuk Melihat Konten'

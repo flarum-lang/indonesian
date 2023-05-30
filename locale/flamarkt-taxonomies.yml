@@ -5,16 +5,72 @@
 flamarkt-taxonomies:
   admin:
     edit-taxonomy:
+      delete: '=> flamarkt-taxonomies.ref.delete'
+      field:
+        allowCustomValues: 'Izinkan nilai khusus'
+        color: '=> flamarkt-taxonomies.ref.field.color'
+        countRequiredDescription: "\n"
+        customValueSluggerDescription: "\n"
+        customValueValidation: 'Validasi untuk nilai khusus'
+        description: '=> flamarkt-taxonomies.ref.field.description'
+        icon: '=> flamarkt-taxonomies.ref.field.icon'
+        iconDescription: '=> flamarkt-taxonomies.ref.field.iconDescription'
+        name: '=> flamarkt-taxonomies.ref.field.name'
+        rangeSeparatorText: hingga
+        slug: '=> flamarkt-taxonomies.ref.field.slug'
+        typeDescription: "\n"
       section:
         info: Informasi
+      slugger-options:
+        alpha_dash: 'ASCII alpha-numerical slugger'
+        random: 'Pengidentifikasi acak'
+        transliterator: 'Gunakan ekstensi FoF Transliterator'
+      submit:
+        edit: '=> flamarkt-taxonomies.ref.submit.edit'
+        new: '=> flamarkt-taxonomies.ref.submit.new'
       title:
         new: 'Membuat Taksonomi'
+      type-options:
+        discussions: Diskusi
+        products: Produk
+        users: Pengguna
+      validation-options:
+        alpha_dash: 'Alfa-numerik dan garis miring/garis bawah'
+        alpha_num: Alfa-numerik
+        default: 'Teks apa pun'
+        regex: 'Regular expression'
+    edit-term:
+      delete: '=> flamarkt-taxonomies.ref.delete'
+      deleteConfirmation: "Apakah Anda benar-benar ingin menghapus istilah {name}? Diskusi yang menggunakan istilah tersebut TIDAK akan dihapus.\n"
+      field:
+        color: '=> flamarkt-taxonomies.ref.field.color'
+        description: '=> flamarkt-taxonomies.ref.field.description'
+        icon: '=> flamarkt-taxonomies.ref.field.icon'
+        iconDescription: '=> flamarkt-taxonomies.ref.field.iconDescription'
+        name: '=> flamarkt-taxonomies.ref.field.name'
+        slug: '=> flamarkt-taxonomies.ref.field.slug'
+      submit:
+        edit: '=> flamarkt-taxonomies.ref.submit.edit'
+        new: '=> flamarkt-taxonomies.ref.submit.new'
+      title:
+        edit: 'Edit Istilah'
+        new: 'Buat Istilah'
     menu:
       title: Taksonomi
     page:
       title: Taksonomi
+    permissions:
+      heading: Taksonomi
+  forum:
+    user:
+      nav: Taksonomi
   ref:
+    delete: Hapus
     field:
-      iconDescription: '=> core.ref.icon_text'
+      color: Warna
+      description: Deskripsi
+      icon: Ikon
+      iconDescription: 'Masukkan nama kelas ikon <a>FontAwesome</a>, <em>termasuk</em> yang berawalan<code>fas fa-</code>.'
+      name: Nama
     submit:
       edit: Simpan
