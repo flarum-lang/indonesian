@@ -22,9 +22,12 @@ fof-mason:
       description-help: "Deskripsi opsional untuk menjelaskan penggunaan/kebutuhan dari kolom ini.\n"
       edit: 'Edit kolom {field}'
       icon: Ikon
+      icon-preview: 'pratinjau: {preview}'
       is_suggested: 'Sarankan jawaban kepada pengguna'
       name: 'Nama kolom'
       name-help: "Label kolom yang dapat dilihat oleh publik (tidak dapat diterjemahkan).\n"
+      new-answer-placeholder: 'Beberapa teks'
+      save-field-for-answers: 'Simpan kolom untuk menambahkan jawaban'
       show_when_empty: 'Tampilkan saat kosong'
       show_when_empty-help: 'Apakah akan menampilkan kolom pada diskusi ketika tidak ada jawaban'
       user_values_allowed-help: "Jika diaktifkan, pengguna dapat menambahkan nilai mereka sendiri, bukan nilai yang sudah ditentukan oleh admin. Nilai-nilai ini akan diperiksa terhadap pengaturan \"Validasi\".ika dinonaktifkan, mereka hanya akan dapat menggunakan jawaban yang \"disarankan\".\n"
