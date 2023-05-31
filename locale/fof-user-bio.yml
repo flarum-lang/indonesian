@@ -5,11 +5,11 @@
 fof-user-bio:
   admin:
     permission:
-      editAny: 'Edit setiap bio'
-      editOwn: 'Edit bio Anda'
+      editAny: 'Mengedit bio siapa pun'
+      editOwn: 'Mengedit bio sendiri'
       view: 'Melihat bio'
     setting:
       bioLimit: 'Batas karakter'
   forum:
     userbioPlaceholder: 'Tulis sesuatu tentang diri Anda'
-    userbioPlaceholderOtherUser: 'Tulis biografi untuk {username}'
+    userbioPlaceholderOtherUser: 'Tulis bio untuk {username}'

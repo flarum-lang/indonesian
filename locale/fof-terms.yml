@@ -14,7 +14,7 @@ fof-terms:
     messages:
       delete-policy-confirmation: "Ini akan menghapus kebijakan {name} dan tanggal penerimaan yang terkait secara permanen di database. Pastikan Anda membuat backup dari tanggal-tanggal tersebut jika Anda membutuhkannya untuk alasan hukum. Apakah Anda yakin ingin menghapus kebijakan ini?\n"
     permissions:
-      export-policies: 'Ekspor semua data pengguna dan kebijakan'
+      export-policies: 'Mengekspor semua data pengguna dan kebijakan'
       postpone-policies-accept: 'Dapat menunda untuk menerima persyaratan yang baru'
       see-user-policies-state: 'Melihat status kebijakan pengguna'
     policies:
