@@ -7,7 +7,7 @@ fof-user-bio:
     permission:
       editAny: 'Edit setiap bio'
       editOwn: 'Edit bio Anda'
-      view: 'Lihat bio'
+      view: 'Melihat bio'
     setting:
       bioLimit: 'Batas karakter'
   forum:

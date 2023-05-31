@@ -6,7 +6,7 @@ fof-best-answer:
   admin:
     settings:
       schedule_log_output: 'Menambahkan output scheduler ke penyimpanan log'
-      schedule_on_one_server_help: 'Dibutuhkan Redis/Memcache'
+      schedule_on_one_server_help: 'Membutuhkan Redis/Memcache'
       schedule_stop_overnight_help: 'Jam 9 malam - 8 pagi waktu server'
       use_alt_ui: 'Tata letak alternatif'
   email:

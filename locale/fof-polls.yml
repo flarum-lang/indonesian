@@ -9,7 +9,7 @@ fof-polls:
       moderate: 'Edit & hapus polling'
       self_edit: 'Izinkan user untuk merubah pollingnya'
       start: 'Mulai polling'
-      view_results_without_voting: 'Lihat hasil tanpa melakukan voting'
+      view_results_without_voting: 'Melihat hasil tanpa melakukan voting'
       vote: 'Lakukan voting pada polling'
     settings:
       allow_option_image: 'Izinkan URL gambar disediakan untuk setiap opsi polling'

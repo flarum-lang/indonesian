@@ -11,7 +11,12 @@ fof-gamification:
         help: 'Konversi like sebelumnya dari flarum-ext-likes menjadi upvotes, serta hitung tingkat popularitas untuk semua diskusi saat ini.'
       groups:
         add: 'Tambahkan aturan baru'
+        column:
+          group: Grup
+          maxPoints: 'Poin maksimum (inklusif)'
+          minPoints: 'Poin minimum (inklusif)'
         delete: 'Hapus aturan'
+        help: "Grup yang dipilih akan secara otomatis ditambahkan atau dihapus sesuai kebutuhan ketika jumlah poin yang dimiliki oleh pengguna berubah. Jika Anda membuat perubahan pada konfigurasi, Anda harus menjalankan perintah <code>php flarum fof:gamification:assign-groups</code> untuk memperbarui pengguna yang ada. Jika Anda ingin menghapus aturan dan menghapus semua pengguna dari grup, atur nilai minimum dan maksimum ke empty string (string kosong), simpan pengaturan dan jalankan perintah baris perintah. Terakhir, Anda dapat menghapus aturan sepenuhnya dari pengaturan.\n"
       rankings:
         blocked:
           help: 'Pengguna ini tidak akan ditampilkan di halaman peringkat. Username harus dipisahkan dengan koma yang diikuti dengan spasi.'
@@ -22,7 +27,11 @@ fof-gamification:
       save_settings: 'Simpan pengaturan'
       votes:
         allow_self_votes: 'Pengguna dapat melakukan voting pada postingan mereka sendiri'
-        auto_upvote: 'Berikan upvote otomatis pada post saat diposting'
+        alternate_layout: 'Gunakan tata letak voting alternatif pada daftar diskusi'
+        alternate_post_layout: 'Gunakan tata letak voting alternatif pada postingan'
+        auto_upvote: 'Berikan upvote secara otomatis pada postingan saat diposting'
+        rate_limit: 'Terapkan batas kecepatan dalam memberikan vote (10 detik)'
     permissions:
       downvote_notifications: 'Menerima notifikasi tentang downvote'
+      see_voters_label: 'Melihat siapa yang memberikan vote'
       upvote_notifications: 'Menerima notifikasi tentang upvote'

@@ -36,7 +36,7 @@ fof-reactions:
         save_settings: 'Simpan Pengaturan'
     permissions:
       react_posts_label: 'Bereaksi terhadap post'
-      see_reactions_label: 'Lihat siapa yang bereaksi terhadap post'
+      see_reactions_label: 'Melihat siapa yang memberikan reaksi pada postingan'
   forum:
     disabled-reaction: 'Anda tidak dapat menggunakan reaction saat ini, coba refresh halaman ini'
     mod_item: 'Lihat Reaksi'

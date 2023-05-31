@@ -7,6 +7,8 @@ fof-byobu:
     permission:
       make_private_into_public: 'Mengubah diskusi pribadi menjadi diskusi publik'
     settings:
+      delete_on_last_recipient_left: 'Hapus PD ketika pengguna terakhir keluar'
+      delete_on_last_recipient_left_help: 'Jika diaktifkan, PD akan dihapus secara permanen dari database ketika pengguna terakhir keluar. Jika tidak, PD akan dihapus secara soft-deleted/disembunyikan.'
       enable-make-public-option-help: 'Menambahkan kemampuan bagi mereka yang memiliki izin untuk menghapus semua penerima, menetapkan tag baru, dan membuat diskusi dapat dilihat oleh publik (sesuai dengan pengaturan visibilitas tag yang dipilih).'
   forum:
     badges:
@@ -29,6 +31,7 @@ fof-byobu:
       help:
         add_recipients: 'Diskusi ini hanya akan terlihat oleh pengguna yang Anda pilih di sini. Setidaknya diperlukan 1 penerima (selain diri Anda sendiri).'
         click_user_to_remove_tooltip: 'Klik untuk menghapus'
+        selected_users: 'Klik username untuk menghapusnya.'
         update_recipients: 'Diskusi ini hanya akan terlihat oleh pengguna yang Anda pilih di sini.'
     nav:
       nav_item: 'Diskusi Pribadi'
