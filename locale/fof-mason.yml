@@ -10,7 +10,7 @@ fof-mason:
       delete-answer: 'Hapus jawaban'
       delete-field: 'Hapus kolom'
       edit-answer: 'Edit Jawaban'
-      edit-answer-prompt: 'Mengedit konten di mana pun konten itu digunakan'
+      edit-answer-prompt: 'Edit konten di mana pun konten itu digunakan'
       edit-field: 'Klik untuk mengedit kolom'
       new-field: 'Kolom baru'
       save-answer: 'Simpan perubahan jawaban'
@@ -24,7 +24,7 @@ fof-mason:
       enable-user-values-for-validation: 'Aktifkan "user value" untuk mengonfigurasi aturan validasi'
       icon: Ikon
       icon-preview: 'pratinjau: {preview}'
-      is_suggested: 'Sarankan jawaban kepada pengguna'
+      is_suggested: 'Memberikan saran jawaban kepada pengguna'
       name: 'Nama kolom'
       name-help: "Label kolom yang dapat dilihat oleh publik (tidak dapat diterjemahkan).\n"
       new-answer: 'Jawaban baru'
@@ -33,18 +33,19 @@ fof-mason:
       show_when_empty: 'Tampilkan saat kosong'
       show_when_empty-help: 'Apakah akan menampilkan kolom pada diskusi ketika tidak ada jawaban'
       user_values_allowed: 'User value yang diizinkan'
-      user_values_allowed-help: "Jika diaktifkan, pengguna dapat menambahkan nilai mereka sendiri, bukan nilai yang sudah ditentukan oleh admin. Nilai-nilai ini akan diperiksa terhadap pengaturan \"Validasi\".ika dinonaktifkan, mereka hanya akan dapat menggunakan jawaban yang \"disarankan\".\n"
+      user_values_allowed-help: "Jika diaktifkan, pengguna dapat menambahkan value mereka sendiri, bukan yang value yang telah ditentukan oleh admin. Semua value tersebut akan diperiksa dengan pengaturan \"Validasi\". Jika dinonaktifkan, mereka hanya akan dapat menggunakan jawaban yang \"disarankan\".\n"
       validation: 'Validasi user value'
     messages:
       delete-answer-confirmation: "Apakah Anda yakin ingin menghapus jawaban \"{content}\"? Jawaban tersebut akan dihapus dari semua diskusi yang menggunakannya. Jika Anda ingin menyimpan jawaban yang ada, nonaktifkan saran jawaban. Hapus jawaban?\n"
       delete-field-confirmation: "Apakah Anda yakin ingin menghapus kolom \"{name}\"? Kolom dan jawabannya akan dihapus dari semua diskusi yang menggunakannya. Hapus kolom?\n"
     permissions:
       see-other-fields: 'Melihat kolom pada semua diskusi yang ada'
-      see-own-fields: 'Melihat kolom-kolom pada diskusi yang ada saat ini'
+      see-own-fields: 'Melihat kolom pada diskusi sendiri yang sudah ada'
+      skip-required-fields: 'Mengizinkan untuk melewatkan kolom yang harus diisi'
     settings:
-      column-count: 'Jumlah kolom saat menampilkan bidang'
-      fields-in-hero: 'Tampilkan kolom di banner diskusi, bukan di postingan pertama'
-      fields-section-title: 'Judul dari bagian kolom khusus'
+      column-count: 'Jumlah kolom saat menampilkan kolom'
+      fields-in-hero: 'Tampilkan kolom di banner diskusi, bukan di post yang pertama'
+      fields-section-title: 'Judul pada bagian kolom khusus'
       fields-section-title-help: "User akan melihat teks ini di atas kolom khusus di editor dan di diskusi.\n"
       fields-section-title-placeholder: 'Secara default tidak ada judul yang akan ditampilkan'
       hide-empty-fields-section: 'Sembunyikan judul dan kontrol ketika semua kolom kosong dan tersembunyi'
