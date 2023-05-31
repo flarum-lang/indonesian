@@ -16,7 +16,7 @@ fof-terms:
     permissions:
       export-policies: 'Ekspor semua data pengguna dan kebijakan'
       postpone-policies-accept: 'Dapat menunda untuk menerima persyaratan yang baru'
-      see-user-policies-state: 'Lihat status kebijakan pengguna'
+      see-user-policies-state: 'Melihat status kebijakan pengguna'
     policies:
       name: Nama
       name-help: 'Nama ini akan ditampilkan di samping kotak centang dan sebagai judul di update modal.'

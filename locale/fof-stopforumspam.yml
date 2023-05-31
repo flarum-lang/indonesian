@@ -5,11 +5,11 @@
 fof-stopforumspam:
   admin:
     settings:
-      api_key_instructions_text: '<register>Daftar StopForumSpam</register>. Maka Anda perlu <key>mendapatkan kunci API</key>.'
+      api_key_instructions_text: '<register>Daftar StopForumSpam</register>. Kemudian Anda perlu <key>mendapatkan kunci API</key>.'
       api_key_label: 'Kunci API'
       api_key_text: 'Anda mengaktifkan fof/spamblock, Anda sekarang memiliki opsi untuk melaporkan spammer ke StopForumSpam untuk menjaga komunitas Anda dari spam.'
-      confidence_help: 'Skor kepercayaan adalah indikator yang cukup baik bahwa kolom yang diuji akan menghasilkan aktivitas yang tidak diinginkan. Tetapkan tingkat kepercayaan Anda sebagai persentase. Jika kolom tersebut sama dengan atau di atas angka ini, pendaftaran akan diblokir, terlepas dari pengujian ''frekuensi'' di atas.'
-      confidence_label: Kepercayaan
+      confidence_help: 'Confidence score adalah indikator yang cukup baik bahwa kolom yang diuji akan menghasilkan aktivitas yang tidak diinginkan. Tetapkan tingkat kepercayaan Anda sebagai persentase. Jika kolom tersebut sama dengan atau di atas angka ini, pendaftaran akan diblokir, terlepas dari pengujian ''frekuensi'' di atas.'
+      confidence_label: 'Confidence Score'
       email_hash_help: 'Abaikan hash MD5 dari alamat email jika Anda tidak ingin mengabaikan alamat email itu sendiri. Metode ini mengabaikan semua daftar hitam, normalisasi, dan pemeriksaan obfuscation bypass.'
       email_hash_label: 'Gunakan alamat email yang di-hash'
       email_label: 'Periksa Spam Email'
