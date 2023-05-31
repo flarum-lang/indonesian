@@ -64,6 +64,8 @@ CHANGELOG
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`fof/secure-https`](https://github.com/FriendsOfFlarum/secure-https)
 * [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
+* [`fof/stopforumspam`](https://github.com/FriendsOfFlarum/stopforumspam)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 * [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge)
 * [`justoverclock/country-flags`](https://github.com/justoverclockl/country-flags)
