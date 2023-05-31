@@ -49,6 +49,8 @@ CHANGELOG
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 * [`fof/mason`](https://github.com/FriendsOfFlarum/mason)
 * [`fof/passport`](https://github.com/FriendsOfFlarum/passport)
+* [`fof/secure-https`](https://github.com/FriendsOfFlarum/secure-https)
+* [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
 * [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge)
 * [`justoverclock/country-flags`](https://github.com/justoverclockl/country-flags)
 * [`justoverclock/custom-header`](https://github.com/justoverclockl/custom-header)
