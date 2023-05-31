@@ -8,7 +8,7 @@ clarkwinkelmann-email-as-display-name:
       view-all: 'Lihat email di semua profil'
       view-own: 'Lihat email di profil sendiri'
     settings:
-      remove-username-registration: 'Menghapus username pada form pendaftaran'
+      remove-username-registration: 'Hapus username pada form pendaftaran'
   forum:
     log_in:
       username_or_email_placeholder: '=> core.ref.email'

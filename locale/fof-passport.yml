@@ -7,5 +7,8 @@ fof-passport:
     popup:
       field:
         app-user-url: 'URL API yang menyediakan detail pengguna saat diautentikasi'
-        button-icon: 'Ikon untuk tombol login'
-        button-title: 'Label untuk tombol login'
+        button-icon: 'Tombol login - Ikon'
+        button-title: 'Tombol login - Title'
+        button-title-placeholder: '=> fof-passport.api.default-login-button-title'
+  api:
+    default-login-button-title: '=> core.ref.log_in'

@@ -35,6 +35,8 @@ kilowhat-formulaire:
     form-index:
       header:
         title: '=> kilowhat-formulaire.ref.manager'
+      tabs:
+        standalone: '=> kilowhat-formulaire.ref.type.standalone'
     nav:
       forms: '=> kilowhat-formulaire.ref.manager'
     save-controls:

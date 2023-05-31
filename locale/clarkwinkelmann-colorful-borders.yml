@@ -3,5 +3,21 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-colorful-borders:
+  admin:
+    settings:
+      colors:
+        all: 'Semua warna'
+        custom: 'Warna khusus'
+        custom-help: 'Daftar nilai #hex atau rgb() yang dipisahkan dengan koma'
+        simple: 'Warna sederhana'
+      enableBackgroundColor: 'Warna background'
+      enableBorderColor: 'Warna border'
+      enableBorderRadius: 'Border radius'
+      enableBorderWidth: 'Lebar border'
+      enableTextColor: 'Warna teks'
   forum:
     apply: Terapkan
+    backgroundColor: 'Warna background'
+    borderColor: 'Warna border'
+    borderWidth: 'Lebar border'
+    textColor: 'Warna teks'
