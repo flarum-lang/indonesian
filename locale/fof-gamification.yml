@@ -5,8 +5,11 @@
 fof-gamification:
   admin:
     page:
+      alt_votes:
+        icon_name: 'Nama ikon layout alternatif'
       convert:
         button: 'Mengonversi like menjadi upvote'
+        converted: 'Berhasil mengkonversi semua ({number} like)'
         converting: 'Jumlah like Anda sekarang sedang dikonversi. Refresh situs Anda setelah beberapa menit untuk melihat prosesnya selesai. (Waktu konversi mungkin memerlukan waktu agak lama, tergantung pada total like di forum Anda)'
         help: 'Konversi like sebelumnya dari flarum-ext-likes menjadi upvotes, serta hitung tingkat popularitas untuk semua diskusi saat ini.'
       groups:
@@ -20,18 +23,38 @@ fof-gamification:
       rankings:
         blocked:
           help: 'Pengguna ini tidak akan ditampilkan di halaman peringkat. Username harus dipisahkan dengan koma yang diikuti dengan spasi.'
+          title: 'Pengguna Yang Diabaikan'
+        custom_image_1: 'Gambar juara 1'
+        custom_image_2: 'Gambar juara 2'
+        custom_image_3: 'Gambar juara 3'
+        title: 'Halaman Peringkat'
       ranks:
         help:
           help: 'Masukkan jumlah upvote yang diperlukan, nama peringkat, dan warna heksa peringkat'
           name: Nama
+        number_title: 'Berapa banyak badge peringkat yang harus ditampilkan?'
+        ranks: 'Peringkat khusus'
+        title: Peringkat
       save_settings: 'Simpan pengaturan'
       votes:
         allow_self_votes: 'Pengguna dapat melakukan voting pada postingan mereka sendiri'
         alternate_layout: 'Gunakan tata letak voting alternatif pada daftar diskusi'
         alternate_post_layout: 'Gunakan tata letak voting alternatif pada postingan'
         auto_upvote: 'Berikan upvote secara otomatis pada postingan saat diposting'
+        icon_help: 'Masukkan ikon Font-Awesome apa pun yang diakhiri dengan -up dan -down. Contoh: arrow, thumbs, chevron'
+        icon_name: 'Ikon upvote/downvote'
+        points_placeholder: 'Poin: '
         rate_limit: 'Terapkan batas kecepatan dalam memberikan vote (10 detik)'
     permissions:
       downvote_notifications: 'Menerima notifikasi tentang downvote'
+      see_ranking_page: 'Melihat halaman peringkat'
       see_voters_label: 'Melihat siapa yang memberikan vote'
+      see_votes_label: 'Melihat penghitungan vote naik/turun'
       upvote_notifications: 'Menerima notifikasi tentang upvote'
+      vote_label: 'Memberikan Upvote/Downvote pada postingan'
+  forum:
+    notification:
+      prefrences:
+        vote: 'Ketika salah satu postingan saya mendapatkan vote naik/turun'
+    ranking:
+      amount: Poin
