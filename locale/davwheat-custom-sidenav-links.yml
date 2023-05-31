@@ -21,6 +21,15 @@ davwheat:
               position: Posisi
               text: 'Teks link'
         new_link_modal:
+          labels:
+            icon: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon'
+            internal: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.internal'
+            text: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.text'
+            url: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.url'
+          placeholders:
+            icon: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.icon'
+            text: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.text'
+            url: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.url'
           submit_btn:
             add: 'Tambah link'
             fix_url: 'URL tidak valid'

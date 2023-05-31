@@ -14,8 +14,23 @@ blomstra-web3:
     connect-wallet-modal:
       could-not-sign: 'Tidak dapat menandatangani nama pengguna secara kriptografis pada akun yang telah dipilih.'
       goback: Kembali
+      polkadot-wallets: '=> blomstra-web3.ref.polkadot-wallets'
       signature-invalid: 'Tanda tangan tidak valid.'
     evm-connect-wallet-modal:
+      bind: '=> blomstra-web3.ref.bind'
+      disconnect: '=> blomstra-web3.ref.disconnect'
       disconnect-and-unbind: 'Putuskan koneksi & Lepaskan sambungan'
+      select: '=> blomstra-web3.ref.select'
+    log-in:
+      select-wallet-account: '=> blomstra-web3.ref.select-wallet-account'
     polkadot-connect-wallet-modal:
+      attach_address: '=> blomstra-web3.ref.bind'
       connection-request-rejected: 'Permintaan koneksi ditolak'
+      disconnect: '=> blomstra-web3.ref.disconnect'
+      select: '=> blomstra-web3.ref.select'
+      title: '=> blomstra-web3.ref.polkadot-wallets'
+      unattach_address: '=> blomstra-web3.ref.unbind'
+    settings:
+      unbind: '=> blomstra-web3.ref.unbind'
+    sign-up:
+      select-wallet-account: '=> blomstra-web3.ref.select-wallet-account'

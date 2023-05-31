@@ -5,10 +5,16 @@
 signature:
   admin:
     settings:
+      maximum_char_limit:
+        placeholder: '1000 (default)'
+      maximum_image_count:
+        placeholder: '5 (default)'
       maximum_image_height:
         description: 'Tinggi maksimum dari jumlah tinggi total gambar yang disisipkan pada editor.'
+        placeholder: '500 (default)'
       maximum_image_width:
         description: 'Lebar maksimum gambar pada editor.'
+        placeholder: '350 (default)'
   forum:
     errors:
       max_char_limit_exceed: 'Batas karakter maksimum terlampaui.'

@@ -15,3 +15,6 @@ miniflar-sidenav-download-button:
         add_separator: 'Tambahkan Pemisah?'
         disable_widget: 'Nonaktifkan widget aslinya dan gunakan widget yang didukung Afrux sebagai gantinya'
       separator_order_text: 'Edit pengaturan ini untuk menyesuaikan posisi pemisah untuk widget ini pada bagian sideNav di forum Flarum Anda. Semakin tinggi angkanya, semakin tinggi pemisah akan berada di daftar item sideNav (nilai ini bisa positif atau negatif).'
+  forum:
+    index:
+      download_button: Download

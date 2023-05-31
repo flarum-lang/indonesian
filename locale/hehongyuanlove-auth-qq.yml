@@ -3,8 +3,15 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 hehongyuanlove-auth-qq:
+  admin:
+    qq_settings:
+      title: 'Pengaturan QQ'
   forum:
+    buttons:
+      login: '=> hehongyuanlove-auth-qq.forum.log_in.with_qq_button'
     modals:
       unlink:
+        buttons:
+          cancel: Batal
         info:
           no_providers: 'Anda tidak memiliki metode login lainnya. Mohon untuk mereset password akun Anda terlebih dahulu.'

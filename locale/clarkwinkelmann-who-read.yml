@@ -12,6 +12,9 @@ clarkwinkelmann-who-read:
       show-count-of-readers-who-stopped: 'Tampilkan jumlah pengguna yang berhenti membaca, bukan total baca di antara post'
       show-in-discussion-list: 'Tampilkan pembaca di daftar diskusi'
   forum:
+    badges:
+      following: '=> flarum-subscriptions.forum.badge.following_tooltip'
+      ignoring: '=> flarum-subscriptions.forum.badge.ignoring_tooltip'
     controls:
       remove-unread: 'Hapus belum dibaca'
       set-unread: 'Tandai belum dibaca'

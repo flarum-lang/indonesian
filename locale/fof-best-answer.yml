@@ -14,6 +14,7 @@ fof-best-answer:
       select: 'Apakah pertanyaan Anda sudah terjawab?'
   forum:
     answered_badge: Terjawab
+    best_answer_button: 'Best Answer'
     composer:
       titlePlaceholder: 'Judul pertanyaan'
     filter:

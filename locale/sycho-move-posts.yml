@@ -4,8 +4,16 @@
 
 sycho-move-posts:
   admin:
+    permissions:
+      move_posts: '=> sycho-move-posts.ref.move_posts'
     settings:
       moved_first_post_content_help: "Ketika Anda memiliki sebuah diskusi dengan hanya satu postingan, memindahkan postingan tersebut akan mengakibatkan postingan pertama dari diskusi awal akan diedit untuk mengarah ke diskusi baru. Anda dapat mengedit isi postingan tersebut di sini.\n"
   forum:
+    discussion:
+      move_posts: '=> sycho-move-posts.ref.move_posts'
+    error:
+      move_old_post_to_newer_discussion: '=> sycho-move-posts.ref.status.old_to_new_move'
     modal:
       discussion_help: 'Tag dari diskusi sumber akan digunakan, dan dapat diubah setelah pembuatan.'
+      discussion_name: '=> core.forum.composer_discussion.title_placeholder'
+      title: '=> sycho-move-posts.ref.move_posts'

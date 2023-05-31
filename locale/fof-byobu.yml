@@ -21,6 +21,7 @@ fof-byobu:
       make_public: 'Jadikan diskusi ini publik'
       remove_from_discussion: 'Tinggalkan diskusi pribadi ini'
       send_pd: 'Kirim pesan ke {username}'
+      submit: OK
     composer_private_discussion:
       title_placeholder: 'Judul Diskusi Pribadi'
     confirm:

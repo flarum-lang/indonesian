@@ -5,4 +5,8 @@
 tpokorra-post-notification:
   admin:
     settings:
+      new_discussion: 'Label untuk mendeskripsikan diskusi baru'
+      new_post: 'Label untuk mendeskripsikan postingan baru'
+      post_approval: 'Label untuk mendeskripsikan postingan baru yang membutuhkan persetujuan'
+      revised_post: 'Label untuk mendeskripsikan postingan yang direvisi'
       title: 'Konfigurasi Notifikasi Postingan'

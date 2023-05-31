@@ -15,6 +15,7 @@ flarum-statistics:
     statistics:
       current_period: 'Periode saat ini'
       custom_label: 'Pilih rentang yang disesuaikan...'
+      custom_label_specified: '{fromDate} ke {toDate}'
       discussions_heading: '=> core.ref.discussions'
       export_chart_button: 'Ekspor chart ke SVG'
       last_12_months_label: '12 bulan terakhir'

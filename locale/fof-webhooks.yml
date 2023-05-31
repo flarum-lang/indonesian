@@ -7,6 +7,23 @@ fof-webhooks:
     errors:
       tag_invalid: 'Webhook ini dibatasi untuk tag yang tidak valid. Pembatasan tidak akan berlaku. Pastikan hal ini dimaksudkan.'
     settings:
+      actions:
+        flarum:
+          discussion:
+            deleted: '=> fof-webhooks.ref.deleted'
+            hidden: '=> fof-webhooks.ref.hidden'
+            renamed: '=> fof-webhooks.ref.renamed'
+            restored: '=> fof-webhooks.ref.restored'
+          group:
+            deleted: '=> fof-webhooks.ref.deleted'
+            renamed: '=> fof-webhooks.ref.renamed'
+          post:
+            deleted: '=> fof-webhooks.ref.deleted'
+            hidden: '=> fof-webhooks.ref.hidden'
+            restored: '=> fof-webhooks.ref.restored'
+          user:
+            deleted: '=> fof-webhooks.ref.deleted'
+            renamed: '=> fof-webhooks.ref.renamed'
       help:
         disabled: 'Webhook ini dinonaktifkan karena tidak memiliki event yang diaktifkan.'
         general: 'Di sini Anda dapat menambahkan, mengedit, dan menghapus webhook dari forum Anda.'
