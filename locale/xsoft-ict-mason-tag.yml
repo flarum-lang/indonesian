@@ -64,7 +64,7 @@ xsoft-mason-tag:
   forum:
     answers-modal:
       edit-title: 'Mengedit kolom pada {title}'
-      save: 'Save fields'
+      save: 'Simpan kolom'
     answers:
       choose-option: 'Pilih salah satu opsi'
       no-option-selected: 'Tidak ada opsi yang dipilih'

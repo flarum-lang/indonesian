@@ -7,7 +7,7 @@ fof-socialprofile:
     permissions:
       editAny: 'Edit profil sosial siapa pun'
       editOwn: 'Edit profil sosial Anda sendiri'
-      view: 'Lihat profil sosial'
+      view: 'Melihat profil sosial'
     settings:
       allow_external_favicons_label: 'Izinkan ikon situs web eksternal (menggunakan API favicon DuckDuckGo)'
   forum:

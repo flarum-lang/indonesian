@@ -5,7 +5,7 @@
 fof-secure-https:
   admin:
     settings:
-      replace: 'Gambar proxy melalui HTTPS'
+      replace: 'Proxy gambar melalui HTTPS'
   forum:
     removed: 'Gambar dihapus karena kurangnya dukungan untuk HTTPS.'
     show: Tampilkan
