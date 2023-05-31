@@ -5,12 +5,12 @@
 fof-polls:
   admin:
     permissions:
-      change_vote: 'Edit vote'
-      moderate: 'Edit & hapus polling'
+      change_vote: 'Mengganti vote'
+      moderate: 'Mengedit & menghapus polling'
       self_edit: 'Izinkan user untuk merubah pollingnya'
-      start: 'Mulai polling'
+      start: 'Memulai polling'
       view_results_without_voting: 'Melihat hasil tanpa melakukan voting'
-      vote: 'Lakukan voting pada polling'
+      vote: 'Memberikan vote pada polling'
     settings:
       allow_option_image: 'Izinkan URL gambar disediakan untuk setiap opsi polling'
   forum:

@@ -13,6 +13,7 @@ fof-pages:
       delete_page_button: 'Hapus halaman'
       delete_page_confirmation: 'Apakah Anda yakin ingin menghapus halaman ini?'
       hidden_label: 'Simpan sebagai draf'
+      html_label: 'Aktifkan HTML'
       restricted_label: 'Batasi akses (konfigurasikan siapa saja yang dapat mengakses di tab Permissions)'
       set_as_home_page_confirmation: 'Apakah Anda yakin ingin menetapkan halaman ini sebagai halaman beranda Anda?'
       set_as_home_page_done: 'Beranda diperbarui'

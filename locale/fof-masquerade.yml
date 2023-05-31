@@ -5,18 +5,33 @@
 fof-masquerade:
   admin:
     buttons:
-      add-field: 'Membuat kolom'
+      add-field: 'Buat kolom'
       delete-field: 'Hapus kolom'
       edit-field: 'Simpan perubahan'
     fields:
+      add: 'Tambahkan kolom {field}'
+      description: 'Deskripsi kolom'
+      description-help: "Deskripsi opsional untuk menjelaskan penggunaan/kebutuhan dari kolom ini.\n"
+      edit: 'Edit kolom {field}'
+      force-user-to-completion: 'Paksa pengguna untuk melengkapi profil'
       icon: Ikon
+      icon-help: "Menampilkan ikon di depan nilai yang dimasukkan oleh pengguna. Untuk referensi ikon yang tersedia, kunjungi situs web <a>FontAwesome</a>. Gunakan nama ikon dengan awalan \"fa-\", seperti \"fas fa-info\".\n"
       name: 'Nama kolom'
+      name-help: "Label kolom yang dapat dilihat oleh publik (tidak dapat diterjemahkan).\n"
+      on_bio: 'Tampilkan jawaban untuk kolom ini di bio pengguna'
+      option-comma-warning: 'Label opsi tidak boleh mengandung koma (",").'
       option-new: 'Pilihan baru'
       options: Pilihan
+      required: 'Tandai kolom yang harus diisi'
       title: Kolom
+      type: Tipe
+      validation: Validasi
+      validation-help: "Periksa <a>aturan validasi Laravel</a> yang didukung. Misalnya: \"string|min:5\" atau \"url\"..\n"
     general-options: 'Pilihan umum'
     permissions:
-      view-profile: 'Melihat penghitungan suara naik/turun'
+      edit-others-profile: 'Mengedit profil pengguna lainnya'
+      have-profile: 'Memiliki profil masquerade'
+      view-profile: 'Melihat penghitungan Upvote/Downvote'
   forum:
     alerts:
       profile-completed: 'Profile sudah lengkap! <a>Lanjutkan ke beranda</a>'

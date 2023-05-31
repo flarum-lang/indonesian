@@ -12,7 +12,7 @@ fof-linguist:
       delete-redundant: 'Hapus terjemahan yang tidak perlu'
       delete-redundant-confirm: "Ini akan menghapus {count} terjemahan yang memiliki nilai asli dan nilai kustom yang sama. Hal ini berguna untuk membersihkan setelah update paket bahasa.\n"
       load-more: 'Muat lainnya'
-      reset: 'Kembalikan ke aslinya'
+      reset: 'Teks asli'
     clear-cache:
       button: 'Hapus cache'
       text: "Terjemahan baru belum diterapkan. Catatan: menghapus cache dapat memperlambat forum Anda untuk sementara waktu.\n"
@@ -31,12 +31,16 @@ fof-linguist:
         percent: '{percent} %'
         total: '{translated} / {total}'
       total-options:
+        count: Hitungan
         percent: Persen
     export:
       download: Download
+      include-all: 'Sertakan terjemahan yang ditetapkan untuk "Semua" bahasa'
+      include-originals: 'Sertakan terjemahan aslinya'
       locale: Lokal
       namespace-all: Semua
       title: Ekspor
+      warning: "Format ekspor menggunakan file terjemahan berbasis Yaml milik Flarum dan dirancang untuk dapat saling berbagi terjemahan antar forum dan dengan pengelola paket bahasa. Format ini tidak dirancang untuk memindahkan semua terjemahan ke forum baru. Tergantung pada kasus penggunaan Anda, menyalin database secara langsung mungkin merupakan ide yang lebih baik.\n"
     filters:
       for-extension: 'Untuk ekstensi'
       frontend: 'Untuk frontend'
@@ -58,6 +62,9 @@ fof-linguist:
         own: Custom
       with-own-translations: 'Terjemahan saya'
     import:
+      locale: Lokal
+      locale-all: 'Pseudo-locale "Semua"'
+      override-existing: 'Timpa terjemahan khusus yang sudah ada'
       results: "Impor telah selesai. {imported}string telah diimpor dan {identical}string yang identik diabaikan. Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.\n"
       results-with-ignore: "Impor telah selesai. {imported} telah diimpor, {ignored} string yang sudah ada telah diabaikan dan {identical}string yang identik telah dilewati. Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.\n"
       submit: Impor
@@ -70,7 +77,7 @@ fof-linguist:
     locales:
       all: Semua
     permissions:
-      view_string_keys: 'Lihat kunci string terjemahan'
+      view_string_keys: 'Melihat string key terjemahan'
     placeholder:
       all-locales: 'Teks yang didefinisikan di sini akan ditampilkan dalam semua bahasa'
       not-translated: 'Tidak diterjemahkan'

@@ -47,7 +47,7 @@ fof-gamification:
         alternate_layout: 'Gunakan tata letak voting alternatif pada daftar diskusi'
         alternate_post_layout: 'Gunakan tata letak voting alternatif pada postingan'
         auto_upvote: 'Berikan Upvote secara otomatis pada postingan saat diposting'
-        discussion_page: 'Menampilkan total vote dari postingan awal pada daftar diskusi'
+        discussion_page: 'Tampilkan total vote dari postingan awal pada daftar diskusi'
         first_post_only: 'Hanya diizinkan untuk memberikan Upvote/Downvote pada postingan awal dalam sebuah diskusi'
         icon_help: 'Masukkan ikon Font-Awesome apa pun yang diakhiri dengan -up dan -down. Contoh: arrow, thumbs, chevron'
         icon_name: 'Ikon Upvote/Downvote'
