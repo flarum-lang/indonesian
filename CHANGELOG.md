@@ -12,7 +12,9 @@ CHANGELOG
 
 **Menambahkan dukungan untuk ekstensi**:
 
+* [`clarkwinkelmann/flarum-ext-username-blacklist`](https://github.com/clarkwinkelmann/flarum-ext-username-blacklist)
 * [`ianm/syndication`](https://github.com/imorland/syndication)
+* [`nyu8/flarum-email-filter`](https://github.com/nyu8/flarum-email-filter)
 
 
 **Terjemahan terbaru untuk ekstensi**:
@@ -22,13 +24,17 @@ CHANGELOG
 * [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series)
 * [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-auto-moderator)
 * [`askvortsov/flarum-discussion-templates`](https://github.com/askvortsov1/flarum-discussion-templates)
+* [`blessing/flarum-oauth-client`](https://github.com/bs-community/flarum-oauth-client)
 * [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
 * [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth)
 * [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
 * [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change)
 * [`clarkwinkelmann/flarum-ext-collapsible-posts`](https://github.com/clarkwinkelmann/flarum-ext-collapsible-posts)
+* [`clarkwinkelmann/flarum-ext-colorful-borders`](https://github.com/clarkwinkelmann/flarum-ext-colorful-borders)
 * [`clarkwinkelmann/flarum-ext-discussion-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-discussion-bookmarks)
 * [`clarkwinkelmann/flarum-ext-discussion-lists`](https://github.com/clarkwinkelmann/flarum-ext-discussion-lists)
+* [`clarkwinkelmann/flarum-ext-email-as-display-name`](https://github.com/clarkwinkelmann/flarum-ext-email-as-display-name)
+* [`clarkwinkelmann/flarum-ext-email-whitelist`](https://github.com/clarkwinkelmann/flarum-ext-email-whitelist)
 * [`clarkwinkelmann/flarum-ext-external-email-validation`](https://github.com/clarkwinkelmann/flarum-ext-external-email-validation)
 * [`clarkwinkelmann/flarum-ext-first-post-approval`](https://github.com/clarkwinkelmann/flarum-ext-first-post-approval)
 * [`clarkwinkelmann/flarum-ext-see-past-first-post`](https://github.com/clarkwinkelmann/flarum-ext-see-past-first-post)
@@ -42,6 +48,7 @@ CHANGELOG
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 * [`fof/mason`](https://github.com/FriendsOfFlarum/mason)
+* [`fof/passport`](https://github.com/FriendsOfFlarum/passport)
 * [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge)
 * [`justoverclock/country-flags`](https://github.com/justoverclockl/country-flags)
 * [`justoverclock/custom-header`](https://github.com/justoverclockl/custom-header)
@@ -49,10 +56,12 @@ CHANGELOG
 * [`justoverclock/first-visit-indexpage`](https://github.com/justoverclockl/first-visit-indexpage)
 * [`justoverclock/last-tweet`](https://github.com/justoverclockl/last-tweet)
 * [`justoverclock/last-users-posts`](https://github.com/justoverclockl/last-users-posts)
+* [`justoverclock/username-blacklist`](https://github.com/justoverclockl/username-blacklist)
 * [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
 * [`nearata/flarum-ext-minecraft-avatars`](https://github.com/Nearata/flarum-ext-minecraft-avatars)
 * [`rob006/flarum-ext-last-post-avatar`](https://github.com/rob006-software/flarum-ext-last-post-avatar)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+* [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag)
 * [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
 * [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see)
 
