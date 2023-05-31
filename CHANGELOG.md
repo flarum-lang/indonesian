@@ -2,6 +2,36 @@ CHANGELOG
 =========
 
 
+1.2.1 (XXXX-XX-XX)
+------------------
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`blomstra/oauth-slack`](https://github.com/blomstra/flarum-ext-oauth-slack)
+* [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
+* [`clarkwinkelmann/flarum-ext-clippy`](https://github.com/clarkwinkelmann/flarum-ext-clippy)
+* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read)
+* [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links)
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`hehongyuanlove/flarum-auth-qq`](https://github.com/Hehongyuanlove/flarum-auth-qq)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
+* [`miniflar/sidenav-download-button`](https://github.com/miniflar/sidenav-download-button)
+* [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
+* [`the-turk/flarum-regrole`](https://github.com/the-turk/flarum-regrole)
+* [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification)
+* [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts)
+
+
+Semua perubahan: [1.2.0...1.2.1](https://github.com/flarum-lang/indonesian/compare/1.2.0...1.2.1).
+
+
 1.2.0 (2023-05-31)
 ------------------
 
