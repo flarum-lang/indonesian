@@ -19,13 +19,17 @@ CHANGELOG
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`hehongyuanlove/flarum-auth-qq`](https://github.com/Hehongyuanlove/flarum-auth-qq)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
 * [`miniflar/sidenav-download-button`](https://github.com/miniflar/sidenav-download-button)
 * [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
 * [`the-turk/flarum-regrole`](https://github.com/the-turk/flarum-regrole)
 * [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification)
+* [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
 * [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts)
 
 
