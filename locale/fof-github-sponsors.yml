@@ -6,6 +6,9 @@ fof-github-sponsors:
   admin:
     account_types:
       organization: Organisasi
+      user: Pengguna
     settings:
       account_type_label: 'Tipe Akun'
       api_token_label: 'Token API'
+      desc: 'Dapatkan token API Anda di <a>https://github.com/settings/tokens/new</a>. Ekstensi ini membutuhkan cakupan <code>pengguna</code> dan <code>read:org</code>.'
+      login_label: Login

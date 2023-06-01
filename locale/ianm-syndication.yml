@@ -5,5 +5,10 @@
 ianm-syndication:
   admin:
     settings:
+      entries-count: 'Berapa banyak entri per feed?'
+      forum-icons:
+        label: 'Tampilkan link Atom/RSS feed di forum'
       full-text:
         help: 'Jika dinonaktifkan, feed hanya akan berisi kutipan postingan, dan user harus masuk ke forum untuk membaca semuanya. Direkomendasikan untuk membiarkan opsi ini aktif untuk menghormati orang-orang yang mengikuti forum dari RSS aggregator-jika ada.'
+      html:
+        help: 'Centang ini untuk menggunakan HTML dalam feed yang dihasilkan. Jika dinonaktifkan, feed akan berupa teks biasa.'

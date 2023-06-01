@@ -4,11 +4,20 @@
 
 v17development-flarum-badges:
   admin:
+    badge:
+      background_color: 'Warna background'
+      description: 'Deskripsi badge'
+      icon: 'Ikon badge'
+      icon_color: 'Warna ikon'
+      label_color: 'Warna teks'
+      name: 'Nama badge'
     confirm_dialog:
       'no': Tidak
       title: Konfirmasi
       'yes': Ya
     permissions:
       badge_detail_users: 'Dapat melihat user di halaman detail badge'
+      give_badge: 'Memberikan badge kepada pengguna'
+      take_badge: 'Mengambil badge dari pengguna'
   forum:
     save_changes: 'Simpan perubahan'

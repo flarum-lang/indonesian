@@ -6,6 +6,8 @@ fof-webhooks:
   admin:
     errors:
       tag_invalid: 'Webhook ini dibatasi untuk tag yang tidak valid. Pembatasan tidak akan berlaku. Pastikan hal ini dimaksudkan.'
+    nav:
+      desc: 'Outgoing webhook yang dapat disesuaikan untuk forum Anda.'
     settings:
       actions:
         flarum:
@@ -31,5 +33,6 @@ fof-webhooks:
       modal:
         group_help: 'Kirim sumber daya yang dapat dilihat oleh grup ini'
         group_label: Grup
+        max_post_content_length_help: 'Tetapkan angka untuk membatasi konten postingan di semua event yang berkaitan dengan postingan. Ubah ke 0 atau kosongkan untuk menghilangkan limit.'
         title: 'Pengaturan Webhook'
         use_plain_text_label: 'Kurangi jumlah pemformatan dalam konten post'
