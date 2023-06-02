@@ -7,6 +7,8 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`acpl/my-tags`](https://github.com/android-com-pl/my-tags)
+* [`afrux/asirem`](https://github.com/afrux/asirem)
 * [`blomstra/oauth-slack`](https://github.com/blomstra/flarum-ext-oauth-slack)
 * [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
 * [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
