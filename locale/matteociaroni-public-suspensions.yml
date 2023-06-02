@@ -5,4 +5,4 @@
 matteociaroni-public-suspensions:
   admin:
     permissions:
-      read_suspensions: 'Lihat jika pengguna terkena penangguhan'
+      read_suspensions: 'Melihat apakah pengguna ditangguhkan'

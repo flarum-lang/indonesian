@@ -11,7 +11,7 @@ clarkwinkelmann-popular-discussion-badge:
       comments_placeholder: '0'
       conditions: 'Ketentuan untuk badge populer'
       conditions_help: "Komentar adalah jumlah total postingan komentar termasuk postingan pertama. Jumlah tampilan diambil dari ekstensi MichaelBelgia atau Flarumite. Kerangka waktu yang diberikan akan digunakan untuk menghitung jumlah komentar atau jumlah tampilan dalam n jam terakhir. Hanya ekstensi MichaelBelgium yang didukung untuk jumlah tampilan berbingkai waktu. Biarkan jangka waktu kosong atau tetapkan 0 jam untuk menghitung semua komentar atau jumlah tampilan yang sudah ada.\n"
-      hours: j
+      hours: jam
       mode: 'Mode operasi'
       mode_help: "Mode frontend adalah solusi efisien yang tidak menggunakan database. Mode penjadwal memerlukan pengaturan CRON dan memungkinkan kerangka waktu dalam kondisi tertentu.\n"
       mode_options:

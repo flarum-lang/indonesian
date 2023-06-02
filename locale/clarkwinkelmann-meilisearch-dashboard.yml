@@ -7,4 +7,4 @@ clarkwinkelmann-meilisearch-dashboard:
     header:
       link: 'Dasbor Meilisearch'
     permission:
-      access: 'Akses Dasbor Meilisearch'
+      access: 'Mengakses Meilisearch Dashboard'

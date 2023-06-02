@@ -5,9 +5,9 @@
 askvortsov-moderator-warnings:
   admin:
     permissions:
-      delete_warnings: 'Hapus peringatan moderator secara permanen'
+      delete_warnings: 'Menghapus peringatan moderator secara permanen'
       manage_warnings: 'Membuat dan menghapus peringatan moderator'
-      view_warnings: 'Tampilkan peringatan moderator'
+      view_warnings: 'Melihat peringatan moderator'
   forum:
     notifications:
       warning_no_strikes_text: 'Anda diperingatkan oleh {mod_username} (tidak ada sanksi)'

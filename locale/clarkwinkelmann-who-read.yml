@@ -5,20 +5,28 @@
 clarkwinkelmann-who-read:
   admin:
     permissions:
-      mark-unread: 'Tandai diskusi sebagai belum dibaca untuk pengguna sendiri'
-      see-read: 'Lihat status baca'
-      see-unread: 'Lihat status yang belum dibaca dari pengguna lain'
+      mark-unread: 'Menandai diskusi sebagai belum dibaca untuk pengguna sendiri'
+      see-read: 'Melihat status baca'
+      see-unread: 'Melihat status yang belum dibaca dari pengguna lain'
     settings:
+      only-groups: 'Hanya tampilkan status baca dari pengguna yang termasuk dalam grup tersebut'
+      show-between-posts: 'Tampilkan status sudah dibaca di antara postingan'
       show-count-of-readers-who-stopped: 'Tampilkan jumlah pengguna yang berhenti membaca, bukan total baca di antara post'
       show-in-discussion-list: 'Tampilkan pembaca di daftar diskusi'
+      unread-icon: 'Ikon untuk badge belum dibaca'
   forum:
     badges:
       following: '=> flarum-subscriptions.forum.badge.following_tooltip'
       ignoring: '=> flarum-subscriptions.forum.badge.ignoring_tooltip'
+      unread: 'Ditandai sebagai belum dibaca'
     controls:
       remove-unread: 'Hapus belum dibaca'
       set-unread: 'Tandai belum dibaca'
     modal:
       behind: 'Pengguna yang tidak membaca hingga akhir'
+      title: 'Para pembaca'
       to-the-end: 'Pengguna yang membaca hingga akhir'
       up-to-this-post: 'Pengguna yang membaca hingga ke post ini'
+    more:
+      info: 'Dan {count} lainnya'
+      show: 'Tampilkan {count} lagi'

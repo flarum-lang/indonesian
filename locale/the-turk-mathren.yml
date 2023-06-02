@@ -17,6 +17,7 @@ the-turk-mathren:
       cdn_asciimath2tex_text: 'CDN URL untuk <strong>asciimath2tex</strong>'
       cdn_katex_text: 'CDN URL untuk <strong>KaTeX</strong>'
       cdn_options_heading: 'Parameter CDN'
+      color_is_text_color_label: 'Izinkan command <code>\color</code> untuk mengambil dua argumen (colorIsTextColor)'
       delimiters_label: Delimiter
       delimiters_text: 'Pisahkan dengan koma. <strong>%e%</strong> adalah singkatan dari mathematical expression.'
       enable_copy_tex_label: 'Izinkan menyalin sumber elemen yang dirender dengan KaTeX'
