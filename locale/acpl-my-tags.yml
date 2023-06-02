@@ -8,4 +8,5 @@ acpl-my-tags:
       enable-placeholder: 'Aktifkan teks placeholder saat User tidak mengikuti tag apa pun'
   forum:
     index:
+      my_tags: 'Tag Saya'
       placeholder: 'Anda belum mengikuti tag apa pun. <a>Lihat tag</a>'
