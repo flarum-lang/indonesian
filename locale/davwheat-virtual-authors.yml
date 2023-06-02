@@ -14,6 +14,7 @@ davwheat-virtual-authors:
     virtual_author_item:
       delete_a11y_tooltip: Hapus
       description: Deskripsi
+      no_description: '=> davwheat-virtual-authors.ref.no_description'
   forum:
     set_modal:
       add_button: Tambah
@@ -21,6 +22,8 @@ davwheat-virtual-authors:
       delete_button: Hapus
       save: 'Simpan perubahan'
       virtual_author_exists: 'Sudah dipilih!'
+    virtual_author_page:
+      discussion_count: '=> davwheat-virtual-authors.ref.discussion_count'
     virtual_authors_list:
       no_description: 'Penulis ini menyimpan kesan misterius tentang mereka.'
   lib:

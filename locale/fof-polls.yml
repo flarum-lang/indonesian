@@ -30,7 +30,7 @@ fof-polls:
       no_voters: 'Belum Ada Suara'
       option_placeholder: Jawaban
       options_label: Jawaban
-      public_poll_label: 'Izinkan orang untuk melihat siapa yang melakukan voting'
+      public_poll_label: 'Izinkan orang-orang untuk melihat siapa saja yang melakukan voting'
       question_placeholder: Pertanyaan
       submit: Masukkan
     moderation:

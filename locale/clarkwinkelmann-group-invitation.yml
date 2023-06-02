@@ -5,7 +5,7 @@
 clarkwinkelmann-group-invitation:
   admin:
     permissions:
-      use: 'Gunakan link undangan grup'
+      use: 'Menggunakan link undangan grup'
     settings:
       create: Buat
       delete: Hapus
@@ -13,6 +13,12 @@ clarkwinkelmann-group-invitation:
       head:
         code: Kode
         group: Grup
+        usage: Pemakaian
+      placeholder:
+        code: 'Dibuat secara otomatis'
+        group: Pilih...
+        usage: 'Kosongkan untuk unlimited'
+      unlimited: unlimited
   api:
     error:
       no-usages-left: 'Undangan tidak dapat digunakan lagi'
@@ -24,3 +30,5 @@ clarkwinkelmann-group-invitation:
       not-found: 'Maaf, undangan grup ini tidak ditemukan.'
     success-alert: 'Anda telah berhasil bergabung dalam grup!'
     title: 'Anda telah diundang untuk bergabung dengan grup {group}!'
+    user:
+      not-connected: '<a>Login</a> untuk menerima undangan.'

@@ -5,4 +5,11 @@
 the-turk-mathren:
   admin:
     settings:
+      alias_block_delimiters_text: 'Delimiter <strong>Alias</strong> untuk ekspresi blok'
+      alias_inline_delimiters_text: 'Delimiter <strong>Alias</strong> untuk inline expression'
+      block_asciimath_delimiters_text: 'Delimiter <strong>BBCode</strong> untuk block AsciiMath expression'
+      block_delimiters_text: 'Delimiter <strong>BBCode</strong> harus disusun dengan huruf besar atau huruf kecil dan tanda hubung saja'
+      delimiters_label: Delimiter
+      delimiters_text: 'Pisahkan dengan koma. <strong>%e%</strong> adalah singkatan dari ekspresi matematika.'
       enable_copy_tex_label: 'Izinkan menyalin sumber elemen yang dirender dengan KaTeX'
+      inline_delimiters_text: 'Delimiter <strong>BBCode</strong> untuk ekspresi blok'

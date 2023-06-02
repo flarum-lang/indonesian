@@ -5,8 +5,8 @@
 clarkwinkelmann-mailing:
   admin:
     permissions:
-      mail_all: 'Kirim email ke grup atau ke semua pengguna'
-      mail_individual: 'Kirim email ke masing-masing pengguna'
+      mail_all: 'Mengirim email ke grup atau semua pengguna'
+      mail_individual: 'Mengirim email ke pengguna individu'
   api:
     no_recipients: 'Tidak ada penerima yang ditemukan'
   email:

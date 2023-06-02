@@ -15,4 +15,5 @@ askvortsov-markdown-tables:
         num_rows: '# Row (termasuk header)'
         remove_column: 'Hapus kolom'
         remove_row: 'Hapus row'
+        row: Row
       table_tooltip: Tabel
