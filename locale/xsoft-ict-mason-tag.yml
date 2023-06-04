@@ -43,6 +43,7 @@ xsoft-mason-tag:
       see-own-fields: 'Melihat kolom pada diskusi sendiri yang sudah ada'
       skip-required-fields: 'Mengizinkan untuk melewatkan kolom yang harus diisi'
     settings:
+      by-tag: 'Terapkan metadata ke tag tertentu saja'
       column-count: 'Jumlah kolom saat menampilkan kolom'
       composer-height-help: 'default adalah 200, harus lebih tinggi dari itu untuk mengakomodasi kolom.'
       fields-in-hero: 'Tampilkan kolom di banner diskusi, bukan di post yang pertama'

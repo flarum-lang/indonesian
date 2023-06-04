@@ -64,3 +64,5 @@ v17development-flarum-badges:
       title: 'Anda telah menerima badge baru'
     save_changes: 'Simpan perubahan'
     uncategorized: '=> v17development-flarum-badges.admin.uncategorized'
+    user_has_badge: 'Pengguna sudah memiliki badge ini.'
+    user_no_badges: 'Pengguna ini belum memiliki badge apa pun.'
