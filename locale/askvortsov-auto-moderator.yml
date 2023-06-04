@@ -40,12 +40,18 @@ askvortsov-auto-moderator:
       no_metrics_or_reqs: 'Tidak ada metrik atau persyaratan yang ditetapkan untuk kriteria ini. Ini berarti SEMUA pengguna akan memenuhi syarat untuk kriteria ini.'
       requirement_validation_errors: 'Kesalahan validasi driver persyaratan berikut ini ditemukan:'
       valid: 'Kriteria ini valid!'
+    metric_drivers:
+      likes_given: 'Like Yang Diberikan'
+      likes_received: 'Likes Yang Diterima'
     requirement_drivers:
       email_confirmed: 'Email Terkonfirmasi'
       suspended: Ditangguhkan
     suspend_selector:
       indefinitely: 'Menangguhkan Tanpa Batas Waktu?'
+    undefined_driver_item:
+      text: 'ERROR! Driver <strong>{driverName}</strong> tidak didefinisikan. Kemungkinan besar, driver ini ditambahkan oleh ekstensi yang saat ini tidak diinstal. Anda harus mengaktifkan kembali ekstensi tersebut atau menghapus driver ini agar kriteria menjadi valid kembali.'
   lib:
+    group_id: 'ID Grup'
     managed_groups:
       groups_not_editable: 'Grup yang dikelola dengan kriteria automoderator tidak dapat ditambahkan/dihapus ke/dari pengguna secara manual untuk mencegah ketidakkonsistenan.'
       header: 'Grup Yang Dikelola:'

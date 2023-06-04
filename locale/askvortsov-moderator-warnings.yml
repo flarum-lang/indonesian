@@ -8,6 +8,11 @@ askvortsov-moderator-warnings:
       delete_warnings: 'Menghapus peringatan moderator secara permanen'
       manage_warnings: 'Membuat dan menghapus peringatan moderator'
       view_warnings: 'Melihat peringatan moderator'
+  emails:
+    post_warned:
+      subject: '{warner_display_name} memperingatkan Anda dengan {strikes, plural, one {# strike} other {# strikes}} di {discussion_title}'
+    user_warned:
+      subject: '{warner_display_name} memperingatkan Anda dengan {strikes, plural, one {# strike} other {# strikes}}'
   forum:
     notifications:
       warning_no_strikes_text: 'Anda diperingatkan oleh {mod_username} (tidak ada sanksi)'
@@ -36,7 +41,7 @@ askvortsov-moderator-warnings:
     warning_modal:
       confirmation_message: 'Peringatan Anda telah disimpan. Anda mungkin perlu me-refresh halaman untuk melihatnya.'
       heading: 'Peringatkan <strong>{username}</strong>'
-      private_comment_heading: 'Mengapa <strong>{username}</strong> menerima peringatan ini? Komentar-komentar ini HANYA akan terlihat oleh moderator lain.'
-      public_comment_heading: 'Mengapa <strong>{username}</strong> menerima peringatan ini? Komentar-komentar ini akan terlihat oleh pengguna dan moderator lainnya.'
+      private_comment_heading: 'Mengapa <strong>{username}</strong> menerima peringatan ini? Komentar ini HANYA akan terlihat oleh moderator.'
+      public_comment_heading: 'Mengapa <strong>{username}</strong> menerima peringatan ini? Komentar ini akan terlihat oleh pengguna dan moderator.'
       strikes_heading: 'Berapa banyak sanksi yang harus diterapkan?'
       submit_button: 'Simpan peringatan'

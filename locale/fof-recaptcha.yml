@@ -8,6 +8,7 @@ fof-recaptcha:
       post_without_captcha: 'Membuat post dan diskusi tanpa captcha'
     settings:
       help_text: 'Dapatkan kredensial Google reCAPTCHA Anda <a>di sini</a>.'
+      type_label: 'Tipe reCAPTCHA'
   forum:
     error: 'Terjadi kesalahan saat memasukkan reCAPTCHA. Coba lagi.'
 validation:

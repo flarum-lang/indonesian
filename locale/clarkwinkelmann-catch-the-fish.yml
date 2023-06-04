@@ -11,6 +11,13 @@ clarkwinkelmann-catch-the-fish:
       tags-fallback:
         single-line: 'Setidaknya diperlukan 2 tag untuk probabilitas'
   forum:
+    edit-fish:
+      name: Nama
+    edit-round:
+      ends-at: 'Waktu berakhir'
+      name: Nama
+      starts-at: 'Waktu mulai'
     moderate:
       add: Tambahkan
       delete: Hapus
+      edit: Edit

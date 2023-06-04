@@ -36,3 +36,7 @@ fof-webhooks:
         max_post_content_length_help: 'Tetapkan angka untuk membatasi konten postingan di semua event yang berkaitan dengan postingan. Ubah ke 0 atau kosongkan untuk menghilangkan limit.'
         title: 'Pengaturan Webhook'
         use_plain_text_label: 'Kurangi jumlah pemformatan dalam konten post'
+      services:
+        discord: Discord
+        microsoft-teams: 'Microsoft Teams'
+        slack: Slack
