@@ -5,3 +5,14 @@
 header-slideshow:
   admin:
     ImageOne-help: 'Tetapkan URL yang valid ke gambar pertama Anda dalam slideshow'
+    TextSlide1: 'Slide 1 - Teks'
+    TextSlide2: 'Slide 2 - Teks'
+    TextSlide3: 'Slide 3 - Teks'
+    TitleSlide1: 'Slide 1 - Judul'
+    TitleSlide1-help: 'Judul slide pertama Anda'
+    TitleSlide2: 'Slide 2 - Judul'
+    TitleSlide2-help: 'Judul slide kedua Anda'
+    TitleSlide3: 'Slide 3 - Judul'
+    TitleSlide3-help: 'Judul slide ketiga Anda'
+    TransitionTime: 'Kecepatan transisi antar slide (standarnya adalah 5 detik)'
+    TransitionTime-help: 'Masukkan angka yang menunjukkan waktu transisi (dalam detik) di antara setiap slide'

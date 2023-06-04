@@ -10,6 +10,8 @@ kilowhat-formulaire:
       editOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.editOwnDiscussion'
       editOwnUser: '=> kilowhat-formulaire.ref.permissions.editOwnUser'
       fill: '=> kilowhat-formulaire.ref.permissions.fill'
+      heading: Formulaire
+      heading-advanced: 'Formulaire (opsi untuk ekstensi third-party)'
       seeAnyDiscussion: '=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion'
       seeAnyUser: '=> kilowhat-formulaire.ref.permissions.seeAnyUser'
       seeOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion'
@@ -20,8 +22,57 @@ kilowhat-formulaire:
         far-square: 'Ikon FontAwesome Regular Square'
         fas-circle: 'Ikon FontAwesome Solid Circle'
         fas-square: 'Ikon FontAwesome Solid Square'
+  api:
+    export:
+      meta:
+        created_at: '=> kilowhat-formulaire.ref.submission-meta.created_at'
+        hidden_at: '=> kilowhat-formulaire.ref.submission-meta.hidden_at'
+        link_id: '=> kilowhat-formulaire.ref.submission-meta.link_id'
+        locked_at: '=> kilowhat-formulaire.ref.submission-meta.locked_at'
+        uid: '=> kilowhat-formulaire.ref.submission-meta.uid'
+        updated_at: '=> kilowhat-formulaire.ref.submission-meta.updated_at'
+        user_activated: '=> kilowhat-formulaire.ref.submission-meta.user_activated'
+        user_displayname: '=> kilowhat-formulaire.ref.submission-meta.user_displayname'
+        user_email: '=> kilowhat-formulaire.ref.submission-meta.user_email'
+        user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
+        user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
+    formatter-parsing-error: 'Tidak dapat mem-parse konten: {message}'
   forum:
+    discussion-composer:
+      field:
+        title: Judul
+    export:
+      format-options:
+        csv: CSV
+        json: JSON
+        ods: ODS
+        xls: XLS
+        xlsx: XLSX
+      meta-options:
+        created_at: '=> kilowhat-formulaire.ref.submission-meta.created_at'
+        hidden_at: '=> kilowhat-formulaire.ref.submission-meta.hidden_at'
+        link_id: '=> kilowhat-formulaire.ref.submission-meta.link_id'
+        locked_at: '=> kilowhat-formulaire.ref.submission-meta.locked_at'
+        uid: '=> kilowhat-formulaire.ref.submission-meta.uid'
+        updated_at: '=> kilowhat-formulaire.ref.submission-meta.updated_at'
+        user_activated: '=> kilowhat-formulaire.ref.submission-meta.user_activated'
+        user_displayname: '=> kilowhat-formulaire.ref.submission-meta.user_displayname'
+        user_email: '=> kilowhat-formulaire.ref.submission-meta.user_email'
+        user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
+        user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
+      preview: Pratinjau
+      preview-primitives:
+        boolean-false: 'False'
+        boolean-true: 'True'
+      submit: Download
+    form-create:
+      field:
+        title: Judul
     form-edit-header:
+      category:
+        discussion: '=> kilowhat-formulaire.ref.type.discussion'
+        standalone: '=> kilowhat-formulaire.ref.type.standalone'
+        user: '=> kilowhat-formulaire.ref.type.user'
       delete: 'Hapus permanen'
       disable-expert-mode: 'Nonaktifkan mode expert'
       enable-expert-mode: 'Aktifkan mode expert'
@@ -33,10 +84,25 @@ kilowhat-formulaire:
       field:
         automatic-discussion-help: "Ketika diaktifkan, formulir akan terus dapat diakses seperti formulir mandiri. Kiriman akan secara otomatis dibuat dan terhubung dengan diskusi baru.\n"
     form-index:
+      columns:
+        title: Judul
       header:
         title: '=> kilowhat-formulaire.ref.manager'
       tabs:
+        discussion: '=> kilowhat-formulaire.ref.type.discussion'
         standalone: '=> kilowhat-formulaire.ref.type.standalone'
+        user: '=> kilowhat-formulaire.ref.type.user'
+    global-settings:
+      permissions:
+        editAnyDiscussion: '=> kilowhat-formulaire.ref.permissions.editAnyDiscussion'
+        editAnyUser: '=> kilowhat-formulaire.ref.permissions.editAnyUser'
+        editOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.editOwnDiscussion'
+        editOwnUser: '=> kilowhat-formulaire.ref.permissions.editOwnUser'
+        fill: '=> kilowhat-formulaire.ref.permissions.fill'
+        seeAnyDiscussion: '=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion'
+        seeAnyUser: '=> kilowhat-formulaire.ref.permissions.seeAnyUser'
+        seeOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion'
+        seeOwnUser: '=> kilowhat-formulaire.ref.permissions.seeOwnUser'
     nav:
       forms: '=> kilowhat-formulaire.ref.manager'
     save-controls:
@@ -44,6 +110,14 @@ kilowhat-formulaire:
     submission:
       delete: 'Hapus permanen'
       hide: Hapus
+    template-editor:
+      description: Deskripsi
+      no-answer: 'Tidak ada jawaban'
+      title: Judul
+      type:
+        upload: Upload
+  mail:
+    no-answer: 'Tidak ada jawaban'
   ref:
     permissions:
       editAnyDiscussion: 'Mengedit semua kolom diskusi'
@@ -54,3 +128,5 @@ kilowhat-formulaire:
       seeAnyUser: 'Melihat kolom profil siapa pun'
       seeOwnDiscussion: 'Melihat kolom diskusi sendiri'
       seeOwnUser: 'Melihat kolom profil sendiri'
+    submission-meta:
+      user_username: Username
