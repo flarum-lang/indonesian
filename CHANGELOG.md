@@ -8,6 +8,7 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`clarkwinkelmann/flarum-ext-predefined-avatars`](https://github.com/clarkwinkelmann/flarum-ext-predefined-avatars)
+* [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
 
 
 Semua perubahan: [1.2.1...1.2.2](https://github.com/flarum-lang/indonesian/compare/1.2.1...1.2.2).
