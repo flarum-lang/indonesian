@@ -8,10 +8,14 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories)
+* [`askvortsov/flarum-help-tags`](https://github.com/askvortsov1/flarum-help-tags)
 * [`clarkwinkelmann/flarum-ext-predefined-avatars`](https://github.com/clarkwinkelmann/flarum-ext-predefined-avatars)
+* [`clarkwinkelmann/flarum-ext-username-blacklist`](https://github.com/clarkwinkelmann/flarum-ext-username-blacklist)
 * [`datitisev/flarum-maintenance`](https://extiverse.com/extension/datitisev/flarum-maintenance)
 * [`fof/html-errors`](https://github.com/FriendsOfFlarum/html-errors)
+* [`justoverclock/header-slideshow`](https://github.com/justoverclockl/header-slideshow)
 * [`justoverclock/username-blacklist`](https://github.com/justoverclockl/username-blacklist)
+* [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
 * [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
 * [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag)
 * [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
