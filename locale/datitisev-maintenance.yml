@@ -2,7 +2,33 @@
 # Use https://weblate.rob006.net/projects/flarum/datitisev-maintenance/id/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+core:
+  lib:
+    error:
+      maintenance_message: 'Forum saat ini sedang dalam mode pemeliharaan.'
 datitisev-maintenance:
   admin:
+    dashboard:
+      disable_maintenance_mode_button: 'Nonaktifkan Mode Pemeliharaan'
+      enable_maintenance_mode_button: 'Aktifkan Mode Pemeliharaan'
     permissions:
       allow_bypass_maintenance_label: 'Bypass maintenance mode (pengaturan harus diaktifkan)'
+    settings:
+      disable_admin_label: 'Nonaktifkan akses admin'
+      disable_api_label: 'Nonaktifkan semua akses API'
+      error_page_hint: 'Anda dapat menggunakan $app, $translator, $settings, $title, dan $message dengan blade.'
+      error_page_label: 'Halaman Error HTML/Blade'
+      message_label: 'Pesan Halaman Error'
+      prefer_db_hint: 'Biasanya, value dalam <code>config.php</code> akan menggantikan value yang terlihat di sini. Aktifkan opsi ini untuk membuat opsi-opsi ini mengesampingkan opsi-opsi yang ada di berkas konfigurasi - jadi opsi-opsi tersebut hanya digunakan jika DB tidak dapat diakses.'
+      prefer_db_label: 'Lebih mengutamakan pengaturan DB daripada pengaturan yang ada di <code>config.php</code>'
+      settings_notice: 'Pengaturan ini mungkin bukan merupakan pengaturan saat ini. Pastikan pengaturan tersebut tidak ditimpa oleh file <code>config.php</code>.'
+      title: 'Mode Pemeliharaan'
+      title_label: 'Judul Halaman Error'
+  lib:
+    maintenance_active_disabled_api_message: 'Saat ini API dinonaktifkan untuk semua orang.'
+    maintenance_active_message: 'Forum ini saat ini sedang dalam masa pemeliharaan.'
+    maintenance_active_not_db_message: 'Mode pemeliharaan diaktifkan melalui <code>config.php</code>.'
+  views:
+    error:
+      message: 'Saat ini kami sedang melakukan pemeliharaan. Kami akan segera kembali online!'
+      title: Pemeliharaan
