@@ -4,6 +4,7 @@
 
 username-blacklist:
   admin:
+    blackList: 'Username Yang Masuk Daftar Hitam'
     blackList-help: 'Tulis di sini username yang ingin Anda blokir saat pendaftaran (pisahkan dengan koma)'
   forum:
     modal-body-first-line: 'Peringatan - Username ini <strong>diblokir oleh administrator</strong>'
