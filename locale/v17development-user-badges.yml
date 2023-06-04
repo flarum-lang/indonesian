@@ -4,20 +4,63 @@
 
 v17development-flarum-badges:
   admin:
+    auto_moderator:
+      action_drivers:
+        remove_badge: 'Hapus badge'
+      not_installed:
+        content: 'Ekstensi ini menawarkan lebih banyak fungsionalitas ketika <a>Auto Moderator</a> diinstal dan diaktifkan. Ketika Anda memasang ekstensi ini, pengguna dapat secara otomatis diberikan reward berupa badge tanpa campur tangan karyawan komunitas!'
+        dismiss: 'Jangan tampilkan lagi'
+        title: 'Secara otomatis memberikan reward kepada pengguna dengan badge'
     badge:
       background_color: 'Warna background'
       description: 'Deskripsi badge'
       icon: 'Ikon badge'
       icon_color: 'Warna ikon'
+      image: 'URL gambar badge'
+      image_placeholder: 'Masukkan URL untuk gambar badge'
+      is_image: 'Badge adalah sebuah gambar'
+      is_image_description: 'Gunakan gambar sebagai pengganti badge default'
       label_color: 'Warna teks'
       name: 'Nama badge'
+      visible: Terlihat
+      visible_description: 'Mengaktifkan badge ini. Saat dinonaktifkan, badge tidak akan terlihat.'
+    badge_category:
+      blockview: 'Tampilan blok'
+      blockview_description: 'Menampilkan kategori-badge dalam bentuk tampilan blok pada ikhtisar badge. Jika dinonaktifkan, semua badge akan ditampilkan dalam bentuk tabel.'
+      description: 'Deskripsi kategori'
+      enabled: Diaktifkan
+      enabled_description: 'Mengaktifkan kategori ini. Ketika dinonaktifkan, semua badge akan dinonaktifkan dan kategori akan disembunyikan.'
+      name: 'Nama kategori'
     confirm_dialog:
       'no': Tidak
       title: Konfirmasi
       'yes': Ya
+    confirm_messages:
+      delete_badge: 'Apakah Anda yakin ingin menghapus badge ini? Badge ini akan dihapus dari semua pengguna dan tidak dapat dikembalikan.'
+      delete_category: 'Apakah Anda yakin ingin menghapus kategori ini? Jika ada badge dalam kategori ini, badge tersebut akan ditandai sebagai ''tidak dikategorikan''.'
+    nothing_here_yet: 'Anda belum membuat badge atau kategori apa pun.'
+    number_of_badges_on_user_card: 'Jumlah badge'
+    number_of_badges_on_user_card_help: 'Jumlah badge yang akan ditampilkan pada user card'
     permissions:
       badge_detail_users: 'Dapat melihat user di halaman detail badge'
       give_badge: 'Memberikan badge kepada pengguna'
       take_badge: 'Mengambil badge dari pengguna'
+    uncategorized: 'Tidak dikategorikan'
   forum:
+    all_badges: 'Lihat semua badge'
+    all_users: 'Lihat semua pengguna'
+    badge:
+      category: 'Kategori badge'
+      description: 'Deskripsi badge'
+      name: 'Nama badge'
+    badge_information: 'Informasi tentang badge'
+    badges_in_card:
+      description: 'Anda dapat mengubah badge yang terlihat pada user card dengan salah satu badge lainnya. Jika Anda tidak memilih salah satu, maka badge akan dipilih secara otomatis.'
+    moderation:
+      remove_badge: 'Hapus badge dari pengguna'
+      remove_badge_confirm: 'Apakah Anda yakin ingin menghapus badge ini dari pengguna ini?'
+    notification:
+      settings: 'Saya telah menerima badge'
+      title: 'Anda telah menerima badge baru'
     save_changes: 'Simpan perubahan'
+    uncategorized: '=> v17development-flarum-badges.admin.uncategorized'
