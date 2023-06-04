@@ -8,6 +8,7 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`clarkwinkelmann/flarum-ext-predefined-avatars`](https://github.com/clarkwinkelmann/flarum-ext-predefined-avatars)
+* [`datitisev/flarum-maintenance`](https://extiverse.com/extension/datitisev/flarum-maintenance)
 * [`fof/html-errors`](https://github.com/FriendsOfFlarum/html-errors)
 * [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
 * [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag)
