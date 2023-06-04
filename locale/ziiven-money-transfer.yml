@@ -22,7 +22,7 @@ ziven-transfer-money:
     transfer-error: 'Transfer Error'
     transfer-error-no-permission: 'Anda tidak memiliki izin'
     transfer-list-assign-at: 'Tanggal Transfer'
-    transfer-list-empty: 'Riwayat transfer kosong'
+    transfer-list-empty: 'Tidak ada riwayat transfer'
     transfer-list-id: ID
     transfer-list-transfer-amount: Jumlah
     transfer-list-transfer-notes: Catatan

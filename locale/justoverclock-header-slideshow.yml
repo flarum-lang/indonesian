@@ -24,7 +24,7 @@ header-slideshow:
     LinkTwo-help: 'URL yang valid untuk tombol slide kedua'
     TextSlide1: 'Slide 1 - teks'
     TextSlide1-help: 'Teks untuk slide pertama Anda'
-    TextSlide2: 'Slide 2 - Teks'
+    TextSlide2: 'Slide 2 - teks'
     TextSlide2-help: 'Teks untuk slide kedua Anda'
     TextSlide3: 'Slide 3 - teks'
     TextSlide3-help: 'Teks untuk slide ketiga Anda'

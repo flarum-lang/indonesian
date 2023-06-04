@@ -8,7 +8,7 @@ flarum-ext-guestengagement:
     afterxpostdesc: 'Accept number, standarnya adalah 0 (box akan ditampilkan di atas aliran post)'
     autohide: 'Menyembunyikan kotak secara otomatis setelah X detik'
     autohidedesc: 'Gunakan milidetik, misalnya untuk 5 detik gunakan 5000'
-    changetextbox: 'Mengganti teks pada box'
+    changetextbox: 'Mengubah teks pada box'
     changetextboxdesc: 'Mengatur teks untuk alert box yang terletak DI ANTARA POST'
     enablealbox: 'Mengaktifkan/Menonaktifkan Alert Box di Homepage'
     enablepostbox: 'Mengaktifkan/Menonaktifkan box "Di Antara Post"'
