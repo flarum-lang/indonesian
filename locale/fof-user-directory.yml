@@ -8,7 +8,7 @@ fof-user-directory:
       view_user_directory: 'Melihat direktori user'
     settings:
       disable-global-search-source: 'Jangan menambahkan Direktori User ke kolom pencarian global Flarum'
-      link: 'Tambahkan link di beranda agar user dapat melihat direktori'
+      link: 'Tambahkan link di homepage agar user dapat melihat direktori'
   forum:
     header:
       back_to_user_directory_tooltip: 'Kembali ke Direktori User'

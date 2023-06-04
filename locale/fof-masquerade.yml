@@ -34,7 +34,7 @@ fof-masquerade:
       view-profile: 'Melihat penghitungan Upvote/Downvote'
   forum:
     alerts:
-      profile-completed: 'Profile sudah lengkap! <a>Lanjutkan ke beranda</a>'
+      profile-completed: 'Profile sudah lengkap! <a>Lanjutkan ke homepage</a>'
       profile-completion-required: "Lengkapi kolom profil yang diperlukan di bawah ini.\n"
     buttons:
       edit-profile: 'Edit profil'
