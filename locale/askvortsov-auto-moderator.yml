@@ -43,11 +43,16 @@ askvortsov-auto-moderator:
       no_metrics_or_reqs: 'Tidak ada metrik atau persyaratan yang ditetapkan untuk kriteria ini. Ini berarti SEMUA pengguna akan memenuhi syarat untuk kriteria ini.'
       requirement_validation_errors: 'Kesalahan validasi driver persyaratan berikut ini ditemukan:'
       valid: 'Kriteria ini valid!'
+    group_selector:
+      placeholder: 'Pilih grup'
+    in_group_settings:
+      regex: 'Regex untuk Email yang Valid (tanpa garis miring)'
     metric_drivers:
       likes_given: 'Like Yang Diberikan'
       likes_received: 'Like Yang Diterima'
     requirement_drivers:
       email_confirmed: 'Email Terkonfirmasi'
+      email_matches_regex: 'Regex Cocok Dengan Email'
       suspended: Ditangguhkan
     suspend_selector:
       indefinitely: 'Menangguhkan Tanpa Batas Waktu?'
