@@ -52,7 +52,10 @@ v17development-flarum-badges:
     badge:
       category: 'Kategori badge'
       description: 'Deskripsi badge'
+      earning_reason: 'Alasan memperoleh badge'
       name: 'Nama badge'
+      no_earning_reason: 'Tidak ada alasan perolehan yang ditetapkan'
+      update_earning_reason: 'Update alasan memperoleh badge'
     badge_information: 'Informasi tentang badge'
     badges_in_card:
       description: 'Anda dapat mengubah badge yang terlihat pada user card dengan salah satu badge lainnya. Jika Anda tidak memilih salah satu, maka badge akan dipilih secara otomatis.'
