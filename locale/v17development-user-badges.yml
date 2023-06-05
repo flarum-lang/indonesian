@@ -13,6 +13,8 @@ v17development-flarum-badges:
         content: 'Ekstensi ini menawarkan lebih banyak fungsionalitas ketika <a>Auto Moderator</a> diinstal dan diaktifkan. Ketika Anda memasang ekstensi ini, pengguna dapat secara otomatis diberikan reward berupa badge tanpa campur tangan karyawan komunitas!'
         dismiss: 'Jangan tampilkan lagi'
         title: 'Secara otomatis memberikan reward kepada pengguna dengan badge'
+      requirement_drivers:
+        has_badge: 'Memiliki badge'
     badge:
       background_color: 'Warna background'
       description: 'Deskripsi badge'

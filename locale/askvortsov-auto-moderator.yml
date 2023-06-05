@@ -53,6 +53,7 @@ askvortsov-auto-moderator:
     requirement_drivers:
       email_confirmed: 'Email Terkonfirmasi'
       email_matches_regex: 'Regex Cocok Dengan Email'
+      in_group: 'Dalam grup'
       suspended: Ditangguhkan
     suspend_selector:
       indefinitely: 'Menangguhkan Tanpa Batas Waktu?'
