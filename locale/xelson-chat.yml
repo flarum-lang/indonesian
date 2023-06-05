@@ -6,18 +6,20 @@ xelson-chat:
   admin:
     permissions:
       create:
-        channel: 'Mulai saluran'
-        chat: 'Mulai obrolan'
-      delete: 'Hapus pesan obrolan'
-      edit: 'Edit pesan obrolan'
-      enabled: 'Aktifkan obrolan'
+        channel: 'Memulai saluran'
+        chat: 'Memulai obrolan'
+      delete: 'Menghapus pesan obrolan'
+      edit: 'Mengedit pesan obrolan'
+      enabled: 'Mengaktifkan obrolan'
       moderate:
-        delete: 'Hapus pesan obrolan'
-        vision: 'Lihat pesan yang dihapus'
-      post: 'Kirim pesan obrolan'
+        delete: 'Menghapus pesan obrolan'
+        vision: 'Melihat pesan yang dihapus'
+      post: 'Mengirim pesan obrolan'
     settings:
+      charlimit: 'Jumlah karakter maksimum dalam pesan'
       display:
         censor: 'Menyensor pesan untuk pengguna yang tidak sah'
+        minimize: 'Kecilkan tampilan awalnya'
         title: Tampilan
       floodgate:
         number: 'Jumlah pesan dalam satu baris'
@@ -36,6 +38,9 @@ xelson-chat:
             desc: 'Copy dan paste nama obrolan untuk melanjutkan'
             placeholder: 'Nama obrolan'
             title: 'Apakah Anda yakin ingin menghapus obrolan ini?'
+          icon:
+            label: '=> core.ref.icon'
+            validator: '=> core.ref.icon_text'
           leave: 'Tinggalkan obrolan'
           return: 'Masuk ke dalam obrolan'
           title:
@@ -46,6 +51,7 @@ xelson-chat:
         moderator:
           got: 'Anda baru saja mendapatkan hak Moderator di obrolan {chatname}!'
           lost: 'Anda baru saja kehilangan hak Moderator dalam obrolan {chatname}.'
+        save_button: '=> core.ref.save_changes'
         search:
           failed: 'Tidak ditemukan pengguna yang cocok'
           invited: Diundang
@@ -63,6 +69,12 @@ xelson-chat:
             channel: 'Membuat saluran baru'
             chat: 'Membuat obrolan baru'
           form:
+            color:
+              label: '=> xelson-chat.forum.chat.edit_modal.form.color.label'
+              validator: '=> xelson-chat.forum.chat.edit_modal.form.color.validator'
+            icon:
+              label: '=> core.ref.icon'
+              validator: '=> core.ref.icon_text'
             title:
               channel: 'Nama saluran'
               chat: 'Nama obrolan'
@@ -73,6 +85,7 @@ xelson-chat:
             invited: Diundang
             placeholder: 'Cari User'
           title: 'Pilih pengguna'
+        placeholder: 'Filter Obrolan'
         preview:
           empty: 'Tidak ada pesan'
       message:
@@ -102,17 +115,21 @@ xelson-chat:
             invited: '{editorname} mengundang {usernames}'
             invited_kicked: '{editorname} mengundang {invitednames} dan mengeluarkan {kickednames}'
             kicked: '{editorname} mengeluarkan {usernames}'
+        type:
+          url: URL
         you: Anda
+      moder: Moderator
       placeholder: 'Ketik pesan Anda...'
       rejoin: 'Bergabung kembali'
       welcome:
+        header: 'Selamat datang di Neon Chat!'
         subheader: 'Pilih obrolan di sebelah kiri untuk percakapan'
     errors:
       chatdenied: 'Grup pengguna Anda tidak diizinkan untuk menulis pesan'
       removed: 'Anda telah dikeluarkan dari obrolan'
       unauthenticated: 'Hanya pengguna terdaftar yang dapat menggunakan obrolan'
     index:
-      chat_link: Obrolan
+      chat_link: Chat
     pusher_not_found: 'Pusher atau Websockets diperlukan agar obrolan dapat diperbarui secara real time.'
     toolbar:
       chat:
@@ -121,4 +138,6 @@ xelson-chat:
       disable_sounds: 'Matikan suara'
       enable_notifications: 'Aktifkan notifikasi'
       enable_sounds: 'Aktifkan suara'
-      title: Obrolan
+      maximize: Lebarkan
+      minimize: Kecilkan
+      title: Chat
