@@ -34,6 +34,7 @@ CHANGELOG
 * [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 * [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
+* [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat)
 * [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag)
 * [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
 
