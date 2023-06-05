@@ -24,6 +24,7 @@ CHANGELOG
 * [`fof/pages`](https://github.com/FriendsOfFlarum/pages)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`ianm/html-head`](https://github.com/imorland/html-head)
