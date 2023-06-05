@@ -16,7 +16,7 @@ xelson-chat:
         vision: 'Melihat pesan yang dihapus'
       post: 'Mengirim pesan obrolan'
     settings:
-      charlimit: 'Jumlah karakter maksimum dalam pesan'
+      charlimit: 'Batas karakter dalam sebuah pesan'
       display:
         censor: 'Menyensor pesan untuk pengguna yang tidak sah'
         minimize: 'Kecilkan tampilan awalnya'
@@ -131,7 +131,7 @@ xelson-chat:
       removed: 'Anda telah dikeluarkan dari obrolan'
       unauthenticated: 'Hanya pengguna terdaftar yang dapat menggunakan obrolan'
     index:
-      chat_link: Chat
+      chat_link: Obrolan
     pusher_not_found: 'Pusher atau Websockets diperlukan agar obrolan dapat diperbarui secara real time.'
     toolbar:
       chat:
@@ -142,4 +142,4 @@ xelson-chat:
       enable_sounds: 'Aktifkan suara'
       maximize: Lebarkan
       minimize: Kecilkan
-      title: Chat
+      title: Obrolan
