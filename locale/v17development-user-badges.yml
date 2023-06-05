@@ -6,6 +6,8 @@ v17development-flarum-badges:
   admin:
     auto_moderator:
       action_drivers:
+        badge_id: 'ID Badge'
+        give_badge: 'Berikan badge'
         remove_badge: 'Hapus badge'
       not_installed:
         content: 'Ekstensi ini menawarkan lebih banyak fungsionalitas ketika <a>Auto Moderator</a> diinstal dan diaktifkan. Ketika Anda memasang ekstensi ini, pengguna dapat secara otomatis diberikan reward berupa badge tanpa campur tangan karyawan komunitas!'
@@ -50,6 +52,8 @@ v17development-flarum-badges:
     all_badges: 'Lihat semua badge'
     all_users: 'Lihat semua pengguna'
     badge:
+      badge: Badge
+      badges: Badge
       category: 'Kategori badge'
       description: 'Deskripsi badge'
       earning_reason: 'Alasan memperoleh badge'
@@ -59,13 +63,16 @@ v17development-flarum-badges:
     badge_information: 'Informasi tentang badge'
     badges_in_card:
       description: 'Anda dapat mengubah badge yang terlihat pada user card dengan salah satu badge lainnya. Jika Anda tidak memilih salah satu, maka badge akan dipilih secara otomatis.'
+    give_badge: 'Berikan badge'
     moderation:
+      give_badge: 'Berikan badge'
       remove_badge: 'Hapus badge dari pengguna'
       remove_badge_confirm: 'Apakah Anda yakin ingin menghapus badge ini dari pengguna ini?'
     notification:
       settings: 'Saya telah menerima badge'
       title: 'Anda telah menerima badge baru'
     save_changes: 'Simpan perubahan'
+    select_badge: 'Pilih badge'
     uncategorized: '=> v17development-flarum-badges.admin.uncategorized'
     user_has_badge: 'Pengguna sudah memiliki badge ini.'
     user_no_badges: 'Pengguna ini belum memiliki badge apa pun.'
