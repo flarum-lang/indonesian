@@ -16,6 +16,7 @@ clarkwinkelmann-catch-the-fish:
       animate-flip: 'Balik gambar ikan berdasarkan arah'
       discussion: Diskusi
       discussion-age: 'Berapa usia diskusi agar ikan dapat ditempatkan di atasnya (hari)'
+      discussion-tags: 'Tag - daftar putih'
       discussion-tags-help: "Jika Anda tidak memilih tag apa pun, diskusi apa pun yang cocok dengan pengaturan waktu di atas dapat dipilih. Jika ada sejumlah tag yang dipilih, sebuah diskusi harus memiliki setidaknya satu dari tag yang dipilih untuk dipilih. Probabilitas adalah peluang untuk dipilih setelah semua pilihan sebelumnya telah dicoba. Tag terakhir dalam list akan selalu bertindak sebagai fallback, jadi pastikan tag tersebut memiliki setidaknya satu diskusi yang valid di dalamnya.\n"
       discussion-tags-unavailable: 'Pengaturan tidak tersedia karena ekstensi Tag tidak aktif.'
       post: Postingan
@@ -96,10 +97,12 @@ clarkwinkelmann-catch-the-fish:
       name: Nama
       name-help: 'Nama publik untuk ronde ini, akan ditampilkan di banner dan peringkat'
       save: 'Simpan ronde'
+      starting-pack: 'Paket Awal'
       starting-pack-help: 'Akan ada beberapa ikan yang bisa Anda dapatkan dalam waktu singkat'
       starts-at: 'Waktu mulai'
     fish-image:
       alt: 'Gambar ikan "{name}"'
+      missing: 'Gambar ikan tidak ditemukan'
     moderate:
       add: Tambahkan
       delete: Hapus
@@ -123,12 +126,14 @@ clarkwinkelmann-catch-the-fish:
       message: 'Ronde "{name}", tangkap ikan sebanyak-banyaknya hingga {time}'
       rankings: 'Lihat peringkat'
     table-fish:
+      actions: Tindakan
       edit: Edit
       image: Gambar
       loading: Memuat...
       name: Nama
       new: 'Ikan baru'
       new-from-image: 'Membuat ikan baru melalui impor gambar massal'
+      no-user-name: 'Belum pernah ganti nama'
       placement: 'Lokasi saat ini'
       title: 'Ikan untuk ronde {name}'
       upload: 'Upload gambar baru'
@@ -141,6 +146,7 @@ clarkwinkelmann-catch-the-fish:
       title: 'Peringkat dari ronde {name}'
       user: Pengguna
     table-round:
+      actions: Tindakan
       edit: Edit
       end: Hingga
       fishes: Ikan
