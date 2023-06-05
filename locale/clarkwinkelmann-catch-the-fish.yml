@@ -50,7 +50,7 @@ clarkwinkelmann-catch-the-fish:
     model-deleted: 'Tidak dapat menempatkan ikan pada diskusi atau postingan yang telah dihapus'
     model-private: 'Tidak dapat menempatkan ikan pada diskusi atau postingan pribadi'
     non-comment-post: 'Hanya dapat menempatkan ikan pada postingan komentar'
-    random-error: 'Tidak dapat menghasilkan penempatan ikan secara acak'
+    random-error: 'Tidak dapat menghasilkan penempatan ikan secara random'
     round-finished: 'Ronde ini sudah selesai'
     round-not-started: 'Ronde ini belum dimulai'
     tag-not-allowed: 'Anda tidak dapat menempatkan ikan pada tag ini'
@@ -79,7 +79,7 @@ clarkwinkelmann-catch-the-fish:
       message: 'Anda dapat meletakkan ikan di sini'
       missing-from-store: 'Tidak dapat menemukan ikan di penyimpanan data'
     edit-fish-modal:
-      title: 'Edit Ikan "{name}"'
+      title: 'Mengedit Ikan "{name}"'
     edit-fish:
       create: 'Buat ikan'
       delete: 'Hapus ikan'
@@ -88,7 +88,7 @@ clarkwinkelmann-catch-the-fish:
       name-help: 'Nama ikan saat ini. Dapat diedit oleh pemain jika mereka memiliki izin untuk mengganti nama ikan'
       save: 'Simpan ikan'
     edit-round-modal:
-      title: 'Edit Ronde "{name}"'
+      title: 'Mengedit Ronde "{name}"'
     edit-round:
       create: 'Buat ronde'
       delete: 'Hapus ronde'
@@ -133,7 +133,8 @@ clarkwinkelmann-catch-the-fish:
       name: Nama
       new: 'Ikan baru'
       new-from-image: 'Membuat ikan baru melalui impor gambar massal'
-      no-user-name: 'Belum pernah ganti nama'
+      no-user-name: 'Belum pernah berganti nama'
+      no-user-place: Random
       placement: 'Lokasi saat ini'
       title: 'Ikan untuk ronde {name}'
       upload: 'Upload gambar baru'

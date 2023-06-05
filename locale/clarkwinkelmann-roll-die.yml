@@ -5,4 +5,10 @@
 clarkwinkelmann-roll-die:
   admin:
     settings:
-      clearOnEdit: 'Membuat nomor baru pada saat pengeditan postingan'
+      clearOnEdit: 'Hasilkan nomor baru saat mengedit postingan'
+  forum:
+    composer:
+      rollDie: 'Lempar Dadu'
+    tooltip:
+      preview: 'Putar acak saat menyimpan'
+      render: 'Putaran acak: {number}'
