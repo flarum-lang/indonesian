@@ -30,3 +30,7 @@ clarkwinkelmann-who-read:
     more:
       info: 'Dan {count} lainnya'
       show: 'Tampilkan {count} lagi'
+    tooltip:
+      last-read-at: '{username} membaca {ago}'
+      last-read-at-behind: '{username} terakhir membaca {ago} dan tertinggal'
+      last-read-at-up-to-date: '{username} membaca postingan terakhir {ago}'

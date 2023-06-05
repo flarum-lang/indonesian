@@ -18,12 +18,13 @@ fof-terms:
       postpone-policies-accept: 'Dapat menunda untuk menerima persyaratan yang baru'
       see-user-policies-state: 'Melihat status kebijakan pengguna'
     policies:
+      export-url-help: "Setiap pengguna yang memiliki izin \"Ekspor semua data kebijakan\" dapat mengakses URL tersebut untuk men-download daftar pengguna yang menerima kebijakan ini. Anda dapat menemukan detail lebih lanjut tentang opsi yang tersedia di <a>wiki ekstensi</a>.\n"
       name: Nama
       name-help: 'Nama ini akan ditampilkan di samping kotak centang dan sebagai judul di update modal.'
       terms-updated-at: 'Diperbarui pada'
       terms-updated-at-help: "Tanggal perubahan persyaratan terbaru. Menentukan nilai ini akan mengharuskan semua pengguna yang menerima sebelum tanggal tersebut untuk menerima lagi. Harus di waktu sebelumnya (jika tidak, pengguna tidak akan pernah bisa menerima setelah tanggal tersebut dan dapat melewati modal).\n"
-      update-message: 'Update Pesan'
-      update-message-help: 'Pesan untuk ditampilkan kepada pengguna lama yang belum menerima persyaratan yang baru.'
+      update-message: 'Perbarui Pesan'
+      update-message-help: 'Pesan untuk ditampilkan kepada pengguna lama yang belum menerima ketentuan yang baru.'
       url: URL
       url-help: 'URL ke halaman di mana Anda dapat membaca persyaratan. Akan terbuka di tab baru ketika diklik.'
     settings:
@@ -38,6 +39,7 @@ fof-terms:
   forum:
     accept-modal:
       accept: Konfirmasi
+      close: 'Terima kasih telah menerima, Anda sekarang dapat kembali ke forum'
       i-accept: 'Saya menerima kebijakan <a>{policy}</a>'
       title: 'Pembaruan Persyaratan'
       updated-at: 'Persyaratan diperbarui pada {date}'
@@ -46,8 +48,12 @@ fof-terms:
       i-accept: 'Saya menerima <a>{policy}</a>'
       must-accept: '{policy} harus diterima.'
     state-modal:
+      accepted-at: 'Diterima {date}'
       not-accepted: 'Tidak diterima'
+      title: 'Ketentuan menerima status untuk pengguna {username}'
     update-alert:
       can-accept-message: 'Kami baru saja mengubah persyaratan ini. Anda harus menyetujuinya untuk terus menggunakan situs web ini.'
       must-accept-message: 'Kami telah membatasi akses ke akun Anda untuk sementara waktu, sementara itu Anda dapat memeriksa persyaratan yang baru.'
       review: 'Klik di sini untuk meninjau dan menerima persyaratan yang baru'
+    user_controls:
+      state_button: 'Ketentuan menerima status'

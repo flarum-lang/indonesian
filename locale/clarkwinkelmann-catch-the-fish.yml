@@ -4,20 +4,65 @@
 
 clarkwinkelmann-catch-the-fish:
   admin:
+    permissions:
+      choose-name: 'Memilih nama ikan setelah ditangkap'
+      choose-place: 'Memilih penempatan ikan setelah penangkapan'
+      list-rankings: 'Mengakses halaman peringkat'
+      visible: 'Melihat ikan-ikan'
     settings:
+      alert-round: 'Tampilkan peringatan dengan nama putaran dan durasi di homepage'
+      animate-flip: 'Balik gambar ikan berdasarkan arah'
+      discussion: Diskusi
+      discussion-age: 'Berapa usia diskusi agar ikan dapat ditempatkan di atasnya (hari)'
       discussion-tags-help: "Jika Anda tidak memilih tag apa pun, diskusi apa pun yang cocok dengan pengaturan waktu di atas dapat dipilih. Jika ada sejumlah tag yang dipilih, sebuah diskusi harus memiliki setidaknya satu dari tag yang dipilih untuk dipilih. Probabilitas adalah peluang untuk dipilih setelah semua pilihan sebelumnya telah dicoba. Tag terakhir dalam list akan selalu bertindak sebagai fallback, jadi pastikan tag tersebut memiliki setidaknya satu diskusi yang valid di dalamnya.\n"
       discussion-tags-unavailable: 'Pengaturan tidak tersedia karena ekstensi Tag tidak aktif.'
       post-probability: 'Kemungkinan untuk ditempatkan pada post daripada diskusi (%)'
+      tags-control:
+        add: 'Tambahkan ke daftar putih'
+        choose: 'Pilih tag'
       tags-fallback:
         single-line: 'Setidaknya diperlukan 2 tag untuk probabilitas'
+      time-to-place: 'Waktu yang diberikan untuk menempatkan ikan sebelum ditempatkan secara acak (menit)'
+      user: Pengguna
+      user-age: 'Berapa lama pengguna harus aktif agar ikan dapat ditempatkan di atasnya (hari)'
+      user-probability: 'Kemungkinan untuk ditempatkan pada profil pengguna (%)'
   forum:
+    basket:
+      title: 'Keranjang Ikan'
     edit-fish:
+      create: 'Buat ikan'
+      delete: 'Hapus ikan'
+      delete-confirmation: 'Menghapus ikan "{name}" ?'
       name: Nama
+      save: 'Simpan ikan'
+    edit-round-modal:
+      title: 'Edit Ronde "{name}"'
     edit-round:
       ends-at: 'Waktu berakhir'
       name: Nama
       starts-at: 'Waktu mulai'
+    fish-image:
+      alt: 'Gambar ikan "{name}"'
     moderate:
       add: Tambahkan
       delete: Hapus
       edit: Edit
+      fishes: Ikan
+      rounds: Ronde
+    moving-fish:
+      login: 'Login untuk menangkap ikan'
+    new-fish-modal:
+      title: 'Ikan Baru'
+    new-round-modal:
+      title: 'Ronde Baru'
+    page-ranking:
+      permission: 'Anda tidak memiliki izin untuk melihat daftar peringkat'
+      title: 'Daftar Peringkat'
+    round-alert:
+      message: 'Round "{name}", tangkap ikan sebanyak-banyaknya hingga {time}'
+      rankings: 'Lihat peringkat'
+    table-fish:
+      image: Gambar
+      name: Nama
+    table-ranking:
+      user: Pengguna
