@@ -85,9 +85,11 @@ xelson-chat:
             invited: Diundang
             placeholder: 'Cari User'
           title: 'Pilih pengguna'
+        pin: Sematkan
         placeholder: 'Filter Obrolan'
         preview:
           empty: 'Tidak ada pesan'
+        unpin: Lepaskan
       message:
         actions:
           hide: Sembunyikan
