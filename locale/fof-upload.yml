@@ -22,7 +22,7 @@ fof-upload:
       laravel-validation: 'Laravel File Validation'
       mime-detector: 'Mime Detector (primary)'
       mime-fileinfo: 'PHP Fileinfo (fallback)'
-      no-file-selected: 'No file'
+      no-file-selected: 'Tidak ada file'
       not-available: 'Tidak ada hasil'
       select: 'Pilih file di bawah ini untuk memeriksa nilai yang akan digunakan. File tidak akan disimpan.'
       title: 'Inspect MIME'
@@ -117,21 +117,21 @@ fof-upload:
   forum:
     buttons:
       attach: Attach
-      cancel: Cancel
+      cancel: Batal
       media: 'Media Saya'
       upload: Upload
       user_uploads: 'User uploads'
     file_list:
       confirm_selection_btn: '{fileCount, plural, =0 {Tidak ada yang dipilih} one {Pilih file} other {Pilih file}}'
-      empty: 'There are no files to show.'
+      empty: 'Tidak ada file untuk ditampilkan.'
       hide_file:
         btn_a11y_label: 'Sembunyikan "{fileName}" dari media manager'
         hide_confirmation: 'Apakah Anda yakin ingin menyembunyikan "{fileName}"? Menyembunyikan file hanya akan menghapus file tersebut dari media manager Anda dan tidak akan memengaruhi postingan yang ada.'
-        hide_fail: 'Couldn''t hide file "{fileName}"'
-        hide_success: 'File hidden'
-        loading: 'Hiding file...'
-      load_more_files_btn: 'Load more files'
-      loading: 'Loading files...'
+        hide_fail: 'Tidak dapat menyembunyikan file "{fileName}"'
+        hide_success: 'File disembunyikan'
+        loading: 'Menyembunyikan file...'
+      load_more_files_btn: 'Muat lebih banyak file'
+      loading: 'Memuat file...'
       modal_empty_desktop: 'Daftar file Anda kosong. Klik tombol atau seret file ke sini untuk meng-upload.'
       modal_empty_phone: 'Daftar file Anda kosong. Tekan tombol di atas untuk meng-upload file.'
       release_to_upload: 'Release to upload'
