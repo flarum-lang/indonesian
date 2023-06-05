@@ -8,6 +8,8 @@ clarkwinkelmann-catch-the-fish:
       choose-name: 'Memilih nama ikan setelah ditangkap'
       choose-place: 'Memilih penempatan ikan setelah penangkapan'
       list-rankings: 'Mengakses halaman peringkat'
+      moderate: 'Memoderasi ronde dan ikan'
+      participate: 'Berpartisipasi dalam ronde dan menangkap ikan'
       visible: 'Melihat ikan-ikan'
     settings:
       alert-round: 'Tampilkan peringatan dengan nama putaran dan durasi di homepage'
@@ -16,30 +18,85 @@ clarkwinkelmann-catch-the-fish:
       discussion-age: 'Berapa usia diskusi agar ikan dapat ditempatkan di atasnya (hari)'
       discussion-tags-help: "Jika Anda tidak memilih tag apa pun, diskusi apa pun yang cocok dengan pengaturan waktu di atas dapat dipilih. Jika ada sejumlah tag yang dipilih, sebuah diskusi harus memiliki setidaknya satu dari tag yang dipilih untuk dipilih. Probabilitas adalah peluang untuk dipilih setelah semua pilihan sebelumnya telah dicoba. Tag terakhir dalam list akan selalu bertindak sebagai fallback, jadi pastikan tag tersebut memiliki setidaknya satu diskusi yang valid di dalamnya.\n"
       discussion-tags-unavailable: 'Pengaturan tidak tersedia karena ekstensi Tag tidak aktif.'
+      post: Postingan
+      post-age: 'Berapa usia postingan yang dapat digunakan untuk menempatkan ikan di atasnya (hari)'
       post-probability: 'Kemungkinan untuk ditempatkan pada post daripada diskusi (%)'
       tags-control:
         add: 'Tambahkan ke daftar putih'
         choose: 'Pilih tag'
+        delete: 'Hapus dari daftar putih'
       tags-fallback:
         single-line: 'Setidaknya diperlukan 2 tag untuk probabilitas'
+      tags-header:
+        probability: Probabilitas
+        tag: Tag
       time-to-place: 'Waktu yang diberikan untuk menempatkan ikan sebelum ditempatkan secara acak (menit)'
       user: Pengguna
       user-age: 'Berapa lama pengguna harus aktif agar ikan dapat ditempatkan di atasnya (hari)'
       user-probability: 'Kemungkinan untuk ditempatkan pada profil pengguna (%)'
+  api:
+    cannot-catch-hold-fish: 'Penangkap sebelumnya harus melepaskan ikan sebelum Anda dapat menangkapnya'
+    cannot-catch-own-fish: 'Anda tidak dapat menangkap ikan yang Anda tempatkan sendiri'
+    default-fish-name: 'Ikan #{number}'
+    fish-update-expired: 'Sudah terlambat, Anda tidak dapat lagi mengedit ikan ini. Ikan ini secara otomatis sudah ditempatkan di suatu tempat untuk sementara waktu'
+    fish-update-wrong-user: 'Anda tidak dapat lagi mengedit ikan ini. Orang lain mungkin telah menangkapnya'
+    inactive-discussion: 'Tidak dapat menempatkan ikan pada diskusi yang tidak aktif selama lebih dari {days} hari'
+    inactive-post: 'Tidak dapat menempatkan ikan pada postingan yang dibuat lebih dari {days} hari yang lalu'
+    inactive-user: 'Tidak dapat menempatkan ikan pada pengguna yang tidak aktif selama lebih dari {days} hari'
+    invalid-discussion-id: 'Diskusi tampaknya tidak ada, mungkin baru saja dihapus'
+    invalid-post-id: 'Postingan sepertinya tidak ada, mungkin baru saja dihapus'
+    invalid-user-id: 'Pengguna tampaknya tidak ada, mungkin baru saja dihapus'
+    model-deleted: 'Tidak dapat menempatkan ikan pada diskusi atau postingan yang telah dihapus'
+    model-private: 'Tidak dapat menempatkan ikan pada diskusi atau postingan pribadi'
+    non-comment-post: 'Hanya dapat menempatkan ikan pada postingan komentar'
+    random-error: 'Tidak dapat menghasilkan penempatan ikan secara acak'
+    round-finished: 'Ronde ini sudah selesai'
+    round-not-started: 'Ronde ini belum dimulai'
+    tag-not-allowed: 'Anda tidak dapat menempatkan ikan pada tag ini'
+    too-many-placement-models: 'Hanya satu penempatan yang dapat dilakukan dalam satu waktu'
+    user-suspended: 'Tidak dapat menempatkan ikan pada pengguna yang ditangguhkan'
+    wrong-catch-placement: 'Tidak ada ikan di sini. Mungkin Anda tidak cukup cepat dan orang lain mendapatkannya lebih dulu'
   forum:
     basket:
+      drag-help: 'Seret dan letakkan ikan pada diskusi, postingan, atau profil pengguna'
       title: 'Keranjang Ikan'
+    caught-fish-modal:
+      congratulation: 'Selamat, Anda telah menangkap ikan! Anda telah menangkap {catch_count} ikan.'
+      name: 'Nama ikan'
+      name-help: 'Anda dapat mengganti nama ikan jika Anda mau. Nama yang diberikan harus sesuai dengan pedoman forum.'
+      named-by: 'Dinamai oleh'
+      placed-by: 'Ditempatkan oleh'
+      placement-help: 'Anda dapat menyembunyikan ikan di tempat yang Anda inginkan di forum dalam diskusi terbaru dan profil pengguna aktif. Anda tidak dapat menangkap ikan yang Anda letakkan sendiri.'
+      submit-continue: Lanjutkan
+      submit-name: 'Simpan nama'
+      submit-name-place-later: 'Simpan nama dan pilih tempat penyembunyian'
+      submit-name-place-random: 'Simpan nama dan biarkan ikan bersembunyi dengan sendirinya'
+      submit-place-later: 'Ya, Aku akan memilih tempat penyembunyian'
+      submit-place-random: 'Biarkan ikan menyembunyikan dirinya sendiri'
+      title: 'Anda menangkap ikan !'
+    drop-area:
+      message: 'Anda dapat meletakkan ikan di sini'
+      missing-from-store: 'Tidak dapat menemukan ikan di penyimpanan data'
+    edit-fish-modal:
+      title: 'Edit Ikan "{name}"'
     edit-fish:
       create: 'Buat ikan'
       delete: 'Hapus ikan'
       delete-confirmation: 'Menghapus ikan "{name}" ?'
       name: Nama
+      name-help: 'Nama ikan saat ini. Dapat diedit oleh pemain jika mereka memiliki izin untuk mengganti nama ikan'
       save: 'Simpan ikan'
     edit-round-modal:
       title: 'Edit Ronde "{name}"'
     edit-round:
+      create: 'Buat ronde'
+      delete: 'Hapus ronde'
+      delete-confirmation: 'Menghapus ronde "{name}" ?'
       ends-at: 'Waktu berakhir'
       name: Nama
+      name-help: 'Nama publik untuk ronde ini, akan ditampilkan di banner dan peringkat'
+      save: 'Simpan ronde'
+      starting-pack-help: 'Akan ada beberapa ikan yang bisa Anda dapatkan dalam waktu singkat'
       starts-at: 'Waktu mulai'
     fish-image:
       alt: 'Gambar ikan "{name}"'
@@ -51,18 +108,44 @@ clarkwinkelmann-catch-the-fish:
       rounds: Ronde
     moving-fish:
       login: 'Login untuk menangkap ikan'
+    nav:
+      rankings: 'Peringkat Catch The Fish'
+      settings: 'Pengaturan Catch The Fish'
     new-fish-modal:
       title: 'Ikan Baru'
     new-round-modal:
       title: 'Ronde Baru'
     page-ranking:
+      nothing: 'Tidak ada ronde yang aktif'
       permission: 'Anda tidak memiliki izin untuk melihat daftar peringkat'
       title: 'Daftar Peringkat'
     round-alert:
-      message: 'Round "{name}", tangkap ikan sebanyak-banyaknya hingga {time}'
+      message: 'Ronde "{name}", tangkap ikan sebanyak-banyaknya hingga {time}'
       rankings: 'Lihat peringkat'
     table-fish:
+      edit: Edit
       image: Gambar
+      loading: Memuat...
       name: Nama
+      new: 'Ikan baru'
+      new-from-image: 'Membuat ikan baru melalui impor gambar massal'
+      placement: 'Lokasi saat ini'
+      title: 'Ikan untuk ronde {name}'
+      upload: 'Upload gambar baru'
+      user-name: 'Terakhir dinamai oleh'
+      user-place: 'Terakhir ditempatkan oleh'
     table-ranking:
+      count: 'Ikan yang ditangkap'
+      loading: Memuat...
+      rank: Nama
+      title: 'Peringkat dari ronde {name}'
       user: Pengguna
+    table-round:
+      edit: Edit
+      end: Hingga
+      fishes: Ikan
+      loading: Memuat...
+      name: Nama
+      new: 'Ronde baru'
+      start: Dari
+      title: Ronde
