@@ -55,7 +55,7 @@ fof-upload:
         toggle: Nonaktifkan
       imgur:
         client_id: 'Imgur client ID'
-        title: 'Imgur image storage settings'
+        title: 'Pengaturan penyimpanan gambar Imgur'
         tos: 'Merupakan tanggung jawab Anda untuk memastikan user forum Anda mematuhi <a>Terms of service</a>'
       inspect-mime: 'Test file MIME type'
       local:
