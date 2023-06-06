@@ -9,9 +9,14 @@ core:
       unpopular_button: 'Tidak populer'
 flarumite-simple-discussion-views:
   admin:
+    permissions:
+      reset_views_label: 'Atur jumlah tampilan diskusi'
     settings:
       ignore_crawlers: 'Abaikan kunjungan dari crawler (bot)'
   forum:
+    discussion_controls:
+      resetviews_button: 'Atur jumlah tampilan'
     modal_resetviews:
+      label: 'Pengaturan untuk jumlah tampilan'
       submit: Kirim
       title: 'Reset jumlah tampilan diskusi'

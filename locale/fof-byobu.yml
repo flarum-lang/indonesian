@@ -21,6 +21,12 @@ fof-byobu:
       enable-make-public-option-help: 'Menambahkan kemampuan bagi mereka yang memiliki izin untuk menghapus semua penerima, menetapkan tag baru, dan membuat diskusi dapat dilihat oleh publik (sesuai dengan pengaturan visibilitas tag yang dipilih).'
       hide_from_all_discussions_page: 'Sembunyikan Diskusi Pribadi dari halaman "Semua Diskusi"'
       hide_from_all_discussions_page_help: 'Diskusi pribadi hanya dapat diakses dari halaman "Diskusi Pribadi" atau profil pengguna'
+  email:
+    subject:
+      private_discussion_added: '[Diskusi Pribadi] {display_name} menambahkan Anda ke diskusi pribadi'
+      private_discussion_created: '[Diskusi Pribadi] {display_name} memulai diskusi pribadi baru dengan Anda'
+      private_discussion_replied: '[Diskusi Pribadi] {display_name} memposting dalam diskusi pribadi'
+      recipient_removed: '[Diskusi Pribadi] {display_name} meninggalkan diskusi'
   forum:
     badges:
       is_private:
@@ -58,6 +64,7 @@ fof-byobu:
       pd_added_label: 'Seseorang menambahkan saya ke diskusi pribadi yang sudah ada'
       pd_added_text: '{username} menambahkan Anda ke dalam diskusi pribadi'
       pd_label: 'Seseorang memasukkan saya ke dalam diskusi pribadi baru'
+      pd_text: '{username} memulai diskusi pribadi baru dengan Anda'
       pd_user_left_text: '{username} meninggalkan diskusi pribadi'
     post:
       recipients_modified:
@@ -71,3 +78,5 @@ fof-byobu:
     user:
       byobu_link: 'Diskusi Pribadi'
       dropdown_label: 'Diskusi Pribadi'
+      settings:
+        block_pd: 'Blokir diskusi pribadi'

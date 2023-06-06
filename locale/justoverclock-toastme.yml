@@ -4,7 +4,21 @@
 
 flarum-ext-toastme:
   admin:
+    background: 'Warna Background (format hex)'
+    backgrounddesc: 'Letakkan warna background Anda dalam format HEX - misalnya "#ffcc00"'
     destdesc: 'URL yang harus dituju oleh browser saat toast alert di-klik'
     duration: 'Durasi toast alert harus ditampilkan, isi -1 untuk menampilkan secara permanen'
+    durdesc: 'Gunakan milidetik - contoh "3000" untuk 3 detik'
     enabletoast: 'Aktifkan/Non-aktifkan Toast Alert'
+    gravdesc: 'Atur posisi toast, di atas atau di bawah'
     helpenable: 'Gunakan pengaturan ini untuk mengaktifkan atau menonaktifkan toast alert'
+    message: 'Teks untuk Toast'
+    messagedesc: 'Teks untuk alert toast Anda'
+    offsetxdesc: 'orizontal axis margin - dapat berupa angka yang mengindikasikan nilai pixel. Contoh 20 (pixel)'
+    offsetxx: 'Offset X - orizontal axis margin (px) (blank untuk default)'
+    offsetydesc: 'Vertical axis margin - dapat berupa angka yang menunjukkan nilai pixel. Contoh 20 (pixel)'
+    offsetyy: 'Offset Y - vertical axis margin (px) (blank untuk default)'
+    posdesc: 'Di mana Anda ingin toast muncul? kiri, kanan atau tengah?'
+    position: 'Posisi - Bisa di "kiri", "kanan" atau "tengah"'
+  forum:
+    message1: 'Sudah menjadi fakta yang sudah lama diketahui bahwa pembaca akan merasa terganggu ketika melihat tata letaknya.'
