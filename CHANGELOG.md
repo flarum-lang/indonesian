@@ -39,6 +39,7 @@ CHANGELOG
 * [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links)
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`flarumite/simple-discussion-views`](https://github.com/flarumite/simple-discussion-views)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting)
 * [`fof/html-errors`](https://github.com/FriendsOfFlarum/html-errors)
