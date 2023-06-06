@@ -12,7 +12,14 @@ fof-cookie-consent:
       configuration_title: 'Parameter Konfigurasi'
       consentText: 'Isi Pesan'
       learnMoreLinkText: Teks
+      learnMoreLinkUrl: Link
       textColor: Teks
       theme_dismiss_title: 'Warna Tombol Tutup'
       theme_popup_title: 'Warna Popup'
       theme_title: 'Pilihan Tema'
+      themes:
+        blocky: Blocky
+        classic: Classic
+        custom: Khusus
+        edgeless: Edgeless
+        no_css: 'Tanpa CSS'
