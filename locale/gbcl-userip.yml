@@ -5,6 +5,6 @@
 gbcl-userip:
   admin:
     permissions:
-      view_ip_info_label: 'Tampilkan Info IP'
+      view_ip_info_label: 'Menampilkan Info IP'
   forum:
     unknownNotice: 'Tidak diketahui'

@@ -8,8 +8,20 @@ davwheat:
       settings_page:
         display_options:
           heading: 'Pengaturan tampilan'
+          labels:
+            bottom_spacer: 'Tampilkan spasi bawah'
+            position: 'Lokasi link'
+            top_spacer: 'Tampilkan spasi atas'
+          options:
+            position:
+              above-tags-link: 'Di atas tombol "Tag"'
+              below-tags-link: 'Di bawah tombol "Tag"'
         link_table:
           add_link_btn: 'Tambah link baru'
+          alert:
+            fix_errors: 'Anda perlu memperbaiki masalah-masalah di atas sebelum menyimpan perubahan Anda.'
+          confirm_delete: 'Konfirmasi penghapusan link "{link}"'
+          heading: 'Menyesuaikan link'
           save_btn:
             dirty: 'Simpan pengaturan'
             saved: 'Tidak ada perubahan untuk disimpan'
@@ -18,8 +30,16 @@ davwheat:
             header:
               delete: Hapus
               icon: 'Ikon link'
+              internal: 'URL Flarum?'
               position: Posisi
               text: 'Teks link'
+              url: 'Link url'
+            placeholders:
+              icon: 'fas fa-link'
+              text: 'My cool site'
+              url: 'https://flarum.org'
+            tooltips:
+              move_up: 'Geser ke atas'
         new_link_modal:
           labels:
             icon: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon'
@@ -33,5 +53,6 @@ davwheat:
           submit_btn:
             add: 'Tambah link'
             fix_url: 'URL tidak valid'
+            invalid_form: 'Isi semua kolom'
             loading: 'Menambahkan link'
           title: 'Tambah link baru'

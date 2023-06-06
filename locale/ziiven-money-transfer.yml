@@ -5,7 +5,7 @@
 ziven-transfer-money:
   admin:
     permission:
-      allow_use_transfer_money: 'Izinkan transfer money'
+      allow_use_transfer_money: 'Mengizinkan transfer money'
     transfer-money-client-customization-help: 'Fitur yang dikembangkan untuk klien. Dapat menyebabkan kesalahan yang tidak terduga bagi pengguna lain.'
     transfer-money-timezone: 'Zona waktu'
     transfer-money-timezone-help: 'Atur zona waktu untuk waktu transfer. Standarnya adalah "Asia/Shanghai".'

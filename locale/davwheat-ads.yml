@@ -5,11 +5,15 @@
 davwheat:
   ads:
     admin:
+      permissions:
+        bypassAds: 'Menyembunyikan iklan dari forum'
       settings:
         admin_bypass_warning: "Karena sifat dari sistem perizinan Flarum, anggota grup Admin \ntidak akan melihat iklan apa pun di forum. Jika Anda ingin menguji iklan Anda, silakan kunjungi forum \ndalam mode Incognito atau Private.\n"
         alert:
           code_has_script: 'Satu atau beberapa unit iklan Anda mengandung script tag, yang tidak diizinkan. Hapus dan coba lagi.'
           fix_errors: 'Harap perbaiki error di atas sebelum menyimpan perubahan'
+        allow_after_placeholder: 'Di antara postingan: tampilkan iklan setelah placeholder balasan'
+        between_posts_gap: 'Di antara postingan: jarak antara iklan'
         code_input: 'Kode HTML'
         code_input_disabled: 'Aktifkan lokasi ini untuk mengedit kode HTML-nya.'
         js_input: 'Kode javascript'
@@ -21,6 +25,12 @@ davwheat:
           saving: Menyimpan...
         script_deletion: 'Untuk menghapus skrip, biarkan kotak teks kosong dan tekan ''Simpan Perubahan''.'
         use_adsense: 'Gunakan AdSense'
+        warning: "<b>Petunjuk:</b>\n<br></br>\n<b>HTML</b> - Sisipkan konten HTML untuk iklan di kotak ini. Jangan masukkan tag {script} apa pun di kotak ini. Kode tersebut tidak akan dijalankan.\n<br></br>\n<b>JS</b> - Masukkan kode Javascript khusus untuk disisipkan dalam tag skrip. Kode ini <b>TIDAK</b> boleh menyertakan tag {script} itu sendiri.\n"
     lib:
       locations:
         between_posts: 'Di antara post'
+        discussion_header: 'Halaman diskusi (di bawah header)'
+        discussion_sidebar: 'Discussion sidebar [HANYA DI DESKTOP]'
+        footer: Footer
+        header: Header
+        sidebar: 'Side navigation [HANYA DI DESKTOP]'
