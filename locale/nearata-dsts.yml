@@ -3,6 +3,35 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 nearata-dsts:
+  admin:
+    permissions:
+      can_bypass_like: 'Dapat mem-bypass Like'
+      can_bypass_login: 'Dapat mem-bypass login'
+      can_bypass_reply: 'Dapat mem-bypass balasan (reply)'
+      can_use_bbcode: 'Dapat menggunakan BBCode'
+    settings:
+      enabled: Diaktifkan
+      fof_upload:
+        enabled: Diaktifkan
+        require_like: 'Membutuhkan like'
+        require_reply: 'Membutuhkan balasan'
+        section_title: 'FoF Upload'
+      hide_only_first_post: 'Sembunyikan post pertama saja'
+      require_like: 'Membutuhkan like'
+      require_reply: 'Membutuhkan balasan'
   forum:
     composer:
       dsts_tooltip: DSTS
+    post:
+      bbcode:
+        hidden_content: 'Konten Tersembunyi'
+        like_text: 'Anda harus memberikan Like pada postingan untuk melihat konten ini'
+        login_text: 'Anda harus login terlebih dahulu untuk melihat konten ini'
+        reply_text: 'Anda harus membalas diskusi untuk melihat konten ini'
+      fof_upload:
+        like_text: 'Anda harus memberikan Like pada postingan untuk melihat file tersebut'
+        login_text: 'Anda harus login terlebih dahulu untuk melihat file tersebut'
+        reply_text: 'Anda harus membalas diskusi untuk melihat file tersebut'
+      like_tooltip: 'Anda harus memberikan Like pada postingan untuk melihat konten'
+      login_tooltip: 'Anda harus login terlebih dahulu untuk melihat konten'
+      reply_tooltip: 'Anda harus membalas diskusi terlebih dahulu untuk melihat konten'
