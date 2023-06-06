@@ -24,6 +24,7 @@ davwheat:
           heading: 'Menyesuaikan link'
           save_btn:
             dirty: 'Simpan pengaturan'
+            fix_errors: 'Perbaiki kesalahan sebelum menyimpan'
             saved: 'Tidak ada perubahan untuk disimpan'
             saving: 'Menyimpan perubahan...'
           table:
@@ -39,6 +40,8 @@ davwheat:
               text: 'My cool site'
               url: 'https://flarum.org'
             tooltips:
+              icon_preview: 'Pratinjau ikon'
+              move_down: 'Geser ke bawah'
               move_up: 'Geser ke atas'
         new_link_modal:
           labels:

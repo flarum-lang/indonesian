@@ -5,11 +5,22 @@
 fof-byobu:
   admin:
     permission:
+      add_more_than_two_user_recipients: 'Menambahkan lebih dari 2 penerima ke diskusi pribadi'
+      create_private_discussions_with_blocking_users: 'Membuat diskusi pribadi dengan pengguna yang memblokirnya'
+      create_private_discussions_with_groups: 'Membuat diskusi pribadi dengan grup'
+      create_private_discussions_with_users: 'Membuat diskusi pribadi dengan pengguna'
+      edit_group_recipients: 'Mengedit pengguna yang ikut serta dalam diskusi pribadi'
+      edit_user_recipients: 'Mengedit pengguna yang ikut serta dalam diskusi pribadi'
       make_private_into_public: 'Mengubah diskusi pribadi menjadi diskusi publik'
+      view_private_discussions-when-flagged: 'Melihat diskusi pribadi pengguna lain jika ditandai'
     settings:
-      delete_on_last_recipient_left: 'Hapus PD ketika pengguna terakhir keluar'
+      badge-icon: 'Badge Diskusi Byobu'
+      delete_on_last_recipient_left: 'Hapus Diskusi Pribadi ketika pengguna terakhir keluar'
       delete_on_last_recipient_left_help: 'Jika diaktifkan, PD akan dihapus secara permanen dari database ketika pengguna terakhir keluar. Jika tidak, PD akan dihapus secara soft-deleted/disembunyikan.'
+      enable-make-public-option: 'Aktifkan kemampuan "jadikan publik"'
       enable-make-public-option-help: 'Menambahkan kemampuan bagi mereka yang memiliki izin untuk menghapus semua penerima, menetapkan tag baru, dan membuat diskusi dapat dilihat oleh publik (sesuai dengan pengaturan visibilitas tag yang dipilih).'
+      hide_from_all_discussions_page: 'Sembunyikan Diskusi Pribadi dari halaman "Semua Diskusi"'
+      hide_from_all_discussions_page_help: 'Diskusi pribadi hanya dapat diakses dari halaman "Diskusi Pribadi" atau profil pengguna'
   forum:
     badges:
       is_private:
@@ -23,6 +34,7 @@ fof-byobu:
       send_pd: 'Kirim pesan ke {username}'
       submit: OK
     composer_private_discussion:
+      submit_button: 'Posting Diskusi Pribadi'
       title_placeholder: 'Judul Diskusi Pribadi'
     confirm:
       make_public: 'Apakah Anda yakin ingin menghapus penerima dan membuat diskusi ini dapat dilihat oleh siapa saja yang dapat melihat tag yang ditetapkan?'
@@ -34,6 +46,11 @@ fof-byobu:
         click_user_to_remove_tooltip: 'Klik untuk menghapus'
         selected_users: 'Klik username untuk menghapusnya.'
         update_recipients: 'Diskusi ini hanya akan terlihat oleh pengguna yang Anda pilih di sini.'
+      labels:
+        search_field: 'Cari pengguna'
+        selected_users: 'Pengguna yang dipilih'
+      titles:
+        add_recipients: 'Menambahkan penerima ke dalam diskusi Anda'
     nav:
       nav_item: 'Diskusi Pribadi'
       start_button: 'Berdiskusi secara pribadi'
@@ -44,8 +61,13 @@ fof-byobu:
       pd_user_left_text: '{username} meninggalkan diskusi pribadi'
     post:
       recipients_modified:
+        added: '{username} menambahkan {added} sebagai penerima.'
+        added_and_removed: '{username} menambahkan {added} sebagai penerima dan menghapus {removed}.'
         made_public: '{username} menghapus semua penerima dan membuat diskusi menjadi publik'
         removed_self: '{username} meninggalkan diskusi pribadi.'
+    search:
+      headings:
+        groups: 'Grup Perizinan'
     user:
       byobu_link: 'Diskusi Pribadi'
       dropdown_label: 'Diskusi Pribadi'
