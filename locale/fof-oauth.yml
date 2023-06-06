@@ -12,28 +12,29 @@ fof-oauth:
         discord:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
-          description: 'Membuat aplikasi di {link}. Tambahkan URL pengalihan di tab OAuth2.'
+          description: 'Buatlah aplikasi di {link}. Tambahkan URL pengalihan di tab OAuth2.'
         facebook:
           app_id_label: '=> fof-oauth.ref.settings.app_id'
           app_secret_label: '=> fof-oauth.ref.settings.app_secret'
-          description: 'Membuat aplikasi di {link}.'
+          description: 'Buatlah aplikasi di {link}.'
         github:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
-          description: 'Membuat OAuth app di {link}.'
+          description: 'Buatlah OAuth app di {link}.'
         gitlab:
           client_id_label: '=> fof-oauth.ref.settings.app_id'
           client_secret_label: '=> fof-oauth.ref.settings.app_secret'
+          description: 'Buatlah aplikasi di {link}. Berikan aplikasi <code>read_user</code> scope.'
           domain_label: 'Domain GitLab'
         google:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
-          description: 'Membuat aplikasi di {link}.'
+          description: 'Buatlah aplikasi di {link}.'
         linkedin:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
         twitter:
-          description: 'Membuat aplikasi di {link}. Anda perlu menetapkan URL untuk Ketentuan Layanan dan Kebijakan Privasi. Pastikan untuk menambahkan izin permintaan melalui email.'
+          description: 'Buatlah aplikasi di {link}. Anda perlu menetapkan URL untuk Ketentuan Layanan dan Kebijakan Privasi. Pastikan untuk menambahkan izin permintaan melalui email.'
     settings_accessibility_label: 'Pengaturan {name}'
   forum:
     error:
