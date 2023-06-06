@@ -2,8 +2,13 @@ CHANGELOG
 =========
 
 
-1.2.2 (XXXX-XX-XX)
+1.3.0 (XXXX-XX-XX)
 ------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
+
 
 **Terjemahan terbaru untuk ekstensi**:
 
@@ -13,6 +18,8 @@ CHANGELOG
 * [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings)
 * [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
 * [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish)
+* [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
+* [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
 * [`clarkwinkelmann/flarum-ext-predefined-avatars`](https://github.com/clarkwinkelmann/flarum-ext-predefined-avatars)
 * [`clarkwinkelmann/flarum-ext-roll-die`](https://github.com/clarkwinkelmann/flarum-ext-roll-die)
 * [`clarkwinkelmann/flarum-ext-username-blacklist`](https://github.com/clarkwinkelmann/flarum-ext-username-blacklist)
@@ -30,11 +37,15 @@ CHANGELOG
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`ianm/html-head`](https://github.com/imorland/html-head)
+* [`justoverclock/frontend-blog`](https://extiverse.com/extension/justoverclock/frontend-blog)
 * [`justoverclock/flarum-ext-guestengagement`](https://github.com/justoverclockl/flarum-ext-guestengagement)
 * [`justoverclock/header-slideshow`](https://github.com/justoverclockl/header-slideshow)
 * [`justoverclock/hot-discussions`](https://github.com/justoverclockl/hot-discussions)
 * [`justoverclock/username-blacklist`](https://github.com/justoverclockl/username-blacklist)
 * [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+* [`nomiscz/flarum-ext-auth-steam`](https://github.com/NomisCZ/flarum-ext-auth-steam)
+* [`nomiscz/flarum-ext-auth-wechat`](https://github.com/NomisCZ/flarum-ext-auth-wechat)
+* [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 * [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
 * [`xelson/flarum-ext-chat`](https://github.com/Xelson/flarum-ext-chat)
@@ -42,7 +53,7 @@ CHANGELOG
 * [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
 
 
-Semua perubahan: [1.2.1...1.2.2](https://github.com/flarum-lang/indonesian/compare/1.2.1...1.2.2).
+Semua perubahan: [1.2.1...1.3.0](https://github.com/flarum-lang/indonesian/compare/1.2.1...1.3.0).
 
 
 1.2.1 (2023-06-02)
