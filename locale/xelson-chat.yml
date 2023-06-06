@@ -6,7 +6,7 @@ xelson-chat:
   admin:
     permissions:
       create:
-        channel: 'Memulai saluran'
+        channel: 'Memulai channel'
         chat: 'Memulai obrolan'
       delete: 'Menghapus pesan obrolan'
       edit: 'Mengedit pesan obrolan'
@@ -63,10 +63,10 @@ xelson-chat:
         add_modal:
           alerts:
             exists: 'Anda tidak dapat membuat PM lain dengan pengguna ini!'
-          channel: Saluran
+          channel: Channel
           chat: Obrolan
           create:
-            channel: 'Membuat saluran baru'
+            channel: 'Membuat channel baru'
             chat: 'Membuat obrolan baru'
           form:
             color:
@@ -76,7 +76,7 @@ xelson-chat:
               label: '=> core.ref.icon'
               validator: '=> core.ref.icon_text'
             title:
-              channel: 'Nama saluran'
+              channel: 'Nama channel'
               chat: 'Nama obrolan'
               validator: 'Setidaknya 1 simbol'
             users: 'Pengguna yang dipilih'
@@ -99,7 +99,7 @@ xelson-chat:
         deleted_forever: 'dihapus selamanya oleh'
         events:
           channel:
-            created: '{creatorname} membuat saluran {chatname}'
+            created: '{creatorname} membuat channel {chatname}'
           chat:
             created: '{creatorname} membuat {chatname} dan mengundang {usernames}'
           color:
