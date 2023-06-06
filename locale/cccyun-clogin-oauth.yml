@@ -5,9 +5,30 @@
 cccyun-clogin-oauth:
   admin:
     appurl_help: 'Harus dimulai dengan http:// atau https:// dan diakhiri dengan /'
-    openqq_label: 'Buka Login QQ'
-    opensina_label: 'Buka Login Weibo'
-    openwx_label: 'Buka Login WeChat'
+    openqq_label: 'Tampilkan QQ Login'
+    opensina_label: 'Tampilkan Weibo Login'
+    openwx_label: 'Tampilkan WeChat Login'
   forum:
     alerts:
+      already_linked: 'Third Account sudah terhubung!'
+      already_used: 'Third Account sudah terhubung dengan pengguna lain!'
       error: 'Ada yang tidak beres, silakan coba lagi nanti!'
+      link_success: 'Third Account berhasil terhubung.'
+      unlink_success: 'Third Account berhasil dihapus.'
+    modals:
+      buttons:
+        cancel: Tidak!
+        confirm: 'Ya, hapus akun yang terhubung'
+      confirm_qq: 'Apakah Anda yakin, Anda ingin menghapus akun QQ Anda?'
+      confirm_sina: 'Apakah Anda yakin, Anda ingin menghapus akun Weibo Anda?'
+      confirm_wx: 'Apakah Anda yakin, Anda ingin menghapus akun WeChat Anda?'
+      link_qq: 'Hubungkan Akun QQ'
+      link_sina: 'Hubungkan Akun Weibo'
+      link_wx: 'Hubungkan Akun WeChat'
+      no_providers: 'Anda tidak memiliki penyedia login lain! Anda mungkin harus mereset password Anda.'
+      unlink_qq: 'Hapus Akun QQ'
+      unlink_sina: 'Hapus Akun Weibo'
+      unlink_wx: 'Hapus Akun WeChat'
+    with_qq_button: 'Login via QQ'
+    with_sina_button: 'Login via Weibo'
+    with_wx_button: 'Login via WeChat'

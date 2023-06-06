@@ -7,5 +7,7 @@ clarkwinkelmann-jwt-cookie-login:
     settings:
       actorIdHelp: "Pengguna Flarum ini akan dijadikan aktor untuk permintaan REST API internal yang membuat pengguna baru. Pengguna tersebut haruslah seorang admin.\n"
       cookieName: 'Nama Cookie'
+      emailTemplate: 'Template Email'
       expirationLeewayHelp: "Berapa detik tambahan setelah berakhirnya JWT, sesi masih bisa dimulai. Nilai ini hanya dimaksudkan untuk beberapa menit paling buruk untuk memperhitungkan waktu pergeseran jam di antara server. Namun, nilai ini juga dapat diatur ke nilai yang lebih panjang jika ini adalah satu-satunya cara untuk mengatasi masa pakai JWT yang pendek dari external library.\n"
       publicKeyHelp: 'Biarkan Kosong untuk menggunakan kunci Google Firebase'
+      usernameTemplate: 'Template Username'
