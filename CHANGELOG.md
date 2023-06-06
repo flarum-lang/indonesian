@@ -13,6 +13,7 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`afrux/asirem`](https://github.com/afrux/asirem)
 * [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-auto-moderator)
 * [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories)
@@ -20,8 +21,10 @@ CHANGELOG
 * [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings)
 * [`blessing/flarum-oauth-client`](https://github.com/bs-community/flarum-oauth-client)
 * [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
+* [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
 * [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
 * [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
 * [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth)
 * [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish)
 * [`clarkwinkelmann/flarum-ext-create-user-modal`](https://github.com/clarkwinkelmann/flarum-ext-create-user-modal)
@@ -49,7 +52,9 @@ CHANGELOG
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
 * [`fof/pages`](https://github.com/FriendsOfFlarum/pages)
+* [`fof/passport`](https://github.com/FriendsOfFlarum/passport)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
