@@ -6,3 +6,8 @@ justoverclock-frontend-blog:
   admin:
     charLim-help: 'Masukkan di sini jumlah karakter maksimal yang akan ditampilkan'
     numberOfPost-help: 'Masukkan di sini jumlah post yang ingin Anda tampilkan'
+  forum:
+    allDiscussions: Forum
+    loginButton: Login
+    menuButton: Menu
+    signupButton: Signup

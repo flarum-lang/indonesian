@@ -3,12 +3,28 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 nomiscz-auth-wechat:
+  admin:
+    settings:
+      title: 'Pengaturan Autentikasi WeChat'
   forum:
     alerts:
+      already_linked: 'Akun WeChat sudah terhubung!'
+      already_used: 'Akun WeChat sudah terhubung dengan pengguna lain!'
       error: 'Ada yang tidak beres, silakan coba lagi nanti!'
+      link_success: 'Akun WeChat berhasil terhubung.'
+      unlink_success: 'Akun WeChat berhasil dihapus.'
+    buttons:
+      link: 'Hubungkan Akun WeChat'
+      login: 'Login dengan WeChat'
+      unlink: 'Hapus Akun WeChat'
     modals:
+      link:
+        title: 'Hubungkan Akun WeChat'
       unlink:
         buttons:
           cancel: Tidak!
+          confirm: 'Ya, hapus akun yang terhubung'
         info:
+          confirm: 'Apakah Anda yakin ingin menghapus akun WeChat Anda?'
           no_providers: 'Anda tidak memiliki penyedia login lain! Anda mungkin harus mereset password Anda.'
+        title: 'Hapus Akun WeChat'

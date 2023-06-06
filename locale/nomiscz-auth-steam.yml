@@ -5,13 +5,27 @@
 nomiscz-auth-steam:
   admin:
     settings:
+      title: 'Pengaturan Autentikasi Steam'
       use_steam_powered_domain: 'Gunakan domain steampowered.com, jangan steamcommunity.com (diblokir di Cina)'
   forum:
     alerts:
+      already_linked: 'Akun Steam sudah terhubung!'
+      already_used: 'Akun Steam sudah terhubung dengan pengguna lain!'
       error: 'Ada yang tidak beres, silakan coba lagi nanti!'
+      link_success: 'Akun Steam berhasil terhubung.'
+      unlink_success: 'Akun Steam berhasil dihapus.'
+    buttons:
+      link: 'Hubungkan Akun Steam'
+      login: 'Login dengan Steam'
+      unlink: 'Hapus Akun Steam'
     modals:
+      link:
+        title: 'Hubungkan Akun Steam'
       unlink:
         buttons:
           cancel: Tidak!
+          confirm: 'Ya, hapus akun yang terhubung'
         info:
+          confirm: 'Apakah Anda yakin ingin menghapus akun Steam Anda?'
           no_providers: 'Anda tidak memiliki penyedia login lain! Anda mungkin harus mereset password Anda.'
+        title: 'Hapus Akun Steam'

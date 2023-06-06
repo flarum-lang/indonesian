@@ -14,6 +14,14 @@ sycho-move-posts:
     error:
       move_old_post_to_newer_discussion: '=> sycho-move-posts.ref.status.old_to_new_move'
     modal:
+      destination: 'Diskusi Tujuan'
       discussion_help: 'Tag dari diskusi sumber akan digunakan, dan dapat diubah setelah pembuatan.'
       discussion_name: '=> core.forum.composer_discussion.title_placeholder'
+      new_discussion: 'Diskusi Baru'
+      status:
+        old_to_new_move: '=> sycho-move-posts.ref.status.old_to_new_move'
       title: '=> sycho-move-posts.ref.move_posts'
+    post:
+      move: 'Pilih untuk pindah'
+      moving: 'Memindahkan Post'
+      unmove: 'Batalkan pilihan untuk pindah'
