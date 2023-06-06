@@ -29,6 +29,7 @@ fof-user-directory:
       users_heading: 'Cari semua user untuk "{query}"'
   lib:
     sort:
+      default: Default
       newest: Terbaru
       not_specified: 'Gunakan Flarum standar'
       oldest: Terlama

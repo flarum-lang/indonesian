@@ -5,6 +5,8 @@
 fof-sentry:
   admin:
     settings:
+      dsn_label: 'Sentry DSN'
+      environment_label: 'Sentry Environment'
       javascript_label: 'Laporkan Kesalahan JavaScript'
       javascript_trace_sample_rate: 'Tingkat Pemantauan Kinerja Front-end (0 - 100)'
       monitor_performance_label: 'Tingkat Pemantauan Kinerja Back-end (0 - 100)'

@@ -4,6 +4,8 @@
 
 blomstra-search:
   admin:
+    elastic-endpoint: 'Elastic Endpoint'
+    elastic-index: Index
     elastic-password: '=> core.ref.password'
     elastic-username: '=> core.ref.username'
     match-sentences: 'Cocokkan istilah pencarian dengan kalimat lengkap'

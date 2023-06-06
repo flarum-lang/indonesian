@@ -20,8 +20,11 @@ blomstra-trello:
         remove: Hapus
       default_board_help: 'Board default yang dipilih akan menjadi board yang akan dipilih sebelumnya dalam jendela modal Kirim ke Trello di forum.'
       default_board_label: 'Board default'
+      include_secondary_tags_help: 'Ketika dinonaktifkan, hanya tag diskusi utama yang akan dikirim ke Trello. Ketika diaktifkan, semua tag akan dikirim ke Trello.'
+      include_secondary_tags_label: 'Sertakan tag sekunder'
       label:
         boards: 'Pengaturan Board'
+        general: General
       member_id_help: 'Masukkan Trello Member ID yang akan digunakan untuk mengambil organization boards with Trello (https://trello.com/your-trello-handle)'
       member_id_label: 'ID Member'
       no_available_boards_label: 'Tidak ada board yang tersedia'
