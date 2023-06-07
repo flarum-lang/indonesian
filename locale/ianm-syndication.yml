@@ -7,8 +7,33 @@ ianm-syndication:
     settings:
       entries-count: 'Berapa banyak entri per feed?'
       forum-icons:
+        help: 'Tampilkan ikon di Semua Diskusi, Tag, dan Diskusi untuk memudahkan akses ke feed.'
         label: 'Tampilkan link Atom/RSS feed di forum'
+      forum-link-format:
+        help: 'Pilih format mana (Atom atau RSS) yang akan digunakan ketika link ditampilkan di forum.'
+        label: 'Format feed forum'
       full-text:
-        help: 'Jika dinonaktifkan, feed hanya akan berisi kutipan postingan, dan user harus masuk ke forum untuk membaca semuanya. Direkomendasikan untuk membiarkan opsi ini aktif untuk menghormati orang-orang yang mengikuti forum dari RSS aggregator-jika ada.'
+        help: 'Jika dinonaktifkan, feed hanya akan berisi kutipan dari postingan, dan user harus masuk ke forum untuk membaca semuanya. Direkomendasikan untuk membiarkan opsi ini aktif untuk menghormati orang-orang yang mengikuti forum dari RSS aggregator-jika ada.'
+        label: 'Teks Lengkap'
       html:
         help: 'Centang ini untuk menggunakan HTML dalam feed yang dihasilkan. Jika dinonaktifkan, feed akan berupa teks biasa.'
+        label: 'Feed Terformat'
+  forum:
+    autodiscovery:
+      discussion_last_posts: 'Diskusi ini'
+      forum_activity: 'Aktivitas forum'
+      forum_new_discussions: 'Diskusi baru di forum'
+      tag_activity: 'Aktivitas untuk tag {tag}'
+      tag_new_discussions: 'Diskusi dalam tag {tag}'
+    discussion:
+      feed_link: Feed
+    feeds:
+      titles:
+        discussion_subtitle: 'Beberapa pesan terakhir dalam diskusi ini'
+        main_d_subtitle: 'Diskusi terbaru dalam forum'
+        main_d_title: 'Diskusi baru di {forum_name}'
+        main_subtitle: 'Tulisan terakhir di forum'
+        tag_d_subtitle: 'Diskusi terbaru dalam tag {tag}'
+        tag_d_title: 'Diskusi baru dalam tag {tag}'
+        tag_subtitle: 'Tulisan terakhir dalam tag {tag}'
+        tag_title: 'Aktivitas dalam tag {tag}'

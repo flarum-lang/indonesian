@@ -9,4 +9,4 @@ ganuonglachanh-sonic:
       host: Host
       password: Password
       port: Port
-      timeout: 'TimeOut (waktu habis)'
+      timeout: 'TimeOut (batas waktu)'
