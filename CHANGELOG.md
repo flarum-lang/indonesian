@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.3.1 (XXXX-XX-XX)
+------------------
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
+* [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
+
+
+Semua perubahan: [1.3.0...1.3.1](https://github.com/flarum-lang/indonesian/compare/1.3.0...1.3.1).
+
+
 1.3.0 (2023-06-07)
 ------------------
 
