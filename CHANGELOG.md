@@ -63,6 +63,7 @@ CHANGELOG
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
 * [`ianm/html-head`](https://github.com/imorland/html-head)
+* [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge)
 * [`justoverclock/frontend-blog`](https://extiverse.com/extension/justoverclock/frontend-blog)
 * [`justoverclock/flarum-ext-guestengagement`](https://github.com/justoverclockl/flarum-ext-guestengagement)
 * [`justoverclock/header-slideshow`](https://github.com/justoverclockl/header-slideshow)
