@@ -8,7 +8,7 @@ flarum-likes:
       like_posts_label: 'Memberikan like pada postingan'
     settings:
       like_own_posts_help: 'Saat diaktifkan, user dapat memberikan ''like'' pada postingan mereka sendiri. Untuk mencegah user memberikan ''like'' pada postingan mereka sendiri, nonaktifkan pengaturan ini.'
-      like_own_posts_label: 'User dapat menyukai postingan mereka sendiri'
+      like_own_posts_label: 'User dapat memberikan Like pada postingan mereka sendiri'
   forum:
     notifications:
       others_text: '=> core.ref.some_others'

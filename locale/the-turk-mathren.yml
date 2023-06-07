@@ -42,7 +42,7 @@ the-turk-mathren:
       sizing_options_heading: 'Pilihan Ukuran'
       sri_asciimath2tex_text: 'SRI hash untuk <strong>asciimath2tex</strong>'
       sri_katex_text: 'SRI hash untuk <strong>KaTeX</strong>'
-      throw_on_error_label: 'Throw error pada command yang tidak didukung atau LaTeX yang tidak valid'
+      throw_on_error_label: 'Tampilkan error pada command yang tidak didukung atau LaTeX yang tidak valid'
   forum:
     composer:
       block_expression: 'Block Expression'

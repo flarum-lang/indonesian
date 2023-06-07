@@ -42,9 +42,9 @@ fof-reactions:
     mod_item: 'Lihat Reaksi'
     modal:
       title: Bereaksi
-    notification: '{username} bereaksi dengan {reaction} ke postingan Anda'
+    notification: '{username} bereaksi dengan {reaction} ke post Anda'
     react_button_label: Bereaksi
-    reacting-own-post: 'Anda tidak dapat memberikan reaksi terhadap postingan Anda sendiri'
+    reacting-own-post: 'Anda tidak dapat memberikan reaksi terhadap post Anda sendiri'
     settings:
       notify_post_reacted_label: 'Seseorang memberikan reaksi terhadap salah satu postingan saya'
     warning: 'Reaction Anda telah dikonversi'

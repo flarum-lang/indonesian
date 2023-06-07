@@ -6,7 +6,7 @@ clarkwinkelmann-colorful-borders:
   admin:
     permissions:
       editAnyPost: 'Mengedit style postingan lainnya'
-      editOwnPost: 'Mengedit style postingan Anda sendiri'
+      editOwnPost: 'Mengedit style post Anda sendiri'
     settings:
       colors:
         all: 'Semua warna'

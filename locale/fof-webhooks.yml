@@ -3,8 +3,12 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-webhooks:
+  adapters:
+    errors:
+      404: 'Webhook Tidak Ditemukan'
   admin:
     errors:
+      service_not_found: 'Layanan "{service}" tidak dapat ditemukan.'
       tag_invalid: 'Webhook ini dibatasi untuk tag yang tidak valid. Pembatasan tidak akan berlaku. Pastikan hal ini dimaksudkan.'
     nav:
       desc: 'Outgoing webhook yang dapat disesuaikan untuk forum Anda.'
@@ -26,6 +30,8 @@ fof-webhooks:
           user:
             deleted: '=> fof-webhooks.ref.deleted'
             renamed: '=> fof-webhooks.ref.renamed'
+      debug_help: 'Tambahkan log tambahan ke file log Flarum untuk men-debug masalah dengan webhook dan/atau event yang tidak bekerja dengan benar.'
+      debug_label: Debug
       help:
         disabled: 'Webhook ini dinonaktifkan karena tidak memiliki event yang diaktifkan.'
         general: 'Di sini Anda dapat menambahkan, mengedit, dan menghapus webhook dari forum Anda.'

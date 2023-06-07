@@ -10,7 +10,7 @@ core:
 flarumite-simple-discussion-views:
   admin:
     permissions:
-      reset_views_label: 'Atur jumlah tampilan diskusi'
+      reset_views_label: 'Mengatur jumlah tampilan diskusi'
     settings:
       ignore_crawlers: 'Abaikan kunjungan dari crawler (bot)'
   forum:
