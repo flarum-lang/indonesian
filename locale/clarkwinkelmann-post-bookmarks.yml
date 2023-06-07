@@ -6,4 +6,18 @@ clarkwinkelmann-post-bookmarks:
   admin:
     settings:
       buttonPosition: 'Posisi tombol'
+      buttonPositionActions: 'Di bawah post (quick action)'
+      buttonPositionHeader: 'Di atas post (header)'
+      buttonPositionMenu: 'Di menu post (3 titik)'
       headerBadge: 'Tampilkan label penanda di atas postingan yang ditandai'
+  forum:
+    alert:
+      added: 'Bookmark ditambahkan!'
+      removed: 'Bookmark dihapus!'
+    badge: Dibookmark
+    button:
+      add: Bookmark
+      remove: Dibookmark
+    page:
+      link: Bookmark
+      title: Bookmark
