@@ -4,6 +4,9 @@
 
 clarkwinkelmann-colorful-borders:
   admin:
+    permissions:
+      editAnyPost: 'Mengedit style postingan lainnya'
+      editOwnPost: 'Mengedit style postingan Anda sendiri'
     settings:
       colors:
         all: 'Semua warna'
@@ -15,9 +18,13 @@ clarkwinkelmann-colorful-borders:
       enableBorderRadius: 'Border radius'
       enableBorderWidth: 'Lebar border'
       enableTextColor: 'Warna teks'
+      max: Max
+      min: Min
   forum:
     apply: Terapkan
     backgroundColor: 'Warna background'
     borderColor: 'Warna border'
+    borderRadius: 'Border radius'
     borderWidth: 'Lebar border'
+    default: Default
     textColor: 'Warna teks'

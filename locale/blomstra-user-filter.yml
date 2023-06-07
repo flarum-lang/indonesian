@@ -3,10 +3,17 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 blomstra-user-filter:
+  admin:
+    settings:
+      min_length: 'Jumlah minimal karakter untuk memulai pencarian'
+      result_count: 'Jumlah hasil pada dropdown autocomplete'
   forum:
     index_page:
       filter_user:
+        accessible_label: 'Filter berdasarkan penulis'
         all: Semua
         keep_typing: 'Terus mengetik...'
+        label: 'Filter berdasarkan penulis: {text}'
         no_results: 'Tidak ada hasil'
+        search_label: 'Cari pengguna...'
         start_typing: 'Mulai mengetik...'

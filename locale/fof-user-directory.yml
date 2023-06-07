@@ -7,6 +7,7 @@ fof-user-directory:
     permissions:
       view_user_directory: 'Melihat direktori user'
     settings:
+      default-sort: 'Pengurutan default'
       disable-global-search-source: 'Jangan menambahkan Direktori User ke kolom pencarian global Flarum'
       link: 'Tambahkan link di homepage agar user dapat melihat direktori'
   forum:

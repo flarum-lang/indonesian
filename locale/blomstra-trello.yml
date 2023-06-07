@@ -5,6 +5,10 @@
 blomstra-trello:
   admin:
     modals:
+      fields:
+        board: 'Pilih Trello board'
+        forum_tags: 'Pilih tag Forum yang akan dipetakan'
+        trello_label: 'Pilih Trello label'
       no_available_labels_label: 'Tidak ada label yang tersedia'
       no_available_tags_label: 'Tidak ada tag forum yang tersedia'
     permissions:
@@ -25,6 +29,12 @@ blomstra-trello:
       label:
         boards: 'Pengaturan Board'
         general: General
+        labels: 'Pengaturan Label'
+      mapping:
+        add_new: 'Tambahkan pemetaan'
+        modal_title: 'Pemetaan tag baru'
+        no_mappings_for_board: 'Tidak ada pemetaan tag aktif yang ditetapkan untuk board ini'
+      mappings_label: 'Tag forum ke pemetaan Trello label'
       member_id_help: 'Masukkan Trello Member ID yang akan digunakan untuk mengambil organization boards with Trello (https://trello.com/your-trello-handle)'
       member_id_label: 'ID Member'
       no_available_boards_label: 'Tidak ada board yang tersedia'
@@ -40,4 +50,12 @@ blomstra-trello:
     controls:
       send_to_trello_button: 'Kirim ke Trello'
     modals:
+      fields:
+        board: 'Pilih Trello board'
+        lane: 'Pilih Trello lane'
+        member: 'Pilih Trello member'
+      no_available_board_lanes: 'Tidak ada board lane yang tersedia'
+      no_available_board_members: 'Tidak ada board member yang tersedia'
+      no_available_boards_label: 'Tidak ada board yang tersedia'
+      no_mappings_for_board: 'Board yang dipilih saat ini tidak memiliki pemetaan Trello label yang ditetapkan untuk tag forum'
       title: 'Kirim ke Trello'
