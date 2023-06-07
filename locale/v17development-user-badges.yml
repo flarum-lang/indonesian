@@ -9,6 +9,9 @@ v17development-flarum-badges:
         badge_id: 'ID Badge'
         give_badge: 'Berikan badge'
         remove_badge: 'Hapus badge'
+      badge_selector:
+        loading_badges: 'Memuat badge'
+        placeholder: 'Pilih badge'
       not_installed:
         content: 'Ekstensi ini menawarkan lebih banyak fungsionalitas ketika <a>Auto Moderator</a> diinstal dan diaktifkan. Ketika Anda memasang ekstensi ini, pengguna dapat secara otomatis diberikan reward berupa badge tanpa campur tangan karyawan komunitas!'
         dismiss: 'Jangan tampilkan lagi'
@@ -42,14 +45,21 @@ v17development-flarum-badges:
     confirm_messages:
       delete_badge: 'Apakah Anda yakin ingin menghapus badge ini? Badge ini akan dihapus dari semua pengguna dan tidak dapat dikembalikan.'
       delete_category: 'Apakah Anda yakin ingin menghapus kategori ini? Jika ada badge dalam kategori ini, badge tersebut akan ditandai sebagai ''tidak dikategorikan''.'
+    create_category: 'Buat kategori'
+    edit_category: 'Edit kategori'
+    new_badge: 'Badge baru'
     nothing_here_yet: 'Anda belum membuat badge atau kategori apa pun.'
     number_of_badges_on_user_card: 'Jumlah badge'
     number_of_badges_on_user_card_help: 'Jumlah badge yang akan ditampilkan pada user card'
     permissions:
       badge_detail_users: 'Dapat melihat user di halaman detail badge'
+      edit_card_badges: 'Mengedit user card badge'
+      edit_own_card_badges: 'Mengedit user card badge Anda sendiri'
       give_badge: 'Memberikan badge kepada pengguna'
       take_badge: 'Mengambil badge dari pengguna'
     uncategorized: 'Tidak dikategorikan'
+    update_badge: 'Perbarui badge'
+    update_category: 'Perbarui kategori'
   forum:
     all_badges: 'Lihat semua badge'
     all_users: 'Lihat semua pengguna'
@@ -76,5 +86,6 @@ v17development-flarum-badges:
     save_changes: 'Simpan perubahan'
     select_badge: 'Pilih badge'
     uncategorized: '=> v17development-flarum-badges.admin.uncategorized'
+    update_badge: 'Perbarui badge'
     user_has_badge: 'Pengguna sudah memiliki badge ini.'
     user_no_badges: 'Pengguna ini belum memiliki badge apa pun.'

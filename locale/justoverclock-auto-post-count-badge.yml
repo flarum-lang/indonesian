@@ -24,3 +24,10 @@ justoverclock-auto-post-count-badge:
         help: 'Sesuaikan nama tingkat'
         title: 'Pengaturan Label Teks'
       tier: 'Tingkat {tier}: dari {from} hingga {to} post'
+  forum:
+    less1000post: Guru!
+    less100post: Talker
+    less10post: Baby
+    less300post: Teacher
+    less50post: Newbie
+    less600post: Monster!
