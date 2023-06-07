@@ -7,7 +7,10 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`extiverse/mercury`](https://github.com/extiverse/mercury)
 * [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
+* [`nyu8/flarum-email-filter`](https://github.com/nyu8/flarum-email-filter)
 * [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
 
 
