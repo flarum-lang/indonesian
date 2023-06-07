@@ -7,19 +7,35 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`clarkwinkelmann/flarum-ext-colorful-borders`](https://github.com/clarkwinkelmann/flarum-ext-colorful-borders)
 * [`clarkwinkelmann/flarum-ext-post-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-post-bookmarks)
 * [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
 * [`clarkwinkelmann/flarum-ext-scout`](https://github.com/clarkwinkelmann/flarum-ext-scout)
 * [`clarkwinkelmann/flarum-ext-scratchpad`](https://github.com/clarkwinkelmann/flarum-ext-scratchpad)
+* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read)
 * [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
 * [`extiverse/mercury`](https://github.com/extiverse/mercury)
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`flarumite/simple-discussion-views`](https://github.com/flarumite/simple-discussion-views)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
+* [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`ganuonglachanh/sonic`](https://github.com/ganuonglachanh/flarum-sonic)
 * [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
 * [`hehongyuanlove/flarum-auth-qq`](https://github.com/Hehongyuanlove/flarum-auth-qq)
 * [`ianm/syndication`](https://github.com/imorland/syndication)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
 * [`nearata/flarum-ext-embed-twitch`](https://github.com/Nearata/flarum-ext-embed-twitch)
 * [`nyu8/flarum-email-filter`](https://github.com/nyu8/flarum-email-filter)
 * [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
+* [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren)
 
 
 Semua perubahan: [1.3.0...1.3.1](https://github.com/flarum-lang/indonesian/compare/1.3.0...1.3.1).
