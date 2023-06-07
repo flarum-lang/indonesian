@@ -7,6 +7,7 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`clarkwinkelmann/flarum-ext-collapsible-posts`](https://github.com/clarkwinkelmann/flarum-ext-collapsible-posts)
 * [`clarkwinkelmann/flarum-ext-colorful-borders`](https://github.com/clarkwinkelmann/flarum-ext-colorful-borders)
 * [`clarkwinkelmann/flarum-ext-post-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-post-bookmarks)
 * [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
