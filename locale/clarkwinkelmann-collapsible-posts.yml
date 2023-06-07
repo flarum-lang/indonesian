@@ -10,4 +10,8 @@ clarkwinkelmann-collapsible-posts:
       header:
         explanation: 'Pesan penjelasan khusus'
         key: 'Kunci unik database'
+        label: Label
       reasons: Alasan
+  forum:
+    stream:
+      explanation: 'Mengapa Saya melihat ini?'

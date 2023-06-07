@@ -10,6 +10,7 @@ fof-webhooks:
     errors:
       service_not_found: 'Layanan "{service}" tidak dapat ditemukan.'
       tag_invalid: 'Webhook ini dibatasi untuk tag yang tidak valid. Pembatasan tidak akan berlaku. Pastikan hal ini dimaksudkan.'
+      url_invalid: 'URL tidak valid untuk layanan yang dipilih.'
     nav:
       desc: 'Outgoing webhook yang dapat disesuaikan untuk forum Anda.'
     settings:
@@ -37,6 +38,10 @@ fof-webhooks:
         general: 'Di sini Anda dapat menambahkan, mengedit, dan menghapus webhook dari forum Anda.'
         url: 'Webhook''s endpoint yang akan dieksekusi'
       modal:
+        description: 'Di sini Anda memodifikasi event apa yang dijalankan oleh webhook.'
+        events_label: Event
+        extra_text_help: 'Teks tambahan untuk disertakan dalam webhook yang dikirim.'
+        extra_text_label: 'Teks tambahan'
         group_help: 'Kirim sumber daya yang dapat dilihat oleh grup ini'
         group_label: Grup
         max_post_content_length_help: 'Tetapkan angka untuk membatasi konten postingan di semua event yang berkaitan dengan postingan. Ubah ke 0 atau kosongkan untuk menghilangkan limit.'
