@@ -7,8 +7,10 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`clarkwinkelmann/flarum-ext-post-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-post-bookmarks)
 * [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
 * [`clarkwinkelmann/flarum-ext-scout`](https://github.com/clarkwinkelmann/flarum-ext-scout)
+* [`clarkwinkelmann/flarum-ext-scratchpad`](https://github.com/clarkwinkelmann/flarum-ext-scratchpad)
 * [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
 * [`extiverse/mercury`](https://github.com/extiverse/mercury)
 * [`ganuonglachanh/sonic`](https://github.com/ganuonglachanh/flarum-sonic)
