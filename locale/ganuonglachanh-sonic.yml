@@ -6,3 +6,7 @@ ganuonglachanh-sonic:
   admin:
     settings:
       GNOptionsHeading: Pengaturan
+      host: Host
+      password: Password
+      port: Port
+      timeout: 'TimeOut (waktu habis)'

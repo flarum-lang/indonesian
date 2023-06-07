@@ -40,6 +40,6 @@ sycho-move-posts:
       first_post:
         default_content: "*This post has been moved to **[%DISCUSSION_NAME%](%POST_LINK%)**.*\n"
   ref:
-    move_posts: 'Pindahkan Postingan'
+    move_posts: 'Pindahkan Post'
     status:
       old_to_new_move: 'Tidak dapat memindahkan postingan lama ke diskusi yang lebih baru.'

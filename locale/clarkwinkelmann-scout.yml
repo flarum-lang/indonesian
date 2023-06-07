@@ -5,6 +5,9 @@
 clarkwinkelmann-scout:
   admin:
     setting:
+      driverOption:
+        algolia: Algolia
+        'null': 'Null'
       limit: 'Batas Hasil Default'
       limitHelp: "Ini akan mengesampingkan jumlah hasil yang diminta oleh mesin pencari dan mempengaruhi jumlah halaman yang dapat dihasilkan (batas ini juga menghitung konten yang tidak dapat dilihat oleh user). Beberapa mesin mungkin memerlukan konfigurasi tambahan untuk mengubah batas maksimal yang diizinkan.\n"
       limitPlaceholder: Otomatis

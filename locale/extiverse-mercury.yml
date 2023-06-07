@@ -10,7 +10,7 @@ extiverse-mercury:
       highest-version: 'Rilis terbaru'
       installed-version: 'Rilis yang terinstal'
     header-secondary:
-      no-token: 'Token Dibutuhkan'
+      no-token: 'Token Diperlukan'
       updates: '{count, plural, =0 {Tidak ada pembaruan} one {Satu pembaruan} other {# pembaruan}}'
     settings:
       token: 'Token Extiverse (<a>request</a>)'

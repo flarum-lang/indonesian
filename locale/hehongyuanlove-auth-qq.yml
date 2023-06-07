@@ -5,13 +5,24 @@
 hehongyuanlove-auth-qq:
   admin:
     qq_settings:
+      client_id_label: 'App ID'
+      client_secret_label: 'App Secret'
       title: 'Pengaturan QQ'
   forum:
     buttons:
+      link: 'Hubungkan QQ'
       login: '=> hehongyuanlove-auth-qq.forum.log_in.with_qq_button'
+      unlink: 'Hapus QQ'
+    log_in:
+      with_qq_button: QQ
     modals:
+      link:
+        title: 'Menghubungkan QQ'
       unlink:
         buttons:
           cancel: Batal
+          confirm: Hapus
         info:
+          confirm: 'Apakah Anda yakin ingin menghapus akun QQ Anda?'
           no_providers: 'Anda tidak memiliki metode login lainnya. Mohon untuk mereset password akun Anda terlebih dahulu.'
+        title: 'Menghapus QQ'

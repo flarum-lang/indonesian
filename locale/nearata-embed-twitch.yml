@@ -6,6 +6,19 @@ nearata-embed-twitch:
   admin:
     allowfullscreen: 'Izinkan layar penuh'
     autoplay: 'Putar otomatis (Autoplay)'
+    permissions:
+      create_twitch: 'Menyematkan Twitch'
   forum:
+    button_tooltip_title: 'Sematkan Twitch'
     modal:
+      label:
+        channel: 'Nama Channel'
+        collection: 'ID Koleksi'
+        layout: 'Tata letak'
+        type: 'Jenis konten'
+        video: 'ID Video'
+      options:
+        channel: Channel
+        collection: Koleksi
+        video: Video
       save_changes: 'Simpan Perubahan'
