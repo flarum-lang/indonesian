@@ -7,12 +7,14 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
 * [`clarkwinkelmann/flarum-ext-scout`](https://github.com/clarkwinkelmann/flarum-ext-scout)
 * [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
 * [`extiverse/mercury`](https://github.com/extiverse/mercury)
 * [`ganuonglachanh/sonic`](https://github.com/ganuonglachanh/flarum-sonic)
 * [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
 * [`hehongyuanlove/flarum-auth-qq`](https://github.com/Hehongyuanlove/flarum-auth-qq)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
 * [`nearata/flarum-ext-embed-twitch`](https://github.com/Nearata/flarum-ext-embed-twitch)
 * [`nyu8/flarum-email-filter`](https://github.com/nyu8/flarum-email-filter)
 * [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
