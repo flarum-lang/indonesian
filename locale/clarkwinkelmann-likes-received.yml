@@ -6,3 +6,6 @@ clarkwinkelmann-likes-received:
   admin:
     permission:
       view: 'Melihat Like yang diterima'
+  forum:
+    user-card:
+      likes: '{likes, plural, one {# like diterima} other {# like diterima}}'

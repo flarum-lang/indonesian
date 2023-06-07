@@ -8,5 +8,17 @@ tpokorra-post-notification:
       new_discussion: 'Label untuk mendeskripsikan diskusi baru'
       new_post: 'Label untuk mendeskripsikan postingan baru'
       post_approval: 'Label untuk mendeskripsikan postingan baru yang membutuhkan persetujuan'
+      recipients:
+        new_discussion:
+          bcc: 'BCC - Daftar alamat email (dipisahkan dengan koma) untuk diskusi baru'
+          to: 'To (Kepada) - Daftar alamat email (dipisahkan dengan koma) untuk diskusi baru'
+        new_post:
+          bcc: 'BCC - Daftar alamat email (dipisahkan dengan koma) untuk postingan baru'
+          to: 'To (Kepada) - Daftar alamat email (dipisahkan dengan koma) untuk postingan baru'
+        post_approval:
+          to: 'To (Kepada) - Daftar alamat email (dipisahkan dengan koma) untuk persetujuan postingan baru'
+        revised_post:
+          bcc: 'BCC - Daftar alamat email (dipisahkan dengan koma) untuk postingan yang direvisi'
+          to: 'To (Kepada) - Daftar alamat email (dipisahkan dengan koma) untuk postingan yang direvisi'
       revised_post: 'Label untuk mendeskripsikan postingan yang direvisi'
       title: 'Konfigurasi Notifikasi Postingan'

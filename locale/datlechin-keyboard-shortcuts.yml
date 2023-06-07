@@ -8,6 +8,7 @@ datlechin-keyboard-shortcuts:
     discussion_list_heading: 'Daftar Diskusi'
     discussion_page: 'Halaman Diskusi'
     discussion_page_heading: 'Halaman Diskusi'
+    global_heading: Global
     shortcuts:
       back: Kembali
       close: Tutup
@@ -18,6 +19,7 @@ datlechin-keyboard-shortcuts:
       mark_all_as_read: 'Tandai semua sebagai telah dibaca'
       new_discussion: 'Diskusi Baru'
       notifications: Notifikasi
+      pin_nav: Sematkan
       refresh: Refresh
       reply: Balas
       search: Cari
