@@ -5,10 +5,16 @@
 club-1-cross-references:
   admin:
     enable_short_references:
+      help: 'Mengubah teks #<ID> dalam sebuah teks (contoh: #42) menjadi link yang mengarah ke diskusi terkait.'
       label: 'Aktifkan referensi singkat'
     retrofit_links_in_frontend:
-      help: "<p><strong>Deprecated</strong> (akan dihapus pada <code>v1.2.0</code>) Consider using the <code>chore:reparse</code> command of <code>club-1/flarum-ext-chore-commands</code> extension instead. See: <code>https://github.com/club-1/flarum-ext-chore-commands</code></p> <p>Tampilkan link judul diskusi dalam pesan yang dikirim ketika ekstensi ini tidak diaktifkan. Hal ini dilakukan di frontend, sehingga dapat menyebabkan pengalaman pengguna menjadi buruk.</p>\n"
+      help: "<p><strong>Deprecated</strong> (akan dihapus pada <code>v1.2.0</code>) Pertimbangkan untuk menggunakan command <code>chore:reparse</code> dari ekstensi <code>club-1/flarum-ext-chore-commands</code> sebagai gantinya. Lihat: <code>https://github.com/club-1/flarum-ext-chore-commands</code></p> <p>Tampilkan link judul diskusi dalam pesan yang dikirim ketika ekstensi ini tidak diaktifkan. Hal ini dilakukan di frontend, sehingga dapat menyebabkan pengalaman pengguna menjadi cukup buruk.</p>\n"
+      label: 'Link retrofit di frontend'
+    show_discussion_id:
+      help: 'Menambahkan nomor ID diskusi di mana pun diskusi ditampilkan.'
+      label: 'Tampilkan ID diskusi'
   forum:
     comment: komentar
     post_stream:
+      discussion_referenced_multiple_text: '{username} merujuk diskusi ini dari berbagai sumber: {sources}'
       discussion_referenced_text: '{username} mereferensikan diskusi ini dari {source}'

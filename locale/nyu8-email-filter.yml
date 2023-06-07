@@ -6,6 +6,7 @@ nyu8-email-filter:
   admin:
     custom_failure_message_hint: 'Satu ekspresi per baris. Jika tidak ada daftar hitam yang disediakan, semua yang tidak masuk dalam daftar putih akan ditolak.'
     custom_failure_message_label: 'Pesan Kegagalan Khusus'
+    general: General
     invalid_regular_expression: 'Reguler expression tidak valid'
   forum:
     blacklist_exception: 'Email ini atau domainnya ada dalam daftar hitam komunitas ini.'

@@ -9,3 +9,12 @@ extiverse-mercury:
       extension-name: Ekstensi
       highest-version: 'Rilis terbaru'
       installed-version: 'Rilis yang terinstal'
+    header-secondary:
+      no-token: 'Token Dibutuhkan'
+      updates: '{count, plural, =0 {Tidak ada pembaruan} one {Satu pembaruan} other {# pembaruan}}'
+    settings:
+      token: 'Token Extiverse (<a>request</a>)'
+      token-description: "Ambil API token dari Extiverse sehingga <a>Extiverse</a> dapat berkomunikasi dengan aman dengan komunitas Flarum Anda.\n"
+  email:
+    new-extension-update:
+      subject: '{count, plural, one {Satu pembaruan tersedia untuk komunitas Anda} other {Tersedia # pembaruan untuk komunitas Anda}}'
