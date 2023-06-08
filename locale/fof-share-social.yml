@@ -17,7 +17,10 @@ fof-share-social:
     networks:
       facebook: Facebook
       linkedin: LinkedIn
+      my_mail: 'My World'
       odnoklassniki: Odnoklassniki
+      qq: QQ
+      qzone: QZone
       reddit: Reddit
       telegram: Telegram
       twitter: Twitter

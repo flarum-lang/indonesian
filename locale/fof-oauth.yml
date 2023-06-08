@@ -35,6 +35,8 @@ fof-oauth:
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: 'Buatlah aplikasi di {link}.'
         twitter:
+          api_key_label: 'API Key'
+          api_secret_label: 'API Secret'
           description: 'Buatlah aplikasi di {link}. Anda perlu menetapkan URL untuk Ketentuan Layanan dan Kebijakan Privasi. Pastikan untuk menambahkan izin permintaan melalui email.'
     settings_accessibility_label: 'Pengaturan {name}'
   forum:
@@ -65,6 +67,7 @@ fof-oauth:
       settings:
         linked-account:
           help: 'Akun terhubung ini memungkinkan Anda untuk login ke forum menggunakan penyedia lain.'
+          identifier-label: 'ID {provider}'
           label: 'Akun terhubung'
           last-used-label: 'Terakhir digunakan'
           link-created-label: 'Link dibuat'
@@ -79,3 +82,9 @@ fof-oauth:
       google: Google
       linkedin: LinkedIn
       twitter: Twitter
+  ref:
+    settings:
+      app_id: 'App ID'
+      app_secret: 'App Secret'
+      client_id: 'Client ID'
+      client_secret: 'Client Secret'

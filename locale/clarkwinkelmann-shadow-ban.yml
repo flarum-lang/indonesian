@@ -3,9 +3,29 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 clarkwinkelmann-shadow-ban:
+  admin:
+    permission:
+      ban: 'Meng-shadow ban user'
+      hide: 'Meng-shadow hide diskusi dan post'
+    setting:
+      hideUsers: 'Sembunyikan profil user yang terkena shadow ban'
   forum:
+    badge:
+      discussion: 'Shadow hidden'
+      post: 'Shadow hidden'
+      user: 'Shadow banned'
     banUser:
+      quick: 'Pilihan cepat'
       quickChoiceDays: '{count, plural, one {# hari} other {# hari}}'
       quickChoiceReset: 'Tidak ditangguhkan'
       submit: Simpan
       title: 'Tangguhkan {username}'
+      until: 'Hingga tanggal (UTC)'
+    discussionControl:
+      hide: 'Shadow hide'
+      restore: 'Pulihkan shadow'
+    postControl:
+      hide: 'Shadow hide'
+      restore: 'Pulihkan shadow'
+    userControl:
+      ban: 'Shadow ban'

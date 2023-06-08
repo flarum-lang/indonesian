@@ -35,6 +35,7 @@ fof-mason:
       user_values_allowed: 'User value yang diizinkan'
       user_values_allowed-help: "Jika diaktifkan, pengguna dapat menambahkan value mereka sendiri, bukan yang value yang telah ditentukan oleh admin. Semua value tersebut akan diperiksa dengan pengaturan \"Validasi\". Jika dinonaktifkan, mereka hanya akan dapat menggunakan jawaban yang \"disarankan\".\n"
       validation: 'Validasi user value'
+      validation-help: "Periksa <a>aturan validasi Laravel</a> yang didukung. Contohnya: \"string|min:5\" or \"url\".\n"
     messages:
       delete-answer-confirmation: "Apakah Anda yakin ingin menghapus jawaban \"{content}\"? Jawaban tersebut akan dihapus dari semua diskusi yang menggunakannya. Jika Anda ingin menyimpan jawaban yang ada, nonaktifkan saran jawaban. Hapus jawaban?\n"
       delete-field-confirmation: "Apakah Anda yakin ingin menghapus kolom \"{name}\"? Kolom dan jawabannya akan dihapus dari semua diskusi yang menggunakannya. Hapus kolom?\n"

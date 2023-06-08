@@ -22,6 +22,8 @@ fof-masquerade:
       option-comma-warning: 'Label opsi tidak boleh mengandung koma (",").'
       option-new: 'Pilihan baru'
       options: Pilihan
+      prefix: 'Prefiks kolom'
+      prefix-help: "Menampilkan prefiks Anda di depan value yang dimasukkan oleh pengguna untuk kolom ini.\n"
       required: 'Tandai kolom yang harus diisi'
       title: Kolom
       type: Tipe
@@ -32,6 +34,12 @@ fof-masquerade:
       edit-others-profile: 'Mengedit profil pengguna lainnya'
       have-profile: 'Memiliki profil masquerade'
       view-profile: 'Melihat penghitungan Upvote/Downvote'
+    types:
+      advanced: Lanjutan
+      boolean: Checkbox
+      email: Email
+      select: Dropdown
+      url: URL
   forum:
     alerts:
       profile-completed: 'Profile sudah lengkap! <a>Lanjutkan ke homepage</a>'
