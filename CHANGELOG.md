@@ -52,6 +52,7 @@ CHANGELOG
 * [`flarum/markdown`](https://github.com/flarum/markdown)
 * [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`flarumite/simple-discussion-views`](https://github.com/flarumite/simple-discussion-views)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
