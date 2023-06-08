@@ -13,8 +13,12 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings)
+* [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
+* [`blessing/flarum-oauth-client`](https://github.com/bs-community/flarum-oauth-client)
 * [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
 * [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish)
+* [`clarkwinkelmann/flarum-ext-clippy`](https://github.com/clarkwinkelmann/flarum-ext-clippy)
 * [`clarkwinkelmann/flarum-ext-collapsible-posts`](https://github.com/clarkwinkelmann/flarum-ext-collapsible-posts)
 * [`clarkwinkelmann/flarum-ext-colorful-borders`](https://github.com/clarkwinkelmann/flarum-ext-colorful-borders)
 * [`clarkwinkelmann/flarum-ext-discussion-lists`](https://github.com/clarkwinkelmann/flarum-ext-discussion-lists)
@@ -33,6 +37,7 @@ CHANGELOG
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
 * [`flarum/flags`](https://github.com/flarum/flags)
 * [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/markdown`](https://github.com/flarum/markdown)
 * [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
 * [`flarum/tags`](https://github.com/flarum/tags)
@@ -52,6 +57,7 @@ CHANGELOG
 * [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
+* [`fof/passport`](https://github.com/FriendsOfFlarum/passport)
 * [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
