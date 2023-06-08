@@ -5,28 +5,28 @@
 nyu8-email-filter:
   admin:
     blacklist_literal:
-      description: 'Email yang tepat untuk dimasukkan dalam daftar hitam'
-      label: 'Daftar hitam'
+      description: 'Email yang tepat untuk dimasukkan dalam blacklist'
+      label: Blacklist
       placeholder: Email...
     blacklist_regex:
-      description: 'Email regular expressions untuk dimasukkan ke dalam daftar hitam'
-      label: 'Daftar hitam - regular expression'
+      description: 'Email regular expressions untuk dimasukkan ke dalam blacklist'
+      label: 'Blacklist - regular expression'
       placeholder: 'Regular expression...'
-    custom_failure_message_hint: 'Satu ekspresi per baris. Jika tidak ada daftar hitam yang disediakan, semua yang tidak masuk dalam daftar putih akan ditolak.'
+    custom_failure_message_hint: 'Pesan kesalahan khusus yang akan ditampilkan ketika email tidak valid. Akan menampilkan pesan kesalahan default jika ini dibiarkan kosong.'
     custom_failure_message_label: 'Pesan Kegagalan Khusus'
     general: General
     invalid_regular_expression: 'Reguler expression tidak valid'
     name_placeholder: 'Nama aturan'
     rule_settings: 'Pengaturan Aturan'
     whitelist_literal:
-      description: 'Email yang tepat untuk dimasukkan ke dalam daftar putih'
-      label: 'Daftar putih'
+      description: 'Email yang tepat untuk dimasukkan ke dalam whitelist'
+      label: Whitelist
       placeholder: Email...
     whitelist_regex:
-      description: 'Email regular expressions untuk dimasukkan ke dalam daftar putih'
-      label: 'Daftar putih - regular expression'
+      description: 'Email regular expressions untuk dimasukkan ke dalam whitelist'
+      label: 'Whitelist - regular expression'
       placeholder: 'Regular expression..'
   forum:
-    blacklist_exception: 'Email ini atau domainnya ada dalam daftar hitam komunitas ini.'
+    blacklist_exception: 'Email ini atau domainnya ada di dalam blacklist komunitas ini.'
     generic_exception: 'Ada yang tidak beres. Hubungi administrator komunitas ini.'
-    whitelist_exception: 'Email ini atau domainnya tidak ada dalam daftar putih komunitas ini.'
+    whitelist_exception: 'Email ini atau domainnya tidak ada di dalam whitelist komunitas ini.'

@@ -16,9 +16,9 @@ tpokorra-post-notification:
           bcc: 'BCC - Daftar alamat email (dipisahkan dengan koma) untuk postingan baru'
           to: 'To (Kepada) - Daftar alamat email (dipisahkan dengan koma) untuk postingan baru'
         post_approval:
-          to: 'To (Kepada) - Daftar alamat email (dipisahkan dengan koma) untuk persetujuan postingan baru'
+          to: 'To (Kepada) - Daftar alamat email (dipisahkan dengan koma) untuk persetujuan post baru'
         revised_post:
           bcc: 'BCC - Daftar alamat email (dipisahkan dengan koma) untuk postingan yang direvisi'
           to: 'To (Kepada) - Daftar alamat email (dipisahkan dengan koma) untuk postingan yang direvisi'
       revised_post: 'Label untuk mendeskripsikan postingan yang direvisi'
-      title: 'Konfigurasi Notifikasi Postingan'
+      title: 'Konfigurasi Notifikasi Post'

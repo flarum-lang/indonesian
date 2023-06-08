@@ -19,6 +19,7 @@ antoinefr-money:
       moneyfordiscussion: 'Money yang diberikan untuk diskusi baru'
       moneyforlike: 'Money yang diberikan ketika sebuah postingan mendapatkan like'
       moneyforpost: 'Money yang diberikan untuk postingan baru'
+      moneyname: 'Nama money (contoh: [money] points)'
       noshowzero: 'Jangan tampilkan jika nilainya nol'
       postminimumlength: 'Panjang postingan minimum untuk mendapatkan money (0 untuk menonaktifkan)'
       title: Pengaturan
@@ -26,3 +27,6 @@ antoinefr-money:
     modal:
       current: 'Saat ini:'
       submit_button: '=> core.ref.save_changes'
+      title: '{username} money'
+    user_controls:
+      money_button: 'Edit money'

@@ -18,7 +18,7 @@ fof-upload:
       watermark: "Tentukan apakah gambar akan ditambahkan watermark saat di-upload. Watermark ditambahkan ke non-gif berdasarkan preferensi Anda di bawah ini.\n"
     inspect-mime:
       description: "FoF Upload menggunakan library <a>PHP Mime Detector</a> untuk common MIME types and PHP Fileinfo sebagai fallback.\nNilai MIME yang dikembalikan oleh Fileinfo dapat berbeda dari server ke server!\n"
-      guessed-extension: 'Ekstensi file default (jika original, tidak masuk daftar putih)'
+      guessed-extension: 'Ekstensi file default (jika original tidak masuk ke dalam whitelist)'
       laravel-validation: 'Laravel File Validation'
       mime-detector: 'Mime Detector (primary)'
       mime-fileinfo: 'PHP Fileinfo (fallback)'
