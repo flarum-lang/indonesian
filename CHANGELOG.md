@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.3.2 (XXXX-XX-XX)
+------------------
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
+
+
+Semua perubahan: [1.3.1...1.3.2](https://github.com/flarum-lang/indonesian/compare/1.3.1...1.3.2).
+
+
 1.3.1 (2023-06-08)
 ------------------
 
