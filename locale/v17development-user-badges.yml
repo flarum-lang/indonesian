@@ -12,6 +12,8 @@ v17development-flarum-badges:
       badge_selector:
         loading_badges: 'Memuat badge'
         placeholder: 'Pilih badge'
+      metric_drivers:
+        badges_received: 'Badge telah diterima'
       not_installed:
         content: 'Ekstensi ini menawarkan lebih banyak fungsionalitas ketika <a>Auto Moderator</a> diinstal dan diaktifkan. Ketika Anda memasang ekstensi ini, pengguna dapat secara otomatis diberikan reward berupa badge tanpa campur tangan karyawan komunitas!'
         dismiss: 'Jangan tampilkan lagi'

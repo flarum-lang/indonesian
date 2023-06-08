@@ -29,6 +29,7 @@ michaelbelgium-discussion-views:
     discussion_controls:
       resetviews_button: 'Reset jumlah tampilan'
     modal_resetviews:
+      label: '{count, plural, one {Ini akan menghapus {count} tampilan dari diskusi ini. Lanjutkan?} other {Ini akan menghapus {count} tampilan dari diskusi ini. Lanjutkan?}}'
       submit_button: 'Ya, hapus semuanya'
       title: 'Reset jumlah tampilan diskusi'
     post:

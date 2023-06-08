@@ -32,6 +32,7 @@ v17development-flarum-blog:
       require_review_label: 'Postingan blog perlu dilakukan peninjauan'
       require_review_text: 'Ketika memposting artikel, artikel tersebut tidak akan terlihat secara langsung dan perlu dilakukan peninjauan oleh moderator.'
       select_categories_button: 'Pilih kategori blog'
+      selected_category_count: '{count, plural, one {Anda memiliki # kategori yang dipilih} other {Anda memiliki # kategori yang dipilih}}'
       show_tag_hierarchy_label: 'Tampilkan hierarki tag'
       show_tag_hierarchy_text: 'Tambahkan spasi pada anak-kategori dan berikan hierarki pada daftar kategori.'
   forum:
