@@ -29,3 +29,5 @@ davwheat-virtual-authors:
   lib:
     edit_modal:
       submit_edit: 'Simpan perubahan'
+  ref:
+    discussion_count: '{count, plural, one {# diskusi}, other {# diskusi}}'

@@ -51,6 +51,8 @@ v17development-flarum-support:
         filter:
           language:
             any: 'Semua bahasa'
+          status:
+            filter_count: '{count, plural, one {# filter} other {# filter}}'
         title: 'Gambaran umum tiket'
       status:
         closed:

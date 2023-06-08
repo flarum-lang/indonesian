@@ -54,6 +54,7 @@ blomstra-trello:
         board: 'Pilih Trello board'
         lane: 'Pilih Trello lane'
         member: 'Pilih Trello member'
+        member_selected: '{count, plural, one {# member} other {# member}} dipilih'
       no_available_board_lanes: 'Tidak ada board lane yang tersedia'
       no_available_board_members: 'Tidak ada board member yang tersedia'
       no_available_boards_label: 'Tidak ada board yang tersedia'

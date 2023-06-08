@@ -17,6 +17,7 @@ v17development-flarum-badges:
       not_installed:
         content: 'Ekstensi ini menawarkan lebih banyak fungsionalitas ketika <a>Auto Moderator</a> diinstal dan diaktifkan. Ketika Anda memasang ekstensi ini, pengguna dapat secara otomatis diberikan reward berupa badge tanpa campur tangan karyawan komunitas!'
         dismiss: 'Jangan tampilkan lagi'
+        install: Install
         title: 'Secara otomatis memberikan reward kepada pengguna dengan badge'
       requirement_drivers:
         has_badge: 'Memiliki badge'
@@ -70,6 +71,8 @@ v17development-flarum-badges:
       badges: Badge
       category: 'Kategori badge'
       description: 'Deskripsi badge'
+      earned_by_count: '{count, plural, one {Diperoleh oleh <b># pengguna</b>} other {Diperoleh oleh <b># pengguna</b>}}'
+      earned_count: '{count, plural, one {<b># pengguna</b> telah mendapatkan badge ini} other {<b># pengguna</b> telah mendapatkan badge ini}}'
       earning_reason: 'Alasan memperoleh badge'
       name: 'Nama badge'
       no_earning_reason: 'Tidak ada alasan perolehan yang ditetapkan'
@@ -77,11 +80,14 @@ v17development-flarum-badges:
     badge_information: 'Informasi tentang badge'
     badges_in_card:
       description: 'Anda dapat mengubah badge yang terlihat pada user card dengan salah satu badge lainnya. Jika Anda tidak memilih salah satu, maka badge akan dipilih secara otomatis.'
+      hit_limit: 'Hanya tersedia untuk <b> {limit, plural, one {<b>satu badge</b>} other {<b># badge</b>}}</b> di user card Anda. Batalkan pilihan badge untuk memberi ruang bagi badge ini.'
+      select_limit: 'Anda dapat memilih {limit, plural, one {<b>satu badge</b>} other {<b># badge</b>}} untuk ditampilkan di user card Anda.'
     give_badge: 'Berikan badge'
     moderation:
       give_badge: 'Berikan badge'
       remove_badge: 'Hapus badge dari pengguna'
       remove_badge_confirm: 'Apakah Anda yakin ingin menghapus badge ini dari pengguna ini?'
+    no_received: 'Tidak ada pengguna yang mendapatkan badge ini.'
     notification:
       settings: 'Saya telah menerima badge'
       title: 'Anda telah menerima badge baru'
