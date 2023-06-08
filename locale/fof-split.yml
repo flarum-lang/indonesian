@@ -11,6 +11,9 @@ fof-split:
       new_discussion_label: 'Tentukan judul untuk diskusi yang baru'
       submit_button: Pisahkan
       title: 'Membagi diskusi'
+    post:
+      was_split_from: '{count, plural, one {{count} post dipisahkan dari {target}.} other {{count} post dipisahkan dari {target}.}}'
+      was_split_to: '{count, plural, one {{count} post dipisahkan ke {target}.} other {{count} post dipisahkan ke {target}.}}'
     split:
       from: 'Pisahkan dari sini'
       to: 'Pisahkan ke sini'

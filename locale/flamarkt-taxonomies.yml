@@ -15,11 +15,13 @@ flamarkt-taxonomies:
         description: '=> flamarkt-taxonomies.ref.field.description'
         enableFilter: 'Aktifkan filter query-string/API'
         enableFilterDescription: "Memungkinkan filter taksonomi yang terhubung ke dalam ke diskusi, pengguna, dan produk untuk pengguna yang memiliki izin untuk \"melihat semua\" jenis taksonomi. Hal ini juga memungkinkan pengguna yang sama untuk menggunakan filter pencarian dengan REST API. Tanpa pengaturan \"Tampilkan filter\", pengguna tidak memiliki cara yang jelas untuk mendapatkan link-link untuk pengguna dan produk. Untuk diskusi, deep link dapat ditemukan di hero meskipun \"Tampilkan filter\" dinonaktifkan.\n"
+        enableFulltextSearchWarning: "Perizinan Anda untuk mencari sumber daya (\"Lihat forum\" untuk diskusi, \"Cari pengguna\" untuk pengguna) berbeda dengan perizinan \"lihat semua\" Taksonomi. Sebelum mengaktifkan opsi ini, pastikan Anda merasa yakin bahwa data dapat dicari oleh pengguna meskipun mereka biasanya tidak dapat melihat taksonomi!\n"
         icon: '=> flamarkt-taxonomies.ref.field.icon'
         iconDescription: '=> flamarkt-taxonomies.ref.field.iconDescription'
         name: '=> flamarkt-taxonomies.ref.field.name'
         rangeSeparatorText: hingga
         showFilter: 'Tampilkan filter pada halaman list/direktori'
+        showFilterDescription: "Menampilkan filter kepada pengunjung biasa di daftar diskusi, direktori pengguna, atau indeks toko. Hanya berfungsi jika \"Aktifkan filter\" diaktifkan. Administrator toko selalu dapat memfilter berdasarkan taksonomi apa pun di backoffice.\n"
         showLabelDescription: "Style tampilan untuk daftar diskusi dan hero. Saat ini tidak digunakan untuk jenis resource lainnya.\n"
         slug: '=> flamarkt-taxonomies.ref.field.slug'
         typeDescription: "Taksonomi dapat digunakan pada beberapa Flarum resource. Jenisnya tidak dapat diubah setelah dibuat. Anda bisa menggunakan nama dan slug yang sama untuk taksonomi dengan tipe yang berbeda.\n"
@@ -68,10 +70,43 @@ flamarkt-taxonomies:
     page:
       title: Taksonomi
     permissions:
+      editAnyDiscussion: 'Mengedit taksonomi pada diskusi apa pun'
+      editAnyUser: 'Mengedit taksonomi pada pengguna mana pun'
+      editOwnDiscussion: 'Mengedit taksonomi pada diskusi sendiri'
+      editOwnUser: 'Mengedit taksonomi pada pengguna sendiri'
       heading: Taksonomi
+      moderate: 'Mengonfigurasi taksonomi yang tersedia'
+      ownDisabledEveryone: 'Anggota yang tidak diaktifkan dan ditangguhkan'
+      ownDisabledMembers: 'Anggota yang diaktifkan'
+      seeAnyDiscussion: 'Melihat taksonomi di semua diskusi'
+      seeAnyUser: 'Melihat taksonomi pada pengguna mana pun'
+      seeOwnDiscussion: 'Melihat taksonomi pada diskusi sendiri'
+      seeOwnUser: 'Melihat taksonomi pada pengguna sendiri'
+    settings:
+      goToPage: 'Masuk ke halaman konfigurasi'
+  api:
+    error:
+      cannot_use_taxonomies_on_model: 'Anda tidak diizinkan menggunakan taksonomi dalam konteks ini'
+      discussion_taxonomy_not_in_scope: 'Taksonomi "{slug}" tidak tersedia dalam kombinasi tag saat ini'
   forum:
+    blog:
+      widget:
+        title: Taksonomi
+    composer:
+      choose: 'Pilih {taxonomy}'
+    discussion:
+      edit: 'Edit {taxonomy}'
     user:
+      edit: 'Edit {taxonomy}'
       nav: Taksonomi
+  lib:
+    modal:
+      custom: 'Gunakan {value}'
+      placeholderOptional: Pilih...
+      submit: OK
+      title:
+        edit: 'Edit {taxonomy} untuk {title}'
+        new: 'Pilih {taxonomy} untuk diskusi Anda'
   ref:
     delete: Hapus
     field:
@@ -80,5 +115,7 @@ flamarkt-taxonomies:
       icon: Ikon
       iconDescription: 'Masukkan nama kelas ikon <a>FontAwesome</a>, <em>termasuk</em> yang berawalan<code>fas fa-</code>.'
       name: Nama
+      slug: Slug
     submit:
       edit: Simpan
+      new: Buat

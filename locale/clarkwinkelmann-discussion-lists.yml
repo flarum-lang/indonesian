@@ -17,16 +17,34 @@ clarkwinkelmann-discussion-lists:
     seriesAnyAddNotAllowed: 'Anda hanya dapat menambahkan diskusi Anda sendiri ke dalam serangkaian list'
     seriesAnyConversionNotAllowed: 'Tidak dapat mengonversi list menjadi seri karena berisi diskusi yang bukan milik Anda'
   forum:
+    badge:
+      private: 'List pribadi'
     discussion:
-      add: 'Tambahkan ke dalam list'
+      add: 'Masukkan ke list'
       new: 'List baru'
     edit:
       delete: Hapus
       deleteConfirmation: 'Apakah Anda benar-benar ingin menghapus daftar ini secara permanen?'
       name: Nama
+      ordering: Pengurutan
+      orderingOptions:
+        addedAsc: 'Penambahan ke list (paling sedikit ke paling baru)'
+        addedDesc: 'Penambahan ke list (paling baru ke paling sedikit)'
+        createdAsc: 'Pembuatan diskusi (terlama ke terbaru)'
+        createdDesc: 'Pembuatan diskusi (terbaru ke terlama)'
+        manual: Manual
       save: Simpan
+      title: 'Edit list'
+      visibility: Visibilitas
       visibilityOptions:
-        private: 'Daftar pribadi'
-        public: 'Daftar publik'
+        private: 'List pribadi'
+        public: 'List publik'
+        series: 'Public series'
     profile:
       link: List
+    series:
+      visit: 'Tampilkan semuanya'
+core:
+  forum:
+    index_sort:
+      discussionListDefault_button: 'Urutan dalam list'
