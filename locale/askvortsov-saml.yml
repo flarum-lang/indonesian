@@ -8,8 +8,11 @@ askvortsov-saml:
       text: 'Pastikan url metadata atau metadata sudah terisi.'
     labels:
       authn_requests_signed: 'Tanda tangani permintaan autentikasi?'
+      idp_metadata: 'Identity Provider Metadata XML (Alternatif untuk URL)'
+      idp_metadata_url: 'Identity Provider Metadata URL (Alternatif untuk XML)'
       logout_request_signed: 'Tanda tangani permintaan logout?'
       logout_response_signed: 'Tanda tangani respons logout?'
+      nameid_format: 'Format NameID'
       only_option: 'Gunakan SAML2 SSO sebagai satu-satunya opsi untuk login?'
       sign_metadata: 'Tanda tangani metadata?'
       slo: 'Aktifkan SLO? Jika IDP Anda tidak mendukung hal ini, ini tidak akan melakukan apa-apa.'
@@ -28,5 +31,6 @@ askvortsov-saml:
     log_in:
       enable_popups: 'Aktifkan Popup untuk Login / Register'
       open_popup: 'Klik Di Sini untuk Login'
+      with_saml_button: 'SAML2 SSO'
     sign_up:
       post_saml_title: 'Satu Langkah Terakhir...'

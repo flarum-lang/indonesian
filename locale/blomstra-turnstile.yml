@@ -7,8 +7,10 @@ blomstra-turnstile:
     settings:
       forgot: '=> core.forum.forgot_password.title'
       help_text: 'Buat Turnstile key di akun Cloudflare Anda <a>di sini</a>.'
+      secret_key: 'Secret key'
       signin: '=> core.forum.log_in.title'
       signup: '=> core.forum.sign_up.title'
+      site_key: 'Site key'
   forum:
     not_loaded_error: 'Gagal memuat Cloudflare Turnstile. Silakan refresh halaman, dan periksa adblocker Anda.'
 validation:

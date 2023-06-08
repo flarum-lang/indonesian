@@ -10,6 +10,7 @@ clarkwinkelmann-scout:
       algoliaReadTimeout: 'Algolia - Batas Waktu Baca (opsional)'
       algoliaSecret: 'Algolia Secret'
       algoliaWriteTimeout: 'Algolia - Batas Waktu Tulis (opsional)'
+      driver: Driver
       driverOption:
         algolia: Algolia
         meilisearch: Meilisearch

@@ -5,7 +5,8 @@
 fof-open-collective:
   admin:
     settings:
-      api_key_label: 'Kunci API'
-      desc: 'Dapatkan kunci API Anda dari <a>https://opencollective.com/applications</a>.'
+      api_key_label: 'API Key'
+      desc: 'Dapatkan API Key Anda dari <a>https://opencollective.com/applications</a>.'
       group_label: 'Grup Yang Ditetapkan'
+      slug_label: 'Collective Slug'
       title: 'FriendsOfFlarum Open Collective'

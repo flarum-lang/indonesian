@@ -16,8 +16,10 @@ askvortsov-moderator-warnings:
   forum:
     notifications:
       warning_no_strikes_text: 'Anda diperingatkan oleh {mod_username} (tidak ada teguran)'
+      warning_text: '{strikes, plural, one {Anda diperingatkan dengan # teguran oleh {mod_username}} other {Anda diperingatkan dengan # teguran oleh {mod_username}}}'
     post:
-      warning_no_strikes: 'Memperingatkan tanpa ada sanksi oleh {mod_username}'
+      warning: '{strikes, plural, one {Diperingatkan dengan # teguran oleh {mod_username}} other {Diperingatkan dengan # teguran oleh {mod_username}}}'
+      warning_no_strikes: 'Memperingatkan tanpa ada teguran oleh {mod_username}'
     post_controls:
       warning_button: 'Peringatkan Pengguna'
     settings:
@@ -25,7 +27,7 @@ askvortsov-moderator-warnings:
     user:
       warnings: 'Peringatan Moderator'
     validation:
-      invalid_strike_count: 'Jumlah sanksi harus berupa bilangan bulat antara 0 dan 5.'
+      invalid_strike_count: 'Jumlah teguran harus berupa bilangan bulat antara 0 dan 5.'
       public_comment_required: 'Anda adalah yang paling banyak memberikan komentar secara publik.'
     warning_controls:
       delete_button: Hapus
@@ -34,9 +36,12 @@ askvortsov-moderator-warnings:
     warning_list:
       add_button: 'Peringatan Baru'
       no_warnings: 'Sepertinya tidak ada peringatan di sini.'
-      warnings_no_strikes: 'Peringatan Moderator: Tidak Ada Sanksi yang Diterima'
+      warnings: '{strikes, plural, one {Peringatan Moderator: # Teguran Diterima} other {Peringatan Moderator: # Teguran Diterima}}'
+      warnings_no_strikes: 'Peringatan Moderator: Tidak Ada Teguran Yang Diterima'
     warning_list_item:
       linked_post: 'Post Terkait'
+      list_item_heading: '{strikes, plural, one {<strong>#</strong> teguran, {time}} other {<strong>#</strong> teguran, {time}}}'
+      list_item_heading_hidden: '{strikes, plural, one {<strong>#</strong> teguran, {time} <strong>(dihapus)</strong>} other {<strong>#</strong> teguran, {time} <strong>(dihapus)</strong>}}'
       private_comment: 'Komentar Yang Dapat Dilihat Oleh Moderator'
       public_comment: Peringatan
     warning_modal:
@@ -44,5 +49,5 @@ askvortsov-moderator-warnings:
       heading: 'Peringatkan <strong>{username}</strong>'
       private_comment_heading: 'Mengapa <strong>{username}</strong> menerima peringatan ini? Komentar ini HANYA akan terlihat oleh moderator.'
       public_comment_heading: 'Mengapa <strong>{username}</strong> menerima peringatan ini? Komentar ini akan terlihat oleh pengguna dan moderator.'
-      strikes_heading: 'Berapa banyak sanksi yang harus diterapkan?'
+      strikes_heading: 'Berapa banyak teguran yang harus diterapkan?'
       submit_button: 'Simpan peringatan'

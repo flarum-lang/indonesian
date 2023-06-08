@@ -9,4 +9,5 @@ antoinefr-online:
       titleoflist: 'Judul yang akan ditampilkan di atas list'
   forum:
     andmore: 'dan {more} lainnya...'
+    online_users: '{more, plural, one {# user sedang online} other {# user sedang online}}'
     title: 'Siapa yang sedang online?'

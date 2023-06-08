@@ -11,3 +11,4 @@ blomstra-s3-assets:
       s3-compatible-section-help: 'Biarkan pengaturan ini kosong jika menggunakan AWS S3'
       s3key:
         help: bantuan
+        label: Key

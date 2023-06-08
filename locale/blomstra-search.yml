@@ -4,6 +4,9 @@
 
 blomstra-search:
   admin:
+    analyzer:
+      help: "Penganalisis membuat pencarian memahami kata henti dan melakukan perbaikan \nkhusus bahasa untuk pengindeksan.\n"
+      label: 'Penganalisis bahasa'
     elastic-endpoint: 'Elastic Endpoint'
     elastic-index: Index
     elastic-password: '=> core.ref.password'

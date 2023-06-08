@@ -5,6 +5,7 @@
 blomstra-user-filter:
   admin:
     settings:
+      intro: 'Pengguna tanpa izin <code>Mencari pengguna</code> tidak akan melihat kotak pencarian. Atur ke <code>Semua Orang</code> untuk semua pengguna, atau apa pun tingkat preferensi Anda.'
       min_length: 'Jumlah minimal karakter untuk memulai pencarian'
       result_count: 'Jumlah hasil pada dropdown autocomplete'
   forum:
@@ -15,5 +16,6 @@ blomstra-user-filter:
         keep_typing: 'Terus mengetik...'
         label: 'Filter berdasarkan penulis: {text}'
         no_results: 'Tidak ada hasil'
+        remove_filter: 'Hapus filter penulis'
         search_label: 'Cari pengguna...'
         start_typing: 'Mulai mengetik...'

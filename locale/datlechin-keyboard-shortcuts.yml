@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 datlechin-keyboard-shortcuts:
+  forum:
+    modal:
+      title: 'Pintasan Keyboard'
   lib:
     discussion_list: 'Daftar Diskusi'
     discussion_list_heading: 'Daftar Diskusi'

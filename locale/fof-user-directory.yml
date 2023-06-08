@@ -10,6 +10,7 @@ fof-user-directory:
       default-sort: 'Pengurutan default'
       disable-global-search-source: 'Jangan menambahkan Direktori User ke kolom pencarian global Flarum'
       link: 'Tambahkan link di homepage agar user dapat melihat direktori'
+      use-small-cards: 'Gunakan user card berukuran kecil'
   forum:
     header:
       back_to_user_directory_tooltip: 'Kembali ke Direktori User'
