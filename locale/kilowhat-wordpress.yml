@@ -10,7 +10,6 @@ kilowhat-wordpress:
       unsaved-changes: 'Anda memiliki perubahan yang belum tersimpan'
     tabs:
       disabled: Dinonaktifkan
-      enabled: Diaktifkan
   api:
     health:
       cookie-domain-format: 'Domain cookie tampaknya bukan domain yang valid. Periksa apakah itu hanya sebuah domain tanpa protokol atau path'
