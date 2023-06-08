@@ -4,15 +4,6 @@
 
 kilowhat-cimaise:
   admin:
-    permissions:
-      createCommunityAlbums: 'Membuat album komunitas'
-      createPersonalAlbums: 'Membuat album pribadi'
-      editOwnImage: 'Gunakan editor gambar pada gambar Anda sendiri (crop, mask, dan stiker)'
-      editOwnPublishedImage: 'Gunakan editor gambar pada gambar Anda sendiri setelah dipublikasikan'
-      uploadCommunityPicturesWithoutApproval: 'Upload gambar tanpa persetujuan di album komunitas'
-      uploadPersonalPicturesWithoutApproval: 'Upload gambar tanpa persetujuan di album pribadi'
-      uploadPictures: 'Upload Gambar'
-      view: Lihat
     settings:
       autoCreateDiscussionAlbum: 'Secara otomatis membuat album untuk setiap diskusi baru'
       autoCreateDiscussionAlbumHelp: "Secara otomatis membuat album baru dengan judul yang sama dengan diskusi dan penulis sebagai pemilik. Fitur ini melewati izin pembuatan album dan berlaku di semua tag.\n"
@@ -23,4 +14,3 @@ kilowhat-cimaise:
       neverSyncDiscussionAlbumTitles: 'Jangan pernah menyinkronkan diskusi dan judul album'
       neverSyncDiscussionAlbumTitlesHelp: "Secara default, album yang dihubungkan yang memiliki judul yang sama persis dengan diskusi akan diganti namanya ketika judul diskusi berubah. Jika album diganti namanya secara manual, album tersebut tidak akan disinkronkan kembali ke diskusi.\n"
       requireLicenseHelp: "Secara default, pengguna dapat melewatkan pengaturan lisensi. Pastikan persyaratan penggunaan situs web Anda mencakup apa yang dapat dilakukan dengan media yang lisensinya tidak ditentukan.\n"
-      watermarkFileHelp: 'Gambar yang disediakan akan diterapkan 1:1 di setiap upload, kecuali pratinjau terkecil.'
