@@ -5,4 +5,7 @@
 clarkwinkelmann-shadow-ban:
   forum:
     banUser:
+      quickChoiceDays: '{count, plural, one {# hari} other {# hari}}'
+      quickChoiceReset: 'Tidak ditangguhkan'
       submit: Simpan
+      title: 'Tangguhkan {username}'
