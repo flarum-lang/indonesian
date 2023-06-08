@@ -82,6 +82,7 @@ CHANGELOG
 * [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
 * [`hehongyuanlove/flarum-auth-qq`](https://github.com/Hehongyuanlove/flarum-auth-qq)
 * [`ianm/syndication`](https://github.com/imorland/syndication)
+* [`ianm/synopsis`](https://github.com/imorland/synopsis)
 * [`justoverclock/flarum-ext-dontgoaway`](https://github.com/justoverclockl/flarum-ext-dontgoaway)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
 * [`kyrne/websocket`](https://github.com/KyrneDev/websocket)
