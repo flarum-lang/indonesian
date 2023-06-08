@@ -13,6 +13,7 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
 * [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish)
 * [`clarkwinkelmann/flarum-ext-collapsible-posts`](https://github.com/clarkwinkelmann/flarum-ext-collapsible-posts)
 * [`clarkwinkelmann/flarum-ext-colorful-borders`](https://github.com/clarkwinkelmann/flarum-ext-colorful-borders)
@@ -26,6 +27,7 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read)
 * [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`davwheat/virtual-authors`](https://extiverse.com/extension/davwheat/virtual-authors)
 * [`extiverse/mercury`](https://github.com/extiverse/mercury)
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
 * [`flarum/flags`](https://github.com/flarum/flags)
@@ -34,7 +36,9 @@ CHANGELOG
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`flarumite/simple-discussion-views`](https://github.com/flarumite/simple-discussion-views)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
@@ -56,6 +60,7 @@ CHANGELOG
 * [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren)
 * [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+* [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
 * [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
 
 
