@@ -18,7 +18,7 @@ ianm-synopsis:
       last-label: 'Postingan terakhir'
       rich-excerpts:
         help: 'Jika diaktifkan, gambar, embed, dan elemen non-teks lainnya dapat disertakan dalam sinopsis'
-        label: 'Tampilkan kutipan menggunakan rich content (konten lengkap)'
+        label: 'Tampilkan kutipan dengan konten yang lengkap'
       tags-enabled: 'Anda telah mengaktifkan <code>flarum/tags</code>. Pengaturan ini akan menjadi default, kecuali jika masing-masing tag memiliki pengaturannya sendiri.'
   forum:
     user:
