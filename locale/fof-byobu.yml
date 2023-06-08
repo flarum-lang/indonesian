@@ -22,6 +22,11 @@ fof-byobu:
       hide_from_all_discussions_page: 'Sembunyikan Diskusi Pribadi dari halaman "Semua Diskusi"'
       hide_from_all_discussions_page_help: 'Diskusi pribadi hanya dapat diakses dari halaman "Diskusi Pribadi" atau profil pengguna'
   email:
+    body:
+      private_discussion_added: "Hai {recipient_display_name},\n\n{actor_display_name} menambahkan Anda ke dalam diskusi pribadi yang sudah ada: {discussion_title}.\n\nLihat di sini:\n{discussion_url}\n\nAnda mungkin perlu login terlebih dahulu sebelum dapat mengakses link ini.\n"
+      private_discussion_created: "Hai {recipient_display_name},\n\n{actor_display_name} memulai diskusi pribadi baru dengan Anda sebagai penerima: {discussion_title}.\n\nLihat di sini:\n{discussion_url}\n\nAnda mungkin perlu login terlebih dahulu sebelum dapat mengakses link ini.\n"
+      private_discussion_replied: "Hai {recipient_display_name},\n\n{actor_display_name} memposting dalam diskusi pribadi dengan Anda sebagai penerima: {discussion_title}.\n\nLihat di sini:\n{post_url}\n\nAnda mungkin perlu login terlebih dahulu sebelum dapat mengakses link ini.\n"
+      recipient_removed: "Hai {recipient_display_name},\n\n{actor_display_name} meninggalkan diskusi pribadi: {discussion_title}. Mereka tidak lagi dapat melihat kontennya.\n\nLihat di sini:\n{discussion_url}\n\nAnda mungkin perlu login terlebih dahulu sebelum dapat mengakses link ini.\n"
     subject:
       private_discussion_added: '[Diskusi Pribadi] {display_name} menambahkan Anda ke diskusi pribadi'
       private_discussion_created: '[Diskusi Pribadi] {display_name} memulai diskusi pribadi baru dengan Anda'
@@ -46,6 +51,8 @@ fof-byobu:
       make_public: 'Apakah Anda yakin ingin menghapus penerima dan membuat diskusi ini dapat dilihat oleh siapa saja yang dapat melihat tag yang ditetapkan?'
     input:
       search_recipients: 'Cari penerima dengan mengetikkan tiga karakter pertama...'
+    labels:
+      recipients: '{count, plural, one {{count} Penerima} other {{count} Penerima}}'
     modal:
       help:
         add_recipients: 'Diskusi ini hanya akan terlihat oleh pengguna yang Anda pilih di sini. Setidaknya diperlukan 1 penerima (selain diri Anda sendiri).'
@@ -57,6 +64,7 @@ fof-byobu:
         selected_users: 'Pengguna yang dipilih'
       titles:
         add_recipients: 'Menambahkan penerima ke dalam diskusi Anda'
+        update_recipients: 'Memperbarui penerima {title}'
     nav:
       nav_item: 'Diskusi Pribadi'
       start_button: 'Berdiskusi secara pribadi'

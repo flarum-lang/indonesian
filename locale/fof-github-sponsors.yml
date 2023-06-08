@@ -11,4 +11,5 @@ fof-github-sponsors:
       account_type_label: 'Tipe Akun'
       api_token_label: 'Token API'
       desc: 'Dapatkan token API Anda di <a>https://github.com/settings/tokens/new</a>. Ekstensi ini membutuhkan cakupan <code>pengguna</code> dan <code>read:org</code>.'
+      group_label: 'Grup untuk Ditetapkan'
       login_label: Login

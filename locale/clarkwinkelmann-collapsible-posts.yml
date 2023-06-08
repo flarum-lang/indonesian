@@ -4,14 +4,27 @@
 
 clarkwinkelmann-collapsible-posts:
   admin:
+    permission:
+      collapse: 'Ciutkan post'
     settings:
       add: 'Alasan baru'
       explanationUrl: 'URL Penjelasan'
+      explanationUrlHelp: 'Opsional. Muncul di bawah postingan yang diciutkan'
       header:
         explanation: 'Pesan penjelasan khusus'
         key: 'Kunci unik database'
         label: Label
       reasons: Alasan
   forum:
+    badge:
+      post: Diciutkan
+    modal:
+      title: 'Ciutkan postingan'
+      uncollapse: 'Buka ciutan'
+    postControl:
+      collapse: Ciutkan
+      uncollapse: '(Batalkan) Penciutan'
     stream:
       explanation: 'Mengapa Saya melihat ini?'
+      hidden: '{count, plural, one {# post disembunyikan sebagai {reason}} other {# post disembunyikan sebagai {reason}}}'
+      load: 'Muat lebih banyak'

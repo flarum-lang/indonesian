@@ -9,6 +9,8 @@ fof-ignore-users:
   forum:
     badge:
       discussion_label: 'Dimulai oleh seorang pengguna yang diabaikan'
+      user_label: 'Pengguna Yang Diabaikan'
+    profile_link: 'Pengguna Yang Diabaikan'
     profile_page:
       no_ignored: 'Sepertinya Anda tidak mengabaikan siapa pun.'
     user_controls:

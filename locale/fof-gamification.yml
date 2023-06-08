@@ -5,6 +5,7 @@
 core:
   forum:
     index_sort:
+      hot_button: Trending
       votes_button: Upvote
 fof-gamification:
   admin:
@@ -36,6 +37,7 @@ fof-gamification:
         title: 'Halaman Peringkat'
       ranks:
         help:
+          color: '#ffffff'
           help: 'Masukkan jumlah Upvote yang diperlukan, nama peringkat, dan warna heksa peringkat'
           name: Nama
           points: Poin
@@ -83,6 +85,9 @@ fof-gamification:
       amount: Poin
       rank: Peringkat
     user:
+      card:
+        points: '{count, plural, one { {count} poin} other {{count} poin}}'
+      rank: '{rank}'
       votes_link: Vote
     vote_title: 'Tampilkan Siapa Yang Memberikan Vote'
     voters:

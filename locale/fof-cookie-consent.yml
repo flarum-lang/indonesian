@@ -5,6 +5,8 @@
 fof-cookie-consent:
   admin:
     settings:
+      backgroundColor: Background
+      buttonBackgroundColor: Background
       buttonText: 'Teks Tombol Tutup'
       buttonTextColor: Teks
       ccTheme: Tema

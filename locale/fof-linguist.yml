@@ -25,6 +25,7 @@ fof-linguist:
       columns:
         all-except-admin: 'Forum dan frontend lainnya'
         all-frontends: 'Tampilkan semua frontend'
+        namespace: Namespace
         total: Total
       count:
         details: '{total} total / {original} original / {custom} custom'
@@ -38,7 +39,11 @@ fof-linguist:
       include-all: 'Sertakan terjemahan yang ditetapkan untuk "Semua" bahasa'
       include-originals: 'Sertakan terjemahan aslinya'
       locale: Lokal
+      namespace: Namespace
       namespace-all: Semua
+      output: Output
+      output-empty: 'Output kosong'
+      output-loading: 'Memuat output...'
       title: Ekspor
       warning: "Format ekspor menggunakan file terjemahan berbasis Yaml milik Flarum dan dirancang untuk dapat saling berbagi terjemahan antar forum dan dengan pengelola paket bahasa. Format ini tidak dirancang untuk memindahkan semua terjemahan ke forum baru. Tergantung pada kasus penggunaan Anda, menyalin database secara langsung mungkin merupakan ide yang lebih baik.\n"
     filters:
@@ -62,6 +67,8 @@ fof-linguist:
         own: Custom
       with-own-translations: 'Terjemahan saya'
     import:
+      input: Input
+      input-placeholder: 'Tarik dan lepas atau paste file Yaml di sini'
       locale: Lokal
       locale-all: 'Pseudo-locale "Semua"'
       override-existing: 'Timpa terjemahan khusus yang sudah ada'
@@ -71,9 +78,12 @@ fof-linguist:
       title: Impor
     known-frontend:
       admin: Admin
+      api: API
       forum: Forum
       lib: 'Lib (digunakan pada Forum dan Admin)'
       ref: 'Ref (digunakan kembali pada kolom lain)'
+    known-namespace:
+      core: 'Flarum Core'
     locales:
       all: Semua
     permissions:
