@@ -10,12 +10,12 @@ askvortsov-moderator-warnings:
       view_warnings: 'Melihat peringatan moderator'
   emails:
     post_warned:
-      subject: '{warner_display_name} memperingatkan Anda dengan {strikes, plural, one {# strike} other {# strikes}} di {discussion_title}'
+      subject: '{warner_display_name} memperingatkan Anda dengan {strikes, plural, one {# teguran} other {# teguran}} di {discussion_title}'
     user_warned:
-      subject: '{warner_display_name} memperingatkan Anda dengan {strikes, plural, one {# strike} other {# strikes}}'
+      subject: '{warner_display_name} memperingatkan Anda dengan {strikes, plural, one {# teguran} other {# teguran}}'
   forum:
     notifications:
-      warning_no_strikes_text: 'Anda diperingatkan oleh {mod_username} (tidak ada sanksi)'
+      warning_no_strikes_text: 'Anda diperingatkan oleh {mod_username} (tidak ada teguran)'
     post:
       warning_no_strikes: 'Memperingatkan tanpa ada sanksi oleh {mod_username}'
     post_controls:
@@ -30,6 +30,7 @@ askvortsov-moderator-warnings:
     warning_controls:
       delete_button: Hapus
       delete_forever_button: 'Hapus Secara Permanen'
+      restore_button: Pulihkan
     warning_list:
       add_button: 'Peringatan Baru'
       no_warnings: 'Sepertinya tidak ada peringatan di sini.'

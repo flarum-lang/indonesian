@@ -6,12 +6,12 @@ fof-passport:
   admin:
     popup:
       field:
-        app-auth-url: 'URL OAuth authorization'
-        app-id: 'OAuth application ID'
-        app-scopes: 'OAuth scopes to request'
-        app-secret: 'OAuth application secret'
-        app-token-url: 'URL token OAuth'
-        app-user-url: 'URL API yang menyediakan detail pengguna saat diautentikasi'
+        app-auth-url: 'OAuth - URL otorisasi'
+        app-id: 'OAuth - application ID'
+        app-scopes: 'OAuth - scope yang di-request'
+        app-secret: 'OAuth - application secret'
+        app-token-url: 'OAuth - URL token'
+        app-user-url: 'URL API - menyediakan detail pengguna saat diautentikasi'
         button-icon: 'Tombol login - Ikon'
         button-title: 'Tombol login - Title'
         button-title-placeholder: '=> fof-passport.api.default-login-button-title'

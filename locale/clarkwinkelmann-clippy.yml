@@ -13,7 +13,10 @@ clarkwinkelmann-clippy:
       agent-help: 'Setiap agen memiliki serangkaian animasi yang berbeda. Mengubah agen akan menghapus semua animasi yang tidak kompatibel dengan pengaturan Anda.'
       cdn: CDN
       cdn-options:
+        custom: Khusus
         jsdelivr: jsDelivr
         s3: 'Amazon S3'
       events: Event
       events-help: 'Pilih animasi dan speach bubble mana yang akan ditampilkan pada masing-masing event ini'
+      path: 'CDN Path Khusus'
+      path-help: 'URL yang sepenuhnya memenuhi syarat tanpa garis miring ke folder yang berisi konten <a>repositori clippy.js</a>.'

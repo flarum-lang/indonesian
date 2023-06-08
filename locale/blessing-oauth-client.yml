@@ -6,6 +6,8 @@ blessing-oauth-client:
   admin:
     popup:
       field:
+        app-id: 'OAuth client ID'
+        app-secret: 'OAuth client secret'
         base-url: 'URL Blessing Skin root'
         button-icon: 'Tombol login - Ikon'
         button-title: 'Tombol login - Title'
