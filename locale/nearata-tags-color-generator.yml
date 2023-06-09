@@ -4,7 +4,7 @@
 
 nearata-tags-color-generator:
   admin:
-    color_hue_label: Hue
+    color_hue_label: 'Hue (warna dasar)'
     color_hue_options:
       blue: Biru
       green: Hijau
