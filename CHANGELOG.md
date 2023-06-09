@@ -19,6 +19,7 @@ CHANGELOG
 * [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage)
 * [`ianm/level-ranks`](https://github.com/imorland/level-ranks)
 * [`justoverclock/flarum-ext-hashtag`](https://github.com/justoverclockl/flarum-ext-hashtag)
+* [`justoverclock/user-statistics`](https://github.com/justoverclockl/user-statistics)
 * [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload)
 * [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
 * [`nearata/flarum-ext-tags-color-generator`](https://github.com/Nearata/flarum-ext-tags-color-generator)
