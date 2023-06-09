@@ -11,7 +11,7 @@ ziven-money-leaderboard:
       leaderboard-additional-info-help: 'Menampilkan informasi tambahan di awal peringkat. Biarkan kosong untuk menyembunyikan paragraf.'
       leaderboard-entry-position: 'Posisi masuk leaderboard'
       leaderboard-entry-sideNav: 'Menu navigasi samping'
-      leaderboard-entry-topRightMenu: 'Menu kanan atas'
+      leaderboard-entry-topRightMenu: 'Menu atas kanan'
       leaderboard-hide-money-text: 'Sembunyikan nama money setelah username'
       leaderboard-icon: 'Ikon leaderboard'
       leaderboard-icon-help: 'Masukkan nama kelas ikon FontAwesome apa pun, termasuk prefiks <code>fas fa-</code>.'
