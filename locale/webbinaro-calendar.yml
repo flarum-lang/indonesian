@@ -3,15 +3,33 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-calendar:
+  admin:
+    basics:
+      homepage: 'Bulan Kalender Saat Ini'
+    permissions:
+      add: 'Membuat Acara Kalender baru'
+      moderate: 'Menghapus atau mengedit acara kalender (semua pengguna dapat mengeditnya sendiri)'
+      view: 'Melihat acara'
+    settings:
+      hide_host: 'Sembunyikan penyelenggara acara'
   forum:
     button:
       create: 'Acara Baru'
       landing: 'Kalender Acara'
       login: 'Tambahkan Acara Anda '
     event:
+      confirm_delete: 'Apakah Anda yakin ingin menghapus acara ini?'
+      deleted: 'Acara ini telah dihapus'
+      details: 'Detail lebih lanjut tentang acara ini'
       ends: 'Berakhir:'
+      hosted_by: 'Diselenggarakan oleh:'
       starts: 'Dimulai:'
     modal:
+      dates_label: Kapan
+      description_label: Detail
       description_placeholder: 'Detail acara'
       requirement_message: 'Acara memerlukan nama dan deskripsi'
+      submit: Kirim
       title_create: 'Membuat acara kalender baru'
+      title_edit: 'Mengedit detail acara'
+      title_label: Apa
