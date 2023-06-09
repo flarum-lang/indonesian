@@ -5,6 +5,7 @@
 datlechin-discussion-overview:
   forum:
     created: Dibuat
+    last_reply: 'Terakhir membalas'
     likes: Like
     replies: Balasan
     users: User
