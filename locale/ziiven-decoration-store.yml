@@ -5,7 +5,17 @@
 ziven-decoration-store:
   admin:
     data-save: Simpan
+    item-activate-confirmation: 'Apakah Anda yakin untuk mengaktifkan item ini?'
+    item-deactivate-confirmation: 'Apakah Anda yakin untuk menonaktifkan item ini?'
+    item-delete: Hapus
+    item-id: ID
+    item-property-image: Gambar
+    item-property-image-upload: Upload
+    settings:
+      timezone: 'Zona waktu'
+      timezone-default: Asia/Shanghai
   lib:
     cancel: Batal
     close: Tutup
     confirm: Konfirmasi
+    ok: OK

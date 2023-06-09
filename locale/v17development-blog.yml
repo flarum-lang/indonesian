@@ -4,6 +4,7 @@
 
 v17development-flarum-blog:
   admin:
+    blog: Blog
     permissions:
       approve_posts: 'Dapat menyetujui artikel blog'
       auto_approve_posts: 'Mem-posting artikel tanpa persetujuan'
@@ -15,6 +16,7 @@ v17development-flarum-blog:
       add_sidebar_nav_text: 'Sertakan link ke blog pada menu navigasi sidebar.'
       allow_comments_label: 'Izin Berkomentar'
       allow_comments_text: 'Secara default, izinkan komentar pada postingan blog. Jika dinonaktifkan, pengaturan ini dapat diaktifkan satu per satu di setiap postingan blog. <b>Catatan:</b> Mengubah pengaturan ini tidak akan memengaruhi postingan blog yang sudah ada sebelumnya.'
+      blog_heading: Blog
       categories_heading: Kategori
       default_article_image_label: 'Gambar artikel bawaan'
       default_article_image_text: 'Pilih gambar artikel bawaan untuk ditampilkan apabila tidak ada gambar yang ditetapkan.'
@@ -52,6 +54,7 @@ v17development-flarum-blog:
           placeholder: 'Silakan masukkan ringkasan'
           title: 'Ringkasan artikel'
       title: 'Pengaturan postingan blog'
+    blog: Blog
     categories: Kategori
     category_empty: 'Tidak ada postingan blog dalam kategori ini.'
     comment_section:
@@ -73,6 +76,7 @@ v17development-flarum-blog:
       view: Lihat
       write: Tulis
     no_more_posts: 'Tidak ada lagi artikel blog.'
+    read_more: 'Baca lebih lanjut'
     recent_posts: 'Artikel blog terbaru'
     return_to_overview: 'Kembali ke ikhtisar blog '
     review_article:

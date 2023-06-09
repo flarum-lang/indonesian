@@ -18,14 +18,17 @@ fof-polls:
       add_poll: 'Membuat Polling'
       edit_poll: '=> fof-polls.forum.moderation.edit'
     days_remaining: 'Polling berakhir {time}.'
+    max_votes_allowed: 'Polling memungkinkan melakukan voting untuk {max, plural, one {# pilihan} other {# pilihan}}.'
     modal:
       add_option_label: 'Masukkan Pilihan'
       add_title: 'Membuat Polling'
+      allow_multiple_votes_label: 'Izinkan orang untuk memilih beberapa pilihan'
       date_placeholder: 'Waktu berakhirnya polling (Opsional)'
       edit_title: 'Edit polling'
       image_option_placeholder: 'URL Gambar (optional)'
       include_question: 'Anda harus memasukkan pertanyaan'
       max: 'Anda dapat memiliki maksimal 10 jawaban'
+      max_votes_help: 'Atur ke 0 untuk memungkinkan pengguna memilih semua opsi.'
       min: 'Memasukkan minimal 2 jawaban'
       no_voters: 'Belum Ada Suara'
       option_placeholder: Jawaban

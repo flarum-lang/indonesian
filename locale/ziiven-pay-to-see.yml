@@ -18,4 +18,5 @@ pay-to-see:
   lib:
     cancel: Batal
     confirm: Konfirmasi
+    ok: OK
     save: Simpan
