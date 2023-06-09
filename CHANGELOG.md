@@ -12,6 +12,8 @@ CHANGELOG
 
 **Menambahkan dukungan untuk ekstensi**:
 
+* [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage)
+* [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
 * [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
 * [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
 
