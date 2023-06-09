@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+1.4.0 (XXXX-XX-XX)
+------------------
+
+**Perubahan umum**:
+
+* Memperbarui terjemahan untuk Flarum core.
+
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
+
+
+Semua perubahan: [1.3.2...1.4.0](https://github.com/flarum-lang/indonesian/compare/1.3.2...1.4.0).
+
+
 1.3.2 (2023-06-09)
 ------------------
 
