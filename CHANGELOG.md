@@ -13,11 +13,15 @@ CHANGELOG
 **Menambahkan dukungan untuk ekstensi**:
 
 * [`clarkwinkelmann/flarum-ext-group-list`](https://github.com/clarkwinkelmann/flarum-ext-group-list)
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
 * [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage)
 * [`justoverclock/flarum-ext-hashtag`](https://github.com/justoverclockl/flarum-ext-hashtag)
+* [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload)
 * [`nearata/flarum-ext-tags-color-generator`](https://github.com/Nearata/flarum-ext-tags-color-generator)
+* [`sycho/flarum-advanced-extension-categories`](https://github.com/SychO9/flarum-advanced-extension-categories)
 * [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
 * [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
+* [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
 * [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
 
 
