@@ -2,6 +2,21 @@ CHANGELOG
 =========
 
 
+1.3.2 (2023-06-09)
+------------------
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+* [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store)
+* [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see)
+
+
+Semua perubahan: [1.3.1...1.3.2](https://github.com/flarum-lang/indonesian/compare/1.3.1...1.3.2).
+
+
 1.3.1 (2023-06-08)
 ------------------
 
