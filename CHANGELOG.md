@@ -12,7 +12,10 @@ CHANGELOG
 
 **Menambahkan dukungan untuk ekstensi**:
 
+* [`clarkwinkelmann/flarum-ext-group-list`](https://github.com/clarkwinkelmann/flarum-ext-group-list)
 * [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage)
+* [`justoverclock/flarum-ext-hashtag`](https://github.com/justoverclockl/flarum-ext-hashtag)
+* [`nearata/flarum-ext-tags-color-generator`](https://github.com/Nearata/flarum-ext-tags-color-generator)
 * [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
 * [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
 * [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
@@ -20,6 +23,7 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
 
 
