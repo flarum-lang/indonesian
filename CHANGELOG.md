@@ -24,8 +24,12 @@ CHANGELOG
 * [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
 * [`ianm/level-ranks`](https://github.com/imorland/level-ranks)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
 * [`justoverclock/best-answer-badge`](https://github.com/justoverclockl/best-answer-badge)
+* [`justoverclock/flarum-ext-contactme`](https://github.com/justoverclockl/flarum-ext-contactme)
 * [`justoverclock/flarum-ext-hashtag`](https://github.com/justoverclockl/flarum-ext-hashtag)
+* [`justoverclock/flarum-ext-keywords`](https://github.com/justoverclockl/flarum-ext-keywords)
+* [`justoverclock/flarum-ext-purify`](https://github.com/justoverclockl/flarum-ext-purify)
 * [`justoverclock/user-statistics`](https://github.com/justoverclockl/user-statistics)
 * [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox)
 * [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
@@ -34,7 +38,10 @@ CHANGELOG
 * [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements)
 * [`malago/flarum-ext-fancybox`](https://github.com/malago86/flarum-ext-fancybox)
 * [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload)
+* [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
+* [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
 * [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
+* [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
 * [`nearata/flarum-ext-tags-color-generator`](https://github.com/Nearata/flarum-ext-tags-color-generator)
 * [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
 * [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
@@ -49,6 +56,7 @@ CHANGELOG
 * [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button)
 * [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
 * [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
+* [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number)
 
 
 **Terjemahan terbaru untuk ekstensi**:
