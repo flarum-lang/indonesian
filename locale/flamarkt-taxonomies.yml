@@ -6,15 +6,20 @@ flamarkt-taxonomies:
   admin:
     edit-taxonomy:
       delete: '=> flamarkt-taxonomies.ref.delete'
+      deleteConfirmation: "Apakah Anda benar-benar ingin menghapus taksonomi {name}? Semua istilah di bawah taksonomi tersebut akan dihapus. Diskusi yang menggunakan taksonomi tersebut TIDAK akan dihapus.\n"
       field:
         allowCustomValues: 'Izinkan nilai khusus'
         color: '=> flamarkt-taxonomies.ref.field.color'
+        countRequired: 'Jumlah istilah yang diperlukan'
         countRequiredDescription: "\n"
+        customValueSlugger: 'Slugger untuk nilai khusus'
         customValueSluggerDescription: "\n"
         customValueValidation: 'Validasi untuk nilai khusus'
         description: '=> flamarkt-taxonomies.ref.field.description'
         enableFilter: 'Aktifkan filter query-string/API'
         enableFilterDescription: "Memungkinkan filter taksonomi yang terhubung ke dalam ke diskusi, pengguna, dan produk untuk pengguna yang memiliki izin untuk \"melihat semua\" jenis taksonomi. Hal ini juga memungkinkan pengguna yang sama untuk menggunakan filter pencarian dengan REST API. Tanpa pengaturan \"Tampilkan filter\", pengguna tidak memiliki cara yang jelas untuk mendapatkan link-link untuk pengguna dan produk. Untuk diskusi, deep link dapat ditemukan di hero meskipun \"Tampilkan filter\" dinonaktifkan.\n"
+        enableFulltextSearch: 'Kata kunci untuk pencarian teks lengkap'
+        enableFulltextSearchDescription: "Hanya berpengaruh ketika integrasi Scout aktif. Nama istilah akan menjadi bagian dari data yang tersedia dalam pencarian teks lengkap untuk pengguna biasa. Data akan tersedia untuk pencarian bagi setiap pengguna yang memiliki izin untuk mencantumkan sumber daya (\"Lihat forum\" untuk diskusi, \"Cari pengguna\" untuk pengguna dan semua orang untuk produk), bukan pengguna yang memiliki izin untuk melihat taksonomi! Anda harus secara manual membangun kembali indeks pencarian Scout untuk sumber daya setelah mengubah pengaturan ini untuk taksonomi yang sudah ada, sama halnya jika Anda menghapus taksonomi ketika istilah masih ditetapkan.\n"
         enableFulltextSearchWarning: "Perizinan Anda untuk mencari sumber daya (\"Lihat forum\" untuk diskusi, \"Cari pengguna\" untuk pengguna) berbeda dengan perizinan \"lihat semua\" Taksonomi. Sebelum mengaktifkan opsi ini, pastikan Anda merasa yakin bahwa data dapat dicari oleh pengguna meskipun mereka biasanya tidak dapat melihat taksonomi!\n"
         icon: '=> flamarkt-taxonomies.ref.field.icon'
         iconDescription: '=> flamarkt-taxonomies.ref.field.iconDescription'
@@ -22,11 +27,17 @@ flamarkt-taxonomies:
         rangeSeparatorText: hingga
         showFilter: 'Tampilkan filter pada halaman list/direktori'
         showFilterDescription: "Menampilkan filter kepada pengunjung biasa di daftar diskusi, direktori pengguna, atau indeks toko. Hanya berfungsi jika \"Aktifkan filter\" diaktifkan. Administrator toko selalu dapat memfilter berdasarkan taksonomi apa pun di backoffice.\n"
+        showLabel: 'Tampilkan label taksonomi bersama dengan istilah'
         showLabelDescription: "Style tampilan untuk daftar diskusi dan hero. Saat ini tidak digunakan untuk jenis resource lainnya.\n"
         slug: '=> flamarkt-taxonomies.ref.field.slug'
+        tagScope: 'Hanya dalam tag tertentu'
+        tagScopeDescription: "Taksonomi hanya akan tersedia dalam tag yang dipilih. Jika Anda memilih satu tag, filter homepage hanya akan terlihat pada tag tertentu.\n"
+        tagScopePlaceholder: 'Ketik untuk mencari tag...'
+        type: Jenis
         typeDescription: "Taksonomi dapat digunakan pada beberapa Flarum resource. Jenisnya tidak dapat diubah setelah dibuat. Anda bisa menggunakan nama dan slug yang sama untuk taksonomi dengan tipe yang berbeda.\n"
       section:
         info: Informasi
+        scope: 'Ruang Lingkup'
       slugger-options:
         alpha_dash: 'ASCII alpha-numerical slugger'
         random: 'Pengidentifikasi acak'
@@ -68,8 +79,13 @@ flamarkt-taxonomies:
       title: Taksonomi
       users: 'Taksonomi pengguna'
     page:
+      create:
+        taxonomy: 'Buat taksonomi'
+        term: 'Buat istilah'
+      reset-term-order: 'Reset daftar istilah ke urutan abjad'
       title: Taksonomi
     permissions:
+      bypassTermCounts: 'Melewati persyaratan jumlah istilah'
       editAnyDiscussion: 'Mengedit taksonomi pada diskusi apa pun'
       editAnyUser: 'Mengedit taksonomi pada pengguna mana pun'
       editOwnDiscussion: 'Mengedit taksonomi pada diskusi sendiri'
@@ -88,6 +104,7 @@ flamarkt-taxonomies:
     error:
       cannot_use_taxonomies_on_model: 'Anda tidak diizinkan menggunakan taksonomi dalam konteks ini'
       discussion_taxonomy_not_in_scope: 'Taksonomi "{slug}" tidak tersedia dalam kombinasi tag saat ini'
+      invalid_filter_taxonomy: 'Kunci filter taksonomi "{type}" yang tidak valid "{slug}"'
   forum:
     blog:
       widget:
@@ -101,7 +118,9 @@ flamarkt-taxonomies:
       nav: Taksonomi
   lib:
     modal:
+      bypassTermCounts: 'Lewati jumlah istilah'
       custom: 'Gunakan {value}'
+      placeholder: '{count, plural, one {Pilih istilah...} other {Pilih # istilah...}}'
       placeholderOptional: Pilih...
       submit: OK
       title:
