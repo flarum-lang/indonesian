@@ -8,15 +8,22 @@ clarkwinkelmann-mass-actions:
       controls: 'Melihat kontrol Mass Actions'
   forum:
     actions:
+      delete: 'Hapus selamanya yang dipilih'
       deleteConfirmation: '{count, plural, one {Apakah Anda yakin ingin menghapus diskusi yang dipilih secara permanen?} other {Apakah Anda yakin ingin menghapus # diskusi yang dipilih secara permanen?}}'
       hide: 'Hapus yang dipilih'
+      lock: 'Kunci yang dipilih'
       markAsRead: 'Tandai yang dipilih sebagai sudah dibaca'
+      restore: 'Pulihkan yang dipilih'
+      sticky: 'Sticky yang dipilih'
       tags: Tag
       tags-add: 'Tambahkan <em>{tag}</em>'
       tags-edit: 'Edit tag'
+      unlock: 'Buka kunci yang dipilih'
+      unsticky: 'Lepas sticky yang dipilih'
     select:
       all: Semua
       locked: Terkunci
+      none: 'Tidak ada'
       read: Baca
       unlocked: 'Tidak terkunci'
       unread: 'Belum dibaca'
