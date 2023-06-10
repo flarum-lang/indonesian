@@ -5,3 +5,8 @@
 justoverclock-user-statistics:
   forum:
     joinTime: 'Tanggal Pendaftaran'
+    likeReceived: 'Like Yang Diterima'
+    likes: Like
+    totalBestAnswer: 'Best Answer'
+    totalDiscussions: 'Total Diskusi'
+    totalPosts: 'Total Post'
