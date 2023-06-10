@@ -38,7 +38,9 @@ v17development-flarum-support:
     ask_a_question_on_forums: 'Ajukan pertanyaan di forum'
     ask_your_question_on_forum: 'Ajukan pertanyaan Anda di forum'
     composer:
+      article_saved: 'Artikel telah disimpan'
       enter_message_here: 'Masukkan pesan Anda di sini'
+      new_article_title: 'Judul artikel baru'
     create: Buat
     discard: Buang
     hero:
@@ -47,6 +49,7 @@ v17development-flarum-support:
     knowledge_base: 'Basis pengetahuan'
     modals:
       article_ratings:
+        feedback: 'Umpan balik'
         username: '=> core.ref.username'
       audit_log:
         article_created: 'Artikel telah dibuat'
@@ -183,6 +186,8 @@ v17development-flarum-support:
           description: 'Tiket ini ditandai sebagai telah selesai'
           mark_as_solved: 'Tandai tiket ini sebagai telah diselesaikan'
           title: Selesai
+      ticket: Tiket
+      ticket_does_not_exist: 'Tiket dukungan yang diminta tidak ada.'
       tools:
         close_ticket: 'Tutup tiket'
         update_note: 'Perbarui catatan pribadi'
