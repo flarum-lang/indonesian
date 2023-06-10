@@ -3,6 +3,32 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-webhooks:
+  actions:
+    discussion:
+      deleted: 'Diskusi yang dihapus `{1}`'
+      hidden: 'Sembunyikan diskusi `{1}`'
+      renamed:
+        description: 'Judul baru: {1}'
+        title: 'Mengganti nama diskusi `{1}`'
+      restored: 'Diskusi yang dipulihkan `{1}`'
+      started: 'Memulai diskusi `{1}`'
+    group:
+      created: 'Membuat grup `{1}`'
+      deleted: 'Grup `{1}` yang dihapus'
+      renamed: 'Mengganti nama grup menjadi `{1}`'
+    post:
+      approved: 'Post yang disetujui di `{1}`'
+      deleted: 'Post yang dihapus di `{1}`'
+      hidden: 'Sembunyikan pos di `{1}`'
+      posted: 'Post baru di `{1}`'
+      restored: 'Post yang dipulihkan di `{1}`'
+      revised: 'Post yang telah diedit di `{1}`'
+    user:
+      deleted: 'Pengguna yang dihapus `{1}`'
+      registered: 'Pengguna baru terdaftar'
+      renamed:
+        description: 'Username baru: {1}'
+        title: 'Mengubah username dari `{1}`'
   adapters:
     errors:
       404: 'Webhook Tidak Ditemukan'
@@ -51,3 +77,8 @@ fof-webhooks:
         discord: Discord
         microsoft-teams: 'Microsoft Teams'
         slack: Slack
+  ref:
+    deleted: Dihapus
+    hidden: Tersembunyi
+    renamed: 'Berganti nama'
+    restored: Dipulihkan

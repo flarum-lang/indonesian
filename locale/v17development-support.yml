@@ -3,10 +3,88 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 v17development-flarum-support:
+  emails:
+    replied_to_ticket:
+      subject: '{replier_display_name} membalas tiket Anda #{ticket_id}'
+    ticket_pending_reply:
+      subject: 'Tiket #{ticket_id} sedang menunggu balasan dari Anda'
+    ticket_pending_reply_closed:
+      subject: 'Tiket #{ticket_id} telah ditutup karena tidak aktif'
+    ticket_status_update:
+      subject: 'Tiket #{ticket_id} ditandai sebagai {new_status}'
   forum:
     article:
+      article: Artikel
+      articles: Artikel
+      author: Penulis
+      authors: Penulis
+      last_modified: 'Terakhir diubah pada {date}'
+      not_found: 'Artikel tidak ditemukan'
+      share_article:
+        perma_link: 'Permalink untuk artikel ini:'
+        title: 'Bagikan artikel'
       tools:
+        audit_log: 'Lihat log audit'
+        delete_forever: 'Hapus selamanya'
+        edit_article: 'Edit artikel'
+        edit_tags: 'Edit tag artikel'
+        hide_article: 'Sembunyikan artikel'
+        recover_article: 'Pulihkan artikel'
+        rename_article: 'Ganti nama artikel'
         view_ratings: 'Lihat rating'
+    article_events:
+      article_hidden: 'Artikel disembunyikan oleh {username}'
+      article_modified: '{username} telah mengedit artikel ini.'
+    ask_a_question_on_forums: 'Ajukan pertanyaan di forum'
+    ask_your_question_on_forum: 'Ajukan pertanyaan Anda di forum'
+    composer:
+      enter_message_here: 'Masukkan pesan Anda di sini'
+    create: Buat
+    discard: Buang
+    hero:
+      check_forum: 'Jika Anda tidak dapat menemukan apa yang Anda cari, <a>kunjungi forum kami</a>'
+      help_question: 'Apa yang dapat Kami bantu?'
+    knowledge_base: 'Basis pengetahuan'
+    modals:
+      article_ratings:
+        username: '=> core.ref.username'
+      audit_log:
+        article_created: 'Artikel telah dibuat'
+        loading_auditlog: 'Memuat log audit'
+    not_found:
+      description: 'Maaf, artikel atau kategori ini sudah tidak ada lagi di tempat ini.'
+      solution: 'Anda dapat menggunakan kotak pencarian di atas untuk menemukan apa yang Anda cari.'
+      title: 'Item tidak ditemukan'
+    notifications:
+      replied_to_ticket:
+        content: '=> v17development-flarum-support.emails.replied_to_ticket.subject'
+        name: 'Seseorang membalas tiket saya'
+      ticket_resolved:
+        content: '=> v17development-flarum-support.emails.ticket_resolved.subject'
+        name: 'Tiket saya telah diselesaikan'
+    or: atau
+    overview:
+      back_to: 'Kembali ke {category}'
+      back_to_main_categories: 'Kembali ke kategori utama'
+      category_not_found: 'Kategori tidak ditemukan'
+      loading_articles: 'Memuat artikel'
+      no_articles_found: 'Tidak ada artikel yang ditemukan dalam kategori ini'
+      no_categories_found: 'Maaf, tidak ada kategori yang ditemukan di sini...'
+      tools:
+        edit_description: 'Edit deskripsi'
+        new_article: 'Artikel baru'
+        rename_category: 'Ganti nama kategori'
+    reopen: 'buka kembali'
+    return_to_home: 'Kembali ke beranda basis pengetahuan'
+    search:
+      back_to_search_results: 'Kembali ke hasil pencarian'
+      no_results: 'Kami tidak dapat menemukan apa pun untuk {searchterm}.'
+      searching: Mencari
+      searching_for: 'Mencari {searchterm}'
+      title: Cari
+      use_searchbox_below: 'Gunakan kotak pencarian di bawah ini untuk mencari di basis pengetahuan kami.'
+    send: Kirim
+    settings: '=> core.ref.settings'
     support_ratings:
       enter_feedback: 'Masukkan tanggapan Anda di sini'
       feedback: 'Terima kasih atas ulasan Anda, apakah Anda memiliki umpan balik?'
@@ -22,13 +100,28 @@ v17development-flarum-support:
         guest: 'Silakan login sebelum Anda memberikan rating pada artikel ini.'
         invalid_discussion: 'Ups, ada yang tidak beres. Anda tidak dapat memberikan rating pada artikel/tiket dukungan ini.'
         invalid_points: 'Rating tidak valid. Silakan coba lagi.'
+    support_tickets: 'Tiket dukungan'
     tickets:
       compose_ticket:
         not_allowed: 'Anda tidak dapat membuka tiket dukungan baru saat ini'
         private_support: 'Untuk dukungan pribadi, Anda dapat menggunakan formulir ini untuk membuat tiket baru di platform dukungan kami. Untuk masalah dukungan non-privat, silakan lihat <a>forum publik kami</a>.'
         title: 'Tulis tiket baru'
+      convert_to_discussion:
+        button: 'Ubah ke diskusi'
+        confirm: 'Apakah Anda yakin ingin mengubah tiket ini menjadi diskusi publik? Jika seseorang telah membagikan informasi pribadi, maka informasi tersebut juga akan menjadi publik.'
+        event: "Tiket {ticket_title} telah diubah menjadi diskusi\n\nApakah Anda ingin membuka diskusi ini sekarang?\n"
+      convert_to_ticket:
+        button: 'Ubah menjadi tiket'
+        confirm: 'Apakah Anda yakin ingin mengubah diskusi ini menjadi tiket?'
+        event: 'Diskusi {ticket_title} telah diubah menjadi tiket'
       fields:
+        assignees:
+          placeholder: 'Status tiket'
+        information:
+          placeholder: 'Beri tahu Kami apa yang dapat Kami bantu'
+          title: 'Informasi tiket'
         language:
+          empty: 'Tidak ada bahasa yang dipilih'
           placeholder: 'Pilih bahasa'
           title: Bahasa
         private_note:
@@ -36,14 +129,20 @@ v17development-flarum-support:
           placeholder: 'Contoh: 1 Januari 2022 - Nama Agen: Menghapus customer dari database'
           tip: 'TIPS: Jika Anda bekerja dengan beberapa agen dalam satu tiket, tambahkan nama dan tanggal pada catatan.'
           title: 'Catatan pribadi'
+        status:
+          placeholder: 'Status tiket'
+          title: Status
         subject:
           description: 'Coba jelaskan pertanyaan Anda dalam satu kalimat singkat.'
+      load_more:
+        title: 'Muat lebih banyak tiket'
       my_tickets:
         description: 'Di halaman ini Anda dapat menemukan semua tiket pribadi Anda.'
         no_tickets: 'Anda belum memiliki tiket.'
         title: 'Tiket saya'
       new_tickets_dropdown:
         no_tickets: 'Tidak ada notifikasi tiket'
+        ticket_new: '{username} membuat tiket {ticket}'
         title: 'Notifikasi Tiket'
       overview:
         all_tickets: 'Semua tiket'
@@ -53,9 +152,43 @@ v17development-flarum-support:
             any: 'Semua bahasa'
           status:
             filter_count: '{count, plural, one {# filter} other {# filter}}'
+            title: 'Status tiket'
+        selection_closed: 'Tiket tertutup'
+        selection_open: 'Tiket terbuka'
         title: 'Gambaran umum tiket'
       status:
         closed:
+          close_after_posting: 'Tutup tiket setelah memposting'
+          description: 'Tiket ini telah ditutup.'
+          is_auto_closed: 'Tiket ini ditutup karena tidak aktif.'
           is_closed: 'Tiket ini ditutup, ketika Anda membalas, tiket akan dibuka kembali. Kami hanya menyarankan untuk membuka kembali tiket jika masalahnya belum terselesaikan. Jika ini adalah masalah baru, silakan buka tiket yang baru.'
+          title: Ditutup
+        duplicate:
+          description: 'Tiket ini ditandai sebagai duplikat.'
+          title: Duplikat
+        new:
+          description: 'Ini adalah tiket baru yang belum terjawab'
+          title: Baru
+        on_hold:
+          description: 'Tiket ini telah ditangguhkan.'
+          title: Ditangguhkan
+        open:
+          description: 'Tiket ini memiliki tanggapan baru dan sedang menunggu balasan dari Anda.'
+          title: Buka
+        pending:
+          description: 'Tiket ini menunggu balasan dari pengguna.'
+          description_user: 'Kami menunggu balasan dari Anda atau menandai tiket ini sebagai tiket yang telah diselesaikan.'
+          title: Tertunda
+        solved:
+          description: 'Tiket ini ditandai sebagai telah selesai'
+          mark_as_solved: 'Tandai tiket ini sebagai telah diselesaikan'
+          title: Selesai
       tools:
+        close_ticket: 'Tutup tiket'
+        update_note: 'Perbarui catatan pribadi'
+        update_status: 'Perbarui status tiket'
         view_ticket: 'Lihat tiket'
+    utils:
+      redirect:
+        link: '<a>Klik di sini</a> jika halaman tidak mengalihkan Anda'
+        title: 'Mengarahkan Anda ke artikel Basis Pengetahuan kami...'
