@@ -13,6 +13,7 @@ CHANGELOG
 **Menambahkan dukungan untuk ekstensi**:
 
 * [`clarkwinkelmann/flarum-ext-group-list`](https://github.com/clarkwinkelmann/flarum-ext-group-list)
+* [`clarkwinkelmann/flarum-ext-mass-actions`](https://github.com/clarkwinkelmann/flarum-ext-mass-actions)
 * [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview)
 * [`datlechin/flarum-landing-page`](https://github.com/datlechin/flarum-landing-page)
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
@@ -20,6 +21,8 @@ CHANGELOG
 * [`ianm/level-ranks`](https://github.com/imorland/level-ranks)
 * [`justoverclock/flarum-ext-hashtag`](https://github.com/justoverclockl/flarum-ext-hashtag)
 * [`justoverclock/user-statistics`](https://github.com/justoverclockl/user-statistics)
+* [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox)
+* [`kyrne/whisper`](https://github.com/KyrneDev/whisper)
 * [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload)
 * [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
 * [`nearata/flarum-ext-tags-color-generator`](https://github.com/Nearata/flarum-ext-tags-color-generator)
