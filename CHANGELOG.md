@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`clarkwinkelmann/flarum-ext-group-list`](https://github.com/clarkwinkelmann/flarum-ext-group-list)
 * [`clarkwinkelmann/flarum-ext-mass-actions`](https://github.com/clarkwinkelmann/flarum-ext-mass-actions)
+* [`clarkwinkelmann/flarum-ext-status`](https://github.com/clarkwinkelmann/flarum-ext-status)
 * [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview)
 * [`datlechin/flarum-landing-page`](https://github.com/datlechin/flarum-landing-page)
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
@@ -26,6 +27,7 @@ CHANGELOG
 * [`justoverclock/flarum-ext-hashtag`](https://github.com/justoverclockl/flarum-ext-hashtag)
 * [`justoverclock/user-statistics`](https://github.com/justoverclockl/user-statistics)
 * [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox)
+* [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
 * [`kyrne/whisper`](https://github.com/KyrneDev/whisper)
 * [`malago/flarum-ext-fancybox`](https://github.com/malago86/flarum-ext-fancybox)
 * [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload)
@@ -37,6 +39,7 @@ CHANGELOG
 * [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
 * [`the-turk/flarum-nodp`](https://github.com/the-turk/flarum-nodp)
 * [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
+* [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs)
 * [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
 * [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button)
 * [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
