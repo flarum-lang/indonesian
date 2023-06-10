@@ -12,6 +12,7 @@ CHANGELOG
 
 **Menambahkan dukungan untuk ekstensi**:
 
+* [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
 * [`clarkwinkelmann/flarum-ext-group-list`](https://github.com/clarkwinkelmann/flarum-ext-group-list)
 * [`clarkwinkelmann/flarum-ext-mass-actions`](https://github.com/clarkwinkelmann/flarum-ext-mass-actions)
 * [`clarkwinkelmann/flarum-ext-status`](https://github.com/clarkwinkelmann/flarum-ext-status)
@@ -46,6 +47,7 @@ CHANGELOG
 * [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
 * [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
 * [`sycho/flarum-advanced-extension-categories`](https://github.com/SychO9/flarum-advanced-extension-categories)
+* [`sycho/flarum-private-facade`](https://extiverse.com/extension/sycho/flarum-private-facade)
 * [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
 * [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
 * [`the-turk/flarum-nodp`](https://github.com/the-turk/flarum-nodp)
@@ -63,6 +65,8 @@ CHANGELOG
 
 * [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
 
 
 Semua perubahan: [1.3.2...1.4.0](https://github.com/flarum-lang/indonesian/compare/1.3.2...1.4.0).
