@@ -4,7 +4,10 @@
 
 cccyun-clogin-oauth:
   admin:
+    appid_label: APPID
+    appkey_label: APPKEY
     appurl_help: 'Harus dimulai dengan http:// atau https:// dan diakhiri dengan /'
+    appurl_label: 'URL API'
     openqq_label: 'Tampilkan QQ Login'
     opensina_label: 'Tampilkan Weibo Login'
     openwx_label: 'Tampilkan WeChat Login'
@@ -15,6 +18,7 @@ cccyun-clogin-oauth:
       error: 'Ada yang tidak beres, silakan coba lagi nanti!'
       link_success: 'Third Account berhasil terhubung.'
       unlink_success: 'Third Account berhasil dihapus.'
+      unlinked: 'Akun Ketiga (Third Account) tidak terhubung dengan akun situs ini, silakan mendaftar terlebih dahulu dan lalu terhubung.'
     modals:
       buttons:
         cancel: Tidak!
