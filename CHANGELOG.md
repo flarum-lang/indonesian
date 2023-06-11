@@ -2,6 +2,95 @@ CHANGELOG
 =========
 
 
+1.4.0 (2023-06-11)
+------------------
+
+**Perubahan umum**:
+
+* Memperbarui terjemahan untuk Flarum core.
+
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
+* [`clarkwinkelmann/flarum-ext-editable-user-attributes`](https://github.com/clarkwinkelmann/flarum-ext-editable-user-attributes)
+* [`clarkwinkelmann/flarum-ext-featured-discussions`](https://github.com/clarkwinkelmann/flarum-ext-featured-discussions)
+* [`clarkwinkelmann/flarum-ext-group-list`](https://github.com/clarkwinkelmann/flarum-ext-group-list)
+* [`clarkwinkelmann/flarum-ext-mass-actions`](https://github.com/clarkwinkelmann/flarum-ext-mass-actions)
+* [`clarkwinkelmann/flarum-ext-money-rewards`](https://github.com/clarkwinkelmann/flarum-ext-money-rewards)
+* [`clarkwinkelmann/flarum-ext-money-to-all`](https://github.com/clarkwinkelmann/flarum-ext-money-to-all)
+* [`clarkwinkelmann/flarum-ext-readonly-profile`](https://github.com/clarkwinkelmann/flarum-ext-readonly-profile)
+* [`clarkwinkelmann/flarum-ext-reset-preferences`](https://github.com/clarkwinkelmann/flarum-ext-reset-preferences)
+* [`clarkwinkelmann/flarum-ext-status`](https://github.com/clarkwinkelmann/flarum-ext-status)
+* [`club-1/flarum-ext-server-side-highlight`](https://github.com/club-1/flarum-ext-server-side-highlight)
+* [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview)
+* [`datlechin/flarum-landing-page`](https://github.com/datlechin/flarum-landing-page)
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions)
+* [`datlechin/flarum-scroll-buttons`](https://github.com/flatension/scroll-buttons)
+* [`dem13n/discussion-cards`](https://github.com/Dem13n/discussion-cards)
+* [`ffans/clipboardjs`](https://github.com/FFans/clipboardjs)
+* [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+* [`ianm/gravatar`](https://github.com/imorland/gravatar)
+* [`ianm/level-ranks`](https://github.com/imorland/level-ranks)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
+* [`justoverclock/best-answer-badge`](https://github.com/justoverclockl/best-answer-badge)
+* [`justoverclock/flarum-ext-contactme`](https://github.com/justoverclockl/flarum-ext-contactme)
+* [`justoverclock/feautured-discussions-widget`](https://github.com/justoverclockl/feautured-discussions-widget)
+* [`justoverclock/flarum-ext-hashtag`](https://github.com/justoverclockl/flarum-ext-hashtag)
+* [`justoverclock/flarum-ext-keywords`](https://github.com/justoverclockl/flarum-ext-keywords)
+* [`justoverclock/flarum-ext-purify`](https://github.com/justoverclockl/flarum-ext-purify)
+* [`justoverclock/flarum-ext-realtimecode`](https://github.com/justoverclockl/flarum-ext-realtimecode)
+* [`justoverclock/user-statistics`](https://github.com/justoverclockl/user-statistics)
+* [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox)
+* [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
+* [`kyrne/whisper`](https://github.com/KyrneDev/whisper)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
+* [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements)
+* [`malago/flarum-ext-fancybox`](https://github.com/malago86/flarum-ext-fancybox)
+* [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload)
+* [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
+* [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
+* [`nearata/flarum-ext-cloudflare`](https://github.com/Nearata/flarum-ext-cloudflare)
+* [`nearata/flarum-ext-embed-video`](https://github.com/Nearata/flarum-ext-embed-video)
+* [`nearata/flarum-ext-related-discussions`](https://github.com/Nearata/flarum-ext-related-discussions)
+* [`nearata/flarum-ext-tags-color-generator`](https://github.com/Nearata/flarum-ext-tags-color-generator)
+* [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
+* [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
+* [`sycho/flarum-advanced-extension-categories`](https://github.com/SychO9/flarum-advanced-extension-categories)
+* [`sycho/flarum-private-facade`](https://extiverse.com/extension/sycho/flarum-private-facade)
+* [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
+* [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
+* [`the-turk/flarum-nodp`](https://github.com/the-turk/flarum-nodp)
+* [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
+* [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs)
+* [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap)
+* [`tohsakarat/tags-filter`](https://github.com/tohsakrat/flarum-tags-filter)
+* [`webbinaro/flarum-age-check`](https://github.com/eddiewebb/flarum-age-check)
+* [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
+* [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button)
+* [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
+* [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number)
+* [`ziiven/view-history`](https://github.com/Ziiven/view-history)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth)
+* [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
+* [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+* [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
+
+
+Semua perubahan: [1.3.2...1.4.0](https://github.com/flarum-lang/indonesian/compare/1.3.2...1.4.0).
+
+
 1.3.2 (2023-06-09)
 ------------------
 
