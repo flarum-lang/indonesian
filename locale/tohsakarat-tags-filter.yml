@@ -8,4 +8,10 @@ tohsakarat-tags-filter:
       filter_tags:
         accessible_label: 'filter tag'
         all: semua
+        comment_filter: 'Klik tag yang disematkan untuk membatalkan~'
+        keep_typing: Mengetik...
         label: '{text}'
+        no_results: 'Tidak ada hasil'
+        remove_filter: 'berhenti mencari;'
+        search_label: Cari...
+        start_typing: 'Mulai mengetik...'
