@@ -59,6 +59,7 @@ CHANGELOG
 * [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
 * [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
 * [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number)
+* [`ziiven/view-history`](https://github.com/Ziiven/view-history)
 
 
 **Terjemahan terbaru untuk ekstensi**:
@@ -66,6 +67,7 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
 * [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
 
 
