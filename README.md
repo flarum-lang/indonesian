@@ -346,6 +346,7 @@ php flarum cache:clear
 | [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/ziiven-money-leaderboard/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-money-leaderboard/id/) |
 | [`ziiven/flarum-post-number`](https://github.com/Ziiven/flarum-post-number) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/ziiven-post-number/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-post-number/id/) |
 | [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/ziiven-money-transfer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-money-transfer/id/) |
+| [`ziiven/view-history`](https://github.com/Ziiven/view-history) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/ziiven-view-history/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-view-history/id/) |
 
 <!-- various-extensions-list-stop -->
 
