@@ -26,6 +26,7 @@ CHANGELOG
 * [`ffans/clipboardjs`](https://github.com/FFans/clipboardjs)
 * [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+* [`ianm/gravatar`](https://github.com/imorland/gravatar)
 * [`ianm/level-ranks`](https://github.com/imorland/level-ranks)
 * [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
 * [`justoverclock/best-answer-badge`](https://github.com/justoverclockl/best-answer-badge)
