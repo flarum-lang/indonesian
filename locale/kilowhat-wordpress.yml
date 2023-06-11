@@ -4,18 +4,80 @@
 
 kilowhat-wordpress:
   admin:
+    health:
+      check: 'Periksa sekarang'
+      errors: 'Kami menemukan beberapa masalah.'
+      healthy: 'Semuanya terlihat baik!'
     save-controls:
       no-unsaved-changes: 'Semuanya disimpan'
       save: Simpan
+      saved-at: 'Disimpan {ago}'
       unsaved-changes: 'Anda memiliki perubahan yang belum tersimpan'
+    settings:
+      cookie_domain_help: 'Hanya diperlukan jika berbeda dari domain Flarum'
+      force_username_choice_help: 'Nilai default akan diberikan dengan aturan yang dipilih di atas.'
+      post_delete: 'Tindakan saat postingan WordPress dihapus secara permanen'
+      post_delete_options:
+        delete: 'Menghapus secara permanen diskusi dari Flarum'
+        hide: 'Sembunyikan diskusi di Flarum'
+        ignore: 'Abaikan (pertahankan diskusi Flarum dalam kondisi saat ini)'
+        lock: 'Pertahankan dan kunci diskusi Flarum'
+      post_hide: 'Tindakan saat postingan WordPress disembunyikan (dibuang atau dipindahkan ke draft)'
+      post_hide_options:
+        delete: 'Menghapus secara permanen diskusi dari Flarum'
+        hide: 'Sembunyikan diskusi di Flarum'
+        ignore: 'Abaikan (mengunci diskusi sesuai dengan Izinkan Komentar)'
+        lock: 'Kunci diskusi di Flarum'
+      section_general_intro: 'Pengaturan dasar yang diperlukan agar ekstensi dapat berfungsi.'
+      section_sso_intro: "Fitur ini akan menghubungkan pengguna WordPress dengan Flarum secara mulus. Sebuah akun akan secara otomatis dibuat untuk mereka dan disinkronkan dengan WordPress. Jika Anda memiliki akun yang sudah ada di Flarum, akun tersebut akan secara otomatis dicocokkan dengan email mereka. Jika Anda menghapus pengguna di Flarum, pengguna tersebut akan dibuat lagi saat akun WordPress melakukan login. Untuk memblokir pengguna Flarum, tangguhkan akun di Flarum.\n"
+      user_delete: 'Tindakan ketika pengguna dihapus di WordPress'
+      user_delete_desc: 'Jika Anda memilih "hapus", hanya pengguna yang akan dihapus, bukan konten mereka di Flarum.'
+      user_delete_options:
+        delete: 'Hapus pengguna Flarum'
+        ignore: 'Abaikan (pertahankan pengguna Flarum)'
+        suspend: 'Tangguhkan pengguna Flarum tanpa batas waktu (Ekstensi Suspend harus diaktifkan)'
+      username_strategy_help: 'Nomor akan ditambahkan ke username jika sudah ada di Flarum'
+      welcome_message_help: 'Pesan ini akan ditampilkan saat pertama kali pengguna mengunjungi forum, bersama dengan pilihan username jika diaktifkan.'
+      wordpress_login_only_help: "Menonaktifkan login Flarum dan langsung membuka modal login WordPress ketika login diperlukan. Ini akan secara otomatis mengatur izin \"Daftar\" menjadi Ditutup.\n"
+      wordpress_login_path_help: 'Hanya diperlukan jika Anda mengganti nama login endpoint secara manual atau melalui plugin'
     tabs:
+      comments: 'Integrasi Komentar'
       disabled: Dinonaktifkan
       enabled: Diaktifkan
+      general: 'Pengaturan Umum'
+      sso: 'Integrasi SSO'
+    wizard:
+      install: Install
+      intro: "Terima kasih telah membeli ekstensi WordPress premium saya! Isi kredensial Anda di bawah ini untuk menghubungkan Flarum dan WordPress secara otomatis.\n"
+      wordpress_password_help: 'Password hanya digunakan untuk konfigurasi awal dan tidak akan disimpan.'
   api:
+    blocked_actions:
+      email_change: 'Akun ini terhubung dengan WordPress. Gunakan halaman profil situs web utama untuk mengubah email Anda.'
+      login: 'Akun ini terhubung dengan WordPress. Gunakan formulir login situs web utama untuk terhubung.'
+      password_reset: 'Akun ini terhubung dengan WordPress. Gunakan formulir masuk situs web utama untuk mereset password Anda.'
     health:
+      comments-mismatch-flarum: 'Integrasi Komentar diaktifkan di Flarum, tetapi tidak di WordPress'
+      comments-mismatch-wordpress: 'Integrasi Komentar diaktifkan di WordPress, tetapi tidak di Flarum'
       cookie-domain-format: 'Domain cookie tampaknya bukan domain yang valid. Periksa apakah itu hanya sebuah domain tanpa protokol atau path'
+      sso-mismatch-flarum: 'Integrasi SSO diaktifkan di Flarum, tetapi tidak di WordPress'
+      sso-mismatch-wordpress: 'Integrasi SSO diaktifkan di WordPress, tetapi tidak di Flarum'
+    wizard:
+      api_unauthorized: "Kami tidak dapat mengautentikasi dengan kredensial yang diberikan. Periksa ulang URL, username, dan password. Periksa dokumentasi untuk mengetahui langkah-langkah pemecahan masalah lebih lanjut.\n"
+      plugin_not_installed: "Plugin WordPress tampaknya tidak diinstal atau diaktifkan pada situs WordPress tersebut. Pastikan Anda telah menginstal setidaknya versi 1.2.0.\n"
   forum:
+    edit-user-modal:
+      unlink_help: 'Jika email tersebut cocok dengan pengguna WordPress, maka email tersebut akan dihubungkan lagi pada saat pengguna tersebut terhubung di WordPress.'
+      warning: "Pengguna ini akan tetap tersinkronisasi dengan WordPress. Anda harus mengedit email dan password dari WordPress.\n"
     embed-link-modal:
+      message: 'Halaman ini mencoba mengalihkan Anda ke {href}'
       open: 'Buka link'
     embed:
       title: Komentar
+    log_in:
+      with_wordpress_button: 'Login dengan WordPress'
+    welcome-modal:
+      default_message: 'Selamat datang di forum. Pilih username dan Anda siap untuk memulai!'
+      not_now: 'Lewati dan baca sebagai tamu untuk saat ini'
+      submit: 'Aktifkan akun forum'
+      title: 'Selamat datang!'
+      username: 'Pilih username'
