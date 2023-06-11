@@ -60,6 +60,7 @@ CHANGELOG
 * [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs)
 * [`tituspijean/flarum-ext-auth-ldap`](https://github.com/tituspijean/flarum-ext-auth-ldap)
 * [`tohsakarat/tags-filter`](https://github.com/tohsakrat/flarum-tags-filter)
+* [`webbinaro/flarum-age-check`](https://github.com/eddiewebb/flarum-age-check)
 * [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
 * [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button)
 * [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
@@ -74,6 +75,7 @@ CHANGELOG
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 * [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
 
