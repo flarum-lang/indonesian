@@ -252,7 +252,7 @@ core:
         page_counter: 'Halaman {current} dari {total}'
       search_placeholder: '=> core.ref.search_users'
       title: '=> core.ref.users'
-      total_users: 'Total user: {count}'
+      total_users: 'Total pengguna: {count}'
   api:
     invalid_filter_type:
       must_be_numeric_message: 'Filter {filter} harus berupa angka.'
@@ -295,7 +295,7 @@ core:
       discard_confirmation: 'Anda belum memposting diskusi Anda. Apakah Anda ingin membuangnya?'
       submit_button: Post
       title: '=> core.ref.start_a_discussion'
-      title_placeholder: Judul
+      title_placeholder: 'Judul Diskusi'
     composer_edit:
       discard_confirmation: 'Anda belum menyimpan perubahan Anda. Apakah Anda ingin membuangnya?'
       edited_message: 'Hasil edit Anda telah dibuat.'
@@ -343,7 +343,6 @@ core:
       search_clear_button_accessible_label: 'Hapus kueri penelusuran'
       search_placeholder: Cari
       search_role_label: Cari
-      session_dropdown_accessible_label: 'Toggle session options dropdown menu'
       settings_button: '=> core.ref.settings'
       sign_up_link: '=> core.ref.sign_up'
     index:
@@ -352,7 +351,6 @@ core:
       mark_all_as_read_confirmation: 'Anda yakin ingin menandai semua diskusi sebagai telah dibaca?'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       meta_title_text: '=> core.ref.all_discussions'
-      refresh_tooltip: Refresh
       start_discussion_button: '=> core.ref.start_a_discussion'
     index_sort:
       latest_button: Terkini
@@ -391,7 +389,6 @@ core:
       edit_button: '=> core.ref.edit'
       hide_confirmation: 'Anda yakin ingin menghapus post ini?'
       restore_button: '=> core.ref.restore'
-      toggle_dropdown_accessible_label: 'Toggle post controls dropdown menu'
     post_scrubber:
       now_link: 'Saat ini'
       original_post_link: 'Postingan Awal'
@@ -402,7 +399,7 @@ core:
       discussion_renamed_text: '{username} mengganti judul jadi {new} {time}.'
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
-      time_lapsed_text: '{period} later'
+      time_lapsed_text: '{period} kemudian'
     rename_discussion:
       submit_button: '=> core.ref.rename'
       title: 'Ganti Nama Diskusi'
@@ -450,7 +447,7 @@ core:
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: '=> core.ref.email'
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: 'Seseorang mengganti judul diskusi yang Saya buat'
+      notify_discussion_renamed_label: 'Seseorang mengganti nama diskusi yang Saya buat'
       privacy_disclose_online_label: 'Izinkan orang lain melihat saat Saya sedang online'
       privacy_heading: Privasi
       title: '=> core.ref.settings'
@@ -506,8 +503,6 @@ core:
     data_segment:
       label: '{label}:'
     debug_button: Debug
-    dropdown:
-      toggle_dropdown_accessible_label: 'Ganti menu dropdown'
     edit_user:
       activate_button: 'Aktifkan User'
       email_heading: '=> core.ref.email'
@@ -539,7 +534,7 @@ core:
       with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Halaman # - {forumName}}}'
       without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Halaman # - {forumName}}}'
     modal:
-      close: Close
+      close: Tutup
     nav:
       drawer_button: 'Buka Navigation Drawer'
     number_suffix:
@@ -547,10 +542,10 @@ core:
       mega_text: M
     series:
       glue_text: ', '
-      three_text: '{first}, {second}, and {third}'
-      two_text: '{first} and {second}'
+      three_text: '{first}, {second}, dan {third}'
+      two_text: '{first} dan {second}'
     username:
-      deleted_text: '[deleted]'
+      deleted_text: '[dihapus]'
   ref:
     all_discussions: 'Semua Diskusi'
     change_email: 'Ganti Email'
@@ -560,9 +555,7 @@ core:
     confirm_password: 'Konfirmasi Password'
     confirmation_email_sent: 'Kami telah mengirimkan email konfirmasi ke {email}. Jika email tidak segera masuk, periksa folder spam Anda.'
     custom_footer_text: 'Tambahkan HTML untuk ditampilkan di bagian paling bawah halaman.'
-    custom_footer_title: 'Edit Custom Footer'
-    custom_header_text: 'Tambahkan HTML untuk ditampilkan di bagian paling atas halaman, di atas header.'
-    custom_header_title: 'Edit Custom Header'
+    custom_header_text: 'Tambahkan HTML untuk ditampilkan di bagian paling atas halaman, di atas header Flarum.'
     delete: Hapus
     delete_forever: 'Hapus Permanen'
     discussions: Diskusi
@@ -596,11 +589,10 @@ core:
     security: Keamanan
     settings: Pengaturan
     sign_up: Daftar
-    some_others: '{count, plural, one {# other} other {# others}}'
+    some_others: '{count, plural, one {# lainnya} other {# lainnya}}'
     start_a_discussion: 'Memulai Diskusi'
     username: Username
     users: User
-    view: View
     write_a_reply: 'Tulis Balasan...'
     you: Anda
   views:
@@ -614,11 +606,11 @@ core:
         package_name: 'Nama Paket'
         version: Versi
       info:
-        caption: 'Application Info'
-      title: Administration
+        caption: 'Info Aplikasi'
+      title: Administrasi
     confirm_email:
       submit_button: '=> core.ref.confirm_email'
-      text: 'Klik tombol di bawah untuk mengonfirmasi email akun Anda.'
+      text: 'Klik tombol di bawah ini untuk mengonfirmasi email akun Anda.'
       title: '=> core.ref.confirm_email'
     content:
       javascript_disabled_message: 'Situs ini paling baik dilihat di browser modern dengan JavaScript diaktifkan.'
@@ -629,8 +621,8 @@ core:
       previous_page_button: '=> core.ref.previous_page'
     error:
       csrf_token_mismatch: 'Anda sudah terlalu lama tidak aktif.'
-      csrf_token_mismatch_return_link: 'Kembalilah, untuk mencoba lagi'
-      invalid_confirmation_token: 'Link konfirmasi ini sudah digunakan atau tidak valid.'
+      csrf_token_mismatch_return_link: 'Kembali, untuk mencoba lagi'
+      invalid_confirmation_token: 'Link konfirmasi ini sudah pernah digunakan atau tidak valid.'
       not_authenticated: 'Anda tidak memiliki izin untuk mengakses halaman ini. Coba lagi setelah Anda login.'
       not_found: 'Halaman yang Anda minta tidak dapat ditemukan.'
       not_found_return_link: 'Kembali ke {forum}'

@@ -20,6 +20,7 @@ v17development-flarum-blog:
       categories_heading: Kategori
       default_article_image_label: 'Gambar artikel bawaan'
       default_article_image_text: 'Pilih gambar artikel bawaan untuk ditampilkan apabila tidak ada gambar yang ditetapkan.'
+      featured_count_label: 'Maksimum Postingan Unggulan'
       featured_count_text: 'Berapa banyak post yang harus ditampilkan dalam grid besar di bagian atas halaman blog?'
       hide_on_discussion_list_label: 'Jangan tampilkan dalam daftar diskusi'
       hide_on_discussion_list_text: 'Sembunyikan postingan blog di daftar diskusi.'
