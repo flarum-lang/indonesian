@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.5.0 (XXXX-XX-XX)
+------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`clarkwinkelmann/flarum-ext-discussion-open-position`](https://github.com/clarkwinkelmann/flarum-ext-discussion-open-position)
+* [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
+* [`ianm/oauth-amazon`](https://github.com/imorland/flarum-ext-oauth-amazon)
+* [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
+* [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch)
+* [`sycho/flarum-github-milestone`](https://github.com/SychO9/flarum-github-milestone)
+
+
+Semua perubahan: [1.4.0...1.5.0](https://github.com/flarum-lang/indonesian/compare/1.4.0...1.5.0).
+
+
 1.4.0 (2023-06-11)
 ------------------
 
