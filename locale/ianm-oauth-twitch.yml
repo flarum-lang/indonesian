@@ -8,3 +8,6 @@ fof-oauth:
       with_twitch_button: '=> fof-oauth.forum.log_in.with_button'
     providers:
       twitch: '=> fof-oauth.lib.providers.twitch'
+  lib:
+    providers:
+      twitch: Twitch

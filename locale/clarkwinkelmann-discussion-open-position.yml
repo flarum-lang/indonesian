@@ -13,3 +13,5 @@ clarkwinkelmann-discussion-open-position:
     preferences:
       openLastOptions:
         always: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always'
+        never: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never'
+        unread: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread'

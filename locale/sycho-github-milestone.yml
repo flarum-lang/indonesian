@@ -4,4 +4,11 @@
 
 sycho-github-milestone:
   admin:
+    all: '=> sycho-github-milestone.ref.all'
     closed: '=> sycho-github-milestone.ref.closed'
+    open: '=> sycho-github-milestone.ref.open'
+  forum:
+    all: '=> sycho-github-milestone.ref.all'
+    closed: '=> sycho-github-milestone.ref.closed'
+    load_more: '=> core.forum.discussion_list.load_more_button'
+    open: '=> sycho-github-milestone.ref.open'
