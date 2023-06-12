@@ -12,6 +12,8 @@ CHANGELOG
 * [`ianm/oauth-amazon`](https://github.com/imorland/flarum-ext-oauth-amazon)
 * [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
 * [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch)
+* [`justoverclock/popular-tags`](https://github.com/justoverclockl/popular-tags)
+* [`littlecxm/flarum-reply-to-see`](https://github.com/littlecxm/flarum-reply-to-see)
 * [`sycho/flarum-github-milestone`](https://github.com/SychO9/flarum-github-milestone)
 
 
