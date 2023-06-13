@@ -27,6 +27,6 @@ clarkwinkelmann-discussion-open-position:
         unread: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread'
   ref:
     openLastOptions:
-      always: 'Selalu buka diskusi di post yang terakhir dibaca'
+      always: 'Selalu buka diskusi pada post yang terakhir dibaca'
       never: 'Selalu buka diskusi pada post pertama'
       unread: 'Hanya membuka diskusi pada post yang terakhir dibaca jika ada balasan baru'
