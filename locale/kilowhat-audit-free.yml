@@ -19,6 +19,7 @@ kilowhat-audit:
         access_token: 'Access token'
         api_key: 'API key'
         cli: 'Command line'
+        session: 'Sesi web'
         unknown: 'Client tidak diketahui'
       controls:
         filterAction: 'Tampilkan log dari tindakan yang sama'
@@ -54,6 +55,9 @@ kilowhat-audit:
         enabled: 'Ekstensi {package} diaktifkan'
       filterApply: Terapkan
       filterPlaceholder: 'Filter log'
+      fof_ban_ips:
+        banned: 'IP yang dicekal {ip}'
+        unbanned: 'IP yang tidak dicekal {ip}'
       genericResource:
         comment: Komentar
         post: Post

@@ -14,6 +14,7 @@ maicol07-sso:
       client_verify_ssl_help: 'Verifikasi Flarum instance SSL saat membuat request ke sana (disarankan).'
       cookies_prefix: 'Prefiks nama cookie'
       jwt_section_subtitle: 'Pengaturan JWT Addon'
+      jwt_signer_key: 'Kunci penanda tangan'
       jwt_signing_algorithm: 'Metode Penandatanganan'
       login_url: 'URL Login'
       logout_url: 'URL Keluar'

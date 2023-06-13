@@ -20,10 +20,12 @@ clarkwinkelmann-post-stream-search:
     discussionControls:
       searchInDiscussion: 'Cari diskusi'
     post:
+      opBadge: 'Pembuka diskusi'
       opBadgeTooltip: 'Klik untuk hanya menampilkan balasan dari pengguna ini'
     postControls:
       authorFilter: 'Hanya tampilkan balasan dari penulis ini'
     stream:
+      noResults: 'Tidak ada post yang cocok dengan kueri pencarian dalam diskusi ini'
       otherAuthorsGap: '{count, plural, one {Satu post oleh penulis lain disembunyikan} other {{count} post oleh penulis lain disembunyikan}}'
       unmatchedGap: '{count, plural, one {Satu post yang tidak cocok disembunyikan} other {{count} post yang tidak cocok disembunyikan}}'
     toolbar:
@@ -32,3 +34,4 @@ clarkwinkelmann-post-stream-search:
       close: 'Bersihkan filter dan tutup toolbar'
       pin: 'Selalu buka filter toolbar pada diskusi'
       searchPlaceholder: 'Temukan dalam diskusi...'
+      summary: '{matching} dari {total} yang cocok'
