@@ -306,7 +306,7 @@ core:
       body_placeholder: '=> core.ref.write_a_reply'
       discard_confirmation: 'Anda belum memposting balasan Anda. Apakah Anda ingin membuangnya?'
       posted_message: 'Balasan Anda telah diposting.'
-      submit_button: Balas
+      submit_button: 'Posting Balasan'
       view_button: '=> core.ref.view'
     discussion_controls:
       cannot_reply_button: 'Tidak dapat membalas'

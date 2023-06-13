@@ -16,8 +16,8 @@ clarkwinkelmann-vote-with-money:
       notEnoughFunds: 'Dana tidak cukup.'
   forum:
     poll:
-      max: 'Jaminan maksimum (opsional)'
-      min: 'Janji minimum (opsional)'
+      max: 'Jumlah maksimum yang akan dijanjikan (opsional)'
+      min: 'Jumlah minimum yang akan dijanjikan (opsional)'
       voteWithMoney: 'Vote dengan money'
     vote:
       balance: 'Saldo Anda: {amount}'
