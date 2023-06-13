@@ -12,11 +12,13 @@ CHANGELOG
 
 **Menambahkan dukungan untuk ekstensi**:
 
+* [`blomstra/secondary-tags-toggler`](https://github.com/blomstra/flarum-ext-secondary-tags-toggler)
 * [`clarkwinkelmann/flarum-ext-discussion-open-position`](https://github.com/clarkwinkelmann/flarum-ext-discussion-open-position)
 * [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed)
 * [`clarkwinkelmann/flarum-ext-sudo-mode`](https://github.com/clarkwinkelmann/flarum-ext-sudo-mode)
 * [`clarkwinkelmann/flarum-ext-translation-inspector`](https://github.com/clarkwinkelmann/flarum-ext-translation-inspector)
 * [`clarkwinkelmann/flarum-ext-vote-with-money`](https://github.com/clarkwinkelmann/flarum-ext-vote-with-money)
+* [`datlechin/flarum-add-like-controls`](https://github.com/datlechin/flarum-add-like-controls)
 * [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
 * [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
 * [`ianm/oauth-amazon`](https://github.com/imorland/flarum-ext-oauth-amazon)
@@ -25,7 +27,9 @@ CHANGELOG
 * [`justoverclock/popular-tags`](https://github.com/justoverclockl/popular-tags)
 * [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen)
 * [`littlecxm/flarum-reply-to-see`](https://github.com/littlecxm/flarum-reply-to-see)
+* [`serakoi/flarumstaffbadge`](https://github.com/Serakoi/flarumstaffbadge)
 * [`sycho/flarum-github-milestone`](https://github.com/SychO9/flarum-github-milestone)
+* [`wolfgang-demeter/flarum-ext-bbcode-5star-rating`](https://github.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating)
 
 
 **Terjemahan terbaru untuk ekstensi**:
