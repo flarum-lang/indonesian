@@ -31,6 +31,7 @@ CHANGELOG
 * [`ianm/oauth-amazon`](https://github.com/imorland/flarum-ext-oauth-amazon)
 * [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
 * [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch)
+* [`justoverclock/first-visit-popup`](https://github.com/justoverclockl/first-visit-popup)
 * [`justoverclock/popular-tags`](https://github.com/justoverclockl/popular-tags)
 * [`justoverclock/flarum-ext-pwgen`](https://github.com/justoverclockl/flarum-ext-pwgen)
 * [`justoverclock/youtube-video-feed`](https://github.com/justoverclockl/youtube-video-feed)
