@@ -3,5 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 justoverclock-popular-tags:
+  admin:
+    limit: 'Jumlah Tag yang ditampilkan'
+    limit-help: 'Masukkan di sini jumlah maksimal tag yang ingin Anda tampilkan'
   forum:
+    count: 'Total Thread: '
     widgetTitle: 'Tag Populer'

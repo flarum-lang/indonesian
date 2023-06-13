@@ -6,9 +6,21 @@ sycho-github-milestone:
   admin:
     all: '=> sycho-github-milestone.ref.all'
     closed: '=> sycho-github-milestone.ref.closed'
+    default_filter: 'Filter Default'
+    milestone: 'ID Milestone'
     open: '=> sycho-github-milestone.ref.open'
+    repository: 'Repositori GitHub'
+    repository_example: 'contoh: flarum/core'
   forum:
     all: '=> sycho-github-milestone.ref.all'
     closed: '=> sycho-github-milestone.ref.closed'
+    complete: '{progress} Selesai'
+    last_updated: 'Terakhir diperbarui {time}'
     load_more: '=> core.forum.discussion_list.load_more_button'
     open: '=> sycho-github-milestone.ref.open'
+    tasks_done: '{number} dari {total}'
+    title: Milestone
+  ref:
+    all: Semua
+    closed: Ditutup
+    open: Buka

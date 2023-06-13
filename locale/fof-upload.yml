@@ -20,13 +20,13 @@ fof-upload:
       description: "FoF Upload menggunakan library <a>PHP Mime Detector</a> untuk common MIME types and PHP Fileinfo sebagai fallback.\nNilai MIME yang dikembalikan oleh Fileinfo dapat berbeda dari server ke server!\n"
       guessed-extension: 'Ekstensi file default (jika original tidak masuk ke dalam whitelist)'
       laravel-validation: 'Validasi File Laravel'
-      mime-detector: 'Mime Detector (primary)'
-      mime-fileinfo: 'PHP Fileinfo (fallback)'
+      mime-detector: 'Pendeteksi Mime (primer)'
+      mime-fileinfo: 'Informasi File PHP (fallback)'
       no-file-selected: 'Tidak ada file'
       not-available: 'Tidak ada hasil'
       select: 'Pilih file di bawah ini untuk memeriksa nilai yang akan digunakan. File tidak akan disimpan.'
       title: 'Periksa MIME'
-      validation-failed: 'Failed: {error}'
+      validation-failed: 'Gagal: {error}'
       validation-passed: Passed
     labels:
       aws-s3:
@@ -60,7 +60,7 @@ fof-upload:
       local:
         title: 'Pengaturan local storage'
       preferences:
-        max_file_size: 'Maximum file size (in kilobytes)'
+        max_file_size: 'Ukuran file maksimum (dalam kilobyte)'
         mime_types: 'Konfigurasikan mime type Anda, upload adapter mapping'
         php_ini_values: 'Value <code>php.ini</code> Anda adalah <code>post_max_size={post}</code> dan <code>upload_max_filesize={upload}</code>. Pastikan value yang ditetapkan di sini berada di bawah ambang batas ini, atau sesuaikan dengan kebutuhan Anda. Jika menggunakan  <code>Nginx</code>, pastikan juga bahwa <code>client_max_body_size</code> memiliki ukuran yang cukup untuk batas maksimal yang Anda pilih.'
         title: 'Preferensi umum'
@@ -137,7 +137,7 @@ fof-upload:
     media_manager: 'Media manager'
     states:
       error: Error
-      loading: Uploading
+      loading: Meng-upload
       unauthorized: 'Anda tidak diizinkan untuk men-download file'
     text_preview:
       collapse: 'Collapse preview'

@@ -5,13 +5,28 @@
 clarkwinkelmann-discussion-open-position:
   admin:
     settings:
+      defaultOpenLastRead: 'Diskusi terbuka saat post terakhir dibaca secara default'
       openLastOptions:
         always: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always'
         never: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never'
         unread: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread'
+      suggestFirstTime: 'Tampilkan permintaan kepada pengguna untuk mengubah pengaturan saat pertama kali mereka membuka diskusi'
   forum:
+    firstTimePrompt:
+      fromAlways: 'Link diskusi mengarah ke postingan yang terakhir Anda baca'
+      fromNever: 'Link diskusi membuka post pertama'
+      more: 'Opsi lainnya'
+      openLastOptions:
+        always: 'Selalu buka di post terakhir yang Saya baca sebagai gantinya'
+        never: 'Selalu buka di post pertama sebagai gantinya'
     preferences:
+      discussionOpenLastRead: 'Daftar Diskusi'
       openLastOptions:
         always: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always'
         never: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never'
         unread: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread'
+  ref:
+    openLastOptions:
+      always: 'Selalu buka diskusi di post yang terakhir dibaca'
+      never: 'Selalu buka diskusi pada post pertama'
+      unread: 'Hanya membuka diskusi pada post yang terakhir dibaca jika ada balasan baru'
