@@ -28,6 +28,7 @@ blomstra-web3:
       select: '=> blomstra-web3.ref.select'
       title: 'EVM Wallets'
     log-in:
+      basic-login-link: 'Beralih ke Login biasa'
       select-wallet-account: '=> blomstra-web3.ref.select-wallet-account'
       with-wallet: 'Login dengan web3'
     polkadot-connect-wallet-modal:
@@ -43,7 +44,9 @@ blomstra-web3:
       wallet-connect-button: 'Hubungkan Wallet'
       wallets_heading: Wallet
     sign-up:
+      basic-signup-link: 'Beralih ke Pendaftaran biasa'
       select-wallet-account: '=> blomstra-web3.ref.select-wallet-account'
+      with-wallet: 'Mendaftar dengan web3'
   ref:
     disconnect: 'Putuskan sambungan'
     polkadot-wallets: 'Polkadot Wallet'

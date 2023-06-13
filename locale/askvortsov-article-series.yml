@@ -13,7 +13,7 @@ askvortsov-article-series:
     article_series_modal:
       order_label: 'Indeks Urutan (diurutkan secara ascending)'
       submit_button: Kirim
-      tag_id_label: 'Label Seri Artikel'
+      tag_id_label: 'Tag Seri Artikel'
       title: 'Pengaturan Seri Artikel'
     discussion_controls:
       article_series_button: 'Pengaturan Seri Artikel'
