@@ -27,6 +27,7 @@ CHANGELOG
 * [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series)
 * [`askvortsov/flarum-discussion-templates`](https://github.com/askvortsov1/flarum-discussion-templates)
 * [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 
 
 Semua perubahan: [1.4.0...1.5.0](https://github.com/flarum-lang/indonesian/compare/1.4.0...1.5.0).
