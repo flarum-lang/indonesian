@@ -8,13 +8,25 @@ CHANGELOG
 **Menambahkan dukungan untuk ekstensi**:
 
 * [`clarkwinkelmann/flarum-ext-discussion-open-position`](https://github.com/clarkwinkelmann/flarum-ext-discussion-open-position)
+* [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed)
+* [`clarkwinkelmann/flarum-ext-sudo-mode`](https://github.com/clarkwinkelmann/flarum-ext-sudo-mode)
+* [`clarkwinkelmann/flarum-ext-translation-inspector`](https://github.com/clarkwinkelmann/flarum-ext-translation-inspector)
+* [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
 * [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
 * [`ianm/oauth-amazon`](https://github.com/imorland/flarum-ext-oauth-amazon)
 * [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
 * [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch)
 * [`justoverclock/popular-tags`](https://github.com/justoverclockl/popular-tags)
+* [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen)
 * [`littlecxm/flarum-reply-to-see`](https://github.com/littlecxm/flarum-reply-to-see)
 * [`sycho/flarum-github-milestone`](https://github.com/SychO9/flarum-github-milestone)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series)
+* [`askvortsov/flarum-discussion-templates`](https://github.com/askvortsov1/flarum-discussion-templates)
+* [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
 
 
 Semua perubahan: [1.4.0...1.5.0](https://github.com/flarum-lang/indonesian/compare/1.4.0...1.5.0).
