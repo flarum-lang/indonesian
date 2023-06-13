@@ -42,21 +42,31 @@ fof-webhooks:
     settings:
       actions:
         flarum:
+          approval:
+            postwasapproved: 'Post Disetujui'
           discussion:
             deleted: '=> fof-webhooks.ref.deleted'
             hidden: '=> fof-webhooks.ref.hidden'
             renamed: '=> fof-webhooks.ref.renamed'
             restored: '=> fof-webhooks.ref.restored'
+            started: Dimulai
+            title: 'Diskusi Flarum'
           group:
+            created: Dibuat
             deleted: '=> fof-webhooks.ref.deleted'
             renamed: '=> fof-webhooks.ref.renamed'
+            title: 'Grup Flarum'
           post:
             deleted: '=> fof-webhooks.ref.deleted'
             hidden: '=> fof-webhooks.ref.hidden'
+            posted: Diposting
             restored: '=> fof-webhooks.ref.restored'
+            revised: Diedit
           user:
             deleted: '=> fof-webhooks.ref.deleted'
+            registered: Terdaftar
             renamed: '=> fof-webhooks.ref.renamed'
+            title: 'Pengguna Flarum'
       debug_help: 'Tambahkan log tambahan ke file log Flarum untuk men-debug masalah dengan webhook dan/atau event yang tidak bekerja dengan benar.'
       debug_label: Debug
       help:
@@ -71,6 +81,7 @@ fof-webhooks:
         group_help: 'Kirim sumber daya yang dapat dilihat oleh grup ini'
         group_label: Grup
         max_post_content_length_help: 'Tetapkan angka untuk membatasi konten postingan di semua event yang berkaitan dengan postingan. Ubah ke 0 atau kosongkan untuk menghilangkan limit.'
+        max_post_content_length_label: 'Panjang Maksimum Konten Postingan'
         title: 'Pengaturan Webhook'
         use_plain_text_label: 'Kurangi jumlah pemformatan dalam konten post'
       services:
