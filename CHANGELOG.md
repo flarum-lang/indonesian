@@ -18,6 +18,8 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-sudo-mode`](https://github.com/clarkwinkelmann/flarum-ext-sudo-mode)
 * [`clarkwinkelmann/flarum-ext-translation-inspector`](https://github.com/clarkwinkelmann/flarum-ext-translation-inspector)
 * [`clarkwinkelmann/flarum-ext-vote-with-money`](https://github.com/clarkwinkelmann/flarum-ext-vote-with-money)
+* [`convo-extensions/flarum-ext-guest-posting`](https://extiverse.com/extension/convo-extensions/flarum-ext-guest-posting)
+* [`datitisev/flarum-backup`](https://extiverse.com/extension/datitisev/flarum-backup)
 * [`datlechin/flarum-add-like-controls`](https://github.com/datlechin/flarum-add-like-controls)
 * [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
 * [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
