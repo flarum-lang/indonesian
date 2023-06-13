@@ -5,6 +5,11 @@ CHANGELOG
 1.5.0 (XXXX-XX-XX)
 ------------------
 
+**Perubahan umum**:
+
+* Memperbarui terjemahan untuk Flarum core.
+
+
 **Menambahkan dukungan untuk ekstensi**:
 
 * [`clarkwinkelmann/flarum-ext-discussion-open-position`](https://github.com/clarkwinkelmann/flarum-ext-discussion-open-position)
@@ -28,7 +33,9 @@ CHANGELOG
 * [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series)
 * [`askvortsov/flarum-discussion-templates`](https://github.com/askvortsov1/flarum-discussion-templates)
 * [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
+* [`clarkwinkelmann/flarum-ext-money-rewards`](https://github.com/clarkwinkelmann/flarum-ext-money-rewards)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
 
 
 Semua perubahan: [1.4.0...1.5.0](https://github.com/flarum-lang/indonesian/compare/1.4.0...1.5.0).
