@@ -3,6 +3,13 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 fof-oauth:
+  admin:
+    settings:
+      providers:
+        reddit:
+          client_id_label: 'Client ID'
+          client_secret_label: 'Client secret'
+          description: 'Daftarkan forum Anda dengan Reddit {link}'
   forum:
     log_in:
       with_reddit_button: '=> fof-oauth.forum.log_in.with_button'

@@ -19,13 +19,13 @@ fof-upload:
     inspect-mime:
       description: "FoF Upload menggunakan library <a>PHP Mime Detector</a> untuk common MIME types and PHP Fileinfo sebagai fallback.\nNilai MIME yang dikembalikan oleh Fileinfo dapat berbeda dari server ke server!\n"
       guessed-extension: 'Ekstensi file default (jika original tidak masuk ke dalam whitelist)'
-      laravel-validation: 'Laravel File Validation'
+      laravel-validation: 'Validasi File Laravel'
       mime-detector: 'Mime Detector (primary)'
       mime-fileinfo: 'PHP Fileinfo (fallback)'
       no-file-selected: 'Tidak ada file'
       not-available: 'Tidak ada hasil'
       select: 'Pilih file di bawah ini untuk memeriksa nilai yang akan digunakan. File tidak akan disimpan.'
-      title: 'Inspect MIME'
+      title: 'Periksa MIME'
       validation-failed: 'Failed: {error}'
       validation-passed: Passed
     labels:
@@ -38,7 +38,6 @@ fof-upload:
         region: Region
         secret: Secret
         title: 'Pengaturan AWS S3 storage'
-        use_path_style_endpoint: 'Use path style endpoint'
       client_extension:
         title: 'Ekstensi file yang disediakan oleh pengguna'
       composer_buttons:
@@ -59,7 +58,6 @@ fof-upload:
         tos: 'Merupakan tanggung jawab Anda untuk memastikan user forum Anda mematuhi <a>Terms of service</a>'
       inspect-mime: 'Test file MIME type'
       local:
-        cdn_url: 'Content Delivery URL (prefixes files)'
         title: 'Pengaturan local storage'
       preferences:
         max_file_size: 'Maximum file size (in kilobytes)'
