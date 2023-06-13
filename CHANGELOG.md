@@ -29,8 +29,10 @@ CHANGELOG
 * [`davwheat/flarum-ext-share`](https://github.com/davwheat/flarum-ext-share)
 * [`flamarkt/matomo`](https://github.com/flamarkt/matomo)
 * [`ianm/oauth-amazon`](https://github.com/imorland/flarum-ext-oauth-amazon)
+* [`ianm/oauth-line`](https://github.com/imorland/flarum-ext-oauth-line)
 * [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
 * [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch)
+* [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
 * [`justoverclock/first-visit-popup`](https://github.com/justoverclockl/first-visit-popup)
 * [`justoverclock/popular-tags`](https://github.com/justoverclockl/popular-tags)
 * [`justoverclock/flarum-ext-pwgen`](https://github.com/justoverclockl/flarum-ext-pwgen)
@@ -39,6 +41,8 @@ CHANGELOG
 * [`littlecxm/flarum-reply-to-see`](https://github.com/littlecxm/flarum-reply-to-see)
 * [`serakoi/flarumstaffbadge`](https://github.com/Serakoi/flarumstaffbadge)
 * [`sycho/flarum-github-milestone`](https://github.com/SychO9/flarum-github-milestone)
+* [`the-turk/flarum-miserable-users`](https://github.com/the-turk/flarum-miserable-users)
+* [`the-turk/flarum-quiet-edits`](https://github.com/the-turk/flarum-quiet-edits)
 * [`wolfgang-demeter/flarum-ext-bbcode-5star-rating`](https://github.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating)
 
 
