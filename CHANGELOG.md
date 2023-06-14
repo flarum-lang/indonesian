@@ -34,6 +34,7 @@ CHANGELOG
 * [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch)
 * [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
 * [`justoverclock/first-visit-popup`](https://github.com/justoverclockl/first-visit-popup)
+* [`justoverclock/og-meta-tag`](https://github.com/justoverclockl/og-meta-tag)
 * [`justoverclock/popular-tags`](https://github.com/justoverclockl/popular-tags)
 * [`justoverclock/flarum-ext-pwgen`](https://github.com/justoverclockl/flarum-ext-pwgen)
 * [`justoverclock/youtube-video-feed`](https://github.com/justoverclockl/youtube-video-feed)
@@ -43,6 +44,7 @@ CHANGELOG
 * [`sycho/flarum-github-milestone`](https://github.com/SychO9/flarum-github-milestone)
 * [`the-turk/flarum-miserable-users`](https://github.com/the-turk/flarum-miserable-users)
 * [`the-turk/flarum-quiet-edits`](https://github.com/the-turk/flarum-quiet-edits)
+* [`tokenjenny/flarum-ext-web3`](https://github.com/tokenjenny/flarum-ext-web3)
 * [`wolfgang-demeter/flarum-ext-bbcode-5star-rating`](https://github.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating)
 
 
