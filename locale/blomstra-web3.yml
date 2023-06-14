@@ -41,6 +41,7 @@ blomstra-web3:
       unattach_address: '=> blomstra-web3.ref.unbind'
     settings:
       unbind: '=> blomstra-web3.ref.unbind'
+      unbind_confirm: 'Apakah Anda yakin ingin melepaskan alamat ini dari akun Anda?'
       wallet-connect-button: 'Hubungkan Wallet'
       wallets_heading: Wallet
     sign-up:

@@ -18,7 +18,7 @@ the-turk-miserable-users:
       range_seconds_text: ' Detik'
       range_separator_text: ' hingga '
       redirection_chance_label: 'Peluang pengalihan'
-      redirection_chance_text: 'Masukkan persentase kemungkinan pengguna yang tidak senang akan diarahkan ke URL halaman pengalihan.'
+      redirection_chance_text: 'Masukkan persentase kemungkinan pengguna yang menyedihkan akan dialihkan ke URL halaman pengalihan.'
       redirection_page_url_label: 'URL halaman pengalihan'
       redirection_page_url_text: 'Anda dapat secara acak mengarahkan pengguna yang menyedihkan ke halaman lain. Biarkan ini kosong untuk mengarahkan ke halaman home page forum.'
       shuffle_post_chance_label: 'Peluang postingan acak'
@@ -31,7 +31,7 @@ the-turk-miserable-users:
       not_miserable_label: 'Tidak menyedihkan'
       status_heading: 'Status Menyedihkan'
       submit_button: '=> core.ref.save_changes'
-      title: 'Menyedihkan {username}'
+      title: '{username} yang menyedihkan'
     user_badge:
       miserable_user_tooltip: '=> the-turk-miserable-users.ref.miserable_user'
     user_controls:
