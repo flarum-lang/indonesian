@@ -49,7 +49,9 @@ blomstra-web3:
       select-wallet-account: '=> blomstra-web3.ref.select-wallet-account'
       with-wallet: 'Mendaftar dengan web3'
   ref:
+    bind: 'Alamat pengikatan'
     disconnect: 'Putuskan sambungan'
     polkadot-wallets: 'Polkadot Wallet'
     select: 'Pilih alamat'
     select-wallet-account: 'Pilih akun wallet {rightArrow}'
+    unbind: 'Melepas ikatan alamat dari akun'
