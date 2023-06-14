@@ -30,6 +30,20 @@ kilowhat-custom-paths:
       head:
         name: Nama
       paths:
+        askvortsov-categories: Kategori
+        clarkwinkelmann-discussion-lists-profile: 'Daftar pengguna'
+        clarkwinkelmann-group-list: 'Daftar grup'
         discussion: Diskusi
+        flamarkt-account: Akun
+        flamarkt-categories: 'Daftar kategori'
+        flamarkt-product: Produk
+        flamarkt-signup: Daftar
+        fof-byobu: 'Diskusi pribadi'
+        fof-pages: Halaman
+        fof-user-directory: 'Direktori pengguna'
         index: 'Daftar diskusi (jika bukan homepage)'
+        notifications: 'Notifikasi (di perangkat seluler)'
         settings: Pengaturan
+        tags: 'Daftar tag'
+        user: 'Profil pengguna'
+        v17development-blog-category: Kategori

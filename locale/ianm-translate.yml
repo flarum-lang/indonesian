@@ -11,6 +11,7 @@ ianm-translate:
     settings:
       deepl:
         api_key:
+          help: 'Daftar di {link}. Driver akan secara otomatis mendeteksi jenis key free/pro.'
           label: '=> ianm-translate.lib.settings.api-key'
         en_choice:
           help: 'Saat menerjemahkan ke bahasa Inggris, pilih varian mana yang harus digunakan.'
@@ -20,15 +21,36 @@ ianm-translate:
             en-US: 'English (US) en-US'
         formality:
           help: 'Jika tersedia, terjemahan dapat menggunakan tingkat formalitas yang berbeda. Pilih preferensi Anda di sini.'
+          label: Formalitas
+          options:
+            default: Default
+            prefer_less: 'Kurang formal'
+            prefer_more: 'Lebih formal'
+      google-cloud:
+        api_key:
+          help: 'Daftarkan diri Anda untuk mendapatkan API key di {link}. Driver ini menggunakan API V2 - Basic.'
+          label: '=> ianm-translate.lib.settings.api-key'
+      provider: 'Penyedia terjemahan'
       readme-info: 'Lihat dokumentasi README untuk informasi lebih lanjut.'
   forum:
+    detected-language: 'Post ini dalam bahasa {postLang}'
     discussion:
       post:
         close-translation: 'Tutup terjemahan'
         translated-header: 'Terjemahan AI dari {from} ke {to}'
+        translated-updated: 'Terjemahan terakhir diperbarui {time} menggunakan {provider}'
     translate-button-label: Terjemahan
+    unknown-language: '[tidak terdeteksi]'
     user:
       settings:
         heading: Terjemahan
         source-language:
           help: 'Saat dinonaktifkan, hanya postingan yang ditulis dalam bahasa selain bahasa forum saat ini yang akan diberi label. Untuk melabeli semua postingan dengan bahasa yang terdeteksi, aktifkan pengaturan ini.'
+          label: 'Selalu tampilkan bahasa dalam postingan'
+  lib:
+    providers:
+      deepl: DeepL
+      google-cloud: 'Google Cloud Translate'
+      google-free: 'Google Translate'
+    settings:
+      api-key: 'API Key'
