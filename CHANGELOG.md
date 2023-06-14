@@ -2,6 +2,94 @@ CHANGELOG
 =========
 
 
+1.5.0 (2023-06-14)
+------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`blomstra/secondary-tags-toggler`](https://github.com/blomstra/flarum-ext-secondary-tags-toggler)
+* [`clarkwinkelmann/flarum-ext-discussion-open-position`](https://github.com/clarkwinkelmann/flarum-ext-discussion-open-position)
+* [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers)
+* [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed)
+* [`clarkwinkelmann/flarum-ext-sudo-mode`](https://github.com/clarkwinkelmann/flarum-ext-sudo-mode)
+* [`clarkwinkelmann/flarum-ext-translation-inspector`](https://github.com/clarkwinkelmann/flarum-ext-translation-inspector)
+* [`clarkwinkelmann/flarum-ext-typewriter`](https://github.com/clarkwinkelmann/flarum-ext-typewriter)
+* [`clarkwinkelmann/flarum-ext-vote-with-money`](https://github.com/clarkwinkelmann/flarum-ext-vote-with-money)
+* [`convo-extensions/flarum-ext-guest-posting`](https://extiverse.com/extension/convo-extensions/flarum-ext-guest-posting)
+* [`datitisev/flarum-backup`](https://extiverse.com/extension/datitisev/flarum-backup)
+* [`datitisev/flarum-discussion-agree-message`](https://github.com/datitisev/flarum-discussion-agree-message)
+* [`datlechin/flarum-add-like-controls`](https://github.com/datlechin/flarum-add-like-controls)
+* [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
+* [`datlechin/flarum-pronouns`](https://github.com/datlechin/flarum-pronouns)
+* [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
+* [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
+* [`datlechin/flarum-who-replied`](https://github.com/datlechin/flarum-who-replied)
+* [`davwheat/flarum-ext-share`](https://github.com/davwheat/flarum-ext-share)
+* [`flamarkt/matomo`](https://github.com/flamarkt/matomo)
+* [`glowingblue/localizd`](https://extiverse.com/extension/glowingblue/localizd)
+* [`ianm/no-meta-title`](https://github.com/imorland/no-meta-title)
+* [`ianm/oauth-amazon`](https://github.com/imorland/flarum-ext-oauth-amazon)
+* [`ianm/oauth-line`](https://github.com/imorland/flarum-ext-oauth-line)
+* [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
+* [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch)
+* [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
+* [`justoverclock/auto-post-badge-pro`](https://extiverse.com/extension/justoverclock/auto-post-badge-pro)
+* [`justoverclock/discussion-tags`](https://extiverse.com/extension/justoverclock/discussion-tags)
+* [`justoverclock/events-countdown`](https://github.com/justoverclockl/events-countdown)
+* [`justoverclock/flarum-ext-feedback`](https://github.com/justoverclockl/flarum-ext-feedback)
+* [`justoverclock/first-visit-popup`](https://github.com/justoverclockl/first-visit-popup)
+* [`justoverclock/geo-weather`](https://github.com/justoverclockl/geo-weather)
+* [`justoverclock/flarum-ext-infocards`](https://github.com/justoverclockl/flarum-ext-infocards)
+* [`justoverclock/last-registered-users`](https://github.com/justoverclockl/last-registered-users)
+* [`justoverclock/og-meta-tag`](https://github.com/justoverclockl/og-meta-tag)
+* [`justoverclock/popular-tags`](https://github.com/justoverclockl/popular-tags)
+* [`justoverclock/flarum-ext-pwgen`](https://github.com/justoverclockl/flarum-ext-pwgen)
+* [`justoverclock/related-discussions`](https://extiverse.com/extension/justoverclock/related-discussions)
+* [`justoverclock/flarum-ext-socialcards`](https://github.com/justoverclockl/flarum-ext-socialcards)
+* [`justoverclock/users-map-location`](https://github.com/justoverclockl/users-map-location)
+* [`justoverclock/youtube-video-feed`](https://github.com/justoverclockl/youtube-video-feed)
+* [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)
+* [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen)
+* [`littlecxm/flarum-reply-to-see`](https://github.com/littlecxm/flarum-reply-to-see)
+* [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
+* [`migratetoflarum/canonical`](https://github.com/migratetoflarum/canonical)
+* [`nearata/flarum-ext-cakeday`](https://github.com/Nearata/flarum-ext-cakeday)
+* [`serakoi/flarumstaffbadge`](https://github.com/Serakoi/flarumstaffbadge)
+* [`serakoi/flarum-hideprofile`](https://github.com/Serakoi/flarum-hideprofile)
+* [`sycho/flarum-github-milestone`](https://github.com/SychO9/flarum-github-milestone)
+* [`the-turk/flarum-miserable-users`](https://github.com/the-turk/flarum-miserable-users)
+* [`the-turk/flarum-pallet-theme`](https://github.com/the-turk/flarum-pallet-theme)
+* [`the-turk/flarum-quiet-edits`](https://github.com/the-turk/flarum-quiet-edits)
+* [`tohsakarat/save-and-load-draft-automatically`](https://github.com/tohsakrat/save-and-load-draft-automatically)
+* [`tokenjenny/flarum-ext-web3`](https://github.com/tokenjenny/flarum-ext-web3)
+* [`wolfgang-demeter/flarum-ext-bbcode-5star-rating`](https://github.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series)
+* [`askvortsov/flarum-discussion-templates`](https://github.com/askvortsov1/flarum-discussion-templates)
+* [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
+* [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
+* [`clarkwinkelmann/flarum-ext-money-rewards`](https://github.com/clarkwinkelmann/flarum-ext-money-rewards)
+* [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
+* [`clarkwinkelmann/flarum-ext-username-blacklist`](https://github.com/clarkwinkelmann/flarum-ext-username-blacklist)
+* [`davwheat/flarum-ext-ads`](https://github.com/davwheat/flarum-ext-ads)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`justoverclock/last-tweet`](https://github.com/justoverclockl/last-tweet)
+* [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
+* [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
+* [`malago/flarum-ads`](https://github.com/malago86/flarum-ads)
+* [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
+* [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
+
+
+Semua perubahan: [1.4.0...1.5.0](https://github.com/flarum-lang/indonesian/compare/1.4.0...1.5.0).
+
+
 1.4.0 (2023-06-11)
 ------------------
 
