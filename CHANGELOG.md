@@ -5,11 +5,6 @@ CHANGELOG
 1.5.0 (XXXX-XX-XX)
 ------------------
 
-**Perubahan umum**:
-
-* Memperbarui terjemahan untuk Flarum core.
-
-
 **Menambahkan dukungan untuk ekstensi**:
 
 * [`blomstra/secondary-tags-toggler`](https://github.com/blomstra/flarum-ext-secondary-tags-toggler)
@@ -51,6 +46,7 @@ CHANGELOG
 * [`justoverclock/flarum-ext-pwgen`](https://github.com/justoverclockl/flarum-ext-pwgen)
 * [`justoverclock/related-discussions`](https://extiverse.com/extension/justoverclock/related-discussions)
 * [`justoverclock/flarum-ext-socialcards`](https://github.com/justoverclockl/flarum-ext-socialcards)
+* [`justoverclock/users-map-location`](https://github.com/justoverclockl/users-map-location)
 * [`justoverclock/youtube-video-feed`](https://github.com/justoverclockl/youtube-video-feed)
 * [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)
 * [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen)
@@ -62,6 +58,7 @@ CHANGELOG
 * [`serakoi/flarum-hideprofile`](https://github.com/Serakoi/flarum-hideprofile)
 * [`sycho/flarum-github-milestone`](https://github.com/SychO9/flarum-github-milestone)
 * [`the-turk/flarum-miserable-users`](https://github.com/the-turk/flarum-miserable-users)
+* [`the-turk/flarum-pallet-theme`](https://github.com/the-turk/flarum-pallet-theme)
 * [`the-turk/flarum-quiet-edits`](https://github.com/the-turk/flarum-quiet-edits)
 * [`tohsakarat/save-and-load-draft-automatically`](https://github.com/tohsakrat/save-and-load-draft-automatically)
 * [`tokenjenny/flarum-ext-web3`](https://github.com/tokenjenny/flarum-ext-web3)
@@ -73,6 +70,7 @@ CHANGELOG
 * [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series)
 * [`askvortsov/flarum-discussion-templates`](https://github.com/askvortsov1/flarum-discussion-templates)
 * [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
+* [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
 * [`clarkwinkelmann/flarum-ext-money-rewards`](https://github.com/clarkwinkelmann/flarum-ext-money-rewards)
 * [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
 * [`clarkwinkelmann/flarum-ext-username-blacklist`](https://github.com/clarkwinkelmann/flarum-ext-username-blacklist)
@@ -80,6 +78,7 @@ CHANGELOG
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`justoverclock/last-tweet`](https://github.com/justoverclockl/last-tweet)
 * [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
 * [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
 * [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
