@@ -6,7 +6,7 @@ michaelbelgium-mybb-to-flarum:
   admin:
     content:
       convert_button: Migrasi
-      description_text: 'Migrasi forum MyBB ke dalam instance Flarum. Isi data yang diperlukan, kemudian klik "migrasi".'
+      description_text: 'Migrasi forum MyBB ke dalam Flarum instance. Isi data yang diperlukan, kemudian klik "migrasi".'
       form:
         general:
           migrate_categories_label: 'Memindahkan kategori'

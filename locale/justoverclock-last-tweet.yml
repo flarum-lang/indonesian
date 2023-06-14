@@ -11,4 +11,5 @@ justoverclock-last-tweet:
     tweet_number: 'Jumlah Tweet'
     tweet_number-help: 'Masukkan di sini jumlah tweet yang akan diambil (standarnya adalah 2)'
   forum:
+    loading: 'Memuat tweet...'
     widget-title: 'Tweet Terbaru'

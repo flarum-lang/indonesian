@@ -23,7 +23,7 @@ clarkwinkelmann-money-rewards:
       balance: 'Saldo Anda: {amount}'
       label:
         comment: 'Komentar (publik)'
-        create: 'Hasilkan money alih-alih mengurangi saldo saya'
+        create: 'Hasilkan money alih-alih mengurangi saldo Saya'
         custom: 'Jumlah khusus'
       optionCustom: Khusus
       submit: Kirim
