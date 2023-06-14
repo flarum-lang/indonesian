@@ -17,6 +17,7 @@ kilowhat-formulaire:
       seeOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion'
       seeOwnUser: '=> kilowhat-formulaire.ref.permissions.seeOwnUser'
     settings:
+      max-file-size: 'Ukuran file maksimum (kB)'
       style-options:
         far-circle: 'Ikon FontAwesome Regular Circle'
         far-square: 'Ikon FontAwesome Regular Square'
@@ -86,6 +87,7 @@ kilowhat-formulaire:
     form-index:
       columns:
         title: Judul
+      edit: Edit
       header:
         title: '=> kilowhat-formulaire.ref.manager'
       tabs:
