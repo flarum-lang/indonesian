@@ -3,10 +3,24 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 flarum-ext-infocards:
+  admin:
+    apikeyhelp: 'Buat api key gratis di https://countapi.xyz/'
+    createapikey: 'Api Key'
   forum:
     forumstats: 'Statistik Forum'
+    friday: Jumat
     geninfo: 'Informasi Umum'
+    groups: 'Grup Anda yang sebenarnya'
+    monday: Senin
     opthread: 'Thread Dibuka'
+    saturday: Sabtu
+    sunday: Minggu
+    thursday: Kamis
+    times: Waktu
     totalpost: 'Total Post'
     totdisc: 'Total Diskusi'
+    tuesday: Selasa
+    viscounter: 'Penghitung Kunjungan'
+    wasviewed: 'Halaman ini telah dilihat'
+    wednesday: Rabu
     welcome_back: 'Selamat datang kembali,'
