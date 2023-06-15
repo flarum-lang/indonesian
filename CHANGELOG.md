@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.6.0 (XXXX-XX-XX)
+------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`datitisev/flarum-webhooks-pro`](https://extiverse.com/extension/datitisev/flarum-webhooks-pro)
+* [`justoverclock/theaudiodb-api`](https://extiverse.com/extension/justoverclock/theaudiodb-api)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
+
+
+Semua perubahan: [1.5.0...1.6.0](https://github.com/flarum-lang/indonesian/compare/1.5.0...1.6.0).
+
+
 1.5.0 (2023-06-14)
 ------------------
 
