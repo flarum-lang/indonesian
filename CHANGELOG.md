@@ -22,6 +22,7 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`justoverclock/frontend-blog`](https://extiverse.com/extension/justoverclock/frontend-blog)
+* [`justoverclock/flarum-ext-toastme`](https://github.com/justoverclockl/flarum-ext-toastme)
 * [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
 * [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
 * [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
