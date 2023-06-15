@@ -7,7 +7,10 @@ CHANGELOG
 
 **Menambahkan dukungan untuk ekstensi**:
 
+* [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`clarkwinkelmann/flarum-ext-carving-contest`](https://github.com/clarkwinkelmann/flarum-ext-carving-contest)
 * [`datitisev/flarum-webhooks-pro`](https://extiverse.com/extension/datitisev/flarum-webhooks-pro)
+* [`justoverclock/discord-widget`](https://extiverse.com/extension/justoverclock/discord-widget)
 * [`justoverclock/theaudiodb-api`](https://extiverse.com/extension/justoverclock/theaudiodb-api)
 
 
