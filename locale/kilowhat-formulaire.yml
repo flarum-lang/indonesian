@@ -39,16 +39,30 @@ kilowhat-formulaire:
         user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
     formatter-parsing-error: 'Tidak dapat mem-parse konten: {message}'
   forum:
-    discussion-composer:
+    auto-discussion-options-modal:
+      field:
+        tags: 'Tag diskusi'
+        title: 'Judul diskusi'
+    confirmation-email-options-modal:
       field:
         title: Judul
+      title: 'Template email'
+    discussion-composer:
+      field:
+        tags: Tag
+        title: Judul
+    discussion-submission:
+      edit: Edit
+      empty: 'Belum ada data'
     export:
+      format: Format
       format-options:
         csv: CSV
         json: JSON
         ods: ODS
         xls: XLS
         xlsx: XLSX
+      meta: Metadata
       meta-options:
         created_at: '=> kilowhat-formulaire.ref.submission-meta.created_at'
         hidden_at: '=> kilowhat-formulaire.ref.submission-meta.hidden_at'
@@ -61,6 +75,7 @@ kilowhat-formulaire:
         user_email: '=> kilowhat-formulaire.ref.submission-meta.user_email'
         user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
         user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
+      more-meta: 'Opsi meta lainnya'
       preview: Pratinjau
       preview-primitives:
         boolean-false: 'False'
@@ -81,20 +96,32 @@ kilowhat-formulaire:
       tabs:
         notifications: Notifikasi
     form-edit:
+      auto-discussion-options: 'Opsi untuk diskusi baru'
+      email-confirmation-options: 'Template email konfirmasi'
+      email-notification-options: 'Template email pemberitahuan'
+      exiting-with-unsaved-data: 'Anda memiliki perubahan yang belum disimpan. Apakah Anda benar-benar ingin keluar dari halaman?'
       expert-mode-warning: "Mode expert diaktifkan. Hal ini memungkinkan Anda untuk menyesuaikan pengenal kolom dan izin per kolom. Pastikan Anda membaca dokumentasi tentang fitur-fitur tersebut, karena Anda mungkin akan merusaknya!\n"
       field:
         automatic-discussion-help: "Ketika diaktifkan, formulir akan terus dapat diakses seperti formulir mandiri. Kiriman akan secara otomatis dibuat dan terhubung dengan diskusi baru.\n"
+      preview: 'Pratinjau di tab baru'
+      section:
+        permissions: Perizinan
+        template: Template
     form-index:
       columns:
+        actions: Tindakan
         title: Judul
       edit: Edit
       header:
+        discuss: 'Diskusi di Flarum Discuss'
+        documentation: 'Dokumentasi online lengkap'
         title: '=> kilowhat-formulaire.ref.manager'
       tabs:
         discussion: '=> kilowhat-formulaire.ref.type.discussion'
         standalone: '=> kilowhat-formulaire.ref.type.standalone'
         user: '=> kilowhat-formulaire.ref.type.user'
     global-settings:
+      admin-only: 'Hanya administrator forum yang dapat mengedit pengaturan global'
       permissions:
         editAnyDiscussion: '=> kilowhat-formulaire.ref.permissions.editAnyDiscussion'
         editAnyUser: '=> kilowhat-formulaire.ref.permissions.editAnyUser'
@@ -105,20 +132,44 @@ kilowhat-formulaire:
         seeAnyUser: '=> kilowhat-formulaire.ref.permissions.seeAnyUser'
         seeOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion'
         seeOwnUser: '=> kilowhat-formulaire.ref.permissions.seeOwnUser'
+      title: 'Perizinan global'
     nav:
       forms: '=> kilowhat-formulaire.ref.manager'
+    options-editor:
+      columns:
+        title: Judul
+      new-placeholder: 'Opsi baru...'
+      remove: 'Hapus opsi'
+    permission-controls:
+      everyone_button: '=> core.admin.permissions_controls.everyone_button'
     save-controls:
       save: Simpan
+      unsaved-changes: 'Anda memiliki perubahan yang belum disimpan'
+    submission-index:
+      columns:
+        actions: Tindakan
+      export: Ekspor
     submission:
       delete: 'Hapus permanen'
       hide: Hapus
     template-editor:
       description: Deskripsi
+      email: Email
+      integer: 'Bilangan bulat'
+      max: Maximum
+      mime: 'Jenis MIME (dipisahkan koma, menerima karakter pengganti sebagai bagian kedua)'
+      min: Minimum
       no-answer: 'Tidak ada jawaban'
+      regex: 'Regular expression'
       title: Judul
       type:
+        date: Tanggal
+        long: 'Teks panjang'
+        number: Angka
+        short: 'Teks pendek'
         upload: Upload
   mail:
+    edit: Edit
     no-answer: 'Tidak ada jawaban'
   ref:
     permissions:
@@ -131,4 +182,6 @@ kilowhat-formulaire:
       seeOwnDiscussion: 'Melihat kolom diskusi sendiri'
       seeOwnUser: 'Melihat kolom profil sendiri'
     submission-meta:
+      created_at: 'Tanggal Pembuatan'
+      updated_at: 'Tanggal Pembaruan'
       user_username: Username

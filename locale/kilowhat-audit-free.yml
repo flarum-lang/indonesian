@@ -14,11 +14,11 @@ kilowhat-audit:
   lib:
     browser:
       audit_log_cleared: 'Menghapus {deleted_count} entri dari log audit'
-      cache_cleared: 'Membersihkan cache secara manual'
+      cache_cleared: 'Bersihkan cache secara manual'
       client:
-        access_token: 'Access token'
+        access_token: 'Token akses'
         api_key: 'API key'
-        cli: 'Command line'
+        cli: 'Baris perintah'
         session: 'Sesi web'
         unknown: 'Client tidak diketahui'
       controls:
