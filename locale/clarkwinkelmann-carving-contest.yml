@@ -5,12 +5,17 @@
 clarkwinkelmann-carving-contest:
   admin:
     colors:
+      all: 'Warna apa saja'
+      custom: 'Daftar warna khusus'
       custom-help: 'Daftar nilai #hex atau rgb() yang dipisahkan dengan koma'
+      simple: 'Set warna sederhana'
     permissions:
+      like: 'Memberikan tanda suka pada entri'
       moderate: Memoderasi
       participate: Berpartisipasi
       view: 'Lihat entri'
     settings:
+      colorMode: 'Gunakan mode warna alih-alih mode ukiran'
       maxEntriesPerUser: 'Jumlah kiriman maksimum per pengguna'
   forum:
     likes_modal:
@@ -22,6 +27,8 @@ clarkwinkelmann-carving-contest:
       tools:
         circle: Lingkaran
         square: Persegi
+    nav:
+      contest: 'Kontes Mengukir'
     page:
       already-liked: 'Saya menyukainya'
       already-participated: 'Sudah berpartisipasi'
@@ -35,9 +42,11 @@ clarkwinkelmann-carving-contest:
       load-more: 'Memuat lebih banyak entri'
       loading: 'Memuat entri...'
       participate: Berpartisipasi
+      refresh: Segarkan
       sort:
         fewerLikes: 'Lebih sedikit disukai'
         leastRecent: Terlama
         mostLikes: 'Paling disukai'
         mostRecent: Terbaru
+      title: 'Kontes Mengukir Labu'
       unlike: 'Tidak suka'

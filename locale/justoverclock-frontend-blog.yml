@@ -4,10 +4,22 @@
 
 justoverclock-frontend-blog:
   admin:
+    charLim: 'Batas Karakter'
     charLim-help: 'Masukkan di sini jumlah karakter maksimal yang akan ditampilkan'
+    defaultImage: 'Gambar Postingan Default'
+    defaultImage-help: 'Di sini Anda dapat menentukan gambar default untuk postingan yang tidak memiliki gambar default'
     numberOfPost-help: 'Masukkan di sini jumlah post yang ingin Anda tampilkan'
+    setBlogIndexPage: 'Atur ekstensi Frontend Blog sebagai halaman utama'
+    showHeaderHero: 'Tampilkan Welcome Hero'
+    showPinnedDiscussions: 'Tampilkan 3 Diskusi Terakhir Yang Disematkan'
+    sorting: 'Diskusi Terbaru atau Populer? (standarnya adalah yang terbaru)'
+    sorting-help: 'Jika Anda ingin menampilkan diskusi terbaru, tulis "-createdAt", untuk diskusi yang sedang hangat, tulis "-commentCount"'
   forum:
     allDiscussions: Forum
     loginButton: Login
     menuButton: Menu
+    readMore: 'Baca Lebih Lanjut'
+    recentDiscussions: 'Diskusi Terbaru:'
     signupButton: Daftar
+    stickyTitle: 'Diskusi Yang Disematkan'
+    titlePage: 'Forum Diskusi'
