@@ -6,11 +6,13 @@ flarum-ext-toastme:
   admin:
     background: 'Warna Background (format hex)'
     backgrounddesc: 'Letakkan warna background Anda dalam format HEX - misalnya "#ffcc00"'
+    dest: 'Tujuan URL'
     destdesc: 'URL yang harus dituju oleh browser saat toast alert di-klik'
     duration: 'Durasi toast alert harus ditampilkan, isi -1 untuk menampilkan secara permanen'
     durdesc: 'Gunakan milidetik - contoh "3000" untuk 3 detik'
     enabletoast: 'Aktifkan/Non-aktifkan Toast Alert'
     gravdesc: 'Atur posisi toast, di atas atau di bawah'
+    gravity: 'Gravitasi - Bisa "atas" atau "bawah"'
     helpenable: 'Gunakan pengaturan ini untuk mengaktifkan atau menonaktifkan toast alert'
     message: 'Teks untuk Toast'
     messagedesc: 'Teks untuk alert toast Anda'
