@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.6.1 (XXXX-XX-XX)
+------------------
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`clarkwinkelmann/flarum-ext-formatted-banner`](https://github.com/clarkwinkelmann/flarum-ext-formatted-banner)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+
+
+Semua perubahan: [1.6.0...1.6.1](https://github.com/flarum-lang/indonesian/compare/1.6.0...1.6.1).
+
+
 1.6.0 (2023-06-16)
 ------------------
 
