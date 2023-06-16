@@ -11,8 +11,9 @@ fof-amazon-affiliation:
         keep-existing-tag-help: 'Secara default, setiap tag yang ada di url asli akan digantikan oleh tag yang Anda tentukan di bawah ini.'
         remove-tag-if-unhandled: 'Hapus Tag Afiliasi Amazon pada link Amazon yang tidak tercakup'
         remove-tag-if-unhandled-help: 'Secara default, link yang tidak tercakup akan dibiarkan apa adanya, termasuk tagnya jika ada.'
+        tag: '{name} (amazon.{domain})'
         tag-placeholder: 'Biarkan kosong untuk tidak menutupi link-link tersebut'
       title:
-        modal: 'Pengaturan Afiliasi Amazon'
+        modal: 'Pengaturan Amazon Affiliation'
         tags: 'Tag Afiliasi'
         tags-mediaembed: 'Situs Amazon saat ini tidak mendukung MediaEmbed, sehingga akan selalu ditampilkan sebagai link biasa (mengikuti pengaturan di atas): CN, BR, MX, AU'

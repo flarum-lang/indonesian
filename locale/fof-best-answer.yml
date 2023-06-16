@@ -65,3 +65,5 @@ fof-best-answer:
         select_best_answer: 'Pengingat otomatis untuk memilih best answer dalam diskusi yang Saya mulai'
     remove_best_answer: 'Batalkan pilihan Best Answer'
     this_best_answer: 'Pilih Best Answer'
+    user:
+      best-answer-count: '{count, plural, one { {count} best answer} other {{count} best answer}}'

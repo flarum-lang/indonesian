@@ -38,6 +38,8 @@ fof-oauth:
           api_key_label: 'API Key'
           api_secret_label: 'API Secret'
           description: 'Buatlah aplikasi di {link}. Anda perlu menetapkan URL untuk Ketentuan Layanan dan Kebijakan Privasi. Pastikan untuk menambahkan izin permintaan melalui email.'
+      update_email_from_provider_help: 'Jika diaktifkan, alamat email pengguna akan diperbarui agar sesuai dengan yang disediakan oleh provider OAuth pada setiap login ke forum. Tidak semua penyedia menyediakan email yang diperbarui, dalam hal ini pengaturan ini tidak akan berpengaruh pada penyedia tersebut.'
+      update_email_from_provider_label: 'Memperbarui alamat email dari provider'
     settings_accessibility_label: 'Pengaturan {name}'
   forum:
     error:
