@@ -8,6 +8,7 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`clarkwinkelmann/flarum-ext-formatted-banner`](https://github.com/clarkwinkelmann/flarum-ext-formatted-banner)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 
