@@ -7,16 +7,24 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`clarkwinkelmann/flarum-ext-formatted-banner`](https://github.com/clarkwinkelmann/flarum-ext-formatted-banner)
+* [`flarum/flags`](https://github.com/flarum/flags)
 * [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/pretty-mail`](https://github.com/FriendsOfFlarum/pretty-mail)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
 * [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox)
 * [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen)
+* [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements)
 
 
 Semua perubahan: [1.6.0...1.6.1](https://github.com/flarum-lang/indonesian/compare/1.6.0...1.6.1).
