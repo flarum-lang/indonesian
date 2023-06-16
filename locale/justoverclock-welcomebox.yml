@@ -16,7 +16,7 @@ flarum-ext-welcomebox:
     notregistered: 'Anda saat ini tidak terdaftar di forum ini.'
     npost: '=> core.ref.posts'
     tooltipDisclist: 'List Diskusi Saya'
-    tooltipMentions: Mention
+    tooltipMentions: Menyebutkan
     tooltipProfile: Profil
     wback: 'Selamat datang kembali,'
     welcomeguest: 'Selamat Datang Guest'

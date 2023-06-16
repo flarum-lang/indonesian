@@ -32,8 +32,6 @@ flarum-mentions:
     settings:
       notify_post_mentioned_label: 'Seseorang membalas salah satu post Saya'
       notify_user_mentioned_label: 'Seseorang menyebut Saya dalam sebuah post'
-    user:
-      mentions_link: Mention
 kyrne-evergreen:
   forum:
     post:

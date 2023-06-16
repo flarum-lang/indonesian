@@ -9,6 +9,8 @@ fof-links:
       delete_link_confirmation: 'Apakah Anda yakin ingin menghapus link ini?'
       everyone-label: Semua
       guests-label: Tamu
+      icon_label: '=> core.ref.icon'
+      icon_text: '=> core.ref.icon_text'
       internal_link: 'Apakah ini link internal?'
       members-label: 'User terdaftar'
       open_newtab: 'Buka link pada tab baru'
