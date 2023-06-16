@@ -18,6 +18,7 @@ CHANGELOG
 * [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/pretty-mail`](https://github.com/FriendsOfFlarum/pretty-mail)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
@@ -25,6 +26,7 @@ CHANGELOG
 * [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox)
 * [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen)
 * [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements)
+* [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
 
 
 Semua perubahan: [1.6.0...1.6.1](https://github.com/flarum-lang/indonesian/compare/1.6.0...1.6.1).
