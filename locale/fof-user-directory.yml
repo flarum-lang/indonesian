@@ -32,6 +32,10 @@ fof-user-directory:
   lib:
     sort:
       default: Default
+      least_discussions: 'Diskusi paling sedikit'
+      least_posts: 'Postingan paling sedikit'
+      most_discussions: 'Diskusi terbanyak'
+      most_posts: 'Postingan terbanyak'
       newest: Terbaru
       not_specified: 'Gunakan Flarum standar'
       oldest: Terlama

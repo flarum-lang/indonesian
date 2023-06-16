@@ -38,6 +38,7 @@ fof-upload:
         region: Region
         secret: Secret
         title: 'Pengaturan AWS S3 storage'
+        use_path_style_endpoint: 'Gunakan path style endpoint'
       client_extension:
         title: 'Ekstensi file yang disediakan oleh pengguna'
       composer_buttons:

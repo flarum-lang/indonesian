@@ -29,6 +29,7 @@ fof-gamification:
       rankings:
         blocked:
           help: 'Pengguna ini tidak akan ditampilkan di halaman peringkat. Username harus dipisahkan dengan koma yang diikuti dengan spasi.'
+          placeholder: 'admin, user1, user2'
           title: 'Pengguna Yang Diabaikan'
         custom_image_1: 'Gambar juara 1'
         custom_image_2: 'Gambar juara 2'
@@ -83,6 +84,7 @@ fof-gamification:
       upvote: '{username} memberikan Upvote pada post Anda'
     ranking:
       amount: Poin
+      name: Pengguna
       rank: Peringkat
     user:
       card:

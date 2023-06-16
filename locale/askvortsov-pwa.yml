@@ -58,6 +58,8 @@ askvortsov-pwa:
     discussion_controls:
       share_button: Bagikan
     post_controls:
+      share_api:
+        title: '{username} membalas ke {title}'
       share_button: Bagikan
     settings:
       pwa_notifications:

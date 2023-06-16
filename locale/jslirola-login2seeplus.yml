@@ -10,6 +10,7 @@ jslirola-login2seeplus:
     link: Link
     post:
       title: 'Sembunyikan konten yang melebihi panjang ini (<em>-1</em> menampilkan semuanya.)'
+    title: Login2SeePlus
   forum:
     code: 'Login untuk melihat kode'
     image: 'Login untuk melihat gambar'
