@@ -12,4 +12,4 @@ flarum-pusher:
       title: 'Pengaturan Pusher'
   forum:
     discussion_list:
-      show_updates_text: '{count, plural, one {Show # updated discussion} other {Show # updated discussions}}'
+      show_updates_text: '{count, plural, one {Tampilkan # diskusi yang diperbarui} other {Tampilkan # diskusi terbaru}}'
