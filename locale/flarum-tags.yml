@@ -59,7 +59,7 @@ flarum-tags:
     index:
       more_link: 'Lebih banyak..'
       tags_link: '=> flarum-tags.ref.tags'
-      untagged_link: 'Tanpa tag'
+      untagged_link: 'Hapus tag'
     post_stream:
       added_and_removed_tags_text: '{username} menambahkan {tagsAdded} dan menghapus {tagsRemoved} {time}.'
       added_tags_text: '{username} menambahkan {tagsAdded} {time}.'

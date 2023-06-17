@@ -54,6 +54,10 @@ kilowhat-formulaire:
     discussion-submission:
       edit: Edit
       empty: 'Belum ada data'
+    error-page:
+      denied-description: 'Sepertinya Anda tidak memiliki akses ke konten ini. Coba login.'
+      notfound-description: 'Konten ini bisa jadi tidak ada, atau mungkin Anda tidak memiliki akses ke sana.'
+      notfound-title: 'Tidak ditemukan'
     export:
       format: Format
       format-options:
@@ -184,4 +188,8 @@ kilowhat-formulaire:
     submission-meta:
       created_at: 'Tanggal Pembuatan'
       updated_at: 'Tanggal Pembaruan'
+      user_displayname: 'Nama Tampilan Pengguna'
+      user_email: 'Email Pengguna'
       user_username: Username
+    type:
+      user: 'Profil pengguna'
