@@ -9,10 +9,13 @@ CHANGELOG
 
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`clarkwinkelmann/flarum-ext-formatted-banner`](https://github.com/clarkwinkelmann/flarum-ext-formatted-banner)
+* [`davwheat/virtual-authors`](https://extiverse.com/extension/davwheat/virtual-authors)
 * [`flarum/flags`](https://github.com/flarum/flags)
 * [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`flarum/pusher`](https://github.com/flarum/pusher)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
