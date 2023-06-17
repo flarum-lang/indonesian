@@ -8,7 +8,9 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`clarkwinkelmann/flarum-ext-author-change`](https://github.com/clarkwinkelmann/flarum-ext-author-change)
 * [`clarkwinkelmann/flarum-ext-formatted-banner`](https://github.com/clarkwinkelmann/flarum-ext-formatted-banner)
+* [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
 * [`davwheat/virtual-authors`](https://extiverse.com/extension/davwheat/virtual-authors)
 * [`flarum/akismet`](https://github.com/flarum/akismet)
 * [`flarum/flags`](https://github.com/flarum/flags)
@@ -33,6 +35,8 @@ CHANGELOG
 * [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
 * [`kilowhat/flarum-ext-audit-pro`](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro)
 * [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+* [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
 * [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen)
 * [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements)
 * [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
