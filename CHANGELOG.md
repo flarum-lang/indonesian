@@ -11,6 +11,7 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-formatted-banner`](https://github.com/clarkwinkelmann/flarum-ext-formatted-banner)
 * [`flarum/flags`](https://github.com/flarum/flags)
 * [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/pusher`](https://github.com/flarum/pusher)
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
