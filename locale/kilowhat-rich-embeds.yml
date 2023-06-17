@@ -72,5 +72,6 @@ kilowhat-rich-embeds:
       imgCopy: 'Copy URL gambar'
       imgOpen: 'Buka gambar di tab baru'
     embed:
+      altAvatar: 'Gambar avatar penulis'
       missing:
         other: 'Tidak ada pratinjau yang dapat dibuat untuk link ini'

@@ -14,7 +14,12 @@ kilowhat-wordpress:
       saved-at: 'Disimpan {ago}'
       unsaved-changes: 'Anda memiliki perubahan yang belum tersimpan'
     settings:
+      api_key: 'Flarum API Key'
+      comment_author_sync_help: 'Jika penulis Wordpress telah membuat akun Flarum melalui SSO, akun Flarum tersebut akan ditetapkan sebagai pemilik diskusi komentar.'
       cookie_domain_help: 'Hanya diperlukan jika berbeda dari domain Flarum'
+      enable_comments: 'Aktifkan integrasi komentar'
+      enable_sso: 'Aktifkan integrasi SSO'
+      force_username_choice: 'Buat pengguna memilih username mereka pada kunjungan pertama'
       force_username_choice_help: 'Nilai default akan diberikan dengan aturan yang dipilih di atas.'
       post_delete: 'Tindakan saat postingan WordPress dihapus secara permanen'
       post_delete_options:
@@ -28,8 +33,12 @@ kilowhat-wordpress:
         hide: 'Sembunyikan diskusi di Flarum'
         ignore: 'Abaikan (mengunci diskusi sesuai dengan Izinkan Komentar)'
         lock: 'Kunci diskusi di Flarum'
+      post_thumbnail_list: 'Tampilkan thumbnail postingan WordPress di daftar diskusi Flarum'
+      section_comments_intro: "Fitur ini menggantikan komentar WordPress dengan iframe Flarum. Postingan dari tamu tidak lagi dapat dilakukan. Diskusi hanya dibuat untuk post dengan komentar yang diaktifkan di WordPress. Mengaktifkan atau menonaktifkan komentar disinkronkan dengan Flarum's discussion lock. Jika blog Anda sudah berisi postingan ketika Anda mengaktifkan fitur ini, Anda perlu mengaktifkan dan menonaktifkan komentar lagi pada setiap artikel agar diskusi Flarum dapat dibuat.\n"
       section_general_intro: 'Pengaturan dasar yang diperlukan agar ekstensi dapat berfungsi.'
       section_sso_intro: "Fitur ini akan menghubungkan pengguna WordPress dengan Flarum secara mulus. Sebuah akun akan secara otomatis dibuat untuk mereka dan disinkronkan dengan WordPress. Jika Anda memiliki akun yang sudah ada di Flarum, akun tersebut akan secara otomatis dicocokkan dengan email mereka. Jika Anda menghapus pengguna di Flarum, pengguna tersebut akan dibuat lagi saat akun WordPress melakukan login. Untuk memblokir pengguna Flarum, tangguhkan akun di Flarum.\n"
+      use_post_date: 'Gunakan tanggal postingan WordPress sebagai tanggal pembuatan diskusi'
+      use_post_date_help: "Secara default, diskusi Flarum akan menggunakan waktu saat ini sebagai tanggal pembuatannya. Opsi ini memungkinkan pembuatan diskusi dengan tanggal lampau jika postingan WordPress juga memiliki tanggal lampau.\n"
       user_delete: 'Tindakan ketika pengguna dihapus di WordPress'
       user_delete_desc: 'Jika Anda memilih "hapus", hanya pengguna yang akan dihapus, bukan konten mereka di Flarum.'
       user_delete_options:
@@ -37,9 +46,11 @@ kilowhat-wordpress:
         ignore: 'Abaikan (pertahankan pengguna Flarum)'
         suspend: 'Tangguhkan pengguna Flarum tanpa batas waktu (Ekstensi Suspend harus diaktifkan)'
       username_strategy_help: 'Nomor akan ditambahkan ke username jika sudah ada di Flarum'
+      welcome_message: 'Pesan pengantar'
       welcome_message_help: 'Pesan ini akan ditampilkan saat pertama kali pengguna mengunjungi forum, bersama dengan pilihan username jika diaktifkan.'
       wordpress_login_only_help: "Menonaktifkan login Flarum dan langsung membuka modal login WordPress ketika login diperlukan. Ini akan secara otomatis mengatur izin \"Daftar\" menjadi Ditutup.\n"
       wordpress_login_path_help: 'Hanya diperlukan jika Anda mengganti nama login endpoint secara manual atau melalui plugin'
+      wordpress_url: 'URL WordPress'
     tabs:
       comments: 'Integrasi Komentar'
       disabled: Dinonaktifkan
@@ -49,7 +60,11 @@ kilowhat-wordpress:
     wizard:
       install: Install
       intro: "Terima kasih telah membeli ekstensi WordPress premium saya! Isi kredensial Anda di bawah ini untuk menghubungkan Flarum dan WordPress secara otomatis.\n"
+      wordpress_password: 'Password admin WordPress'
       wordpress_password_help: 'Password hanya digunakan untuk konfigurasi awal dan tidak akan disimpan.'
+      wordpress_url: 'URL WordPress'
+      wordpress_url_help: 'Sebuah link ke halaman homepage WordPress Anda'
+      wordpress_username: 'Username admin WordPress'
   api:
     blocked_actions:
       email_change: 'Akun ini terhubung dengan WordPress. Gunakan halaman profil situs web utama untuk mengubah email Anda.'
@@ -75,6 +90,11 @@ kilowhat-wordpress:
       title: Komentar
     log_in:
       with_wordpress_button: 'Login dengan WordPress'
+    settings:
+      edit_on_wordpress: 'Ganti email dan password di situs web utama'
+    summary-post:
+      blog_link: 'Baca di blog'
+      read_more: 'Baca lebih lanjut'
     welcome-modal:
       default_message: 'Selamat datang di forum. Pilih username dan Anda siap untuk memulai!'
       not_now: 'Lewati dan baca sebagai tamu untuk saat ini'

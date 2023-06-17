@@ -68,6 +68,8 @@ kilowhat-audit:
         everyone: '=> core.admin.permissions_controls.everyone_button'
         members: '=> core.admin.permissions_controls.members_button'
       permission_changed: 'Mengedit perizinan {permission} dari {old_groups} ke {new_groups}'
+      post:
+        user_changed: 'Mengubah penulis {post} dari {old_user} menjadi {new_user}'
       tag:
         created: 'Tag yang dibuat {tag}'
         deleted: 'Tag yang dihapus {tag}'
