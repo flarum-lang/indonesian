@@ -5,29 +5,71 @@
 davwheat-virtual-authors:
   admin:
     permissions:
-      set_virtual_authors: 'Atur penulis virtual pada diskusi'
-      view_virtual_authors_page: 'Lihat halaman yang merinci semua penulis virtual'
+      set_virtual_authors: 'Atur virtual author pada diskusi'
+      view_virtual_authors_page: 'Lihat halaman detail semua virtual author'
     settings:
-      errored: 'Gagal memuat penulis virtual dari server.'
+      authors_in_sidebar: 'Tampilkan author di sidebar, alih-alih di atas postingan pertama'
+      authors_in_sidebar_help: 'Hal ini tidak berpengaruh pada ekstensi Blog.'
+      auto_save_message: 'Membuat virtual author baru dan mengedit virtual author yang sudah ada akan tersimpan secara otomatis.'
+      create_new: 'Membuat virtual author baru'
+      discussion_badge: 'Tampilkan badge pada diskusi dengan Virtual Author'
+      errored: 'Gagal memuat virtual author dari server.'
+      link_to_va_from_discussion: 'Tampilkan link ke semua diskusi oleh virtual author di kotak ''Author'''
       next: 'Halaman selanjutnya'
       prev: 'Halaman sebelumnya'
+      search_placeholder: 'Cari berdasarkan nama'
+      virtual_authors_page_disabled: 'Nonaktifkan daftar virtual author untuk semua pengguna.'
+      virtual_authors_page_disabled_help: 'Ini akan menimpa semua izin yang ditetapkan untuk fitur ini.'
     virtual_author_item:
       delete_a11y_tooltip: Hapus
+      delete_confirmation: 'Menghapus virtual author?'
       description: Deskripsi
+      edit: 'Edit virtual author'
+      id: ID
+      name: 'Nama tampilan'
       no_description: '=> davwheat-virtual-authors.ref.no_description'
   forum:
+    discussion_controls:
+      set_virtual_authors: 'Atur virtual author'
     set_modal:
       add_button: Tambah
+      add_new: 'Pilih virtual author baru'
       added_button: Ditambahkan
       delete_button: Hapus
+      delete_confirmation: 'Menghapus virtual author dari diskusi?'
+      existing: 'Virtual author saat ini'
+      no_description: '=> davwheat-virtual-authors.ref.no_description'
+      none_existing: 'Tidak ada virtual author yang dipilih.'
       save: 'Simpan perubahan'
+      search: 'Mencari virtual author'
+      title: 'Atur virtual author'
       virtual_author_exists: 'Sudah dipilih!'
     virtual_author_page:
+      credited_discussions: 'Diskusi dikreditkan ke {displayName}'
       discussion_count: '=> davwheat-virtual-authors.ref.discussion_count'
+      meta_title: '{displayName} - Author'
     virtual_authors_list:
+      discussion_count: '=> davwheat-virtual-authors.ref.discussion_count'
+      empty_text: 'Tampaknya tidak ada author di sini.'
+      filter_name_placeholder: 'Filter berdasarkan nama'
+      meta_title: 'Semua author'
       no_description: 'Penulis ini menyimpan kesan misterius tentang mereka.'
+      sidebar_link: Author
+      title: 'Semua author'
+    virtual_authors_panel:
+      error: 'Gagal memuat author.'
+      heading: Author
+      item_link_tooltip: 'Lihat semua diskusi yang dibuat oleh {displayName}'
   lib:
+    discussion-badge: '{count, plural, one {Memiliki virtual author}, other {Memiliki virtual author}}'
     edit_modal:
+      fields:
+        description: 'Deskripsi (tentang author)'
+        name: 'Nama tampilan'
       submit_edit: 'Simpan perubahan'
+      submit_new: 'Buat virtual author'
+      title_edit: 'Edit virtual author'
+      title_new: 'Virtual author baru'
   ref:
     discussion_count: '{count, plural, one {# diskusi}, other {# diskusi}}'
+    no_description: '(tidak ada deskripsi)'
