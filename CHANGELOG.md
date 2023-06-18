@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.6.2 (XXXX-XX-XX)
+------------------
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`justoverclock/flarum-ext-guestengagement`](https://github.com/justoverclockl/flarum-ext-guestengagement)
+
+
+Semua perubahan: [1.6.1...1.6.2](https://github.com/flarum-lang/indonesian/compare/1.6.1...1.6.2).
+
+
 1.6.1 (2023-06-17)
 ------------------
 
