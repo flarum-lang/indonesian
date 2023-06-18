@@ -5,7 +5,7 @@
 fof-spamblock:
   admin:
     permissions:
-      spamblock_users_label: 'Tandai User Ini Sebagai Spammer'
+      spamblock_users_label: 'Menandai user sebagai pengirim spam'
   forum:
     user_controls:
       spammer_button: Spammer
