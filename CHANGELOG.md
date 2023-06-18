@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
 * [`flarum/likes`](https://github.com/flarum/likes)
+* [`fof/spamblock`](https://github.com/FriendsOfFlarum/spamblock)
 * [`justoverclock/flarum-ext-guestengagement`](https://github.com/justoverclockl/flarum-ext-guestengagement)
 
 
