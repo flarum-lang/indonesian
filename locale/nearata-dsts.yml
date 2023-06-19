@@ -16,7 +16,7 @@ nearata-dsts:
         require_like: 'Membutuhkan like'
         require_reply: 'Membutuhkan balasan'
         section_title: 'FoF Upload'
-      hide_only_first_post: 'Sembunyikan post pertama saja'
+      hide_only_first_post: 'Sembunyikan hanya postingan pertama'
       require_like: 'Membutuhkan like'
       require_reply: 'Membutuhkan balasan'
   forum:
