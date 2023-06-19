@@ -7,10 +7,12 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received)
 * [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
 * [`flarum/likes`](https://github.com/flarum/likes)
 * [`fof/spamblock`](https://github.com/FriendsOfFlarum/spamblock)
 * [`justoverclock/flarum-ext-guestengagement`](https://github.com/justoverclockl/flarum-ext-guestengagement)
+* [`miniflar/top-like-givers-widget`](https://github.com/miniflar/top-like-givers-widget)
 
 
 Semua perubahan: [1.6.1...1.6.2](https://github.com/flarum-lang/indonesian/compare/1.6.1...1.6.2).
