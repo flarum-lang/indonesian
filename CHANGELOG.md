@@ -7,6 +7,7 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`askvortsov/flarum-checklist`](https://github.com/askvortsov1/flarum-checklist)
 * [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received)
 * [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
 * [`flarum/likes`](https://github.com/flarum/likes)
