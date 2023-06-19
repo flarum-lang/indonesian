@@ -7,14 +7,25 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-auto-moderator)
 * [`askvortsov/flarum-checklist`](https://github.com/askvortsov1/flarum-checklist)
 * [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received)
 * [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
+* [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview)
 * [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`fof/spamblock`](https://github.com/FriendsOfFlarum/spamblock)
 * [`justoverclock/flarum-ext-guestengagement`](https://github.com/justoverclockl/flarum-ext-guestengagement)
+* [`justoverclock/user-statistics`](https://github.com/justoverclockl/user-statistics)
+* [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
+* [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements)
 * [`miniflar/top-like-givers-widget`](https://github.com/miniflar/top-like-givers-widget)
 * [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
+* [`wolfgang-demeter/flarum-ext-bbcode-5star-rating`](https://github.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating)
+* [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store)
 
 
 Semua perubahan: [1.6.1...1.6.2](https://github.com/flarum-lang/indonesian/compare/1.6.1...1.6.2).
