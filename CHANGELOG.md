@@ -2,8 +2,18 @@ CHANGELOG
 =========
 
 
-1.6.2 (XXXX-XX-XX)
+1.7.0 (XXXX-XX-XX)
 ------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`blomstra/usercard-stats`](https://github.com/blomstra/flarum-ext-usercard-stats)
+* [`justoverclock/imdb-api`](https://extiverse.com/extension/justoverclock/imdb-api)
+* [`justoverclock/user-pc-specs`](https://github.com/justoverclockl/user-pc-specs)
+* [`miniflar/admin-notepad-widget`](https://github.com/miniflar/admin-notepad-widget)
+* [`nearata/flarum-ext-auth-minecraft`](https://github.com/Nearata/flarum-ext-auth-minecraft)
+* [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview)
+
 
 **Terjemahan terbaru untuk ekstensi**:
 
@@ -19,6 +29,7 @@ CHANGELOG
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`fof/spamblock`](https://github.com/FriendsOfFlarum/spamblock)
 * [`justoverclock/flarum-ext-guestengagement`](https://github.com/justoverclockl/flarum-ext-guestengagement)
+* [`justoverclock/job-cards`](https://extiverse.com/extension/justoverclock/job-cards)
 * [`justoverclock/user-statistics`](https://github.com/justoverclockl/user-statistics)
 * [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
 * [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements)
@@ -28,7 +39,7 @@ CHANGELOG
 * [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store)
 
 
-Semua perubahan: [1.6.1...1.6.2](https://github.com/flarum-lang/indonesian/compare/1.6.1...1.6.2).
+Semua perubahan: [1.6.1...1.7.0](https://github.com/flarum-lang/indonesian/compare/1.6.1...1.7.0).
 
 
 1.6.1 (2023-06-17)
