@@ -17,7 +17,7 @@ antoinefr-money:
       autoremove: 'Perbarui money secara otomatis'
       helpextensionlikes: 'Membutuhkan ekstensi <code>flarum/likes</code>'
       moneyfordiscussion: 'Money yang diberikan untuk diskusi baru'
-      moneyforlike: 'Money yang diberikan ketika sebuah postingan mendapatkan like'
+      moneyforlike: 'Money yang diberikan ketika sebuah postingan disukai'
       moneyforpost: 'Money yang diberikan untuk postingan baru'
       moneyname: 'Nama money (contoh: [money] points)'
       noshowzero: 'Jangan tampilkan jika nilainya nol'

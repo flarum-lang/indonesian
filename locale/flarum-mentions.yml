@@ -21,7 +21,7 @@ flarum-mentions:
       subject: '{mentioner_display_name} menyebutkan Anda di {title}'
   forum:
     composer:
-      mention_tooltip: 'Menyebutkan pengguna, grup, atau postingan'
+      mention_tooltip: 'Sebutkan user, grup, atau postingan'
       reply_to_post_text: 'Balas ke #{number}'
     group_mention:
       deleted_text: '[grup yang tidak diketahui]'
@@ -32,7 +32,7 @@ flarum-mentions:
       group_mentioned_text: '{username} menyebutkan grup yang Anda ikuti'
       others_text: '=> core.ref.some_others'
       post_mentioned_text: '{username} menjawab post Anda'
-      user_mentioned_text: '{username} menyebutkan Anda'
+      user_mentioned_text: '{username} menyebut Anda'
     post:
       mentioned_by_more_text: '{count} balasan lagi.'
       mentioned_by_self_text: '{users} menjawab ini.'
@@ -48,4 +48,4 @@ flarum-mentions:
       notify_post_mentioned_label: 'Seseorang membalas post Saya'
       notify_user_mentioned_label: 'Seseorang menyebut Saya dalam sebuah postingan'
     user:
-      mentions_link: Menyebutkan
+      mentions_link: Penyebutan

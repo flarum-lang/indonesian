@@ -7,7 +7,7 @@ fof-reactions:
     page:
       convert:
         button: 'Ubah reaction yang lama'
-        converted: 'Berhasil mengkonversi {number} like'
+        converted: 'Berhasil mengkonversi {number} Suka'
         converting: 'Reaksi Anda sekarang akan berubah. Refresh situs Anda setelah beberapa menit untuk melihat prosesnya selesai. (Waktu konversi mungkin memerlukan waktu beberapa saat tergantung pada jumlah total reaksi Anda)'
         help: 'Jika Anda baru saja memperbarui ekstensi Anda, reaksi Anda harus dikonversi. Jika Anda baru saja menginstal ekstensi ini, Anda bisa mengabaikan pesan ini.'
       reactions:
@@ -27,10 +27,10 @@ fof-reactions:
             upvoteLabel: 'Ubah reaksi menjadi Upvote'
           legend: Integrasi
           likes:
-            Helptext: 'Masukkan pengenal reaksi yang ingin Anda ubah secara otomatis menjadi Like'
-            Label: 'Ubah reaction menjadi like'
-            legend: Like
-          warning: 'Reaksi yang sama <strong>tidak dapat</strong> dikonversi menjadi Like <strong>dan</strong> Upvote'
+            Helptext: 'Masukkan pengenal reaksi yang ingin Anda ubah secara otomatis menjadi "Suka"'
+            Label: 'Ubah reaction menjadi Suka'
+            legend: Suka
+          warning: 'Reaksi yang sama <strong>tidak dapat</strong> dikonversi menjadi Suka <strong>dan</strong> Upvote'
         react_own_posts_help: 'Ketika diaktifkan, tergantung pada perizinan, pengguna dapat memberikan reaksi terhadap postingan mereka sendiri di forum. Untuk mencegah pengguna memberikan reaksi terhadap postingan mereka sendiri, nonaktifkan pengaturan ini.'
         react_own_posts_label: 'Pengguna dapat memberikan reaksi terhadap postingan mereka sendiri'
         save_settings: 'Simpan Pengaturan'

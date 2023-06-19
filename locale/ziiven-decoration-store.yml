@@ -5,17 +5,34 @@
 ziven-decoration-store:
   admin:
     data-save: Simpan
+    item-activate: Aktif
     item-activate-confirmation: 'Apakah Anda yakin untuk mengaktifkan item ini?'
+    item-activate-status: 'Status Aktivasi'
+    item-activate-status-all: 'Semua Status Aktivasi'
+    item-activate-status-down: Dinonaktifkan
+    item-activate-status-up: Diaktifkan
+    item-deactivate: Nonaktif
     item-deactivate-confirmation: 'Apakah Anda yakin untuk menonaktifkan item ini?'
     item-delete: Hapus
+    item-edit: Edit
+    item-filter-all: Semua
     item-id: ID
     item-property-image: Gambar
     item-property-image-upload: Upload
     settings:
       timezone: 'Zona waktu'
       timezone-default: Asia/Shanghai
+  forum:
+    equipment-modal-title: 'Daftar Item'
+    processing: Memproses...
+    shopping-cart-close: Tutup
   lib:
     cancel: Batal
     close: Tutup
     confirm: Konfirmasi
+    item-desc: 'Deskripsi Item'
+    item-label-popular: Populer
+    item-title: 'Nama item'
+    item-type: 'Jenis item'
+    item-type-all: 'Semua Jenis Item'
     ok: OK
