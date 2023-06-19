@@ -4,10 +4,20 @@
 
 justoverclock-job-cards:
   forum:
-    actualOccupationField: 'Pekerjaan/jabatan saat ini'
+    actualOccupationField: Pekerjaan/jabatan
+    actualSalaryField: Gaji
+    available: 'Tersedia untuk Disewa'
+    availableForHireField: 'Tersedia untuk disewa'
+    avatarField: 'Avatar (URL)'
     companyNameField: 'Nama Perusahaan'
+    fieldNotFilled: 'Kolom tidak diisi!'
+    formSaved: 'Formulir berhasil disimpan'
     fullNameField: 'Nama Lengkap'
+    jobFormTitle: 'Kartu Pekerjaan'
+    jobProfile: 'Profil Pekerjaan'
     'no': Tidak
     notAvailable: 'Tidak tersedia'
     saveBtn: Simpan
+    showInsidePostsField: 'Tampilkan Kartu Pekerjaan di dalam postingan?'
+    yearOfExperienceField: 'Tahun pengalaman'
     'yes': Ya
