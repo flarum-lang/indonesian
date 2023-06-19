@@ -13,6 +13,7 @@ CHANGELOG
 * [`fof/spamblock`](https://github.com/FriendsOfFlarum/spamblock)
 * [`justoverclock/flarum-ext-guestengagement`](https://github.com/justoverclockl/flarum-ext-guestengagement)
 * [`miniflar/top-like-givers-widget`](https://github.com/miniflar/top-like-givers-widget)
+* [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
 
 
 Semua perubahan: [1.6.1...1.6.2](https://github.com/flarum-lang/indonesian/compare/1.6.1...1.6.2).
