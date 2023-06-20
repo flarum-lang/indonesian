@@ -2,6 +2,27 @@ CHANGELOG
 =========
 
 
+1.8.0 (XXXX-XX-XX)
+------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`akr/chevereto`](https://github.com/AKR-Developers/flarum-chevereto)
+* [`peruguitar/flarum-ext-user-portrait`](https://github.com/Anexsoft/peruguitar-flarum-ext-user-portrait)
+* [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox)
+* [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen)
+
+
+Semua perubahan: [1.7.0...1.8.0](https://github.com/flarum-lang/indonesian/compare/1.7.0...1.8.0).
+
+
 1.7.0 (2023-06-20)
 ------------------
 
