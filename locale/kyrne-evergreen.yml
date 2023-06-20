@@ -6,7 +6,7 @@ flarum-mentions:
   admin:
     settings:
       allow_username_format_label: 'Izinkan format penyebutan username (@Username)'
-      allow_username_format_text: "Format saat ini untuk penyebutan pengguna adalah @\"Display Name\"#ID.\nPengaturan ini memungkinkan penggunaan format lama @Username, namun format ini masih akan dikonversi ke format baru setelah disimpan.\n"
+      allow_username_format_text: "Format saat ini untuk menyebutkan pengguna adalah @\"Display Name\"#ID.\nPengaturan ini memungkinkan penggunaan format lama @Username, namun format ini masih akan dikonversi ke format baru setelah disimpan.\n"
   email:
     post_mentioned:
       body: "Hai {recipient_display_name}!\n\n{replier_display_name} membalas post Anda (#{post_number}) di {title}.\n\n{url}\n\n---\n\n{content}\n"
@@ -32,6 +32,8 @@ flarum-mentions:
     settings:
       notify_post_mentioned_label: 'Seseorang membalas salah satu post Saya'
       notify_user_mentioned_label: 'Seseorang menyebut Saya dalam sebuah post'
+    user:
+      mentions_link: Menyebutkan
 kyrne-evergreen:
   forum:
     post:

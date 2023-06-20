@@ -22,10 +22,10 @@ ianm-gravatar:
         title: 'Proxy gravatar'
       rating:
         g_label: 'g: cocok untuk ditampilkan di semua situs web dengan semua jenis audiens'
-        helptext: 'Gravatar memungkinkan pengguna untuk memberikan rating sendiri pada gambar mereka sehingga mereka dapat menunjukkan apakah sebuah gambar sesuai untuk audiens tertentu. Secara default, hanya gambar dengan rating ''G'' yang ditampilkan kecuali jika Anda mengindikasikan bahwa Anda ingin melihat rating yang lebih tinggi. Anda dapat menentukan salah satu dari rating berikut ini untuk meminta gambar hingga dan termasuk rating tersebut.'
-        pg_label: 'pg: mungkin mengandung gerakan kasar, individu yang berpakaian provokatif, kata umpatan, atau kekerasan ringan'
-        r_label: 'r: mungkin mengandung kata-kata kotor, kekerasan, ketelanjangan, atau penggunaan obat-obatan terlarang'
-        title: Rating
+        helptext: 'Gravatar memungkinkan pengguna untuk memberikan peringkat sendiri pada gambar mereka sehingga mereka dapat menunjukkan apakah sebuah gambar sesuai untuk audiens tertentu. Secara default, hanya gambar dengan peringkat ''G'' yang ditampilkan kecuali jika Anda mengindikasikan bahwa Anda ingin melihat peringkat yang lebih tinggi. Anda dapat menentukan salah satu dari peringkat berikut ini untuk meminta gambar hingga dan termasuk peringkat tersebut.'
+        pg_label: 'pg: dapat mengandung gerakan kasar, individu yang berpakaian provokatif, kata umpatan, atau kekerasan ringan'
+        r_label: 'r: dapat mengandung kata-kata kotor, kekerasan, ketelanjangan, atau penggunaan obat-obatan terlarang'
+        title: Peringkat
         x_label: 'x: mungkin mengandung gambar seksual atau kekerasan'
       replace-flarum-custom:
         helptext: 'Mengganti avatar yang telah diupload ke forum dengan Gravatar'
