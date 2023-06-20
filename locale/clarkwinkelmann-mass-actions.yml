@@ -24,7 +24,7 @@ clarkwinkelmann-mass-actions:
       all: Semua
       locked: Terkunci
       none: 'Tidak ada'
-      read: Baca
+      read: 'Sudah dibaca'
       unlocked: 'Tidak terkunci'
       unread: 'Belum dibaca'
       visible: 'Tidak dihapus'

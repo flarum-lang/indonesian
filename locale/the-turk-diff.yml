@@ -55,7 +55,7 @@ the-turk-diff:
     rollbackButton: 'Kembali ke Revisi {number}'
     rollbackErrorMessage: 'Pengembalian perubahan gagal.'
     rollbackSuccessMessage: 'Perubahan Anda telah dikembalikan.'
-    rollbackToOriginalButton: 'Kembalikan ke Versi Awal'
+    rollbackToOriginalButton: 'Kembalikan ke Aslinya'
     tooltips:
       combined: Digabungkan
       inline: 'Baris demi baris'

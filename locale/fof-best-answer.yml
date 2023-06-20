@@ -35,7 +35,7 @@ fof-best-answer:
       use_alt_ui_help: 'Pengaturan Best Answer ada di footer postingan'
   email:
     subject:
-      awarded: 'Post Anda telah ditetapkan sebagai best answer oleh {display_name}'
+      awarded: 'Postingan Anda telah ditetapkan sebagai jawaban terbaik oleh {display_name}'
       ba-set: 'Jawaban terbaik ditetapkan oleh {display_name}'
       select: 'Apakah pertanyaan Anda sudah terjawab?'
   forum:
