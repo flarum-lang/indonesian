@@ -8,13 +8,16 @@ CHANGELOG
 **Menambahkan dukungan untuk ekstensi**:
 
 * [`blomstra/usercard-stats`](https://github.com/blomstra/flarum-ext-usercard-stats)
+* [`clarkwinkelmann/flarum-ext-post-permissions`](https://github.com/clarkwinkelmann/flarum-ext-post-permissions)
 * [`justoverclock/flachat`](https://github.com/justoverclockl/flachat)
 * [`justoverclock/imdb-api`](https://extiverse.com/extension/justoverclock/imdb-api)
 * [`justoverclock/user-pc-specs`](https://github.com/justoverclockl/user-pc-specs)
 * [`miniflar/admin-notepad-widget`](https://github.com/miniflar/admin-notepad-widget)
 * [`nearata/flarum-ext-auth-minecraft`](https://github.com/Nearata/flarum-ext-auth-minecraft)
 * [`swaggymacro/only-starter`](https://github.com/SwaggyMacro/OnlyStarter)
+* [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
 * [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview)
+* [`ziiven/flarum-fireworks`](https://github.com/Ziiven/flarum-fireworks)
 
 
 **Terjemahan terbaru untuk ekstensi**:
@@ -32,11 +35,13 @@ CHANGELOG
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`fof/spamblock`](https://github.com/FriendsOfFlarum/spamblock)
+* [`ianm/gravatar`](https://github.com/imorland/gravatar)
 * [`justoverclock/best-answer-badge`](https://github.com/justoverclockl/best-answer-badge)
 * [`justoverclock/flarum-ext-guestengagement`](https://github.com/justoverclockl/flarum-ext-guestengagement)
 * [`justoverclock/job-cards`](https://extiverse.com/extension/justoverclock/job-cards)
 * [`justoverclock/user-statistics`](https://github.com/justoverclockl/user-statistics)
 * [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
+* [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen)
 * [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements)
 * [`miniflar/top-like-givers-widget`](https://github.com/miniflar/top-like-givers-widget)
 * [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
