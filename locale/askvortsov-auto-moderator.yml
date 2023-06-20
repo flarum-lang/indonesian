@@ -48,7 +48,7 @@ askvortsov-auto-moderator:
     in_group_settings:
       regex: 'Regex untuk Email yang Valid (tanpa garis miring)'
     metric_drivers:
-      best_answers: 'Best Answer'
+      best_answers: 'Jawaban Terbaik'
       likes_given: 'Tanda Suka Yang Diberikan'
       likes_received: 'Tanda Suka Yang Diterima'
     requirement_drivers:
