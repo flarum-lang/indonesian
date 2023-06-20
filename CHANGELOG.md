@@ -8,10 +8,12 @@ CHANGELOG
 **Menambahkan dukungan untuk ekstensi**:
 
 * [`blomstra/usercard-stats`](https://github.com/blomstra/flarum-ext-usercard-stats)
+* [`justoverclock/flachat`](https://github.com/justoverclockl/flachat)
 * [`justoverclock/imdb-api`](https://extiverse.com/extension/justoverclock/imdb-api)
 * [`justoverclock/user-pc-specs`](https://github.com/justoverclockl/user-pc-specs)
 * [`miniflar/admin-notepad-widget`](https://github.com/miniflar/admin-notepad-widget)
 * [`nearata/flarum-ext-auth-minecraft`](https://github.com/Nearata/flarum-ext-auth-minecraft)
+* [`swaggymacro/only-starter`](https://github.com/SwaggyMacro/OnlyStarter)
 * [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview)
 
 
@@ -21,10 +23,12 @@ CHANGELOG
 * [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-auto-moderator)
 * [`askvortsov/flarum-checklist`](https://github.com/askvortsov1/flarum-checklist)
 * [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received)
+* [`clarkwinkelmann/flarum-ext-mass-actions`](https://github.com/clarkwinkelmann/flarum-ext-mass-actions)
 * [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
 * [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview)
 * [`flarum/likes`](https://github.com/flarum/likes)
 * [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`fof/spamblock`](https://github.com/FriendsOfFlarum/spamblock)
@@ -35,6 +39,7 @@ CHANGELOG
 * [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements)
 * [`miniflar/top-like-givers-widget`](https://github.com/miniflar/top-like-givers-widget)
 * [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
+* [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
 * [`wolfgang-demeter/flarum-ext-bbcode-5star-rating`](https://github.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating)
 * [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store)
 
