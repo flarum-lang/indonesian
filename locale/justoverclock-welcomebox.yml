@@ -7,7 +7,7 @@ flarum-ext-welcomebox:
     UseWidget: 'Gunakan Versi Widget'
     enablepostbox: 'Aktifkan Kotak Selamat Datang untuk tamu'
     img: 'URL gambar (Guest Box)'
-    img-help: 'letakkan di sini url gambar untuk guest box'
+    img-help: 'Letakkan di sini url gambar untuk guest box'
   forum:
     SettingsLink: Pengaturan
     discussion: '=> core.ref.discussions'
@@ -16,7 +16,7 @@ flarum-ext-welcomebox:
     notregistered: 'Anda saat ini tidak terdaftar di forum ini.'
     npost: '=> core.ref.posts'
     tooltipDisclist: 'List Diskusi Saya'
-    tooltipMentions: Menyebutkan
+    tooltipMentions: Menyebut
     tooltipProfile: Profil
     wback: 'Selamat datang kembali,'
     welcomeguest: 'Selamat Datang Guest'

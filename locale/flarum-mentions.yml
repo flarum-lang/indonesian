@@ -48,4 +48,4 @@ flarum-mentions:
       notify_post_mentioned_label: 'Seseorang membalas post Saya'
       notify_user_mentioned_label: 'Seseorang menyebut Saya dalam sebuah postingan'
     user:
-      mentions_link: Menyebutkan
+      mentions_link: Penyebutan

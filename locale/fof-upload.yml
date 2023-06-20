@@ -7,7 +7,7 @@ fof-upload:
     help_texts:
       client_extension: "Secara default, Upload akan memilih ekstensi file yang aman berdasarkan MIME type.\nUntuk beberapa jenis file yang berbasis ZIP atau data biner, hal ini dapat mengakibatkan ekstensi umum digunakan, alih-alih ekstensi yang diharapkan.\nDi sini Anda dapat memasukkan daftar ekstensi file yang dipisahkan dengan tanda koma yang akan disimpan secara kata demi kata.\n"
       composer_buttons: "Secara default, tombol media manager dan tombol upload terlihat. Anda juga dapat memilih untuk hanya menampilkan satu tombol saja.\n"
-      disable-download-logging: "Nonaktifkan pencatatan setiap download yang dilakukan oleh pengguna forum Anda. Dengan mengaktifkannya, Anda dapat melihat jumlah download dan metrik lainnya.\n"
+      disable-download-logging: "Menonaktifkan pencatatan setiap download yang dilakukan oleh pengguna forum Anda. Dengan mengaktifkannya, Anda dapat melihat jumlah download dan metrik lainnya.\n"
       disable-hotlink-protection: "Hotlink protection berfungsi untuk mencegah download yang dilakukan dari situs lain. Metode saat ini memerlukan token csrf dan post id.\n"
       download_templates: "Template download adalah bagaimana upload ditampilkan di forum Anda, misalnya pratinjau, tombol. Saat ini tersedia:\n"
       mime_types: "Silakan konfigurasikan mapping Anda di sini. Setiap regular expression bertipe mime akan ditangani oleh adaptor upload dan template download tertentu.\n"
@@ -27,7 +27,7 @@ fof-upload:
       select: 'Pilih file di bawah ini untuk memeriksa nilai yang akan digunakan. File tidak akan disimpan.'
       title: 'Periksa MIME'
       validation-failed: 'Gagal: {error}'
-      validation-passed: Passed
+      validation-passed: Lulus
     labels:
       aws-s3:
         acl: 'Access Control List (ACL)'
@@ -57,13 +57,14 @@ fof-upload:
         client_id: 'Imgur client ID'
         title: 'Pengaturan penyimpanan gambar Imgur'
         tos: 'Merupakan tanggung jawab Anda untuk memastikan user forum Anda mematuhi <a>Terms of service</a>'
-      inspect-mime: 'Test file MIME type'
+      inspect-mime: 'Uji jenis MIME file'
       local:
+        cdn_url: 'URL Pengiriman Konten (file prefiks)'
         title: 'Pengaturan local storage'
       preferences:
         max_file_size: 'Ukuran file maksimum (dalam kilobyte)'
         mime_types: 'Konfigurasikan mime type Anda, upload adapter mapping'
-        php_ini_values: 'Value <code>php.ini</code> Anda adalah <code>post_max_size={post}</code> dan <code>upload_max_filesize={upload}</code>. Pastikan value yang ditetapkan di sini berada di bawah ambang batas ini, atau sesuaikan dengan kebutuhan Anda. Jika menggunakan  <code>Nginx</code>, pastikan juga bahwa <code>client_max_body_size</code> memiliki ukuran yang cukup untuk batas maksimal yang Anda pilih.'
+        php_ini_values: 'Value <code>php.ini</code> Anda adalah <code>post_max_size={post}</code> dan <code>upload_max_filesize={upload}</code>. Pastikan value yang ditetapkan di sini berada di bawah ambang batas ini, atau sesuaikan dengan kebutuhan Anda. Jika menggunakan <code>Nginx</code>, pastikan juga bahwa <code>client_max_body_size</code> memiliki ukuran yang cukup untuk batas maksimal yang Anda pilih.'
         title: 'Preferensi umum'
       qiniu:
         bucket: Bucket
@@ -115,11 +116,11 @@ fof-upload:
       unsupported_type: 'Adaptor upload tidak mendukung mime type yang disediakan: {mime}.'
   forum:
     buttons:
-      attach: Attach
+      attach: Lampirkan
       cancel: Batal
       media: 'Media Saya'
       upload: Upload
-      user_uploads: 'User uploads'
+      user_uploads: 'Unggahan pengguna'
     file_list:
       confirm_selection_btn: '{fileCount, plural, =0 {Tidak ada yang dipilih} one {Pilih file} other {Pilih file}}'
       empty: 'Tidak ada file untuk ditampilkan.'
@@ -141,9 +142,9 @@ fof-upload:
       loading: Meng-upload
       unauthorized: 'Anda tidak diizinkan untuk men-download file'
     text_preview:
-      collapse: 'Collapse preview'
+      collapse: 'Perkecil pratinjau'
       error: "Terjadi kesalahan saat mempratinjau file. File mungkin telah dihapus, atau ID file yang diberikan tidak valid.\n"
-      expand: 'Expand preview'
+      expand: 'Perluas pratinjau'
       no_snippet: '<tidak ada cuplikan pratinjau yang tersedia>'
       no_snippet_preview: '<pratinjau akan muncul di sini setelah posting>'
     validation:
