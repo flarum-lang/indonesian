@@ -32,6 +32,7 @@ CHANGELOG
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`fof/spamblock`](https://github.com/FriendsOfFlarum/spamblock)
+* [`justoverclock/best-answer-badge`](https://github.com/justoverclockl/best-answer-badge)
 * [`justoverclock/flarum-ext-guestengagement`](https://github.com/justoverclockl/flarum-ext-guestengagement)
 * [`justoverclock/job-cards`](https://extiverse.com/extension/justoverclock/job-cards)
 * [`justoverclock/user-statistics`](https://github.com/justoverclockl/user-statistics)
