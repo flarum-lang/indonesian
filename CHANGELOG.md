@@ -2,6 +2,57 @@ CHANGELOG
 =========
 
 
+1.7.0 (2023-06-20)
+------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`blomstra/usercard-stats`](https://github.com/blomstra/flarum-ext-usercard-stats)
+* [`clarkwinkelmann/flarum-ext-post-permissions`](https://github.com/clarkwinkelmann/flarum-ext-post-permissions)
+* [`justoverclock/flachat`](https://github.com/justoverclockl/flachat)
+* [`justoverclock/imdb-api`](https://extiverse.com/extension/justoverclock/imdb-api)
+* [`justoverclock/user-pc-specs`](https://github.com/justoverclockl/user-pc-specs)
+* [`miniflar/admin-notepad-widget`](https://github.com/miniflar/admin-notepad-widget)
+* [`nearata/flarum-ext-auth-minecraft`](https://github.com/Nearata/flarum-ext-auth-minecraft)
+* [`swaggymacro/only-starter`](https://github.com/SwaggyMacro/OnlyStarter)
+* [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
+* [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview)
+* [`ziiven/flarum-fireworks`](https://github.com/Ziiven/flarum-fireworks)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-auto-moderator)
+* [`askvortsov/flarum-checklist`](https://github.com/askvortsov1/flarum-checklist)
+* [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received)
+* [`clarkwinkelmann/flarum-ext-mass-actions`](https://github.com/clarkwinkelmann/flarum-ext-mass-actions)
+* [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
+* [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview)
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/spamblock`](https://github.com/FriendsOfFlarum/spamblock)
+* [`ianm/gravatar`](https://github.com/imorland/gravatar)
+* [`justoverclock/best-answer-badge`](https://github.com/justoverclockl/best-answer-badge)
+* [`justoverclock/flarum-ext-guestengagement`](https://github.com/justoverclockl/flarum-ext-guestengagement)
+* [`justoverclock/job-cards`](https://extiverse.com/extension/justoverclock/job-cards)
+* [`justoverclock/user-statistics`](https://github.com/justoverclockl/user-statistics)
+* [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
+* [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen)
+* [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements)
+* [`miniflar/top-like-givers-widget`](https://github.com/miniflar/top-like-givers-widget)
+* [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
+* [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
+* [`wolfgang-demeter/flarum-ext-bbcode-5star-rating`](https://github.com/wolfgang-demeter/flarum-ext-bbcode-5star-rating)
+* [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store)
+
+
+Semua perubahan: [1.6.1...1.7.0](https://github.com/flarum-lang/indonesian/compare/1.6.1...1.7.0).
+
+
 1.6.1 (2023-06-17)
 ------------------
 
