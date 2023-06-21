@@ -12,28 +12,63 @@ ziven-guaguale:
     guaguale-data-save: Simpan
     guaguale-data-setting-invalid: 'Nilai yang Anda masukkan tidak valid'
     guaguale-data-update: Perbarui
+    guaguale-data-win-amount: Jumlah
     guaguale-data-win-price: Harga
+    guaguale-unit-name: ' tiket'
     settings:
       guaguale-display-name: 'Nama Tampilan'
       guaguale-display-name-default: 'Tiket Undian'
       guaguale-item-activated: Aktif
+      guaguale-item-amount: Jumlah
+      guaguale-item-background: Background
       guaguale-item-color: Warna
+      guaguale-item-color-background: 'Warna/Background (Optinal. Biarkan kosong untuk menggunakan warna background acak)'
+      guaguale-item-cost: Biaya/tiket
       guaguale-item-deactivated: 'Tidak aktif'
       guaguale-item-delete: Hapus
       guaguale-item-delete-confirmation: 'Apakah Anda yakin akan menghapus undian ini?'
       guaguale-item-desc: Deskripsi
+      guaguale-item-edit: Edit
+      guaguale-item-id: ID
+      guaguale-item-limit: 'Batas Pembelian'
+      guaguale-item-limit-desc: 'Batas Pembelian Pengguna (0 berarti tidak terbatas)'
       guaguale-item-settings: 'Pengaturan Tiket'
       guaguale-item-status: Status
       guaguale-item-title: Judul
+      guaguale-item-unlimited: 'Tidak ada batas'
       guaguale-timezone: 'Zona waktu'
       guaguale-timezone-default: Asia/Shanghai
       guaguale-timezone-help: 'Atur zona waktu untuk waktu transfer. Standarnya adalah "Asia/Shanghai"'
+      guaguale-unit-name: ' tiket'
   forum:
+    guaguale-available-amount: 'Tersedia: {count} tiket'
     guaguale-close: Tutup
+    guaguale-history-list-assign-at: 'Waktu Pembelian'
+    guaguale-history-list-cost: Biaya
+    guaguale-history-list-count: Jumlah
+    guaguale-history-list-empty: 'Riwayat pembelian kosong'
+    guaguale-history-list-id: ID
+    guaguale-history-list-load-more: 'Muat Lebih Banyak'
+    guaguale-list-empty: 'Tidak ada konten'
+    guaguale-list-item-available: 'Tersisa: {available} tiket'
+    guaguale-list-item-cost: 'Total biaya: {cost}/tiket'
+    guaguale-list-item-soldout: 'Tersisa: Terjual habis'
     guaguale-list-item-soldout-text: 'Terjual Habis'
     guaguale-purchase-cancel: Batal
+    guaguale-purchase-confirm: Beli
+    guaguale-purchase-count: 'Pembelian: {count} tiket'
+    guaguale-purchase-exceed-limit: 'Pembelian gagal: Anda melebihi batas pembelian'
     guaguale-purchase-input-placeholder: 'Silahkan masukkan jumlah yang ingin Anda beli'
+    guaguale-purchase-limit: 'Batas pembelian: {limit} tiket'
+    guaguale-purchase-limit-none: 'Batas pembelian: Tidak ada'
+    guaguale-purchase-money: 'Biaya: '
+    guaguale-purchase-now: Beli
+    guaguale-purchase-ok: OK
     guaguale-purchase-soldout: 'Maaf, produk ini sudah habis terjual'
     guaguale-purchase-success: 'Pembelian Berhasil'
     guaguale-purchase-view-result: Lihat
+    guaguale-purchased-user: '{purchaseUserName} membeli {purchaseCount} tiket dan memenangkan {purchaseWinTotal} tiket'
+    guaguale-unit-name: ' tiket'
     guaguale-view-history: 'Riwayat Pembelian'
+    notifications:
+      guaguale-win-total: 'Anda membelanjakan {costTotal} dan memenangkan {winTotal} | ID pembelian: {purchaseID}'

@@ -14,6 +14,10 @@ ziven-decoration-store:
     item-deactivate: Nonaktif
     item-deactivate-confirmation: 'Apakah Anda yakin untuk menonaktifkan item ini?'
     item-delete: Hapus
+    item-delete-confirmation: 'Apakah Anda yakin untuk menghapus item ini?'
+    item-discount: Diskon
+    item-discount-days: 'Durasi Diskon (hari)'
+    item-discount-none: 'Tidak ada'
     item-edit: Edit
     item-filter-all: Semua
     item-id: ID
@@ -24,16 +28,48 @@ ziven-decoration-store:
       timezone-default: Asia/Shanghai
   forum:
     equipment-modal-title: 'Daftar Item'
+    item-already-have: 'Item sudah dibeli'
+    item-expired: 'Berhenti berlangganan'
+    item-purchase-cost: 'Biaya pembelian'
+    item-purchase-date: 'Tanggal pembelian'
+    item-purchase-item-type: 'Jenis item'
+    item-purchase-purchase-type: 'Jenis pembelian'
+    item-purchase-subscription-cost: 'Biaya berlangganan'
+    item-purchase-title: 'Nama item'
+    item-soldout: 'Item terjual habis'
+    item-status-to-0-confirmation: 'Apakah Anda yakin untuk membatalkan pembelian item ini?'
+    item-subscribe: Berlangganan
+    item-subscription-deduction-days: 'Pemotongan biaya berlangganan dalam {days} hari'
+    item-unsubscribe: 'Berhenti berlangganan'
+    notification-receive-subscription: 'Potongan biaya berlangganan'
     processing: Memproses...
+    purchase-confirmation: 'Konfirmasi Pembelian'
+    purchase-error-item-alreay-have: 'Anda sudah memiliki item ini'
+    purchase-history: 'Riwayat Pembelian'
+    purchase-subscribe-confirmation: 'Apakah Anda yakin untuk membayar {cost} untuk berlangganan item ini?'
+    purchase-success: 'Pembelian Berhasil'
+    purchase-unsubscribe-confirmation: 'Apakah Anda yakin untuk berhenti berlangganan item ini?'
     shopping-cart-close: Tutup
   lib:
     cancel: Batal
     close: Tutup
     confirm: Konfirmasi
+    item-amount: Stok
+    item-cost: Biaya
+    item-cost-free: Gratis
     item-desc: 'Deskripsi Item'
     item-label-popular: Populer
+    item-purchase-type: 'Jenis Pembelian'
+    item-purchase-type-all: 'Semua Jenis Pembelian'
+    item-purchase-type-monthly: 'Langganan bulanan'
+    item-purchase-type-onetime: 'Pembelian satu kali'
+    item-purchase-type-yearly: 'Langganan tahunan'
+    item-stock-remaining: 'Sisa stok'
     item-title: 'Nama item'
     item-type: 'Jenis item'
     item-type-all: 'Semua Jenis Item'
+    list-empty: 'Tidak ada konten'
+    list-load-more: 'Muat Lebih Banyak'
+    none: 'Tidak ada'
     ok: OK
     submit-error-field-empty: 'Anda perlu mengisi nilai yang diperlukan'

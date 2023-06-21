@@ -13,5 +13,5 @@ flarum-ext-newsletter:
     modaltext: 'Anda sekarang telah berlangganan buletin kami.'
     modalthanku: 'Terima kasih!'
     prconsent: 'Persetujuan Privasi'
-    submitbutton: Kirim
-    subscribe: 'Berlangganan buletin kami. Silakan masukkan email Anda dan tekan kirim.'
+    submitbutton: Submit
+    subscribe: 'Berlangganan buletin kami. Silakan masukkan email Anda dan tekan submit.'

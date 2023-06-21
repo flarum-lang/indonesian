@@ -27,7 +27,7 @@ sycho-move-posts:
         complex_move: 'Ini akan menjadi langkah yang rumit, postingan akan didorong di antara postingan, yang menyebabkan referensi URL lama dari postingan diskusi target juga akan berubah.'
         old_to_new_move: '=> sycho-move-posts.ref.status.old_to_new_move'
         simple_move: 'Ini akan menjadi langkah yang sederhana, semua postingan akan ditambahkan di akhir diskusi.'
-      submit: Proses
+      submit: Lanjutkan
       title: '=> sycho-move-posts.ref.move_posts'
     notifications:
       post_moved_text: 'Satu atau beberapa post Anda telah dipindahkan ke {targetDiscussionTitle}.'

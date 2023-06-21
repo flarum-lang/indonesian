@@ -36,7 +36,7 @@ fof-polls:
       options_label: Jawaban
       public_poll_label: 'Izinkan orang-orang untuk melihat siapa saja yang melakukan voting'
       question_placeholder: Pertanyaan
-      submit: Masukkan
+      submit: Submit
     moderation:
       delete: 'Hapus Polling'
       delete_confirm: 'Apakah anda yakin ingin menghapus polling ini?'

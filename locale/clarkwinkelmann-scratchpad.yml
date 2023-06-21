@@ -9,8 +9,10 @@ clarkwinkelmann-scratchpad:
       success: Dikompilasi!
       view-output: 'Lihat output'
     compilation-modal:
+      npm: 'Output NPM'
       npm-not-run: 'NPM tidak dijalankan'
       title: 'Hasil kompilasi'
+      webpack: 'Output Webpack'
     controls:
       compile: 'Compile JS'
       delete: Hapus
@@ -37,8 +39,10 @@ clarkwinkelmann-scratchpad:
       compile-automatically: 'Compile JS secara otomatis saat menyimpan'
       empty-for-default: 'Biarkan kosong untuk command default'
       indent: 'Jumlah spasi untuk indentasi'
+      npm-install-command: 'Perintah penginstalan NPM'
       single-column: 'Kelompokkan editor dalam satu kolom, bukan 3 kolom'
       theme: 'Tema CodeMirror (harus di-refresh agar dapat diterapkan)'
       theme-auto: 'Otomatis (default untuk tema terang, dracula untuk tema gelap)'
       title: 'Pengaturan Scratchpad'
       validate-live: 'Lakukan request ke homepage untuk memvalidasi Less dan PHP sebelum menyimpan'
+      webpack-command: 'Perintah Webpack'

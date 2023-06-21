@@ -46,7 +46,7 @@ justoverclock-feedback:
       failed-message: 'Silakan coba lagi. Jika hal ini terus terjadi, cobalah untuk mengirim email.'
       failed-title: 'Ups, terjadi error'
       placeholder: 'Masukkan feedback Anda di sini'
-      submit: Kirim
+      submit: Submit
       success: 'Terima kasih!👊'
       title: 'Feedback Flarum'
       type-message: 'Masukan apa yang Anda miliki?'

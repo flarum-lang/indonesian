@@ -5,15 +5,30 @@
 pay-to-see:
   admin:
     error_need_one_tag: 'Pilih setidaknya satu tag'
+    set_permission_tag: 'Pengaturan Perizinan Tag'
     set_permission_tag_help: 'Ketika seorang pengguna memulai diskusi, dia dapat menggunakan P2S dengan memilih tag apa pun yang memiliki izin'
     settings:
+      badge_icon: 'Ikon badge'
       badge_icon_desc: 'Masukkan nama kelas ikon FontAwesome, termasuk yang berawalan<code>fas fa-</code>. Biarkan kosong untuk menghapus badge.'
   forum:
     modify_pay_to_see_price: 'Ubah Harga Konten'
+    notifications:
+      discussion_purchased: '{username} membeli konten Anda'
+      discussion_purchased_cost: 'Anda telah menerima {cost}'
+      notification_setting_some_one_purchase_content: 'Seseorang telah membeli konten saya'
     pay_to_see_content: 'Bayar Untuk Melihat Konten'
     pay_to_see_content_label: 'Bayar Untuk Melihat Konten'
+    purchase_button: 'Beli Konten'
+    purchase_confirmation: 'Beli Konten'
+    purchase_confirmation_text: 'Apakah Anda yakin untuk membayar {costText}?'
+    purchase_count: 'Jumlah Pembelian: {count}'
     purchase_error_not_found: 'Konten Tidak Dapat Dibeli'
+    purchase_success: 'Pembelian Berhasil'
+    purchased_content: 'Konten yang Dibeli'
+    purchased_users_empty: 'Belum ada yang membeli'
     remove: Hapus
+    set_pay_to_see_price: 'Tetapkan Harga Konten'
+    set_pay_to_see_price_success: 'Harga Konten Yang Ditetapkan'
     tag_no_permission_title: 'Bayar Untuk Melihat Konten'
   lib:
     cancel: Batal

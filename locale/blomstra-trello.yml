@@ -43,6 +43,8 @@ blomstra-trello:
       save: 'Simpan perubahan'
       selected_boards_label: 'Board yang dipilih'
       tag: Tag
+      unmapped_warning_help: 'Menampilkan peringatan saat mengirim diskusi ke Trello jika tag Forum tidak dipetakan ke tag Trello'
+      unmapped_warning_label: 'Peringatan tentang tag yang belum dipetakan'
   forum:
     badges:
       trello:

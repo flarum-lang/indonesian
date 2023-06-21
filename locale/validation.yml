@@ -24,7 +24,7 @@ validation:
   before: ':attribute berupa tanggal sebelum :date.'
   before_or_equal: ':attribute berupa tanggal sebelum atau sama dengan :date.'
   between:
-    array: ':attribute harus antara :min dan :max item.'
+    array: ':attribute harus memiliki antara :min dan :max item.'
     file: ':attribute harus berukuran antara :min dan :max kilobyte.'
     numeric: ':attribute harus antara :min dan :max.'
     string: ':attribute harus antara :min dan :max karakter.'
@@ -43,7 +43,7 @@ validation:
   exists: ':attribute yang dipilih tidak valid.'
   file: ':attribute harus berupa berkas.'
   file_too_large: 'Ukuran :attribute terlalu besar.'
-  file_upload_failed: 'File :attribute gagal diupload.'
+  file_upload_failed: 'File :attribute gagal diunggah.'
   filled: ':attribute harus memiliki nilai.'
   gt:
     array: ':attribute harus lebih dari :value item.'
@@ -93,7 +93,7 @@ validation:
   present: ':attribute harus ada.'
   prohibited: 'Bidang :attribute tidak diperbolehkan.'
   prohibited_if: 'Bidang :attribute dilarang ketika :other adalah :value.'
-  prohibited_unless: 'Bidang :attribute dilarang kecuali :other ada di :values.'
+  prohibited_unless: 'Bidang :attribute dilarang kecuali :other ada di dalam :values.'
   regex: 'Format :attribute tidak valid.'
   required: 'Bidang :attribute harus diisi.'
   required_if: 'Bidang :attribute harus diisi bila :other adalah :value.'

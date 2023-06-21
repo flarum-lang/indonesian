@@ -29,7 +29,7 @@ flarum-calendar:
       description_label: Detail
       description_placeholder: 'Detail acara'
       requirement_message: 'Acara memerlukan nama dan deskripsi'
-      submit: Kirim
+      submit: Submit
       title_create: 'Membuat acara kalender baru'
       title_edit: 'Mengedit detail acara'
       title_label: Apa

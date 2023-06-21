@@ -16,6 +16,6 @@ clarkwinkelmann-status:
       set-status: 'Buat status'
     modal:
       clear: Hapus
-      submit: Kirim
+      submit: Submit
       text-placeholder: 'Apa yang sedang terjadi?'
       title: 'Membuat status'

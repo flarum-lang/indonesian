@@ -5,6 +5,8 @@
 nomiscz-auth-wechat:
   admin:
     settings:
+      api_app_id: 'API App ID'
+      api_app_secret: 'API App Secret'
       title: 'Pengaturan Autentikasi WeChat'
   forum:
     alerts:

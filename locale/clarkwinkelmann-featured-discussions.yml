@@ -17,7 +17,7 @@ clarkwinkelmann-featured-discussions:
     modal:
       action:
         cancel: Batal
-        submit: Kirim
+        submit: Submit
       fields:
         from: Dari
         until: Hingga
@@ -32,6 +32,7 @@ clarkwinkelmann-featured-discussions:
     nav:
       schedule: 'Jadwal unggulan'
     post:
+      auto: (otomatis)
       scheduled: 'Dijadwalkan untuk diunggulkan dari {from} hingga {until}'
       unscheduled: 'Tidak lagi yang dijadwalkan untuk diunggulkan'
     schedule:

@@ -17,7 +17,7 @@ fof-username-request:
         name: '{name} telah mengajukan permohonan untuk mengubah nickname mereka menjadi "{requestedName}"'
         reason_title: 'Alasan Penolakan'
         rejected_label: Tolak
-        submit_button: Kirim
+        submit_button: Submit
         success: 'Keputusan telah terkirim.'
         title: '=> fof-username-request.ref.nickname_change_request'
       request:
@@ -57,7 +57,7 @@ fof-username-request:
         name: '{name} telah mengajukan permohonan untuk mengubah username menjadi "{requestedName}"'
         reason_title: 'Alasan Penolakan'
         rejected_label: Menolak
-        submit_button: Kirim
+        submit_button: Submit
         success: 'Keputusan telah dikirim.'
         title: '=> fof-username-request.ref.username_change_request'
       request:

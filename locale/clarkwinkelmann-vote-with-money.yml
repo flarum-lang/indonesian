@@ -24,7 +24,7 @@ clarkwinkelmann-vote-with-money:
       label:
         custom: 'Jumlah khusus'
       optionCustom: Khusus
-      submit: Kirim
+      submit: Submit
       success: 'Vote telah terkumpul!'
       target: "Konfirmasikan janji Anda untuk pilihan vote \"{answer}\". Anda tidak akan dapat mengubah pilihan Anda nanti.\n"
       title: 'Konfirmasi vote'

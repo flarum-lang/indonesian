@@ -22,7 +22,7 @@ clarkwinkelmann-carving-contest:
       title: 'Pengguna yang menyukai entri ini'
     modal:
       name: 'Beri nama kreasi Anda'
-      submit: Kirim
+      submit: Submit
       title: Berpartisipasi
       tools:
         circle: Lingkaran

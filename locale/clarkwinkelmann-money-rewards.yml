@@ -26,7 +26,7 @@ clarkwinkelmann-money-rewards:
         create: 'Hasilkan money alih-alih mengurangi saldo Saya'
         custom: 'Jumlah khusus'
       optionCustom: Khusus
-      submit: Kirim
+      submit: Submit
       success: 'Reward telah dikirimkan ke penulis post!'
       target: 'Reward post #{number} oleh {username}'
       title: 'Reward post'

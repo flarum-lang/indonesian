@@ -48,4 +48,5 @@ nearata-twofactor:
       app:
         label: 'Aplikasi Autentikasi'
       disable_confirmation: 'Apakah Anda yakin? Anda akan menonaktifkan metode autentikasi ini untuk pengguna.'
+      placeholder_text: 'Tidak ada yang perlu dinonaktifkan'
       section_title: 'Autentikasi Dua Faktor'
