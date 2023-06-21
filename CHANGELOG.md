@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series)
 * [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-auto-moderator)
+* [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings)
 * [`blomstra/flag-duplicates`](https://github.com/blomstra/flarum-ext-flag-duplicate)
 * [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
 * [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
@@ -29,7 +30,9 @@ CHANGELOG
 * [`extiverse/mercury`](https://github.com/extiverse/mercury)
 * [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice)
 * [`flarumite/simple-discussion-views`](https://github.com/flarumite/simple-discussion-views)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+* [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/pretty-mail`](https://github.com/FriendsOfFlarum/pretty-mail)
 * [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
