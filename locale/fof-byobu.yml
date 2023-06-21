@@ -21,6 +21,7 @@ fof-byobu:
       enable-make-public-option-help: 'Menambahkan kemampuan bagi mereka yang memiliki izin untuk menghapus semua penerima, menetapkan tag baru, dan membuat diskusi dapat dilihat oleh publik (sesuai dengan pengaturan visibilitas tag yang dipilih).'
       hide_from_all_discussions_page: 'Sembunyikan Diskusi Pribadi dari halaman "Semua Diskusi"'
       hide_from_all_discussions_page_help: 'Diskusi pribadi hanya dapat diakses dari halaman "Diskusi Pribadi" atau profil pengguna'
+      post-event-icon: 'Byobu Post Event'
   email:
     body:
       private_discussion_added: "Hai {recipient_display_name},\n\n{actor_display_name} menambahkan Anda ke dalam diskusi pribadi yang sudah ada: {discussion_title}.\n\nLihat di sini:\n{discussion_url}\n\nAnda mungkin perlu login terlebih dahulu sebelum dapat mengakses link ini.\n"

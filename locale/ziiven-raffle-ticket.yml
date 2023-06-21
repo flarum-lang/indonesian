@@ -18,7 +18,7 @@ ziven-guaguale:
     settings:
       guaguale-display-name: 'Nama Tampilan'
       guaguale-display-name-default: 'Tiket Undian'
-      guaguale-item-activated: Aktif
+      guaguale-item-activated: Diaktifkan
       guaguale-item-amount: Jumlah
       guaguale-item-background: Background
       guaguale-item-color: Warna

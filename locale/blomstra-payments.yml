@@ -17,6 +17,8 @@ blomstra-payments:
       title: 'Terima Ketentuan'
     access-portal:
       options: opsi
+      purchase: pembelian
+      subscribed: berlangganan
     choose-bounty-amount-modal:
       description: 'Pilih jumlah yang Anda inginkan untuk mendukung "{subject}" atau pilih jumlah khusus.'
     exceptions:
@@ -26,6 +28,8 @@ blomstra-payments:
     nav:
       access_portal: 'Portal akses'
       user_subscriptions: 'Lanjutkan Pembayaran'
+    pay-to-post:
+      purchase_required: "Pembahasan ini akan dipublikasikan setelah Anda menyelesaikan pembayaran melalui penyedia pembayaran kami, Stripe. Klik pembelian untuk melihat opsi biaya dan pembayaran.\n"
     pay-to-view:
       description: "Postingan di luar titik ini terkunci di balik paywall, Anda dapat membukanya dengan menyelesaikan pembayaran melalui penyedia pembayaran kami, Stripe.\n"
       purchase-completed: 'Tidak terkunci'

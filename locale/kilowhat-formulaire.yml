@@ -9,20 +9,28 @@ kilowhat-formulaire:
       editAnyUser: '=> kilowhat-formulaire.ref.permissions.editAnyUser'
       editOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.editOwnDiscussion'
       editOwnUser: '=> kilowhat-formulaire.ref.permissions.editOwnUser'
+      exportUserDetails: 'Mengakses data pribadi pengguna dalam ekspor'
       fill: '=> kilowhat-formulaire.ref.permissions.fill'
       heading: Formulaire
       heading-advanced: 'Formulaire (opsi untuk ekstensi third-party)'
+      listForms: 'Melihat daftar form yang tidak dihapus'
       seeAnyDiscussion: '=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion'
       seeAnyUser: '=> kilowhat-formulaire.ref.permissions.seeAnyUser'
       seeOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion'
       seeOwnUser: '=> kilowhat-formulaire.ref.permissions.seeOwnUser'
     settings:
+      horizontal-layout: 'Gunakan tata letak form horizontal'
+      horizontal-layout-locations:
+        profileEdit: 'Halaman Edit Profil'
+        profileView: 'Halaman Tampilan Profil'
+        standaloneView: 'Halaman Tampilan Mandiri'
       max-file-size: 'Ukuran file maksimum (kB)'
       style-options:
         far-circle: 'Ikon FontAwesome Regular Circle'
         far-square: 'Ikon FontAwesome Regular Square'
         fas-circle: 'Ikon FontAwesome Solid Circle'
         fas-square: 'Ikon FontAwesome Solid Square'
+        native: 'Kontrol browser bawaan'
   api:
     export:
       meta:
@@ -43,7 +51,12 @@ kilowhat-formulaire:
       field:
         tags: 'Tag diskusi'
         title: 'Judul diskusi'
+      introduction: "Pengaturan ini akan berlaku untuk diskusi baru yang telah dibuat secara otomatis dengan mengirimkan form yang terhubung dengan tag. Anda dapat menggunakan nilai dari pengiriman form menggunakan sintaksis kurung kurawal dengan field slug. Secara default, { title } dan { content } akan digunakan secara berurutan.\n"
       submit: 'Validasi perubahan'
+      title: 'Opsi diskusi otomatis'
+    choice:
+      other-label: 'Lainnya:'
+      other-placeholder: Ketik...
     confirmation-email-options-modal:
       field:
         title: Judul
@@ -88,8 +101,11 @@ kilowhat-formulaire:
         boolean-true: 'True'
       submit: Download
     form-create:
+      button:
+        create: 'Buat form'
       field:
         title: Judul
+      title: 'Form baru'
     form-edit-header:
       category:
         discussion: '=> kilowhat-formulaire.ref.type.discussion'
@@ -100,7 +116,9 @@ kilowhat-formulaire:
       enable-expert-mode: 'Aktifkan mode expert'
       hide: Hapus
       tabs:
+        access: Akses
         notifications: Notifikasi
+        template: Template
     form-edit:
       auto-discussion-options: 'Opsi untuk diskusi baru'
       email-confirmation-options: 'Template email konfirmasi'
@@ -109,19 +127,29 @@ kilowhat-formulaire:
       expert-mode-warning: "Mode expert diaktifkan. Hal ini memungkinkan Anda untuk menyesuaikan pengenal kolom dan izin per kolom. Pastikan Anda membaca dokumentasi tentang fitur-fitur tersebut, karena Anda mungkin akan merusaknya!\n"
       field:
         automatic-discussion-help: "Ketika diaktifkan, formulir akan terus dapat diakses seperti formulir mandiri. Kiriman akan secara otomatis dibuat dan terhubung dengan diskusi baru.\n"
+        enable: Aktifkan
+      link-options:
+        all-groups: 'Untuk semua grup'
+        all-tags: 'Untuk semua tag'
+        groups: 'Profil pengguna'
       preview: 'Pratinjau di tab baru'
+      save-for-preview: 'Simpan untuk pratinjau'
       section:
         permissions: Perizinan
         template: Template
     form-index:
       columns:
         actions: Tindakan
+        allow-modification: Modifikasi
+        enabled: Diaktifkan
         title: Judul
       edit: Edit
+      empty: 'Tidak ada form'
       header:
         discuss: 'Diskusi di Flarum Discuss'
         documentation: 'Dokumentasi online lengkap'
         title: '=> kilowhat-formulaire.ref.manager'
+      load-more: 'Muat lebih banyak'
       tabs:
         discussion: '=> kilowhat-formulaire.ref.type.discussion'
         standalone: '=> kilowhat-formulaire.ref.type.standalone'
@@ -139,6 +167,9 @@ kilowhat-formulaire:
         seeOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion'
         seeOwnUser: '=> kilowhat-formulaire.ref.permissions.seeOwnUser'
       title: 'Perizinan global'
+    items-editor:
+      add: 'Tambahkan row'
+      remove: 'Hapus row'
     nav:
       forms: '=> kilowhat-formulaire.ref.manager'
     options-editor:
@@ -147,14 +178,23 @@ kilowhat-formulaire:
       new-placeholder: 'Opsi baru...'
       remove: 'Hapus opsi'
     permission-controls:
+      disabled_members_button: 'Anggota yang tidak diaktifkan dan ditangguhkan'
       everyone_button: '=> core.admin.permissions_controls.everyone_button'
+      inherit: 'Gunakan default'
+      members_button: 'Anggota yang diaktifkan'
+    rich-text:
+      preview-placeholder: 'Mulai mengetik untuk pratinjau'
     save-controls:
       save: Simpan
+      saved-at: 'Disimpan {ago}'
       unsaved-changes: 'Anda memiliki perubahan yang belum disimpan'
+    select:
+      choose: 'Pilih sebuah opsi'
     submission-index:
       columns:
         actions: Tindakan
       export: Ekspor
+      load-more: 'Muat lebih banyak'
     submission:
       delete: 'Hapus permanen'
       hide: Hapus
@@ -175,6 +215,9 @@ kilowhat-formulaire:
         number: Angka
         short: 'Teks pendek'
         upload: Upload
+    upload-editor:
+      remove: 'Hapus file'
+      uploading: Mengunggah...
   mail:
     edit: Edit
     no-answer: 'Tidak ada jawaban'
@@ -191,6 +234,7 @@ kilowhat-formulaire:
     submission-meta:
       created_at: 'Tanggal Pembuatan'
       updated_at: 'Tanggal Pembaruan'
+      user_activated: 'Akun Aktif'
       user_displayname: 'Nama Tampilan Pengguna'
       user_email: 'Email Pengguna'
       user_username: Username
