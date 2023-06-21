@@ -10,6 +10,13 @@ CHANGELOG
 * Memperbarui terjemahan untuk validasi.
 
 
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
+* [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+* [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store)
+
+
 Semua perubahan: [1.8.0...1.8.1](https://github.com/flarum-lang/indonesian/compare/1.8.0...1.8.1).
 
 
