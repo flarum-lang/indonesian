@@ -43,9 +43,11 @@ kilowhat-formulaire:
       field:
         tags: 'Tag diskusi'
         title: 'Judul diskusi'
+      submit: 'Validasi perubahan'
     confirmation-email-options-modal:
       field:
         title: Judul
+      submit: 'Validasi perubahan'
       title: 'Template email'
     discussion-composer:
       field:
@@ -156,6 +158,7 @@ kilowhat-formulaire:
     submission:
       delete: 'Hapus permanen'
       hide: Hapus
+      submit-other: 'Submit yang lain'
     template-editor:
       description: Deskripsi
       email: Email

@@ -5,55 +5,150 @@
 kilowhat-cimaise:
   admin:
     permissions:
+      attachCimaiseAlbum: 'Melampirkan album secara manual ke diskusi'
       createCommunityAlbums: 'Membuat album komunitas'
       createPersonalAlbums: 'Membuat album pribadi'
+      editOwnAlbum: 'Mengubah judul dan deskripsi album sendiri'
       editOwnImage: 'Gunakan editor gambar pada gambar Anda sendiri (crop, mask, dan stiker)'
       editOwnPublishedImage: 'Gunakan editor gambar pada gambar Anda sendiri setelah dipublikasikan'
-      uploadCommunityPicturesWithoutApproval: 'Upload gambar tanpa persetujuan di album komunitas'
-      uploadPersonalPicturesWithoutApproval: 'Upload gambar tanpa persetujuan di album pribadi'
-      uploadPictures: 'Upload Gambar'
+      hideOwnAlbum: 'Menyembunyikan album sendiri'
+      hideOwnPicture: 'Menyembunyikan gambar sendiri'
+      licenseOwnPublishedPicture: 'Mengubah lisensi gambar sendiri setelah dipublikasikan'
+      publishSilently: 'Mempublikasikan gambar secara diam-diam (tanpa event post)'
+      renameOwnPublishedPicture: 'Mengubah judul dan deskripsi gambar sendiri setelah dipublikasikan'
+      uploadCommunityPicturesWithoutApproval: 'Mengunggah gambar tanpa persetujuan di album komunitas'
+      uploadPersonalPicturesWithoutApproval: 'Mengunggah gambar tanpa persetujuan di album pribadi'
+      uploadPictures: 'Mengunggah Gambar'
       view: Tampilkan
+      viewExif: 'Lihat data Exif (termasuk geolokasi)'
     settings:
       autoCreateDiscussionAlbum: 'Secara otomatis membuat album untuk setiap diskusi baru'
       autoCreateDiscussionAlbumHelp: "Secara otomatis membuat album baru dengan judul yang sama dengan diskusi dan penulis sebagai pemilik. Fitur ini melewati izin pembuatan album dan berlaku di semua tag.\n"
       license-add: 'Tambahkan lisensi'
       license-description: Deskripsi
+      license-key: Key
+      license-label: Label
       licenses: Lisensi
+      mapboxToken: 'Token Mapbox'
       mapboxTokenHelp: 'Isi token yang valid untuk menampilkan peta geolokasi di dalam meta gambar.'
       neverSyncDiscussionAlbumTitles: 'Jangan pernah menyinkronkan diskusi dan judul album'
       neverSyncDiscussionAlbumTitlesHelp: "Secara default, album yang dihubungkan yang memiliki judul yang sama persis dengan diskusi akan diganti namanya ketika judul diskusi berubah. Jika album diganti namanya secara manual, album tersebut tidak akan disinkronkan kembali ke diskusi.\n"
       requireLicenseHelp: "Secara default, pengguna dapat melewatkan pengaturan lisensi. Pastikan persyaratan penggunaan situs web Anda mencakup apa yang dapat dilakukan dengan media yang lisensinya tidak ditentukan.\n"
-      watermarkFileHelp: 'Gambar yang disediakan akan diterapkan 1:1 di setiap upload, kecuali pratinjau terkecil.'
+      sticker-key: Key
+      sticker-label: Label
+      sticker-url: URL
+      watermarkFileHelp: 'Gambar yang disediakan akan diterapkan 1:1 pada setiap unggahan, kecuali pratinjau terkecil.'
+      watermarkPlacementOptions:
+        bottomLeft: 'Kiri bawah'
+        bottomRight: 'Kanan bawah'
+        topLeft: 'Kiri atas'
+        topRight: 'Kanan atas'
+  api:
+    post-edit:
+      cannotAttachAlreadySubmitted: 'Tidak dapat melampirkan gambar {id} karena sudah dikirimkan'
+      cannotAttachFromExternalAlbum: 'Tidak dapat melampirkan gambar {id} karena gambar tersebut termasuk dalam album eksternal'
+      cannotAttachHasNoAlbum: 'Diskusi tidak memiliki album yang dilampirkan'
+      cannotAttachToNonComment: 'Gambar tidak dapat dilampirkan secara manual ke postingan non-komentar'
+      cannotAttachUnauthorized: 'Tidak dapat melampirkan gambar {id} karena bukan milik Anda'
+      cannotFindPicturesFromRelation: 'Tidak dapat menemukan semua gambar yang diminta dalam database'
   forum:
     album-list:
+      empty: 'Tidak ada album'
       load-more: '=> kilowhat-cimaise.ref.load-more'
       loading: '=> kilowhat-cimaise.ref.loading'
+      new: 'Buat album baru'
       title: '=> kilowhat-cimaise.ref.albums'
     album-search:
       title: '=> kilowhat-cimaise.ref.albums'
     album-show:
+      community: 'Album komunitas'
+      discussion: 'Pergi ke diskusi'
+      empty: 'Tidak ada gambar'
       loading: '=> kilowhat-cimaise.ref.loading'
+      personal: 'Album pribadi oleh <a>{username}</a>'
+      upload: 'Unggah gambar'
     album-thumbnail:
       by-user: '=> kilowhat-cimaise.ref.by-user'
       controls: '=> kilowhat-cimaise.ref.controls'
       delete: '=> kilowhat-cimaise.ref.delete'
+      delete-confirmation: 'Menghapus Album "{title}"?'
+      edit: Edit
       hide: '=> kilowhat-cimaise.ref.hide'
       restore: '=> kilowhat-cimaise.ref.restore'
+    attach-album-modal:
+      no-results: 'Tidak ada hasil'
+      search: Pencarian
+      select: Pilih
+      submit: Submit
+      title: 'Lampirkan album ke "{title}"'
+      unselect: 'Batalkan pilihan'
+    badge:
+      awaiting-approval: 'Menunggu Persetujuan'
+      favorite: Favorit
+    discussion-controls:
+      attach-album: 'Lampirkan atau lepaskan album'
+    edit-album-modal:
+      title: 'Edit Album "{title}"'
+    edit-album:
+      create: 'Buat Album'
+      description: Deskripsi
+      isCommunity: 'Album komunitas (semua orang dapat berkontribusi)'
+      save: 'Simpan Album'
+      title: Judul
+    edit-picture:
+      description: Deskripsi
+      title: Judul
+    editable-attribute:
+      author: 'Klik untuk menambahkan pembuat'
+      description: 'Klik untuk menambahkan deskripsi'
+      title: 'Klik untuk menambahkan judul'
+    license-label:
+      not-specified: 'Tidak ditentukan'
     nav:
       albums: '=> kilowhat-cimaise.ref.albums'
       pictures: '=> kilowhat-cimaise.ref.pictures'
       user-pictures: '=> kilowhat-cimaise.ref.pictures'
+    new-album-modal:
+      title: 'Album Baru'
     picture-controls:
       controls: '=> kilowhat-cimaise.ref.controls'
       delete: '=> kilowhat-cimaise.ref.delete'
+      delete-confirmation: 'Menghapus Gambar "{title}"?'
       hide: '=> kilowhat-cimaise.ref.hide'
+      remove-favorite: 'Hapus Favorit'
       restore: '=> kilowhat-cimaise.ref.restore'
+      set-favorite: 'Tambahkan sebagai Favorit'
     picture-list:
+      empty: 'Tidak ada gambar'
       load-more: '=> kilowhat-cimaise.ref.load-more'
       loading: '=> kilowhat-cimaise.ref.loading'
+      title: 'Semua gambar'
     picture-show:
+      back-album: 'Kembali ke Album'
+      download: Download
       loading: '=> kilowhat-cimaise.ref.loading'
+      next: 'Gambar selanjutnya'
+      previous: 'Gambar sebelumnya'
+      published-at: 'Dipublikasikan {ago}'
+      taken-at: 'Diambil {ago}'
+    picture-sort:
+      latest: 'Unggahan terbaru'
+      oldest: 'Unggahan terlama'
     picture-thumbnail:
       by-user: '=> kilowhat-cimaise.ref.by-user'
+    upload-modal:
+      drop-file: 'atau seret dan letakkan di sini'
+      processing: Memproses
+      publishSilently: 'Publikasikan secara diam-diam'
+      select-file: 'Pilih file'
+      submit: Submit
+      submitInComposer: Lanjutkan
+      title: 'Unggah gambar dalam album "{title}"'
+      titleInComposer: 'Edit gambar'
+      uploading: Mengunggah
   ref:
+    albums: Album
     delete: Hapus
+    load-more: 'Muat Lebih Banyak'
+    loading: Memuat...
+    pictures: Gambar

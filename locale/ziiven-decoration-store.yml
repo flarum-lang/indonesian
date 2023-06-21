@@ -36,3 +36,4 @@ ziven-decoration-store:
     item-type: 'Jenis item'
     item-type-all: 'Semua Jenis Item'
     ok: OK
+    submit-error-field-empty: 'Anda perlu mengisi nilai yang diperlukan'
