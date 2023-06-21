@@ -2,6 +2,72 @@ CHANGELOG
 =========
 
 
+1.8.1 (2023-06-21)
+------------------
+
+**Perubahan umum**:
+
+* Memperbarui terjemahan untuk validasi.
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series)
+* [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-auto-moderator)
+* [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings)
+* [`blomstra/flag-duplicates`](https://github.com/blomstra/flarum-ext-flag-duplicate)
+* [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
+* [`clarkwinkelmann/flarum-ext-carving-contest`](https://github.com/clarkwinkelmann/flarum-ext-carving-contest)
+* [`clarkwinkelmann/flarum-ext-featured-discussions`](https://github.com/clarkwinkelmann/flarum-ext-featured-discussions)
+* [`clarkwinkelmann/flarum-ext-money-rewards`](https://github.com/clarkwinkelmann/flarum-ext-money-rewards)
+* [`clarkwinkelmann/flarum-ext-popular-discussion-badge`](https://github.com/clarkwinkelmann/flarum-ext-popular-discussion-badge)
+* [`clarkwinkelmann/flarum-ext-scratchpad`](https://github.com/clarkwinkelmann/flarum-ext-scratchpad)
+* [`clarkwinkelmann/flarum-ext-status`](https://github.com/clarkwinkelmann/flarum-ext-status)
+* [`clarkwinkelmann/flarum-ext-sudo-mode`](https://github.com/clarkwinkelmann/flarum-ext-sudo-mode)
+* [`clarkwinkelmann/flarum-ext-vote-with-money`](https://github.com/clarkwinkelmann/flarum-ext-vote-with-money)
+* [`datitisev/flarum-webhooks-pro`](https://extiverse.com/extension/datitisev/flarum-webhooks-pro)
+* [`extiverse/mercury`](https://github.com/extiverse/mercury)
+* [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice)
+* [`flarumite/simple-discussion-views`](https://github.com/flarumite/simple-discussion-views)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+* [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/pretty-mail`](https://github.com/FriendsOfFlarum/pretty-mail)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
+* [`justoverclock/flarum-ext-feedback`](https://github.com/justoverclockl/flarum-ext-feedback)
+* [`justoverclock/frontend-blog`](https://extiverse.com/extension/justoverclock/frontend-blog)
+* [`justoverclock/igdb-api`](https://extiverse.com/extension/justoverclock/igdb-api)
+* [`justoverclock/flarum-ext-newsletter`](https://github.com/justoverclockl/flarum-ext-newsletter)
+* [`justoverclock/related-discussions`](https://extiverse.com/extension/justoverclock/related-discussions)
+* [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api)
+* [`justoverclock/theaudiodb-api`](https://extiverse.com/extension/justoverclock/theaudiodb-api)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
+* [`kilowhat/flarum-ext-audit-pro`](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro)
+* [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
+* [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)
+* [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
+* [`kyrne/websocket`](https://github.com/KyrneDev/websocket)
+* [`maicol07/flarum-oidc-client`](https://extiverse.com/extension/maicol07/flarum-oidc-client)
+* [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
+* [`nomiscz/flarum-ext-auth-wechat`](https://github.com/NomisCZ/flarum-ext-auth-wechat)
+* [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
+* [`the-turk/flarum-nodp`](https://github.com/the-turk/flarum-nodp)
+* [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
+* [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
+* [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store)
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
+* [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
+* [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see)
+* [`ziiven/flarum-raffle-ticket`](https://extiverse.com/extension/ziiven/flarum-raffle-ticket)
+
+
+Semua perubahan: [1.8.0...1.8.1](https://github.com/flarum-lang/indonesian/compare/1.8.0...1.8.1).
+
+
 1.8.0 (2023-06-21)
 ------------------
 
