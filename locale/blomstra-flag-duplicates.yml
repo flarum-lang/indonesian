@@ -6,6 +6,7 @@ blomstra-flag-duplicates:
   admin:
     settings:
       event_post_help: 'Buatlah sebuah event post dalam diskusi di mana terdapat tanda "duplikat" yang telah muncul. Hal ini dapat memberi tahu semua orang bahwa diskusi tersebut berpotensi menjadi duplikat dari diskusi lainnya, tanpa memberi mereka akses ke keseluruhan tanda yang telah dimunculkan.'
+      event_post_label: 'Event post'
   forum:
     flags:
       deselect_discussion_a11y_label: 'Batal memilih diskusi'

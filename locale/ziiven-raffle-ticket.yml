@@ -66,9 +66,11 @@ ziven-guaguale:
     guaguale-purchase-ok: OK
     guaguale-purchase-soldout: 'Maaf, produk ini sudah habis terjual'
     guaguale-purchase-success: 'Pembelian Berhasil'
+    guaguale-purchase-summary: 'Total yang dibelanjakan: {purchaseCostTotal} | Total kemenangan: {purchaseWinTotal}'
     guaguale-purchase-view-result: Lihat
     guaguale-purchased-user: '{purchaseUserName} membeli {purchaseCount} tiket dan memenangkan {purchaseWinTotal} tiket'
     guaguale-unit-name: ' tiket'
     guaguale-view-history: 'Riwayat Pembelian'
     notifications:
       guaguale-win-total: 'Anda membelanjakan {costTotal} dan memenangkan {winTotal} | ID pembelian: {purchaseID}'
+    purchase-error-not-enough-tickets: 'Tidak memiliki cukup tiket'

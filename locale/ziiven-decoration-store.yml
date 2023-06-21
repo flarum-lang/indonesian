@@ -58,6 +58,10 @@ ziven-decoration-store:
     item-cost: Biaya
     item-cost-free: Gratis
     item-desc: 'Deskripsi Item'
+    item-discount-days-left: ' ({days} hari tersisa)'
+    item-discount-days-text: 'Durasi diskon: {days} hari'
+    item-discount-ribbon: 'DISKON {discount}%'
+    item-label: 'Label Item'
     item-label-popular: Populer
     item-purchase-type: 'Jenis Pembelian'
     item-purchase-type-all: 'Semua Jenis Pembelian'
@@ -68,6 +72,8 @@ ziven-decoration-store:
     item-title: 'Nama item'
     item-type: 'Jenis item'
     item-type-all: 'Semua Jenis Item'
+    item-type-profileBackground: 'Background Profil'
+    item-type-usernameColor: 'Warna Username'
     list-empty: 'Tidak ada konten'
     list-load-more: 'Muat Lebih Banyak'
     none: 'Tidak ada'

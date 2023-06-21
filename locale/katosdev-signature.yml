@@ -17,6 +17,7 @@ signature:
       maximum_image_width:
         description: 'Lebar maksimum gambar pada editor.'
         placeholder: '350 (default)'
+    title: Signature
   forum:
     buttons:
       save: 'Simpan Signature'

@@ -24,6 +24,8 @@ justoverclock-steam-api:
     statusBusy: Sibuk
     statusOffline: Offline
     statusOnline: Online
+    statusPlay: 'Ingin Bermain'
+    statusTrade: 'Ingin Berdagang'
     steamId: 'ID Profil Steam atau nama samaran'
     steamIdSaved: 'Id Steam berhasil disimpan'
     visitProfile: 'Kunjungi Profil'

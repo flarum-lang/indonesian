@@ -10,6 +10,8 @@ askvortsov-article-series:
     article_item:
       next_article: 'Artikel selanjutnya'
       prev_article: 'Artikel sebelumnya'
+    article_list:
+      title: 'Seri Artikel {series}'
     article_series_modal:
       order_label: 'Indeks Urutan (diurutkan secara ascending)'
       submit_button: Submit

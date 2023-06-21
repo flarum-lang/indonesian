@@ -39,4 +39,5 @@ kyrne-websocket:
   forum:
     widget:
       empty: 'Tidak Ada User Yang Sedang Online.'
+      guests: '{count, plural, one {1 Tamu} other {{count} Tamu}}'
       title: 'User Online'

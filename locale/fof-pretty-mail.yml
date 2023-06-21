@@ -16,6 +16,7 @@ fof-pretty-mail:
         forumStyle: 'Berisi <strong>seluruh CSS forum</strong>'
         link: 'Berisi link di dalam email'
         settings: 'Memungkinkan Anda untuk berinteraksi dengan SettingsRepositoryInterface'
+        url: '<code>UrlGenerator</code> Flarum'
       attributes_label: 'Atribut yang tersedia'
       confirm: 'Apakah Anda yakin ingin kembali ke stok template email untuk'
       default: 'Template Default'

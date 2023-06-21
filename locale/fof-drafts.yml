@@ -12,6 +12,8 @@ fof-drafts:
       schedule_log_output: 'Tambahkan output penjadwalan ke penyimpanan log'
       schedule_on_one_server: 'Gunakan ''onOneServer()'' untuk penjadwalan tugas (membutuhkan Redis / Memcache)'
       title: 'FoF Drafts'
+  console:
+    scheduled_drafts_disabled: 'Draft terjadwal saat ini dinonaktifkan dalam pengaturan.'
   forum:
     composer:
       discard_empty_draft_alert: 'Buang draft kosong?'

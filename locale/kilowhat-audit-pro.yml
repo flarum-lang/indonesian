@@ -10,6 +10,7 @@ kilowhat-audit:
       title: Audit
       upgrade: 'Tingkatkan ke Pro'
     limitedSettings:
+      configure: Konfigurasi
       introduction: 'Konfigurasikan apa yang dapat dilihat oleh pengguna dengan izin akses terbatas'
       requiresExtension: 'Membutuhkan ekstensi {extension}'
       title: 'Pengaturan akses terbatas'

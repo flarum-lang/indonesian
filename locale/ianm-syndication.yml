@@ -33,6 +33,7 @@ ianm-syndication:
         main_d_subtitle: 'Diskusi terbaru dalam forum'
         main_d_title: 'Diskusi baru di {forum_name}'
         main_subtitle: 'Tulisan terakhir di forum'
+        main_title: '{forum_name}'
         tag_d_subtitle: 'Diskusi terbaru dalam tag {tag}'
         tag_d_title: 'Diskusi baru dalam tag {tag}'
         tag_subtitle: 'Tulisan terakhir dalam tag {tag}'

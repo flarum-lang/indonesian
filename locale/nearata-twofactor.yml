@@ -12,6 +12,7 @@ nearata-twofactor:
     login:
       app:
         invalid_passcode: 'Passcode tidak valid.'
+        passcode_placeholder: '6-digit passcode'
       auth_buttons:
         app: 'Aplikasi Autentikasi'
       placeholder_label: 'Pilih metode autentikasi...'
@@ -38,6 +39,7 @@ nearata-twofactor:
             scan_qr: 'Scan kode QR ini dengan perangkat autentikasi dua faktor untuk mengatur akun Anda.'
             success: 'Aplikasi Autentikasi diaktifkan.'
           invalid_passcode: 'Password atau passcode tidak valid.'
+          passcode_placeholder: '6-digit passcode'
           password_placeholder: Password
           title: 'Mengatur Aplikasi Autentikasi'
       configured: Terkonfigurasi

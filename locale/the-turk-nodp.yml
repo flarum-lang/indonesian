@@ -4,6 +4,8 @@
 
 the-turk-nodp:
   admin:
+    permissions:
+      double_posting_label: 'Double Posting'
     settings:
       time_limit_label: 'Batas Waktu'
       time_limit_text: 'Jika lebih dari <b>xxx</b> menit telah berlalu sejak post terakhir dalam sebuah diskusi, penulis post terakhir akan dipaksa untuk mengedit post mereka. Atur ini ke <b>0</b> untuk menonaktifkan batas waktu.'

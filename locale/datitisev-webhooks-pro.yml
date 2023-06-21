@@ -10,6 +10,10 @@ fof-webhooks:
     ip:
       banned: 'IP dicekal `{1}`'
       unbanned: 'IP tidak dicekal `{1}`'
+    post:
+      unreacted: 'Menghapus reaksi mereka dari sebuah postingan'
+    user:
+      enabled2fa: 'Mengaktifkan 2FA'
   admin:
     settings:
       actions:

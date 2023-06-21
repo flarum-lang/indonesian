@@ -29,6 +29,7 @@ kilowhat-custom-paths:
         v17development-blog: 'v17development''s Flarum Blog'
       head:
         name: Nama
+        path: Path
       paths:
         askvortsov-categories: Kategori
         clarkwinkelmann-discussion-lists-profile: 'Daftar pengguna'

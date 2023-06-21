@@ -60,6 +60,7 @@ v17development-flarum-badges:
       edit_own_card_badges: 'Mengedit user card badge Anda sendiri'
       give_badge: 'Memberikan badge kepada pengguna'
       take_badge: 'Mengambil badge dari pengguna'
+    show_badges_on_user_card: 'Tampilkan badge pada user card'
     uncategorized: 'Tidak dikategorikan'
     update_badge: 'Perbarui badge'
     update_category: 'Perbarui kategori'

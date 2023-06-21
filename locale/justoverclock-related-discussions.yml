@@ -13,5 +13,9 @@ justoverclock-related-discussions:
     showTooltip: 'Tampilkan Tooltip dengan Kutipan'
   forum:
     deleted: Dihapus
+    hasBestAnswer: Selesai
+    hasBestAnswer-title: 'Diskusi ini ditandai sebagai selesai'
+    participants: Peserta
+    postedOn: 'di:'
     postnumber: 'Jumlah postingan'
     reldiscussion: 'Diskusi Yang Disarankan:'

@@ -16,6 +16,7 @@ kilowhat-wordpress:
     settings:
       api_key: 'Flarum API Key'
       comment_author_sync_help: 'Jika penulis Wordpress telah membuat akun Flarum melalui SSO, akun Flarum tersebut akan ditetapkan sebagai pemilik diskusi komentar.'
+      cookie_domain: 'Domain Cookie'
       cookie_domain_help: 'Hanya diperlukan jika berbeda dari domain Flarum'
       enable_comments: 'Aktifkan integrasi komentar'
       enable_sso: 'Aktifkan integrasi SSO'
@@ -45,6 +46,7 @@ kilowhat-wordpress:
         delete: 'Hapus pengguna Flarum'
         ignore: 'Abaikan (pertahankan pengguna Flarum)'
         suspend: 'Tangguhkan pengguna Flarum tanpa batas waktu (Ekstensi Suspend harus diaktifkan)'
+      username_strategy: 'Username untuk pengguna baru'
       username_strategy_help: 'Nomor akan ditambahkan ke username jika sudah ada di Flarum'
       welcome_message: 'Pesan pengantar'
       welcome_message_help: 'Pesan ini akan ditampilkan saat pertama kali pengguna mengunjungi forum, bersama dengan pilihan username jika diaktifkan.'

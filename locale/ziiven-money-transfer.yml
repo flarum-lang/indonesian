@@ -25,6 +25,7 @@ ziven-transfer-money:
     transfer-list-assign-at: 'Tanggal Transfer'
     transfer-list-empty: 'Tidak ada riwayat transfer'
     transfer-list-id: ID
+    transfer-list-load-more: 'Muat Lebih Banyak'
     transfer-list-transfer-amount: Jumlah
     transfer-list-transfer-notes: Catatan
     transfer-list-transfer-notes-none: 'Tidak ada'

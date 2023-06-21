@@ -34,5 +34,6 @@ blomstra-payments:
       title: 'Opsi pembayaran untuk mendapatkan akses ke {group}'
     subscription-card:
       cancel-control: Batal
+      none: 'Tidak ada pembayaran atau langganan aktif'
     tag:
       require-payment-label: 'Dibutuhkan Pembayaran'
