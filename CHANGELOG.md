@@ -5,19 +5,31 @@ CHANGELOG
 1.8.0 (XXXX-XX-XX)
 ------------------
 
+**Perubahan umum**:
+
+* Memperbarui terjemahan untuk validasi.
+
+
 **Menambahkan dukungan untuk ekstensi**:
 
 * [`akr/chevereto`](https://github.com/AKR-Developers/flarum-chevereto)
+* [`datlechin/flarum-birthdays-widget`](https://github.com/datlechin/flarum-birthdays-widget)
+* [`justoverclock/hot-discussions-cards`](https://github.com/justoverclockl/hot-discussions-cards)
+* [`marchccc/flarum-ext-mentions-group-users`](https://github.com/Marchccc/flarum-ext-mentions-group-users)
 * [`peruguitar/flarum-ext-user-portrait`](https://github.com/Anexsoft/peruguitar-flarum-ext-user-portrait)
 * [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak)
 
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`clarkwinkelmann/flarum-ext-vote-with-money`](https://github.com/clarkwinkelmann/flarum-ext-vote-with-money)
 * [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`justoverclock/flarum-ext-welcomebox`](https://github.com/justoverclockl/flarum-ext-welcomebox)
+* [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
 * [`kyrne/evergreen`](https://github.com/KyrneDev/Evergreen)
+* [`sycho/flarum-private-facade`](https://extiverse.com/extension/sycho/flarum-private-facade)
 
 
 Semua perubahan: [1.7.0...1.8.0](https://github.com/flarum-lang/indonesian/compare/1.7.0...1.8.0).
