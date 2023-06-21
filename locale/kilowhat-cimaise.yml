@@ -26,6 +26,8 @@ kilowhat-cimaise:
       watermarkFileHelp: 'Gambar yang disediakan akan diterapkan 1:1 di setiap upload, kecuali pratinjau terkecil.'
   forum:
     album-list:
+      load-more: '=> kilowhat-cimaise.ref.load-more'
+      loading: '=> kilowhat-cimaise.ref.loading'
       title: '=> kilowhat-cimaise.ref.albums'
     album-search:
       title: '=> kilowhat-cimaise.ref.albums'
@@ -33,6 +35,7 @@ kilowhat-cimaise:
       loading: '=> kilowhat-cimaise.ref.loading'
     album-thumbnail:
       by-user: '=> kilowhat-cimaise.ref.by-user'
+      controls: '=> kilowhat-cimaise.ref.controls'
       delete: '=> kilowhat-cimaise.ref.delete'
       hide: '=> kilowhat-cimaise.ref.hide'
       restore: '=> kilowhat-cimaise.ref.restore'

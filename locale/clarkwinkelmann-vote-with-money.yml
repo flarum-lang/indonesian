@@ -5,7 +5,7 @@
 clarkwinkelmann-vote-with-money:
   admin:
     settings:
-      max: 'Nilai maksimal'
+      max: 'Nilai maksimum'
       min: 'Nilai minimal'
       preselection: 'Jumlah yang telah dipilih sebelumnya (dipisahkan dengan koma, opsional)'
   api:

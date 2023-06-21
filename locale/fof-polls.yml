@@ -27,8 +27,9 @@ fof-polls:
       edit_title: 'Edit polling'
       image_option_placeholder: 'URL Gambar (optional)'
       include_question: 'Anda harus memasukkan pertanyaan'
-      max: 'Anda dapat memiliki maksimal 10 jawaban'
+      max: 'Anda dapat memiliki maksimum 10 jawaban'
       max_votes_help: 'Atur ke 0 untuk memungkinkan pengguna memilih semua opsi.'
+      max_votes_label: 'Jumlah maksimum vote per pengguna'
       min: 'Memasukkan minimal 2 jawaban'
       no_voters: 'Belum Ada Suara'
       option_placeholder: Jawaban
@@ -41,10 +42,10 @@ fof-polls:
       delete_confirm: 'Apakah anda yakin ingin menghapus polling ini?'
       edit: 'Edit polling'
     no_permission: 'Anda tidak memiliki izin untuk melakukan voting'
-    poll_ended: 'Polling ini sudah berakhir'
+    poll_ended: 'Polling ini sudah berakhir.'
     public_poll: 'Lihat voter'
     tooltip:
       badge: Polling
-      votes: '{count, plural, one {# vote} other {# votes}}'
+      votes: '{count, plural, one {# vote} other {# vote}}'
     votes_modal:
       title: 'Para voter'
