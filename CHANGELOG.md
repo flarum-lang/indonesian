@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.8.1 (XXXX-XX-XX)
+------------------
+
+**Perubahan umum**:
+
+* Memperbarui terjemahan untuk validasi.
+
+
+Semua perubahan: [1.8.0...1.8.1](https://github.com/flarum-lang/indonesian/compare/1.8.0...1.8.1).
+
+
 1.8.0 (2023-06-21)
 ------------------
 
