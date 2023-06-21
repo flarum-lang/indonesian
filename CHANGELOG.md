@@ -12,9 +12,29 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`askvortsov/flarum-article-series`](https://github.com/askvortsov1/flarum-article-series)
+* [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
+* [`clarkwinkelmann/flarum-ext-carving-contest`](https://github.com/clarkwinkelmann/flarum-ext-carving-contest)
+* [`clarkwinkelmann/flarum-ext-featured-discussions`](https://github.com/clarkwinkelmann/flarum-ext-featured-discussions)
+* [`clarkwinkelmann/flarum-ext-money-rewards`](https://github.com/clarkwinkelmann/flarum-ext-money-rewards)
+* [`clarkwinkelmann/flarum-ext-scratchpad`](https://github.com/clarkwinkelmann/flarum-ext-scratchpad)
+* [`clarkwinkelmann/flarum-ext-status`](https://github.com/clarkwinkelmann/flarum-ext-status)
+* [`clarkwinkelmann/flarum-ext-sudo-mode`](https://github.com/clarkwinkelmann/flarum-ext-sudo-mode)
+* [`clarkwinkelmann/flarum-ext-vote-with-money`](https://github.com/clarkwinkelmann/flarum-ext-vote-with-money)
+* [`flarumite/simple-discussion-views`](https://github.com/flarumite/simple-discussion-views)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`justoverclock/flarum-ext-feedback`](https://github.com/justoverclockl/flarum-ext-feedback)
+* [`justoverclock/flarum-ext-newsletter`](https://github.com/justoverclockl/flarum-ext-newsletter)
 * [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
 * [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+* [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
+* [`nomiscz/flarum-ext-auth-wechat`](https://github.com/NomisCZ/flarum-ext-auth-wechat)
+* [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts)
+* [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar)
 * [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store)
+* [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see)
+* [`ziiven/flarum-raffle-ticket`](https://extiverse.com/extension/ziiven/flarum-raffle-ticket)
 
 
 Semua perubahan: [1.8.0...1.8.1](https://github.com/flarum-lang/indonesian/compare/1.8.0...1.8.1).
