@@ -2,6 +2,30 @@ CHANGELOG
 =========
 
 
+1.8.2 (XXXX-XX-XX)
+------------------
+
+**Perubahan umum**:
+
+* Memperbarui terjemahan untuk Flarum core.
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`clarkwinkelmann/flarum-ext-default-image-alt`](https://github.com/clarkwinkelmann/flarum-ext-default-image-alt)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`ganuonglachanh/sonic`](https://github.com/ganuonglachanh/flarum-sonic)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+* [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload)
+* [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview)
+
+
+Semua perubahan: [1.8.1...1.8.2](https://github.com/flarum-lang/indonesian/compare/1.8.1...1.8.2).
+
+
 1.8.1 (2023-06-21)
 ------------------
 
