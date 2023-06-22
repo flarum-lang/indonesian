@@ -39,6 +39,7 @@ fof-linguist:
       include-all: 'Sertakan terjemahan yang ditetapkan untuk "Semua" bahasa'
       include-originals: 'Sertakan terjemahan aslinya'
       locale: Lokal
+      locale-all: 'Pseudo-locale "Semua"'
       namespace: Namespace
       namespace-all: Semua
       output: Output

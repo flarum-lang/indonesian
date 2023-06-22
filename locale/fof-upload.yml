@@ -112,7 +112,7 @@ fof-upload:
   api:
     upload_errors:
       could_not_detect_mime: 'Tidak dapat mendeteksi MIME type file ini, harap coba lagi.'
-      forbidden_type: 'Upload file jenis ini tidak diperbolehkan.'
+      forbidden_type: 'Mengunggah file jenis ini tidak diperbolehkan.'
       unsupported_type: 'Adaptor upload tidak mendukung mime type yang disediakan: {mime}.'
   forum:
     buttons:
@@ -139,7 +139,7 @@ fof-upload:
     media_manager: 'Media manager'
     states:
       error: Error
-      loading: Meng-upload
+      loading: Mengunggah
       unauthorized: 'Anda tidak diizinkan untuk men-download file'
     text_preview:
       collapse: 'Perkecil pratinjau'

@@ -21,6 +21,7 @@ kilowhat-formulaire:
     settings:
       horizontal-layout: 'Gunakan tata letak form horizontal'
       horizontal-layout-locations:
+        discussionComposer: 'Area Pengeditan Diskusi'
         profileEdit: 'Halaman Edit Profil'
         profileView: 'Halaman Tampilan Profil'
         standaloneView: 'Halaman Tampilan Mandiri'
@@ -31,6 +32,7 @@ kilowhat-formulaire:
         fas-circle: 'Ikon FontAwesome Solid Circle'
         fas-square: 'Ikon FontAwesome Solid Square'
         native: 'Kontrol browser bawaan'
+      uniformComposerLayout: 'Tata letak area pengeditan diskusi yang seragam'
   api:
     export:
       meta:
