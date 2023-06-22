@@ -15,7 +15,7 @@ vlssu-flarum-cravatar:
         title: Default
         wavatar_label: 'wavatar: wajah yang dihasilkan dengan fitur dan latar belakang yang berbeda'
       force-default:
-        helptext: 'Memaksakan penggunaan pengaturan default, meskipun link hash email ke avatar yang di-upload oleh pengguna'
+        helptext: 'Memaksakan penggunaan pengaturan default, meskipun link hash email ke avatar yang diunggah oleh pengguna'
         title: 'Paksa default'
       proxy:
         helptext: 'Secara default, URL cravatar diambil langsung dari cravatar.cn. Hal ini memungkinkan semua permintaan cravatar dilayani secara langsung oleh forum itu sendiri.'
@@ -28,8 +28,8 @@ vlssu-flarum-cravatar:
         title: Peringkat
         x_label: 'x: mungkin mengandung gambar seksual atau kekerasan'
       replace-flarum-custom:
-        helptext: 'Mengganti avatar yang sudah di-upload ke forum dengan Cravatar'
-        title: 'Ganti avatar yang telah di-upload ke Forum'
+        helptext: 'Mengganti avatar yang sudah diunggah ke forum dengan Cravatar'
+        title: 'Ganti avatar yang telah diunggah ke Forum'
   forum:
     settings:
       edit-cravatar: 'Kelola avatar di cravatar.cn'

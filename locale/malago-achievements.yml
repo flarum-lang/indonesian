@@ -43,7 +43,7 @@ malago-achievements:
       username: Username
       username_placeholder: Username
       variable:
-        avatar: 'Avatar diupload'
+        avatar: 'Avatar diunggah'
         comments: 'Tanggapan yang diterima dalam diskusi'
         contains: 'Pesan berisi'
         discussions: Diskusi

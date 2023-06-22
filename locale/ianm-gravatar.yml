@@ -15,7 +15,7 @@ ianm-gravatar:
         title: Default
         wavatar_label: 'wavatar: wajah yang dihasilkan dengan fitur dan latar belakang yang berbeda'
       force-default:
-        helptext: 'Memaksakan penggunaan set default, meskipun link hash email terhubung ke avatar yang di-upload oleh user'
+        helptext: 'Memaksakan penggunaan set default, meskipun link hash email terhubung ke avatar yang diunggah oleh user'
         title: 'Paksa default'
       proxy:
         helptext: 'Secara default, URL gravatar diambil langsung dari gravatar.com. Hal ini memungkinkan semua permintaan gravatar dilayani secara langsung oleh forum itu sendiri.'
@@ -28,8 +28,8 @@ ianm-gravatar:
         title: Peringkat
         x_label: 'x: mungkin mengandung gambar seksual atau kekerasan'
       replace-flarum-custom:
-        helptext: 'Mengganti avatar yang telah diupload ke forum dengan Gravatar'
-        title: 'Ganti avatar yang diupload ke Forum'
+        helptext: 'Mengganti avatar yang telah diunggah ke forum dengan Gravatar'
+        title: 'Ganti avatar yang diunggah ke Forum'
   forum:
     settings:
       edit-gravatar: 'Kelola avatar di gravatar.com'

@@ -77,8 +77,10 @@ kilowhat-cimaise:
       restore: '=> kilowhat-cimaise.ref.restore'
     attach-album-modal:
       no-results: 'Tidak ada hasil'
+      none-selected: 'Tidak ada'
       search: Pencarian
       select: Pilih
+      selected: 'Dipilih:'
       submit: Submit
       title: 'Lampirkan album ke "{title}"'
       unselect: 'Batalkan pilihan'
@@ -130,12 +132,15 @@ kilowhat-cimaise:
       next: 'Gambar selanjutnya'
       previous: 'Gambar sebelumnya'
       published-at: 'Dipublikasikan {ago}'
+      show-exif: 'Semua data EXIF'
       taken-at: 'Diambil {ago}'
     picture-sort:
       latest: 'Unggahan terbaru'
       oldest: 'Unggahan terlama'
     picture-thumbnail:
       by-user: '=> kilowhat-cimaise.ref.by-user'
+    post-stream:
+      uploaded: '{username} mengunggah {count} gambar'
     upload-modal:
       drop-file: 'atau seret dan letakkan di sini'
       processing: Memproses

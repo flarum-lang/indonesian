@@ -10,7 +10,7 @@ sycho-profile-cover:
     thumbnails: 'Membuat thumbnail'
   forum:
     added:
-      error: 'Gambar tidak dapat diupload.'
+      error: 'Gambar tidak dapat diunggah.'
       success: 'Cover profil diperbarui.'
     cover: Cover
     edit_cover: 'Edit Cover'
