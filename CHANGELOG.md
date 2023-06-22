@@ -17,9 +17,14 @@ CHANGELOG
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`ganuonglachanh/sonic`](https://github.com/ganuonglachanh/flarum-sonic)
+* [`ianm/gravatar`](https://github.com/imorland/gravatar)
 * [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
 * [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+* [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements)
 * [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload)
+* [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
+* [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
 * [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview)
 
 
