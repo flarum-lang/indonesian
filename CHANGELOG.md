@@ -19,6 +19,7 @@ CHANGELOG
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`ganuonglachanh/sonic`](https://github.com/ganuonglachanh/flarum-sonic)
@@ -27,12 +28,15 @@ CHANGELOG
 * [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
 * [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
 * [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
 * [`malago/flarum-achievements`](https://github.com/malago86/flarum-achievements)
 * [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload)
 * [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
 * [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
 * [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
 * [`webbinaro/gpx-preview`](https://github.com/eddiewebb/flarum-gpx-preview)
+* [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag)
+* [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store)
 
 
 Semua perubahan: [1.8.1...1.8.2](https://github.com/flarum-lang/indonesian/compare/1.8.1...1.8.2).
