@@ -30,6 +30,7 @@ xsoft-mason-tag:
       name-help: "Label kolom yang dapat dilihat oleh publik (tidak dapat diterjemahkan).\n"
       new-answer: 'Jawaban baru'
       new-answer-placeholder: 'Beberapa teks'
+      required: Dibutuhkan
       save-field-for-answers: 'Simpan kolom untuk menambahkan jawaban'
       show_when_empty: 'Tampilkan saat kosong'
       show_when_empty-help: 'Apakah akan menampilkan kolom pada diskusi ketika tidak ada jawaban'

@@ -78,4 +78,4 @@ ziven-decoration-store:
     list-load-more: 'Muat Lebih Banyak'
     none: 'Tidak ada'
     ok: OK
-    submit-error-field-empty: 'Anda perlu mengisi nilai yang diperlukan'
+    submit-error-field-empty: 'Anda harus mengisi nilai yang dibutuhkan'

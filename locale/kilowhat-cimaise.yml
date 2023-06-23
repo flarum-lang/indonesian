@@ -33,6 +33,7 @@ kilowhat-cimaise:
       mapboxTokenHelp: 'Isi token yang valid untuk menampilkan peta geolokasi di dalam meta gambar.'
       neverSyncDiscussionAlbumTitles: 'Jangan pernah menyinkronkan diskusi dan judul album'
       neverSyncDiscussionAlbumTitlesHelp: "Secara default, album yang dihubungkan yang memiliki judul yang sama persis dengan diskusi akan diganti namanya ketika judul diskusi berubah. Jika album diganti namanya secara manual, album tersebut tidak akan disinkronkan kembali ke diskusi.\n"
+      requireLicense: 'Anda perlu memilih lisensi dari daftar di bawah ini'
       requireLicenseHelp: "Secara default, pengguna dapat melewatkan pengaturan lisensi. Pastikan persyaratan penggunaan situs web Anda mencakup apa yang dapat dilakukan dengan media yang lisensinya tidak ditentukan.\n"
       sticker-key: Key
       sticker-label: Label
