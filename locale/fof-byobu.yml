@@ -83,6 +83,7 @@ fof-byobu:
         added: '{username} menambahkan {added} sebagai penerima.'
         added_and_removed: '{username} menambahkan {added} sebagai penerima dan menghapus {removed}.'
         made_public: '{username} menghapus semua penerima dan membuat diskusi menjadi publik'
+        removed: '{username} menghapus penerima {removed}.'
         removed_self: '{username} meninggalkan diskusi pribadi.'
     search:
       headings:

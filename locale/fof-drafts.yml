@@ -43,6 +43,7 @@ fof-drafts:
       text: 'Jadwalkan draft Anda untuk diposting secara otomatis di lain waktu!'
       title: '=> fof-drafts.ref.schedule_draft'
       unschedule_button: 'Tidak dijadwalkan'
+      unschedule_warning: 'Apakah Anda yakin ingin membatalkan jadwal draft ini?'
     user:
       settings:
         draft_autosave_enable: 'Aktifkan Penyimpanan Otomatis?'
@@ -50,3 +51,5 @@ fof-drafts:
         draft_autosave_interval_invalid: 'Interval harus bilangan bulat lebih besar dari 4.'
         draft_autosave_interval_label: 'Interval Penyimpanan Otomatis (detik)'
         drafts_heading: Draft
+  ref:
+    schedule_draft: 'Jadwal draft'
