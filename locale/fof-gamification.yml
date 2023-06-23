@@ -51,6 +51,7 @@ fof-gamification:
         alternate_layout: 'Gunakan tata letak voting alternatif pada daftar diskusi'
         alternate_post_layout: 'Gunakan tata letak voting alternatif pada postingan'
         auto_upvote: 'Berikan Upvote secara otomatis pada postingan saat diposting'
+        color_holder: '#ffffff'
         discussion_page: 'Tampilkan total vote dari postingan awal pada daftar diskusi'
         first_post_only: 'Hanya diizinkan untuk memberikan Upvote/Downvote pada postingan awal dalam sebuah diskusi'
         icon_help: 'Masukkan ikon Font-Awesome apa pun yang diakhiri dengan -up dan -down. Contoh: arrow, thumbs, chevron'
@@ -67,6 +68,8 @@ fof-gamification:
       upvote_notifications: 'Menerima notifikasi tentang Upvote'
       vote_label: 'Memberikan Upvote/Downvote pada postingan'
   email:
+    body:
+      postVoted: "Hai {recipient_display_name},\n\n{actor_display_name} baru saja memberikan vote pada postingan Anda di {discussion_title}.\n\nLihat di sini: {discussion_url}\n"
     subject:
       postVoted: 'Post Anda telah mendapatkan vote dari {display_name}'
   forum:

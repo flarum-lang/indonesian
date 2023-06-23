@@ -4,6 +4,8 @@
 
 kilowhat-rich-embeds:
   admin:
+    permissions:
+      viewGoogleDriveThumbnails: 'Melihat thumbnail Google Drive yang didukung API'
     preview:
       loading: Memuat...
       title: Pratinjau

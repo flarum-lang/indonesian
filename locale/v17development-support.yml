@@ -41,6 +41,7 @@ v17development-flarum-support:
       article_saved: 'Artikel telah disimpan'
       enter_message_here: 'Masukkan pesan Anda di sini'
       new_article_title: 'Judul artikel baru'
+      view: Lihat
     create: Buat
     discard: Buang
     hero:
