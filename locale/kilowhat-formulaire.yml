@@ -33,6 +33,7 @@ kilowhat-formulaire:
         fas-square: 'Ikon FontAwesome Solid Square'
         native: 'Kontrol browser bawaan'
       uniformComposerLayout: 'Tata letak area pengeditan diskusi yang seragam'
+      uniformComposerLayoutHelp: "Mengubah gaya tag, judul, dan bidang konten agar sesuai dengan Formulaire. Tata letak ini akan membutuhkan lebih banyak ruang, jadi Anda disarankan untuk menginstal dan mengaktifkan ekstensi <a>Composer Page</a>.\n"
   api:
     export:
       meta:
@@ -130,6 +131,9 @@ kilowhat-formulaire:
       field:
         automatic-discussion-help: "Ketika diaktifkan, formulir akan terus dapat diakses seperti formulir mandiri. Kiriman akan secara otomatis dibuat dan terhubung dengan diskusi baru.\n"
         enable: Aktifkan
+        notify-emails: 'Kirimkan salinan data ke email yang dipisahkan dengan koma tersebut'
+        send-confirmation-to-participants: 'Mengirimkan email konfirmasi kepada peserta'
+        web-confirmation-message: 'Pesan konfirmasi di web (pemformatan diaktifkan)'
       link-options:
         all-groups: 'Untuk semua grup'
         all-tags: 'Untuk semua tag'

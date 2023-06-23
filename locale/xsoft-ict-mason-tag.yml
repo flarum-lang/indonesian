@@ -53,6 +53,7 @@ xsoft-mason-tag:
       by-tag-name: 'Tag apa saja yang mendapatkan metadata?'
       column-count: 'Jumlah kolom saat menampilkan kolom'
       composer-height-help: 'default adalah 200, harus lebih tinggi dari itu untuk mengakomodasi kolom.'
+      composer-height-placeholder: '320'
       fields-in-hero: 'Tampilkan kolom di banner diskusi, bukan di post yang pertama'
       fields-section-title: 'Judul pada bagian kolom khusus'
       fields-section-title-help: "User akan melihat teks ini di atas kolom khusus di editor dan di diskusi.\n"
@@ -66,7 +67,6 @@ xsoft-mason-tag:
       tags-as-field-help: "Ini akan menyembunyikan tag selector default dan menampilkan kolom dropdown khusus sebagai gantinya. Ini hanya akan berfungsi jika Anda mengizinkan hingga satu tag primer dan satu tag sekunder!\n"
       tags-field-name-placeholder: '=> xsoft-mason-tag.forum.tags.tags-label'
     titles:
-      field-answers: 'Kolom jawaban'
       field-settings: 'Pengaturan kolom'
       fields: Kolom
       settings: Pengaturan
