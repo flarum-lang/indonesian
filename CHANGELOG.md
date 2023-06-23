@@ -25,6 +25,7 @@ CHANGELOG
 * [`ganuonglachanh/sonic`](https://github.com/ganuonglachanh/flarum-sonic)
 * [`ianm/gravatar`](https://github.com/imorland/gravatar)
 * [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`justoverclock/igdb-api`](https://extiverse.com/extension/justoverclock/igdb-api)
 * [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
 * [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
 * [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
