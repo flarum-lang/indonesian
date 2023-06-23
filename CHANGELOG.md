@@ -13,8 +13,12 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`clarkwinkelmann/flarum-ext-default-image-alt`](https://github.com/clarkwinkelmann/flarum-ext-default-image-alt)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`ganuonglachanh/sonic`](https://github.com/ganuonglachanh/flarum-sonic)
 * [`ianm/gravatar`](https://github.com/imorland/gravatar)
