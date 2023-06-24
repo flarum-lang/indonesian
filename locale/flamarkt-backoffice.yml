@@ -7,9 +7,9 @@ flamarkt-backoffice:
     settingsInBackoffice: 'Pengaturan di backoffice'
   backoffice:
     nav:
-      dashboard: Dashboard
+      dashboard: '=> core.admin.dashboard.title'
       searchPlaceholder: '=> core.admin.nav.search_placeholder'
-      users: User
+      users: '=> core.ref.users'
     permissions:
       backoffice: 'Menggunakan backoffice'
     settingsNotAvailableForNonAdmin: 'Ekstensi ini memiliki pengaturan, tetapi hanya akun admin yang dapat melihat dan mengeditnya.'
@@ -22,7 +22,7 @@ flamarkt-backoffice:
         email: Email
       new: 'Membuat user'
       searchPlaceholder: 'Cari seseorang...'
-      title: User
+      title: '=> core.ref.users'
   lib:
     header:
       admin_button: '=> core.forum.header.admin_button'

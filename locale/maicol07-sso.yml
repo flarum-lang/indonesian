@@ -18,7 +18,7 @@ maicol07-sso:
       jwt_signer_key: 'Kunci penanda tangan'
       jwt_signing_algorithm: 'Metode Penandatanganan'
       login_url: 'URL Login'
-      logout_url: 'URL Keluar'
+      logout_url: 'URL Logout'
       manage_account_btn_open_in_new_tab: 'Buka manajemen akun di tab baru'
       manage_account_url: 'Kelola URL akun'
       provider_mode: 'Aktifkan opsi ini untuk menggunakan mode provider (SSO antar Flarum instance). Mengizinkan Flarum instance lain untuk login sebagai user Flarum instance ini. Ini akan menonaktifkan fitur SSO standar dengan situs web lain.'
