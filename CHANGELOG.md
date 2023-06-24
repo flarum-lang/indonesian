@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+1.8.3 (XXXX-XX-XX)
+------------------
+
+**Perubahan umum**:
+
+* Memperbarui terjemahan untuk Flarum core.
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`clarkwinkelmann/flarum-ext-meilisearch-dashboard`](https://github.com/clarkwinkelmann/flarum-ext-meilisearch-dashboard)
+* [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice)
+* [`fof/pages`](https://github.com/FriendsOfFlarum/pages)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
+* [`miniflar/admin-notepad-widget`](https://github.com/miniflar/admin-notepad-widget)
+* [`the-turk/flarum-miserable-users`](https://github.com/the-turk/flarum-miserable-users)
+
+
+Semua perubahan: [1.8.2...1.8.3](https://github.com/flarum-lang/indonesian/compare/1.8.2...1.8.3).
+
+
 1.8.2 (2023-06-24)
 ------------------
 
