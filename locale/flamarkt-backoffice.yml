@@ -21,7 +21,7 @@ flamarkt-backoffice:
       head:
         email: Email
       new: 'Membuat user'
-      searchPlaceholder: 'Cari seseorang...'
+      searchPlaceholder: 'Cari pengguna...'
       title: '=> core.ref.users'
   lib:
     header:
