@@ -13,6 +13,7 @@ v17development-flarum-support:
     ticket_status_update:
       subject: 'Tiket #{ticket_id} ditandai sebagai {new_status}'
   forum:
+    admin_overview: 'Buka tinjauan umum admin'
     article:
       article: Artikel
       articles: Artikel
@@ -42,6 +43,8 @@ v17development-flarum-support:
       article_saved: 'Artikel telah disimpan'
       enter_message_here: 'Masukkan pesan Anda di sini'
       new_article_title: 'Judul artikel baru'
+      publish_article: 'Terbitkan artikel'
+      publish_article_hint: 'Terbitkan artikel setelah diposting.'
       view: Lihat
     create: Buat
     discard: Buang
@@ -72,6 +75,7 @@ v17development-flarum-support:
       back_to: 'Kembali ke {category}'
       back_to_main_categories: 'Kembali ke kategori utama'
       category_not_found: 'Kategori tidak ditemukan'
+      knowledge_base_overview: 'Gambaran umum basis pengetahuan'
       loading_articles: 'Memuat artikel'
       no_articles_found: 'Tidak ada artikel yang ditemukan dalam kategori ini'
       no_categories_found: 'Maaf, tidak ada kategori yang ditemukan di sini...'

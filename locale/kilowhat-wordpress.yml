@@ -95,6 +95,7 @@ kilowhat-wordpress:
       plugin_not_installed: "Plugin WordPress tampaknya tidak diinstal atau diaktifkan pada situs WordPress tersebut. Pastikan Anda telah menginstal setidaknya versi 1.2.0.\n"
   forum:
     edit-user-modal:
+      unlink: 'Putuskan pengguna ini dari pengguna wordpress'
       unlink_help: 'Jika email tersebut cocok dengan pengguna WordPress, maka email tersebut akan dihubungkan lagi pada saat pengguna tersebut terhubung di WordPress.'
       warning: "Pengguna ini akan tetap tersinkronisasi dengan WordPress. Anda harus mengedit email dan password dari WordPress.\n"
     embed-link-modal:
@@ -115,3 +116,6 @@ kilowhat-wordpress:
       submit: 'Aktifkan akun forum'
       title: 'Selamat datang!'
       username: 'Pilih username'
+  views:
+    error:
+      missing_wordpress_embed: "Postingan ini belum memiliki thread komentar. Jika Anda adalah administrator blog, terbitkan postingan, atau nonaktifkan dan aktifkan kembali komentar untuk memulai sebuah thread.\n"

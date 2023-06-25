@@ -14,7 +14,7 @@ kilowhat-cimaise:
       hideOwnAlbum: 'Menyembunyikan album sendiri'
       hideOwnPicture: 'Menyembunyikan gambar sendiri'
       licenseOwnPublishedPicture: 'Mengubah lisensi gambar sendiri setelah dipublikasikan'
-      publishSilently: 'Mempublikasikan gambar secara diam-diam (tanpa event post)'
+      publishSilently: 'Menerbitkan gambar secara diam-diam (tanpa event post)'
       renameOwnPublishedPicture: 'Mengubah judul dan deskripsi gambar sendiri setelah dipublikasikan'
       uploadCommunityPicturesWithoutApproval: 'Mengunggah gambar tanpa persetujuan di album komunitas'
       uploadPersonalPicturesWithoutApproval: 'Mengunggah gambar tanpa persetujuan di album pribadi'
@@ -145,7 +145,7 @@ kilowhat-cimaise:
     upload-modal:
       drop-file: 'atau seret dan letakkan di sini'
       processing: Memproses
-      publishSilently: 'Publikasikan secara diam-diam'
+      publishSilently: 'Terbitkan secara diam-diam'
       select-file: 'Pilih file'
       submit: Submit
       submitInComposer: Lanjutkan

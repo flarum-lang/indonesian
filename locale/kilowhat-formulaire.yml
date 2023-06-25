@@ -57,6 +57,8 @@ kilowhat-formulaire:
       introduction: "Pengaturan ini akan berlaku untuk diskusi baru yang telah dibuat secara otomatis dengan mengirimkan form yang terhubung dengan tag. Anda dapat menggunakan nilai dari pengiriman form menggunakan sintaksis kurung kurawal dengan field slug. Secara default, { title } dan { content } akan digunakan secara berurutan.\n"
       submit: 'Validasi perubahan'
       title: 'Opsi diskusi otomatis'
+    badge:
+      locked: Terkunci
     choice:
       other-label: 'Lainnya:'
       other-placeholder: Ketik...
@@ -199,11 +201,14 @@ kilowhat-formulaire:
     submission-index:
       columns:
         actions: Tindakan
+        user: Pengguna
       export: Ekspor
       load-more: 'Muat lebih banyak'
+      show: Tampilkan
     submission:
       delete: 'Hapus permanen'
       hide: Hapus
+      restore: Pulihkan
       submit-other: 'Submit yang lain'
     template-editor:
       description: Deskripsi
@@ -216,6 +221,7 @@ kilowhat-formulaire:
       regex: 'Regular expression'
       title: Judul
       type:
+        content: Konten
         date: Tanggal
         long: 'Teks panjang'
         number: Angka
