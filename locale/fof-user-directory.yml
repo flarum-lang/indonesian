@@ -9,7 +9,7 @@ fof-user-directory:
     settings:
       default-sort: 'Pengurutan default'
       disable-global-search-source: 'Jangan menambahkan Direktori User ke kolom pencarian global Flarum'
-      link: 'Tambahkan link di homepage agar user dapat melihat direktori'
+      link: 'Tambahkan link di beranda agar pengguna dapat melihat direktori'
       use-small-cards: 'Gunakan user card berukuran kecil'
   forum:
     header:

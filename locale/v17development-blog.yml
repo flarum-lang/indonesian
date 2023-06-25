@@ -25,7 +25,7 @@ v17development-flarum-blog:
       hide_on_discussion_list_label: 'Jangan tampilkan dalam daftar diskusi'
       hide_on_discussion_list_text: 'Sembunyikan postingan blog di daftar diskusi.'
       hide_tags_in_taglist_label: 'Sembunyikan tag dalam daftar tag'
-      hide_tags_in_taglist_text: 'Ketika diaktifkan, ekstensi ini akan menyembunyikan tag blog dari homepage Anda.'
+      hide_tags_in_taglist_text: 'Ketika diaktifkan, ekstensi ini akan menyembunyikan tag blog dari Beranda Anda.'
       no_categories_selected: 'Tidak ada kategori yang dipilih'
       redirect_articles_label: 'Alihkan artikel blog'
       redirect_articles_text: 'Ketika diaktifkan, ekstensi ini akan mengalihkan URL diskusi yang asli ke URL blog mereka.'

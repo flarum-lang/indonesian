@@ -31,7 +31,7 @@ flamarkt-taxonomies:
         showLabelDescription: "Style tampilan untuk daftar diskusi dan hero. Saat ini tidak digunakan untuk jenis resource lainnya.\n"
         slug: '=> flamarkt-taxonomies.ref.field.slug'
         tagScope: 'Hanya dalam tag tertentu'
-        tagScopeDescription: "Taksonomi hanya akan tersedia dalam tag yang dipilih. Jika Anda memilih satu tag, filter homepage hanya akan terlihat pada tag tertentu.\n"
+        tagScopeDescription: "Taksonomi hanya akan tersedia dalam tag yang dipilih. Jika Anda memilih satu tag, filter beranda hanya akan terlihat pada tag tertentu.\n"
         tagScopePlaceholder: 'Ketik untuk mencari tag...'
         type: Jenis
         typeDescription: "Taksonomi dapat digunakan pada beberapa Flarum resource. Jenisnya tidak dapat diubah setelah dibuat. Anda bisa menggunakan nama dan slug yang sama untuk taksonomi dengan tipe yang berbeda.\n"

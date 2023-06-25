@@ -42,7 +42,7 @@ kilowhat-custom-paths:
         fof-byobu: 'Diskusi pribadi'
         fof-pages: Halaman
         fof-user-directory: 'Direktori pengguna'
-        index: 'Daftar diskusi (jika bukan homepage)'
+        index: 'Daftar diskusi (jika bukan beranda)'
         notifications: 'Notifikasi (di perangkat seluler)'
         settings: Pengaturan
         tags: 'Daftar tag'

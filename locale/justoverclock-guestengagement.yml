@@ -10,7 +10,7 @@ flarum-ext-guestengagement:
     autohidedesc: 'Gunakan milidetik, misalnya untuk 5 detik gunakan 5000'
     changetextbox: 'Mengubah teks pada box'
     changetextboxdesc: 'Mengatur teks untuk alert box yang terletak DI ANTARA POST'
-    enablealbox: 'Mengaktifkan/Menonaktifkan Alert Box di Homepage'
+    enablealbox: 'Mengaktifkan/Menonaktifkan Alert Box di Beranda'
     enablepostbox: 'Mengaktifkan/Menonaktifkan box "Di Antara Post"'
     maintitle: 'Mengubah JUDUL pada box'
     maintitledesc: 'Mengatur Judul untuk alert box yang terletak DI ANTARA POST'

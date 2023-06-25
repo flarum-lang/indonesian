@@ -65,7 +65,7 @@ kilowhat-wordpress:
       wordpress_password: 'Password admin WordPress'
       wordpress_password_help: 'Password hanya digunakan untuk konfigurasi awal dan tidak akan disimpan.'
       wordpress_url: 'URL WordPress'
-      wordpress_url_help: 'Sebuah link ke halaman homepage WordPress Anda'
+      wordpress_url_help: 'Sebuah link ke halaman beranda WordPress Anda'
       wordpress_username: 'Username admin WordPress'
   api:
     blocked_actions:

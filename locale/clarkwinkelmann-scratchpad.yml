@@ -44,5 +44,5 @@ clarkwinkelmann-scratchpad:
       theme: 'Tema CodeMirror (harus di-refresh agar dapat diterapkan)'
       theme-auto: 'Otomatis (default untuk tema terang, dracula untuk tema gelap)'
       title: 'Pengaturan Scratchpad'
-      validate-live: 'Lakukan request ke homepage untuk memvalidasi Less dan PHP sebelum menyimpan'
+      validate-live: 'Lakukan permintaan ke beranda untuk memvalidasi Less dan PHP sebelum menyimpan'
       webpack-command: 'Perintah Webpack'
