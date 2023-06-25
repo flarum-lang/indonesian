@@ -20,7 +20,7 @@ flamarkt-backoffice:
         username: Username
       head:
         email: Email
-      new: 'Membuat user'
+      new: '=> core.admin.users.create_user_button'
       searchPlaceholder: 'Cari pengguna...'
       title: '=> core.ref.users'
   lib:

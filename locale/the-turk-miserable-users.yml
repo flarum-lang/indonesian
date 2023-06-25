@@ -14,7 +14,7 @@ the-turk-miserable-users:
       loading_delay_label: 'Penundaan pemuatan'
       loading_delay_text: 'Pengguna yang menyedihkan akan mengalami penundaan pemuatan halaman dengan periode acak di antara dua nilai yang disediakan di sini.'
       log_out_chance_label: 'Peluang logout'
-      log_out_chance_text: 'Masukkan persentase kemungkinan pengguna yang menyedihkan akan keluar dan dialihkan kembali ke halaman beranda. <b>Ingat!</b> Setelah logout, mereka tidak lagi menjadi pengguna yang menyedihkan.'
+      log_out_chance_text: 'Masukkan persentase kemungkinan pengguna yang menyedihkan akan keluar dan dialihkan kembali ke halaman beranda. <b>Ingat!</b> Setelah keluar, mereka tidak lagi menjadi pengguna yang menyedihkan.'
       range_seconds_text: ' Detik'
       range_separator_text: ' hingga '
       redirection_chance_label: 'Peluang pengalihan'

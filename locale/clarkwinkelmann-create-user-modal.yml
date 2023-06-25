@@ -7,7 +7,7 @@ clarkwinkelmann-create-user-modal:
     permissions:
       view: 'Melihat jendela modal pembuatan user'
   forum:
-    link: 'Membuat user baru'
+    link: 'Membuat pengguna baru'
     modal:
-      submit: 'Membuat User'
-      title: 'Membuat User'
+      submit: 'Buat Pengguna'
+      title: 'Membuat Pengguna'
