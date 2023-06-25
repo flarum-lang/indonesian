@@ -33,6 +33,7 @@ ziven-decoration-store:
     item-purchase-cost: 'Biaya pembelian'
     item-purchase-date: 'Tanggal pembelian'
     item-purchase-item-type: 'Jenis item'
+    item-purchase-item-type-usernameColor: 'Warna Username'
     item-purchase-purchase-type: 'Jenis pembelian'
     item-purchase-subscription-cost: 'Biaya berlangganan'
     item-purchase-title: 'Nama item'

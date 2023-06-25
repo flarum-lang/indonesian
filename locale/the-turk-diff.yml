@@ -29,6 +29,7 @@ the-turk-diff:
   forum:
     confirmDelete: 'Apakah Anda yakin ingin menghapus isi pengeditan ini dari history?'
     confirmRollback: 'Apakah Anda yakin ingin mengubah post Anda saat ini?'
+    createdInfo: '{username} dibuat {ago}'
     deleteButton: '=> core.forum.post_controls.delete_button'
     deleteErrorMessage: 'Penghapusan isi pengeditan gagal.'
     deleteSuccessMessage: 'Isi pengeditan telah dihapus.'

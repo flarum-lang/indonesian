@@ -15,6 +15,7 @@ kilowhat-wordpress:
       unsaved-changes: 'Anda memiliki perubahan yang belum tersimpan'
     settings:
       api_key: 'Flarum API Key'
+      comment_author_sync: 'Menetapkan penulis diskusi dari SSO'
       comment_author_sync_help: 'Jika penulis Wordpress telah membuat akun Flarum melalui SSO, akun Flarum tersebut akan ditetapkan sebagai pemilik diskusi komentar.'
       comment_tag_custom: 'Nilai khusus'
       comment_tag_custom_help: 'Daftar ID tag yang dipisahkan dengan koma'
@@ -82,11 +83,13 @@ kilowhat-wordpress:
       login: 'Akun ini terhubung dengan WordPress. Gunakan formulir login situs web utama untuk terhubung.'
       password_reset: 'Akun ini terhubung dengan WordPress. Gunakan formulir masuk situs web utama untuk mereset password Anda.'
     health:
+      api-error-401: 'Mencoba mengakses API WordPress menghasilkan kesalahan 401. Periksa kembali "username admin WordPress" di Flarum dan "Flarum API Key" di WordPress'
       comments-mismatch-flarum: 'Integrasi Komentar diaktifkan di Flarum, tetapi tidak di WordPress'
       comments-mismatch-wordpress: 'Integrasi Komentar diaktifkan di WordPress, tetapi tidak di Flarum'
       cookie-domain-format: 'Domain cookie tampaknya bukan domain yang valid. Periksa apakah itu hanya sebuah domain tanpa protokol atau path'
       sso-mismatch-flarum: 'Integrasi SSO diaktifkan di Flarum, tetapi tidak di WordPress'
       sso-mismatch-wordpress: 'Integrasi SSO diaktifkan di WordPress, tetapi tidak di Flarum'
+      wordpress-username-missing: 'Pengaturan "Username admin WordPress" harus diisi'
     wizard:
       api_unauthorized: "Kami tidak dapat mengautentikasi dengan kredensial yang diberikan. Periksa ulang URL, username, dan password. Periksa dokumentasi untuk mengetahui langkah-langkah pemecahan masalah lebih lanjut.\n"
       plugin_not_installed: "Plugin WordPress tampaknya tidak diinstal atau diaktifkan pada situs WordPress tersebut. Pastikan Anda telah menginstal setidaknya versi 1.2.0.\n"

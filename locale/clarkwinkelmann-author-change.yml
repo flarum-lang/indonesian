@@ -23,5 +23,5 @@ clarkwinkelmann-author-change:
       user: Penulis
     search:
       no-results: 'Tidak ada hasil'
-      placeholder: 'Cari seseorang'
+      placeholder: 'Cari pengguna'
       type-more: 'Ketik 3 karakter untuk mencari database'

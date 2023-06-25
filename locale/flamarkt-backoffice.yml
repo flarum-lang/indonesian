@@ -17,7 +17,7 @@ flamarkt-backoffice:
       field:
         email: Email
         password: Password
-        username: '=> core.ref.username'
+        username: Username
       head:
         email: Email
       new: '=> core.admin.users.create_user_button'
