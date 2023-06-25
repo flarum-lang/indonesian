@@ -30,7 +30,7 @@ nearata-twofactor:
             success: 'Aplikasi Autentikasi dinonaktifkan.'
           enable:
             backups:
-              copy_button_label: Copy
+              copy_button_label: Salin
               download_button_label: Download
               download_file_format: "{website_title} | {website_url}\n\nSimpan kode backup ini di tempat yang aman dan mudah diakses.\n\nDAFTAR KODE\n\n{codes}\n\n* Anda hanya dapat menggunakan setiap kode backup satu kali.\n* Kode-kode ini HARUS digunakan sesuai urutan yang tercantum.\n* Kode-kode ini dibuat pada: {date}.\n"
               message: "Simpan kode pemulihan ini di tempat yang aman. Jika Anda kehilangan perangkat yang diaktifkan dengan dua faktor, kode sekali pakai ini dapat digunakan sesuai urutan yang tertera untuk masuk ke akun Anda.\n"
@@ -41,7 +41,7 @@ nearata-twofactor:
           invalid_passcode: 'Password atau passcode tidak valid.'
           passcode_placeholder: '6-digit passcode'
           password_placeholder: Password
-          title: 'Mengatur Aplikasi Autentikasi'
+          title: 'Menyiapkan Aplikasi Otentikasi'
       configured: Terkonfigurasi
       not_configured: 'Tidak Terkonfigurasi'
       section_title: 'Autentikasi Dua Faktor'

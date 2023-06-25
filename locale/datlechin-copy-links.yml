@@ -11,4 +11,4 @@ datlechin-copy-links:
     user_controls:
       copy_link_button: '=> datlechin-copy-links.lib.copy_link_button'
   lib:
-    copy_link_button: 'Copy Link'
+    copy_link_button: 'Salin Link'

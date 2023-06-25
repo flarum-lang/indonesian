@@ -35,6 +35,7 @@ v17development-flarum-support:
     article_events:
       article_hidden: 'Artikel disembunyikan oleh {username}'
       article_modified: '{username} telah mengedit artikel ini.'
+      article_public: 'Artikel dipublikasikan oleh {username}'
     ask_a_question_on_forums: 'Ajukan pertanyaan di forum'
     ask_your_question_on_forum: 'Ajukan pertanyaan Anda di forum'
     composer:

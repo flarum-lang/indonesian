@@ -68,7 +68,7 @@ datitisev-backup:
           toggle: 'Koneksi pasif'
         password:
           description: 'Password pengguna untuk mengautentikasi pada server FTP.'
-          label: Password
+          label: '=> core.ref.password'
         port:
           description: 'Port FTP (standarnya adalah 21).'
           label: Port
@@ -86,7 +86,7 @@ datitisev-backup:
           label: 'Batas waktu'
         username:
           description: 'Username untuk mengautentikasi pada server FTP.'
-          label: Username
+          label: '=> core.ref.username'
       gdrive:
         client:
           id:

@@ -9,6 +9,7 @@ maicol07-sso:
       client_api_key_help: 'API key dari Flarum instance Anda.'
       client_name: Nama
       client_name_help: 'Nama Flarum instance'
+      client_password_token: 'Token password'
       client_url: URL
       client_url_help: 'URL Flarum instance'
       client_verify_ssl: 'Verifikasi SSL'

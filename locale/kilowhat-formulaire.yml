@@ -243,6 +243,6 @@ kilowhat-formulaire:
       user_activated: 'Akun Aktif'
       user_displayname: 'Nama Tampilan Pengguna'
       user_email: 'Email Pengguna'
-      user_username: Username
+      user_username: '=> core.ref.username'
     type:
       user: 'Profil pengguna'

@@ -12,7 +12,7 @@ clarkwinkelmann-sudo-mode:
       incorrectPassword: 'Password tidak valid'
   lib:
     sudo:
-      message: "Konfirmasikan password Anda untuk masuk ke mode sudo. Anda hanya akan diminta untuk mengautentikasi ulang setelah beberapa jam.\n"
+      message: "Konfirmasi password Anda untuk masuk ke mode sudo. Anda hanya akan diminta untuk mengautentikasi ulang setelah beberapa jam.\n"
       password: Password
       submit: Submit
       title: 'Konfirmasi akses'

@@ -84,7 +84,7 @@ kilowhat-rich-embeds:
     controls:
       disableConfirmation: 'Semua embed akan dihapus dari postingan ini. Lanjutkan?'
       imgCopied: Disalin!
-      imgCopy: 'Copy URL gambar'
+      imgCopy: 'Salin URL gambar'
       imgOpen: 'Buka gambar di tab baru'
     embed:
       altAvatar: 'Gambar avatar penulis'

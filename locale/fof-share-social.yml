@@ -11,7 +11,7 @@ fof-share-social:
     discussion:
       share_button: Bagikan
     modal:
-      copy_button: Copy
+      copy_button: Salin
       title: Bagikan
   lib:
     networks:

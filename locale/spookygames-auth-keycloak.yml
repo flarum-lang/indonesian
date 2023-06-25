@@ -11,7 +11,8 @@ flarum-ext-auth-keycloak:
       delegate_avatars_label: 'Mendelegasikan avatar'
       encryption_algorithm_label: 'Algoritma enkripsi'
       encryption_key_label: 'Kunci enkripsi (atau sertifikat)'
+      keycloak_version_label: 'Versi Keycloak'
       realm_label: Realm
-      role_mapping_label: 'Pemetaan role-ke-grup'
+      role_mapping_label: 'Pemetaan peranan-ke-grup'
       server_url_label: 'URL server'
       title: 'Pengaturan Keycloak'
