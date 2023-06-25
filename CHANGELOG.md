@@ -12,14 +12,24 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish)
 * [`clarkwinkelmann/flarum-ext-meilisearch-dashboard`](https://github.com/clarkwinkelmann/flarum-ext-meilisearch-dashboard)
+* [`clarkwinkelmann/flarum-ext-scratchpad`](https://github.com/clarkwinkelmann/flarum-ext-scratchpad)
 * [`flamarkt/backoffice`](https://github.com/flamarkt/backoffice)
+* [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`fof/pages`](https://github.com/FriendsOfFlarum/pages)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`justoverclock/flarum-ext-guestengagement`](https://github.com/justoverclockl/flarum-ext-guestengagement)
+* [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
 * [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
 * [`miniflar/admin-notepad-widget`](https://github.com/miniflar/admin-notepad-widget)
 * [`the-turk/flarum-miserable-users`](https://github.com/the-turk/flarum-miserable-users)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 
 
 Semua perubahan: [1.8.2...1.8.3](https://github.com/flarum-lang/indonesian/compare/1.8.2...1.8.3).
