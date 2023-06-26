@@ -141,6 +141,7 @@ v17development-flarum-support:
           title: Bahasa
         private_note:
           edit_button: 'Edit catatan'
+          info: 'Catatan pribadi hanya dapat dilihat oleh agen pendukung lainnya. Catatan ini tidak dapat dilihat oleh pelanggan.'
           placeholder: 'Contoh: 1 Januari 2022 - Nama Agen: Menghapus customer dari database'
           tip: 'TIPS: Jika Anda bekerja dengan beberapa agen dalam satu tiket, tambahkan nama dan tanggal pada catatan.'
           title: 'Catatan pribadi'
