@@ -18,6 +18,8 @@ datitisev-maintenance:
       allow_bypass_label: 'Izinkan bypass pemeliharaan forum & API menggunakan perizinan'
       disable_admin_label: 'Nonaktifkan akses admin'
       disable_api_label: 'Nonaktifkan semua akses API'
+      error_page_file_hint: 'Lokasi dari Flarum root - tempat <code>vendor</code> dan <code>penyimpanan</code> berada.'
+      error_page_file_label: 'Lokasi File Halaman Error'
       error_page_hint: 'Anda dapat menggunakan $app, $translator, $settings, $title, dan $message dengan blade.'
       error_page_label: 'Halaman Error HTML/Blade'
       message_label: 'Pesan Halaman Error'

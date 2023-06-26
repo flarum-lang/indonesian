@@ -8,7 +8,7 @@ askvortsov-categories:
       categories_label: Kategori
     headings:
       child_display: 'Tampilan Kategori Anak'
-      layout: Layout
+      layout: 'Tata letak'
       nav: Navigasi
       parent_display: 'Tampilan Kategori Induk'
       performance: Performa

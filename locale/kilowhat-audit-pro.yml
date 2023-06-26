@@ -15,24 +15,24 @@ kilowhat-audit:
       requiresExtension: 'Membutuhkan ekstensi {extension}'
       title: 'Pengaturan akses terbatas'
     permissions:
-      view: 'Lihat log audit'
-      viewLimited: 'Lihat log audit terbatas'
+      view: 'Melihat catatan audit'
+      viewLimited: 'Melihat catatan audit terbatas'
     settings:
       limitedIpAddress: 'Lihat Alamat IP'
   forum:
     link:
-      actor-audit: 'Log audit (user sebagai aktor)'
-      all-audit: 'Log audit'
-      discussion-audit: 'Log audit'
-      user-audit: 'Log audit (pengeditan akun)'
+      actor-audit: 'Catatan audit (user sebagai aktor)'
+      all-audit: 'Catatan audit'
+      discussion-audit: 'Catatan audit'
+      user-audit: 'Catatan audit (pengeditan akun)'
     modal:
-      actor-title: 'Log Audit Aktor'
-      all-title: 'Log Audit'
-      discussion-title: 'Log Audit Diskusi'
-      user-title: 'Log Audit User'
+      actor-title: 'Catatan Audit Aktor'
+      all-title: 'Catatan Audit'
+      discussion-title: 'Catatan Audit Diskusi'
+      user-title: 'Catatan Audit Pengguna'
   lib:
     browser:
-      audit_log_cleared: 'Menghapus {deleted_count} entri dari log audit'
+      audit_log_cleared: 'Menghapus {deleted_count} entri dari catatan audit'
       cache_cleared: 'Bersihkan cache secara manual'
       client:
         access_token: 'Token akses'
@@ -41,12 +41,12 @@ kilowhat-audit:
         session: 'Sesi web'
         unknown: 'Client tidak diketahui'
       controls:
-        filterAction: 'Tampilkan log dari tindakan yang sama'
-        filterActor: 'Tampilkan log berdasarkan aktor ini'
-        filterClient: 'Tampilkan log berdasarkan client type ini'
-        filterDiscussion: 'Tampilkan log yang mempengaruhi diskusi yang sama'
-        filterIp: 'Tampilkan log berdasarkan IP ini'
-        filterUser: 'Tampilkan log yang mempengaruhi user yang sama'
+        filterAction: 'Tampilkan catatan dari tindakan yang sama'
+        filterActor: 'Tampilkan catatan berdasarkan aktor ini'
+        filterClient: 'Tampilkan catatan berdasarkan client type ini'
+        filterDiscussion: 'Tampilkan catatan yang mempengaruhi diskusi yang sama'
+        filterIp: 'Tampilkan catatan berdasarkan IP ini'
+        filterUser: 'Tampilkan catatan yang mempengaruhi user yang sama'
         hideRaw: 'Sembunyikan raw log'
         showRaw: 'Tampilkan raw log'
       deletedResource:
@@ -73,7 +73,7 @@ kilowhat-audit:
         disabled: 'Ekstensi {package} dinonaktifkan'
         enabled: 'Ekstensi {package} diaktifkan'
       filterApply: Terapkan
-      filterPlaceholder: 'Filter log'
+      filterPlaceholder: 'Filter catatan'
       fof_ban_ips:
         banned: 'IP yang dicekal {ip}'
         unbanned: 'IP yang tidak dicekal {ip}'

@@ -6,7 +6,7 @@ fof-pages:
   admin:
     badges:
       hidden: Konsep
-      restricted: Dibatasi
+      restricted: Terbatas
     edit_page:
       content_label: '=> fof-pages.ref.content'
       content_placeholder: '=> fof-pages.ref.content'
@@ -31,7 +31,7 @@ fof-pages:
       empty_text: 'Sepertinya tidak ada halaman di sini.'
       title: '=> fof-pages.ref.title'
     permissions:
-      restricted: 'Melihat halaman yang dibatasi'
+      restricted: 'Melihat halaman terbatas'
   ref:
     content: Konten
     create_page: 'Membuat halaman'

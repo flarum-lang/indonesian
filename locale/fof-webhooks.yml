@@ -72,6 +72,7 @@ fof-webhooks:
       help:
         disabled: 'Webhook ini dinonaktifkan karena tidak memiliki event yang diaktifkan.'
         general: 'Di sini Anda dapat menambahkan, mengedit, dan menghapus webhook dari forum Anda.'
+        tags: 'Anda dapat membatasi webhook ke tag tertentu. Jika Anda memilih tag apa pun, webhook hanya akan diaktifkan jika event tersebut dipicu pada resource yang memiliki salah satu tag yang dipilih.'
         url: 'Webhook''s endpoint yang akan dieksekusi'
       modal:
         description: 'Di sini Anda memodifikasi event apa yang dijalankan oleh webhook.'
