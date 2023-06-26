@@ -15,7 +15,9 @@ CHANGELOG
 * [`askvortsov/flarum-help-tags`](https://github.com/askvortsov1/flarum-help-tags)
 * [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
 * [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
+* [`clarkwinkelmann/flarum-ext-colorful-borders`](https://github.com/clarkwinkelmann/flarum-ext-colorful-borders)
 * [`datitisev/flarum-maintenance`](https://extiverse.com/extension/datitisev/flarum-maintenance)
+* [`ffans/clipboardjs`](https://github.com/FFans/clipboardjs)
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
@@ -25,15 +27,18 @@ CHANGELOG
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`jeromegillard/map`](https://github.com/JeromeGillard/flarum-map)
 * [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge)
 * [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
 * [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
 * [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
 * [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
 * [`migratetoflarum/canonical`](https://github.com/migratetoflarum/canonical)
+* [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 * [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
 * [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts)
+* [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store)
 
 
 Semua perubahan: [1.8.3...1.8.4](https://github.com/flarum-lang/indonesian/compare/1.8.3...1.8.4).
