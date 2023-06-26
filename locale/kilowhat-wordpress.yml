@@ -4,6 +4,10 @@
 
 kilowhat-wordpress:
   admin:
+    appearance:
+      edit_css_button: 'Mengedit CSS Khusus untuk Sematan WordPress saja'
+    edit_css:
+      title: 'Edit CSS Sematan Khusus'
     health:
       check: 'Periksa sekarang'
       errors: 'Kami menemukan beberapa masalah.'

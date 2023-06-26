@@ -19,7 +19,7 @@ clarkwinkelmann-anonymous-posting:
       composerHelpTextPositionHelp: 'Kotak centang dan teks ini hanya muncul bagi para user yang memiliki izin pengalihan.'
       composerHelpTextPositionHidden: Tersembunyi
       composerHelpTextPositionTooltip: 'Tooltip (setelah label)'
-      composerHelpTextPositionVisible: 'Visible (di bawah label)'
+      composerHelpTextPositionVisible: 'Terlihat (di bawah label)'
       defaultAnonymity: 'Konten baru bersifat anonim secara default'
       defaultAnonymityWhenAbleToSwitch: 'Konten baru bersifat anonim secara default bagi para user yang memiliki izin pengalihan'
   forum:

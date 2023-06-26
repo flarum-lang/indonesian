@@ -82,8 +82,8 @@ v17development-flarum-blog:
     return_to_overview: 'Kembali ke ikhtisar blog '
     review_article:
       approve_article: 'Setujui artikel'
-      approve_article_approved: 'Artikel telah disetujui dan telah dipublikasikan'
-      pending_review: 'Artikel ini sedang dalam proses peninjauan dan belum dipublikasikan'
+      approve_article_approved: 'Artikel telah disetujui dan telah diterbitkan'
+      pending_review: 'Artikel ini sedang dalam proses peninjauan dan belum diterbitkan'
     tools:
       approve_article: 'Setujui artikel'
       article_settings: 'Pengaturan artikel'

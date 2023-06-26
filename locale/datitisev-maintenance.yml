@@ -23,7 +23,7 @@ datitisev-maintenance:
       error_page_hint: 'Anda dapat menggunakan $app, $translator, $settings, $title, dan $message dengan blade.'
       error_page_label: 'Halaman Error HTML/Blade'
       message_label: 'Pesan Halaman Error'
-      prefer_db_hint: 'Biasanya, value dalam <code>config.php</code> akan menggantikan value yang terlihat di sini. Aktifkan opsi ini untuk membuat opsi-opsi ini mengesampingkan opsi-opsi yang ada di berkas konfigurasi - jadi opsi-opsi tersebut hanya digunakan jika DB tidak dapat diakses.'
+      prefer_db_hint: 'Biasanya, value dalam <code>config.php</code> akan menggantikan value yang terlihat di sini. Aktifkan opsi ini untuk membuat opsi-opsi ini mengesampingkan opsi-opsi yang ada di dalam file konfigurasi - jadi opsi-opsi tersebut hanya digunakan jika DB tidak dapat diakses.'
       prefer_db_label: 'Lebih mengutamakan pengaturan DB daripada pengaturan yang ada di <code>config.php</code>'
       settings_notice: 'Pengaturan ini mungkin bukan merupakan pengaturan saat ini. Pastikan pengaturan tersebut tidak ditimpa oleh file <code>config.php</code>.'
       title: 'Mode Pemeliharaan'

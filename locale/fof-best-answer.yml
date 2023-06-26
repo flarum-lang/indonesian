@@ -22,7 +22,7 @@ fof-best-answer:
         general: Umum
         reminders: Pengingat
         reminders_notice: 'Agar pengingat dapat berfungsi, Anda harus mengatur Flarum scheduler dengan benar.'
-      schedule_log_output: 'Menambahkan output scheduler ke penyimpanan log'
+      schedule_log_output: 'Menambahkan output penjadwal ke penyimpanan log'
       schedule_on_one_server: 'Gunakan ''onOneServer()'' directive untuk task scheduler'
       schedule_on_one_server_help: 'Membutuhkan Redis/Memcache'
       schedule_stop_overnight: 'Cegah pengiriman notifikasi pengingat di luar jam kerja'

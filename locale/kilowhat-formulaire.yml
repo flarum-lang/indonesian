@@ -119,6 +119,7 @@ kilowhat-formulaire:
         discussion: '=> kilowhat-formulaire.ref.type.discussion'
         standalone: '=> kilowhat-formulaire.ref.type.standalone'
         user: '=> kilowhat-formulaire.ref.type.user'
+      controls: Kontrol
       delete: 'Hapus permanen'
       disable-expert-mode: 'Nonaktifkan mode expert'
       enable-expert-mode: 'Aktifkan mode expert'

@@ -32,7 +32,7 @@ blomstra-payments:
       access_portal: 'Portal akses'
       user_subscriptions: 'Lanjutkan Pembayaran'
     pay-to-post:
-      purchase_required: "Pembahasan ini akan dipublikasikan setelah Anda menyelesaikan pembayaran melalui penyedia pembayaran kami, Stripe. Klik pembelian untuk melihat opsi biaya dan pembayaran.\n"
+      purchase_required: "Pembahasan ini akan diterbitkan setelah Anda menyelesaikan pembayaran melalui penyedia pembayaran kami, Stripe. Klik pembelian untuk melihat opsi biaya dan pembayaran.\n"
     pay-to-view:
       description: "Postingan di luar titik ini terkunci di balik paywall, Anda dapat membukanya dengan menyelesaikan pembayaran melalui penyedia pembayaran kami, Stripe.\n"
       purchase-completed: 'Tidak terkunci'
