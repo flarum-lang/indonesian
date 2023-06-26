@@ -12,18 +12,23 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`askvortsov/flarum-help-tags`](https://github.com/askvortsov1/flarum-help-tags)
 * [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
 * [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
 * [`datitisev/flarum-maintenance`](https://extiverse.com/extension/datitisev/flarum-maintenance)
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 * [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
 * [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
 * [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+* [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
 * [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts)
 
 
