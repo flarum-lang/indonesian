@@ -8,4 +8,4 @@ tohsakarat-save-and-load-draft-automatically:
       load: 'Memasukkan catatan pengeditan lokal'
     states:
       ask-for-load: 'Temukan catatan pengeditan lokal! Apakah Anda ingin memasukkannya?'
-      ask-for-save: 'Apakah Anda ingin menyimpan draft secara online?'
+      ask-for-save: 'Apakah Anda ingin menyimpan konsep secara online?'

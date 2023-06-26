@@ -5,14 +5,14 @@
 fof-pages:
   admin:
     badges:
-      hidden: Draf
+      hidden: Konsep
       restricted: Dibatasi
     edit_page:
       content_label: '=> fof-pages.ref.content'
       content_placeholder: '=> fof-pages.ref.content'
       delete_page_button: 'Hapus halaman'
       delete_page_confirmation: 'Apakah Anda yakin ingin menghapus halaman ini?'
-      hidden_label: 'Simpan sebagai draf'
+      hidden_label: 'Simpan sebagai konsep'
       html_label: 'Aktifkan HTML'
       restricted_label: 'Batasi akses (konfigurasikan siapa saja yang dapat mengakses di tab Permissions)'
       set_as_home_page_confirmation: 'Apakah Anda yakin ingin menetapkan halaman ini sebagai halaman beranda Anda?'

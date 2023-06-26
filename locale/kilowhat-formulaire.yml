@@ -112,6 +112,9 @@ kilowhat-formulaire:
         title: Judul
       title: 'Form baru'
     form-edit-header:
+      access-status:
+        disabled: Konsep
+        enabled: Diaktifkan
       category:
         discussion: '=> kilowhat-formulaire.ref.type.discussion'
         standalone: '=> kilowhat-formulaire.ref.type.standalone'
@@ -120,6 +123,7 @@ kilowhat-formulaire:
       disable-expert-mode: 'Nonaktifkan mode expert'
       enable-expert-mode: 'Aktifkan mode expert'
       hide: Hapus
+      restore: Pulihkan
       tabs:
         access: Akses
         notifications: Notifikasi
