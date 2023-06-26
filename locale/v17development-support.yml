@@ -220,4 +220,4 @@ v17development-flarum-support:
     utils:
       redirect:
         link: '<a>Klik di sini</a> jika halaman tidak mengalihkan Anda'
-        title: 'Mengarahkan Anda ke artikel Basis Pengetahuan kami...'
+        title: 'Mengalihkan Anda ke artikel Basis Pengetahuan kami...'

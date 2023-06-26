@@ -35,7 +35,7 @@ fof-masquerade:
       have-profile: 'Memiliki profil masquerade'
       view-profile: 'Melihat penghitungan Upvote/Downvote'
     types:
-      advanced: Lanjutan
+      advanced: 'Tingkat lanjut'
       boolean: Checkbox
       email: Email
       select: Dropdown

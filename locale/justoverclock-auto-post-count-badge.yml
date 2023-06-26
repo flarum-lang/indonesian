@@ -19,10 +19,10 @@ justoverclock-auto-post-count-badge:
     settings:
       icon-manager:
         help_text: '=> core.ref.icon_text'
-        title: 'Pengaturan Ikon'
+        title: 'Pengelola Ikon'
       label-manager:
         help: 'Sesuaikan nama tingkat'
-        title: 'Pengaturan Label Teks'
+        title: 'Pengelola Label Teks'
       tier: 'Tingkat {tier}: dari {from} hingga {to} post'
   forum:
     less1000post: Guru!

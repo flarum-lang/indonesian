@@ -6,18 +6,18 @@ migratetoflarum-canonical:
   admin:
     settings:
       field:
-        status: 'Tipe redirect'
+        status: 'Jenis pengalihan'
         wrong_url: 'Pengaturan ekstensi akan muncul setelah Anda mengakses forum Anda melalui canonical URL'
       option:
-        301: '301 (Permanent redirect, untuk produksi)'
-        302: '302 (Temporary redirect, untuk pengujian)'
+        301: '301 (Pengalihan permanen, untuk produksi)'
+        302: '302 (Pengalihan sementara, untuk pengujian)'
         disabled: 'Dinonaktifkan (ekstensi tidak akan melakukan apa pun)'
       step:
         admin_on_canonical: 'Akses panel admin melalui canonical URL'
         check_config_url: 'Pastikan bahwa url yang ditetapkan di config.php adalah canonical URL pilihan Anda (saat ini: {url})'
-        enable_permanent: 'Aktifkan permanent redirect'
-        enable_temporary: 'Aktifkan temporary redirect dan periksa apakah semuanya berfungsi'
-        how_to: 'Cara mengaktifkan canonical redirect'
+        enable_permanent: 'Aktifkan pengalihan permanen'
+        enable_temporary: 'Aktifkan pengalihan sementara dan periksa semuanya berfungsi'
+        how_to: 'Cara mengaktifkan pengalihan kanonik'
         suggestions: 'Saran lain yang tidak diterapkan atau dicakup oleh ekstensi ini'
         use_hsts: 'Gunakan HSTS untuk mencegah downgrade attack'
         use_https: 'Gunakan HTTPS canonical URL'

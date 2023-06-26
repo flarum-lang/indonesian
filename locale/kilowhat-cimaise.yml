@@ -38,6 +38,7 @@ kilowhat-cimaise:
       sticker-key: Key
       sticker-label: Label
       sticker-url: URL
+      watermarkFile: 'Gambar watermark'
       watermarkFileHelp: 'Gambar yang disediakan akan diterapkan 1:1 pada setiap unggahan, kecuali pratinjau terkecil.'
       watermarkPlacementOptions:
         bottomLeft: 'Kiri bawah'
