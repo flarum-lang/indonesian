@@ -23,10 +23,13 @@ kilowhat-custom-paths:
         flarum-tags: 'Flarum Tags'
         fof-byobu: 'FriendsOfFlarum Byobu'
         fof-gamification: 'FriendsOfFlarum Gamification'
+        fof-masquerade: 'FriendsOfFlarum''s Masquerade'
+        fof-moderator-notes: 'FriendsOfFlarum''s Moderator Notes'
         fof-pages: 'FriendsOfFlarum Pages'
         fof-user-directory: 'FriendsOfFlarum User Directory'
         kilowhat-formulaire: 'KILOWHAT Formulaire'
         v17development-blog: 'v17development''s Flarum Blog'
+        v17development-user-badges: 'v17development''s User Badges'
       head:
         name: Nama
         path: Path
@@ -40,11 +43,15 @@ kilowhat-custom-paths:
         flamarkt-product: Produk
         flamarkt-signup: Daftar
         fof-byobu: 'Diskusi pribadi'
+        fof-masquerade: 'Halaman profil'
+        fof-moderator-notes-user-notes: 'Catatan profil'
         fof-pages: Halaman
         fof-user-directory: 'Direktori pengguna'
+        following: Mengikuti
         index: 'Daftar diskusi (jika bukan beranda)'
         notifications: 'Notifikasi (di perangkat seluler)'
         settings: Pengaturan
         tags: 'Daftar tag'
         user: 'Profil pengguna'
+        user-discussions: 'Diskusi pengguna'
         v17development-blog-category: Kategori

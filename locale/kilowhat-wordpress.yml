@@ -26,6 +26,7 @@ kilowhat-wordpress:
       cookie_domain_help: 'Hanya diperlukan jika berbeda dari domain Flarum'
       enable_comments: 'Aktifkan integrasi komentar'
       enable_sso: 'Aktifkan integrasi SSO'
+      excerpt_length: 'Panjang kutipan konten (dalam karakter)'
       force_username_choice: 'Buat pengguna memilih username mereka pada kunjungan pertama'
       force_username_choice_help: 'Nilai default akan diberikan dengan aturan yang dipilih di atas.'
       post_delete: 'Tindakan saat postingan WordPress dihapus secara permanen'
@@ -118,7 +119,9 @@ kilowhat-wordpress:
       plugin_not_installed: "Plugin WordPress tampaknya tidak diinstal atau diaktifkan pada situs WordPress tersebut. Pastikan Anda telah menginstal setidaknya versi 1.2.0.\n"
   forum:
     edit-user-modal:
-      unlink: 'Putuskan pengguna ini dari pengguna wordpress'
+      edit_in_wordpress: 'Edit di WordPress'
+      should_not_edit_email: 'Anda harus mengedit email di WordPress. <a>Edit</a>'
+      unlink: 'Putuskan pengguna ini dari pengguna WordPress'
       unlink_help: 'Jika email tersebut cocok dengan pengguna WordPress, maka email tersebut akan dihubungkan lagi pada saat pengguna tersebut terhubung di WordPress.'
       warning: "Pengguna ini akan tetap tersinkronisasi dengan WordPress. Anda harus mengedit email dan password dari WordPress.\n"
     embed-link-modal:

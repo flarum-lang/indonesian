@@ -27,6 +27,8 @@ clarkwinkelmann-catch-the-fish:
         add: 'Tambahkan ke whitelist'
         choose: 'Pilih tag'
         delete: 'Hapus dari whitelist'
+        down: 'Pindah ke bawah'
+        up: 'Pindah ke atas'
       tags-fallback:
         single-line: 'Setidaknya diperlukan 2 tag untuk probabilitas'
       tags-header:

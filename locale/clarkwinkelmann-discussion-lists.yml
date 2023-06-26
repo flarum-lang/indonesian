@@ -12,6 +12,8 @@ clarkwinkelmann-discussion-lists:
       moderate: 'Mengubah dan menghapus daftar diskusi'
       viewPrivate: 'Melihat semua daftar diskusi pribadi'
       viewPublic: 'Melihat daftar diskusi publik'
+    settings:
+      collapseSeries: 'Perkecil indeks serial secara default'
   api:
     manualLimit: 'Daftar yang diurutkan secara manual tidak dapat berisi lebih dari 50 diskusi'
     seriesAnyAddNotAllowed: 'Anda hanya dapat menambahkan diskusi Anda sendiri ke dalam serangkaian list'
@@ -19,6 +21,7 @@ clarkwinkelmann-discussion-lists:
   forum:
     badge:
       private: 'List pribadi'
+      series: 'Serial publik'
     discussion:
       add: 'Masukkan ke list'
       new: 'List baru'
@@ -43,6 +46,8 @@ clarkwinkelmann-discussion-lists:
     profile:
       link: List
     series:
+      expand: Perluas
+      kind: Serial
       visit: 'Tampilkan semuanya'
 core:
   forum:
