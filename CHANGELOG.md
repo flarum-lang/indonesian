@@ -2,6 +2,34 @@ CHANGELOG
 =========
 
 
+1.8.4 (XXXX-XX-XX)
+------------------
+
+**Perubahan umum**:
+
+* Memperbarui terjemahan untuk Flarum core.
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
+* [`datitisev/flarum-maintenance`](https://extiverse.com/extension/datitisev/flarum-maintenance)
+* [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
+* [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+* [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts)
+
+
+Semua perubahan: [1.8.3...1.8.4](https://github.com/flarum-lang/indonesian/compare/1.8.3...1.8.4).
+
+
 1.8.3 (2023-06-26)
 ------------------
 
