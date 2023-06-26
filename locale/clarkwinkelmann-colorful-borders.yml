@@ -5,8 +5,8 @@
 clarkwinkelmann-colorful-borders:
   admin:
     permissions:
-      editAnyPost: 'Mengedit style postingan lainnya'
-      editOwnPost: 'Mengedit style post Anda sendiri'
+      editAnyPost: 'Mengedit gaya postingan apa pun'
+      editOwnPost: 'Mengedit gaya postingan Anda sendiri'
     settings:
       colors:
         all: 'Semua warna'
@@ -27,4 +27,6 @@ clarkwinkelmann-colorful-borders:
     borderRadius: 'Border radius'
     borderWidth: 'Lebar border'
     default: Default
+    edit: 'Edit gaya'
+    reset: 'Hapus gaya khusus'
     textColor: 'Warna teks'

@@ -11,7 +11,7 @@ flamarkt-taxonomies:
         allowCustomValues: 'Izinkan nilai khusus'
         color: '=> flamarkt-taxonomies.ref.field.color'
         countRequired: 'Jumlah istilah yang diperlukan'
-        countRequiredDescription: "\n"
+        countRequiredDescription: "Masukkan jumlah minimum dan maksimum istilah dari taksonomi ini yang dapat diterapkan ke sumber daya.\n"
         customValueSlugger: 'Slugger untuk nilai khusus'
         customValueSluggerDescription: "Pilih bagaimana Anda ingin slug dihasilkan. Jika slug sudah ada, prefiks numerik akan secara otomatis ditambahkan. Untuk opsi Transliterator, Anda perlu menginstal dan mengonfigurasi ekstensi lain terlebih dahulu.\n"
         customValueValidation: 'Validasi untuk nilai khusus'
@@ -28,7 +28,7 @@ flamarkt-taxonomies:
         showFilter: 'Tampilkan filter pada halaman list/direktori'
         showFilterDescription: "Menampilkan filter kepada pengunjung biasa di daftar diskusi, direktori pengguna, atau indeks toko. Hanya berfungsi jika \"Aktifkan filter\" diaktifkan. Administrator toko selalu dapat memfilter berdasarkan taksonomi apa pun di backoffice.\n"
         showLabel: 'Tampilkan label taksonomi bersama dengan istilah'
-        showLabelDescription: "Style tampilan untuk daftar diskusi dan hero. Saat ini tidak digunakan untuk jenis resource lainnya.\n"
+        showLabelDescription: "Gaya tampilan untuk daftar diskusi dan hero. Saat ini tidak digunakan untuk jenis resource lainnya.\n"
         slug: '=> flamarkt-taxonomies.ref.field.slug'
         tagScope: 'Hanya dalam tag tertentu'
         tagScopeDescription: "Taksonomi hanya akan tersedia dalam tag yang dipilih. Jika Anda memilih satu tag, filter beranda hanya akan terlihat pada tag tertentu.\n"
@@ -36,6 +36,8 @@ flamarkt-taxonomies:
         type: Jenis
         typeDescription: "Taksonomi dapat digunakan pada beberapa Flarum resource. Jenisnya tidak dapat diubah setelah dibuat. Anda bisa menggunakan nama dan slug yang sama untuk taksonomi dengan tipe yang berbeda.\n"
       section:
+        browsing: Menelusuri
+        filling: Mengisi
         info: Informasi
         scope: 'Ruang Lingkup'
       slugger-options:

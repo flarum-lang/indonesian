@@ -14,8 +14,8 @@ jeromegillard-map:
       osm:
         help: 'OpenStreetMap tile dapat digunakan untuk memprogram map Anda, tetapi bacalah <a>Tile Usage Policy</a> dari OpenStreetMap jika Anda akan menggunakan tile dalam produksi.'
       style:
-        help: 'Pilih style untuk tampilan map. <a>Lihatlah style mereka</a>.'
-        label: 'Style default untuk {provider}'
+        help: 'Pilih gaya untuk tampilan map. <a>Lihatlah gaya mereka</a>.'
+        label: 'Gaya default untuk {provider}'
       thunderforest:
         help: 'Daftar secara gratis di <a>thunderforest.com</a> untuk mendapatkan kunci API. Harap hormati <b>ketentuan penggunaan</b> mereka.'
         label: 'Thunderforest API key'

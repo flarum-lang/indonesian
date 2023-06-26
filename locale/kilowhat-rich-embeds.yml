@@ -32,6 +32,7 @@ kilowhat-rich-embeds:
       imageProxyHelp: 'Semua gambar OpenGraph dan favicon akan di-proxy oleh Flarum, alih-alih diambil oleh browser pengunjung'
       layout: 'Tata letak'
       position: Posisi
+      style: Gaya
       styleOptions:
         horizontal: Horizontal
         vertical: Vertikal

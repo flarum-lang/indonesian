@@ -15,7 +15,7 @@ ffans-clipboardjs:
         jianshu: 'Jian Shu'
         lingcoder: LingCoder
         segmentfault: SegmentFault
-      themes_label: 'Style untuk tombol copy'
+      themes_label: 'Gaya untuk tombol copy'
   forum:
     action_copy: Copy
     action_cut: Cut

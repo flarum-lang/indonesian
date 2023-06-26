@@ -19,6 +19,7 @@ kilowhat-formulaire:
       seeOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion'
       seeOwnUser: '=> kilowhat-formulaire.ref.permissions.seeOwnUser'
     settings:
+      checkbox-style: 'Gaya kotak centang'
       horizontal-layout: 'Gunakan tata letak form horizontal'
       horizontal-layout-locations:
         discussionComposer: 'Area Pengeditan Diskusi'
@@ -26,6 +27,7 @@ kilowhat-formulaire:
         profileView: 'Halaman Tampilan Profil'
         standaloneView: 'Halaman Tampilan Mandiri'
       max-file-size: 'Ukuran file maksimum (kB)'
+      radio-style: 'Gaya radio'
       style-options:
         far-circle: 'Ikon FontAwesome Regular Circle'
         far-square: 'Ikon FontAwesome Regular Square'
@@ -226,6 +228,7 @@ kilowhat-formulaire:
       regex: 'Regular expression'
       title: Judul
       type:
+        checkbox: 'Kotak centang'
         content: Konten
         date: Tanggal
         long: 'Teks panjang'

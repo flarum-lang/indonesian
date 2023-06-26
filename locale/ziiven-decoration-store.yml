@@ -23,6 +23,10 @@ ziven-decoration-store:
     item-id: ID
     item-property-image: Gambar
     item-property-image-upload: Upload
+    item-property-style: Gaya
+    item-property-style-help-text: 'Anda dapat menambahkan gaya teks Anda sendiri di CSS, dan memasukkan nama gaya pada input di bawah ini.'
+    item-property-style-select-from-gallery: 'Gaya Bawaan'
+    item-property-style-text-effect: 'Teks Pratinjau'
     settings:
       timezone: 'Zona waktu'
       timezone-default: Asia/Shanghai
@@ -30,11 +34,17 @@ ziven-decoration-store:
     equipment-modal-title: 'Daftar Item'
     item-already-have: 'Item sudah dibeli'
     item-expired: 'Berhenti berlangganan'
+    item-property-style-text-effect: 'Teks Pratinjau'
     item-purchase-cost: 'Biaya pembelian'
     item-purchase-date: 'Tanggal pembelian'
+    item-purchase-item-status: 'Status item'
+    item-purchase-item-status-0: 'Tidak digunakan'
+    item-purchase-item-status-1: 'Sedang digunakan'
     item-purchase-item-type: 'Jenis item'
     item-purchase-item-type-usernameColor: 'Warna Username'
     item-purchase-purchase-type: 'Jenis pembelian'
+    item-purchase-subscribe-item-status-0: 'Berlangganan. Tidak digunakan'
+    item-purchase-subscribe-item-status-1: 'Berlangganan. Sedang digunakan'
     item-purchase-subscription-cost: 'Biaya berlangganan'
     item-purchase-title: 'Nama item'
     item-soldout: 'Item terjual habis'

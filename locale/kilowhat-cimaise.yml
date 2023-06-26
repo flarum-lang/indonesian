@@ -24,6 +24,7 @@ kilowhat-cimaise:
     settings:
       autoCreateDiscussionAlbum: 'Secara otomatis membuat album untuk setiap diskusi baru'
       autoCreateDiscussionAlbumHelp: "Secara otomatis membuat album baru dengan judul yang sama dengan diskusi dan penulis sebagai pemilik. Fitur ini melewati izin pembuatan album dan berlaku di semua tag.\n"
+      columnThemeHelp: 'Gunakan gaya panel samping saat menampilkan gambar, bukan panel bawah.'
       license-add: 'Tambahkan lisensi'
       license-description: Deskripsi
       license-key: Key

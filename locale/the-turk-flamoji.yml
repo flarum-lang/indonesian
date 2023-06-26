@@ -36,6 +36,7 @@ the-turk-flamoji:
         travel: '=> the-turk-flamoji.ref.emoji_categories.travel'
       emoji_data_text: 'Ini biasanya digunakan untuk menyediakan nama emoji yang diterjemahkan.'
       emoji_settings_heading: 'Pengaturan Emoji'
+      emoji_style_label: 'Gaya emoji'
       emoji_version_label: 'Versi Emoji'
       emoji_version_text: 'Versi spesifikasi Emoji yang akan digunakan.'
       general_ui_settings_heading: 'Pengaturan UI Umum'
