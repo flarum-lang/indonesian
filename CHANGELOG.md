@@ -27,6 +27,7 @@ CHANGELOG
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
 * [`fof/spamblock`](https://github.com/FriendsOfFlarum/spamblock)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
