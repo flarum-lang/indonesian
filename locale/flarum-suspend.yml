@@ -5,7 +5,7 @@
 flarum-suspend:
   admin:
     permissions:
-      suspend_users_label: 'Menangguhkan user'
+      suspend_users_label: 'Menangguhkan pengguna'
   email:
     no_reason_given: 'Tidak ada alasan yang diberikan untuk penangguhan ini.'
     suspended:
@@ -20,7 +20,7 @@ flarum-suspend:
       user_suspended_text: 'Anda telah ditangguhkan selama {timeReadable}'
       user_unsuspended_text: 'Anda telah dibebaskan dari penangguhan'
     suspend_user:
-      display_message: 'Tampilkan pesan untuk User'
+      display_message: 'Menampilkan pesan untuk pengguna'
       indefinitely_label: 'Ditangguhkan tanpa batas waktu'
       limited_time_days_text: ' hari'
       limited_time_label: 'Ditangguhkan untuk waktu yang terbatas...'
