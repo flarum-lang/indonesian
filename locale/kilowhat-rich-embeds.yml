@@ -82,6 +82,8 @@ kilowhat-rich-embeds:
       googledrive:
         file:
           stats:
+            createdTime: 'Dibuat pada'
+            modifiedTime: 'Dimodifikasi pada'
             size: 'Ukuran file'
           thumbnailAlt: 'Pratinjau file Google Drive'
           type: File
@@ -92,6 +94,7 @@ kilowhat-rich-embeds:
           stats:
             commentCount: Komentar
             likeCount: Suka
+            publishedAt: 'Diterbitkan pada'
           thumbnailAlt: 'Thumbnail video'
           type: Video
     error:
