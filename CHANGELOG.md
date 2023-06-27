@@ -22,6 +22,7 @@ CHANGELOG
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
