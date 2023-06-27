@@ -9,7 +9,7 @@ kyrne-websocket:
     help:
       app_id: 'Pusher App ID - biarkan apa adanya jika menggunakan server websocket bawaan.'
       app_key: 'Pusher App Key - biarkan apa adanya jika menggunakan server websocket bawaan.'
-      auth_only: 'Hanya izinkan user yang diautentikasi untuk terhubung ke server websocket, dapat mengurangi beban CPU.'
+      auth_only: 'Hanya mengizinkan pengguna yang diautentikasi untuk terhubung ke server websocket, dapat mengurangi beban CPU.'
       auto_update: 'Jangan tampilkan banner update berwarna kuning, segera perbarui daftar diskusi.'
       cert_path: 'Hanya diperlukan jika menggunakan ssl dan BUKAN reverse proxy. Path ke sertifikat SSL (https) Anda ADA DI SERVER tempat server websocket Anda berada - biasanya berupa file .crt atau .pem.'
       host: 'Host server websocket Anda - biarkan apa adanya jika server adalah host yang sama dengan admin Anda.'
@@ -27,7 +27,7 @@ kyrne-websocket:
       app_key_label: 'App Key'
       app_port_label: Port
       app_secret_label: 'App Secret'
-      auth_only: 'Websocket Hanya untuk User yang Sudah Login'
+      auth_only: 'Websocket Hanya untuk Pengguna yang Sudah Login'
       cert_self_signed: 'Self-Signed Certificate Support'
       local_cert_path: 'Local SSL Certificate Path'
       local_pk_path: 'Local SSL Private Key Path'
@@ -38,6 +38,6 @@ kyrne-websocket:
       title: 'Pengaturan Websocket/Pusher'
   forum:
     widget:
-      empty: 'Tidak Ada User Yang Sedang Online.'
+      empty: 'Tidak Ada Pengguna Yang Sedang Online.'
       guests: '{count, plural, one {1 Tamu} other {{count} Tamu}}'
-      title: 'User Online'
+      title: 'Pengguna Online'

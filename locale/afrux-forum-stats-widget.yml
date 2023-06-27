@@ -8,5 +8,5 @@ afrux-forum-stats-widget:
       stats:
         comment_post_count: Postingan
         discussion_count: Diskusi
-        user_count: User
+        user_count: Pengguna
       title: 'Statistik Forum'
