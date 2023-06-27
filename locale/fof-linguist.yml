@@ -6,13 +6,13 @@ fof-linguist:
   admin:
     buttons:
       apply: Terapkan
-      copy-original: 'Copy teks asli'
+      copy-original: 'Salin teks asli'
       delete-all: 'Hapus semua terjemahan'
       delete-all-confirm: "Ini akan menghapus SEMUA terjemahan khusus {count} Anda. Pastikan Anda telah mengekspor atau mem-backup semua yang mungkin ingin Anda simpan.\n"
       delete-redundant: 'Hapus terjemahan yang tidak perlu'
-      delete-redundant-confirm: "Ini akan menghapus {count} terjemahan yang memiliki nilai asli dan nilai kustom yang sama. Hal ini berguna untuk membersihkan setelah update paket bahasa.\n"
-      load-more: 'Muat lainnya'
-      reset: 'Teks asli'
+      delete-redundant-confirm: "Ini akan menghapus {count} terjemahan yang memiliki nilai asli dan nilai khusus yang sama. Ini dapat berguna untuk membersihkan setelah pembaruan paket bahasa.\n"
+      load-more: 'Muat lebih banyak'
+      reset: 'Kembalikan ke aslinya'
     clear-cache:
       button: 'Hapus cache'
       text: "Terjemahan baru belum diterapkan. Catatan: menghapus cache dapat memperlambat forum Anda untuk sementara waktu.\n"
@@ -32,7 +32,7 @@ fof-linguist:
         percent: '{percent} %'
         total: '{translated} / {total}'
       total-options:
-        count: Hitungan
+        count: Perhitungan
         percent: Persen
     export:
       download: Download
@@ -88,7 +88,7 @@ fof-linguist:
     locales:
       all: Semua
     permissions:
-      view_string_keys: 'Melihat string key terjemahan'
+      view_string_keys: 'Melihat kunci string terjemahan'
     placeholder:
       all-locales: 'Teks yang didefinisikan di sini akan ditampilkan dalam semua bahasa'
       not-translated: 'Tidak diterjemahkan'
