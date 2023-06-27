@@ -12,14 +12,18 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`afrux/forum-stats-widget`](https://github.com/afrux/forum-stats-widget)
 * [`askvortsov/flarum-help-tags`](https://github.com/askvortsov1/flarum-help-tags)
 * [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
 * [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
 * [`clarkwinkelmann/flarum-ext-colorful-borders`](https://github.com/clarkwinkelmann/flarum-ext-colorful-borders)
 * [`clarkwinkelmann/flarum-ext-discussion-lists`](https://github.com/clarkwinkelmann/flarum-ext-discussion-lists)
 * [`datitisev/flarum-maintenance`](https://extiverse.com/extension/datitisev/flarum-maintenance)
+* [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview)
+* [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on)
 * [`ffans/clipboardjs`](https://github.com/FFans/clipboardjs)
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
+* [`flarum/flags`](https://github.com/flarum/flags)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`flarum/tags`](https://github.com/flarum/tags)
@@ -56,6 +60,7 @@ CHANGELOG
 * [`migratetoflarum/canonical`](https://github.com/migratetoflarum/canonical)
 * [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
 * [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren)
+* [`tokenjenny/flarum-ext-web3`](https://github.com/tokenjenny/flarum-ext-web3)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 * [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
 * [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts)
