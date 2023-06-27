@@ -37,6 +37,7 @@ CHANGELOG
 * [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
 * [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
 * [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
+* [`kyrne/websocket`](https://github.com/KyrneDev/websocket)
 * [`migratetoflarum/canonical`](https://github.com/migratetoflarum/canonical)
 * [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
