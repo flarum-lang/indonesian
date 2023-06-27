@@ -29,3 +29,4 @@ maicol07-oidc-client:
       connect_account: 'Sambungkan ke {name}'
       disconnect_account: 'Putus sambungan dari {name}'
       login: 'Login ke {name}'
+      manage_account: 'Kelola akun'

@@ -9,7 +9,7 @@ fof-filter:
     cooldownLabel: 'Gabungkan Post Cooldown'
     countLabel: 'Toleransi Sensor'
     email:
-      default_subject: 'Mengenai Post Terbaru Anda'
+      default_subject: 'Mengenai Postingan Terbaru Anda'
       default_text: "Terima kasih telah memposting! Sayangnya, post Anda telah dihapus karena mengandung sesuatu yang tidak ingin kami lihat di forum kami.\n\nJika Anda yakin ini adalah sebuah kesalahan, Anda beruntung, setiap postingan yang dihapus akan ditinjau oleh moderator kami. Jika mereka menemukan bahwa postingan tersebut telah dihapus secara tidak tepat, mereka akan mengembalikannya.                \n\nTerima kasih atas pengertian Anda."
     email_help: 'Isi pesan email yang ditandai. Menerima html atau plaintext.'
     filter_label: 'String untuk memfilter'
@@ -21,13 +21,13 @@ fof-filter:
       filter_title: 'String untuk memfilter'
       placeholder: 'String yang akan difilter'
       switch:
-        email: 'Email user saat post difilter'
+        email: 'Email pengguna saat postingan difilter'
         merge: 'Otomatis menggabungkan postingan ganda'
     nav:
       desc: 'Filter post dengan kata-kata'
       text: Filter
     permission:
-      bypass_filter_label: 'Lewati filter kata'
+      bypass_filter_label: 'Melewati filter kata'
     title: Filter
   forum:
     flag_message: 'Mengandung string yang diblokir'

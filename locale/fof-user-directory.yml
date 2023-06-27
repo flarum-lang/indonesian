@@ -5,19 +5,19 @@
 fof-user-directory:
   admin:
     permissions:
-      view_user_directory: 'Melihat direktori user'
+      view_user_directory: 'Melihat direktori pengguna'
     settings:
       default-sort: 'Pengurutan default'
-      disable-global-search-source: 'Jangan menambahkan Direktori User ke kolom pencarian global Flarum'
-      link: 'Tambahkan link di beranda agar pengguna dapat melihat direktori'
+      disable-global-search-source: 'Jangan menambahkan Direktori Pengguna ke kolom pencarian global Flarum'
+      link: 'Tambahkan link di beranda agar para pengguna dapat melihat direktori'
       use-small-cards: 'Gunakan user card berukuran kecil'
   forum:
     header:
       back_to_user_directory_tooltip: 'Kembali ke Direktori Pengguna'
     page:
-      empty_text: 'Kami tidak dapat menemukan user yang cocok dengan pencarian Anda.'
+      empty_text: 'Kami tidak dapat menemukan pengguna yang cocok dengan pencarian Anda.'
       load_more_button: '=> core.ref.load_more'
-      nav: 'Direktori User'
+      nav: 'Direktori Pengguna'
       refresh_tooltip: '=> core.forum.index.refresh_tooltip'
       usercard:
         discussion-count: '{count, plural, one { {count} diskusi} other {{count} diskusi}}'
@@ -37,7 +37,7 @@ fof-user-directory:
       most_discussions: 'Diskusi terbanyak'
       most_posts: 'Postingan terbanyak'
       newest: Terbaru
-      not_specified: 'Gunakan Flarum standar'
+      not_specified: 'Gunakan standar Flarum'
       oldest: Terlama
       username_az: 'Username (a-z)'
       username_za: 'Username (z-a)'
