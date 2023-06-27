@@ -38,7 +38,7 @@ fof-linguist:
       download: Download
       include-all: 'Sertakan terjemahan yang ditetapkan untuk "Semua" bahasa'
       include-originals: 'Sertakan terjemahan aslinya'
-      locale: Lokal
+      locale: 'Bahasa lokal'
       locale-all: 'Pseudo-locale "Semua"'
       namespace: Namespace
       namespace-all: Semua
@@ -52,7 +52,7 @@ fof-linguist:
       frontend: 'Untuk frontend'
       frontend-all-except-admin: 'Semua, kecuali Admin'
       mass-edit: 'Pengeditan massal'
-      missing: 'Temukan terjemahan yang belum diterjemahkan'
+      missing: 'Temukan terjemahan yang hilang'
       missing-middle-label: 'terjemahan dalam'
       negation-options:
         with: Dengan
@@ -70,11 +70,11 @@ fof-linguist:
     import:
       input: Input
       input-placeholder: 'Tarik dan lepas atau paste file Yaml di sini'
-      locale: Lokal
+      locale: 'Bahasa lokal'
       locale-all: 'Pseudo-locale "Semua"'
       override-existing: 'Mengesampingkan terjemahan khusus Saya yang sudah ada'
-      results: "Impor telah selesai. {imported}string telah diimpor dan {identical}string yang identik diabaikan. Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.\n"
-      results-with-ignore: "Impor telah selesai. {imported} telah diimpor, {ignored} string yang sudah ada telah diabaikan dan {identical}string yang identik telah dilewati. Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.\n"
+      results: "Impor selesai. String {imported} telah diimpor dan string {identical} yang identik dilewati. Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.\n"
+      results-with-ignore: "Impor telah selesai. String {imported} telah diimpor, string {ignored} yang sudah ada telah diabaikan dan string {identical} yang identik telah dilewati. Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.\n"
       submit: Impor
       title: Impor
     known-frontend:

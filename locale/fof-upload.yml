@@ -92,11 +92,11 @@ fof-upload:
       bbcode-image: 'Template gambar BBCode'
       bbcode-image_description: "Tampilkan gambar menggunakan BBCode. <strong>Anda harus menginstal dan mengaktifkan flarum/bbcode.</strong> Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection dinonaktifkan.\n"
       file: 'Template download file default'
-      file_description: "Tampilkan nama file dan beberapa informasi umum. Download proxy melalui php, memungkinkan pengumpulan statistik dan hotlink protection.\n"
+      file_description: "Menampilkan nama file dan beberapa informasi umum. Memproksi download melalui php, memungkinkan pengumpulan statistik dan hotlink protection.\n"
       image: 'Template download gambar default'
       image-preview: 'Template pratinjau gambar lengkap'
       image-preview_description: "Tampilkan gambar lengkap. Tidak ada fungsi download, tidak ada statistik yang dikumpulkan dan hotlink protection dinonaktifkan.\n"
-      image_description: "Tampilkan thumbnail gambar dan proxy yang didownload melalui php. Izinkan pengumpulan statistik dan hotlink protection.\n"
+      image_description: "Menampilkan thumbnail gambar dan memproksi download melalui php. Memungkinkan pengumpulan statistik dan hotlink protection.\n"
       just-url: 'Hanya URL'
       just-url_description: "Hanya menambahkan URL. Rendering dapat ditangani oleh ekstensi lain dengan kemampuan auto-link. Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection dinonaktifkan.\n"
       markdown-image: 'Template gambar markdown'
