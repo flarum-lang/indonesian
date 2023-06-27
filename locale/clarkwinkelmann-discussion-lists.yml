@@ -13,7 +13,7 @@ clarkwinkelmann-discussion-lists:
       viewPrivate: 'Melihat semua daftar diskusi pribadi'
       viewPublic: 'Melihat daftar diskusi publik'
     settings:
-      collapseSeries: 'Perkecil indeks serial secara default'
+      collapseSeries: 'Ciutkan indeks serial secara default'
   api:
     manualLimit: 'Daftar yang diurutkan secara manual tidak dapat berisi lebih dari 50 diskusi'
     seriesAnyAddNotAllowed: 'Anda hanya dapat menambahkan diskusi Anda sendiri ke dalam serangkaian list'

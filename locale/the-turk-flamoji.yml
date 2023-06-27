@@ -34,9 +34,11 @@ the-turk-flamoji:
         smileys: '=> the-turk-flamoji.ref.emoji_categories.smileys'
         symbols: '=> the-turk-flamoji.ref.emoji_categories.symbols'
         travel: '=> the-turk-flamoji.ref.emoji_categories.travel'
+      emoji_data_label: 'Data Emoji'
       emoji_data_text: 'Ini biasanya digunakan untuk menyediakan nama emoji yang diterjemahkan.'
       emoji_settings_heading: 'Pengaturan Emoji'
       emoji_style_label: 'Gaya emoji'
+      emoji_style_native_option: Asli
       emoji_version_label: 'Versi Emoji'
       emoji_version_text: 'Versi spesifikasi Emoji yang akan digunakan.'
       general_ui_settings_heading: 'Pengaturan UI Umum'

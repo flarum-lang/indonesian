@@ -28,9 +28,11 @@ ziven-decoration-store:
     item-property-style-select-from-gallery: 'Gaya Bawaan'
     item-property-style-text-effect: 'Teks Pratinjau'
     settings:
+      display-name: 'Nama Tampilan'
       timezone: 'Zona waktu'
       timezone-default: Asia/Shanghai
   forum:
+    display-name: 'Nama Tampilan'
     equipment-modal-title: 'Daftar Item'
     item-already-have: 'Item sudah dibeli'
     item-expired: 'Berhenti berlangganan'

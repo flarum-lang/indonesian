@@ -13,22 +13,22 @@ fof-user-directory:
       use-small-cards: 'Gunakan user card berukuran kecil'
   forum:
     header:
-      back_to_user_directory_tooltip: 'Kembali ke Direktori User'
+      back_to_user_directory_tooltip: 'Kembali ke Direktori Pengguna'
     page:
       empty_text: 'Kami tidak dapat menemukan user yang cocok dengan pencarian Anda.'
       load_more_button: '=> core.ref.load_more'
       nav: 'Direktori User'
       refresh_tooltip: '=> core.forum.index.refresh_tooltip'
       usercard:
-        discussion-count: '{count, plural, one { {count} discussion} other {{count} discussions}}'
-        post-count: '{count, plural, one { {count} post} other {{count} posts}}'
+        discussion-count: '{count, plural, one { {count} diskusi} other {{count} diskusi}}'
+        post-count: '{count, plural, one { {count} post} other {{count} post}}'
     search:
       field:
-        placeholder: 'Cari semua user'
+        placeholder: 'Cari semua pengguna'
       kinds:
         group: Grup
         text: 'Teks bebas'
-      users_heading: 'Cari semua user untuk "{query}"'
+      users_heading: 'Cari semua pengguna untuk "{query}"'
   lib:
     sort:
       default: Default

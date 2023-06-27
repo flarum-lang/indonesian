@@ -23,6 +23,7 @@ kyrne-whisper:
       recovery_message: 'Pesan sistem: Sinkronisasi enkripsi hilang dan dipulihkan'
       send: 'Kirim Pesan'
       start: 'Mulai Percakapan'
+      start_of_conversation: 'Awal Percakapan'
       text_placeholder: 'Ketik pesan Anda'
     dropdown:
       tooltip: Percakapan
