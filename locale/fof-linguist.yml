@@ -12,7 +12,7 @@ fof-linguist:
       delete-redundant: 'Hapus terjemahan yang tidak perlu'
       delete-redundant-confirm: "Ini akan menghapus {count} terjemahan yang memiliki nilai asli dan nilai khusus yang sama. Ini dapat berguna untuk membersihkan setelah pembaruan paket bahasa.\n"
       load-more: 'Muat lebih banyak'
-      reset: 'Kembalikan ke aslinya'
+      reset: 'Kembali ke asli'
     clear-cache:
       button: 'Hapus cache'
       text: "Terjemahan baru belum diterapkan. Catatan: menghapus cache dapat memperlambat forum Anda untuk sementara waktu.\n"
@@ -28,7 +28,7 @@ fof-linguist:
         namespace: Namespace
         total: Total
       count:
-        details: '{total} total / {original} original / {custom} custom'
+        details: 'total {total} / {original} asli / {custom} khusus'
         percent: '{percent} %'
         total: '{translated} / {total}'
       total-options:
@@ -51,7 +51,7 @@ fof-linguist:
       for-extension: 'Untuk ekstensi'
       frontend: 'Untuk frontend'
       frontend-all-except-admin: 'Semua, kecuali Admin'
-      mass-edit: 'Edit massal'
+      mass-edit: 'Pengeditan massal'
       missing: 'Temukan terjemahan yang belum diterjemahkan'
       missing-middle-label: 'terjemahan dalam'
       negation-options:
@@ -63,9 +63,9 @@ fof-linguist:
       results: 'Menampilkan {shown} dari {total} terjemahan yang cocok'
       search: 'Cari string terjemahan...'
       type-options:
-        any: 'Original atau Custom'
-        original: Original
-        own: Custom
+        any: 'Asli atau Khusus'
+        original: Asli
+        own: Khusus
       with-own-translations: 'Terjemahan saya'
     import:
       input: Input
@@ -91,6 +91,7 @@ fof-linguist:
       view_string_keys: 'Melihat kunci string terjemahan'
     placeholder:
       all-locales: 'Teks yang didefinisikan di sini akan ditampilkan dalam semua bahasa'
+      hint: 'Nilai asli:'
       not-translated: 'Tidak diterjemahkan'
     tabs:
       coverage: Cakupan

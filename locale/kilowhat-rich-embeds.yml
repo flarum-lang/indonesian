@@ -94,3 +94,4 @@ kilowhat-rich-embeds:
       altAvatar: 'Gambar avatar penulis'
       missing:
         other: 'Tidak ada pratinjau yang dapat dibuat untuk link ini'
+        retrieving: Mengambil...
