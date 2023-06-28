@@ -36,6 +36,7 @@ CHANGELOG
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
