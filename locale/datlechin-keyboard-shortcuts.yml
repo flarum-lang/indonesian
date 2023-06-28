@@ -16,6 +16,7 @@ datlechin-keyboard-shortcuts:
       back: Kembali
       close: Tutup
       first_post: 'Post Pertama'
+      follow: 'Ikuti / Berhenti Mengikuti'
       help: Bantuan
       last_post: 'Post Terakhir'
       login: Login
@@ -26,4 +27,5 @@ datlechin-keyboard-shortcuts:
       refresh: Refresh
       reply: Balas
       search: Cari
+      session: 'Dropdown Pengguna'
       signup: Daftar

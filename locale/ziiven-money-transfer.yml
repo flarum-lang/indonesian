@@ -21,11 +21,15 @@ ziven-transfer-money:
     receive-transfer-from-user: 'Menerima transfer money dari user lain'
     search_user_header: User
     transfer-error: 'Transfer Error'
+    transfer-error-insufficient-fund: 'Dana Tidak Mencukupi'
     transfer-error-no-permission: 'Anda tidak memiliki izin'
+    transfer-error-no-target-user-selected: 'Pilih satu pengguna target yang akan ditransfer'
     transfer-list-assign-at: 'Tanggal Transfer'
     transfer-list-empty: 'Tidak ada riwayat transfer'
+    transfer-list-from-user: 'Dari Pengguna'
     transfer-list-id: ID
     transfer-list-load-more: 'Muat Lebih Banyak'
+    transfer-list-target-user: 'Pengguna Target'
     transfer-list-transfer-amount: Jumlah
     transfer-list-transfer-notes: Catatan
     transfer-list-transfer-notes-none: 'Tidak ada'
@@ -34,6 +38,7 @@ ziven-transfer-money:
     transfer-money-history: 'Riwayat Transfer'
     transfer-money-in: 'Transfer Masuk'
     transfer-money-input-placeholder: 'Masukkan nominal transfer'
+    transfer-money-no-user-selected: 'Tidak ada pengguna yang dipilih'
     transfer-money-notes: 'Catatan (Opsional)'
     transfer-money-out: 'Transfer Keluar'
     transfer-money-search-user: 'Tambah User'
