@@ -50,6 +50,7 @@ v17development-flarum-support:
       publish_article: 'Terbitkan artikel'
       publish_article_hint: 'Terbitkan artikel setelah diposting.'
       view: Lihat
+      warning_save_changes: "PERINGATAN: Anda akan meninggalkan halaman ini dan belum menyimpan perubahan Anda. Apakah Anda ingin menyimpan perubahan Anda sebelum keluar?\n\n[OK] = Ya, simpan. [CANCEL] = Tidak, jangan simpan\n"
       write: Tulis
     create: Buat
     discard: Buang

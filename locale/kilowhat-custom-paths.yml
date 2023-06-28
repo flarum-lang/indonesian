@@ -35,7 +35,7 @@ kilowhat-custom-paths:
         path: Path
       paths:
         askvortsov-categories: Kategori
-        clarkwinkelmann-composer-page: 'Halaman Penulisan'
+        clarkwinkelmann-composer-page: 'Composer Page'
         clarkwinkelmann-discussion-bookmarks: 'Bookmark Diskusi'
         clarkwinkelmann-discussion-lists-profile: 'Daftar pengguna'
         clarkwinkelmann-group-list: 'Daftar grup'

@@ -35,7 +35,7 @@ kilowhat-formulaire:
         fas-square: 'Ikon FontAwesome Solid Square'
         native: 'Kontrol browser bawaan'
       uniformComposerLayout: 'Tata letak penulisan diskusi yang seragam'
-      uniformComposerLayoutHelp: "Mengubah gaya tag, judul, dan bidang konten agar sesuai dengan Formulaire. Tata letak ini akan membutuhkan lebih banyak ruang, jadi Anda disarankan untuk menginstal dan mengaktifkan ekstensi <a>Halaman Penulisan</a>.\n"
+      uniformComposerLayoutHelp: "Mengubah gaya tag, judul, dan bidang konten agar sesuai dengan Formulaire. Tata letak ini akan membutuhkan lebih banyak ruang, jadi Anda disarankan untuk menginstal dan mengaktifkan ekstensi <a>Composer Page</a>.\n"
   api:
     export:
       meta:
@@ -142,6 +142,9 @@ kilowhat-formulaire:
         enable: Aktifkan
         notify-emails: 'Kirimkan salinan data ke email yang dipisahkan dengan koma tersebut'
         send-confirmation-to-participants: 'Mengirimkan email konfirmasi kepada peserta'
+        show-on-creation:
+          discussion: 'Tampilkan dalam area penulisan diskusi'
+          discussionHelp: "Area penulisan diskusi Flarum tidak cocok untuk memuat banyak kolom. Anda harus menginstal dan mengaktifkan ekstensi <a>Composer Page</a> untuk memastikan semua kolom tetap dapat diakses di semua perangkat.\n"
         web-confirmation-message: 'Pesan konfirmasi di web (pemformatan diaktifkan)'
       link-options:
         all-groups: 'Untuk semua grup'
@@ -152,6 +155,8 @@ kilowhat-formulaire:
       section:
         permissions: Perizinan
         template: Template
+      warnings:
+        show-on-composer-invalid-permissions: "Pastikan izin \"lihat sendiri\" dan \"edit sendiri\" sesuai dengan siapa yang dapat memulai diskusi dengan tag yang dipilih untuk menggunakan \"tampilkan di area penulisan\". Atur ke \"anggota\" jika tidak yakin. Pesan ini dapat muncul meskipun pengaturan Anda sudah benar.\n"
     form-index:
       columns:
         actions: Tindakan

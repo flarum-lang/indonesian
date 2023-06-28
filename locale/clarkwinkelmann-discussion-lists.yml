@@ -44,7 +44,7 @@ clarkwinkelmann-discussion-lists:
         public: 'List publik'
         series: 'Public series'
     profile:
-      link: List
+      link: 'List diskusi'
     series:
       expand: Perluas
       kind: Serial
