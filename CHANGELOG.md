@@ -23,6 +23,7 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-discussion-lists`](https://github.com/clarkwinkelmann/flarum-ext-discussion-lists)
 * [`datitisev/flarum-maintenance`](https://extiverse.com/extension/datitisev/flarum-maintenance)
 * [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview)
+* [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
 * [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on)
 * [`ffans/clipboardjs`](https://github.com/FFans/clipboardjs)
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
@@ -64,6 +65,7 @@ CHANGELOG
 * [`kyrne/websocket`](https://github.com/KyrneDev/websocket)
 * [`kyrne/whisper`](https://github.com/KyrneDev/whisper)
 * [`maicol07/flarum-oidc-client`](https://extiverse.com/extension/maicol07/flarum-oidc-client)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * [`migratetoflarum/canonical`](https://github.com/migratetoflarum/canonical)
 * [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
 * [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren)
@@ -73,6 +75,7 @@ CHANGELOG
 * [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag)
 * [`zerosonesfun/expired-posts`](https://github.com/zerosonesfun/expired-posts)
 * [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store)
+* [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
 
 
 Semua perubahan: [1.8.3...1.8.4](https://github.com/flarum-lang/indonesian/compare/1.8.3...1.8.4).
