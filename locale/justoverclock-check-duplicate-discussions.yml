@@ -5,7 +5,7 @@
 justoverclock-check-duplicate-discussions:
   admin:
     similarNumber: 'Diskusi Serupa yang Ditampilkan'
-    similarNumber-help: 'masukkan jumlah diskusi serupa yang akan ditampilkan di Composer'
+    similarNumber-help: 'Masukkan jumlah diskusi serupa yang akan ditampilkan di area penulisan'
   forum:
     foundDiscussion: 'Kami ingin menyoroti diskusi lain yang mungkin sesuai dengan topik Anda. Kami sangat menghargai jika Anda mau memeriksanya untuk menghindari duplikasi diskusi di komunitas Kami.'
     identicalWarning: 'Peringatan: judul diskusi Anda identik dengan diskusi yang sudah ada!'

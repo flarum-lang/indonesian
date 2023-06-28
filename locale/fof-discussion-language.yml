@@ -7,7 +7,7 @@ fof-discussion-language:
     permissions:
       allow_change_language_label: 'Izinkan pengeditan bahasa'
     settings:
-      composer_default_label: 'Pilih terlebih dahulu bahasa saat ini di area pengeditan diskusi'
+      composer_default_label: 'Pilih terlebih dahulu bahasa lokal di area penulisan diskusi'
       config:
         country_label: 'Negara (untuk menampilkan bendera)'
         language_label: Bahasa

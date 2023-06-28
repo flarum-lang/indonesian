@@ -42,9 +42,11 @@ v17development-flarum-support:
     ask_your_question_on_forum: 'Ajukan pertanyaan Anda di forum'
     composer:
       article_saved: 'Artikel telah disimpan'
+      compose_article: 'Menulis artikel'
       compose_ticket: 'Tulis tiket'
       enter_message_here: 'Masukkan pesan Anda di sini'
       new_article_title: 'Judul artikel baru'
+      nothing_to_preview: 'Tidak ada yang bisa dipratinjau'
       publish_article: 'Terbitkan artikel'
       publish_article_hint: 'Terbitkan artikel setelah diposting.'
       view: Lihat

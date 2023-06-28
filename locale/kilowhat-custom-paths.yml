@@ -35,6 +35,8 @@ kilowhat-custom-paths:
         path: Path
       paths:
         askvortsov-categories: Kategori
+        clarkwinkelmann-composer-page: 'Halaman Penulisan'
+        clarkwinkelmann-discussion-bookmarks: 'Bookmark Diskusi'
         clarkwinkelmann-discussion-lists-profile: 'Daftar pengguna'
         clarkwinkelmann-group-list: 'Daftar grup'
         discussion: Diskusi
@@ -55,3 +57,8 @@ kilowhat-custom-paths:
         user: 'Profil pengguna'
         user-discussions: 'Diskusi pengguna'
         v17development-blog-category: Kategori
+        v17development-blog-compose: Menulis
+        v17development-blog-overview: 'Gambaran Umum'
+        v17development-user-badges-item: 'Detail badge'
+        v17development-user-badges-overview: 'Gambaran umum badge'
+        v17development-user-badges-user-badges: 'Badge profil'

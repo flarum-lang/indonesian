@@ -8,6 +8,7 @@ askvortsov-rich-text:
       toggle_on_editor: 'Tampilkan mode rich text pada editor?'
   forum:
     settings:
+      composer_heading: 'Area Penulisan'
       rich_text_compact_paragraphs_label: 'Jangan pisahkan paragraf dengan baris baru.'
       use_rich_text_editor_label: 'Gunakan rich text editor?'
   lib:

@@ -15,5 +15,6 @@ expired-posts:
   forum:
     composer:
       warning:
-        description: 'Postingan ini telah expired.'
-        error: 'Diskusi ini telah expired.'
+        description: 'Postingan ini telah kedaluwarsa.'
+        error: 'Diskusi ini telah kedaluwarsa.'
+        title: 'Postingan Kedaluwarsa'

@@ -171,7 +171,7 @@ core:
       userlist_title: '=> core.admin.users.description'
     permissions:
       allow_hide_own_posts_label: 'Menghapus postingan sendiri'
-      allow_post_editing_label: 'Pengeditan postingan'
+      allow_post_editing_label: 'Izinkan pengeditan postingan'
       allow_renaming_label: 'Mengganti nama'
       create_access_token_label: 'Membuat token akses'
       create_heading: Membuat
@@ -200,7 +200,7 @@ core:
       view_forum_label: 'Melihat forum (diskusi dan pengguna)'
       view_hidden_groups_label: 'Melihat badge grup yang disembunyikan'
       view_last_seen_at_label: 'Selalu melihat waktu terakhir dilihat pengguna'
-      view_post_ips_label: 'Melihat alamat IP post'
+      view_post_ips_label: 'Melihat alamat IP postingan'
     permissions_controls:
       allow_indefinitely_button: 'Tanpa batas waktu'
       allow_never_button: '=> core.ref.never'
@@ -291,7 +291,7 @@ core:
       minimize_tooltip: Minimalkan
       preview_tooltip: Pratinjau
     composer_discussion:
-      body_placeholder: 'Tulis Post...'
+      body_placeholder: 'Tulislah sebuah artikel...'
       discard_confirmation: 'Anda belum memposting diskusi Anda. Apakah Anda ingin membuangnya?'
       submit_button: Post
       title: '=> core.ref.start_a_discussion'
@@ -349,7 +349,7 @@ core:
       sign_up_link: '=> core.ref.sign_up'
     index:
       all_discussions_link: '=> core.ref.all_discussions'
-      cannot_start_discussion_button: 'Tidak Dapat Membuat Diskusi'
+      cannot_start_discussion_button: 'Tidak Bisa Memulai Diskusi'
       mark_all_as_read_confirmation: 'Anda yakin ingin menandai semua diskusi sebagai telah dibaca?'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       meta_title_text: '=> core.ref.all_discussions'

@@ -9,7 +9,7 @@ clarkwinkelmann-composer-page:
       onlyInTagsHelp: "Daftar tag yang dipisahkan dengan koma. Biarkan kosong untuk selalu menggunakan halaman, bahkan sebelum tag apa pun dipilih.\n"
   forum:
     nav:
-      cancel: 'Keluar dari composer'
+      cancel: 'Keluar dari penulisan'
       continue: 'Lanjutkan diskusi'
     page:
       heading: 'Mulai berdiskusi'

@@ -70,7 +70,7 @@ v17development-flarum-blog:
       no_blog_tags_selected: 'Tidak satu pun dari tag yang Anda pilih adalah tag blog. Silakan pilih setidaknya satu.'
       no_title: 'Tidak ada judul'
       nothing_to_preview: 'Tidak ada yang dapat dipratinjau'
-      post_article: 'Post artikel'
+      post_article: 'Posting artikel'
       post_without_blog_info: 'Apakah Anda yakin ingin memposting artikel blog ini? Anda belum memasukkan ringkasan blog ataupun gambar.'
       select_category: 'Pilih kategori'
       update_settings: 'Perbarui pengaturan blog'
@@ -93,7 +93,7 @@ v17development-flarum-blog:
       enable_comments: 'Aktifkan komentar'
       hide_article: 'Sembunyikan artikel'
       recover_article: 'Pulihkan artikel'
-      rename_article: 'Ubah nama artikel'
+      rename_article: 'Ganti nama artikel'
       update_category: 'Perbarui kategori'
     utils:
       redirect:

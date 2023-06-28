@@ -52,6 +52,7 @@ xsoft-mason-tag:
       by-tag: 'Terapkan metadata ke tag tertentu saja'
       by-tag-name: 'Tag apa saja yang mendapatkan metadata?'
       column-count: 'Jumlah kolom saat menampilkan kolom'
+      composer-height: 'Tinggi Area Penulisan'
       composer-height-help: 'default adalah 200, harus lebih tinggi dari itu untuk mengakomodasi kolom.'
       composer-height-placeholder: '320'
       fields-in-hero: 'Tampilkan kolom di banner diskusi, bukan di post yang pertama'

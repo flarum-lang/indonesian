@@ -4,5 +4,5 @@
 
 justoverclock-composer-autocomplete:
   admin:
-    settingsSubTitle: 'Di halaman ini, Anda dapat mengonfigurasi kalimat yang sudah Anda tentukan sebelumnya untuk penyelesai otomatis komposer.'
+    settingsSubTitle: 'Di halaman ini, Anda dapat mengonfigurasi kalimat yang sudah Anda tentukan sebelumnya untuk penyelesaian otomatis di area penulisan.'
     settingsTitle: 'Key dan value Penyelesaian Otomatis:'

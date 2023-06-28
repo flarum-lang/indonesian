@@ -5,8 +5,8 @@
 afrux-online-users-widget:
   admin:
     settings:
-      max_users: 'Jumlah Maksimal User Untuk Ditampilkan'
+      max_users: 'Jumlah Maksimal Pengguna Untuk Ditampilkan'
   forum:
     widget:
-      empty: 'Tidak Ada User yang Online.'
-      title: 'User Online'
+      empty: 'Tidak Ada Pengguna Yang Online.'
+      title: 'Pengguna Online'
