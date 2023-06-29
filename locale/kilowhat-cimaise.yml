@@ -48,7 +48,7 @@ kilowhat-cimaise:
         topRight: 'Kanan atas'
   api:
     post-edit:
-      cannotAttachAlreadySubmitted: 'Tidak dapat melampirkan gambar {id} karena sudah dikirimkan'
+      cannotAttachAlreadySubmitted: 'Tidak dapat melampirkan gambar {id} karena sudah diajukan'
       cannotAttachFromExternalAlbum: 'Tidak dapat melampirkan gambar {id} karena gambar tersebut termasuk dalam album eksternal'
       cannotAttachHasNoAlbum: 'Diskusi tidak memiliki album yang dilampirkan'
       cannotAttachToNonComment: 'Gambar tidak dapat dilampirkan secara manual ke postingan non-komentar'
@@ -116,6 +116,7 @@ kilowhat-cimaise:
     new-album-modal:
       title: 'Album Baru'
     picture-controls:
+      approve: Setuju
       controls: '=> kilowhat-cimaise.ref.controls'
       delete: '=> kilowhat-cimaise.ref.delete'
       delete-confirmation: 'Menghapus Gambar "{title}"?'

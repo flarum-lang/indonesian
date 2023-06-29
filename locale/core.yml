@@ -267,7 +267,7 @@ core:
       body: "Hai {username}!\n\nSeseorang (mudah-mudahan Anda!) telah mengubah alamat email di {forum} menjadi alamat email ini.\n\nJika itu adalah Anda, cukup klik link berikut dan email Anda akan dikonfirmasi:\n{url}\n\nJika ternyata bukan Anda, silakan abaikan email ini.\n"
       subject: 'Konfirmasi Alamat Email Baru Anda'
     reset_password:
-      body: "Hai {username}!\n\nSeseorang (mudah-mudahan Anda!) telah mengirimkan permintaan lupa password untuk akun Anda di {forum}.\n\nJika ini adalah Anda, klik link berikut untuk mereset password Anda:\n{url}\n\nJika Anda tidak ingin mengganti password Anda, abaikan saja email ini dan tidak akan terjadi apa-apa.\n"
+      body: "Hai {username}!\n\nSeseorang (mudah-mudahan Anda!) telah mengajukan permintaan lupa password untuk akun Anda di {forum}.\n\nJika ini adalah Anda, klik link berikut untuk mereset password Anda:\n{url}\n\nJika Anda tidak ingin mengganti password Anda, abaikan saja email ini dan tidak akan terjadi apa-apa.\n"
       subject: '=> core.ref.reset_your_password'
     send_test:
       body: "Hai {username}!\n\nIni adalah email percobaan untuk mengonfirmasi bahwa konfigurasi email Flarum Anda berfungsi dengan baik.\n\nJika ini adalah Anda, email ini berarti konfigurasi Anda berhasil!\n\nJika ini bukan Anda, silakan abaikan email ini.\n"

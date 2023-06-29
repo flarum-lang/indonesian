@@ -6,8 +6,8 @@ fof-username-request:
   admin:
     permissions:
       moderate_requests: 'Menyetujui permohonan perubahan username/nickname'
-      request_nickname: 'Mengajukan perubahan nickname (nama panggilan)'
-      request_username: 'Mengajukan perubahan username'
+      request_nickname: 'Meminta perubahan nickname (nama panggilan)'
+      request_username: 'Meminta perubahan username'
   forum:
     nickname_modals:
       action:
@@ -24,22 +24,22 @@ fof-username-request:
         confirmation_message: 'Permohonan perubahan nickname Anda telah diajukan dan sedang menunggu persetujuan.'
         current_request: 'Anda telah mengajukan permohonan untuk mengubah nickname Anda menjadi "{name}". Anda dapat memperbarui permohonan Anda atau menghapusnya.'
         delete_button: 'Hapus Pengajuan'
-        deleted: 'Pengajuan perubahan nickname telah dihapus.'
+        deleted: 'Permohonan perubahan nickname telah dihapus.'
         dismiss_button: '=> core.ref.okay'
-        submit_button: 'Ajukan Permintaan'
-        title: 'Ajukan Perubahan Nickname'
+        submit_button: 'Ajukan Permohonan'
+        title: 'Mengajukan Perubahan Nickname'
       results:
         approved: 'Permohonan perubahan nickname Anda telah disetujui'
         dismiss_button: '=> core.ref.okay'
         new_name: 'Nickname Anda telah berhasil diubah menjadi: {name}'
         reason: 'Alasan penolakan: <i>"{reason}"</i>.'
         rejected: 'Permohonan perubahan nickname Anda ditolak'
-        resubmit: 'Saat ini Anda dapat mengajukan kembali permintaan perubahan nickname baru dari pengaturan akun Anda jika Anda menginginkannya.'
+        resubmit: 'Saat ini Anda dapat mengajukan kembali permohonan perubahan nickname baru dari pengaturan akun Anda jika Anda menginginkannya.'
         title: 'Permohonan Perubahan Nickname'
     pending_requests:
       empty_text: 'Tidak ditemukan adanya permohonan perubahan nama.'
       nickname_exerpt: 'Nickname yang diajukan: {requestedName}'
-      nickname_item_text: '{name} mengajukan perubahan nickname'
+      nickname_item_text: '{name} mengajukan permohonan perubahan nickname'
       title: '=> fof-username-request.ref.name_change_requests'
       tooltip: '=> fof-username-request.ref.name_change_requests'
       username_exerpt: 'Username yang diajukan: {requestedName}'
@@ -53,7 +53,7 @@ fof-username-request:
       action:
         approval_label: Setuju
         decision_title: Keputusan
-        help_text: 'Mohon pastikan bahwa perubahan username yang diminta ini mengikuti panduan forum.'
+        help_text: 'Mohon pastikan bahwa perubahan username yang diajukan ini mengikuti panduan forum.'
         name: '{name} telah mengajukan permohonan untuk mengubah username menjadi "{requestedName}"'
         reason_title: 'Alasan Penolakan'
         rejected_label: Tolak
@@ -63,11 +63,11 @@ fof-username-request:
       request:
         confirmation_message: 'Permohonan perubahan username Anda telah diajukan dan sedang menunggu persetujuan.'
         current_request: 'Anda telah mengajukan permohonan untuk mengubah username Anda menjadi "{name}". Anda dapat memperbarui permintaan Anda atau menghapusnya.'
-        delete_button: 'Hapus Pengajuan'
-        deleted: 'Permintaan username dihapus.'
+        delete_button: 'Hapus Permohonan'
+        deleted: 'Permohonan username dihapus.'
         dismiss_button: '=> core.ref.okay'
-        submit_button: 'Kirim Pengajuan'
-        title: 'Pengajuan Perubahan Username'
+        submit_button: 'Ajukan Permohonan'
+        title: 'Permohonan Perubahan Username'
       results:
         approved: 'Permohonan perubahan username Anda telah disetujui'
         dismiss_button: '=> core.ref.okay'
