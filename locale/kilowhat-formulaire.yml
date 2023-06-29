@@ -5,6 +5,7 @@
 kilowhat-formulaire:
   admin:
     permissions:
+      create: 'Membuat formulir (beta)'
       editAnyDiscussion: '=> kilowhat-formulaire.ref.permissions.editAnyDiscussion'
       editAnyUser: '=> kilowhat-formulaire.ref.permissions.editAnyUser'
       editOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.editOwnDiscussion'
@@ -16,6 +17,7 @@ kilowhat-formulaire:
       heading-advanced: 'Formulaire (opsi untuk ekstensi third-party)'
       listForms: 'Melihat daftar formulir yang tidak dihapus'
       listSubmissions: 'Melihat daftar pengajuan'
+      moderate: 'Memoderasi semua formulir'
       seeAnyDiscussion: '=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion'
       seeAnyUser: '=> kilowhat-formulaire.ref.permissions.seeAnyUser'
       seeOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion'
@@ -38,6 +40,7 @@ kilowhat-formulaire:
         fas-circle: 'Ikon FontAwesome Solid Circle'
         fas-square: 'Ikon FontAwesome Solid Square'
         native: 'Kontrol browser bawaan'
+      title: 'Pengaturan global formulir'
       uniformComposerLayout: 'Tata letak penulisan diskusi yang seragam'
       uniformComposerLayoutHelp: "Mengubah gaya tag, judul, dan bidang konten agar sesuai dengan Formulaire. Tata letak ini akan membutuhkan lebih banyak ruang, jadi Anda disarankan untuk menginstal dan mengaktifkan ekstensi <a>Composer Page</a>.\n"
   api:
@@ -62,8 +65,9 @@ kilowhat-formulaire:
     auto-discussion-options-modal:
       field:
         tags: 'Tag diskusi'
+        tags-help: "Daftar slug tag yang dipisahkan dengan koma. Tag yang dipilih akan ditambahkan sebagai tambahan pada tag yang terhubung dengan formulir ini.\n"
         title: 'Judul diskusi'
-      introduction: "Pengaturan ini akan berlaku untuk diskusi baru yang telah dibuat secara otomatis dengan mengirimkan form yang terhubung dengan tag. Anda dapat menggunakan nilai dari pengiriman form menggunakan sintaksis kurung kurawal dengan field slug. Secara default, { title } dan { content } akan digunakan secara berurutan.\n"
+      introduction: "Pengaturan ini akan berlaku untuk diskusi baru yang telah dibuat secara otomatis dengan mengirimkan formulir yang terhubung dengan tag. Anda dapat menggunakan nilai dari formulir pengajuan menggunakan sintaksis kurung kurawal dengan slug kolom. Secara default, { title } dan { content } akan digunakan secara berurutan.\n"
       submit: 'Validasi perubahan'
       title: 'Opsi diskusi otomatis'
     badge:
@@ -113,24 +117,26 @@ kilowhat-formulaire:
       preview-primitives:
         boolean-false: 'False'
         boolean-true: 'True'
+        excel-date: '(EXCEL DATE)'
       submit: Download
-      title: 'Ekspor pengajuan'
     form-create:
       button:
-        create: 'Buat form'
+        create: 'Buat formulir'
       field:
         title: Judul
-      title: 'Form baru'
+      title: 'Formulir baru'
     form-edit-header:
       access-status:
         disabled: Konsep
         enabled: Diaktifkan
+      back: Kembali
       category:
         discussion: '=> kilowhat-formulaire.ref.type.discussion'
         standalone: '=> kilowhat-formulaire.ref.type.standalone'
         user: '=> kilowhat-formulaire.ref.type.user'
       controls: Kontrol
       delete: 'Hapus permanen'
+      delete-confirmation: 'Formulir "{title}" akan dihapus secara permanen'
       disable-expert-mode: 'Nonaktifkan mode expert'
       enable-expert-mode: 'Aktifkan mode expert'
       hide: Hapus
@@ -149,9 +155,10 @@ kilowhat-formulaire:
       field:
         accept-submissions: 'Terima pengajuan baru'
         allow-modification: 'Izinkan pengguna untuk mengedit pengajuan mereka yang sudah ada'
-        automatic-discussion: 'Secara otomatis membuat diskusi dari form pengajuan'
-        automatic-discussion-help: "Ketika diaktifkan, form akan terus dapat diakses seperti form mandiri. Pengajuan akan secara otomatis dibuat dan terhubung dengan diskusi baru.\n"
+        automatic-discussion: 'Secara otomatis membuat diskusi dari formulir pengajuan'
+        automatic-discussion-help: "Ketika diaktifkan, formulir akan terus dapat diakses seperti formulir mandiri. Pengajuan akan secara otomatis dibuat dan terhubung dengan diskusi baru.\n"
         enable: Aktifkan
+        link: 'Jenis formulir khusus'
         max-submissions: 'Maks pengajuan (biarkan kosong untuk tidak terbatas)'
         notify-emails: 'Kirimkan salinan data ke email yang dipisahkan dengan koma tersebut'
         permission-edit-any: 'Mengedit pengajuan apa pun'
@@ -173,6 +180,8 @@ kilowhat-formulaire:
         permissions: Perizinan
         template: Template
       warnings:
+        auto-link-permission-warning: "Formulir dengan opsi \"secara otomatis membuat diskusi\" menggunakan izin pengisian global ketika diakses secara mandiri.\n"
+        linked-form-is-draft: "Formulir ini saat ini dalam mode konsep. Aktifkan di bawah \"Akses\" agar kolom dapat muncul di forum.\n"
         show-on-composer-invalid-permissions: "Pastikan izin \"lihat sendiri\" dan \"edit sendiri\" sesuai dengan siapa yang dapat memulai diskusi dengan tag yang dipilih untuk menggunakan \"tampilkan di area penulisan\". Atur ke \"anggota\" jika tidak yakin. Pesan ini dapat muncul meskipun pengaturan Anda sudah benar.\n"
     form-index:
       columns:
@@ -182,17 +191,23 @@ kilowhat-formulaire:
         submissions: Pengajuan
         title: Judul
       edit: Edit
-      empty: 'Tidak ada form'
+      empty: 'Tidak ada formulir'
       header:
         discuss: 'Diskusi di Flarum Discuss'
         documentation: 'Dokumentasi online lengkap'
         title: '=> kilowhat-formulaire.ref.manager'
       load-more: 'Muat lebih banyak'
+      new: 'Formulir baru'
+      search: 'Cari formulir...'
+      show: Tampilkan
       submissions: Pengajuan
       tabs:
         discussion: '=> kilowhat-formulaire.ref.type.discussion'
         standalone: '=> kilowhat-formulaire.ref.type.standalone'
         user: '=> kilowhat-formulaire.ref.type.user'
+    form-sort:
+      latest: 'Formulir baru'
+      oldest: 'Formulir paling lama'
     global-settings:
       admin-only: 'Hanya administrator forum yang dapat mengedit pengaturan global'
       permissions:
@@ -238,6 +253,7 @@ kilowhat-formulaire:
         user: Pengguna
       empty: 'Belum ada pengajuan'
       export: Ekspor
+      form-edit: 'Edit formulir'
       form-show: 'Pengajuan baru'
       guest: Tamu
       load-more: 'Muat lebih banyak'
@@ -249,6 +265,7 @@ kilowhat-formulaire:
     submission:
       delete: 'Hapus permanen'
       delete-confirmation: 'Pengajuan dari {date} akan dihapus secara permanen'
+      edit-forbidden: 'Anda tidak dapat lagi mengedit pengajuan ini.'
       edit-submission: 'Edit pengajuan'
       form-full: 'Formulir ini telah mencapai jumlah maksimum pengumpulan.'
       hide: Hapus
@@ -294,6 +311,7 @@ kilowhat-formulaire:
       editAnyUser: 'Mengedit kolom profil siapa pun'
       editOwnDiscussion: 'Mengedit kolom diskusi sendiri'
       editOwnUser: 'Mengedit kolom profil sendiri'
+      fill: 'Isi formulir mandiri'
       seeAnyDiscussion: 'Melihat semua kolom diskusi'
       seeAnyUser: 'Melihat kolom profil siapa pun'
       seeOwnDiscussion: 'Melihat kolom diskusi sendiri'
@@ -309,4 +327,5 @@ kilowhat-formulaire:
       user_id: 'ID Pengguna'
       user_username: '=> core.ref.username'
     type:
+      standalone: 'Formulir mandiri'
       user: 'Profil pengguna'
