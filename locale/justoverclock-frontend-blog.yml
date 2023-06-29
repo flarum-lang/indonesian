@@ -5,7 +5,7 @@
 justoverclock-frontend-blog:
   admin:
     charLim: 'Batas Karakter'
-    charLim-help: 'Masukkan di sini jumlah karakter maksimal yang akan ditampilkan'
+    charLim-help: 'Jumlah maks karakter yang akan ditampilkan'
     defaultImage: 'Gambar Postingan Default'
     defaultImage-help: 'Di sini Anda dapat menentukan gambar default untuk postingan yang tidak memiliki gambar default'
     numberOfPost: 'Jumlah Post'

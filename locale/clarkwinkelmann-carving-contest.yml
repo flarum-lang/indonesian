@@ -16,7 +16,7 @@ clarkwinkelmann-carving-contest:
       view: 'Lihat entri'
     settings:
       colorMode: 'Gunakan mode warna alih-alih mode ukiran'
-      maxEntriesPerUser: 'Jumlah kiriman maksimum per pengguna'
+      maxEntriesPerUser: 'Maks pengajuan per pengguna'
   forum:
     likes_modal:
       title: 'Pengguna yang menyukai entri ini'

@@ -20,6 +20,7 @@ kilowhat-wordpress:
       save: Simpan
       saved-at: 'Disimpan {ago}'
       unsaved-changes: 'Anda memiliki perubahan yang belum tersimpan'
+      validation-errors: 'Kami menemukan beberapa kesalahan dalam pengajuan Anda'
     settings:
       api_key: 'Flarum API Key'
       comment_author_sync: 'Menetapkan penulis diskusi dari SSO'

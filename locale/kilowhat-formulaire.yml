@@ -9,6 +9,7 @@ kilowhat-formulaire:
       editAnyUser: '=> kilowhat-formulaire.ref.permissions.editAnyUser'
       editOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.editOwnDiscussion'
       editOwnUser: '=> kilowhat-formulaire.ref.permissions.editOwnUser'
+      export: 'Mengekspor data pengajuan'
       exportUserDetails: 'Mengakses data pribadi pengguna dalam ekspor'
       fill: '=> kilowhat-formulaire.ref.permissions.fill'
       heading: Formulaire
@@ -20,14 +21,16 @@ kilowhat-formulaire:
       seeOwnUser: '=> kilowhat-formulaire.ref.permissions.seeOwnUser'
     settings:
       checkbox-style: 'Gaya kotak centang'
+      history-controls: 'Tampilkan kontrol undo/redo pada halaman pengajuan'
       horizontal-layout: 'Gunakan tata letak form horizontal'
       horizontal-layout-locations:
         discussionComposer: 'Area Pengeditan Diskusi'
         profileEdit: 'Halaman Edit Profil'
         profileView: 'Halaman Tampilan Profil'
         standaloneView: 'Halaman Tampilan Mandiri'
-      max-file-size: 'Ukuran file maksimum (kB)'
+      max-file-size: 'Ukuran file maks (kB)'
       radio-style: 'Gaya radio'
+      side-nav-on-submission: 'Tampilkan navigasi samping pada halaman pengajuan'
       style-options:
         far-circle: 'Ikon FontAwesome Regular Circle'
         far-square: 'Ikon FontAwesome Regular Square'
@@ -37,6 +40,7 @@ kilowhat-formulaire:
       uniformComposerLayout: 'Tata letak penulisan diskusi yang seragam'
       uniformComposerLayoutHelp: "Mengubah gaya tag, judul, dan bidang konten agar sesuai dengan Formulaire. Tata letak ini akan membutuhkan lebih banyak ruang, jadi Anda disarankan untuk menginstal dan mengaktifkan ekstensi <a>Composer Page</a>.\n"
   api:
+    duplicate-field-key: 'Kunci harus unik'
     export:
       meta:
         created_at: '=> kilowhat-formulaire.ref.submission-meta.created_at'
@@ -138,9 +142,14 @@ kilowhat-formulaire:
       exiting-with-unsaved-data: 'Anda memiliki perubahan yang belum disimpan. Apakah Anda benar-benar ingin keluar dari halaman?'
       expert-mode-warning: "Mode expert diaktifkan. Hal ini memungkinkan Anda untuk menyesuaikan pengenal kolom dan izin per kolom. Pastikan Anda membaca dokumentasi tentang fitur-fitur tersebut, karena Anda mungkin akan merusaknya!\n"
       field:
+        automatic-discussion: 'Secara otomatis membuat diskusi dari form pengajuan'
         automatic-discussion-help: "Ketika diaktifkan, formulir akan terus dapat diakses seperti formulir mandiri. Kiriman akan secara otomatis dibuat dan terhubung dengan diskusi baru.\n"
         enable: Aktifkan
         notify-emails: 'Kirimkan salinan data ke email yang dipisahkan dengan koma tersebut'
+        permission-edit-any: 'Mengedit pengajuan apa pun'
+        permission-edit-own: 'Mengedit pengajuan sendiri'
+        permission-see-any: 'Melihat pengajuan apa pun'
+        permission-see-own: 'Melihat pengajuan sendiri'
         send-confirmation-to-participants: 'Mengirimkan email konfirmasi kepada peserta'
         show-on-creation:
           discussion: 'Tampilkan dalam area penulisan diskusi'
@@ -194,6 +203,7 @@ kilowhat-formulaire:
       forms: '=> kilowhat-formulaire.ref.manager'
     options-editor:
       columns:
+        key: '(Expert) Kunci unik'
         title: Judul
       new-placeholder: 'Opsi baru...'
       remove: 'Hapus opsi'
@@ -208,24 +218,36 @@ kilowhat-formulaire:
       save: Simpan
       saved-at: 'Disimpan {ago}'
       unsaved-changes: 'Anda memiliki perubahan yang belum disimpan'
+      validation-errors: 'Kami menemukan beberapa kesalahan dalam pengajuan Anda'
     select:
       choose: 'Pilih sebuah opsi'
     submission-index:
       columns:
         actions: Tindakan
         user: Pengguna
+      empty: 'Belum ada pengajuan'
       export: Ekspor
+      form-show: 'Pengajuan baru'
       load-more: 'Muat lebih banyak'
+      search: 'Cari pengajuan...'
       show: Tampilkan
+    submission-sort:
+      latest: 'Pengajuan terbaru'
+      oldest: 'Pengajuan terlama'
     submission:
       delete: 'Hapus permanen'
+      edit-submission: 'Edit pengajuan'
       hide: Hapus
+      lock: Kunci
       restore: Pulihkan
       submit-other: 'Submit yang lain'
+      submitted-successfully: 'Pengajuan Anda telah berhasil dikirim.'
+      unlock: 'Buka Kunci'
     template-editor:
       description: Deskripsi
       email: Email
       integer: 'Bilangan bulat'
+      key: '(Expert) Kunci JSON dalam payload pengajuan'
       max: Maksimum
       mime: 'Jenis MIME (dipisahkan koma, menerima karakter pengganti sebagai bagian kedua)'
       min: Minimum

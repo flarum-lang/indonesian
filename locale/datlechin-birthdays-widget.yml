@@ -5,7 +5,7 @@
 datlechin-birthdays-widget:
   admin:
     settings:
-      max_users: 'Jumlah maksimum pengguna untuk ditampilkan'
+      max_users: 'Maks pengguna untuk ditampilkan'
   forum:
     widget:
       more_label: 'Lihat semua ulang tahun'

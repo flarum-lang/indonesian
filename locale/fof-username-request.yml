@@ -26,7 +26,7 @@ fof-username-request:
         delete_button: 'Hapus Pengajuan'
         deleted: 'Pengajuan perubahan nickname telah dihapus.'
         dismiss_button: '=> core.ref.okay'
-        submit_button: 'Kirim Pengajuan'
+        submit_button: 'Ajukan Permintaan'
         title: 'Ajukan Perubahan Nickname'
       results:
         approved: 'Permohonan perubahan nickname Anda telah disetujui'
