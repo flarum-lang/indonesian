@@ -11,6 +11,7 @@ tituspijean-auth-ldap:
       admin_password: 'LDAP - Password admin (biarkan kosong untuk pengikatan anonim)'
       base_dn: 'Base DNs (dipisahkan dengan titik koma)'
       filter: 'Filter untuk diterapkan (opsional)'
+      follow_referrals: 'Ikuti referral untuk mengikat ke server LDAP'
       hosts: 'LDAP - Domain atau alamat IP server (dipisahkan dengan koma)'
       method_name: 'LDAP - Nama server (akan muncul setelah "Login dengan")'
       onlyUse: 'Sembunyikan metode login standar Flarum'

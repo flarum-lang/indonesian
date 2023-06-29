@@ -12,3 +12,10 @@ glowingblue-localizd:
       help: 'Opsi ini bersifat multibahasa melalui <b>Localizd</b> + <a>Linguist</a>.'
       modal_title: 'Tambahkan terjemahan dengan Linguist'
       translate: Terjemahkan
+  forum:
+    errors:
+      causes: 'Hal ini mungkin disebabkan oleh satu atau beberapa alasan berikut ini'
+      deleted: 'Halaman mungkin telah dihapus'
+      does_not_exist: 'Halaman tersebut mungkin tidak ada'
+      logged_in_only: 'Halaman mungkin hanya tersedia untuk pengguna yang sudah login'
+      no_permission: 'Anda mungkin tidak memiliki izin untuk melihat halaman ini'

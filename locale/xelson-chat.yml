@@ -83,6 +83,7 @@ xelson-chat:
           search:
             failed: 'Tidak ditemukan pengguna yang cocok'
             invited: Diundang
+            more_results: 'Dan {more_results} lagi...'
             placeholder: 'Cari User'
           title: 'Pilih pengguna'
         pin: Sematkan
@@ -118,6 +119,7 @@ xelson-chat:
             invited_kicked: '{editorname} mengundang {invitednames} dan mengeluarkan {kickednames}'
             kicked: '{editorname} mengeluarkan {usernames}'
         type:
+          code: '<Code />'
           url: URL
         you: Anda
       moder: Moderator

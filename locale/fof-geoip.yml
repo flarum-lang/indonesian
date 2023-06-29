@@ -11,6 +11,8 @@ fof-geoip:
       service_ipapi_label: 'IP Api'
       service_ipdata_description: 'Gunakan <b>https://ipdata.co</b> untuk melakukan hingga 1.500 pencarian per hari secara gratis.'
       service_ipdata_label: IPData
+      service_iplocation_description: 'Gunakan <b>https://www.iplocation.net/</b> untuk mengambil data negara dan ISP. Lookup rate limit tidak diketahui.'
+      service_iplocation_label: 'Lokasi IP'
       service_ipstack_description: 'Gunakan <b>https://ipstack.com</b> untuk melakukan hingga 10.000 pencarian per bulan secara gratis. Paket berbayar mencakup info tentang koneksi (ISP, organisasi) dan tingkat ancaman.'
       service_ipstack_label: IPStack
       service_label: Layanan

@@ -17,8 +17,10 @@ justoverclock-frontend-blog:
     sorting-help: 'Jika Anda ingin menampilkan diskusi terbaru, tulis "-createdAt", untuk diskusi yang sedang hangat, tulis "-commentCount"'
   forum:
     allDiscussions: Forum
+    linkToDiscussion: ' Link Ke Diskusi'
     loginButton: Login
     menuButton: Menu
+    post: '{count, plural, one {# POST} other {# POST}}'
     readMore: 'Baca Lebih Lanjut'
     recentDiscussions: 'Diskusi Terbaru:'
     signupButton: Daftar

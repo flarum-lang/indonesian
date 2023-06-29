@@ -27,3 +27,5 @@ justoverclock-auto-post-badge-pro:
     levelTwelve: 'Level 12'
     levelTwo: 'Level 2'
     text: Teks
+  forum:
+    hasWritten: 'Pengguna ini telah menulis'
