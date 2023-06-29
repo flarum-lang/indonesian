@@ -226,7 +226,7 @@ kilowhat-formulaire:
       description: Deskripsi
       email: Email
       integer: 'Bilangan bulat'
-      max: Maximum
+      max: Maksimum
       mime: 'Jenis MIME (dipisahkan koma, menerima karakter pengganti sebagai bagian kedua)'
       min: Minimum
       no-answer: 'Tidak ada jawaban'

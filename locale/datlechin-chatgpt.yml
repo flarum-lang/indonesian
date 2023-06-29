@@ -12,7 +12,7 @@ datlechin-chatgpt:
       enable_on_discussion_started_help: 'Diskusi akan menerima jawaban berdasarkan isi postingan pertama saat diskusi dimulai.'
       enable_on_discussion_started_label: 'Aktifkan saat diskusi dimulai'
       max_tokens_help: '<a>Apa itu token dan bagaimana cara menghitungnya?</a>'
-      max_tokens_label: 'Token Max'
+      max_tokens_label: 'Maksimum Token'
       model_help: 'Pelajari lebih lanjut tentang <a>models</a> (default: <code>text-davinci-003</code>).'
       model_label: Model
       user_prompt_badge_help: 'Teks yang akan ditampilkan di sebelah perintah User.'

@@ -12,7 +12,7 @@ nearata-related-discussions:
       generator_options:
         random: Acak
         title: 'Berdasarkan Judul'
-      max_discussions: 'Jumlah Maksimal Diskusi'
+      max_discussions: 'Maksimum Diskusi'
       max_discussions_help: 'Standarnya adalah <strong>5</strong>.'
       position: Posisi
       position_options:

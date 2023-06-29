@@ -18,7 +18,7 @@ clarkwinkelmann-colorful-borders:
       enableBorderRadius: 'Border radius'
       enableBorderWidth: 'Lebar border'
       enableTextColor: 'Warna teks'
-      max: Max
+      max: Maks
       min: Min
   forum:
     apply: Terapkan
