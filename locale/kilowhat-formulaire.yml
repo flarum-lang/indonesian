@@ -14,7 +14,8 @@ kilowhat-formulaire:
       fill: '=> kilowhat-formulaire.ref.permissions.fill'
       heading: Formulaire
       heading-advanced: 'Formulaire (opsi untuk ekstensi third-party)'
-      listForms: 'Melihat daftar form yang tidak dihapus'
+      listForms: 'Melihat daftar formulir yang tidak dihapus'
+      listSubmissions: 'Melihat daftar pengajuan'
       seeAnyDiscussion: '=> kilowhat-formulaire.ref.permissions.seeAnyDiscussion'
       seeAnyUser: '=> kilowhat-formulaire.ref.permissions.seeAnyUser'
       seeOwnDiscussion: '=> kilowhat-formulaire.ref.permissions.seeOwnDiscussion'
@@ -22,7 +23,7 @@ kilowhat-formulaire:
     settings:
       checkbox-style: 'Gaya kotak centang'
       history-controls: 'Tampilkan kontrol undo/redo pada halaman pengajuan'
-      horizontal-layout: 'Gunakan tata letak form horizontal'
+      horizontal-layout: 'Gunakan tata letak formulir horizontal'
       horizontal-layout-locations:
         discussionComposer: 'Area Pengeditan Diskusi'
         profileEdit: 'Halaman Edit Profil'
@@ -40,6 +41,7 @@ kilowhat-formulaire:
       uniformComposerLayout: 'Tata letak penulisan diskusi yang seragam'
       uniformComposerLayoutHelp: "Mengubah gaya tag, judul, dan bidang konten agar sesuai dengan Formulaire. Tata letak ini akan membutuhkan lebih banyak ruang, jadi Anda disarankan untuk menginstal dan mengaktifkan ekstensi <a>Composer Page</a>.\n"
   api:
+    cannot-change-form-type: 'Anda tidak dapat mengubah jenis formulir yang sudah ada pengajuannya'
     duplicate-field-key: 'Kunci harus unik'
     export:
       meta:
@@ -54,6 +56,7 @@ kilowhat-formulaire:
         user_email: '=> kilowhat-formulaire.ref.submission-meta.user_email'
         user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
         user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
+    file-already-belongs-submission: 'File {id} milik pengajuan lain'
     formatter-parsing-error: 'Tidak dapat mem-parse konten: {message}'
   forum:
     auto-discussion-options-modal:
@@ -111,6 +114,7 @@ kilowhat-formulaire:
         boolean-false: 'False'
         boolean-true: 'True'
       submit: Download
+      title: 'Ekspor pengajuan'
     form-create:
       button:
         create: 'Buat form'
@@ -134,6 +138,7 @@ kilowhat-formulaire:
       tabs:
         access: Akses
         notifications: Notifikasi
+        submissions: Pengajuan
         template: Template
     form-edit:
       auto-discussion-options: 'Opsi untuk diskusi baru'
@@ -142,9 +147,12 @@ kilowhat-formulaire:
       exiting-with-unsaved-data: 'Anda memiliki perubahan yang belum disimpan. Apakah Anda benar-benar ingin keluar dari halaman?'
       expert-mode-warning: "Mode expert diaktifkan. Hal ini memungkinkan Anda untuk menyesuaikan pengenal kolom dan izin per kolom. Pastikan Anda membaca dokumentasi tentang fitur-fitur tersebut, karena Anda mungkin akan merusaknya!\n"
       field:
+        accept-submissions: 'Terima pengajuan baru'
+        allow-modification: 'Izinkan pengguna untuk mengedit pengajuan mereka yang sudah ada'
         automatic-discussion: 'Secara otomatis membuat diskusi dari form pengajuan'
-        automatic-discussion-help: "Ketika diaktifkan, formulir akan terus dapat diakses seperti formulir mandiri. Kiriman akan secara otomatis dibuat dan terhubung dengan diskusi baru.\n"
+        automatic-discussion-help: "Ketika diaktifkan, form akan terus dapat diakses seperti form mandiri. Pengajuan akan secara otomatis dibuat dan terhubung dengan diskusi baru.\n"
         enable: Aktifkan
+        max-submissions: 'Maks pengajuan (biarkan kosong untuk tidak terbatas)'
         notify-emails: 'Kirimkan salinan data ke email yang dipisahkan dengan koma tersebut'
         permission-edit-any: 'Mengedit pengajuan apa pun'
         permission-edit-own: 'Mengedit pengajuan sendiri'
@@ -171,6 +179,7 @@ kilowhat-formulaire:
         actions: Tindakan
         allow-modification: Modifikasi
         enabled: Diaktifkan
+        submissions: Pengajuan
         title: Judul
       edit: Edit
       empty: 'Tidak ada form'
@@ -179,6 +188,7 @@ kilowhat-formulaire:
         documentation: 'Dokumentasi online lengkap'
         title: '=> kilowhat-formulaire.ref.manager'
       load-more: 'Muat lebih banyak'
+      submissions: Pengajuan
       tabs:
         discussion: '=> kilowhat-formulaire.ref.type.discussion'
         standalone: '=> kilowhat-formulaire.ref.type.standalone'
@@ -224,10 +234,12 @@ kilowhat-formulaire:
     submission-index:
       columns:
         actions: Tindakan
+        date: Tanggal
         user: Pengguna
       empty: 'Belum ada pengajuan'
       export: Ekspor
       form-show: 'Pengajuan baru'
+      guest: Tamu
       load-more: 'Muat lebih banyak'
       search: 'Cari pengajuan...'
       show: Tampilkan
@@ -236,11 +248,13 @@ kilowhat-formulaire:
       oldest: 'Pengajuan terlama'
     submission:
       delete: 'Hapus permanen'
+      delete-confirmation: 'Pengajuan dari {date} akan dihapus secara permanen'
       edit-submission: 'Edit pengajuan'
+      form-full: 'Formulir ini telah mencapai jumlah maksimum pengumpulan.'
       hide: Hapus
       lock: Kunci
       restore: Pulihkan
-      submit-other: 'Submit yang lain'
+      submit-other: 'Ajukan yang lain'
       submitted-successfully: 'Pengajuan Anda telah berhasil dikirim.'
       unlock: 'Buka Kunci'
     template-editor:
@@ -253,6 +267,8 @@ kilowhat-formulaire:
       min: Minimum
       no-answer: 'Tidak ada jawaban'
       regex: 'Regular expression'
+      required: Dibutuhkan
+      rich: 'Rich text (TextFormatter)'
       title: Judul
       type:
         checkbox: 'Kotak centang'
@@ -267,7 +283,11 @@ kilowhat-formulaire:
       uploading: Mengunggah...
   mail:
     edit: Edit
+    footer: 'Dikirim dari {title}'
     no-answer: 'Tidak ada jawaban'
+    sub-entries: '{count} entri'
+    title-new-submission: 'Pengajuan baru untuk {title}'
+    title-your-submission: 'Pengajuan Anda untuk {title}'
   ref:
     permissions:
       editAnyDiscussion: 'Mengedit semua kolom diskusi'
@@ -280,10 +300,13 @@ kilowhat-formulaire:
       seeOwnUser: 'Melihat kolom profil sendiri'
     submission-meta:
       created_at: 'Tanggal Pembuatan'
+      link_id: 'ID sumber daya yang ditautkan'
+      uid: 'ID Pengajuan'
       updated_at: 'Tanggal Pembaruan'
       user_activated: 'Akun Aktif'
       user_displayname: 'Nama Tampilan Pengguna'
       user_email: 'Email Pengguna'
+      user_id: 'ID Pengguna'
       user_username: '=> core.ref.username'
     type:
       user: 'Profil pengguna'
