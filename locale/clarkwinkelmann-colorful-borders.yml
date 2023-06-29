@@ -11,7 +11,7 @@ clarkwinkelmann-colorful-borders:
       colors:
         all: 'Semua warna'
         custom: 'Warna khusus'
-        custom-help: 'Daftar nilai #hex atau rgb() yang dipisahkan dengan koma'
+        custom-help: 'Daftar nilai kode warna #hex atau rgb() yang dipisahkan dengan koma'
         simple: 'Warna sederhana'
       enableBackgroundColor: 'Warna background'
       enableBorderColor: 'Warna border'

@@ -9,7 +9,7 @@ clarkwinkelmann-emojionearea:
       enableSearch: 'Aktifkan pencarian'
       enableTones: 'Aktifkan tone'
       filtersPosition: 'Pindahkan kategori ke bagian bawah'
-      hideFlarumButton: 'Sembunyikan tombol Flarum''s emoji picker'
+      hideFlarumButton: 'Sembunyikan tombol emoji picker Flarum'
       searchPosition: 'Pindahkan pencarian dan tone ke bagian bawah'
   forum:
     picker_button: 'Emoji Picker'

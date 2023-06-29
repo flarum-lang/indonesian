@@ -7,7 +7,7 @@ clarkwinkelmann-carving-contest:
     colors:
       all: 'Warna apa saja'
       custom: 'Daftar warna khusus'
-      custom-help: 'Daftar nilai #hex atau rgb() yang dipisahkan dengan koma'
+      custom-help: 'Daftar nilai kode warna #hex atau rgb() yang dipisahkan dengan koma'
       simple: 'Set warna sederhana'
     permissions:
       like: 'Memberikan tanda suka pada entri'
