@@ -25,6 +25,7 @@ justoverclock-auto-post-count-badge:
         title: 'Pengelola Label Teks'
       tier: 'Tingkat {tier}: dari {from} hingga {to} post'
   forum:
+    hasWritten: '{count, plural, one {# tulisan} other {# tulisan}}'
     less1000post: Guru!
     less100post: Talker
     less10post: Baby

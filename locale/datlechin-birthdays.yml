@@ -22,6 +22,7 @@ datlechin-birthdays:
   forum:
     change_dob:
       date_of_birth_text: 'Tanggal Lahir'
+      submit_button: '=> core.ref.save_changes'
       title: 'Edit Tanggal Lahir'
     edit_user:
       dob_heading: 'Tanggal Lahir'

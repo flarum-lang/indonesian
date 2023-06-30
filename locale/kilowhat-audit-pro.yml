@@ -88,8 +88,10 @@ kilowhat-audit:
         members: '=> core.admin.permissions_controls.members_button'
       permission_changed: 'Mengedit perizinan {permission} dari {old_groups} ke {new_groups}'
       post:
+        approved: 'Menyetujui {post} oleh {postuser} dalam {discussion}'
         created: 'Pembuatan {post} di {discussion}'
         deleted: 'Menghapus {post} oleh {postuser} di {discussion}'
+        hidden: 'Menyembunyikan {post} oleh {postuser} di {discussion}'
         restored: 'Memulihkan {post} oleh {postuser} di {discussion}'
         revised: 'Revisi {post} oleh {postuser} di {discussion}'
         user_changed: 'Perubahan penulis {post} dari {old_user} menjadi {new_user}'
