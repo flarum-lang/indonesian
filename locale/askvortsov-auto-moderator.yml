@@ -64,5 +64,6 @@ askvortsov-auto-moderator:
   lib:
     group_id: 'ID Grup'
     managed_groups:
+      group_item: '<badge></badge> {groupName}'
       groups_not_editable: 'Grup yang dikelola dengan kriteria automoderator tidak dapat ditambahkan/dihapus ke/dari pengguna secara manual untuk mencegah ketidakkonsistenan.'
       header: 'Grup Yang Dikelola:'
