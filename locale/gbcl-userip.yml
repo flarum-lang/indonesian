@@ -6,5 +6,10 @@ gbcl-userip:
   admin:
     permissions:
       view_ip_info_label: 'Menampilkan Info IP'
+    service:
+      ipsb:
+        description: 'Gunakan <b>https://ip.sb</b> untuk mendapatkan informasi lokasi IP gratis (harap perhatikan rate limit)'
+        label: IP.SB
+      label: Layanan
   forum:
     unknownNotice: 'Tidak diketahui'
