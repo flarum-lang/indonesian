@@ -112,6 +112,7 @@ kilowhat-audit:
         nickname_requested: 'Meminta nickname baru {new_nickname} untuk user {username}'
         password_change_requested: 'Meminta untuk mengubah password {username}'
         password_changed: 'Mengubah password {username}'
+        provider_connected: 'Menghubungkan provider {provider} ke akun {username}'
         suspended: 'Menangguhkan {username} hingga {until}'
         unsuspended: 'Menghapus penangguhan {username}'
         username_changed: 'Mengubah username {username} dari {old_username} ke {new_username}'
