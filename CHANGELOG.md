@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.8.5 (XXXX-XX-XX)
+------------------
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`gbcl/userip`](https://github.com/GBCLStudio/userip)
+* [`maicol07/flarum-oidc-client`](https://extiverse.com/extension/maicol07/flarum-oidc-client)
+
+
+Semua perubahan: [1.8.4...1.8.5](https://github.com/flarum-lang/indonesian/compare/1.8.4...1.8.5).
+
+
 1.8.4 (2023-06-30)
 ------------------
 
