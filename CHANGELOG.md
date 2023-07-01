@@ -18,6 +18,7 @@ CHANGELOG
 * [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)
 * [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
 * [`maicol07/flarum-oidc-client`](https://extiverse.com/extension/maicol07/flarum-oidc-client)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
 
 
 Semua perubahan: [1.8.4...1.8.5](https://github.com/flarum-lang/indonesian/compare/1.8.4...1.8.5).
