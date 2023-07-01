@@ -10,6 +10,7 @@ maicol07-sso:
       client_name: Nama
       client_name_help: 'Nama Flarum instance'
       client_password_token: 'Token password'
+      client_password_token_help: 'Token password acak untuk digunakan dengan Flarum instance signup.'
       client_url: URL
       client_url_help: 'URL Flarum instance'
       client_verify_ssl: 'Verifikasi SSL'
