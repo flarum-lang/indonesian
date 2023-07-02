@@ -2,12 +2,17 @@ CHANGELOG
 =========
 
 
-1.8.5 (XXXX-XX-XX)
+1.9.0 (XXXX-XX-XX)
 ------------------
 
 **Perubahan umum**:
 
 * Memperbarui terjemahan untuk Flarum core.
+
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`xrh0905/oauth-microsoft`](https://github.com/xrh0905/flarum-ext-oauth-microsoft)
 
 
 **Terjemahan terbaru untuk ekstensi**:
@@ -35,7 +40,7 @@ CHANGELOG
 * [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag)
 
 
-Semua perubahan: [1.8.4...1.8.5](https://github.com/flarum-lang/indonesian/compare/1.8.4...1.8.5).
+Semua perubahan: [1.8.4...1.9.0](https://github.com/flarum-lang/indonesian/compare/1.8.4...1.9.0).
 
 
 1.8.4 (2023-06-30)
