@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.9.1 (XXXX-XX-XX)
+------------------
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+
+
+Semua perubahan: [1.9.0...1.9.1](https://github.com/flarum-lang/indonesian/compare/1.9.0...1.9.1).
+
+
 1.9.0 (2023-07-02)
 ------------------
 
