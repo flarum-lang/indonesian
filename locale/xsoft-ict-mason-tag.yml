@@ -45,7 +45,7 @@ xsoft-mason-tag:
       fill-fields: 'Mengisi kolom pada diskusi baru'
       see-other-fields: 'Melihat kolom di semua diskusi yang ada'
       see-own-fields: 'Melihat kolom pada diskusi sendiri yang sudah ada'
-      skip-required-fields: 'Mengizinkan untuk melewatkan kolom yang harus diisi'
+      skip-required-fields: 'Diizinkan untuk melewatkan kolom yang harus diisi'
       update-other-fields: 'Memperbarui kolom di setiap diskusi'
       update-own-fields: 'Memperbarui kolom diskusi sendiri'
     settings:

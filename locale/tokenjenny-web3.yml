@@ -9,4 +9,4 @@ tokenjenny-web3:
     settings:
       connect_button: 'Hubungkan ke MetaMask'
       connected: 'Terhubung ke <strong>{account}</strong>'
-      privacy_disclose_web3_address_label: 'Mengizinkan orang lain untuk melihat alamat dompet Saya'
+      privacy_disclose_web3_address_label: 'Izinkan orang lain untuk melihat alamat dompet Saya'

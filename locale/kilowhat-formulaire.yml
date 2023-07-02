@@ -61,6 +61,7 @@ kilowhat-formulaire:
         user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
     file-already-belongs-submission: 'File {id} milik pengajuan lain'
     formatter-parsing-error: 'Tidak dapat mem-parse konten: {message}'
+    not-allowed-to-fill-field: 'Anda tidak diperkenankan untuk mengubah nilai dari kolom ini'
   forum:
     auto-discussion-options-modal:
       field:
