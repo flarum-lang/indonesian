@@ -35,6 +35,7 @@ fof-webhooks:
   admin:
     errors:
       service_not_found: 'Layanan "{service}" tidak dapat ditemukan.'
+      tag_disabled: 'Webhook ini memiliki pembatasan tag yang telah dikonfigurasi. Ekstensi Tag dinonaktifkan. Pembatasan tidak akan berlaku. Pastikan hal ini dimaksudkan.'
       tag_invalid: 'Webhook ini dibatasi untuk tag yang tidak valid. Pembatasan tidak akan berlaku. Pastikan hal ini dimaksudkan.'
       url_invalid: 'URL tidak valid untuk layanan yang dipilih.'
     nav:
@@ -44,6 +45,7 @@ fof-webhooks:
         flarum:
           approval:
             postwasapproved: 'Post Disetujui'
+            title: 'Flarum - Persetujuan'
           discussion:
             deleted: '=> fof-webhooks.ref.deleted'
             hidden: '=> fof-webhooks.ref.hidden'
@@ -62,6 +64,7 @@ fof-webhooks:
             posted: Diposting
             restored: '=> fof-webhooks.ref.restored'
             revised: Diedit
+            title: 'Flarum - Post'
           user:
             deleted: '=> fof-webhooks.ref.deleted'
             registered: Terdaftar
@@ -74,6 +77,8 @@ fof-webhooks:
         general: 'Di sini Anda dapat menambahkan, mengedit, dan menghapus webhook dari forum Anda.'
         tags: 'Anda dapat membatasi webhook ke tag tertentu. Jika Anda memilih tag apa pun, webhook hanya akan diaktifkan jika event tersebut dipicu pada resource yang memiliki salah satu tag yang dipilih.'
         url: 'Webhook''s endpoint yang akan dieksekusi'
+      item:
+        tag_any_label: Apapun
       modal:
         description: 'Di sini Anda memodifikasi event apa yang dijalankan oleh webhook.'
         events_label: Event
