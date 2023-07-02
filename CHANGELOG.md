@@ -5,20 +5,34 @@ CHANGELOG
 1.8.5 (XXXX-XX-XX)
 ------------------
 
+**Perubahan umum**:
+
+* Memperbarui terjemahan untuk Flarum core.
+
+
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-auto-moderator)
 * [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings)
 * [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
 * [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`datlechin/flarum-posted-on`](https://github.com/datlechin/flarum-posted-on)
+* [`flarum/flags`](https://github.com/flarum/flags)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
 * [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge)
 * [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
 * [`kilowhat/flarum-ext-audit-pro`](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro)
 * [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)
+* [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
 * [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
 * [`maicol07/flarum-oidc-client`](https://extiverse.com/extension/maicol07/flarum-oidc-client)
 * [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
+* [`tokenjenny/flarum-ext-web3`](https://github.com/tokenjenny/flarum-ext-web3)
+* [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support)
+* [`xsoft-ict/mason-tag`](https://github.com/xsoft-ict/fof-mason-tag)
 
 
 Semua perubahan: [1.8.4...1.8.5](https://github.com/flarum-lang/indonesian/compare/1.8.4...1.8.5).
