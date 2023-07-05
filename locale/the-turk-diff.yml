@@ -14,12 +14,16 @@ the-turk-diff:
       archiveInfo: 'Perlu diingat bahwa Anda dapat menonaktifkan kedua opsi tersebut dan menjalankan command <code>php flarum diff:archive</code> untuk mengarsipkan revisi lama secara manual.'
       archiveOlds: 'Arsipkan revisi lama'
       archiveOldsInfo: 'Jika <strong>x ≥ A</strong>, revisi pertama <strong>y=mx+b</strong> untuk postingan tersebut akan disimpan sebagai digabung & dikompresi. <strong>x</strong> mengacu pada jumlah revisi postingan. Nilai float dari <strong>y</strong> akan dibulatkan ke nilai integer terendah berikutnya.'
+      charLevel: Karakter
       dbOptimisation: 'Optimalisasi Database'
+      detailLevel: 'Level Detail'
+      lineLevel: Garis
       mainPostOnly: 'Simpan revisi postingan utama saja'
       mergeThreshold: 'Merge Threshold untuk Combined Renderer'
       mergeThresholdHelp: 'Ini menentukan apakah blok tipe pengganti harus digabungkan atau tidak tergantung pada rasio perubahan konten, yang nilainya antara 0 dan 1.'
       neighborLines: 'Neighbor Line'
       neighborLinesHelp: 'Tentukan jumlah neighbor line yang ingin Anda tampilkan.'
+      noneLevel: 'Tidak ada level'
       onlyUnsigned: 'Hanya <strong>unsigned integers</strong> yang diperbolehkan!'
       separateBlock: 'Tampilkan pemisah antara diff hunk yang berbeda dalam perender HTML'
       textFormatting: 'Aktifkan pemformatan teks untuk pratinjau'
@@ -27,6 +31,7 @@ the-turk-diff:
       useCrons: 'Gunakan cron untuk mengarsipkan revisi lama'
       useCronsHelp: 'Anda harus menambahkan entri Cron ke server Anda agar opsi ini berfungsi. Opsi ini akan bekerja setiap minggu pada hari Minggu pukul 02:00. Jika Anda menonaktifkan opsi ini dan mengaktifkannya di atas, semua revisi postingan akan dipindai untuk diarsipkan ketika postingan terkait direvisi.'
       usePoint: 'Gunakan <strong>titik</strong> sebagai pemisah desimal untuk nilai float.'
+      wordLevel: Kata
   forum:
     confirmDelete: 'Apakah Anda yakin ingin menghapus isi pengeditan ini dari history?'
     confirmRollback: 'Apakah Anda yakin ingin mengubah post Anda saat ini?'
