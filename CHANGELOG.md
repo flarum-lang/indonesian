@@ -7,8 +7,11 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
 
 
 Semua perubahan: [1.9.0...1.9.1](https://github.com/flarum-lang/indonesian/compare/1.9.0...1.9.1).
