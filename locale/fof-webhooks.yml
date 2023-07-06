@@ -78,7 +78,7 @@ fof-webhooks:
         tags: 'Anda dapat membatasi webhook ke tag tertentu. Jika Anda memilih tag apa pun, webhook hanya akan diaktifkan jika event tersebut dipicu pada resource yang memiliki salah satu tag yang dipilih.'
         url: 'Webhook''s endpoint yang akan dieksekusi'
       item:
-        tag_any_label: Apapun
+        tag_any_label: 'Tag apa saja'
       modal:
         description: 'Di sini Anda memodifikasi event apa yang dijalankan oleh webhook.'
         events_label: Event
