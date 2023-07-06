@@ -43,13 +43,17 @@ kilowhat-custom-paths:
         flamarkt-account: Akun
         flamarkt-categories: 'Daftar kategori'
         flamarkt-product: Produk
+        flamarkt-products: 'Indeks produk'
         flamarkt-signup: Daftar
         fof-byobu: 'Diskusi pribadi'
+        fof-gamification: Peringkat
         fof-masquerade: 'Halaman profil'
         fof-moderator-notes-user-notes: 'Catatan profil'
         fof-pages: Halaman
         fof-user-directory: 'Direktori pengguna'
         following: Mengikuti
+        formulaire-form: Formulir
+        formulaire-profile: 'Kolom profil'
         formulaire-submission: Pengajuan
         index: 'Daftar diskusi (jika bukan beranda)'
         notifications: 'Notifikasi (di perangkat seluler)'

@@ -98,6 +98,7 @@ kilowhat-rich-embeds:
           thumbnailAlt: 'Thumbnail video'
           type: Video
     error:
+      blacklistedUrl: 'URL {url} belum masuk daftar putih untuk penyematan.'
       invalidUrl: 'URL {url} tidak valid.'
   lib:
     controls:
@@ -106,6 +107,7 @@ kilowhat-rich-embeds:
       imgCopied: Disalin!
       imgCopy: 'Salin URL gambar'
       imgOpen: 'Buka gambar di tab baru'
+      play: 'Klik untuk memutar media menggunakan pemutar yang disematkan'
     embed:
       altAvatar: 'Gambar avatar penulis'
       altFavicon: 'Ikon {website}'
