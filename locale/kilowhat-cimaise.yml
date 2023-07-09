@@ -24,6 +24,7 @@ kilowhat-cimaise:
     settings:
       autoCreateDiscussionAlbum: 'Secara otomatis membuat album untuk setiap diskusi baru'
       autoCreateDiscussionAlbumHelp: "Secara otomatis membuat album baru dengan judul yang sama dengan diskusi dan penulis sebagai pemilik. Fitur ini melewati izin pembuatan album dan berlaku di semua tag.\n"
+      columnTheme: 'Tema Kolom'
       columnThemeHelp: 'Gunakan gaya panel samping saat menampilkan gambar, bukan panel bawah.'
       license-add: 'Tambahkan lisensi'
       license-description: Deskripsi
@@ -46,6 +47,16 @@ kilowhat-cimaise:
         bottomRight: 'Kanan bawah'
         topLeft: 'Kiri atas'
         topRight: 'Kanan atas'
+    status:
+      loading: Memuat...
+      pictures:
+        drafts: '({count} konsep)'
+        section: Gambar
+      refresh: Segarkan
+      storage:
+        conversions: 'Konversi: {size}'
+        originals: 'Asli: {size}'
+        section: 'Penyimpanan (perkiraan)'
   api:
     post-edit:
       cannotAttachAlreadySubmitted: 'Tidak dapat melampirkan gambar {id} karena sudah diajukan'
@@ -140,7 +151,9 @@ kilowhat-cimaise:
       taken-at: 'Diambil {ago}'
     picture-sort:
       latest: 'Unggahan terbaru'
+      latestTake: 'Pengambilan terbaru'
       oldest: 'Unggahan terlama'
+      oldestTake: 'Pengambilan terlama'
     picture-thumbnail:
       by-user: '=> kilowhat-cimaise.ref.by-user'
     post-stream:
@@ -157,6 +170,8 @@ kilowhat-cimaise:
       uploading: Mengunggah
   ref:
     albums: Album
+    by-user: Oleh
+    controls: Kontrol
     delete: Hapus
     load-more: 'Muat Lebih Banyak'
     loading: Memuat...
