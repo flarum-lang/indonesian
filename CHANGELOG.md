@@ -11,6 +11,7 @@ CHANGELOG
 * [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
 * [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)
 * [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
 * [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
