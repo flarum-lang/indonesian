@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.9.1 (2023-07-09)
+------------------
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
+* [`club-1/flarum-ext-cross-references`](https://github.com/club-1/flarum-ext-cross-references)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
+* [`kilowhat/flarum-ext-custom-paths`](https://extiverse.com/extension/kilowhat/flarum-ext-custom-paths)
+* [`kilowhat/flarum-ext-rich-embeds`](https://extiverse.com/extension/kilowhat/flarum-ext-rich-embeds)
+* [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff)
+
+
+Semua perubahan: [1.9.0...1.9.1](https://github.com/flarum-lang/indonesian/compare/1.9.0...1.9.1).
+
+
 1.9.0 (2023-07-02)
 ------------------
 
