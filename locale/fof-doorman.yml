@@ -35,7 +35,8 @@ fof-doorman:
         key: Kunci
         max_uses: 'Maks Penggunaan'
         title: 'Kode Undangan'
-        used_times: '{remaining, plural, one {{remaining} Pemakaian tersisa} other {{remaining} Pemakaian tersisa}}'
+        total_uses: '{totalUses, plural, one {Digunakan {totalUses} kali} other {Digunakan {totalUses} kali}}'
+        used_times: '{remaining, plural, =0 {Pemakaian tidak terbatas} one {{remaining} Pemakaian tersisa} other {{remaining} Pemakaian tersisa}}'
         warning: 'Kode undangan ini telah digunakan berkali-kali.'
       title: Doorman
   forum:

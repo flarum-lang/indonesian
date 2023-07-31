@@ -18,6 +18,8 @@ fof-reactions:
         reactions: 'Reaksi Saat Ini'
         title: 'Reaksi Khusus'
       settings:
+        allow-anonymous: 'Izinkan reaksi anonim (tamu)'
+        allow-anonymous-help: 'Jika diaktifkan, tamu dan pengguna anonim akan dapat bereaksi terhadap postingan. Perhatikan bahwa reaksi anonim tidak akan dihubungkan ke profil pengguna dan akan dikumpulkan dalam daftar reaksi.'
         integrations:
           gamification:
             downvoteHelptext: 'Masukkan pengidentifikasi reaksi yang ingin Anda ubah secara otomatis menjadi Downvote'
@@ -41,10 +43,11 @@ fof-reactions:
     disabled-reaction: 'Anda tidak dapat memberikan reaksi saat ini, silakan refresh halaman'
     mod_item: 'Lihat Reaksi'
     modal:
+      anonymous_count: '{count, plural, one {# pengguna anonim} other {# pengguna anonim}}'
       title: Bereaksi
     notification: '{username} bereaksi dengan {reaction} ke post Anda'
     react_button_label: Bereaksi
     reacting-own-post: 'Anda tidak dapat memberikan reaksi terhadap post Anda sendiri'
     settings:
       notify_post_reacted_label: 'Seseorang memberikan reaksi terhadap salah satu postingan saya'
-    warning: 'Reaction Anda telah dikonversi'
+    warning: 'Reaksi Anda telah dikonversi'
