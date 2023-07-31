@@ -12,6 +12,9 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`justoverclock/igdb-api`](https://extiverse.com/extension/justoverclock/igdb-api)
 
 
