@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+1.10.0 (2023-08-01)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`justoverclock/igdb-api`](https://extiverse.com/extension/justoverclock/igdb-api)
+
+
+Semua perubahan: [1.9.1...1.10.0](https://github.com/flarum-lang/indonesian/compare/1.9.1...1.10.0).
+
+
 1.9.1 (2023-07-09)
 ------------------
 
