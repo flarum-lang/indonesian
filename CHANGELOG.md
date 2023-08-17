@@ -7,11 +7,13 @@ CHANGELOG
 
 **Menambahkan dukungan untuk ekstensi**:
 
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
 * [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content)
 
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 
 
