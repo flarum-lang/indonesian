@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.11.0 (XXXX-XX-XX)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+
+
+Semua perubahan: [1.10.0...1.11.0](https://github.com/flarum-lang/indonesian/compare/1.10.0...1.11.0).
+
+
 1.10.0 (2023-08-01)
 -------------------
 
