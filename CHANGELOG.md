@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
 * [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content)
+* [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see)
 
 
 **Terjemahan terbaru untuk ekstensi**:
