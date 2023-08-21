@@ -13,8 +13,17 @@ fof-recaptcha:
       signin: '=> core.forum.log_in.title'
       signup: '=> core.forum.sign_up.title'
       site_key_label: 'Site Key'
+      type_help: 'Ekstensi ini hanya mendukung reCAPTCHA v2. Tipe yang dipilih harus sesuai dengan tipe kredensial reCAPTCHA Anda.'
       type_label: 'Tipe reCAPTCHA'
+    test:
+      help_text: "Pengujian ini akan menggunakan nilai saat ini yang dimasukkan di atas. Pastikan untuk memuat ulang pengujian setelah memodifikasi pengaturan, dan jangan lupa untuk menyimpan setelah pengujian selesai!\nDi bawah ini mungkin tidak mencerminkan pengaturan yang disimpan.\n"
+      load_test_button: Memuat
+      reload_button: 'Muat ulang'
+      submit_button: Submit
+      success_message: 'Berhasil! reCAPTCHA telah dikonfigurasi dengan benar.'
+      title: 'Uji reCAPTCHA'
   forum:
     error: 'Terjadi kesalahan saat memasukkan reCAPTCHA. Coba lagi.'
 validation:
   recaptcha: 'Validasi reCAPTCHA gagal.'
+  recaptcha-unknown: 'Terjadi kesalahan yang tidak diketahui saat memvalidasi reCAPTCHA ({errors}).'

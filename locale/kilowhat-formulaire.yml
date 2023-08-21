@@ -32,6 +32,8 @@ kilowhat-formulaire:
         profileView: 'Halaman Tampilan Profil'
         standaloneView: 'Halaman Tampilan Mandiri'
       max-file-size: 'Ukuran file maks (kB)'
+      noByobuFields: 'Jangan mengintegrasikan bidang diskusi dengan diskusi pribadi dari ekstensi Byobu'
+      noByobuFieldsHelp: 'Secara default, bidang diskusi yang tidak diberi tag akan berlaku untuk semua diskusi termasuk diskusi pribadi.'
       radio-style: 'Gaya radio'
       side-nav-on-submission: 'Tampilkan navigasi samping pada halaman pengajuan'
       style-options:

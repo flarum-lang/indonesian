@@ -58,6 +58,21 @@ kilowhat-cimaise:
         originals: 'Asli: {size}'
         section: 'Penyimpanan (perkiraan)'
   api:
+    picture-edit:
+      unauthorized:
+        author: 'Penulis tidak valid, edit tidak diizinkan'
+        crop: 'Pangkas tidak valid, edit tidak diizinkan'
+        description: 'Deskripsi tidak valid, edit tidak diizinkan'
+        isApprovedApprove: 'Status persetujuan tidak valid, tidak diizinkan untuk menyetujui'
+        isApprovedUnApprove: 'Status persetujuan tidak valid, tidak diizinkan untuk membatalkan persetujuan'
+        isDraftSubmit: 'Status konsep tidak valid, tidak diizinkan untuk diserahkan'
+        isDraftUnSubmit: 'Status konsep tidak valid, tidak diizinkan untuk membatalkan pengajuan'
+        isFavorite: 'Status favorit tidak valid, edit tidak diizinkan'
+        isHiddenHide: 'Status sembunyikan tidak valid, tidak diizinkan untuk menyembunyikan'
+        isHiddenRestore: 'Status sembunyikan tidak valid, tidak diizinkan untuk memulihkan'
+        license: 'Lisensi tidak valid, edit tidak diizinkan'
+        takenAt: 'Tanggal pengambilan tidak valid, edit tidak diizinkan'
+        title: 'Judul tidak valid, edit tidak diizinkan'
     post-edit:
       cannotAttachAlreadySubmitted: 'Tidak dapat melampirkan gambar {id} karena sudah diajukan'
       cannotAttachFromExternalAlbum: 'Tidak dapat melampirkan gambar {id} karena gambar tersebut termasuk dalam album eksternal'
@@ -101,6 +116,7 @@ kilowhat-cimaise:
     badge:
       awaiting-approval: 'Menunggu Persetujuan'
       favorite: Favorit
+      hidden: Tersembunyi
     discussion-controls:
       attach-album: 'Lampirkan atau lepaskan album'
     edit-album-modal:
@@ -131,6 +147,7 @@ kilowhat-cimaise:
       controls: '=> kilowhat-cimaise.ref.controls'
       delete: '=> kilowhat-cimaise.ref.delete'
       delete-confirmation: 'Menghapus Gambar "{title}"?'
+      editor: 'Edit pangkas & mask'
       hide: '=> kilowhat-cimaise.ref.hide'
       remove-favorite: 'Hapus Favorit'
       restore: '=> kilowhat-cimaise.ref.restore'
@@ -143,6 +160,8 @@ kilowhat-cimaise:
     picture-show:
       back-album: 'Kembali ke Album'
       download: Download
+      download-cropped: 'Dipangkas {size}'
+      download-original: 'Download aslinya'
       loading: '=> kilowhat-cimaise.ref.loading'
       next: 'Gambar selanjutnya'
       previous: 'Gambar sebelumnya'
@@ -162,6 +181,7 @@ kilowhat-cimaise:
       drop-file: 'atau seret dan letakkan di sini'
       processing: Memproses
       publishSilently: 'Terbitkan secara diam-diam'
+      reload: 'Muat ulang daftar konsep'
       select-file: 'Pilih file'
       submit: Submit
       submitInComposer: Lanjutkan
