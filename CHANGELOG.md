@@ -2,6 +2,32 @@ CHANGELOG
 =========
 
 
+1.11.0 (2023-08-21)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`dalez/flarum-msemoji`](https://github.com/DellZHackintosh/flarum-msemoji)
+* [`dalez/flarum-twemoji`](https://github.com/DellZHackintosh/flarum-twemoji)
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
+* [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content)
+* [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
+* [`kilowhat/flarum-ext-audit-pro`](https://extiverse.com/extension/kilowhat/flarum-ext-audit-pro)
+* [`kilowhat/flarum-ext-cimaise`](https://extiverse.com/extension/kilowhat/flarum-ext-cimaise)
+* [`kilowhat/flarum-ext-formulaire`](https://extiverse.com/extension/kilowhat/flarum-ext-formulaire)
+
+
+Semua perubahan: [1.10.0...1.11.0](https://github.com/flarum-lang/indonesian/compare/1.10.0...1.11.0).
+
+
 1.10.0 (2023-08-01)
 -------------------
 
