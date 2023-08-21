@@ -7,6 +7,7 @@ CHANGELOG
 
 **Menambahkan dukungan untuk ekstensi**:
 
+* [`dalez/flarum-msemoji`](https://github.com/DellZHackintosh/flarum-msemoji)
 * [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
 * [`matteociaroni/flarum-old-content`](https://github.com/matteociaroni/flarum-old-content)
 * [`rehiy/flarum-reply-to-see`](https://github.com/rehiy/flarum-reply-to-see)
