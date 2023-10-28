@@ -5,12 +5,17 @@
 clarkwinkelmann-composer-page:
   admin:
     settings:
+      forPrivateDiscussions: 'Gunakan untuk diskusi pribadi'
+      forPrivateDiscussionsHelp: 'Mengintegrasikan Byobu Discussion Composer ke dalam halaman'
       onlyInTags: 'Hanya pada tag berikut ini (opsional)'
       onlyInTagsHelp: "Daftar tag yang dipisahkan dengan koma. Biarkan kosong untuk selalu menggunakan halaman, bahkan sebelum tag apa pun dipilih.\n"
   forum:
     nav:
       cancel: 'Keluar dari penulisan'
       continue: 'Lanjutkan diskusi'
+    page-private:
+      heading: 'Memulai diskusi pribadi'
+      title: 'Memulai diskusi pribadi'
     page:
       heading: 'Mulai berdiskusi'
       title: 'Mulai berdiskusi'

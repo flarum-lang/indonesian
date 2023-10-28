@@ -17,5 +17,5 @@ datlechin-chatgpt:
       model_label: Model
       user_prompt_badge_help: 'Teks yang akan ditampilkan di sebelah perintah User.'
       user_prompt_badge_label: 'Badge Perintah User'
-      user_prompt_help: 'Perintah yang akan digunakan untuk menghasilkan jawaban. Defaultnya adalah siapa yang memulai diskusi.'
+      user_prompt_help: 'Masukkan id pengguna yang akan digunakan untuk menghasilkan jawaban. Defaultnya adalah siapa yang memulai diskusi.'
       user_prompt_label: 'Perintah User'

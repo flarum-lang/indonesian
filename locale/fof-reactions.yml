@@ -34,7 +34,7 @@ fof-reactions:
             legend: Suka
           warning: 'Reaksi yang sama <strong>tidak dapat</strong> dikonversi menjadi Suka <strong>dan</strong> Upvote'
         react_own_posts_help: 'Ketika diaktifkan, tergantung pada perizinan, pengguna dapat memberikan reaksi terhadap postingan mereka sendiri di forum. Untuk mencegah pengguna memberikan reaksi terhadap postingan mereka sendiri, nonaktifkan pengaturan ini.'
-        react_own_posts_label: 'Pengguna dapat memberikan reaksi terhadap postingan mereka sendiri'
+        react_own_posts_label: 'Pengguna dapat memberikan reaksi pada postingan mereka sendiri,'
         save_settings: 'Simpan Pengaturan'
     permissions:
       react_posts_label: 'Memberikan reaksi terhadap postingan'

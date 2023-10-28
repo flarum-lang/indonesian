@@ -25,11 +25,16 @@ ianm-syndication:
       forum_new_discussions: 'Diskusi baru di forum'
       tag_activity: 'Aktivitas untuk tag {tag}'
       tag_new_discussions: 'Diskusi dalam tag {tag}'
+      user_last_posts: 'Post & komentar oleh pengguna ini'
     discussion:
       feed_link: Feed
     feeds:
+      entries:
+        user_posts:
+          title_reply: 'Re: {discussion}'
       titles:
         discussion_subtitle: 'Beberapa pesan terakhir dalam diskusi ini'
+        discussion_title: '{discussion_name}'
         main_d_subtitle: 'Diskusi terbaru dalam forum'
         main_d_title: 'Diskusi baru di {forum_name}'
         main_subtitle: 'Tulisan terakhir di forum'
@@ -38,3 +43,5 @@ ianm-syndication:
         tag_d_title: 'Diskusi baru dalam tag {tag}'
         tag_subtitle: 'Tulisan terakhir dalam tag {tag}'
         tag_title: 'Aktivitas dalam tag {tag}'
+        user_subtitle: 'Post & komentar terbaru oleh pengguna ini.'
+        user_title: '{username}'
