@@ -12,6 +12,7 @@ CHANGELOG
 * [`datlechin/flarum-oauth-spotify`](https://github.com/datlechin/flarum-oauth-spotify)
 * [`foskym/nickname-group-formatter`](https://github.com/FoskyM/flarum-nickname-group-formatter)
 * [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 * [`nodeloc/flarum-chatgpt`](https://github.com/nodeloc/flarum-chatgpt)
 
 
