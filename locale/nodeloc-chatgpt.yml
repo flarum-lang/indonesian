@@ -4,6 +4,18 @@
 
 datlechin-chatgpt:
   admin:
+    edit_tag:
+      chatgpt_label: 'Aktifkan ChatGPT di tag ini'
+    permissions:
+      use_chatgpt_assistant_label: 'Gunakan ChatGPT Assistant'
     settings:
       api_key_help: 'Dapatkan API key OpenAI dari <a>openai.com</a>.'
+      enable_on_discussion_started_help: 'Diskusi akan menerima jawaban berdasarkan konten postingan pertama ketika diskusi dimulai.'
+      enable_on_discussion_started_label: 'Aktifkan saat diskusi dimulai'
+      max_tokens_help: '<a>Apa itu token dan bagaimana cara penghitungannya?</a>'
+      model_help: 'Pelajari lebih lanjut tentang <a>models</a> (default: <code>text-davinci-003</code>).'
       model_label: Model
+      user_prompt_badge_help: 'Teks yang akan ditampilkan di sebelah perintah pengguna.'
+      user_prompt_badge_label: 'Badge Perintah Pengguna'
+      user_prompt_help: 'Masukkan id pengguna yang akan digunakan untuk menghasilkan jawaban. Defaultnya adalah siapa yang memulai diskusi.'
+      user_prompt_label: 'Perintah Pengguna'
