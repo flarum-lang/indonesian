@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-follow-tags/id/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      tagsubscription:
+        anonymize_description: 'Menghapus langganan pengguna ke tag.'
+        export_description: 'Mengekspor rincian tingkat berlangganan untuk sebuah tag, jika ada.'
 fof-follow-tags:
   admin:
     settings:
