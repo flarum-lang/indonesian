@@ -2,6 +2,45 @@ CHANGELOG
 =========
 
 
+1.12.0 (2023-11-01)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`danirod/flarum-plausible`](https://github.com/danirod/flarum-plausible)
+* [`datlechin/flarum-oauth-envato`](https://github.com/datlechin/flarum-oauth-envato)
+* [`datlechin/flarum-oauth-spotify`](https://github.com/datlechin/flarum-oauth-spotify)
+* [`foskym/nickname-group-formatter`](https://github.com/FoskyM/flarum-nickname-group-formatter)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+* [`nodeloc/flarum-chatgpt`](https://github.com/nodeloc/flarum-chatgpt)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`fof/username-request`](https://github.com/FriendsOfFlarum/username-request)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
+
+
+Semua perubahan: [1.11.0...1.12.0](https://github.com/flarum-lang/indonesian/compare/1.11.0...1.12.0).
+
+
 1.11.0 (2023-08-21)
 -------------------
 
