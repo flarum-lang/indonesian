@@ -63,6 +63,7 @@ clarkwinkelmann-catch-the-fish:
   forum:
     basket:
       drag-help: 'Seret dan letakkan ikan pada diskusi, postingan, atau profil pengguna'
+      time: 'Letakkan hingga: {time}'
       title: 'Keranjang Ikan'
     caught-fish-modal:
       congratulation: 'Selamat, Anda telah menangkap ikan! Anda telah menangkap {catch_count} ikan.'
