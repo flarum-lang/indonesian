@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.12.1 (XXXX-XX-XX)
+-------------------
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+
+
+Semua perubahan: [1.12.0...1.12.1](https://github.com/flarum-lang/indonesian/compare/1.12.0...1.12.1).
+
+
 1.12.0 (2023-11-01)
 -------------------
 
