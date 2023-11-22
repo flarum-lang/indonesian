@@ -10,7 +10,7 @@ fof-filter:
     countLabel: 'Toleransi Sensor'
     email:
       default_subject: 'Mengenai Postingan Terbaru Anda'
-      default_text: "Terima kasih telah memposting! Sayangnya, post Anda telah dihapus karena mengandung sesuatu yang tidak ingin kami lihat di forum kami.\n\nJika Anda yakin ini adalah sebuah kesalahan, Anda beruntung, setiap postingan yang dihapus akan ditinjau oleh moderator kami. Jika mereka menemukan bahwa postingan tersebut telah dihapus secara tidak tepat, mereka akan mengembalikannya.                \n\nTerima kasih atas pengertian Anda."
+      default_text: "Terima kasih telah memposting! Sayangnya, postingan Anda telah dihapus karena mengandung sesuatu yang tidak ingin kami lihat di forum kami.\n\nJika Anda yakin ini adalah sebuah kesalahan, Anda beruntung, setiap postingan yang dihapus akan ditinjau oleh moderator kami. Jika mereka menemukan bahwa postingan tersebut telah dihapus secara tidak benar, mereka akan mengembalikannya.                \n\nTerima kasih atas pengertian Anda.\n"
     email_help: 'Isi pesan email yang ditandai. Menerima html atau plaintext.'
     filter_label: 'String untuk memfilter'
     help2: 'Interval dalam menit di mana post dari user yang sama dalam diskusi yang sama akan digabungkan secara otomatis.'
@@ -21,6 +21,7 @@ fof-filter:
       filter_title: 'String untuk memfilter'
       placeholder: 'String yang akan difilter'
       switch:
+        delete: 'Hapus otomatis post yang difilter'
         email: 'Email pengguna saat postingan difilter'
         merge: 'Otomatis menggabungkan postingan ganda'
     nav:

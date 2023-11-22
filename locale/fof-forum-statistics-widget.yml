@@ -10,6 +10,10 @@ fof-forum-statistics-widget:
       view_posts_count_label: 'Melihat widget statistik jumlah post'
       view_users_count_label: 'Melihat widget statistik jumlah pengguna forum'
     settings:
+      cache_duration_help: 'Tentukan berapa lama statistik untuk widget harus disimpan dalam cache (dalam detik). <code>0</code> untuk menonaktifkan cache (tidak disarankan).'
+      cache_duration_label: 'Durasi Cache'
+      flush_cache_on_new_registration_help: 'Jika diaktifkan, cache statistik akan dibersihkan ketika pengguna baru mendaftar di forum.'
+      flush_cache_on_new_registration_label: 'Bersihkan Cache Statistik pada Pendaftaran Baru'
       widget_helper_text: 'Edit pengaturan ini untuk menyesuaikan posisi widget di bagian sidenav dari forum Flarum Anda. Semakin tinggi angkanya, semakin tinggi widget ini akan ada di daftar item sidenav (nilai ini bisa positif atau negatif).'
       widget_ignore_private_discussions_label: 'Abaikan Diskusi Pribadi'
       widget_order_label: 'Urutan Widget'

@@ -9,6 +9,8 @@ datlechin-more-discussions:
       block_name_label: 'Nama block'
       discussion_limit_help: 'Jumlah diskusi yang akan ditampilkan (default <code>5</code>)'
       discussion_limit_label: 'Batas diskusi'
+      discussion_related_help: 'Cari hasil terkait berdasarkan judul diskusi. <b>Peringatan:</b> hal ini dapat mempengaruhi kinerja situs Anda, terutama jika situs Anda besar. Untuk mengatasinya, gunakan opsi ini dalam kombinasi dengan ekstensi <b>clarkwinkelmann/flarum-ext-scout</b>.'
+      discussion_related_label: 'Hasil terkait'
       filter_by_help: 'Memfilter diskusi (default: <code>terkini</code>)'
       filter_by_label: 'Filter berdasarkan'
       filter_dropdown:
