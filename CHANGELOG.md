@@ -2,16 +2,26 @@ CHANGELOG
 =========
 
 
-1.12.1 (XXXX-XX-XX)
+1.13.0 (XXXX-XX-XX)
 -------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork)
+* [`sycho/flarum-force-password-reset`](https://github.com/SychO9/flarum-force-password-reset)
+
 
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish)
+* [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
 
 
-Semua perubahan: [1.12.0...1.12.1](https://github.com/flarum-lang/indonesian/compare/1.12.0...1.12.1).
+Semua perubahan: [1.12.0...1.13.0](https://github.com/flarum-lang/indonesian/compare/1.12.0...1.13.0).
 
 
 1.12.0 (2023-11-01)
