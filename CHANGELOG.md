@@ -7,18 +7,28 @@ CHANGELOG
 
 **Menambahkan dukungan untuk ekstensi**:
 
+* [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
 * [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork)
+* [`litalino/flarum-geo-weather-widget`](https://github.com/Litalino/flarum-geo-weather-widget)
 * [`sycho/flarum-force-password-reset`](https://github.com/SychO9/flarum-force-password-reset)
+* [`umhelper/oauth-clerk`](https://github.com/UMHelper/flarum-ext-oauth-clerk)
 
 
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish)
+* [`datlechin/flarum-chatgpt`](https://github.com/datlechin/flarum-chatgpt)
 * [`datlechin/flarum-more-discussions`](https://github.com/datlechin/flarum-more-discussions)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
 * [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`fof/split`](https://github.com/FriendsOfFlarum/split)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+* [`kilowhat/flarum-ext-wordpress`](https://extiverse.com/extension/kilowhat/flarum-ext-wordpress)
 
 
 Semua perubahan: [1.12.0...1.13.0](https://github.com/flarum-lang/indonesian/compare/1.12.0...1.13.0).
