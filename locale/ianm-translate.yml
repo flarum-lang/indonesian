@@ -9,6 +9,8 @@ ianm-translate:
       translate-to-all-locales: 'Menampilkan terjemahan dalam semua bahasa forum'
       translate-to-locale: 'Menampilkan terjemahan dalam bahasa saat ini'
     settings:
+      bind-browser-language: 'Tambahkan bahasa browser'
+      bind-browser-language-help: 'Ketika diaktifkan, bahasa browser pengguna akan ditambahkan ke daftar bahasa yang tersedia untuk diterjemahkan.'
       deepl:
         api_key:
           help: 'Daftar di {link}. Driver akan secara otomatis mendeteksi jenis key free/pro.'
@@ -35,6 +37,8 @@ ianm-translate:
       readme-none: 'Tidak ada pengaturan tambahan yang diperlukan untuk driver ini.'
       translate-all-enabled: 'Aktifkan semua bahasa terjemahan'
       translate-all-help: 'Jika diaktifkan, pengguna admin dan orang lain yang memiliki izin dapat menerjemahkan konten ke bahasa forum yang diinstal.'
+      use-native-locale-names: 'Gunakan nama lokal asli'
+      use-native-locale-names-help: 'Saat diaktifkan, nama lokal asli akan digunakan sebagai pengganti versi lokal nama saat ini.'
   forum:
     detected-language: 'Post ini dalam bahasa {postLang}'
     discussion:

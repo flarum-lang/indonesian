@@ -6,6 +6,9 @@ fof-oauth:
   admin:
     configure_button_label: 'Mengkonfigurasi dengan FoF OAuth'
     settings:
+      advanced:
+        heading: 'Tingkat Lanjut'
+        log-oauth-errors-help: 'Jika diaktifkan, error pada OAuth akan dicatat pada log Flarum. Hal ini dapat membantu men-debug masalah pada OAuth, tetapi juga dapat berisi informasi sensitif.'
       fullscreen_popup_help: 'Ketika diaktifkan, login OAuth akan terbuka dalam popup layar penuh. Jika ini diaktifkan, pengaturan lebar dan tinggi akan diabaikan.'
       fullscreen_popup_label: 'Gunakan Popup Layar Penuh untuk OAuth'
       only_icons_label: 'Hanya menampilkan ikon (tata letak alternatif)'

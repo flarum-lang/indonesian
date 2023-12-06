@@ -16,6 +16,7 @@ fof-best-answer:
       documentation: Dokumentasi
       enable_all_tags_button: 'Aktifkan semua tag untuk Jawaban Terbaik'
       enable_all_tags_reminder_button: 'Aktifkan semua tag untuk pengingat Jawaban Terbaik'
+      enabled_tags_label: 'Tag yang Diaktifkan'
       introduction: "Aktifkan tag mana yang akan mendukung Best Answers di <code><a>flarum/tags</a></code>, dan secara opsional tag mana yang akan mendukung pengingat. Ketika sebuah tag diaktifkan oleh Best Answer, aturlah perizinan untuk setiap grup pengguna yang dapat mengatur jawaban (diskusi sendiri, diskusi apa pun). Perizinan dapat diatur secara global (untuk setiap tag Best Answer yang diaktifkan), atau per tag.\n"
       label:
         advanced: 'Tingkat lanjut'
@@ -45,7 +46,7 @@ fof-best-answer:
     subject:
       awarded: 'Postingan Anda telah ditetapkan sebagai jawaban terbaik oleh {display_name}'
       ba-set: 'Jawaban terbaik ditetapkan oleh {display_name}'
-      select: 'Apakah pertanyaan Anda sudah terjawab?'
+      select: 'Apakah Anda berhasil mendapatkan jawaban atas pertanyaan Anda?'
   forum:
     answered_badge: Terjawab
     best_answer_button: 'Jawaban Terbaik'

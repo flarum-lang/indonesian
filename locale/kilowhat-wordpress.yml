@@ -31,6 +31,8 @@ kilowhat-wordpress:
       cookie_domain_help: 'Hanya diperlukan jika berbeda dari domain Flarum'
       enable_comments: 'Aktifkan integrasi komentar'
       enable_sso: 'Aktifkan integrasi SSO'
+      excerpt_html_nodes: 'Panjang kutipan konten (dalam jumlah node HTML)'
+      excerpt_html_whitelist: 'Daftar putih tag HTML yang akan disimpan di dalam kutipan (dipisahkan dengan koma)'
       excerpt_length: 'Panjang kutipan konten (dalam karakter)'
       force_username_choice: 'Buat pengguna memilih username mereka pada kunjungan pertama'
       force_username_choice_help: 'Nilai default akan diberikan dengan aturan yang dipilih di atas.'
@@ -51,6 +53,7 @@ kilowhat-wordpress:
       section_comments_intro: "Fitur ini menggantikan komentar WordPress dengan iframe Flarum. Postingan dari tamu tidak lagi dapat dilakukan. Diskusi hanya dibuat untuk post dengan komentar yang diaktifkan di WordPress. Mengaktifkan atau menonaktifkan komentar disinkronkan dengan Flarum's discussion lock. Jika blog Anda sudah berisi postingan ketika Anda mengaktifkan fitur ini, Anda perlu mengaktifkan dan menonaktifkan komentar lagi pada setiap artikel agar diskusi Flarum dapat dibuat.\n"
       section_general_intro: 'Pengaturan dasar yang dibutuhkan agar ekstensi dapat berfungsi.'
       section_sso_intro: "Fitur ini akan menghubungkan pengguna WordPress dengan Flarum secara mulus. Sebuah akun akan secara otomatis dibuat untuk mereka dan disinkronkan dengan WordPress. Jika Anda memiliki akun yang sudah ada di Flarum, akun tersebut akan secara otomatis dicocokkan dengan email mereka. Jika Anda menghapus pengguna di Flarum, pengguna tersebut akan dibuat lagi saat akun WordPress melakukan login. Untuk memblokir pengguna Flarum, tangguhkan akun di Flarum.\n"
+      summary_as_last_post: 'Atur ringkasan postingan sebagai postingan terakhir dari diskusi baru'
       summary_as_last_post_help: "Hal ini membuat diskusi komentar baru naik ke bagian atas daftar diskusi di Flarum segera setelah postingan WordPress diterbitkan. Secara default, diskusi hanya akan naik ke atas setelah pengguna pertama menulis komentar.\n"
       use_post_date: 'Gunakan tanggal postingan WordPress sebagai tanggal pembuatan diskusi'
       use_post_date_help: "Secara default, diskusi Flarum akan menggunakan waktu saat ini sebagai tanggal pembuatannya. Opsi ini memungkinkan pembuatan diskusi dengan tanggal lampau jika postingan WordPress juga memiliki tanggal lampau.\n"
