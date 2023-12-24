@@ -13,21 +13,21 @@ hikarilan-passkey-login:
           help: 'Nama Pihak Pengandal adalah nama sebutan-manusia untuk situs anda. Jika dikosongkan, judul forum akan digunakan.'
           label: 'Nama Pihak Pengandal'
       timeout:
-        help: 'Waktu habis adalah verifikasi kunci-lewat dalam detik. Nilai bawaan adalah 60 detik.'
+        help: 'Batas waktu verifikasi passkey dalam hitungan detik. Nilai default adalah 60 detik.'
         label: 'Waktu habis'
   forum:
     login:
-      with-passkey: 'Masuk dengan kunci-lewat'
+      with-passkey: 'Masuk dengan passkey'
     user:
       settings:
         alias-modal:
-          label: 'Dan sekarang, mari berikan kunci-lewat anda sebuah alias.'
-          title: 'Kunci-lewat terdaftar!'
+          label: 'Dan sekarang, mari kita beri nama alias pada passkey Anda.'
+          title: 'Passkey terdaftar!'
         item:
           revoke: '=> core.forum.security.revoke_access_token'
-          revoke_success: 'Kunci-lewat berhasil dikembalikan.'
+          revoke_success: 'Passkey berhasil dicabut.'
         passkeys:
-          add-new-passkey: 'Tambah sebuah kunci-lewat'
+          add-new-passkey: 'Tambah passkey'
           error: 'Terjadi sebuah kesalahan internal. Silahkan coba kembali.'
-          label: 'Kunci-lewat adalah kata kunci pengganti yang memvalidasi identitas anda dengan sentuhan, pengenalan wajah, sebuah kata kunci, atau PIN.'
-          title: Kunci-lewat
+          label: 'Passkey adalah pengganti kata sandi yang memvalidasi identitas Anda menggunakan sentuhan, pengenalan wajah, kata sandi perangkat, atau PIN.'
+          title: Passkey
