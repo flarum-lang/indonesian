@@ -11,6 +11,7 @@ CHANGELOG
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`hikarilan/flarum-passkey-login`](https://github.com/shaokeyibb/flarum-passkey-login)
+* [`litalino/flarum-adblock`](https://github.com/Litalino/flarum-adblock)
 
 
 **Terjemahan terbaru untuk ekstensi**:
