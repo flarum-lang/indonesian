@@ -10,18 +10,18 @@ datlechin-simple-tour-guide:
       create_step: 'Buat tahapan baru'
       delete_step: 'Hapus tahapan'
       delete_step_confirmation: 'Anda yakin ingin menghapus tahapan ini?'
-      edit_step: 'Sunting [judul]'
+      edit_step: 'Sunting {title}'
     settings:
       allow_close_help: 'Perbolehkan penggguna menutup Popover dengan klik pada latar belakang.'
       allow_close_label: 'Perbolehkan tutup'
       show_progress_help: 'Ini akan menyajikan tahapan saat ini dan total tahapan pada bagian atas Popover.'
       show_progress_label: 'Tampilkan Kemajuan'
-    target: Target
-    target_placeholder: 'Elemen target dari tahapan (misal. #elemen-id).'
+    target: Sasaran
+    target_placeholder: 'Sasaran Elemen dari tahapan (misal. #elemen-id).'
     title: Judul
     title_placeholder: 'Judul Tahapan.'
   forum:
     done_btn_text: Selesai
     next_btn_text: Lanjut
     prev_btn_text: Sebelumnya
-    progress_text: '{sekarang} dari {total}'
+    progress_text: '{current} dari {total}'
