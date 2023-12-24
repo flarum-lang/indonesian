@@ -5,10 +5,10 @@
 blomstra-horizon:
   admin:
     stats:
-      auto_refresh: 'Segarkan Otomatis'
+      auto_refresh: 'Penyegaran Otomatis'
       data:
         failed-last-seconds: 'Pekerjaan Gagal Beberapa Detik terlewat'
-        jobs-past-hour: 'Pekerjaan sejam terlewat'
+        jobs-past-hour: 'Pekerjaan di Jam Terakhir'
         jobs-per-minute: 'Pekerjaan per menit'
         max-runtime: 'Maksimum Waktu Berjalan'
         max-throughput: 'Hasil Maksimum'
@@ -18,6 +18,6 @@ blomstra-horizon:
           label: Status
           running: Berjalan
         total-processes: 'Total Proses'
-      full_dashboard: 'Dasbor Cakrawala'
+      full_dashboard: 'Dasbor Horizon'
       heading: 'Tinjauan Antrian'
       refresh: Segarkan
