@@ -77,6 +77,7 @@ php flarum cache:clear
 | --- | --- |
 | [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/fof-amazon-affiliation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-amazon-affiliation/id/) |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-analytics/id/) |
+| [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/fof-anti-spam/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-anti-spam/id/) |
 | [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/fof-ban-ips/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-ban-ips/id/) |
 | [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/fof-best-answer/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-best-answer/id/) |
 | [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/fof-byobu/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-byobu/id/) |
