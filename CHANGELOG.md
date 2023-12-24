@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.14.0 (XXXX-XX-XX)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-automod)
+* [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
+
+
+Semua perubahan: [1.13.0...1.14.0](https://github.com/flarum-lang/indonesian/compare/1.13.0...1.14.0).
+
+
 1.13.0 (2023-12-06)
 -------------------
 
