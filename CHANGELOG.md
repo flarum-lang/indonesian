@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 
 
 **Terjemahan terbaru untuk ekstensi**:
