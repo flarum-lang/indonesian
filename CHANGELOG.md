@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.14.1 (XXXX-XX-XX)
+-------------------
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+
+
+Semua perubahan: [1.14.0...1.14.1](https://github.com/flarum-lang/indonesian/compare/1.14.0...1.14.1).
+
+
 1.14.0 (2023-12-25)
 -------------------
 
