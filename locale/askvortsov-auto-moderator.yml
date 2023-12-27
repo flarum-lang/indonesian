@@ -57,7 +57,7 @@ askvortsov-auto-moderator:
       likes_given: 'Tanda Suka Yang Diberikan'
       likes_received: 'Tanda Suka Yang Diterima'
       moderator_strikes: 'Peneguran Moderator'
-      posts_made: 'Postingan dibuat'
+      posts_made: 'Post Dibuat'
     requirement_drivers:
       email_confirmed: 'Email Terkonfirmasi'
       email_matches_regex: 'Regex Cocok Dengan Email'
