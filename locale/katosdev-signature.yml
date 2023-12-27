@@ -4,12 +4,20 @@
 
 signature:
   admin:
+    permissions:
+      allow_signature: 'Dapat memiliki signature'
+      edit_signature_others: 'Mengedit signature pengguna lain'
     settings:
+      allow_inline_editing:
+        description: 'Pengeditan signature sebaris.'
+        help: 'Ketika diaktifkan, pengguna dapat mengedit signature mereka ketika melihat post.'
       maximum_char_limit:
-        description: 'Batas karakter maksimum dari signature (hanya karakter, tag HTML tidak dihitung)'
+        description: 'Batas maksimum karakter signature.'
+        help: 'Ketika pengguna melebihi batas maksimum karakter dalam signature mereka, mereka akan dicegah untuk menyimpan sampai jumlah karakter sesuai.'
         placeholder: '1000 (default)'
       maximum_image_count:
         description: 'Jumlah maksimum gambar yang disisipkan.'
+        help: 'Apabila pengguna melebihi jumlah maksimum gambar dalam signature mereka, maka pengguna akan dicegah untuk menyimpan sampai jumlah gambarnya sesuai.'
         placeholder: '5 (default)'
       maximum_image_height:
         description: 'Tinggi maksimum dari jumlah tinggi total gambar yang disisipkan pada editor.'
@@ -20,11 +28,12 @@ signature:
     title: Signature
   forum:
     buttons:
+      edit: 'Edit Signature'
       save: 'Simpan Signature'
       signature: Signature
     errors:
-      max_char_limit_exceed: 'Batas karakter maksimum terlampaui.'
-      max_image_count_exceed: 'Jumlah gambar maksimum terlampaui.'
+      max_char_limit_exceed: 'Batas maksimum karakter terlampaui.'
+      max_image_count_exceed: 'Jumlah maksimum gambar terlampaui.'
       max_image_height_exceed: 'Batas tinggi gambar maksimum terlampaui.'
       max_image_width_exceed: 'Batas lebar gambar maksimum terlampaui.'
     modal:
@@ -34,3 +43,5 @@ signature:
       loading:
         content: 'Mohon menunggu...'
         title: Menyimpan
+    profile:
+      click: 'Klik untuk menulis signature Anda'
