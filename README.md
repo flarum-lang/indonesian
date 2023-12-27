@@ -498,7 +498,6 @@ php flarum cache:clear
 | [`v17development/flarum-support`](https://extiverse.com/extension/v17development/flarum-support) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/v17development-support/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/v17development-support/id/) |
 | [`ziiven/flarum-decoration-store`](https://extiverse.com/extension/ziiven/flarum-decoration-store) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/ziiven-decoration-store/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-decoration-store/id/) |
 | [`ziiven/flarum-pay-to-see`](https://extiverse.com/extension/ziiven/flarum-pay-to-see) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/ziiven-pay-to-see/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-pay-to-see/id/) |
-| [`ziiven/flarum-raffle-ticket`](https://extiverse.com/extension/ziiven/flarum-raffle-ticket) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/ziiven-raffle-ticket/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ziiven-raffle-ticket/id/) |
 
 <!-- premium-extensions-list-stop -->
 
