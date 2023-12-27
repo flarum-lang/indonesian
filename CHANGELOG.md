@@ -7,7 +7,9 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-automod)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`hikarilan/flarum-passkey-login`](https://github.com/shaokeyibb/flarum-passkey-login)
 
 
 Semua perubahan: [1.14.0...1.14.1](https://github.com/flarum-lang/indonesian/compare/1.14.0...1.14.1).
