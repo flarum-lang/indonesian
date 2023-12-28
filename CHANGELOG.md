@@ -2,6 +2,21 @@ CHANGELOG
 =========
 
 
+1.14.1 (2023-12-28)
+-------------------
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-automod)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`hikarilan/flarum-passkey-login`](https://github.com/shaokeyibb/flarum-passkey-login)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
+
+
+Semua perubahan: [1.14.0...1.14.1](https://github.com/flarum-lang/indonesian/compare/1.14.0...1.14.1).
+
+
 1.14.0 (2023-12-25)
 -------------------
 
