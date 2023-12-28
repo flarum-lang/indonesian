@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`imdong/flarum-ext-spam-alert`](https://github.com/imdong/flarum-ext-spam-alert)
 * [`litalino/flarum-blog-article-series`](https://github.com/Litalino/flarum-blog-article-series)
+* [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags)
 * [`litalino/flarum-top-bar`](https://github.com/Litalino/flarum-top-bar)
 
 
