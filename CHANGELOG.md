@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+1.15.0 (XXXX-XX-XX)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`imdong/flarum-ext-spam-alert`](https://github.com/imdong/flarum-ext-spam-alert)
+* [`litalino/flarum-blog-article-series`](https://github.com/Litalino/flarum-blog-article-series)
+* [`litalino/flarum-top-bar`](https://github.com/Litalino/flarum-top-bar)
+
+
+Semua perubahan: [1.14.1...1.15.0](https://github.com/flarum-lang/indonesian/compare/1.14.1...1.15.0).
+
+
 1.14.1 (2023-12-28)
 -------------------
 
