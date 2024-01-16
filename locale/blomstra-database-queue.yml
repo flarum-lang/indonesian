@@ -4,6 +4,9 @@
 
 blomstra-database-queue:
   admin:
+    settings:
+      backoff_help: "Jumlah detik untuk menunggu sebelum mencoba kembali job yang mengalami exception yang tidak tertangkap.\n"
+      memory_help: "Batas memori dalam megabyte.\n"
     stats:
       auto_refresh: 'Penyegaran Otomatis'
       data:

@@ -24,6 +24,7 @@ fof-recaptcha:
       title: 'Uji reCAPTCHA'
   forum:
     error: 'Terjadi kesalahan saat memasukkan reCAPTCHA. Coba lagi.'
+    unknown_error: 'Terjadi kesalahan yang tidak diketahui. Periksa captcha dan coba lagi.'
 validation:
   recaptcha: 'Validasi reCAPTCHA gagal.'
   recaptcha-unknown: 'Terjadi kesalahan yang tidak diketahui saat memvalidasi reCAPTCHA ({errors}).'
