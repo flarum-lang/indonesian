@@ -11,6 +11,15 @@ CHANGELOG
 * [`litalino/flarum-blog-article-series`](https://github.com/Litalino/flarum-blog-article-series)
 * [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags)
 * [`litalino/flarum-top-bar`](https://github.com/Litalino/flarum-top-bar)
+* [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
+* [`clarkwinkelmann/flarum-ext-passwordless`](https://github.com/clarkwinkelmann/flarum-ext-passwordless)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 
 
 Semua perubahan: [1.14.1...1.15.0](https://github.com/flarum-lang/indonesian/compare/1.14.1...1.15.0).
