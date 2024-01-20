@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.16.0 (XXXX-XX-XX)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+
+
+Semua perubahan: [1.15.0...1.16.0](https://github.com/flarum-lang/indonesian/compare/1.15.0...1.16.0).
+
+
 1.15.0 (2024-01-17)
 -------------------
 
