@@ -53,6 +53,7 @@ php flarum cache:clear
 | [`flarum/approval`](https://github.com/flarum/approval) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/flarum-approval/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-approval/id/) |
 | [`flarum/bbcode`](https://github.com/flarum/bbcode) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/flarum-bbcode/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-bbcode/id/) |
 | [`flarum/emoji`](https://github.com/flarum/emoji) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/flarum-emoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-emoji/id/) |
+| [`flarum/extension-manager`](https://github.com/flarum/extension-manager) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/flarum-extension-manager/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-extension-manager/id/) |
 | [`flarum/flags`](https://github.com/flarum/flags) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/flarum-flags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-flags/id/) |
 | [`flarum/likes`](https://github.com/flarum/likes) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/flarum-likes/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-likes/id/) |
 | [`flarum/lock`](https://github.com/flarum/lock) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum/id/flarum-lock/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-lock/id/) |
