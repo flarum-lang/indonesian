@@ -21,11 +21,11 @@ datlechin-birthdays:
     invalid_dob_message: 'Tanggal lahir tidak valid'
   forum:
     change_dob:
-      date_of_birth_text: 'Tanggal Lahir'
+      date_of_birth_text: '=> datlechin-birthdays.ref.date_of_birth'
       submit_button: '=> core.ref.save_changes'
       title: 'Edit Tanggal Lahir'
     edit_user:
-      dob_heading: 'Tanggal Lahir'
+      dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
     header:
       edit_dob_button: 'Edit Tanggal Lahir'
     nav:
@@ -33,12 +33,16 @@ datlechin-birthdays:
     page:
       discussion_count: '{count, plural, one {Diskusi: #} other {Diskusi: #}}'
       post_count: '{count, plural, one {Post: #} other {Post: #}}'
+      sign_up:
+        dob_placeholder: '=> datlechin-birthdays.ref.date_of_birth'
     settings:
       change_dob_label: 'Ganti Tanggal Lahir'
-      dob_heading: 'Tanggal Lahir'
+      dob_heading: '=> datlechin-birthdays.ref.date_of_birth'
       show_dob_date_label: 'Tampilkan hari dan bulan kelahiran'
       show_dob_year_help: 'Hal ini akan memungkinkan orang melihat usia Anda.'
       show_dob_year_label: 'Tampilkan tahun kelahiran'
     user:
       age_text: 'Usia: {age}'
       birthday_text: 'Ulang tahun: {date}'
+  ref:
+    date_of_birth: 'Tanggal Lahir'

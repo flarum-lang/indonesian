@@ -13,6 +13,7 @@ justoverclock-steam-api:
     gamesOwned: 'Game Yang Dimiliki: '
     lastLogOff: 'Terakhir keluar: '
     lastLogin: 'Terakhir Login: '
+    lastLogoff: 'Terakhir keluar: '
     noCountry: 'Tidak diisi'
     noGamesAvailable: 'Tidak ada game yang dimainkan dalam dua minggu terakhir.'
     privateProfile: 'Profil pribadi'
