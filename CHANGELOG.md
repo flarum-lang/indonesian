@@ -8,7 +8,14 @@ CHANGELOG
 **Menambahkan dukungan untuk ekstensi**:
 
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
 * [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api)
 
 
 Semua perubahan: [1.15.0...1.16.0](https://github.com/flarum-lang/indonesian/compare/1.15.0...1.16.0).
