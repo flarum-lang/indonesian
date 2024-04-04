@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.17.0 (XXXX-XX-XX)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
+
+
+Semua perubahan: [1.16.0...1.17.0](https://github.com/flarum-lang/indonesian/compare/1.16.0...1.17.0).
+
+
 1.16.0 (2024-01-22)
 -------------------
 
