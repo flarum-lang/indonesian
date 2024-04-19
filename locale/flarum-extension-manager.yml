@@ -37,7 +37,7 @@ flarum-extension-manager:
           alpha: Alpha
           beta: Beta
           dev: Dev
-          rc: 'Kandidat Rilis'
+          rc: 'RC (Kandidat Rilis)'
           stable: 'Stabil (Direkomendasikan)'
       repositories:
         add_modal:
@@ -63,7 +63,7 @@ flarum-extension-manager:
     extensions:
       check_why_it_failed_updating: 'Tunjukkan mengapa tidak memperbarui ke versi terbaru.'
       install: 'Pasang ekstensi baru'
-      proceed: Lanjutkan
+      proceed: Proses
       remove: 'Copot pemasangan'
       successful_install: '{extension} berhasil dipasang, mengalihkan..'
       successful_remove: 'Ekstensi berhasil dihapus.'
@@ -71,6 +71,12 @@ flarum-extension-manager:
     file_permissions: "Manajer ekstensi memerlukan izin baca dan tulis pada file dan direktori berikut ini: composer.json, composer.lock, vendor, storage, storage/.composer\n"
     major_updater:
       description: "Pembaruan utama Flarum tidak kompatibel dengan versi sebelumnya, yang berarti bahwa beberapa ekstensi yang saat ini Anda instal, dan modifikasi yang dilakukan secara manual mungkin tidak akan berfungsi dengan versi baru ini. Pastikan untuk membuat backup database dan file Anda sebelum melanjutkan.\n"
+      failure:
+        desc: 'Pembaruan besar terakhir gagal, beberapa ekstensi yang terinstal tidak kompatibel dengan rilis besar yang baru.'
+        why: 'Ketahui lebih lanjut'
+      title: 'Pembaruan Utama Flarum {version} Telah Tersedia'
+    minor_update_confirmation:
+      content: 'Ini juga akan memperbarui ekstensi/paket lain dengan pembaruan yang tersedia.'
     sections:
       control:
         title: Manajer
@@ -86,6 +92,9 @@ flarum-extension-manager:
           extension_remove: 'Hapus ekstensi'
           extension_update: 'Perbarui ekstensi'
           update_check: 'Periksa pembaruan'
+          update_global: 'Memperbarui semua paket software'
+          update_major: 'Pembaruan besar'
+          update_minor: 'Pembaruan kecil'
           why_not: 'Menganalisa mengapa sebuah paket tidak dapat diperbarui'
         output_modal:
           cause_unknown: 'Tidak diketahui'
@@ -95,6 +104,7 @@ flarum-extension-manager:
           pending: Tertunda
           success: Berhasil
         task_just_started: 'Tugas baru saja dimulai'
+        title: Antrean
     settings:
       access_warning: 'Harap berhati-hati terhadap siapa yang Anda berikan akses ke area admin, manajer ekstensi dapat disalahgunakan oleh oknum jahat untuk menginstal paket yang dapat menyebabkan pelanggaran keamanan.'
       debug_mode_warning: 'Anda sedang menjalankan mode debug, manajer ekstensi tidak dapat menginstal dan memperbarui paket local development dengan benar. Silakan gunakan command line interface untuk tujuan tersebut.'
@@ -104,6 +114,10 @@ flarum-extension-manager:
       check_for_updates: 'Periksa pembaruan'
       flarum: 'Flarum Core'
       global_update_successful: 'Berhasil memperbarui semua paket.'
+      last_update_checked_at: 'Pemeriksaan Pembaruan Terakhir: '
+      run_global_update: 'Jalankan Pembaruan Global'
+      up_to_date: 'Semuanya sudah diperbarui!'
       updater_help: 'Menjalankan pemeriksaan ekstensi baru dan pembaruan Flarum.'
+      updater_title: Pembaruan
     why_not_modal:
       title: 'Mengapa Tidak Dapat Diperbarui'
