@@ -7,7 +7,13 @@ CHANGELOG
 
 **Menambahkan dukungan untuk ekstensi**:
 
+* [`nearata/flarum-ext-password-strength-enforcer`](https://github.com/Nearata/flarum-ext-password-strength-enforcer)
 * [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 
 
 Semua perubahan: [1.16.0...1.17.0](https://github.com/flarum-lang/indonesian/compare/1.16.0...1.17.0).
