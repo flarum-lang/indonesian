@@ -16,6 +16,7 @@ CHANGELOG
 
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
