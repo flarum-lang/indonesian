@@ -95,6 +95,8 @@ fof-upload:
       download_label: 'Men-download file'
       upload_label: 'Meng-upload file'
       view_user_uploads_label: 'Melihat data upload pengguna'
+    shared-uploads:
+      description: 'Upload file yang dapat digunakan oleh semua pengguna forum Anda.'
     templates:
       bbcode-image: 'Template gambar BBCode'
       bbcode-image_description: "Tampilkan gambar menggunakan BBCode. <strong>Anda harus menginstal dan mengaktifkan flarum/bbcode.</strong> Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection dinonaktifkan.\n"
