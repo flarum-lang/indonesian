@@ -14,6 +14,7 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 
 
 Semua perubahan: [1.16.0...1.17.0](https://github.com/flarum-lang/indonesian/compare/1.16.0...1.17.0).
