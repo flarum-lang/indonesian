@@ -2,6 +2,30 @@ CHANGELOG
 =========
 
 
+1.17.0 (2024-04-19)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
+* [`nearata/flarum-ext-password-strength-enforcer`](https://github.com/Nearata/flarum-ext-password-strength-enforcer)
+* [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+
+
+Semua perubahan: [1.16.0...1.17.0](https://github.com/flarum-lang/indonesian/compare/1.16.0...1.17.0).
+
+
 1.16.0 (2024-01-22)
 -------------------
 
