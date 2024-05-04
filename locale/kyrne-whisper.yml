@@ -7,7 +7,7 @@ kyrne-whisper:
     permissions:
       start_label: 'Memulai percakapan pribadi'
     settings:
-      return_key: 'Tombol return (kembali) mengirim pesan'
+      return_key: 'Tombol return untuk mengirim pesan'
       set_own_password: 'Biarkan pengguna membuat password mereka sendiri - Kompatibilitas SSO'
       title: 'Pengaturan Whisper'
   forum:
@@ -24,7 +24,7 @@ kyrne-whisper:
       recovery_message: 'Pesan sistem: Sinkronisasi enkripsi hilang dan dipulihkan'
       send: 'Kirim Pesan'
       start: 'Mulai Percakapan'
-      start_of_conversation: 'Awal Percakapan'
+      start_of_conversation: 'Mulai Percakapan'
       text_placeholder: 'Ketik pesan Anda'
     dropdown:
       tooltip: Percakapan
@@ -33,8 +33,8 @@ kyrne-whisper:
       copied: 'Pesan Anda telah disalin ke clipboard.'
       help: 'Ketik username untuk memulai obrolan.'
       help_start: 'Ketik pesan pertama Anda. Ini akan menjadi satu-satunya pesan yang dapat Anda kirim hingga {username} merespons. Klik pengguna untuk memilih penerima lainnya.'
-      more_users: 'Jika Anda tidak melihat pengguna yang Anda cari, berarti mereka tidak memiliki pengaturan pesan pribadi.'
-      search_recipients: 'Masukkan username...'
+      more_users: 'Jika Anda tidak melihat pengguna yang Anda cari, artinya mereka tidak memiliki pengaturan pesan pribadi.'
+      search_recipients: 'Ketik username...'
       submit: 'Kirim & Mulai Percakapan'
       title: 'Mulai Percakapan'
     setup:
