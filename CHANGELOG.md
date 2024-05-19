@@ -9,9 +9,9 @@ CHANGELOG
 
 * [`gtdxyz/flarum-ext-login`](https://github.com/daocatt/flarum-ext-login)
 * [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini)
-* [`nodeloc/flarum-ignore-hidden-tags`](https://github.com/nodeloc/flarum-ignore-hidden-tags)
-* [`nodeloc/flarum-ext-my-emoji`](https://github.com/nodeloc/flarum-ext-my-emoji)
-* [`nodeloc/whisper`](https://github.com/nodeloc/whisper)
+* `nodeloc-ignore-hidden-tags`
+* `nodeloc-my-emoji`
+* `nodeloc-whisper`
 
 
 **Terjemahan terbaru untuk ekstensi**:
