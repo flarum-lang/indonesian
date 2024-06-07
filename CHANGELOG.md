@@ -8,6 +8,8 @@ CHANGELOG
 **Menambahkan dukungan untuk ekstensi**:
 
 * [`gtdxyz/flarum-ext-login`](https://github.com/daocatt/flarum-ext-login)
+* [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools)
+* [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme)
 * [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini)
 * `nodeloc-ignore-hidden-tags`
 * `nodeloc-my-emoji`
@@ -16,6 +18,8 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`datitisev/flarum-backup`](https://extiverse.com/extension/datitisev/flarum-backup)
 * [`kyrne/whisper`](https://github.com/KyrneDev/whisper)
 
 
