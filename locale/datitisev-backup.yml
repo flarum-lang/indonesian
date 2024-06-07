@@ -116,6 +116,8 @@ datitisev-backup:
       sftp: SFTP
       webdav: Webdav
       zip: 'Arsip Zip'
+    delete_button: Hapus
+    delete_confirmation: 'Apakah Anda yakin ingin menghapus “{name}” ({adapter})?'
     nav:
       description: 'Menyimpan salinan forum Anda.'
       label: Backup

@@ -13,6 +13,8 @@ blomstra-horizon:
         max-runtime: 'Maksimum Waktu Berjalan'
         max-throughput: 'Hasil Maksimum'
         max-wait-time: 'Maksimum Waktu Tunggu'
+        redis-memory-policy: 'Kebijakan Memori Redis'
+        redis-memory-policy-tooltip: "Kebijakan memori adalah cara Redis akan memilih apa yang akan dihapus ketika \nbatas maksimal memori tercapai. Standarnya adalah `noeviction`: Nilai-nilai baru \ntidak akan disimpan ketika batas memori tercapai. Klik untuk melihat dokumentasi.\n"
         status:
           inactive: 'Tidak Aktif'
           label: Status
