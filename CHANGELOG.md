@@ -2,6 +2,30 @@ CHANGELOG
 =========
 
 
+1.18.0 (XXXX-XX-XX)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`gtdxyz/flarum-ext-login`](https://github.com/daocatt/flarum-ext-login)
+* [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools)
+* [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme)
+* [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini)
+* `nodeloc-ignore-hidden-tags`
+* `nodeloc-my-emoji`
+* `nodeloc-whisper`
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
+* [`kyrne/whisper`](https://github.com/KyrneDev/whisper)
+
+
+Semua perubahan: [1.17.0...1.18.0](https://github.com/flarum-lang/indonesian/compare/1.17.0...1.18.0).
+
+
 1.17.0 (2024-04-19)
 -------------------
 
