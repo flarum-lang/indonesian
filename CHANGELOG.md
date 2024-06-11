@@ -19,7 +19,7 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
-* [`datitisev/flarum-backup`](https://extiverse.com/extension/datitisev/flarum-backup)
+* [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
 * [`kyrne/whisper`](https://github.com/KyrneDev/whisper)
 
 
