@@ -2,6 +2,12 @@
 # Use https://weblate.rob006.net/projects/flarum/ianm-twofactor/id/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+blomstra-gdpr:
+  lib:
+    data:
+      twofactordata:
+        delete_description: 'Menghapus semua data yang terkait dengan 2FA.'
+        export_description: 'Mengekspor status 2FA dan kode cadangan terenkripsi.'
 ianm-twofactor:
   admin:
     edit_group:
@@ -19,10 +25,21 @@ ianm-twofactor:
         help: 'Mengharuskan anggota grup ini untuk mengaktifkan Autentikasi Dua Faktor (2FA) untuk akun mereka. Pengguna dalam grup yang diharuskan tidak dapat menonaktifkan 2FA.'
       logo_qr: 'Logo pada Kode QR'
       logo_qr_help: 'Jika logo telah diupload, logo ini akan ditempelkan pada kode QR. Biarkan kosong untuk menggunakan logo forum.'
+      tokens:
+        also_kill_developer_tokens: 'Juga Matikan Token Pengembang'
+        also_kill_developer_tokens_help: 'Juga mematikan token akses pengembang yang tidak aktif selama jangka waktu tertentu.'
+        heading: 'Token Akses'
+        help: 'Untuk keamanan yang lebih baik, Anda dapat mengelola perilaku tambahan di sini yang terkait dengan token akses.'
+        kill_inactive_tokens: 'Matikan Token yang Tidak Aktif'
+        kill_inactive_tokens_age_days: 'Matikan Token Tidak Aktif Setelah (Hari)'
+        kill_inactive_tokens_age_days_help: 'Jumlah hari tidak aktif setelah token akses akan dihapus.'
+        kill_inactive_tokens_help: 'Secara otomatis mematikan token akses yang tidak aktif selama jangka waktu tertentu.'
   email:
     status_type:
       disabled: dinonaktifkan
       enabled: diaktifkan
+    subject:
+      status_changed: 'Autentikasi Dua Faktor{type} untuk akun Anda'
   forum:
     log_in:
       two_factor_placeholder: 'Token 2FA, misalnya, 123456'
@@ -35,6 +52,7 @@ ianm-twofactor:
       cannot_disable: 'Konfigurasi saat ini menyatakan bahwa Anda tidak dapat menonaktifkan Autentikasi Dua Faktor.'
       cannot_disable_tooltip: 'Tidak dapat menonaktifkan 2FA'
       confirm_disable_2fa_text: 'Apakah Anda yakin ingin menonaktifkan Autentikasi Dua Faktor?'
+      confirm_disable_2fa_text_other_user: 'Apakah Anda yakin ingin menonaktifkan Autentikasi Dua Faktor untuk {username}? Ini akan menghapus semua kode cadangan dan menonaktifkan 2FA untuk akun mereka.'
       confirm_disable_2fa_title: 'Konfirmasi Menonaktifkan Autentikasi Dua Faktor'
       disable_2fa_button: 'Nonaktifkan 2FA'
       enable_2fa_button: 'Aktifkan 2FA'
@@ -63,3 +81,4 @@ ianm-twofactor:
       two_factor_token_label: 'Token 2FA'
     two_factor_token:
       submit_button: 'Kirim Token'
+      title: 'Autentikasi Dua Faktor'
