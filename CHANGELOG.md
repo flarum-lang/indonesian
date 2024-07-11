@@ -11,15 +11,23 @@ CHANGELOG
 * [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools)
 * [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme)
 * [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini)
+* `nodeloc-dislikes`
 * `nodeloc-ignore-hidden-tags`
 * `nodeloc-my-emoji`
+* `nodeloc-telegram`
 * `nodeloc-whisper`
+* [`tohsakarat/table-of-content`](https://github.com/tohsakrat/flarum-table-of-content)
 
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
 * [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 * [`kyrne/whisper`](https://github.com/KyrneDev/whisper)
 
 
