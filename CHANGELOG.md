@@ -49,6 +49,8 @@ CHANGELOG
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 * [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress)
 * [`kyrne/whisper`](https://github.com/KyrneDev/whisper)
+* [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
+* [`v17development/flarum-support`](https://flarum.org/extension/v17development/flarum-support)
 
 
 Semua perubahan: [1.17.0...1.18.0](https://github.com/flarum-lang/indonesian/compare/1.17.0...1.18.0).
