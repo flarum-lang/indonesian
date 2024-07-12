@@ -16,6 +16,7 @@ CHANGELOG
 * [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
 * [`gtdxyz/flarum-ext-login`](https://github.com/daocatt/flarum-ext-login)
 * [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion)
+* [`imdong/flarum-ext-visible-to-op-only`](https://github.com/imdong/flarum-ext-visible-to-op-only)
 * [`litalino/flarum-auto-post-count-badge`](https://github.com/Litalino/flarum-auto-post-count-badge)
 * [`litalino/flarum-related-discussions`](https://github.com/Litalino/flarum-related-discussions)
 * [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools)
@@ -39,7 +40,10 @@ CHANGELOG
 
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
+* [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
 * [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
+* [`blomstra/payments`](https://flarum.org/extension/blomstra/payments)
+* [`clarkwinkelmann/flarum-ext-meilisearch-dashboard`](https://github.com/clarkwinkelmann/flarum-ext-meilisearch-dashboard)
 * [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
