@@ -6,3 +6,12 @@ nodeloc-lottery:
   forum:
     composer_discussion:
       add_lottery: '=> nodeloc-lottery.forum.moderation.add'
+      edit_lottery: '=> nodeloc-lottery.forum.moderation.edit'
+    days: Hari
+    hours: Jam
+    minutes: Menit
+    modal:
+      not_enough: 'Tidak cukup'
+    participants_modal:
+      title: Partisipan
+    seconds: Detik
