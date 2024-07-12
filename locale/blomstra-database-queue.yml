@@ -20,5 +20,5 @@ blomstra-database-queue:
           inactive: 'Tidak Aktif'
           label: Status
           running: Berjalan
-      heading: 'Tinjauan Antrian'
+      heading: 'Gambaran Umum Antrian'
       refresh: Segarkan

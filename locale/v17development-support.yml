@@ -20,7 +20,7 @@ v17development-flarum-support:
       body: "Kepada {recipient_display_name} yang terhormat,\n\nStatus tiket #{ticket_id} Anda telah berubah menjadi {new_status}.\n\nURL tiket Anda adalah:\n{url}\n"
       subject: 'Tiket #{ticket_id} ditandai sebagai {new_status}'
   forum:
-    admin_overview: 'Buka tinjauan umum admin'
+    admin_overview: 'Buka gambaran umum admin'
     article:
       article: Artikel
       articles: Artikel

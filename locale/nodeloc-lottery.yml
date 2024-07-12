@@ -4,6 +4,13 @@
 
 nodeloc-lottery:
   admin:
+    permissions:
+      enter: 'Dapat mengikuti undian'
+      moderate: 'Mengedit & menghapus undian'
+      self_edit: 'Mengedit undian yang telah dibuat (membutuhkan izin edit post)'
+      self_post_edit: 'Mengedit *semua* undian pada postingan sendiri (membutuhkan izin edit post)'
+      start: 'Memulai undian'
+      view_results_without_Enter: 'Melihat hasil tanpa memberikan voting'
     settings:
       allow_option_image: 'Izinkan URL gambar disediakan untuk setiap opsi undian'
       max_options: 'Jumlah maksimum opsi per undian'
@@ -19,6 +26,7 @@ nodeloc-lottery:
       in_queue_alert: 'Anda telah mengikuti undian.'
       no_permission_alert: 'Anda tidak memiliki izin untuk memulai undian.'
     days: Hari
+    days_remaining: 'undian berakhir {time}.'
     endDateText: 'Undian telah berakhir!'
     had_enter: 'Anda telah memasuki undian.'
     hours: Jam
@@ -26,25 +34,42 @@ nodeloc-lottery:
     lottery:
       cannot_cancel_lottery: 'Pengguna tidak dapat membatalkan partisipasi'
       submit_button: 'Klik untuk berpartisipasi'
+    lottery_ended: 'Undian ini telah berakhir.'
     minutes: Menit
     modal:
+      add_option_label: 'Tambahkan Pilihan'
       add_title: 'Menambahkan undian'
+      allow_cancel_enter_label: 'Izinkan pengguna untuk membatalkan partisipasi'
       amount: Jumlah
       date_placeholder: 'Waktu Pengundian'
+      edit_title: 'Edit undian'
+      image_option_placeholder: 'URL gambar (opsional)'
+      include_amount: 'Anda harus menyertakan jumlah'
+      include_end_date: 'Anda harus menyertakan tanggal berakhirnya'
+      include_price: 'Anda harus mencantumkan harga'
+      include_prizes: 'Anda harus menyertakan hadiah'
       lottery_placeholder: Hadiah
+      max: 'Anda dapat memilih maksimal {max} jawaban'
       max_participants: 'Jumlah maksimal peserta'
+      min: 'Anda harus menyertakan minimal 2 jawaban'
       min_participants: 'Jumlah minimal peserta'
+      no_participants: 'Tidak Ada Peserta'
       not_enough: 'Tidak cukup'
+      option_placeholder: 'Ambang batas'
+      options_label: 'Kondisi yang membatasi'
       participants_help: 'Batalkan jika terlalu sedikit jumlah peserta, dan batalkan partisipasi jika melebihi jumlah maksimum...'
       participants_label: Peserta
       price: Harga
+      submit: Submit
     moderation:
       add: 'Tambahkan undian'
       delete: 'Hapus undian'
       delete_confirm: 'Apakah Anda yakin ingin menghapus undian ini?'
       edit: 'Edit undian'
+    no_permission: 'Anda tidak memiliki izin untuk masuk'
     participants_modal:
       title: Peserta
+    public_lottery: 'Lihat Peserta'
     seconds: Detik
     too_many_participants: 'Terlalu banyak peserta'
     tooltip:
