@@ -27,6 +27,7 @@ CHANGELOG
 * [`ordinaryjellyfish/automod`](https://flarum.org/extension/ordinaryjellyfish/automod)
 * [`tohsakarat/table-of-content`](https://github.com/tohsakrat/flarum-table-of-content)
 * [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
 
 
 **Terjemahan terbaru untuk ekstensi**:
@@ -35,6 +36,8 @@ CHANGELOG
 * [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
 * [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
