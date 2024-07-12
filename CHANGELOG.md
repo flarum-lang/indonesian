@@ -5,6 +5,11 @@ CHANGELOG
 1.18.0 (XXXX-XX-XX)
 -------------------
 
+**Perubahan umum**:
+
+* Memperbarui terjemahan untuk Flarum core.
+
+
 **Menambahkan dukungan untuk ekstensi**:
 
 * [`blt950/oauth-generic`](https://github.com/blt950/flarum-ext-oauth-generic)
@@ -41,6 +46,7 @@ CHANGELOG
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+* [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress)
 * [`kyrne/whisper`](https://github.com/KyrneDev/whisper)
 
 
