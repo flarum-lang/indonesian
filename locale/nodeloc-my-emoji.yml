@@ -16,6 +16,7 @@ nodeloc-emoji:
         text_to_category_name_label: 'Nama kategori'
       emoji_list:
         load_more_button: '=> core.forum.post_stream.load_more_button'
+      heading_title: 'Emoji Khusus'
       import_myemoji_message: 'Ini hanya akan mengimpor konfigurasi emoji. Anda perlu mengunggah gambar emoji secara manual.'
     settings:
       auto_hide_label: 'Sembunyi otomatis'
@@ -37,7 +38,9 @@ nodeloc-emoji:
       general_ui_settings_heading: 'Pengaturan Umum UI'
       recents_count_label: 'Jumlah emoji yang baru saja digunakan'
       recents_count_text: 'Jumlah emoji terbaru yang akan disimpan.'
+      show_category_buttons_label: 'Tampilkan tombol kategori'
       show_recents_label: 'Tampilkan (dan simpan) emoji yang terakhir digunakan'
+      show_search_label: 'Tampilkan input pencarian'
       show_variants_label: 'Tampilkan varian'
       show_variants_text: 'Beberapa myemoji memiliki varian warna kulit. Ketika emoji dipilih pada pemilih emoji yang memiliki varian, maka akan muncul popup varian sehingga pengguna dapat memilih varian yang diinginkan.'
       specify_categories_text: 'Anda dapat menentukan daftar kategori di sini, dan pemilih emoji hanya akan menampilkan kategori tersebut.'
@@ -59,3 +62,14 @@ nodeloc-emoji:
         travel: '=> nodeloc-emoji.ref.emoji_categories.travel'
       no_myemoji_found_message: 'Myemoji tidak ditemukan'
       search_placeholder: 'Cari Emoji'
+  ref:
+    emoji_categories:
+      activities: Aktivitas
+      animals: 'Hewan & Alam'
+      food: 'Makanan & Minuman'
+      objects: Objek
+      people: 'Orang & Tubuh'
+      recents: 'Emoji Terbaru'
+      smileys: 'Senyum & Emosi'
+      symbols: Simbol
+      travel: 'Perjalanan & Tempat'

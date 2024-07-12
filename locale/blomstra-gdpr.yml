@@ -6,8 +6,13 @@ blomstra-gdpr:
   admin:
     gdpr_page:
       data_types:
+        anonymize_description: 'Tindakan Anonimisasi'
+        delete_description: 'Tindakan Penghapusan'
+        export_description: 'Tindakan Ekspor'
+        extension: Ekstensi
         help_text: "Ini adalah tipe data yang saat ini terdaftar. Setiap tipe terdaftar bersama dengan tindakan ekspor, anonimisasi, dan penghapusan data yang terkait. Jika sebuah ekstensi menangani data apa pun yang termasuk dalam peraturan GDPR, ekstensi tersebut harus mendaftarkan tipe datanya ke <code>blomstra/gdpr</code>. \nData yang disimpan di tabel pengguna ditangani secara terpisah, lihat data tabel <code>user</code> di bawah ini.\n"
         title: 'Tipe Data'
+        type: Tipe
       description: 'Status berbagai tindakan dan integrasi GDPR'
       heading: 'Gambaran Umum Data GDPR'
       settings:
@@ -42,10 +47,13 @@ blomstra-gdpr:
       columns:
         gdpr_actions:
           export: 'Ekspor data untuk {username}'
+          title: 'Tindakan GDPR'
   email:
     confirm_erasure:
+      body: "Hai {display_name}!\n\nSeseorang (semoga Anda) baru saja meminta untuk menghapus akun `{display_name}`.\n\nUntuk mengonfirmasi tindakan ini, silakan ikuti link berikut, setelah itu permintaan Anda akan diproses oleh tim kami.\n\n{erasure_confirm_url}\n"
       subject: 'Konfirmasi permintaan penghapusan akun Anda'
     erasure_cancelled:
+      body: "Hai {display_name}!\n\nIni adalah notifikasi otomatis bahwa permintaan Anda untuk membatalkan penghapusan akun telah diproses.\n\nAkun Anda tidak akan dihapus.\n"
       subject: 'Permintaan penghapusan akun dibatalkan'
     erasure_completed:
       anonymization:
@@ -56,6 +64,7 @@ blomstra-gdpr:
         subject: 'Penghapusan akun selesai'
     export_available:
       body: "Hai {display_name}!\n\nAnda meminta ekspor data akun untuk {username}. Ekspor ini telah berhasil dibuat dan sekarang tersedia:\n\n{url}\n\nEkspor ini akan tetap tersedia hingga {destroys_at}.\n"
+      subject: 'Ekspor data tersedia'
   forum:
     badges:
       anonymized_user: 'Pengguna Anonim'
@@ -75,18 +84,25 @@ blomstra-gdpr:
       export-ready: 'Ekspor data Anda untuk {username} sekarang siap untuk di-download.'
     process_erasure:
       anonymization_button: 'Anonimkan pengguna'
+      comments_label: 'Komentar (opsional)'
       confirm: 'Apakah Anda yakin ingin menghapus akun {name} dalam mode {mode}?'
       deletion_button: 'Hapus pengguna'
       text: '{name} telah meminta penghapusan akun.'
       title: 'Proses permintaan penghapusan'
     request_erasure:
+      cancel_button: 'Batalkan permintaan'
+      password_label: 'Konfirmasi Password'
       reason: 'Anda memberikan alasan berikut: {reason}'
+      reason_label: 'Alasan (opsional)'
+      request_button: 'Meminta penghapusan'
       status:
         awaiting_user_confirmation: "Anda seharusnya telah menerima email untuk mengonfirmasi permintaan penghapusan akun Anda.\n"
         user_confirmed: "Anda telah mengonfirmasi permintaan penghapusan akun Anda. Tindakan akan dilakukan dalam waktu 30 hari, seperti yang disyaratkan oleh GDPR.\n"
       text: 'Setelah diterima dan dikonfirmasi, admin akan meninjau permintaan Anda dalam waktu 30 hari, seperti yang disyaratkan oleh GDPR.'
       title: 'Meminta penghapusan akun'
     settings:
+      data:
+        heading: 'Data personal'
       export_data_button: 'Ekspor Data'
       export_data_help: 'Meminta ekspor data akan memberi Anda salinan yang dapat di-download dari semua informasi yang terkait dengan akun Anda. Ini termasuk postingan, komentar, dan detail profil.'
       request_erasure_button: 'Hapus Akun'

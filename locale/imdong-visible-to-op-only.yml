@@ -5,4 +5,5 @@
 imdong-visible-to-op-only:
   admin:
     permissions:
-      view-hide-post: 'Lihat konten tersembunyi'
+      view-hide-post: 'Melihat konten tersembunyi'
+      view-post: 'Melihat Post'

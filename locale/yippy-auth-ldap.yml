@@ -8,7 +8,9 @@ yippy-auth-ldap:
       display_detailed_error: 'Tampilkan kesalahan LDAP terperinci untuk upaya login yang gagal'
       domains:
         data:
+          admin_dn_help: 'Biarkan kosong untuk pengikatan anonim'
           admin_password: Password
+          admin_password_help: 'Biarkan kosong untuk pengikatan anonim'
           host: 'Domain atau alamat IP server'
           port: Port
           port_help: 'Bukan SSL (Port 389) atau SSL (Port 636).'
@@ -35,8 +37,10 @@ yippy-auth-ldap:
   forum:
     errors:
       account:
+        disabled: 'Akun Anda dinonaktifkan, hubungi administrasi {server} Anda.'
         expired: 'Akun Anda telah kedaluwarsa, hubungi administrasi {server} Anda.'
         incorrect_details: 'Password yang dimasukkan salah.'
+        invalid_inputs: 'Kolom input tidak boleh kosong'
         locked: 'Akun Anda terkunci, hubungi administrasi {server} Anda.'
         not_found: 'Tidak dapat menemukan akun Anda di {server}.'
         password_expired: 'Password Anda telah kedaluwarsa.'

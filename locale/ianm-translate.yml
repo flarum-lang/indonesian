@@ -5,6 +5,7 @@
 ianm-translate:
   admin:
     permission:
+      edit-translation: 'Edit terjemahan secara manual'
       refresh-translation: 'Memaksa penerjemahan ulang dari terjemahan yang di-cache'
       translate-to-all-locales: 'Menampilkan terjemahan dalam semua bahasa forum'
       translate-to-locale: 'Menampilkan terjemahan dalam bahasa saat ini'
@@ -32,14 +33,27 @@ ianm-translate:
         api_key:
           help: 'Daftarkan diri Anda untuk mendapatkan API key di {link}. Driver ini menggunakan API V2 - Basic.'
           label: '=> ianm-translate.lib.settings.api-key'
+      libre:
+        api_key:
+          help: '(opsional) Jika server LibreTranslate Anda memerlukan API key, masukkan di sini.'
+          label: '=> ianm-translate.lib.settings.api-key'
+        port:
+          help: 'Port dari server LibreTranslate. Jika Anda menjalankan instance Anda sendiri, masukkan port di sini.'
+          label: 'Port Server'
+        url:
+          help: 'URL server LibreTranslate. Jika Anda menjalankan contoh Anda sendiri, masukkan URL di sini. Skema harus berupa `http` atau `https`.'
+          label: 'URL Server'
       provider: 'Penyedia terjemahan'
       readme-info: 'Lihat dokumentasi README untuk informasi lebih lanjut.'
       readme-none: 'Tidak ada pengaturan tambahan yang diperlukan untuk driver ini.'
-      translate-all-enabled: 'Aktifkan semua bahasa terjemahan'
+      seemless-help: 'Fitur beta. Ketika diaktifkan, semua konten pengguna akan diterjemahkan secara otomatis ke semua bahasa forum yang tersedia. Ketika pengguna melihat konten multi-bahasa, terjemahan akan ditampilkan secara otomatis.'
+      translate-all-enabled: 'Aktifkan semua terjemahan bahasa'
       translate-all-help: 'Jika diaktifkan, pengguna admin dan orang lain yang memiliki izin dapat menerjemahkan konten ke bahasa forum yang diinstal.'
       use-native-locale-names: 'Gunakan nama lokal asli'
       use-native-locale-names-help: 'Saat diaktifkan, nama lokal asli akan digunakan sebagai pengganti versi lokal nama saat ini.'
   forum:
+    composer:
+      multi-languages: 'Petunjuk: Anda dapat mengetikkan pilihan bahasa Anda, forum akan menerjemahkannya untuk Anda.'
     detected-language: 'Post ini dalam bahasa {postLang}'
     discussion:
       post:
@@ -48,6 +62,13 @@ ianm-translate:
         translated-updated: 'Terjemahan terakhir diperbarui {time} menggunakan {provider}'
       title:
         detected-language: '{postLang}'
+    manage-translations:
+      button-label: 'Kelola terjemahan'
+      save-changes: '=> core.ref.save_changes'
+      translations-label: Terjemahan
+    original-content:
+      title: 'Konten original'
+      view: 'Lihat konten original'
     translate-button-label: Terjemahan
     unknown-language: '[tidak terdeteksi]'
     user:
