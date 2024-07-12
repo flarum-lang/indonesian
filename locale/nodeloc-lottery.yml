@@ -3,15 +3,49 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 nodeloc-lottery:
+  admin:
+    settings:
+      allow_option_image: 'Izinkan URL gambar disediakan untuk setiap opsi undian'
+      max_options: 'Jumlah maksimum opsi per undian'
+      options_color_blend: 'Perpaduan warna teks dalam opsi undian'
+      options_color_blend_help: 'Gunakan ini untuk menggunakan pencampuran warna agar opsi undian lebih mudah dibaca. Nonaktifkan jika fitur ini menyebabkan masalah pada tampilan forum Anda, sehingga mengurangi keterbacaan.'
+  email:
+    subject:
+      drawLottery: 'Notifikasi pengambilan undian'
   forum:
     composer_discussion:
       add_lottery: '=> nodeloc-lottery.forum.moderation.add'
       edit_lottery: '=> nodeloc-lottery.forum.moderation.edit'
+      in_queue_alert: 'Anda telah mengikuti undian.'
+      no_permission_alert: 'Anda tidak memiliki izin untuk memulai undian.'
     days: Hari
+    endDateText: 'Undian telah berakhir!'
+    had_enter: 'Anda telah memasuki undian.'
     hours: Jam
+    hurry_up: '"Event" yang baru sudah dekat !! Kita mulai...'
+    lottery:
+      cannot_cancel_lottery: 'Pengguna tidak dapat membatalkan partisipasi'
+      submit_button: 'Klik untuk berpartisipasi'
     minutes: Menit
     modal:
+      add_title: 'Menambahkan undian'
+      amount: Jumlah
+      date_placeholder: 'Waktu Pengundian'
+      lottery_placeholder: Hadiah
+      max_participants: 'Jumlah maksimal peserta'
+      min_participants: 'Jumlah minimal peserta'
       not_enough: 'Tidak cukup'
+      participants_help: 'Batalkan jika terlalu sedikit jumlah peserta, dan batalkan partisipasi jika melebihi jumlah maksimum...'
+      participants_label: Peserta
+      price: Harga
+    moderation:
+      add: 'Tambahkan undian'
+      delete: 'Hapus undian'
+      delete_confirm: 'Apakah Anda yakin ingin menghapus undian ini?'
+      edit: 'Edit undian'
     participants_modal:
-      title: Partisipan
+      title: Peserta
     seconds: Detik
+    too_many_participants: 'Terlalu banyak peserta'
+    tooltip:
+      badge: undian
