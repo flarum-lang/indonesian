@@ -20,7 +20,9 @@ CHANGELOG
 * `nodeloc-referral`
 * `nodeloc-telegram`
 * `nodeloc-whisper`
+* [`ordinaryjellyfish/automod`](https://flarum.org/extension/ordinaryjellyfish/automod)
 * [`tohsakarat/table-of-content`](https://github.com/tohsakrat/flarum-table-of-content)
+* [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
 
 
 **Terjemahan terbaru untuk ekstensi**:
