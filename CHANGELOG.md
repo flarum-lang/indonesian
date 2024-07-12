@@ -11,9 +11,11 @@ CHANGELOG
 * [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
 * [`gtdxyz/flarum-ext-login`](https://github.com/daocatt/flarum-ext-login)
 * [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion)
+* [`litalino/flarum-auto-post-count-badge`](https://github.com/Litalino/flarum-auto-post-count-badge)
 * [`litalino/flarum-related-discussions`](https://github.com/Litalino/flarum-related-discussions)
 * [`madeyedeer/avatar-tools`](https://github.com/MadEyeDeer/avatar-tools)
 * [`madeyedeer/flarum-pallet-theme`](https://github.com/MadEyeDeer/flarum-pallet-theme)
+* [`michaelbelgium/flarum-umami`](https://github.com/MichaelBelgium/flarum-umami)
 * [`muhammedsaidckr/flarum-gemini`](https://github.com/muhammedsaidckr/flarum-gemini)
 * `nodeloc-dislikes`
 * `nodeloc-ignore-hidden-tags`
