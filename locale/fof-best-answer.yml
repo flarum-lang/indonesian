@@ -16,6 +16,7 @@ fof-best-answer:
       documentation: Dokumentasi
       enable_all_tags_button: 'Aktifkan semua tag untuk Jawaban Terbaik'
       enable_all_tags_reminder_button: 'Aktifkan semua tag untuk pengingat Jawaban Terbaik'
+      enabled_tags_help: 'Pilih tag mana, jika ada, yang akan diaktifkan Best Answers. Tag ini akan menjadi tag berformat "Tanya Jawab", dan akan memiliki kemampuan untuk mengatur Best Answers.'
       enabled_tags_label: 'Tag yang Diaktifkan'
       introduction: "Aktifkan tag mana yang akan mendukung Best Answers di <code><a>flarum/tags</a></code>, dan secara opsional tag mana yang akan mendukung pengingat. Ketika sebuah tag diaktifkan oleh Best Answer, aturlah perizinan untuk setiap grup pengguna yang dapat mengatur jawaban (diskusi sendiri, diskusi apa pun). Perizinan dapat diatur secara global (untuk setiap tag Best Answer yang diaktifkan), atau per tag.\n"
       label:
@@ -23,6 +24,7 @@ fof-best-answer:
         general: Umum
         reminders: Pengingat
         reminders_notice: 'Agar pengingat dapat berfungsi, Anda harus mengatur Flarum scheduler dengan benar.'
+        search: Pencarian
       schedule_log_output: 'Menambahkan output penjadwal ke penyimpanan log'
       schedule_on_one_server: 'Gunakan ''onOneServer()'' directive untuk task scheduler'
       schedule_on_one_server_help: 'Membutuhkan Redis/Memcache'
@@ -33,9 +35,10 @@ fof-best-answer:
       select_best_answer_tags_help: 'Pilih tag yang mana, jika ada, yang akan ditambahkan ke diskusi ketika Jawaban Terbaik telah ditetapkan. Hanya tag sekunder yang diperbolehkan. Tag ini akan dihapus jika Jawaban Terbaik dihapus.'
       select_best_answer_tags_label: 'Tag untuk diskusi dengan Jawaban Terbaik'
       show_filter_help: 'Untuk tag yang memiliki Best Answer yang diaktifkan, pilih untuk menampilkan opsi filter terpecahkan/belum terpecahkan dalam daftar diskusi'
-      show_filter_label: 'Tampilkan Best Answer filter dropdown'
+      show_filter_label: 'Tampilkan menu dropdown filter Best Answer'
       show_max_lines_help: 'Atur ke 0 untuk menonaktifkan. Jika postingan lebih panjang daripada jumlah baris yang dikonfigurasi, postingan akan terpotong dalam pratinjau postingan dengan efek memudar.'
       show_max_lines_label: 'Garis maksimum untuk ditampilkan dalam pratinjau post'
+      solution_search_help: 'Mengaktifkan kemampuan untuk mencari diskusi dengan Best Answers'
       use_alt_ui: 'Tata letak alternatif'
       use_alt_ui_help: 'Pengaturan Best Answer ada di footer postingan'
   email:

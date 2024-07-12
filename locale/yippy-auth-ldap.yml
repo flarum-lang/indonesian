@@ -5,11 +5,18 @@
 yippy-auth-ldap:
   admin:
     settings:
+      display_detailed_error: 'Tampilkan kesalahan LDAP terperinci untuk upaya login yang gagal'
       domains:
         data:
           admin_password: Password
+          host: 'Domain atau alamat IP server'
+          port: Port
+          port_help: 'Bukan SSL (Port 389) atau SSL (Port 636).'
+          search_user_fields: 'Kolom pencarian'
+          search_user_fields_help: 'Pilih beberapa kolom pencarian menggunakan opsi dropdown, misalnya memilih "mail" hanya akan mengizinkan email, sementara "uid,mail" akan mengizinkan email atau username.'
           use_ssl: 'Gunakan SSL'
           use_tls: 'Gunakan TLS'
+          user_mail_help: 'Biarkan kosong untuk mengizinkan Pengguna mengatur email mereka sendiri saat pendaftaran'
           user_nickname_fields_help: 'Ekstensi Nickname harus diaktifkan, kompilasi Nickname dengan beberapa bidang LDAP menggunakan opsi dropdown. Misalnya memilih "givenname,sn" akan menetapkan "[Nama Depan] [Nama Belakang]" sebagai Nama Panggilan mereka'
           version: 'Versi LDAP'
           version_help: 'Hanya dapat ditetapkan ke 2 atau 3 (3 adalah default).'
@@ -22,11 +29,14 @@ yippy-auth-ldap:
           search_fields_description: 'Buat daftar kolom LDAP untuk dibandingkan dengan Username yang diberikan Pengguna.'
           server: 'Pengaturan Server LDAP'
         title: 'Domain LDAP'
+      onlyUse: 'Sembunyikan metode login standar Flarum'
       title: 'Pengaturan LDAP'
   forum:
     errors:
       account:
+        expired: 'Akun Anda telah kedaluwarsa, hubungi administrasi {server} Anda.'
         incorrect_details: 'Password yang dimasukkan salah.'
+        locked: 'Akun Anda terkunci, hubungi administrasi {server} Anda.'
         not_found: 'Tidak dapat menemukan akun Anda di {server}.'
         password_expired: 'Password Anda telah kedaluwarsa.'
       core_csrf_token_mismatch: '=> core.views.error.csrf_token_mismatch'

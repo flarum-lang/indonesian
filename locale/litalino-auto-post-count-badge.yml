@@ -10,3 +10,6 @@ justoverclock-auto-post-count-badge:
         bg2: 'Background 2'
       icon-manager:
         help_text: '=> core.ref.icon_text'
+  forum:
+    hasWritten: 'Memiliki: {count, plural, one {# post} other {# post}}'
+    posts: post
