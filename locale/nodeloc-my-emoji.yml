@@ -43,7 +43,7 @@ nodeloc-emoji:
       specify_categories_text: 'Anda dapat menentukan daftar kategori di sini, dan pemilih emoji hanya akan menampilkan kategori tersebut.'
   forum:
     composer:
-      emoji_tooltip: 'Memasukkan emoji'
+      emoji_tooltip: 'Sisipkan emoji'
     emoji-button:
       categories:
         activities: '=> nodeloc-emoji.ref.emoji_categories.activities'

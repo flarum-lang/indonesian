@@ -59,6 +59,7 @@ imeepo-more-bbcode:
     button_tooltip_table: 'Sisipkan table'
     button_tooltip_var: 'Sisipkan Teks VAR'
     button_tooltip_video: 'Sisipkan video'
+    button_tooltip_word: 'Sisipkan kata'
     cloud_password: 'Password (Tidak boleh dikosongkan)'
     cloud_title: Judul
     cloud_url: Url
@@ -100,3 +101,6 @@ imeepo-more-bbcode:
     size_30: 'Ukuran 30'
     size_32: 'Ukuran 32'
     size_34: 'Ukuran 34'
+    size_36: 'Ukuran 36'
+    size_38: 'Ukuran 38'
+    size_40: 'Ukuran 40'

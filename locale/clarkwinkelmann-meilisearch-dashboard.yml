@@ -5,6 +5,6 @@
 clarkwinkelmann-meilisearch-dashboard:
   admin:
     header:
-      link: 'Dasbor Meilisearch'
+      link: 'Dashboard Meilisearch'
     permission:
-      access: 'Akses Dasbor Meilisearch'
+      access: 'Akses Dashboard Meilisearch'

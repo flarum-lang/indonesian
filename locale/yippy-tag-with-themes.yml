@@ -7,6 +7,7 @@ yippy-tag-with-themes:
     designs:
       data:
         themeName: 'Pilih Tema'
+      description: 'Menyediakan daftar aturan untuk menampilkan tema yang berbeda untuk tag tertentu'
       header:
         color_theme: 'Sesuaikan Skema Warna Default'
         theme: 'Tema Khusus'

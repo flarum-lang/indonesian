@@ -29,6 +29,7 @@ yippy-auth-ldap:
           search_fields_description: 'Buat daftar kolom LDAP untuk dibandingkan dengan Username yang diberikan Pengguna.'
           server: 'Pengaturan Server LDAP'
         title: 'Domain LDAP'
+      method_name: 'Nama server LDAP (akan muncul setelah "Masuk dengan")'
       onlyUse: 'Sembunyikan metode login standar Flarum'
       title: 'Pengaturan LDAP'
   forum:

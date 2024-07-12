@@ -22,8 +22,11 @@ blomstra-payments:
       options: opsi
       purchase: pembelian
       subscribed: berlangganan
+    bounties:
+      enable-control: 'Aktifkan Hadiah'
     choose-bounty-amount-modal:
       description: 'Pilih jumlah yang Anda inginkan untuk mendukung "{subject}" atau pilih jumlah khusus.'
+      title: 'Pilih jumlah hadiah'
     exceptions:
       out-of-bounds-amount:
         max: 'Pembayaran sebesar {amount} tidak diperbolehkan, {max} adalah jumlah tertinggi.'

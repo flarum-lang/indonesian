@@ -3,5 +3,10 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 nodeloc-referral:
+  admin:
+    settings:
+      price: Harga
   forum:
+    cost: Biaya
+    invite_code: 'Kode undangan'
     purchase_expire_tip: 'Kode undangan akan kedaluwarsa dalam {invite_code_expires} hari'

@@ -4,12 +4,19 @@
 
 blomstra-horizon:
   admin:
+    settings:
+      trim_completed_help: "Tabel ini digunakan untuk menampilkan job yang sudah selesai di dashboard Horizon.\n"
+      trim_failed_help: "Tabel ini digunakan untuk menampilkan job yang gagal di dashboard Horizon.\n"
+      trim_monitored_help: "Tabel ini digunakan untuk menampilkan job yang dimonitor di dashboard Horizon.\n"
+      trim_pending_help: "Tabel ini digunakan untuk menampilkan job yang tertunda di dashboard Horizon.\n"
+      trim_recent_failed_help: "Tabel ini digunakan untuk menampilkan job yang gagal di dashboard Horizon.\n"
+      trim_recent_help: "Tabel ini digunakan untuk menampilkan job terbaru di dashboard Horizon.\n"
     stats:
       auto_refresh: 'Penyegaran Otomatis'
       data:
-        failed-last-seconds: 'Pekerjaan Gagal Beberapa Detik terlewat'
-        jobs-past-hour: 'Pekerjaan di Jam Terakhir'
-        jobs-per-minute: 'Pekerjaan per menit'
+        failed-last-seconds: 'Job yang Gagal dalam Beberapa Detik Terakhir'
+        jobs-past-hour: 'Job di Jam Terakhir'
+        jobs-per-minute: 'Job per menit'
         max-runtime: 'Maksimum Waktu Berjalan'
         max-throughput: 'Hasil Maksimum'
         max-wait-time: 'Maksimum Waktu Tunggu'
@@ -20,6 +27,6 @@ blomstra-horizon:
           label: Status
           running: Berjalan
         total-processes: 'Total Proses'
-      full_dashboard: 'Dasbor Horizon'
+      full_dashboard: 'Dashboard Horizon'
       heading: 'Gambaran Umum Antrian'
       refresh: Segarkan
