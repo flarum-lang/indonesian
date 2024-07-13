@@ -64,6 +64,7 @@ CHANGELOG
 * [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress)
 * [`kyrne/whisper`](https://github.com/KyrneDev/whisper)
 * [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
+* [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
 * [`v17development/flarum-support`](https://flarum.org/extension/v17development/flarum-support)
 
 
