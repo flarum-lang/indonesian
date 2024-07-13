@@ -12,11 +12,14 @@ foskym-oauth-center:
       redirect_uri: 'URI Pengalihan'
       scope: Cakupan
     page:
+      clients: 'Kelola Client'
       scopes: 'Kelola Cakupan'
+      tokens: 'Kelola Token'
     permission:
       use_oauth: 'Gunakan OAuth'
     scopes:
       add_button: 'Tambah Cakupan'
+      edit_scope: 'Edit Cakupan'
       method: Metode
       scope: Cakupan
       scope_desc: Deskripsi
@@ -25,7 +28,13 @@ foskym-oauth-center:
     settings:
       access_lifetime: 'Masa Berlaku Token Akses (detik)'
       require_exact_redirect_uri: 'Memerlukan URI Pengalihan yang Tepat'
+    tokens:
+      add_token: 'Tambahkan Token'
+      delete_token: 'Hapus Token'
   forum:
     authorize:
       agree: Setuju
-      deny: Menolak
+      deny: Tolak
+    authorized:
+      no_more_records: 'Tidak ada lagi catatan'
+      no_records: 'Tidak ada catatan'
