@@ -63,7 +63,7 @@ fof-upload:
         title: 'Nonaktifkan hotlink protection'
         toggle: Nonaktifkan
       imgur:
-        client_id: 'Imgur client ID'
+        client_id: 'ID client Imgur'
         title: 'Pengaturan penyimpanan gambar Imgur'
         tos: 'Merupakan tanggung jawab Anda untuk memastikan user forum Anda mematuhi <a>Terms of service</a>'
       inspect-mime: 'Uji jenis MIME file'

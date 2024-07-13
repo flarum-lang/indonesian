@@ -10,16 +10,29 @@ fof-polls:
       self_edit: 'Mengedit polling yang telah dibuat (memerlukan izin pengeditan postingan)'
       self_post_edit: 'Mengedit *semua* polling pada postingan Anda sendiri (memerlukan izin edit postingan)'
       start: 'Memulai polling'
+      start_global: 'Memulai polling global'
+      upload_images: 'Mengizinkan pengguna mengunggah gambar untuk polling'
       view_results_without_voting: 'Melihat hasil tanpa melakukan voting'
       vote: 'Memberikan vote pada polling'
     settings:
+      allow_image_uploads: 'Izinkan unggahan gambar untuk polling dan pilihannya'
+      allow_image_uploads_help: 'Jika diaktifkan, pengguna akan dapat mengunggah gambar di samping memberikan URL gambar (jika diaktifkan untuk opsi, selalu diaktifkan untuk polling itu sendiri).'
       allow_option_image: 'Izinkan URL gambar disediakan untuk setiap opsi polling'
+      enable_global_polls: 'Aktifkan polling global'
+      enable_global_polls_help: 'Polling global tidak terikat pada post tertentu, dan dapat diakses dari halaman polling tersendiri.'
+      image_height: 'Ubah ukuran tinggi gambar'
+      image_width: 'Ubah ukuran lebar gambar'
       max_options: 'Jumlah opsi maksimum per polling'
       options_color_blend: 'Perpaduan warna teks dalam opsi polling'
       options_color_blend_help: 'Gunakan ini untuk menggunakan pencampuran warna untuk membuat opsi polling lebih mudah dibaca. Nonaktifkan jika fitur ini menyebabkan masalah pada tampilan forum Anda, sehingga mengurangi keterbacaan.'
   forum:
+    answers: Jawaban
     compose:
+      add_title: 'Tambah Polling'
       continue_editing: 'Lanjutkan Pengeditan'
+      edit_title: 'Edit Polling'
+      polls_preview: 'Lihat Polling'
+      success: 'Polling berhasil disimpan.'
     composer_discussion:
       add_poll: '=> fof-polls.forum.moderation.add'
       edit_poll: '=> fof-polls.forum.moderation.edit'
@@ -47,27 +60,58 @@ fof-polls:
       options_label: Jawaban
       poll_image:
         alt_help_text: 'Teks ini diperlukan apabila gambar diatur, dan akan ditampilkan jika gambar gagal dimuat.'
+        alt_label: 'Teks Alt Gambar'
+        help: 'Unggah gambar untuk ditampilkan di samping polling (opsional).'
+        label: 'Gambar Polling'
+        later_help: 'Anda akan dapat mengunggah gambar setelah membuat polling.'
+      poll_option_image:
+        help: 'Unggah gambar untuk ditampilkan bersama jawaban polling (opsional).'
+        label: 'Gambar Jawaban Polling'
       public_poll_label: 'Izinkan orang-orang untuk melihat siapa saja yang melakukan voting'
       question_placeholder: Pertanyaan
       submit: Submit
       subtitle_placeholder: 'Teks/Deskripsi (opsional)'
+      tooltip:
+        options:
+          add-button: 'Tambah Jawaban'
     moderation:
       add: 'Tambah Polling'
       delete: 'Hapus Polling'
       delete_confirm: 'Apakah anda yakin ingin menghapus polling ini?'
       edit: 'Edit polling'
     no_permission: 'Anda tidak memiliki izin untuk melakukan voting'
+    page:
+      nav: Polling
+      nav-all: 'Semua Polling Global'
     poll:
       cannot_change_vote: 'Anda tidak dapat mengubah vote Anda setelah melakukan voting.'
+      cannot_start_poll_button: 'Tidak Dapat Memulai Polling'
+      start_poll_button: 'Mulai Polling Global'
       submit_button: Vote
     poll_controls:
+      delete_confirmation: 'Apakah Anda yakin ingin menghapus polling ini?'
+      delete_error_message: 'Terjadi kesalahan saat menghapus polling.'
       delete_label: '=> core.ref.delete'
+      delete_success_message: 'Polling berhasil dihapus.'
       edit_label: '=> core.ref.edit'
       view_label: '=> core.ref.view'
     poll_ended: 'Polling ini sudah berakhir.'
+    poll_form:
+      delete: 'Hapus Polling'
+      error: 'Terjadi kesalahan saat menyimpan polling, silakan hubungi administrator.'
+    poll_never_ends: 'Polling tidak akan pernah berakhir'
+    polls_count: '{count, plural, one { {count} vote} other {{count} vote}}'
     polls_list:
+      empty_text: 'Sepertinya tidak ada polling untuk komunitas di sini.'
       load_more_button: '=> core.ref.load_more'
+    polls_page:
+      title: Polling
     public_poll: 'Lihat voter'
+    showcase:
+      active-polls: 'Polling Aktif'
+      ended-polls: 'Kesimpulan Polling'
+      no-active-polls: 'Tidak ada polling yang aktif saat ini.'
+      no-recent-polls: 'Tidak ada polling yang baru saja berakhir saat ini.'
     tooltip:
       badge: Polling
       votes: '{count, plural, one {# vote} other {# vote}}'

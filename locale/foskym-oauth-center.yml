@@ -5,10 +5,11 @@
 foskym-oauth-center:
   admin:
     clients:
-      add_button: 'Tambah Klien'
+      add_button: 'Tambah Client'
       client_desc: Deskripsi
       client_icon: Ikon
       client_name: Nama
+      edit_client: 'Edit Client'
       redirect_uri: 'URI Pengalihan'
       scope: Cakupan
     page:
@@ -20,6 +21,7 @@ foskym-oauth-center:
     scopes:
       add_button: 'Tambah Cakupan'
       edit_scope: 'Edit Cakupan'
+      is_default: Default
       method: Metode
       scope: Cakupan
       scope_desc: Deskripsi

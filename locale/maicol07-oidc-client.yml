@@ -14,7 +14,7 @@ maicol07-oidc-client:
         enable_nonce: 'Aktifkan verifikasi nonce (disarankan)'
         enable_pkce: 'Aktifkan PKCE (disarankan)'
         http_proxy: 'Proksi HTTP'
-        id: 'Client ID'
+        id: 'ID Client'
         secret: 'Client secret'
         skip_email_verified_check: 'Lewati pemeriksaan klaim terverifikasi melalui email (berguna untuk provider yang tidak memenuhi persyaratan yang tidak menyediakan klaim ini, misalnya Casdoor)'
         subtitle: "Tambahkan di sini detail client Anda yang diberikan oleh provider OpenID Connect Anda. Untuk bantuan lebih lanjut, periksa dokumentasi.\n"

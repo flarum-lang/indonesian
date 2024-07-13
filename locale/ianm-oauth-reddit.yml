@@ -7,7 +7,7 @@ fof-oauth:
     settings:
       providers:
         reddit:
-          client_id_label: 'Client ID'
+          client_id_label: 'ID Client'
           client_secret_label: 'Client secret'
           description: 'Daftarkan forum Anda dengan Reddit {link}'
   forum:

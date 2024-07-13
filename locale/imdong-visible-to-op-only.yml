@@ -7,3 +7,6 @@ imdong-visible-to-op-only:
     permissions:
       view-hide-post: 'Melihat konten tersembunyi'
       view-post: 'Melihat Post'
+    settings:
+      allow-view-sticky: 'Izinkan melihat Sticky'
+      allow-view-sticky-text: 'Di bawah label yang melarang melihat balasan, Anda juga dapat melihat konten balasan yang diposting di bagian atas, yang harus digunakan dengan plug-in Stickiest & Sticky (dapat diabaikan)'
