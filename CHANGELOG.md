@@ -13,6 +13,7 @@ CHANGELOG
 **Menambahkan dukungan untuk ekstensi**:
 
 * [`blt950/oauth-generic`](https://github.com/blt950/flarum-ext-oauth-generic)
+* [`ffans/geetest`](https://github.com/FFans/geetest)
 * [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
 * [`gtdxyz/flarum-ext-login`](https://github.com/daocatt/flarum-ext-login)
 * [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion)
@@ -48,6 +49,8 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-post-permissions`](https://github.com/clarkwinkelmann/flarum-ext-post-permissions)
 * [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
 * [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
+* [`datlechin/flarum-oauth-envato`](https://github.com/datlechin/flarum-oauth-envato)
+* [`datlechin/flarum-oauth-spotify`](https://github.com/datlechin/flarum-oauth-spotify)
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
 * [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
 * [`flarum/approval`](https://github.com/flarum/approval)
@@ -59,6 +62,8 @@ CHANGELOG
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
 * [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
+* [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
+* [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch)
 * [`ianm/synopsis`](https://github.com/imorland/synopsis)
 * [`ianm/translate`](https://flarum.org/extension/ianm/translate)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
@@ -68,6 +73,7 @@ CHANGELOG
 * [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress)
 * [`kyrne/whisper`](https://github.com/KyrneDev/whisper)
 * [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
+* [`maicol07/flarum-oidc-client`](https://flarum.org/extension/maicol07/flarum-oidc-client)
 * [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
 * [`v17development/flarum-support`](https://flarum.org/extension/v17development/flarum-support)
 
