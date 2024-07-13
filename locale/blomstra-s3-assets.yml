@@ -9,6 +9,20 @@ blomstra-s3-assets:
       configured_by_environment: 'Pengaturan bucket Anda telah dikonfigurasikan sebelumnya, tidak ada yang bisa dilihat di sini.'
       s3-compatible-section: 'Pengaturan ini hanya diperlukan untuk bucket yang kompatibel dengan S3'
       s3-compatible-section-help: 'Biarkan pengaturan ini kosong jika menggunakan AWS S3'
+      s3acl:
+        help: 'Tentukan ACL untuk bucket ini'
+        label: ACL
+      s3bucket:
+        help: 'Bucket S3'
+        label: Bucket
+      s3endpoint:
+        help: 'Endpoint S3'
+        label: Endpoint
       s3key:
-        help: bantuan
+        help: 'Kunci akses S3'
         label: Key
+      s3path-style-endpoint:
+        help: 'Beralih ke path style storage'
+      s3url:
+        help: 'URL S3'
+        label: URL
