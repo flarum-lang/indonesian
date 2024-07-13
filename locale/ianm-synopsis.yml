@@ -15,7 +15,7 @@ ianm-synopsis:
         help: 'Pilih apakah postingan pertama atau terakhir yang akan digunakan untuk konten sinopsis'
         label: 'Post mana yang harus ditampilkan sebagai kutipan?'
       first-label: 'Postingan pertama'
-      last-label: 'Postingan terakhir'
+      last-label: 'Post terakhir'
       rich-excerpts:
         help: 'Jika diaktifkan, gambar, embed, dan elemen non-teks lainnya dapat disertakan dalam sinopsis'
         label: 'Tampilkan kutipan dengan konten yang lengkap'

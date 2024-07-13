@@ -296,6 +296,7 @@ kilowhat-formulaire:
         date: Tanggal
         long: 'Teks panjang'
         number: Angka
+        select: Dropdown
         short: 'Teks pendek'
         upload: Upload
     upload-editor:
