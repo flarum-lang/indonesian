@@ -57,6 +57,7 @@ CHANGELOG
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
@@ -74,6 +75,7 @@ CHANGELOG
 * [`kyrne/whisper`](https://github.com/KyrneDev/whisper)
 * [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
 * [`maicol07/flarum-oidc-client`](https://flarum.org/extension/maicol07/flarum-oidc-client)
+* [`spookygames/flarum-ext-auth-keycloak`](https://github.com/spookygames/flarum-ext-auth-keycloak)
 * [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade)
 * [`v17development/flarum-support`](https://flarum.org/extension/v17development/flarum-support)
 
