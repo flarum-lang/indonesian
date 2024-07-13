@@ -20,7 +20,7 @@ blomstra-gdpr:
         heading: 'Pengaturan GDPR'
         help_text: 'Mencari pengaturan GDPR? Pengaturan ini dapat ditemukan di halaman ekstensi.'
       user_table_data:
-        help_text: "Pada umumnya, setiap kolom yang ditambahkan ke tabel <code>pengguna</code> akan ditangani secara otomatis, baik untuk mengekspor data maupun untuk penghapusan. Namun, ada beberapa kasus khusus, yang tercantum di bawah ini.\n"
+        help_text: "Pada umumnya, setiap kolom yang ditambahkan ke tabel <code>pengguna</code> akan ditangani secara otomatis, baik untuk mengekspor data maupun untuk penghapusan. \nNamun, ada beberapa kasus khusus, yang tercantum di bawah ini.\n"
         title: 'Data Tabel User'
     nav:
       gdpr_button: 'Integrasi GDPR'

@@ -50,7 +50,7 @@ fof-polls:
       public_poll_label: 'Izinkan orang-orang untuk melihat siapa saja yang melakukan voting'
       question_placeholder: Pertanyaan
       submit: Submit
-      subtitle_placeholder: 'Teks/Deskripsi (Opsional)'
+      subtitle_placeholder: 'Teks/Deskripsi (opsional)'
     moderation:
       add: 'Tambah Polling'
       delete: 'Hapus Polling'
@@ -73,6 +73,6 @@ fof-polls:
       votes: '{count, plural, one {# vote} other {# vote}}'
     upload_image:
       remove_button: 'Hapus gambar'
-      upload_button: 'Pilih gambar'
+      upload_button: 'Upload gambar'
     votes_modal:
       title: 'Para voter'

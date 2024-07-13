@@ -16,7 +16,11 @@ kilowhat-wordpress:
       not-run: 'Pemeriksaan kesehatan akan tersedia setelah Anda menghubungkan WordPress dan Flarum.'
       request-error: 'Kami gagal melakukan pemeriksaan kesehatan.'
       title: 'Pemeriksaan kesehatan'
+    permissions:
+      gambits: 'Gambit pihak ketiga WordPress (lihat dokumentasi)'
     role-group-sync:
+      choose:
+        role: 'Pilih Role WordPress...'
       custom:
         group: Khusus...
         role: Khusus...
@@ -41,7 +45,7 @@ kilowhat-wordpress:
       comment_tag_custom: 'Nilai khusus'
       comment_tag_custom_help: 'Daftar ID tag yang dipisahkan dengan koma'
       cookie_domain: 'Domain Cookie'
-      cookie_domain_help: 'Hanya diperlukan jika berbeda dari domain Flarum'
+      cookie_domain_help: "Pengaturan ini hanya digunakan ketika menggunakan mekanisme login \"Cookie\". Anda hanya perlu mengatur value ini jika kedua situs web berada di subdomain yang berbeda.\n"
       default_actor: 'Pelaksana Default'
       default_actor_help: "Pengguna Flarum ini akan ditugaskan sebagai pelaksana dari semua tindakan penangguhan, penguncian, dan penghapusan. Pengguna ini juga akan digunakan sebagai pemilik diskusi dan post kecuali jika \"Tetapkan penulis diskusi dari SSO\" diaktifkan.\n"
       default_actor_placeholder_invalid: 'Kemungkinan value yang tidak valid: {value} - Ketik untuk mencari pengguna...'
@@ -78,7 +82,7 @@ kilowhat-wordpress:
       report_http_errors: 'Kirim error HTTP REST API WordPress ke Flarum reporter yang telah dikonfigurasi'
       report_http_errors_help: "Apa pun value dari pengaturan ini, request akan selalu dicatat sebagai teks ke logger default. Opsi ini berguna jika Anda ingin error API dikirimkan ke Sentry atau alat pemantauan lainnya sebagai exception dengan stack traces.\n"
       role_group_sync: 'Role untuk Sinkronisasi Grup'
-      role_group_sync_help: "Grup yang dipilih di sini akan secara otomatis ditambahkan ke dan dihapus dari pengguna oleh ekstensi, jadi sebaiknya gunakan grup Flarum khusus yang tidak pernah Anda tetapkan secara manual dan tidak dikelola oleh ekstensi lain. Anda mungkin sebaiknya tidak menetapkan grup admin dengan cara ini, baik untuk alasan keamanan maupun untuk memastikan Anda tidak terkunci secara tidak sengaja. Anda bisa menetapkan beberapa grup ke sebuah role dan sebuah grup bisa dipetakan ke lebih dari satu role. Anda dapat membuat grup Flarum tambahan di halaman <a></a>Perizinan Flarum<a>.\n"
+      role_group_sync_help: "Grup yang dipilih di sini akan secara otomatis ditambahkan ke dan dihapus dari pengguna oleh ekstensi, jadi sebaiknya gunakan grup Flarum khusus yang tidak pernah Anda tetapkan secara manual dan tidak dikelola oleh ekstensi lain. Anda mungkin sebaiknya tidak menetapkan grup admin dengan cara ini, baik untuk alasan keamanan maupun untuk memastikan Anda tidak terkunci secara tidak sengaja. Anda bisa menetapkan beberapa grup ke sebuah role dan sebuah grup bisa dipetakan ke lebih dari satu role. Anda dapat membuat grup Flarum tambahan di halaman <a>Perizinan Flarum</a>.\n"
       section_comments_intro: "Fitur ini menggantikan komentar WordPress dengan iframe Flarum. Postingan dari tamu tidak lagi dapat dilakukan. Diskusi hanya dibuat untuk post dengan komentar yang diaktifkan di WordPress. Mengaktifkan atau menonaktifkan komentar disinkronkan dengan Flarum's discussion lock. Jika blog Anda sudah berisi postingan ketika Anda mengaktifkan fitur ini, Anda perlu mengaktifkan dan menonaktifkan komentar lagi pada setiap artikel agar diskusi Flarum dapat dibuat.\n"
       section_general_intro: 'Pengaturan dasar yang dibutuhkan agar ekstensi dapat berfungsi.'
       section_sso_intro: "Fitur ini akan menghubungkan pengguna WordPress dengan Flarum secara mulus. Sebuah akun akan secara otomatis dibuat untuk mereka dan disinkronkan dengan WordPress. Jika Anda memiliki akun yang sudah ada di Flarum, akun tersebut akan secara otomatis dicocokkan dengan email mereka. Jika Anda menghapus pengguna di Flarum, pengguna tersebut akan dibuat lagi saat akun WordPress melakukan login. Untuk memblokir pengguna Flarum, tangguhkan akun di Flarum.\n"
@@ -103,7 +107,7 @@ kilowhat-wordpress:
       wordpress_login_full_page: 'Buka login WordPress sebagai halaman, bukan popup'
       wordpress_login_full_page_help: "Secara default, mengklik link login dari Flarum akan membuka halaman login WordPress dalam bentuk popup, seperti metode OAuth lainnya. Ketika pengaturan ini diaktifkan, tab browser saat ini akan menavigasi ke halaman login WordPress dan mengarahkan ke Flarum sesudahnya.\n"
       wordpress_login_only: 'Hanya izinkan login dengan WordPress'
-      wordpress_login_only_help: "Menonaktifkan login Flarum dan langsung membuka modal login WordPress ketika login diperlukan. Ini akan secara otomatis mengatur izin \"Daftar\" menjadi Ditutup.\n"
+      wordpress_login_only_help: "Menonaktifkan login Flarum dan langsung membuka jendela modal/halaman login WordPress ketika login diminta. Saat mengubah pengaturan ini, ekstensi akan mencoba mengatur izin \"Daftar\" menjadi \"Tertutup\". Pastikan tetap \"Tertutup\" atau pengunjung akan dapat membuat akun Flarum secara mandiri.\n"
       wordpress_login_path: 'Path login WordPress'
       wordpress_login_path_help: 'Hanya diperlukan jika Anda mengganti nama login endpoint secara manual atau melalui plugin'
       wordpress_url: 'URL WordPress'
@@ -128,8 +132,8 @@ kilowhat-wordpress:
       login: 'Akun ini terhubung dengan WordPress. Gunakan formulir login situs web utama untuk terhubung.'
       password_reset: 'Akun ini terhubung dengan WordPress. Gunakan formulir masuk situs web utama untuk mereset password Anda.'
     health:
-      api-error-401: 'Mencoba mengakses API WordPress menghasilkan kesalahan 401. Periksa kembali "username admin WordPress" di Flarum dan "Flarum API Key" di WordPress'
-      api-key-mismatch: 'Pengaturan "Flarum API Key" di WordPress tidak sesuai dengan pengaturan "Flarum API Key" di Flarum (diharapkan: "{expected}", aktual: "{actual}")'
+      api-error-401: 'Mencoba mengakses API WordPress menghasilkan error 401. Verifikasi kecocokan " API Key Bersama" antara pengaturan Flarum dan WordPress'
+      api-key-mismatch: 'Pengaturan "API Key Bersama" di WordPress tidak sesuai dengan pengaturan "API Key Bersama" di Flarum (diharapkan: "{expected}", aktual: "{actual}")'
       api-key-missing: '"API Key Flarum" tidak ada. Coba refresh panel admin dan periksa file log untuk kemungkinan adanya error'
       comments-mismatch-flarum: 'Integrasi Komentar diaktifkan di Flarum, tetapi tidak di WordPress'
       comments-mismatch-wordpress: 'Integrasi Komentar diaktifkan di WordPress, tetapi tidak di Flarum'
@@ -143,8 +147,10 @@ kilowhat-wordpress:
       flarum-url-mismatch: 'Pengaturan "URL Flarum" di WordPress tidak sesuai dengan URL yang dikonfigurasi di Flarum config.php (diharapkan: "{expected}", aktual: "{actual}")'
       lock-extension-required: 'Ekstensi Lock harus diaktifkan untuk menggunakan integrasi Komentar'
       login-only-signup-open: 'Anda perlu menonaktifkan Pendaftaran di bawah izin Flarum agar pengaturan "Hanya izinkan login dengan WordPress" dapat sepenuhnya diterapkan'
+      role-group-sync-incomplete: 'Pengaturan sinkronisasi role ke grup tidak terisi penuh'
       role-group-sync-invalid-group: 'ID grup Flarum yang dipilih tidak valid untuk sinkronisasi role ke grup: {id}'
       role-group-sync-invalid-role: 'Role WordPress yang dipilih untuk sinkronisasi role ke grup tidak valid: {role}'
+      role-group-sync-syntax: 'Pengaturan sinkronisasi role ke grup memiliki masalah encoding'
       sso-mismatch-flarum: 'Integrasi SSO diaktifkan di Flarum, tetapi tidak di WordPress'
       sso-mismatch-wordpress: 'Integrasi SSO diaktifkan di WordPress, tetapi tidak di Flarum'
       suspend-extension-required: 'Ekstensi Suspend harus diaktifkan untuk menggunakan opsi "Tangguhkan" dari "Tindakan pada penghapusan pengguna"'
