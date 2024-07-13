@@ -97,5 +97,5 @@ fof-oauth:
     settings:
       app_id: 'App ID'
       app_secret: 'App Secret'
-      client_id: 'Client ID'
+      client_id: 'ID Client'
       client_secret: 'Client Secret'

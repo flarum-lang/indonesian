@@ -8,6 +8,7 @@ foskym-oauth-center:
       add_button: 'Tambah Client'
       client_desc: Deskripsi
       client_icon: Ikon
+      client_id: 'ID Client'
       client_name: Nama
       edit_client: 'Edit Client'
       redirect_uri: 'URI Pengalihan'

@@ -88,6 +88,11 @@ datitisev-backup:
           description: 'Username untuk mengautentikasi pada server FTP.'
           label: Username
       gdrive:
+        client-id:
+          description: "Ikuti petunjuk di @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md untuk membuat Google project dan mengambil ID Client & Client Secret Anda.\n"
+          label: 'ID Client'
+        client-secret:
+          description: ' '
         client:
           id:
             description: "Ikuti petunjuk di @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md untuk membuat Google project dan mengambil Client ID & Client Secret Anda.\n"
