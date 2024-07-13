@@ -43,6 +43,7 @@ CHANGELOG
 * [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
 * [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
 * [`blomstra/payments`](https://flarum.org/extension/blomstra/payments)
+* [`blomstra/s3-assets`](https://flarum.org/extension/blomstra/s3-assets)
 * [`clarkwinkelmann/flarum-ext-meilisearch-dashboard`](https://github.com/clarkwinkelmann/flarum-ext-meilisearch-dashboard)
 * [`datitisev/flarum-backup`](https://flarum.org/extension/datitisev/flarum-backup)
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
