@@ -164,6 +164,7 @@ kilowhat-wordpress:
       wordpress-url-trailing-slash: 'Pengaturan "URL WordPress" tidak boleh menyertakan garis miring (nilai saat ini: "{url}")'
       wordpress-username-missing: 'Pengaturan "Username admin WordPress" harus diisi'
     wizard:
+      already_installed: "Flarum sudah terhubung dengan WordPress. Untuk menjalankan wizard lagi, hapus pengaturan \"URL WordPress\" di Flarum dan pengaturan \"API Key Bersama\" Flarum di WordPress.\n"
       api_error_get: 'Terjadi kesalahan saat melakukan GET request ke pengaturan WordPress ({exception}).'
       api_error_post: 'Terjadi kesalahan saat melakukan POST request ke pengaturan WordPress ({exception}).'
       api_unauthorized: "Kami tidak dapat mengautentikasi dengan kredensial yang diberikan. Periksa ulang URL, username, dan password. Periksa dokumentasi untuk mengetahui langkah-langkah pemecahan masalah lebih lanjut.\n"

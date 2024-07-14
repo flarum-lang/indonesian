@@ -57,6 +57,9 @@ ziven-decoration-store:
     item-subscription-deduction-days: 'Pemotongan biaya berlangganan dalam {days} hari'
     item-unsubscribe: 'Berhenti berlangganan'
     notification-receive-subscription: 'Potongan biaya berlangganan'
+    notifications:
+      subscription-expired-excerpt: 'Anda tidak memiliki {cost} untuk berlangganan'
+      subscription-fee-deduction-excerpt: 'Biaya {cost}'
     processing: Memproses...
     purchase-confirmation: 'Konfirmasi Pembelian'
     purchase-error-item-alreay-have: 'Anda sudah memiliki item ini'

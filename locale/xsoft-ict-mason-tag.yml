@@ -66,8 +66,10 @@ xsoft-mason-tag:
       n-columns: '{count} kolom'
       tags-as-field: 'Tampilkan tag selector sebagai kolom'
       tags-as-field-help: "Ini akan menyembunyikan tag selector default dan menampilkan kolom dropdown khusus sebagai gantinya. Ini hanya akan berfungsi jika Anda mengizinkan hingga satu tag primer dan satu tag sekunder!\n"
+      tags-field-name: 'Label kolom tag'
       tags-field-name-placeholder: '=> xsoft-mason-tag.forum.tags.tags-label'
     titles:
+      field-answers: 'Kolom jawaban'
       field-settings: 'Pengaturan kolom'
       fields: Kolom
       settings: Pengaturan

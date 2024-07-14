@@ -8,6 +8,7 @@ fof-oauth:
       providers:
         envato:
           client_id_label: 'ID Client'
+          client_secret_label: 'Client Secret'
           description: 'Daftarkan forum Anda dengan Envato {link}.'
   forum:
     log_in:

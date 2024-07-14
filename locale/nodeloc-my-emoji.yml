@@ -11,6 +11,7 @@ nodeloc-emoji:
         emoji_category_label: 'Kode kategori'
         emoji_title_label: 'Judul Emoji'
         modal_title: 'Tambah Emoji'
+        path_or_url_label: 'Path atau URL'
         saved_message: '=> core.admin.settings.saved_message'
         submit_button: '=> core.ref.save_changes'
         text_to_category_name_label: 'Nama kategori'

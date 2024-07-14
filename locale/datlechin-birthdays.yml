@@ -41,6 +41,8 @@ datlechin-birthdays:
       show_dob_date_label: 'Tampilkan hari dan bulan kelahiran'
       show_dob_year_help: 'Hal ini akan memungkinkan orang melihat usia Anda.'
       show_dob_year_label: 'Tampilkan tahun kelahiran'
+    sign_up:
+      dob_placeholder: '=> datlechin-birthdays.ref.date_of_birth'
     user:
       age_text: 'Usia: {age}'
       birthday_text: 'Ulang tahun: {date}'

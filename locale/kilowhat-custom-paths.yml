@@ -41,7 +41,9 @@ kilowhat-custom-paths:
         clarkwinkelmann-group-list: 'Daftar grup'
         discussion: Diskusi
         flamarkt-account: Akun
+        flamarkt-balance: 'Saldo Akun'
         flamarkt-categories: 'Daftar kategori'
+        flamarkt-identity: 'Identitas Akun'
         flamarkt-product: Produk
         flamarkt-products: 'Indeks produk'
         flamarkt-signup: Daftar
@@ -68,3 +70,5 @@ kilowhat-custom-paths:
         v17development-user-badges-item: 'Detail badge'
         v17development-user-badges-overview: 'Gambaran umum badge'
         v17development-user-badges-user-badges: 'Badge profil'
+      redirect: 'Mengalihkan path Flarum default ke path baru'
+      reset: 'Reset path'

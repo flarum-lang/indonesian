@@ -4,20 +4,25 @@
 
 adblock:
   admin:
+    adblock-action-message: pesan
     adblock-alt: Alt
     adblock-alt-placeholder: 'Atribut alt dalam tag img'
     adblock-div: 'Tambahkan tag banner di mana kode html muncul'
     adblock-div-placeholder: 'Contoh ''#content, .App-content, .IndexPage, container'''
     adblock-img: Img
     adblock-img-placeholder: 'https://domain/picture.png'
+    adblock-notice-content: 'Isi pesan'
     adblock-notice-content-help: 'Di sini Anda dapat mengubah konten'
     adblock-notice-content-placeholder: 'Hai, bisakah Anda membantu kami? Saya tahu iklan terkadang terlalu mengganggu dan Anda ingin menggunakan Adblock. Tapi tolong dukung kami dengan menambahkan Webiste ke daftar putih. Ini akan membantu kami agar Webiste tetap bebas digunakan. Terima kasih atas bantuan Anda!'
     adblock-notice-content-sup-placeholder: 'Tekan × untuk mematikan notifikasi dan menampilkan konten.'
     adblock-notice-element: 'Tambahkan Tag di mana notifikasi ditampilkan'
     adblock-notice-element-placeholder: 'Contoh ''#content, .App-content, .IndexPage, container'''
     adblock-notice-method-help: 'Di sini Anda dapat mengubah gaya Notifikasi'
+    adblock-supportRedirectUrl: 'Link Dukung Kami'
     adblock-supportRedirectUrl-placeholder: 'Paste URL yang valid di sini atau biarkan kosong'
+    adblock-supportUsMessage: 'Pesan Dukung Kami'
     adblock-supportUsMessage-placeholder: 'Dukunglah kami dengan menonaktifkan AdBlocker di situs web kami.'
+    adblock-supportUsTitle: 'Judul Dukung Kami'
     adblock-supportUsTitle-placeholder: 'Mohon dukung kami'
     adblock-url: Url
     adblock-url-placeholder: 'https://domain'

@@ -8,6 +8,7 @@ fof-oauth:
       providers:
         spotify:
           client_id_label: 'ID Client'
+          client_secret_label: 'Client Secret'
           description: 'Daftarkan forum Anda dengan Spotify {link}.'
   forum:
     log_in:

@@ -10,6 +10,7 @@ foskym-oauth-center:
       client_icon: Ikon
       client_id: 'ID Client'
       client_name: Nama
+      client_secret: 'Client Secret'
       edit_client: 'Edit Client'
       redirect_uri: 'URI Pengalihan'
       scope: Cakupan

@@ -25,6 +25,12 @@ datitisev-backup:
         bucket:
           description: 'S3 bucket untuk meng-upload.'
           label: Bucket
+        credentials-key:
+          description: 'AWS credentials key'
+          label: Key
+        credentials-secret:
+          description: 'AWS credentials secret'
+          label: Secret
         credentials:
           key:
             description: 'AWS credentials key'
@@ -35,6 +41,9 @@ datitisev-backup:
         path-prefix:
           description: 'Path prefix default opsional untuk file.'
           label: 'Path prefix'
+        region:
+          description: 'Wilayah bucket Anda.'
+          label: Wilayah
         version:
           description: 'Menentukan versi atau biarkan kosong untuk yang terbaru.'
           label: Versi
@@ -93,12 +102,16 @@ datitisev-backup:
           label: 'ID Client'
         client-secret:
           description: ' '
+          label: 'Client Secret'
         client:
           id:
             description: "Ikuti petunjuk di @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/1-getting-your-dlient-id-and-secret.md untuk membuat Google project dan mengambil Client ID & Client Secret Anda.\n"
         folder:
           description: 'https://drive.google.com/drive/u/0/folders/ID'
           label: 'ID Folder'
+        help:
+          test_button: 'Uji koneksi'
+          test_success_alert: 'Berhasil terhubung ke Google Drive! Simpan perubahan untuk menyimpan pengaturan.'
         refresh-token:
           description: "Ikuti petunjuk di @ https://github.com/ivanvermeyen/laravel-google-drive-demo/blob/master/README/2-getting-your-refresh-token.md untuk mengambil refresh token untuk aplikasi Google oAuth Anda.\n"
           label: 'Refresh Token'
@@ -106,6 +119,7 @@ datitisev-backup:
         target:
           description: 'Tentukan direktori lokal untuk menyimpan backup.'
           label: 'Target path'
+      name_label: 'Nama Lokasi'
       title: 'Mengkonfigurasi {adapter}'
     adapters:
       aliyun: 'Alibaba Cloud (Aliyun)'
@@ -121,14 +135,16 @@ datitisev-backup:
       sftp: SFTP
       webdav: Webdav
       zip: 'Arsip Zip'
+    create_button: 'Tambah adapter baru'
     delete_button: Hapus
     delete_confirmation: 'Apakah Anda yakin ingin menghapus “{name}” ({adapter})?'
     nav:
       description: 'Menyimpan salinan forum Anda.'
-      label: Backup
+      label: Pencadangan
     required-package-modal:
       content: "Untuk menggunakan driver ini, Anda harus menginstal paket tertentu. Anda dapat melakukannya dengan menjalankan perintah composer berikut ini: <code>composer require {package}</code> pada direktori instalasi Flarum Anda.\n"
       title: 'Sebuah paket diperlukan untuk {adapter}'
+    required_package_button: Menyiapkan
     settings_button: Mengkonfigurasi
     you-need-for:
       aliyun: aliyuncs/aliyun-oss-flysystem

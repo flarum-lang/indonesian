@@ -50,6 +50,7 @@ flarum-extension-manager:
         label: Repositori
         types:
           composer: composer
+          path: path
           vcs: vcs
       title: Composer
     exceptions:

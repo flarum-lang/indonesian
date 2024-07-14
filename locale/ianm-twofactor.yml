@@ -12,6 +12,7 @@ ianm-twofactor:
   admin:
     edit_group:
       2fa_help: 'Mengharuskan anggota grup ini untuk mengaktifkan Autentikasi Dua Faktor (2FA) untuk akun mereka.'
+      2fa_label: 'Mengharuskan 2FA'
       admin_2fa_help: 'Anggota {adminName} harus selalu mengaktifkan 2FA.'
     permissions:
       manage_others_label: 'Kelola 2FA untuk pengguna lain'
@@ -23,6 +24,7 @@ ianm-twofactor:
       forum_logo_qr_width_help: 'Lebar logo forum yang ditempelkan pada kode QR yang ditampilkan saat mengaktifkan 2FA. Maksimal 200.'
       groups:
         help: 'Mengharuskan anggota grup ini untuk mengaktifkan Autentikasi Dua Faktor (2FA) untuk akun mereka. Pengguna dalam grup yang diharuskan tidak dapat menonaktifkan 2FA.'
+        title: 'Grup yang mengharuskan 2FA'
       logo_qr: 'Logo pada Kode QR'
       logo_qr_help: 'Jika logo telah diupload, logo ini akan ditempelkan pada kode QR. Biarkan kosong untuk menggunakan logo forum.'
       tokens:

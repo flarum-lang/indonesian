@@ -21,6 +21,7 @@ justoverclock-frontend-blog:
     loginButton: Login
     menuButton: Menu
     post: '{count, plural, one {# POST} other {# POST}}'
+    postedOn: ' Diposting pada: '
     readMore: 'Baca Lebih Lanjut'
     recentDiscussions: 'Diskusi Terbaru:'
     signupButton: Daftar

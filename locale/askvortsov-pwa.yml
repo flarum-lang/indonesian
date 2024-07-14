@@ -40,6 +40,7 @@ askvortsov-pwa:
         reset_vapid_success: 'VAPID key berhasil diatur ulang. {count} subscription telah diatur ulang. Muat ulang halaman untuk melihat laporan pemeriksaan status yang diperbarui.'
         reset_vapid_text: 'Ini akan membuat ulang VAPID key, dan menghapus semua subscription yang ada dengan menggunakan VAPID key saat ini.'
       other:
+        force_portrait_text: 'Paksa orientasi portait?'
         heading: Lainnya
         push_notif_preference_default_to_email_label: 'Preferensi Push Default untuk Email?'
         push_notif_preference_default_to_email_text: 'Jika true, pengguna akan mengaktifkan push notification secara default untuk semua jenis notifikasi di mana notifikasi email diaktifkan secara default. Jika false, pengguna akan menonaktifkan push notification secara default.'

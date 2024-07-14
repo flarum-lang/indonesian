@@ -27,6 +27,7 @@ v17development-flarum-support:
       author: Penulis
       authors: Penulis
       created_at: 'Dibuat pada {date}'
+      hidden: Tersembunyi
       last_modified: 'Terakhir diubah pada {date}'
       not_found: 'Artikel tidak ditemukan'
       share_article:
@@ -78,6 +79,8 @@ v17development-flarum-support:
       audit_log:
         article_created: 'Artikel telah dibuat'
         loading_auditlog: 'Memuat log audit'
+        no_more_events: 'Tidak ada lagi event yang ditemukan'
+        title: 'Log audit artikel'
     not_found:
       description: 'Maaf, artikel atau kategori ini sudah tidak ada lagi di tempat ini.'
       solution: 'Anda dapat menggunakan kotak pencarian di atas untuk menemukan apa yang Anda cari.'
@@ -103,6 +106,7 @@ v17development-flarum-support:
         change_icon: 'Ganti ikon'
         edit_description: 'Edit deskripsi'
         new_article: 'Artikel baru'
+        recount_articles: 'Hitung ulang artikel'
         rename_category: 'Ganti nama kategori'
     reopen: 'buka kembali'
     return_to_home: 'Kembali ke beranda basis pengetahuan'
@@ -201,6 +205,7 @@ v17development-flarum-support:
         selection_open: 'Tiket terbuka'
         selection_unfiltered: 'Tidak difilter'
         title: 'Gambaran umum tiket'
+      reminders_sent: '{count, plural, one {Satu pengingat terkirim} other {# pengingat terkirim}}'
       return_to_overview: 'Kembali ke gambaran umum tiket'
       status:
         closed:

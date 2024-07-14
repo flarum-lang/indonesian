@@ -18,7 +18,7 @@ clarkwinkelmann-group-invitation:
         code: 'Dibuat secara otomatis'
         group: Pilih...
         usage: 'Kosongkan untuk unlimited'
-      unlimited: unlimited
+      unlimited: 'tidak terbatas'
   api:
     error:
       no-usages-left: 'Undangan tidak dapat digunakan lagi'

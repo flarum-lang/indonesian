@@ -29,6 +29,7 @@ custom-header:
   forum:
     facebook: 'Ikuti Kami di Facebook'
     github: 'Halaman GitHub'
+    login: Login
     signup: Daftar
     twitter: 'Ikuti Kami di Twitter'
     youtube: 'Ikuti Kami di Youtube'

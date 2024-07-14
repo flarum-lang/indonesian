@@ -8,6 +8,7 @@ fof-oauth:
       providers:
         generic:
           client_id_label: 'ID Client'
+          client_secret_label: 'Client secret'
           description: 'Siapkan login berdasarkan penyedia OAuth2 khusus Anda.'
           display_name_parameter_label: 'Parameter Nama Tampilan'
           email_address_parameter_label: 'Parameter Alamat Email'
