@@ -7,6 +7,7 @@ foskym-oauth-center:
     clients:
       add_button: 'Tambah Client'
       client_desc: Deskripsi
+      client_home: Beranda
       client_icon: Ikon
       client_id: 'ID Client'
       client_name: Nama
@@ -16,6 +17,7 @@ foskym-oauth-center:
       scope: Cakupan
     page:
       clients: 'Kelola Client'
+      index: Beranda
       scopes: 'Kelola Cakupan'
       tokens: 'Kelola Token'
     permission:
@@ -31,6 +33,9 @@ foskym-oauth-center:
       scope_name: Nama
     settings:
       access_lifetime: 'Masa Berlaku Token Akses (detik)'
+      allow_implicit: 'Izinkan Implicit Grant (response_type = token)'
+      display_mode: 'Mode Tampilan'
+      enforce_state: 'Menerapkan State Validation (parameter state)'
       require_exact_redirect_uri: 'Memerlukan URI Pengalihan yang Tepat'
     tokens:
       add_token: 'Tambahkan Token'

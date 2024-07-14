@@ -10,7 +10,7 @@ rob006-last-post-avatar:
         label: 'Abaikan diskusi pribadi (FoF Byōbu)'
       mode:
         help: 'Pilih kapan dan di mana avatar penulis postingan terakhir akan ditampilkan pada daftar diskusi. Periksa file README untuk melihat visualisasi setiap opsi.'
-        label: 'Mode tampilan avatar postingan terbaru'
+        label: 'Mode tampilan avatar post terbaru'
         options:
           all-replies: 'Hanya balasan'
           always: Selalu
