@@ -21,12 +21,12 @@ kilowhat-audit:
       limitedIpAddress: 'Lihat Alamat IP'
   forum:
     link:
-      actor-audit: 'Catatan audit (user sebagai aktor)'
+      actor-audit: 'Catatan audit (user sebagai pelaksana)'
       all-audit: 'Catatan audit'
       discussion-audit: 'Catatan audit'
       user-audit: 'Catatan audit (pengeditan akun)'
     modal:
-      actor-title: 'Catatan Audit Aktor'
+      actor-title: 'Catatan Audit Pelaksana'
       all-title: 'Catatan Audit'
       discussion-title: 'Catatan Audit Diskusi'
       user-title: 'Catatan Audit Pengguna'
@@ -42,7 +42,7 @@ kilowhat-audit:
         unknown: 'Client tidak diketahui'
       controls:
         filterAction: 'Tampilkan catatan dari tindakan yang sama'
-        filterActor: 'Tampilkan catatan berdasarkan aktor ini'
+        filterActor: 'Tampilkan catatan berdasarkan pelaksana ini'
         filterClient: 'Tampilkan catatan berdasarkan client type ini'
         filterDiscussion: 'Tampilkan catatan yang mempengaruhi diskusi yang sama'
         filterIp: 'Tampilkan catatan berdasarkan IP ini'

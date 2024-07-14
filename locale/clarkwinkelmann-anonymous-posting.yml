@@ -10,7 +10,7 @@ clarkwinkelmann-anonymous-posting:
       use: 'Opsi anonim konten selama penulisan'
     settings:
       alwaysAnonymiseEdits: 'Selalu menganonimkan pengeditan'
-      alwaysAnonymiseEditsHelp: "Secara default, pengedit/penyembunyi konten oleh penulis post yang bersifat anonim akan dianonimkan, tetapi setiap moderator yang mengedit post atau diskusi akan tetap ditampilkan sebagai penulis dari konten yang di-edit/disembunyikan. Ketika opsi ini diaktifkan, aktor untuk pengedit/penyembunyi konten tidak akan pernah tercatat di konten anonim, siapa pun mereka.\n"
+      alwaysAnonymiseEditsHelp: "Secara default, pengedit/penyembunyi konten oleh penulis post yang bersifat anonim akan dianonimkan, tetapi setiap moderator yang mengedit post atau diskusi akan tetap ditampilkan sebagai penulis dari konten yang di-edit/disembunyikan. Ketika opsi ini diaktifkan, pelaksana untuk pengedit/penyembunyi konten tidak akan pernah tercatat di konten anonim, siapa pun mereka.\n"
       avatarAdd: 'Tambahkan aturan avatar'
       avatarAvatarUrl: 'URL Avatar'
       avatarFieldKey: 'Kunci kolom'

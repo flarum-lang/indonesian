@@ -30,7 +30,7 @@ flarum-extension-manager:
       add_repository_label: 'Tambah Repositori'
       delete_repository_confirmation: 'Apakah Anda yakin ingin menghapus repositori ini? Semua ekstensi yang diinstal dari repositori ini akan dihapus.'
       delete_repository_label: 'Hapus repositori'
-      edit_repository_label: 'Ubah repositori'
+      edit_repository_label: 'Edit repositori'
       minimum_stability:
         help: 'Jenis paket yang diizinkan untuk diinstal. Jangan ubah ini kecuali Anda tahu apa yang Anda lakukan.'
         label: 'Stabilitas Minimum'
@@ -44,7 +44,7 @@ flarum-extension-manager:
         add_modal:
           name_label: Nama
           submit_button: Submit
-          type_label: Tipe
+          type_label: Jenis
           url: URL
         help: "Tambahkan repositori tambahan untuk menginstal paket. Ini adalah fitur tingkat lanjut, jangan menambahkan repositori yang tidak dipercaya, karena dapat digunakan untuk mengeksekusi kode berbahaya pada server Anda.\n"
         label: Repositori
@@ -74,6 +74,8 @@ flarum-extension-manager:
     file_permissions: "Manajer ekstensi memerlukan izin baca dan tulis pada file dan direktori berikut ini: composer.json, composer.lock, vendor, storage, storage/.composer\n"
     major_updater:
       description: "Pembaruan utama Flarum tidak kompatibel dengan versi sebelumnya, yang berarti bahwa beberapa ekstensi yang saat ini Anda instal, dan modifikasi yang dilakukan secara manual mungkin tidak akan berfungsi dengan versi baru ini. Pastikan untuk membuat backup database dan file Anda sebelum melanjutkan.\n"
+      dry_run: 'Uji Coba'
+      dry_run_help: 'Uji coba mengemulasi pembaruan untuk melihat apakah pengaturan Anda saat ini dapat diperbarui dengan aman, ini tidak berarti bahwa modifikasi khusus yang dibuat secara manual akan berfungsi di versi yang lebih baru.'
       failure:
         desc: 'Pembaruan besar terakhir gagal, beberapa ekstensi yang terinstal tidak kompatibel dengan rilis besar yang baru.'
         why: 'Ketahui lebih lanjut'
@@ -89,6 +91,7 @@ flarum-extension-manager:
           elapsed_time: 'Selesai dalam'
           operation: Operasi
           package: Paket
+          peak_memory_used: 'Penggunaan Memori Puncak'
           status: Status
         none: 'Belum ada tugas.'
         operations:

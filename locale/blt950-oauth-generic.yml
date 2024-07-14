@@ -7,12 +7,16 @@ fof-oauth:
     settings:
       providers:
         generic:
+          authorization_endpoint_label: 'Endpoint Otorisasi'
           client_id_label: 'ID Client'
           client_secret_label: 'Client secret'
           description: 'Siapkan login berdasarkan penyedia OAuth2 khusus Anda.'
           display_name_parameter_label: 'Parameter Nama Tampilan'
           email_address_parameter_label: 'Parameter Alamat Email'
           id_parameter_label: 'Parameter ID Pengguna'
+          scopes_label: Cakupan
+          token_endpoint_label: 'Endpoint Token'
+          user_information_endpoint_label: 'Endpoint Informasi Pengguna'
   forum:
     log_in:
       with_generic_button: '=> fof-oauth.forum.log_in.with_button'

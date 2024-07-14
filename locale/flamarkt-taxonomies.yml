@@ -39,7 +39,7 @@ flamarkt-taxonomies:
         browsing: Menelusuri
         filling: Mengisi
         info: Informasi
-        scope: 'Ruang Lingkup'
+        scope: Cakupan
       slugger-options:
         alpha_dash: 'ASCII alpha-numerical slugger'
         random: 'Pengidentifikasi acak'
