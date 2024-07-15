@@ -14,7 +14,7 @@ clarkwinkelmann-follow-tags-prompt:
         all: 'Semua tag'
         list: 'Tag yang Anda pilih di bawah ini'
         primary: 'Tag primer tingkat pertama'
-        primaryAndChildren: 'Semua tag utama di semua tingkat'
+        primaryAndChildren: 'Semua tag primer di semua tingkat'
         primaryAndSecondary: 'Tag primer tingkat pertama dan tag sekunder'
         secondary: 'Hanya tag sekunder'
   forum:
