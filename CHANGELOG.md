@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.18.1 (XXXX-XX-XX)
+-------------------
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`clarkwinkelmann/flarum-ext-follow-tags-prompt`](https://github.com/clarkwinkelmann/flarum-ext-follow-tags-prompt)
+
+
+Semua perubahan: [1.18.0...1.18.1](https://github.com/flarum-lang/indonesian/compare/1.18.0...1.18.1).
+
+
 1.18.0 (2024-07-14)
 -------------------
 
