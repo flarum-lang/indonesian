@@ -7,7 +7,7 @@ blomstra-payments:
     edit-group:
       select-pta-product-description: "Memilih produk akan memungkinkan akses ke grup setelah pembayaran. Dalam hal langganan, akses akan dicabut secara otomatis setelah pembatalan langganan. Buat produk di dasbor Stripe Anda dan salin ID yang dimulai dengan <code>prod_</code> ke dalam bidang ini.\n"
     edit-tag:
-      select-ptb-product-description: "Memilih produk akan membutuhkan pembayaran produk tersebut sebelum dapat memulai diskusi.\n"
+      select-ptb-product-description: "\n"
       visible-from: 'Sembunyikan postingan pada ambang batas ini'
     settings:
       link-to-terms: 'URL Ketentuan Pembayaran'
