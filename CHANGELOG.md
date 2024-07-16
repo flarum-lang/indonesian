@@ -9,7 +9,9 @@ CHANGELOG
 
 * [`blomstra/payments`](https://flarum.org/extension/blomstra/payments)
 * [`clarkwinkelmann/flarum-ext-follow-tags-prompt`](https://github.com/clarkwinkelmann/flarum-ext-follow-tags-prompt)
+* [`kilowhat/flarum-ext-cimaise`](https://flarum.org/extension/kilowhat/flarum-ext-cimaise)
 * [`kilowhat/flarum-ext-custom-paths`](https://flarum.org/extension/kilowhat/flarum-ext-custom-paths)
+* [`v17development/flarum-support`](https://flarum.org/extension/v17development/flarum-support)
 
 
 Semua perubahan: [1.18.0...1.18.1](https://github.com/flarum-lang/indonesian/compare/1.18.0...1.18.1).
