@@ -14,7 +14,7 @@ kilowhat-cimaise:
       hideOwnAlbum: 'Menyembunyikan album sendiri'
       hideOwnPicture: 'Menyembunyikan gambar sendiri'
       licenseOwnPublishedPicture: 'Mengubah lisensi gambar sendiri setelah diterbitkan'
-      publishSilently: 'Menerbitkan gambar secara diam-diam (tanpa event post)'
+      publishSilently: 'Publikasikan gambar secara diam-diam (tanpa event post)'
       renameOwnPublishedPicture: 'Mengubah judul dan deskripsi gambar sendiri setelah diterbitkan'
       uploadCommunityPicturesWithoutApproval: 'Mengunggah gambar tanpa persetujuan di album komunitas'
       uploadPersonalPicturesWithoutApproval: 'Mengunggah gambar tanpa persetujuan di album pribadi'
@@ -41,7 +41,8 @@ kilowhat-cimaise:
       sticker-label: Label
       sticker-url: URL
       watermarkFile: 'Gambar watermark'
-      watermarkFileHelp: 'Gambar yang disediakan akan diterapkan 1:1 pada setiap unggahan, kecuali pratinjau terkecil.'
+      watermarkFileHelp: 'Gambar yang disediakan akan menerapkan rasio 1:1 pada setiap unggahan, kecuali pratinjau terkecil.'
+      watermarkPlacement: 'Penempatan watermark'
       watermarkPlacementOptions:
         bottomLeft: 'Kiri bawah'
         bottomRight: 'Kanan bawah'
@@ -136,6 +137,7 @@ kilowhat-cimaise:
       title: 'Klik untuk menambahkan judul'
     license-label:
       not-specified: 'Tidak ditentukan'
+      not-specified-help: 'Periksa persyaratan penggunaan situs untuk mengetahui hak cipta default'
     nav:
       albums: '=> kilowhat-cimaise.ref.albums'
       pictures: '=> kilowhat-cimaise.ref.pictures'
@@ -180,7 +182,7 @@ kilowhat-cimaise:
     upload-modal:
       drop-file: 'atau seret dan letakkan di sini'
       processing: Memproses
-      publishSilently: 'Terbitkan secara diam-diam'
+      publishSilently: 'Publikasikan secara diam-diam'
       reload: 'Muat ulang daftar konsep'
       select-file: 'Pilih file'
       submit: Submit
