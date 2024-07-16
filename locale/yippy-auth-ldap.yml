@@ -7,6 +7,8 @@ yippy-auth-ldap:
     settings:
       display_detailed_error: 'Tampilkan kesalahan LDAP terperinci untuk upaya login yang gagal'
       domains:
+        add: 'Tambah Domain'
+        banner: 'Domain {index}'
         data:
           admin_dn_help: 'Biarkan kosong untuk pengikatan anonim'
           admin_password: Password
@@ -47,5 +49,12 @@ yippy-auth-ldap:
       core_csrf_token_mismatch: '=> core.views.error.csrf_token_mismatch'
       csrf_token_mismatch: 'Anda sudah terlalu lama tidak aktif, silakan refresh halaman dan coba lagi'
       domains:
+        empty_host: 'Domain {domain_index} tidak memiliki alamat IP Domain atau server yang disetel, ubah pengaturan ekstensi.'
+        empty_search_field: 'Domain {domain_index} memiliki Pencarian Akun LDAP - ''Kolom pencarian'' kosong, ubah pengaturan ekstensi.'
+        empty_user_username: 'Domain {domain_index} memiliki Profil Pengguna Flarum - ''Kolom username'' kosong, ubah pengaturan ekstensi.'
+        mail_field_does_not_exist: 'Domain {domain_index} tidak dapat menemukan email untuk Profil Pengguna Flarum - `Kolom email` dengan `{data}`, ubah pengaturan ekstensi.'
         no_domains: 'Pengaturan admin tidak memiliki domain yang ditetapkan, ubah pengaturan ekstensi.'
+        username_field_does_not_exist: 'Domain {domain_index} tidak dapat menemukan username untuk Profil Pengguna Flarum - `Kolom username` dengan `{data}`, ubah pengaturan ekstensi.'
+      search_filter_is_invalid: 'Tidak dapat mencari filter untuk {server} karena `kolom pencarian LDAP` tidak valid, ubah pengaturan ekstensi.'
+    log_in_with: 'Login dengan {server}'
     log_out: '=> core.ref.log_out'
