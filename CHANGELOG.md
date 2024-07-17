@@ -7,11 +7,21 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
 * [`blomstra/payments`](https://flarum.org/extension/blomstra/payments)
 * [`clarkwinkelmann/flarum-ext-follow-tags-prompt`](https://github.com/clarkwinkelmann/flarum-ext-follow-tags-prompt)
+* [`clarkwinkelmann/flarum-ext-post-stream-search`](https://github.com/clarkwinkelmann/flarum-ext-post-stream-search)
+* [`datitisev/flarum-webhooks-pro`](https://flarum.org/extension/datitisev/flarum-webhooks-pro)
+* [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`imdong/flarum-ext-visible-to-op-only`](https://github.com/imdong/flarum-ext-visible-to-op-only)
 * [`kilowhat/flarum-ext-cimaise`](https://flarum.org/extension/kilowhat/flarum-ext-cimaise)
 * [`kilowhat/flarum-ext-custom-paths`](https://flarum.org/extension/kilowhat/flarum-ext-custom-paths)
+* [`kyrne/websocket`](https://github.com/KyrneDev/websocket)
 * [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
+* [`michaelbelgium/flarum-umami`](https://github.com/MichaelBelgium/flarum-umami)
+* [`swaggymacro/only-starter`](https://github.com/SwaggyMacro/OnlyStarter)
+* [`the-turk/flarum-nodp`](https://github.com/the-turk/flarum-nodp)
 * [`v17development/flarum-support`](https://flarum.org/extension/v17development/flarum-support)
 * [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
 
