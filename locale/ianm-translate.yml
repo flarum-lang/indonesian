@@ -46,6 +46,7 @@ ianm-translate:
       provider: 'Penyedia terjemahan'
       readme-info: 'Lihat dokumentasi README untuk informasi lebih lanjut.'
       readme-none: 'Tidak ada pengaturan tambahan yang diperlukan untuk driver ini.'
+      seemless: 'Terjemahan Yang Mulus'
       seemless-help: 'Fitur beta. Ketika diaktifkan, semua konten pengguna akan diterjemahkan secara otomatis ke semua bahasa forum yang tersedia. Ketika pengguna melihat konten multi-bahasa, terjemahan akan ditampilkan secara otomatis.'
       translate-all-enabled: 'Aktifkan semua terjemahan bahasa'
       translate-all-help: 'Jika diaktifkan, pengguna admin dan orang lain yang memiliki izin dapat menerjemahkan konten ke bahasa forum yang diinstal.'

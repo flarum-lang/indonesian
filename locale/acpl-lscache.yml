@@ -12,6 +12,7 @@ acpl-lscache:
     drop_qs_help: "Gunakan fitur ini untuk menghapus query string tertentu, seperti <code>fbclid</code> atau <code>utm*</code>, saat men-cache. Hal ini untuk mencegah cache berlebihan pada halaman dengan query string \"sampah (junk)\" seperti kode UTM, yang digunakan untuk pelacakan namun tidak memengaruhi konten halaman. Ini membutuhkan LSWS v5.2.3 atau yang versi yang lebih baru. Buat daftar query string yang akan dihapus, satu query string per baris. <a>Pelajari lebih lanjut tentang menghapus query string</a>.<br></br>\n⚠️ Pengaturan ini akan mengubah file .htaccess.\n"
     drop_qs_label: 'Hapus Query String'
     public_cache_ttl_help: 'Tentukan berapa lama, dalam detik, halaman publik harus di-cache. Nilai default adalah 604800 detik ( 1 minggu).'
+    public_cache_ttl_label: 'TTL Cache Publik Default'
     purge_all: 'Bersihkan Semua LSCache'
     purge_all_success: 'LiteSpeed Web Server telah diberikan instruksi untuk membersihkan semua entri LSCache'
     purge_on_discussion_update_help: 'Masukkan URL atau Tag yang ingin Anda hapus ketika diskusi atau postingan diperbarui, satu per baris. URL harus dimulai dengan <code>/</code>, misalnya <code>/rankings</code>, dan Tag cache harus diawali dengan <code>tag=</code>, misalnya <code>tag=rankings</code>. Untuk beberapa route, tambahkan aturan di .htaccess dengan regular expression yang memberikan tag pada route dan hanya memasukkan tag ini di sini akan lebih cepat. <a>Pelajari lebih lanjut</a>. Secara default, cache untuk beranda dan diskusi yang diperbarui akan dihapus.'

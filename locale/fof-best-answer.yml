@@ -13,6 +13,8 @@ fof-best-answer:
     settings:
       allow_select_own_post: 'Pilih postingan sendiri'
       allow_select_own_post_help: 'Izinkan pengguna untuk memilih postingan mereka sendiri sebagai jawaban terbaik untuk sebuah diskusi'
+      discussion_sidebar_jump_button: 'Menampilkan tombol lompat ke Jawaban Terbaik di bilah sisi diskusi'
+      discussion_sidebar_jump_button_help: 'Menambahkan tombol ke bilah sisi diskusi yang akan langsung menuju ke Jawaban Terbaik dalam aliran postingan.'
       documentation: Dokumentasi
       enable_all_tags_button: 'Aktifkan semua tag untuk Jawaban Terbaik'
       enable_all_tags_reminder_button: 'Aktifkan semua tag untuk pengingat Jawaban Terbaik'
@@ -25,6 +27,9 @@ fof-best-answer:
         reminders: Pengingat
         reminders_notice: 'Agar pengingat dapat berfungsi, Anda harus mengatur Flarum scheduler dengan benar.'
         search: Pencarian
+        tags: 'Tag Jawaban Terbaik'
+      remind_tags_help: 'Pilih tag yang mana, jika ada, yang akan dikirimkan pengingat. Pengingat hanya akan dikirim untuk diskusi dengan tag ini.'
+      remind_tags_label: 'Tag Pengingat'
       schedule_log_output: 'Menambahkan output penjadwal ke penyimpanan log'
       schedule_on_one_server: 'Gunakan ''onOneServer()'' directive untuk task scheduler'
       schedule_on_one_server_help: 'Membutuhkan Redis/Memcache'
@@ -38,7 +43,9 @@ fof-best-answer:
       show_filter_label: 'Tampilkan menu dropdown filter Best Answer'
       show_max_lines_help: 'Atur ke 0 untuk menonaktifkan. Jika postingan lebih panjang daripada jumlah baris yang dikonfigurasi, postingan akan terpotong dalam pratinjau postingan dengan efek memudar.'
       show_max_lines_label: 'Garis maksimum untuk ditampilkan dalam pratinjau post'
+      solution_search: 'Pencarian solusi'
       solution_search_help: 'Mengaktifkan kemampuan untuk mencari diskusi dengan Best Answers'
+      tags_info: "Ketika sebuah tag Best Answer diaktifkan, tetapkan izin untuk setiap grup pengguna yang dapat menetapkan jawaban (diskusi sendiri, diskusi apa pun). Izin dapat ditetapkan secara global (untuk semua tag yang mengaktifkan Best Answer), atau per tag.\n"
       use_alt_ui: 'Tata letak alternatif'
       use_alt_ui_help: 'Pengaturan Best Answer ada di footer postingan'
   email:
@@ -79,6 +86,9 @@ fof-best-answer:
         best_answer_in_discussion: 'Jawaban terbaik ditetapkan dalam diskusi yang Saya ikuti'
         select_best_answer: 'Pengingat otomatis untuk memilih jawaban terbaik dalam diskusi yang Saya mulai'
     remove_best_answer: 'Batalkan Pilihan Jawaban Terbaik'
+    search:
+      all_discussions_solutions_button: 'Cari semua diskusi dengan solusi untuk “{query}”'
+      discussions_solutions_heading: 'Diskusi dengan solusi'
     this_best_answer: 'Pilih Jawaban Terbaik'
     user:
       best-answer-count: '{count, plural, one { {count} jawaban terbaik} other {{count} jawaban terbaik}}'

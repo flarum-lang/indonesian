@@ -21,5 +21,6 @@ michaelbelgium-umami:
         label: 'Username akun'
     widget:
       live: 'Tampilan halaman'
+      views: 'Tampilan halaman'
       visitors: Pengunjung
       visits: Kunjungan
