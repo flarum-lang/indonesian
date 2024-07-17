@@ -32,6 +32,8 @@ fof-webhooks:
           gamification:
             title: 'FriendsOfFlarum Gamification'
           polls:
+            pollwascreated: Dibuat
+            pollwasvoted: Dipilih
             title: 'FriendsOfFlarum Polls'
           reactions:
             title: 'FriendsOfFlarum Reactions'

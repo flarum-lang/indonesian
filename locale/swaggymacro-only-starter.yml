@@ -4,10 +4,10 @@
 
 swaggymacro:
   admin:
-    setting_only_starter: 'Hanya Pembuka Topik'
-    setting_show_topic_starter: 'Menampilkan Tanda Pembuka Topik'
+    setting_only_starter: 'Hanya OP'
+    setting_show_topic_starter: 'Tampilkan Tanda OP'
   forum:
     blog_article_author: Penulis
-    not_only_starter: 'Tidak Hanya Menampilkan Pembuka Topik'
-    only_starter: 'Hanya Menampilkan Pembuka Topik'
-    topic_starter: 'Pembuka Topik'
+    not_only_starter: 'Tidak Hanya Tenampilkan OP'
+    only_starter: 'Hanya Tampilkan OP'
+    topic_starter: 'Original Poster'

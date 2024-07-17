@@ -37,6 +37,7 @@ yippy-auth-ldap:
       onlyUse: 'Sembunyikan metode login standar Flarum'
       title: 'Pengaturan LDAP'
   forum:
+    account_found: 'Menemukan akun di {server}'
     errors:
       account:
         disabled: 'Akun Anda dinonaktifkan, hubungi administrasi {server} Anda.'

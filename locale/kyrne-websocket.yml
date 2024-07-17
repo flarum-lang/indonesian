@@ -37,6 +37,8 @@ kyrne-websocket:
       stats_label: 'Interval Statistik'
       title: 'Pengaturan Websocket/Pusher'
   forum:
+    discussion_list:
+      show_updates_text: '{count, plural, one {Tampilkan # diskusi yang diperbarui} other {Tampilkan # diskusi yang diperbarui}}'
     widget:
       empty: 'Tidak Ada Pengguna Yang Sedang Online.'
       guests: '{count, plural, one {1 Tamu} other {{count} Tamu}}'

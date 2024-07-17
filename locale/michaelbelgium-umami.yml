@@ -20,5 +20,6 @@ michaelbelgium-umami:
         help: 'Opsional. Username akun umami pada domain di atas. (digunakan untuk admin dashboard widget)'
         label: 'Username akun'
     widget:
+      live: 'Tampilan halaman'
       visitors: Pengunjung
       visits: Kunjungan
