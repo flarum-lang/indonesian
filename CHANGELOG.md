@@ -17,6 +17,7 @@ CHANGELOG
 * [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
 * [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion)
 * [`ianm/translate`](https://flarum.org/extension/ianm/translate)
 * [`imdong/flarum-ext-visible-to-op-only`](https://github.com/imdong/flarum-ext-visible-to-op-only)
