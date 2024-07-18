@@ -18,8 +18,8 @@ justoverclock-auto-post-count-badge:
     levelTwo-help: 'paste di sini ikon fontawesome yang ingin Anda tampilkan untuk tingkat 2 (misalnya "fas fa-square")'
     settings:
       color:
-        bg1: 'Background 1'
-        bg2: 'Background 2'
+        bg1: 'Latar Belakang 1'
+        bg2: 'Latar Belakang 2'
       icon-manager:
         help_text: '=> core.ref.icon_text'
         title: 'Pengaturan Ikon'

@@ -4,6 +4,7 @@
 
 ziven-decoration-store:
   admin:
+    data-add: Tambahkan
     data-save: Simpan
     item-activate: Aktif
     item-activate-confirmation: 'Apakah Anda yakin untuk mengaktifkan item ini?'
@@ -11,6 +12,8 @@ ziven-decoration-store:
     item-activate-status-all: 'Semua Status Aktivasi'
     item-activate-status-down: Dinonaktifkan
     item-activate-status-up: Diaktifkan
+    item-add: 'Tambah Item'
+    item-assigned-at: Tanggal
     item-deactivate: Nonaktif
     item-deactivate-confirmation: 'Apakah Anda yakin untuk menonaktifkan item ini?'
     item-delete: Hapus
@@ -22,15 +25,18 @@ ziven-decoration-store:
     item-filter-all: Semua
     item-id: ID
     item-property-image: Gambar
+    item-property-image-select-from-gallery: 'Gambar bawaan'
     item-property-image-upload: Upload
     item-property-style: Gaya
     item-property-style-help-text: 'Anda dapat menambahkan gaya teks Anda sendiri di CSS, dan memasukkan nama gaya pada input di bawah ini.'
     item-property-style-select-from-gallery: 'Gaya Bawaan'
     item-property-style-text-effect: 'Teks Pratinjau'
+    item-type-selection: 'Pilih jenis item'
     settings:
       display-name: 'Nama Tampilan'
       timezone: 'Zona waktu'
       timezone-default: Asia/Shanghai
+      timezone-help: 'Atur zona waktu untuk waktu transfer. Defaultnya adalah "Asia/Shanghai"'
   forum:
     display-name: 'Nama Tampilan'
     equipment-modal-title: 'Daftar Item'
@@ -52,7 +58,8 @@ ziven-decoration-store:
     item-purchase-subscription-cost: 'Biaya berlangganan'
     item-purchase-title: 'Nama item'
     item-soldout: 'Item terjual habis'
-    item-status-to-0-confirmation: 'Apakah Anda yakin untuk membatalkan pembelian item ini?'
+    item-status-to-0-confirmation: 'Apakah Anda yakin untuk tidak melengkapi item ini?'
+    item-status-to-1-confirmation: 'Apakah Anda yakin untuk melengkapi item ini?'
     item-subscribe: Berlangganan
     item-subscription-deduction-days: 'Pemotongan biaya berlangganan dalam {days} hari'
     item-unsubscribe: 'Berhenti berlangganan'
@@ -62,6 +69,7 @@ ziven-decoration-store:
       subscription-fee-deduction-excerpt: 'Biaya {cost}'
     processing: Memproses...
     purchase-confirmation: 'Konfirmasi Pembelian'
+    purchase-error-insufficient-fund: 'Dana tidak mencukupi'
     purchase-error-item-alreay-have: 'Anda sudah memiliki item ini'
     purchase-history: 'Riwayat Pembelian'
     purchase-subscribe-confirmation: 'Apakah Anda yakin untuk membayar {cost} untuk berlangganan item ini?'

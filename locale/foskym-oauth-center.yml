@@ -34,6 +34,7 @@ foskym-oauth-center:
     settings:
       access_lifetime: 'Masa Berlaku Token Akses (detik)'
       allow_implicit: 'Izinkan Implicit Grant (response_type = token)'
+      authorization_method_fetch: 'Metode Otorisasi Pengambilan (Tidak langsung mengarahkan ke)'
       display_mode: 'Mode Tampilan'
       enforce_state: 'Menerapkan State Validation (parameter state)'
       require_exact_redirect_uri: 'Memerlukan URI Pengalihan yang Tepat'
@@ -42,6 +43,7 @@ foskym-oauth-center:
       delete_token: 'Hapus Token'
   forum:
     authorize:
+      access: 'Akses ke'
       agree: Setuju
       deny: Tolak
     authorized:
