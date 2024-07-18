@@ -6,6 +6,7 @@ blomstra-database-queue:
   admin:
     settings:
       backoff_help: "Jumlah detik untuk menunggu sebelum mencoba kembali job yang mendapatkan exception yang tidak tertangkap.\n"
+      backoff_label: Kembali
       memory_help: "Batas memori dalam megabyte.\n"
       memory_label: Memori
       rest_help: "Jumlah detik untuk berhenti sementara di antara job.\n"

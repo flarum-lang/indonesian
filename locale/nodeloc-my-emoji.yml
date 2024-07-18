@@ -15,7 +15,7 @@ nodeloc-emoji:
         saved_message: '=> core.admin.settings.saved_message'
         submit_button: '=> core.ref.save_changes'
         text_to_category_name_label: 'Nama kategori'
-        text_to_replace_label: 'Teks yang Akan Diganti'
+        text_to_replace_label: 'Teks untuk Diganti'
       emoji_list:
         load_more_button: '=> core.forum.post_stream.load_more_button'
       export_json_button: 'Ekspor JSON'
@@ -36,11 +36,16 @@ nodeloc-emoji:
         smileys: '=> nodeloc-emoji.ref.emoji_categories.smileys'
         symbols: '=> nodeloc-emoji.ref.emoji_categories.symbols'
         travel: '=> nodeloc-emoji.ref.emoji_categories.travel'
+      emoji_data_label: 'Data Emoji'
       emoji_data_text: 'Ini biasanya digunakan untuk menyediakan nama emoji yang diterjemahkan.'
       emoji_settings_heading: 'Pengaturan Emoji'
+      emoji_style_label: 'Gaya emoji'
+      emoji_style_native_option: Asli
       emoji_version_label: 'Versi emoji'
       emoji_version_text: 'Versi spesifikasi Emoji yang akan digunakan.'
       general_ui_settings_heading: 'Pengaturan Umum UI'
+      initial_category_label: 'Kategori awal'
+      initial_category_text: 'Secara default, picker mulai menampilkan kategori Senyuman & Emosi.'
       recents_count_label: 'Jumlah emoji yang baru saja digunakan'
       recents_count_text: 'Jumlah emoji terbaru yang akan disimpan.'
       show_category_buttons_label: 'Tampilkan tombol kategori'
@@ -49,6 +54,7 @@ nodeloc-emoji:
       show_search_label: 'Tampilkan input pencarian'
       show_variants_label: 'Tampilkan varian'
       show_variants_text: 'Beberapa myemoji memiliki varian warna kulit. Ketika emoji dipilih pada pemilih emoji yang memiliki varian, maka akan muncul popup varian sehingga pengguna dapat memilih varian yang diinginkan.'
+      specify_categories_label: 'Menentukan kategori'
       specify_categories_text: 'Anda dapat menentukan daftar kategori di sini, dan pemilih emoji hanya akan menampilkan kategori tersebut.'
   forum:
     composer:
@@ -72,11 +78,12 @@ nodeloc-emoji:
     emoji_categories:
       activities: Aktivitas
       animals: 'Hewan & Alam'
+      custom: Khusus
       flags: Bendera
       food: 'Makanan & Minuman'
       objects: Benda
       people: 'Manusia & Tubuh'
       recents: 'Emoji Terbaru'
-      smileys: 'Senyum & Emosi'
+      smileys: 'Senyuman & Emosi'
       symbols: Simbol
       travel: 'Perjalanan & Tempat'

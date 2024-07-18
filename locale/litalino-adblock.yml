@@ -4,19 +4,25 @@
 
 adblock:
   admin:
+    adblock-action: 'Pilih pemberitahuan'
+    adblock-action-backup: pencadangan
+    adblock-action-help: 'Di sini Anda dapat mengubah, pemberitahuan default ''pesan, pencadangan'''
     adblock-action-message: pesan
+    adblock-action-notice: pemberitahuan
     adblock-alt: Alt
     adblock-alt-placeholder: 'Atribut alt dalam tag img'
     adblock-div: 'Tambahkan tag banner di mana kode html muncul'
     adblock-div-placeholder: 'Contoh ''#content, .App-content, .IndexPage, container'''
-    adblock-img: Img
+    adblock-img: Gambar
     adblock-img-placeholder: 'https://domain/picture.png'
     adblock-notice-content: 'Isi pesan'
     adblock-notice-content-help: 'Di sini Anda dapat mengubah konten'
     adblock-notice-content-placeholder: 'Hai, bisakah Anda membantu kami? Saya tahu iklan terkadang terlalu mengganggu dan Anda ingin menggunakan Adblock. Tapi tolong dukung kami dengan menambahkan Webiste ke daftar putih. Ini akan membantu kami agar Webiste tetap bebas digunakan. Terima kasih atas bantuan Anda!'
+    adblock-notice-content-sup: 'Mendukung konten teks kecil di atas'
     adblock-notice-content-sup-placeholder: 'Tekan × untuk mematikan notifikasi dan menampilkan konten.'
     adblock-notice-element: 'Tambahkan Tag di mana notifikasi ditampilkan'
     adblock-notice-element-placeholder: 'Contoh ''#content, .App-content, .IndexPage, container'''
+    adblock-notice-method: 'Gaya pemberitahuan'
     adblock-notice-method-help: 'Di sini Anda dapat mengubah gaya Notifikasi'
     adblock-supportRedirectUrl: 'Link Dukung Kami'
     adblock-supportRedirectUrl-placeholder: 'Paste URL yang valid di sini atau biarkan kosong'

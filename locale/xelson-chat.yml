@@ -16,7 +16,7 @@ xelson-chat:
         vision: 'Melihat pesan yang dihapus'
       post: 'Mengirim pesan obrolan'
     settings:
-      charlimit: 'Batas karakter dalam sebuah pesan'
+      charlimit: 'Jumlah maksimum karakter dalam pesan'
       display:
         censor: 'Menyensor pesan untuk pengguna yang tidak sah'
         minimize: 'Kecilkan tampilan awalnya'

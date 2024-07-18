@@ -4,6 +4,8 @@
 
 nodeloc-dislikes:
   admin:
+    permissions:
+      dislike_posts_label: 'Tidak menyukai postingan'
     settings:
       dislike_own_posts_help: 'Jika diaktifkan, dengan izin, pengguna dapat ''tidak menyukai'' post mereka sendiri di forum. Untuk mencegah pengguna menempatkan ''tidak suka'' pada post mereka sendiri, nonaktifkan pengaturan ini.'
       dislike_own_posts_label: 'Pengguna mungkin tidak menyukai post mereka sendiri'

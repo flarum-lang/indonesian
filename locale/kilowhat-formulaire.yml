@@ -28,8 +28,12 @@ kilowhat-formulaire:
       horizontal-layout: 'Gunakan tata letak formulir horizontal'
       horizontal-layout-locations:
         discussionComposer: 'Area Pengeditan Diskusi'
+        discussionEdit: 'Jendela Modal Edit Diskusi'
+        discussionView: 'Wadah Tampilan Diskusi'
         profileEdit: 'Halaman Edit Profil'
         profileView: 'Halaman Tampilan Profil'
+        signUp: 'Jendela Modal Pendaftaran (hanya kolom Formulaire)'
+        standaloneEdit: 'Halaman Pengisian/Pengeditan Mandiri'
         standaloneView: 'Halaman Tampilan Mandiri'
       max-file-size: 'Ukuran file maks (kB)'
       noByobuFields: 'Jangan mengintegrasikan bidang diskusi dengan diskusi pribadi dari ekstensi Byobu'
@@ -79,6 +83,7 @@ kilowhat-formulaire:
       submit: 'Validasi perubahan'
       title: 'Opsi diskusi otomatis'
     badge:
+      hidden: Tersembunyi
       locked: Terkunci
     choice:
       other-label: 'Lainnya:'
@@ -99,9 +104,11 @@ kilowhat-formulaire:
       empty: 'Belum ada data'
     error-page:
       denied-description: 'Sepertinya Anda tidak memiliki akses ke konten ini. Coba login.'
+      denied-title: 'Izin ditolak'
       notfound-description: 'Konten ini bisa jadi tidak ada, atau mungkin Anda tidak memiliki akses ke sana.'
       notfound-title: 'Tidak ditemukan'
     export:
+      fields: Kolom
       format: Format
       format-options:
         csv: CSV
@@ -111,6 +118,7 @@ kilowhat-formulaire:
         xlsx: XLSX
       heading-options:
         none: 'Tidak ada baris header'
+        title: 'Judul kolom'
       meta: Metadata
       meta-options:
         created_at: '=> kilowhat-formulaire.ref.submission-meta.created_at'
@@ -125,12 +133,14 @@ kilowhat-formulaire:
         user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
         user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
       more-meta: 'Opsi meta lainnya'
+      option-keys: 'Tombol opsi ekspor alih-alih judul untuk kotak centang, radio, dan pilihan'
       preview: Pratinjau
       preview-primitives:
         boolean-false: 'False'
         boolean-true: 'True'
         excel-date: '(EXCEL DATE)'
       submit: Download
+      title: 'Pengajuan ekspor'
     form-create:
       button:
         create: 'Buat formulir'
@@ -140,7 +150,10 @@ kilowhat-formulaire:
     form-edit-header:
       access-status:
         both: 'Buat dan edit'
+        closed: Ditutup
+        create: 'Hanya membuat'
         disabled: Konsep
+        edit: 'Hanya mengedit'
         enabled: Diaktifkan
       back: Kembali
       category:
@@ -160,8 +173,10 @@ kilowhat-formulaire:
       tabs:
         access: Akses
         notifications: Notifikasi
+        placement: Penempatan
         submissions: Pengajuan
         template: Template
+      template-export: 'Impor/ekspor template'
     form-edit:
       auto-discussion-options: 'Opsi untuk diskusi baru'
       email-confirmation-options: 'Template email konfirmasi'
@@ -206,6 +221,7 @@ kilowhat-formulaire:
         show-on-signup-invalid-permissions: "Anda perlu menyetel izin \"lihat milik sendiri\" dan \"edit milik sendiri\" kepada anggota yang tidak disetujui untuk menggunakan \"tampilkan saat mendaftar\".\n"
     form-index:
       columns:
+        accept-submissions: Buka
         actions: Tindakan
         allow-modification: Modifikasi
         enabled: Diaktifkan
@@ -290,6 +306,7 @@ kilowhat-formulaire:
       delete-confirmation: 'Pengajuan dari {date} akan dihapus secara permanen'
       edit-forbidden: 'Anda tidak dapat lagi mengedit pengajuan ini.'
       edit-submission: 'Edit pengajuan'
+      form-closed: 'Formulir ini ditutup.'
       form-full: 'Formulir ini telah mencapai jumlah maksimum pengumpulan.'
       hide: Hapus
       lock: Kunci
@@ -299,14 +316,18 @@ kilowhat-formulaire:
       unlock: 'Buka Kunci'
     template-editor:
       add-field: 'Tambahkan kolom'
+      delete: 'Hapus kolom'
       description: Deskripsi
+      duplicate: 'Duplikat kolom'
       email: Email
       integer: 'Bilangan bulat'
       key: '(Expert) Kunci JSON dalam payload pengajuan'
       max: Maksimum
       mime: 'Jenis MIME (dipisahkan koma, menerima karakter pengganti sebagai bagian kedua)'
       min: Minimum
+      missing-title: 'Kolom tanpa judul'
       no-answer: 'Tidak ada jawaban'
+      other: 'Izinkan value pengguna "lainnya"'
       regex: 'Regular expression'
       required: Dibutuhkan
       rich: 'Rich text (TextFormatter)'
@@ -315,8 +336,10 @@ kilowhat-formulaire:
         checkbox: 'Kotak centang'
         content: Konten
         date: Tanggal
+        items: Multi-entri
         long: 'Teks panjang'
         number: Angka
+        radio: Radio
         select: Dropdown
         short: 'Teks pendek'
         upload: Upload
@@ -345,6 +368,7 @@ kilowhat-formulaire:
     submission-meta:
       created_at: 'Tanggal Pembuatan'
       link_id: 'ID sumber daya yang ditautkan'
+      locked_at: 'Tanggal Penguncian'
       uid: 'ID Pengajuan'
       updated_at: 'Tanggal Pembaruan'
       user_activated: 'Akun Aktif'
