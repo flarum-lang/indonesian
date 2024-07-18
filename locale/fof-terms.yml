@@ -22,7 +22,7 @@ fof-terms:
     permissions:
       export-policies: 'Mengekspor semua data pengguna dan kebijakan'
       postpone-policies-accept: 'Dapat menunda untuk menerima persyaratan yang baru'
-      see-user-policies-state: 'Melihat status kebijakan pengguna'
+      see-user-policies-state: 'Melihat pernyataan kebijakan pengguna'
     policies:
       export-url: 'URL Ekspor'
       export-url-help: "Setiap pengguna yang memiliki izin \"Ekspor semua data kebijakan\" dapat mengakses URL tersebut untuk men-download daftar pengguna yang menerima kebijakan ini. Anda dapat menemukan detail lebih lanjut tentang opsi yang tersedia di <a>wiki ekstensi</a>.\n"
@@ -58,10 +58,10 @@ fof-terms:
     state-modal:
       accepted-at: 'Diterima {date}'
       not-accepted: 'Tidak diterima'
-      title: 'Ketentuan menerima status untuk pengguna {username}'
+      title: 'Pernyataan menerima persyaratan untuk pengguna {username}'
     update-alert:
       can-accept-message: 'Kami baru saja mengubah persyaratan ini. Anda harus menyetujuinya untuk terus menggunakan situs web ini.'
       must-accept-message: 'Kami telah membatasi akses ke akun Anda untuk sementara waktu, sementara itu Anda dapat memeriksa persyaratan yang baru.'
       review: 'Klik di sini untuk meninjau dan menerima persyaratan yang baru'
     user_controls:
-      state_button: 'Ketentuan menerima status'
+      state_button: 'Pernyataan menerima persyaratan'

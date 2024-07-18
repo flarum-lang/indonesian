@@ -57,7 +57,7 @@ fof-oauth:
   forum:
     error:
       bad_verification_code: 'Token verifikasi tidak valid atau kedaluwarsa. Silakan coba lagi.'
-      invalid_state: 'Status tidak valid. Silakan coba lagi.'
+      invalid_state: 'Tidak valid. Silakan coba lagi.'
     log_in:
       with_button: 'Login dengan {provider}'
       with_discord_button: '=> fof-oauth.forum.log_in.with_button'

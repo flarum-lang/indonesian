@@ -14,6 +14,7 @@ datitisev-maintenance:
     permissions:
       allow_bypass_maintenance_label: 'Bypass maintenance mode (pengaturan harus diaktifkan)'
     settings:
+      active_label: 'Keadaan mode pemeliharaan'
       allow_bypass_hint: 'Tidak akan melakukan bypass jika DB tidak dapat diakses. Berlaku untuk forum & API (kecuali API dinonaktifkan sepenuhnya melalui <code>config.php</code>). Jika dinonaktifkan, admin akan tetap dapat mengakses API (kecuali API dinonaktifkan sepenuhnya) untuk mencegah Anda terkunci.'
       allow_bypass_label: 'Izinkan bypass pemeliharaan forum & API menggunakan perizinan'
       disable_admin_label: 'Nonaktifkan akses admin'

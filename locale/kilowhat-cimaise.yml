@@ -65,16 +65,17 @@ kilowhat-cimaise:
     picture-edit:
       unauthorized:
         author: 'Penulis tidak valid, edit tidak diizinkan'
-        crop: 'Pangkas tidak valid, edit tidak diizinkan'
+        crop: 'Crop tidak valid, edit tidak diizinkan'
         description: 'Deskripsi tidak valid, edit tidak diizinkan'
-        isApprovedApprove: 'Status persetujuan tidak valid, tidak diizinkan untuk menyetujui'
-        isApprovedUnApprove: 'Status persetujuan tidak valid, tidak diizinkan untuk membatalkan persetujuan'
-        isDraftSubmit: 'Status konsep tidak valid, tidak diizinkan untuk diserahkan'
-        isDraftUnSubmit: 'Status konsep tidak valid, tidak diizinkan untuk membatalkan pengajuan'
-        isFavorite: 'Status favorit tidak valid, edit tidak diizinkan'
-        isHiddenHide: 'Status sembunyikan tidak valid, tidak diizinkan untuk menyembunyikan'
-        isHiddenRestore: 'Status sembunyikan tidak valid, tidak diizinkan untuk memulihkan'
+        isApprovedApprove: 'Pernyataan persetujuan tidak valid, tidak diizinkan untuk menyetujui'
+        isApprovedUnApprove: 'Pernyataan persetujuan tidak valid, tidak diizinkan untuk membatalkan persetujuan'
+        isDraftSubmit: 'Pernyataan konsep tidak valid, tidak diizinkan untuk diserahkan'
+        isDraftUnSubmit: 'Pernyataan konsep tidak valid, tidak diizinkan untuk membatalkan pengajuan'
+        isFavorite: 'Pernyataan favorit tidak valid, pengeditan tidak diizinkan'
+        isHiddenHide: 'Pernyataan sembunyikan tidak valid, tidak diizinkan untuk menyembunyikan'
+        isHiddenRestore: 'Pernyataan sembunyikan tidak valid, tidak diizinkan untuk memulihkan'
         license: 'Lisensi tidak valid, edit tidak diizinkan'
+        stickers: 'Sticker tidak valid, pengeditan tidak diizinkan'
         takenAt: 'Tanggal pengambilan tidak valid, edit tidak diizinkan'
         title: 'Judul tidak valid, edit tidak diizinkan'
     post-edit:
@@ -198,6 +199,7 @@ kilowhat-cimaise:
     by-user: Oleh
     controls: Kontrol
     delete: Hapus
+    hide: Sembunyikan
     load-more: 'Muat Lebih Banyak'
     loading: Memuat...
     pictures: Gambar

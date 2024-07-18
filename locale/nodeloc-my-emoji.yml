@@ -15,9 +15,12 @@ nodeloc-emoji:
         saved_message: '=> core.admin.settings.saved_message'
         submit_button: '=> core.ref.save_changes'
         text_to_category_name_label: 'Nama kategori'
+        text_to_replace_label: 'Teks yang Akan Diganti'
       emoji_list:
         load_more_button: '=> core.forum.post_stream.load_more_button'
+      export_json_button: 'Ekspor JSON'
       heading_title: 'Emoji Khusus'
+      import_json_button: 'Impor JSON'
       import_myemoji_message: 'Ini hanya akan mengimpor konfigurasi emoji. Anda perlu mengunggah gambar emoji secara manual.'
     settings:
       auto_hide_label: 'Sembunyi otomatis'
@@ -33,6 +36,7 @@ nodeloc-emoji:
         smileys: '=> nodeloc-emoji.ref.emoji_categories.smileys'
         symbols: '=> nodeloc-emoji.ref.emoji_categories.symbols'
         travel: '=> nodeloc-emoji.ref.emoji_categories.travel'
+      emoji_data_text: 'Ini biasanya digunakan untuk menyediakan nama emoji yang diterjemahkan.'
       emoji_settings_heading: 'Pengaturan Emoji'
       emoji_version_label: 'Versi emoji'
       emoji_version_text: 'Versi spesifikasi Emoji yang akan digunakan.'
@@ -40,6 +44,7 @@ nodeloc-emoji:
       recents_count_label: 'Jumlah emoji yang baru saja digunakan'
       recents_count_text: 'Jumlah emoji terbaru yang akan disimpan.'
       show_category_buttons_label: 'Tampilkan tombol kategori'
+      show_preview_label: 'Tampilkan bagian pratinjau'
       show_recents_label: 'Tampilkan (dan simpan) emoji yang terakhir digunakan'
       show_search_label: 'Tampilkan input pencarian'
       show_variants_label: 'Tampilkan varian'
@@ -67,9 +72,10 @@ nodeloc-emoji:
     emoji_categories:
       activities: Aktivitas
       animals: 'Hewan & Alam'
+      flags: Bendera
       food: 'Makanan & Minuman'
-      objects: Objek
-      people: 'Orang & Tubuh'
+      objects: Benda
+      people: 'Manusia & Tubuh'
       recents: 'Emoji Terbaru'
       smileys: 'Senyum & Emosi'
       symbols: Simbol

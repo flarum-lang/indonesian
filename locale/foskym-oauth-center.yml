@@ -36,7 +36,7 @@ foskym-oauth-center:
       allow_implicit: 'Izinkan Implicit Grant (response_type = token)'
       authorization_method_fetch: 'Metode Otorisasi Pengambilan (Tidak langsung mengarahkan ke)'
       display_mode: 'Mode Tampilan'
-      enforce_state: 'Menerapkan State Validation (parameter state)'
+      enforce_state: 'Menerapkan State Validation (state parameter)'
       require_exact_redirect_uri: 'Memerlukan URI Pengalihan yang Tepat'
     tokens:
       add_token: 'Tambahkan Token'
