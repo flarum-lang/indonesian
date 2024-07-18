@@ -26,10 +26,12 @@ CHANGELOG
 * [`kyrne/websocket`](https://github.com/KyrneDev/websocket)
 * [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
 * [`michaelbelgium/flarum-umami`](https://github.com/MichaelBelgium/flarum-umami)
+* `nodeloc-referral`
 * [`swaggymacro/only-starter`](https://github.com/SwaggyMacro/OnlyStarter)
 * [`the-turk/flarum-nodp`](https://github.com/the-turk/flarum-nodp)
 * [`v17development/flarum-support`](https://flarum.org/extension/v17development/flarum-support)
 * [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
 
 
 Semua perubahan: [1.18.0...1.18.1](https://github.com/flarum-lang/indonesian/compare/1.18.0...1.18.1).
