@@ -90,7 +90,7 @@ fof-upload:
         title: 'Gambar watermark'
         toggle: 'Gambar watermark'
     nav:
-      shared-uploads-button: 'Unggahan bersama'
+      shared-uploads-button: 'Unggahan Bersama'
     pane:
       description: 'Siapkan layanan dan preferensi upload.'
       title: Upload

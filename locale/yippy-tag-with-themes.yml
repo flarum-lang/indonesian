@@ -5,9 +5,33 @@
 yippy-tag-with-themes:
   admin:
     designs:
+      add: 'Tambahkan Desain untuk Tag'
+      banner: 'Tema Desain {index}'
       data:
+        is_enabled: 'Aktifkan Tema Desain'
+        primary_background_color: 'Edit Warna Background Utama'
+        primary_font_class: 'Edit Font Utama'
+        tags: 'Tag Primer Yang Dipilih'
+        tags_help: 'Pilih satu atau lebih tag untuk tema desain khusus ini'
         themeName: 'Pilih Tema'
+        unread_color: 'Edit Warna Background Yang Belum Dibaca'
       description: 'Menyediakan daftar aturan untuk menampilkan tema yang berbeda untuk tag tertentu'
       header:
         color_theme: 'Sesuaikan Skema Warna Default'
         theme: 'Tema Khusus'
+      title: 'Tema Desain Khusus untuk Tag'
+    helps:
+      design_default: 'Pilih layout desain default'
+    labels:
+      design_default: 'Layout Desain Diskusi'
+    options:
+      design_options:
+        basic: Basic
+        basic_outline: 'Basic Outline'
+        basic_tag: 'Basic (Tag Primer)'
+        flat: Flat
+        flat_border: 'Flat Border'
+        flat_border_tag: 'Flat Border (Tag Primer)'
+        flat_tag: 'Flat (Tag Primer)'
+        sticky_note: 'Sticky Note'
+        sticky_note_tag: 'Sticky Note (Tag Primer)'
