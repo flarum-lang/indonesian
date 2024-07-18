@@ -61,7 +61,7 @@ fof-byobu:
         selected_users: 'Klik username untuk menghapusnya.'
         update_recipients: 'Diskusi ini hanya akan terlihat oleh pengguna yang Anda pilih di sini.'
       labels:
-        search_field: 'Cari pengguna'
+        search_field: 'Pencarian untuk pengguna'
         selected_users: 'Pengguna yang dipilih'
       titles:
         add_recipients: 'Menambahkan penerima ke dalam diskusi Anda'

@@ -7,8 +7,9 @@ blomstra-payments:
     edit-group:
       select-pta-product-description: "Memilih produk akan memungkinkan akses ke grup setelah pembayaran. Dalam hal langganan, akses akan dicabut secara otomatis setelah pembatalan langganan. Buat produk di dasbor Stripe Anda dan salin ID yang dimulai dengan <code>prod_</code> ke dalam bidang ini.\n"
     edit-tag:
-      select-ptb-product-description: "\n"
+      select-ptp-product: '(PTP) Produk yang dibutuhkan'
       select-ptp-product-description: "Memilih produk akan memerlukan pembayaran produk tersebut untuk setiap diskusi dalam tag tersebut. Bayar per posting, misalnya bagus untuk advertorial. Buat produk dengan satu harga \"satu kali\" di dalam Stripe Anda dan salin ID yang dimulai dengan <code>prod_</code> ke dalam kolom ini.\n"
+      select-ptv-product: '(PTV) Produk yang dibutuhkan'
       select-ptv-product-description: "Memilih produk akan memerlukan pembayaran produk tersebut untuk mendapatkan akses permanen ke semua postingan di luar ambang batas.. Buat produk di dalam Stripe Anda dan salin ID yang dimulai dengan <code>prod_</code> ke dalam kolom ini.\n"
       visible-from: 'Sembunyikan postingan pada ambang batas ini'
       visible-from-description: "Angka yang Anda tentukan di sini menentukan di titik mana postingan akan disembunyikan untuk pengguna yang belum membayar untuk mengakses konten. Gunakan 0 untuk menyembunyikan semuanya, 1 untuk yang setelah Original Poster.\n"
@@ -27,6 +28,9 @@ blomstra-payments:
       options: opsi
       purchase: pembelian
       subscribed: berlangganan
+    backers-widget:
+      backers: Pendukung
+      none: 'Belum ada pendukung.'
     bounties:
       enable-control: 'Aktifkan Hadiah'
       purchase-control: 'Tambahkan Hadiah'
@@ -53,3 +57,7 @@ blomstra-payments:
       none: 'Tidak ada pembayaran atau langganan aktif'
     tag:
       require-payment-label: 'Dibutuhkan Pembayaran'
+core:
+  forum:
+    index_sort:
+      mostBacked_button: 'Paling banyak didukung'

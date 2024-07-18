@@ -16,4 +16,4 @@ clarkwinkelmann-formatted-banner:
     alert:
       login: 'Anda telah terhubung secara otomatis.'
       logout: 'Sesi Anda telah kedaluwarsa.'
-      refresh: 'Segarkan halaman'
+      refresh: 'Refresh halaman'

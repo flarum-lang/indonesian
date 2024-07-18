@@ -201,6 +201,7 @@ v17development-flarum-support:
             filter_count: '{count, plural, one {# filter} other {# filter}}'
             title: 'Status tiket'
         no_tickets: 'Tidak ada tiket yang sesuai dengan kriteria Anda, mungkin Anda melakukan pekerjaan dengan baik!'
+        refresh: Refresh
         selection_closed: 'Tiket tertutup'
         selection_open: 'Tiket terbuka'
         selection_unfiltered: 'Tidak difilter'

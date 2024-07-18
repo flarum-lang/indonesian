@@ -14,6 +14,7 @@ kilowhat-cimaise:
       hideOwnAlbum: 'Menyembunyikan album sendiri'
       hideOwnPicture: 'Menyembunyikan gambar sendiri'
       licenseOwnPublishedPicture: 'Mengubah lisensi gambar sendiri setelah diterbitkan'
+      moderate: Memoderasi
       publishSilently: 'Publikasikan gambar secara diam-diam (tanpa event post)'
       renameOwnPublishedPicture: 'Mengubah judul dan deskripsi gambar sendiri setelah diterbitkan'
       uploadCommunityPicturesWithoutApproval: 'Mengunggah gambar tanpa persetujuan di album komunitas'
@@ -37,9 +38,11 @@ kilowhat-cimaise:
       neverSyncDiscussionAlbumTitlesHelp: "Secara default, album yang dihubungkan yang memiliki judul yang sama persis dengan diskusi akan diganti namanya ketika judul diskusi berubah. Jika album diganti namanya secara manual, album tersebut tidak akan disinkronkan kembali ke diskusi.\n"
       requireLicense: 'Anda perlu memilih lisensi dari daftar di bawah ini'
       requireLicenseHelp: "Secara default, pengguna dapat melewatkan pengaturan lisensi. Pastikan persyaratan penggunaan situs web Anda mencakup apa yang dapat dilakukan dengan media yang lisensinya tidak ditentukan.\n"
+      sticker-add: 'Tambahkan sticker'
       sticker-key: Key
       sticker-label: Label
       sticker-url: URL
+      stickers: Sticker
       watermarkFile: 'Gambar watermark'
       watermarkFileHelp: 'Gambar yang disediakan akan menerapkan rasio 1:1 pada setiap unggahan, kecuali pratinjau terkecil.'
       watermarkPlacement: 'Penempatan watermark'
@@ -53,7 +56,7 @@ kilowhat-cimaise:
       pictures:
         drafts: '({count} konsep)'
         section: Gambar
-      refresh: Segarkan
+      refresh: Refresh
       storage:
         conversions: 'Konversi: {size}'
         originals: 'Asli: {size}'

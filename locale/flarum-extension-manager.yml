@@ -105,7 +105,8 @@ flarum-extension-manager:
           why_not: 'Menganalisa mengapa sebuah paket tidak dapat diperbarui'
         output_modal:
           cause_unknown: 'Tidak diketahui'
-        refresh: 'Segarkan daftar tugas'
+          guessed_cause: Penyebab
+        refresh: 'Refresh daftar tugas'
         statuses:
           failure: Gagal
           pending: Tertunda

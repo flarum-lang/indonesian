@@ -20,7 +20,7 @@ blomstra-horizon:
       trim_recent_help: "Tabel ini digunakan untuk menampilkan job terbaru di dashboard Horizon.\n"
       trim_title: 'Pengaturan Trim (Pemangkasan)'
     stats:
-      auto_refresh: 'Penyegaran Otomatis'
+      auto_refresh: 'Refresh Otomatis'
       data:
         failed-last-seconds: 'Job yang Gagal dalam Beberapa Detik Terakhir'
         jobs-past-hour: 'Job di Jam Terakhir'
@@ -42,4 +42,4 @@ blomstra-horizon:
         total-processes: 'Total Proses'
       full_dashboard: 'Dashboard Horizon'
       heading: 'Gambaran Umum Antrian'
-      refresh: Segarkan
+      refresh: Refresh

@@ -21,7 +21,7 @@ foskym-oauth-center:
       scopes: 'Kelola Cakupan'
       tokens: 'Kelola Token'
     permission:
-      use_oauth: 'Gunakan OAuth'
+      use_oauth: 'Menggunakan OAuth'
     scopes:
       add_button: 'Tambah Cakupan'
       edit_scope: 'Edit Cakupan'

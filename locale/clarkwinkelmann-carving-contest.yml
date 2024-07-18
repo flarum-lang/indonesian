@@ -42,7 +42,7 @@ clarkwinkelmann-carving-contest:
       load-more: 'Memuat lebih banyak entri'
       loading: 'Memuat entri...'
       participate: Berpartisipasi
-      refresh: Segarkan
+      refresh: Refresh
       sort:
         fewerLikes: 'Lebih sedikit disukai'
         leastRecent: Terlama

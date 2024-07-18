@@ -15,7 +15,7 @@ blomstra-database-queue:
       timeout_help: "Jumlah detik child process dapat berjalan.\n"
       timeout_label: 'Batas waktu'
     stats:
-      auto_refresh: 'Penyegaran Otomatis'
+      auto_refresh: 'Refresh Otomatis'
       data:
         failed-jobs: 'Job Gagal'
         pending-jobs: 'Job Tertunda'
@@ -25,4 +25,4 @@ blomstra-database-queue:
           label: Status
           running: Berjalan
       heading: 'Gambaran Umum Antrian'
-      refresh: Segarkan
+      refresh: Refresh

@@ -17,7 +17,9 @@ pay-to-see:
       discussion_purchased_cost: 'Anda telah menerima {cost}'
       notification_setting_some_one_purchase_content: 'Seseorang telah membeli konten saya'
     pay_to_see_content: 'Bayar Untuk Melihat Konten'
+    pay_to_see_content_bypass: 'Bayar Untuk Melihat Konten [Bypass Perizinan]'
     pay_to_see_content_label: 'Bayar Untuk Melihat Konten'
+    pay_to_see_owner_bypass: 'Bayar Untuk Melihat Konten [Bypass Pemilik]'
     purchase_button: 'Beli Konten'
     purchase_confirmation: 'Beli Konten'
     purchase_confirmation_text: 'Apakah Anda yakin untuk membayar {costText}?'
@@ -27,8 +29,11 @@ pay-to-see:
     purchased_content: 'Konten yang Dibeli'
     purchased_users_empty: 'Belum ada yang membeli'
     remove: Hapus
+    remove_pay_to_see_price_success: 'Bayar Untuk Melihat Konten Yang Dihapus'
     set_pay_to_see_price: 'Tetapkan Harga Konten'
     set_pay_to_see_price_success: 'Harga Konten Yang Ditetapkan'
+    tag_has_permission: 'Izinkan bayar untuk melihat konten'
+    tag_no_permission: 'Anda tidak dapat menggunakan bayar untuk melihat pada tag yang dipilih'
     tag_no_permission_title: 'Bayar Untuk Melihat Konten'
   lib:
     cancel: Batal

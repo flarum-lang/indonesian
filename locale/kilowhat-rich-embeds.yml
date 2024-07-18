@@ -8,11 +8,12 @@ kilowhat-rich-embeds:
       disableOnAnyPost: 'Nonaktifkan embed di post mana pun'
       disableOnOwnPost: 'Menonaktifkan embed pada post Anda sendiri'
       refreshOnAnyPost: 'Refresh embed di post mana pun'
-      refreshOnOwnPost: 'Refresh embed pada postingan Anda sendiri'
+      refreshOnOwnPost: 'Refresh embed pada post Anda sendiri'
       useOnOwnPost: 'Gunakan embed di post Anda sendiri'
       viewGoogleDriveThumbnails: 'Melihat thumbnail Google Drive yang didukung API'
     preview:
       loading: Memuat...
+      refresh: Refresh
       title: Pratinjau
     section:
       flarum: Flarum
@@ -43,6 +44,8 @@ kilowhat-rich-embeds:
       imageProxy: 'Proksi Gambar OpenGraph'
       imageProxyHelp: 'Semua gambar OpenGraph dan favicon akan diproksi melalui Flarum dan bukannya diambil oleh browser pengunjung'
       layout: 'Tata letak'
+      layoutOptions:
+        separated: Terpisah
       maxImageCount: 'Jumlah gambar maksimum dalam pratinjau'
       maxImageCountHelp: "Berapa banyak gambar dari Opengraph atau fallback parser yang akan ditampilkan. Semua URL gambar selalu disimpan, sehingga Anda dapat mengubah pengaturan ini nanti.\n"
       maxImageCountPlaceholder: 'Biarkan kosong untuk jumlah yang tidak terbatas'
@@ -120,6 +123,7 @@ kilowhat-rich-embeds:
       imgCopy: 'Salin URL gambar'
       imgOpen: 'Buka gambar di tab baru'
       play: 'Klik untuk memutar media menggunakan pemutar yang disematkan'
+      refresh: 'Refresh data'
     embed:
       altAvatar: 'Gambar avatar penulis'
       altFavicon: 'Ikon {website}'

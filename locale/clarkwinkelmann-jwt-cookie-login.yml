@@ -18,7 +18,7 @@ clarkwinkelmann-jwt-cookie-login:
       expirationLeeway: 'Expiration Leeway (detik)'
       expirationLeewayHelp: "Berapa detik tambahan setelah berakhirnya JWT, sesi masih bisa dimulai. Angka ini hanya dimaksudkan untuk beberapa menit saja untuk memperhitungkan waktu yang tidak sama antar server. Namun, angka ini juga dapat disetel ke nilai yang lebih panjang jika ini adalah satu-satunya cara untuk mengatasi masa pakai JWT yang pendek dari library external.\n"
       hiddenIframe: 'Iframe Tersembunyi - URL'
-      hiddenIframeHelp: "Iframe ini akan dimuat di luar layar pada semua halaman aplikasi Flarum single page. Ini dapat digunakan untuk me-refresh cookie secara berkala dan dapat menggunakan browser messaging untuk memicu refresh halaman untuk dapat login otomatis atau logout otomatis. Lihat README untuk dokumentasi.\n"
+      hiddenIframeHelp: "Iframe ini akan dimuat di luar layar pada semua halaman aplikasi Flarum single page. Ini dapat digunakan untuk memperbarui cookie secara berkala dan dapat menggunakan browser messaging untuk memicu refresh halaman untuk login otomatis atau logout otomatis. Lihat README untuk dokumentasi.\n"
       logoutRedirect: 'URL Pengalihan Saat Logout'
       logoutRedirectHelp: "Selama sesi JWT stateless, link logout Flarum akan diganti dengan link yang mengarah ke URL ini. Jika tidak ada value yang ditetapkan, tombol logout akan disembunyikan.\n"
       publicKey: 'Public Key'
