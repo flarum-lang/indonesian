@@ -9,8 +9,10 @@ yippy-tag-with-themes:
       banner: 'Tema Desain {index}'
       data:
         is_enabled: 'Aktifkan Tema Desain'
+        outline_background_color: 'Edit Warna Garis'
         primary_background_color: 'Edit Warna Background Utama'
         primary_font_class: 'Edit Font Utama'
+        secondary_font_class: 'Edit Font Sekunder'
         tags: 'Tag Primer Yang Dipilih'
         tags_help: 'Pilih satu atau lebih tag untuk tema desain khusus ini'
         themeName: 'Pilih Tema'
@@ -27,11 +29,26 @@ yippy-tag-with-themes:
     options:
       design_options:
         basic: Basic
+        basic_banner: 'Basic (Banner Utama)'
         basic_outline: 'Basic Outline'
+        basic_outline_banner: 'Basic Outline (Banner Utama)'
+        basic_outline_tab: 'Basic Outline (Tab Primer)'
+        basic_outline_tag: 'Basic Outline (Tag Primer)'
+        basic_tab: 'Basic (Tab Primer)'
         basic_tag: 'Basic (Tag Primer)'
         flat: Flat
+        flat_banner: 'Flat (Banner Utama)'
         flat_border: 'Flat Border'
+        flat_border_banner: 'Flat Border (Banner Utama)'
+        flat_border_tab: 'Flat Border (Tab Primer)'
         flat_border_tag: 'Flat Border (Tag Primer)'
+        flat_tab: 'Flat (Tab Primer)'
         flat_tag: 'Flat (Tag Primer)'
         sticky_note: 'Sticky Note'
+        sticky_note_banner: 'Sticky Note (Banner Utama)'
+        sticky_note_outline: 'Sticky Note - Bergaris'
+        sticky_note_outline_banner: 'Sticky Note - Bergaris (Banner Utama)'
+        sticky_note_outline_tab: 'Sticky Note - Bergaris (Tab Primer)'
+        sticky_note_outline_tag: 'Sticky Note - Bergaris (Tag Primer)'
+        sticky_note_tab: 'Sticky Note (Tab Primer)'
         sticky_note_tag: 'Sticky Note (Tag Primer)'

@@ -29,4 +29,11 @@ justoverclock-auto-post-count-badge:
       tier: 'Tingkat {tier}: dari {from} hingga {to} post'
   forum:
     hasWritten: 'Memiliki: {count, plural, one {# post} other {# post}}'
+    less1000post: 'Sang Ahli!'
+    less100post: Pembicara
+    less10post: Bayi
+    less300post: Pengajar
+    less50post: Pemula
+    less600post: 'Sang Monster!'
+    nextBadge: 'Badge berikutnya di'
     posts: post

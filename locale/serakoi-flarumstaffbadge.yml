@@ -4,6 +4,11 @@
 
 serakoi-flarumstaffbadge:
   admin:
+    permissions:
+      canEditStaffBadge:
+        label: 'Dapat Mengedit Badge Staf'
+      canEditTagList:
+        label: 'Dapat Mengedit Daftar Tag'
     staffBadge:
       help: 'Teks Badge Staf (Default-nya adalah ''STAFF'')'
       label: 'Teks Badge Staf'

@@ -7,6 +7,7 @@ justoverclock-auto-post-badge-pro:
     cologBackg: 'Warna Background'
     colorBg: 'Background Progress Bar'
     colorBgTwo: Background
+    fromPost: 'Dari Post Nomor'
     icon: Ikon
     levelEight: 'Level 8'
     levelEighteen: 'Level 18'
@@ -27,5 +28,8 @@ justoverclock-auto-post-badge-pro:
     levelTwelve: 'Level 12'
     levelTwo: 'Level 2'
     text: Teks
+    toPost: 'Ke Post Nomor'
   forum:
     hasWritten: 'Pengguna ini telah menulis'
+    nextBadge: 'Badge berikutnya di'
+    posts: post
