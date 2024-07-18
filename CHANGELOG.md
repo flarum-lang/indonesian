@@ -5,6 +5,11 @@ CHANGELOG
 1.18.1 (XXXX-XX-XX)
 -------------------
 
+**Perubahan umum**:
+
+* Memperbarui terjemahan untuk Flarum core.
+
+
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
@@ -35,6 +40,7 @@ CHANGELOG
 * [`v17development/flarum-support`](https://flarum.org/extension/v17development/flarum-support)
 * [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
 * [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
+* [`ziiven/flarum-decoration-store`](https://flarum.org/extension/ziiven/flarum-decoration-store)
 
 
 Semua perubahan: [1.18.0...1.18.1](https://github.com/flarum-lang/indonesian/compare/1.18.0...1.18.1).
