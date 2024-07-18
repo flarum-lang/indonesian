@@ -5,7 +5,7 @@
 fof-discussion-language:
   admin:
     permissions:
-      allow_change_language_label: 'Izinkan pengeditan bahasa'
+      allow_change_language_label: 'Mengizinkan pengeditan bahasa'
     settings:
       composer_default_label: 'Pilih terlebih dahulu bahasa lokal di area penulisan diskusi'
       config:

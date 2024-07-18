@@ -25,7 +25,7 @@ fof-upload:
       s3_instance_profile: "Biarkan key dan secret kosong untuk menggunakan kredensial di instance profile.\n"
       watermark: "Tentukan apakah gambar akan ditambahkan watermark saat di-upload. Watermark ditambahkan ke non-gif berdasarkan preferensi Anda di bawah ini.\n"
     inspect-mime:
-      description: "FoF Upload menggunakan library <a>PHP Mime Detector</a> untuk common MIME types and PHP Fileinfo sebagai fallback.\nNilai MIME yang dikembalikan oleh Fileinfo dapat berbeda dari server ke server!\n"
+      description: "FoF Upload menggunakan library <a>PHP Mime Detector</a> untuk common MIME types dan PHP Fileinfo sebagai fallback.\nNilai MIME yang dikembalikan oleh Fileinfo dapat berbeda dari server ke server!\n"
       guessed-extension: 'Ekstensi file default (jika original tidak masuk ke dalam whitelist)'
       laravel-validation: 'Validasi File Laravel'
       mime-detector: 'Pendeteksi Mime (primer)'
@@ -99,7 +99,7 @@ fof-upload:
       delete_uploads_of_others_label: 'Menghapus data upload pengguna'
       download_label: 'Men-download file'
       upload_label: 'Meng-upload file'
-      upload_shared_label: 'Upload file bersama'
+      upload_shared_label: 'Mengunggah file bersama'
       view_user_uploads_label: 'Melihat data upload pengguna'
     shared-uploads:
       description: 'Upload file yang dapat digunakan oleh semua pengguna forum Anda.'
@@ -109,7 +109,7 @@ fof-upload:
       upload-new-button: 'Upload file baru'
     templates:
       bbcode-image: 'Template gambar BBCode'
-      bbcode-image_description: "Tampilkan gambar menggunakan BBCode. <strong>Anda harus menginstal dan mengaktifkan flarum/bbcode.</strong> Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection dinonaktifkan.\n"
+      bbcode-image_description: "Menampilkan gambar lengkap secara in-line menggunakan BBCode. <strong>Anda harus menginstal dan mengaktifkan flarum/bbcode agar ini berfungsi.</strong> Tidak ada fungsionalitas download, tidak ada statistik yang dikumpulkan dan hotlink protection diabaikan.\n"
       file: 'Template download file default'
       file_description: "Menampilkan nama file dan beberapa informasi umum. Memproksi download melalui php, memungkinkan pengumpulan statistik dan hotlink protection.\n"
       image: 'Template download gambar default'
@@ -119,7 +119,7 @@ fof-upload:
       just-url: 'Hanya URL'
       just-url_description: "Hanya menambahkan URL. Rendering dapat ditangani oleh ekstensi lain dengan kemampuan auto-link. Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection dinonaktifkan.\n"
       markdown-image: 'Template gambar markdown'
-      markdown-image_description: "Tampilkan gambar menggunakan Markdown. <strong>Anda harus menginstal dan mengaktifkan flarum/markdown.</strong> Tidak ada fungsi download, tidak ada statistik yang dikumpulkan, dan hotlink protection dinonaktifkan.\n"
+      markdown-image_description: "Menampilkan gambar lengkap secara in-line menggunakan Markdown. <strong>Anda harus menginstal dan mengaktifkan flarum/markdown agar ini berfungsi.</strong> Tidak ada fungsionalitas download, tidak ada statistik yang dikumpulkan dan hotlink protection diabaikan.\n"
       text-preview: 'Pratinjau teks'
       text-preview_description: "Tambahkan preview (5 baris pertama) dari file teks, dengan opsi untuk memperluas untuk memperlihatkan isi file secara penuh.\n"
     upload_methods:
@@ -208,6 +208,7 @@ fof-upload:
       loading: 'Memuat file...'
       modal_empty_desktop: 'Daftar file Anda kosong. Klik tombol atau seret file ke sini untuk mengunggah.'
       modal_empty_phone: 'Daftar file Anda kosong. Ketuk tombol di atas untuk mengunggah file.'
+      release_to_upload: 'Lepaskan untuk mengunggah'
       select_file_a11y_label: 'Pilih file "{fileName}"'
     upload-shared-file-modal:
       dropzone: 'Seret dan letakkan file di sini atau klik untuk menelusuri'

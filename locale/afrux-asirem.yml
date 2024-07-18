@@ -24,8 +24,8 @@ afrux-theme-base:
         add_link: 'Tambah link'
         group_name: 'Nama Grup {number}'
         group_title: 'Judul Grup Link'
-        link_label: 'Link - Label'
-        link_url: 'Link - URL'
+        link_label: 'Label Link'
+        link_url: 'Link URL'
     users:
       grid:
         columns:

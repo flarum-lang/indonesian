@@ -35,19 +35,24 @@ nodeloc-lottery:
       cannot_cancel_lottery: 'Pengguna tidak dapat membatalkan partisipasi'
       submit_button: 'Klik untuk berpartisipasi'
     lottery_ended: 'Undian ini telah berakhir.'
+    max_votes_allowed: 'undian memungkinkan voting untuk {max, plural, one {# opsi} other {# opsi}}.'
     minutes: Menit
     modal:
       add_option_label: 'Tambahkan Pilihan'
-      add_title: 'Menambahkan undian'
+      add_title: 'Tambahkan undian'
       allow_cancel_enter_label: 'Izinkan pengguna untuk membatalkan partisipasi'
+      allow_multiple_votes_label: 'Izinkan orang untuk memilih lebih dari satu opsi'
       amount: Jumlah
       date_placeholder: 'Waktu Pengundian'
+      discussions_started: 'Diskusi dimulai'
       edit_title: 'Edit undian'
+      hide_votes_label: 'Menyembunyikan pilihan sampai undian berakhir'
       image_option_placeholder: 'URL gambar (opsional)'
       include_amount: 'Anda harus menyertakan jumlah'
       include_end_date: 'Anda harus menyertakan tanggal berakhirnya'
       include_price: 'Anda harus mencantumkan harga'
       include_prizes: 'Anda harus menyertakan hadiah'
+      lotteries_made: 'Undian dimulai'
       lottery_placeholder: Hadiah
       max: 'Anda dapat memilih maksimal {max} jawaban'
       max_participants: 'Jumlah maksimal peserta'
@@ -60,6 +65,7 @@ nodeloc-lottery:
       participants_help: 'Batalkan jika terlalu sedikit jumlah peserta, dan batalkan partisipasi jika melebihi jumlah maksimum...'
       participants_label: Peserta
       price: Harga
+      public_lottery_label: 'Izinkan orang untuk melihat siapa yang memilih'
       submit: Submit
     moderation:
       add: 'Tambahkan undian'
@@ -74,3 +80,4 @@ nodeloc-lottery:
     too_many_participants: 'Terlalu banyak peserta'
     tooltip:
       badge: undian
+    widget-title: 'Event yang akan datang dimulai pada...'
