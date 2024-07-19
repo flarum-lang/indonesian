@@ -6,7 +6,7 @@ ffans-geetest:
   admin:
     settings:
       config:
-        id_help_text: 'ID verifikasi konteks peristiwa yang Anda terapkan di <a>GeeTest</a>.'
+        id_help_text: 'ID verifikasi context event yang Anda terapkan di <a>GeeTest</a>.'
         id_label: 'ID Verifikasi'
         key_help_text: 'Kunci verifikasi context event yang Anda terapkan di <a>GeeTest</a>.'
         key_label: 'Kunci Verifikasi'
@@ -36,7 +36,7 @@ ffans-geetest:
       load_button: Memuat
       reload_button: 'Muat ulang'
       submit_button: Submit
-      title: 'Uji CAPTCHA'
+      title: 'Menguji CAPTCHA'
   lib:
     verify:
       error_message: 'Validasi gagal.'

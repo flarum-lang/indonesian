@@ -31,6 +31,7 @@ foskym-oauth-center:
       scope_desc: Deskripsi
       scope_icon: Ikon
       scope_name: Nama
+      visible_fields: 'Kolom Yang Terlihat'
     settings:
       access_lifetime: 'Masa Berlaku Token Akses (detik)'
       allow_implicit: 'Izinkan Implicit Grant (response_type = token)'
@@ -46,6 +47,7 @@ foskym-oauth-center:
       access: 'Akses ke'
       agree: Setuju
       deny: Tolak
+      require_these_scopes: 'Membutuhkan cakupan ini'
     authorized:
       load_more: 'Muat Lebih Lanjut'
       no_more_records: 'Tidak ada lagi catatan'
