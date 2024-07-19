@@ -8,6 +8,8 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`blt950/oauth-generic`](https://github.com/blt950/flarum-ext-oauth-generic)
+* [`clarkwinkelmann/flarum-ext-scout`](https://github.com/clarkwinkelmann/flarum-ext-scout)
+* [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
@@ -25,7 +27,11 @@ CHANGELOG
 * [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 * [`fof/stopforumspam`](https://github.com/FriendsOfFlarum/stopforumspam)
 * [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress)
+* [`kyrne/websocket`](https://github.com/KyrneDev/websocket)
+* [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
+* [`litalino/flarum-related-discussions`](https://github.com/Litalino/flarum-related-discussions)
 * [`sas_sam/flarum-regrole`](https://github.com/SasSam/flarum-regrole)
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
 
 
 Semua perubahan: [1.18.1...1.18.2](https://github.com/flarum-lang/indonesian/compare/1.18.1...1.18.2).
