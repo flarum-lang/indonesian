@@ -87,6 +87,9 @@ imeepo-more-bbcode:
     h5: H5
     h6: H6
     hidden_content: 'KONTEN TERSEMBUNYI'
+    hidden_content_like: 'Menyukai konten yang ditampilkan'
+    hidden_content_login: 'Log in untuk konten yang ditampilkan'
+    hidden_content_reply: 'Membalas konten yang ditampilkan'
     lib:
       bold_tooltip: 'Tambahkan teks tebal'
       code_tooltip: 'Sisipkan kode'

@@ -5,20 +5,31 @@
 blomstra-payments:
   admin:
     edit-group:
+      select-pta-product: 'Akses Berbayar'
       select-pta-product-description: "Memilih produk akan memungkinkan akses ke grup setelah pembayaran. Dalam hal langganan, akses akan dicabut secara otomatis setelah pembatalan langganan. Buat produk di akun Stripe Anda dan salin ID yang dimulai dengan <code>prod_</code> ke dalam bidang ini.\n"
     edit-tag:
-      select-ptp-product: '(PTP) Produk yang dibutuhkan'
+      bump-others: '(PTB) Izinkan orang lain mempromosikan diskusi'
+      bump-others-description: "Aktifkan ini agar orang lain selain penulis juga dapat membayar untuk mempromosikan diskusi\n"
+      select-bounty-product: Hadiah
+      select-bounty-product-description: "Pilih produk yang akan disiapkan untuk hadiah. Produk hanya dapat memiliki satu Harga dengan model: \"Custom chooses price\". Salin ID produk yang dimulai dengan <code>prod_</code> ke dalam kolom ini.\n"
+      select-ptb-product: 'Promosi Berbayar'
+      select-ptb-product-description: "Memilih produk akan membutuhkan pembayaran produk tersebut sebelum dapat mempromosikan diskusi.\n"
+      select-ptp-product: 'Publikasi Berbayar'
       select-ptp-product-description: "Memilih produk akan memerlukan pembayaran produk tersebut untuk setiap diskusi dalam tag tersebut. Bayar per posting, misalnya bagus untuk advertorial. Buat produk dengan satu harga \"satu kali\" di dalam Stripe Anda dan salin ID yang dimulai dengan <code>prod_</code> ke dalam kolom ini.\n"
-      select-ptv-product: '(PTV) Produk yang dibutuhkan'
+      select-ptv-product: 'Tampilan Berbayar'
       select-ptv-product-description: "Memilih produk akan memerlukan pembayaran produk tersebut untuk mendapatkan akses permanen ke semua postingan di luar ambang batas.. Buat produk di dalam Stripe Anda dan salin ID yang dimulai dengan <code>prod_</code> ke dalam kolom ini.\n"
       visible-from: 'Sembunyikan postingan pada ambang batas ini'
       visible-from-description: "Angka yang Anda tentukan di sini menentukan di titik mana postingan akan disembunyikan untuk pengguna yang belum membayar untuk mengakses konten. Gunakan 0 untuk menyembunyikan semuanya, 1 untuk yang setelah Original Poster.\n"
     permission:
       enable-bounties: 'Mengaktifkan hadiah'
     settings:
+      assign-bounty-tag-id: 'Tag untuk ditetapkan ke diskusi setelah hadiah pertama dikirimkan'
+      link-access-portal: 'Tautkan portal akses di bawah menu dropdown sesi pengguna'
       link-to-terms: 'URL Ketentuan Pembayaran'
       pk: 'Publishable (api) key'
+      recount-total-discussion-bounties: 'Hitung total hadiah diskusi'
       sk: 'Secret (api) key'
+      webhook-secret: 'Webhook signing secret'
   forum:
     accept-terms-modal:
       accept_label: 'Saya telah membaca dan menerima <link>ketentuan pembayaran</link>.'
@@ -30,11 +41,14 @@ blomstra-payments:
       subscribed: berlangganan
     backers-widget:
       backers: Pendukung
+      label: 'Menjanjikan {currency} {sum}'
       none: 'Belum ada pendukung.'
+      pledged: Berjanji
     bounties:
       enable-control: 'Aktifkan Hadiah'
       purchase-control: 'Tambahkan Hadiah'
     choose-bounty-amount-modal:
+      checkout-control: Checkout
       description: 'Pilih jumlah yang Anda inginkan untuk mendukung "{subject}" atau pilih jumlah khusus.'
       title: 'Pilih jumlah hadiah'
     exceptions:
@@ -44,18 +58,34 @@ blomstra-payments:
     nav:
       access_portal: 'Portal akses'
       user_subscriptions: 'Lanjutkan Pembayaran'
+    pay-to-bump:
+      description: '{count, plural, one {Diskusi telah dipromosikan} other {{count} orang mempromosikan diskusi ini}}.'
+      purchase-control: 'Bayar untuk Promosi'
+      purchase-log-in: 'Login dan membayar promosi'
     pay-to-post:
+      purchase: 'Beli untuk Publikasikan'
+      purchase-control: 'Bayar untuk Mempublikasikan'
       purchase_required: "Pembahasan ini akan diterbitkan setelah Anda menyelesaikan pembayaran melalui penyedia pembayaran kami, Stripe. Klik pembelian untuk melihat opsi biaya dan pembayaran.\n"
     pay-to-view:
       description: "Postingan di luar titik ini terkunci di balik paywall, Anda dapat membukanya dengan menyelesaikan pembayaran melalui penyedia pembayaran kami, Stripe.\n"
       purchase-completed: 'Tidak terkunci'
+      purchase-control: 'Bayar untuk Melihat'
+      purchase-log-in: 'Login & Bayar untuk Melihat'
     payment-options-modal:
       description: "Pilih salah satu opsi berikut untuk memulai akses Anda ke grup. Anda akan diarahkan ke penyedia pembayaran kami, Stripe, untuk proses pembayaran.\n"
       title: 'Opsi pembayaran untuk mendapatkan akses ke {group}'
+    post_stream:
+      bounty_added_text: '{username} menambahkan hadiah sebesar {amount}.'
+    stripe:
+      interval_once: sekali
     subscription-card:
       bounty: Hadiah
       cancel-control: Batal
       none: 'Tidak ada pembayaran atau langganan aktif'
+      pta: 'Akses Berbayar'
+      ptb: 'Promosi Berbayar'
+      ptp: 'Publikasi Berbayar'
+      ptv: 'Tampilan Berbayar'
     tag:
       require-payment-label: 'Dibutuhkan Pembayaran'
 core:
