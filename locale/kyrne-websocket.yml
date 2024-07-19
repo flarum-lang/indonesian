@@ -28,6 +28,7 @@ kyrne-websocket:
       app_port_label: Port
       app_secret_label: 'App Secret'
       auth_only: 'Websocket Hanya untuk Pengguna yang Sudah Login'
+      auto_update: 'Pembaruan Otomatis Diskusi'
       cert_self_signed: 'Self-Signed Certificate Support'
       local_cert_path: 'Local SSL Certificate Path'
       local_pk_path: 'Local SSL Private Key Path'

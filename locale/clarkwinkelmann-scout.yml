@@ -27,4 +27,8 @@ clarkwinkelmann-scout:
       queryMinLengthPlaceholder: Otomatis
       queue: 'Proses pembaruan indeks dalam antrian'
       queueHelp: 'Pengaturan ini hanya berlaku jika asynchronous queue driver dikonfigurasikan di Flarum.'
+      tntsearchFuzziness: 'TNT Search Fuzziness (kesalahan pengetikan/variasi pencocokan)'
+      tntsearchFuzzyDistance: 'TNT Search Fuzziness Levenshtein Distance (opsional)'
+      tntsearchFuzzyMaxExpansions: 'TNT Search Fuzziness Max Expansions (opsional)'
+      tntsearchFuzzyPrefixLength: 'TNT Search Fuzziness Prefix Length (opsional)'
       tntsearchMaxDocs: 'TNT Search Max Docs (opsional, jumlah hasil maksimum)'

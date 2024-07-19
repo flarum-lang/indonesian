@@ -16,6 +16,7 @@ datlechin-keyboard-shortcuts:
       back: Kembali
       close: Tutup
       first_post: 'Post Pertama'
+      flags: 'Daftar Post Yang Ditandai'
       follow: 'Ikuti / Berhenti Mengikuti'
       help: Bantuan
       last_post: 'Post Terakhir'
@@ -23,9 +24,9 @@ datlechin-keyboard-shortcuts:
       mark_all_as_read: 'Tandai semua sebagai telah dibaca'
       new_discussion: 'Diskusi Baru'
       notifications: Notifikasi
-      pin_nav: Sematkan
+      pin_nav: Navigasi
       refresh: Refresh
       reply: Balas
-      search: Cari
+      search: Pencarian
       session: 'Dropdown Pengguna'
       signup: Daftar

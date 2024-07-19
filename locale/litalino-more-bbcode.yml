@@ -98,6 +98,7 @@ imeepo-more-bbcode:
       quote_tooltip: 'Sisipkan kutipan'
       spoiler_tooltip: 'Sisipkan spoiler'
       strikethrough_tooltip: 'Tambahkan teks yang dicoret'
+      unordered_list_tooltip: 'Tambahkan bulleted list'
     like_to_see: 'Konten ini memerlukan {like} dan terlihat setelah refresh halaman'
     login_to_see: 'Konten ini memerlukan {login} dan terlihat setelah refresh halaman'
     reply_to_see: 'Konten ini memerlukan {reply} dan ditampilkan setelah refresh halaman'
