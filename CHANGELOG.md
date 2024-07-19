@@ -14,10 +14,12 @@ CHANGELOG
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`afrux/asirem`](https://github.com/afrux/asirem)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
 * [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
 * [`blomstra/payments`](https://flarum.org/extension/blomstra/payments)
 * [`blomstra/s3-assets`](https://flarum.org/extension/blomstra/s3-assets)
+* [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
 * [`clarkwinkelmann/flarum-ext-carving-contest`](https://github.com/clarkwinkelmann/flarum-ext-carving-contest)
 * [`clarkwinkelmann/flarum-ext-follow-tags-prompt`](https://github.com/clarkwinkelmann/flarum-ext-follow-tags-prompt)
 * [`clarkwinkelmann/flarum-ext-formatted-banner`](https://github.com/clarkwinkelmann/flarum-ext-formatted-banner)
@@ -29,6 +31,7 @@ CHANGELOG
 * [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
 * [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
@@ -38,6 +41,7 @@ CHANGELOG
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
+* [`hikarilan/flarum-passkey-login`](https://github.com/shaokeyibb/flarum-passkey-login)
 * [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion)
 * [`ianm/translate`](https://flarum.org/extension/ianm/translate)
 * [`imdong/flarum-ext-visible-to-op-only`](https://github.com/imdong/flarum-ext-visible-to-op-only)
@@ -52,6 +56,7 @@ CHANGELOG
 * [`litalino/flarum-country-flags`](https://github.com/Litalino/flarum-country-flags)
 * [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
 * [`michaelbelgium/flarum-umami`](https://github.com/MichaelBelgium/flarum-umami)
+* [`miniflar/admin-notepad-widget`](https://github.com/miniflar/admin-notepad-widget)
 * `nodeloc-dislikes`
 * [`nodeloc/lottery`](https://github.com/nodeloc/lottery)
 * `nodeloc-my-emoji`
