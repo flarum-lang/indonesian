@@ -64,6 +64,7 @@ fof-mason:
       tags-field-name: 'Label kolom tag'
       tags-field-name-placeholder: '=> fof-mason.forum.tags.tags-label'
     titles:
+      field-answers: 'Respon kolom'
       field-settings: 'Pengaturan kolom'
       fields: Kolom
       settings: Pengaturan
