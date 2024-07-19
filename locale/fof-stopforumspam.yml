@@ -15,7 +15,7 @@ fof-stopforumspam:
       email_label: 'Periksa Spam Email'
       frequency_help: "Jumlah laporan spam di antara semua pemeriksaan yang diaktifkan yang akan membuat filter spam mengalami trip.\nContoh: Jika email memiliki 1 serangan, dan ip memiliki 2 serangan, maka akan ada total 3 serangan. Jika ambang batas diatur ke 3 atau kurang, kami akan mencegah pendaftaran.\n"
       frequency_label: 'Ambang batas'
-      introduction: "Periksa pendaftaran User baru terhadap database <a>StopForumSpam</a>. Jika salah satu dari ambang batas <code>kepercayaan </code> atau <code>frekuensi</code> tercapai, User akan dicegah untuk melanjutkan pendaftaran mereka di forum Anda.\n\nPendaftaran SSO melalui <code>fof/oauth</code> dan <code>fof/passport</code> juga didukung. Penyedia SSO lain seharusnya bisa digunakan, tetapi belum teruji.\n"
+      introduction: "Periksa pendaftaran User baru terhadap database <a>StopForumSpam</a>. Jika salah satu dari ambang batas <code>confidence</code> atau <code>frequency</code> tercapai, User akan dicegah untuk melanjutkan pendaftaran mereka di forum Anda.\n\nPendaftaran SSO melalui <code>fof/oauth</code> dan <code>fof/passport</code> juga didukung. Penyedia SSO lain seharusnya bisa digunakan, tetapi belum teruji.\n"
       ip_label: 'Periksa Spam IP Address'
       region_closest_label: Terdekat
       region_europe_label: Eropa

@@ -13,6 +13,9 @@ fof-oauth:
           description: 'Siapkan login berdasarkan penyedia OAuth2 khusus Anda.'
           display_name_parameter_label: 'Parameter Nama Tampilan'
           email_address_parameter_label: 'Parameter Alamat Email'
+          force_email_label: 'Paksa Alamat Email (0 = tidak, 1 = ya)'
+          force_name_label: 'Paksa Nama Tampilan (0 = tidak, 1 = ya)'
+          force_userid_label: 'Paksa ID Pengguna (0 = tidak, 1 = ya)'
           id_parameter_label: 'Parameter ID Pengguna'
           scopes_label: Cakupan
           token_endpoint_label: 'Endpoint Token'
@@ -22,3 +25,6 @@ fof-oauth:
       with_generic_button: '=> fof-oauth.forum.log_in.with_button'
     providers:
       generic: '=> fof-oauth.lib.providers.generic'
+  lib:
+    providers:
+      generic: Umum

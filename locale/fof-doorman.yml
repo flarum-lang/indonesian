@@ -20,19 +20,19 @@ fof-doorman:
     page:
       doorkey:
         allow-public:
-          switch-label: 'Jadikan kode undangan sebagai opsional saat mendaftar'
+          switch-label: 'Jadikan kode undangan opsional saat melakukan pendaftaran'
           title: 'Izinkan Pendaftaran Untuk Umum'
         heading:
           activate: 'Aktivasi Pengguna'
           group: Grup
-          key: Kunci
+          key: Key
           max_uses: 'Maks Penggunaan'
         help:
           activates: 'Aktivasi Pengguna: Secara otomatis mengaktifkan pengguna ketika mereka melakukan pendaftaran.'
           group: 'Grup: Grup tempat user akan ditambahkan saat mereka melakukan pendaftaran.'
           key: 'Kunci: Kode yang akan diketikkan pengguna saat mendaftar.'
           max: 'Maks Penggunaan: Jumlah maksimum kode yang dapat digunakan, diatur ke 0 untuk penggunaan tak terbatas'
-        key: Kunci
+        key: Key
         max_uses: 'Maks Penggunaan'
         title: 'Kode Undangan'
         total_uses: '{totalUses, plural, one {Digunakan {totalUses} kali} other {Digunakan {totalUses} kali}}'

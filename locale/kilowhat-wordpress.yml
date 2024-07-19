@@ -20,11 +20,13 @@ kilowhat-wordpress:
       gambits: 'Gambit pihak ketiga WordPress (lihat dokumentasi)'
     role-group-sync:
       choose:
+        group: 'Pilih grup'
         role: 'Pilih Role WordPress...'
       custom:
         group: Khusus...
         role: Khusus...
       head:
+        group: 'Grup Flarum'
         role: 'Role WordPress'
       role-loader:
         error: 'Ada masalah saat memuat daftar role dari WordPress. Anda masih dapat memasukkan nama role secara manual.'

@@ -7,7 +7,7 @@ sas_sam-regrole:
     settings:
       allow_multiple_roles_label: 'Memungkinkan pengguna memiliki beberapa peran yang ditetapkan'
       allowed_roles_label: 'Peran Yang Diizinkan'
-      allowed_roles_text: 'Pilih peran yang diizinkan untuk diberikan kepada pengguna.'
+      allowed_roles_text: 'Pilih role yang diizinkan untuk diberikan kepada pengguna.'
       force_users_label: 'Memaksa pengguna untuk menetapkan setidaknya satu peran untuk diri mereka sendiri'
       force_users_text: 'Jika diaktifkan, pengguna yang tidak memiliki salah satu peran yang dipilih di atas akan ditangguhkan dan tidak akan dapat menggunakan forum hingga mereka menetapkan peran untuk diri mereka sendiri (pengguna yang memiliki izin untuk mengedit grup pengguna akan dikecualikan).'
       other_options_heading: 'Pilihan lainnya'

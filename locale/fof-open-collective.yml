@@ -7,6 +7,6 @@ fof-open-collective:
     settings:
       api_key_label: 'API Key'
       desc: 'Dapatkan API Key Anda dari <a>https://opencollective.com/applications</a>.'
-      group_label: 'Grup Yang Akan Ditetapkan'
+      group_label: 'Grup yang Akan Ditugaskan'
       slug_label: 'Collective Slug'
       title: 'FriendsOfFlarum Open Collective'

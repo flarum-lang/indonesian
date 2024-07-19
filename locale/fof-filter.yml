@@ -6,7 +6,7 @@ fof-filter:
   admin:
     auto_merge_title: 'Penggabungan otomatis'
     bad_words_help: 'Masukkan teks atau kata yang akan difilter, masing-masing satu per baris. Jika konten yang dikirim pengguna mengandung string yang ingin Anda filter, maka akan ditandai untuk disetujui. Tahan terhadap 133t.'
-    cooldownLabel: 'Gabungkan Post Cooldown'
+    cooldownLabel: 'Penundaan Penggabungan Post'
     countLabel: 'Toleransi Sensor'
     email:
       default_subject: 'Mengenai Postingan Terbaru Anda'
