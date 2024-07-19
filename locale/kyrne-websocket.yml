@@ -39,6 +39,8 @@ kyrne-websocket:
   forum:
     discussion_list:
       show_updates_text: '{count, plural, one {Tampilkan # diskusi yang diperbarui} other {Tampilkan # diskusi yang diperbarui}}'
+    discussion_page:
+      viewing_title: 'Di sini sekarang:'
     widget:
       empty: 'Tidak Ada Pengguna Yang Sedang Online.'
       guests: '{count, plural, one {1 Tamu} other {{count} Tamu}}'

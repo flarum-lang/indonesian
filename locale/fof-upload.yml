@@ -44,7 +44,7 @@ fof-upload:
         custom_url: 'URL S3 Khusus'
         endpoint: Endpoint
         key: Key
-        region: Region
+        region: 'Letak geografis'
         secret: Secret
         title: 'Pengaturan AWS S3 storage'
         use_path_style_endpoint: 'Gunakan path style endpoint'

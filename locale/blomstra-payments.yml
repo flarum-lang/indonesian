@@ -53,6 +53,7 @@ blomstra-payments:
       description: "Pilih salah satu opsi berikut untuk memulai akses Anda ke grup. Anda akan diarahkan ke penyedia pembayaran kami, Stripe, untuk proses pembayaran.\n"
       title: 'Opsi pembayaran untuk mendapatkan akses ke {group}'
     subscription-card:
+      bounty: Hadiah
       cancel-control: Batal
       none: 'Tidak ada pembayaran atau langganan aktif'
     tag:

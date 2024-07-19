@@ -5,7 +5,7 @@
 blomstra-s3-assets:
   admin:
     settings:
-      aws-section: 'Pengaturan ini diperlukan untuk bucket yang kompatibel dengan AWS S3 dan S3'
+      aws-section: 'Pengaturan ini diperlukan untuk bucket AWS S3 dan bucket yang kompatibel dengan S3'
       configured_by_environment: 'Pengaturan bucket Anda telah dikonfigurasikan sebelumnya, tidak ada yang bisa dilihat di sini.'
       s3-compatible-section: 'Pengaturan ini hanya diperlukan untuk bucket yang kompatibel dengan S3'
       s3-compatible-section-help: 'Biarkan pengaturan ini kosong jika menggunakan AWS S3'
@@ -22,7 +22,14 @@ blomstra-s3-assets:
         help: 'Kunci akses S3'
         label: Key
       s3path-style-endpoint:
-        help: 'Beralih ke path style storage'
+        help: 'Beralih ke path-style storage'
+        label: 'S3 path-style endpoint'
+      s3region:
+        help: 'Letak geografis S3'
+        label: 'Letak geografis'
+      s3secret:
+        help: 'Secret akses S3'
+        label: Secret
       s3url:
         help: 'URL S3'
         label: URL
