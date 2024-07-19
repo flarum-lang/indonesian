@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`afrux/asirem`](https://github.com/afrux/asirem)
+* [`askvortsov/flarum-auto-moderator`](https://github.com/askvortsov1/flarum-automod)
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
 * [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
@@ -30,6 +31,7 @@ CHANGELOG
 * [`datitisev/flarum-webhooks-pro`](https://flarum.org/extension/datitisev/flarum-webhooks-pro)
 * [`datlechin/flarum-tag-passwords`](https://github.com/datlechin/flarum-tag-passwords)
 * [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links)
+* [`ffans/geetest`](https://github.com/FFans/geetest)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
 * [`flarum/tags`](https://github.com/flarum/tags)
