@@ -5,7 +5,7 @@
 blomstra-payments:
   admin:
     edit-group:
-      select-pta-product-description: "Memilih produk akan memungkinkan akses ke grup setelah pembayaran. Dalam hal langganan, akses akan dicabut secara otomatis setelah pembatalan langganan. Buat produk di dasbor Stripe Anda dan salin ID yang dimulai dengan <code>prod_</code> ke dalam bidang ini.\n"
+      select-pta-product-description: "Memilih produk akan memungkinkan akses ke grup setelah pembayaran. Dalam hal langganan, akses akan dicabut secara otomatis setelah pembatalan langganan. Buat produk di akun Stripe Anda dan salin ID yang dimulai dengan <code>prod_</code> ke dalam bidang ini.\n"
     edit-tag:
       select-ptp-product: '(PTP) Produk yang dibutuhkan'
       select-ptp-product-description: "Memilih produk akan memerlukan pembayaran produk tersebut untuk setiap diskusi dalam tag tersebut. Bayar per posting, misalnya bagus untuk advertorial. Buat produk dengan satu harga \"satu kali\" di dalam Stripe Anda dan salin ID yang dimulai dengan <code>prod_</code> ke dalam kolom ini.\n"

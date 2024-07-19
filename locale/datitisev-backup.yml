@@ -42,8 +42,8 @@ datitisev-backup:
           description: 'Path prefix default opsional untuk file.'
           label: 'Path prefix'
         region:
-          description: 'Wilayah bucket Anda.'
-          label: Wilayah
+          description: 'Letak geografis bucket Anda.'
+          label: 'Letak geografis'
         version:
           description: 'Menentukan versi atau biarkan kosong untuk yang terbaru.'
           label: Versi

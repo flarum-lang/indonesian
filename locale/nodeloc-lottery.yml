@@ -5,6 +5,7 @@
 nodeloc-lottery:
   admin:
     permissions:
+      canCancelEnter: 'Dapat mengubah input'
       enter: 'Dapat mengikuti undian'
       moderate: 'Mengedit & menghapus undian'
       self_edit: 'Mengedit undian yang telah dibuat (membutuhkan izin edit post)'
@@ -43,6 +44,7 @@ nodeloc-lottery:
       allow_cancel_enter_label: 'Izinkan pengguna untuk membatalkan partisipasi'
       allow_multiple_votes_label: 'Izinkan orang untuk memilih lebih dari satu opsi'
       amount: Jumlah
+      best_answers: 'Jawaban terbaik'
       date_placeholder: 'Waktu Pengundian'
       discussions_started: 'Diskusi dimulai'
       edit_title: 'Edit undian'
@@ -52,18 +54,23 @@ nodeloc-lottery:
       include_end_date: 'Anda harus menyertakan tanggal berakhirnya'
       include_price: 'Anda harus mencantumkan harga'
       include_prizes: 'Anda harus menyertakan hadiah'
+      likes_given: 'Suka yang diberikan'
+      likes_received: 'Suka yang diterima'
       lotteries_made: 'Undian dimulai'
       lottery_placeholder: Hadiah
       max: 'Anda dapat memilih maksimal {max} jawaban'
       max_participants: 'Jumlah maksimal peserta'
       min: 'Anda harus menyertakan minimal 2 jawaban'
       min_participants: 'Jumlah minimal peserta'
+      moderator_strikes: 'Teguran moderator'
+      money: Uang
       no_participants: 'Tidak Ada Peserta'
       not_enough: 'Tidak cukup'
       option_placeholder: 'Ambang batas'
       options_label: 'Kondisi yang membatasi'
       participants_help: 'Batalkan jika terlalu sedikit jumlah peserta, dan batalkan partisipasi jika melebihi jumlah maksimum...'
       participants_label: Peserta
+      posts_made: 'Postingan yang dibuat'
       price: Harga
       public_lottery_label: 'Izinkan orang untuk melihat siapa yang memilih'
       submit: Submit
@@ -80,4 +87,5 @@ nodeloc-lottery:
     too_many_participants: 'Terlalu banyak peserta'
     tooltip:
       badge: undian
+      votes: '{count, plural, one {# suara} other {# suara}}'
     widget-title: 'Event yang akan datang dimulai pada...'

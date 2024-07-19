@@ -14,7 +14,7 @@ fof-upload:
     help_texts:
       client_extension: "Secara default, Upload akan memilih ekstensi file yang aman berdasarkan MIME type.\nUntuk beberapa jenis file yang berbasis ZIP atau data biner, hal ini dapat mengakibatkan ekstensi umum digunakan, alih-alih ekstensi yang diharapkan.\nDi sini Anda dapat memasukkan daftar ekstensi file yang dipisahkan dengan tanda koma yang akan disimpan secara kata demi kata.\n"
       composer_buttons: "Secara default, tombol pengelola media dan tombol upload terlihat. Anda juga dapat memilih untuk hanya menampilkan satu tombol saja.\n"
-      custom_s3_url: "Gunakan pengaturan ini jika Anda menggunakan layanan yang kompatibel dengan S3 yang memerlukan format URL tertentu (misalnya, Backblaze B2) atau jika Anda mengalami masalah dengan format URL default. Pengaturan ini umumnya tidak diperlukan untuk sebagian besar layanan. Pastikan URL menyertakan protokol (https://) dan diformat dengan benar. Contoh: https://your-bucket.s3.your-region.backblazeb2.com\n"
+      custom_s3_url: "Gunakan pengaturan ini jika Anda menggunakan layanan yang kompatibel dengan S3 yang memerlukan format URL tertentu (misalnya, Backblaze B2) atau jika Anda mengalami masalah dengan format URL default. Pengaturan ini umumnya tidak diperlukan untuk sebagian besar layanan. Pastikan URL menyertakan protokol (https://) dan diformat dengan benar. Contoh: https://your-bucket.s3.your-region.example.com\n"
       disable-download-logging: "Menonaktifkan pencatatan setiap download yang dilakukan oleh pengguna forum Anda. Dengan mengaktifkannya, Anda dapat melihat jumlah download dan metrik lainnya.\n"
       disable-hotlink-protection: "Hotlink protection berfungsi untuk mencegah download yang dilakukan dari situs lain. Metode saat ini memerlukan token csrf dan post id.\n"
       download_templates: "Template download adalah bagaimana upload ditampilkan di forum Anda, misalnya pratinjau, tombol. Saat ini tersedia:\n"
@@ -47,7 +47,7 @@ fof-upload:
         region: 'Letak geografis'
         secret: Secret
         title: 'Pengaturan AWS S3 storage'
-        use_path_style_endpoint: 'Gunakan path style endpoint'
+        use_path_style_endpoint: 'Gunakan path-style endpoint'
       client_extension:
         title: 'Ekstensi file yang disediakan oleh pengguna'
       composer_buttons:
@@ -65,7 +65,7 @@ fof-upload:
       imgur:
         client_id: 'ID client Imgur'
         title: 'Pengaturan penyimpanan gambar Imgur'
-        tos: 'Merupakan tanggung jawab Anda untuk memastikan user forum Anda mematuhi <a>Terms of service</a>'
+        tos: 'Merupakan tanggung jawab Anda untuk memastikan user forum Anda mematuhi <a>Ketentuan layanan</a>'
       inspect-mime: 'Menguji jenis MIME file'
       local:
         cdn_url: 'URL Pengiriman Konten (file prefiks)'
