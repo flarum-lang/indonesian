@@ -10,10 +10,15 @@ yippy-auth-ldap:
         add: 'Tambah Domain'
         banner: 'Domain {index}'
         data:
+          admin_dn: 'Distinguished name (DNs)'
           admin_dn_help: 'Biarkan kosong untuk pengikatan anonim'
           admin_password: Password
           admin_password_help: 'Biarkan kosong untuk pengikatan anonim'
+          base_dn: 'Base DNs'
           base_dn_help: 'Dipisahkan dengan titik koma'
+          filter: 'Filter untuk diterapkan'
+          filter_help: 'Opsional, harus mengecualikan ''Kolom pencarian'' ke dalam filter. Sebagai contoh, memasukkan filter sebagai ''(objectclass=user)'' dan memilih ''uid'' dalam ''Kolom pencarian'' akan mengubah filter menjadi ''(&(objectclass=user)(uid=[User''s Input]))"'
+          follow_referrals: 'Ikuti referral untuk bind ke server LDAP'
           host: 'Domain atau alamat IP server'
           host_help: 'Dipisahkan dengan koma'
           port: Port
@@ -55,6 +60,7 @@ yippy-auth-ldap:
       core_csrf_token_mismatch: '=> core.views.error.csrf_token_mismatch'
       csrf_token_mismatch: 'Anda sudah terlalu lama tidak aktif, silakan refresh halaman dan coba lagi'
       domains:
+        empty_base_dn: 'Domain {domain_index} tidak memiliki pengaturan Base DNs, ubah pengaturan ekstensi.'
         empty_host: 'Domain {domain_index} tidak memiliki alamat IP Domain atau server yang disetel, ubah pengaturan ekstensi.'
         empty_search_field: 'Domain {domain_index} memiliki Pencarian Akun LDAP - ''Kolom pencarian'' kosong, ubah pengaturan ekstensi.'
         empty_user_username: 'Domain {domain_index} memiliki Profil Pengguna Flarum - ''Kolom username'' kosong, ubah pengaturan ekstensi.'

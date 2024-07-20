@@ -26,6 +26,7 @@ justoverclock-steam-api:
     statusOffline: Offline
     statusOnline: Online
     statusPlay: 'Ingin Bermain'
+    statusSnooze: 'Tidur sebentar'
     statusTrade: 'Ingin Berdagang'
     steamId: 'ID Profil Steam atau nama samaran'
     steamIdSaved: 'Id Steam berhasil disimpan'

@@ -22,6 +22,7 @@ clarkwinkelmann-mass-actions:
       unsticky: 'Lepas sticky yang dipilih'
     select:
       all: Semua
+      hidden: 'Dihapus secara lunak (Soft delete)'
       locked: Terkunci
       none: 'Tidak ada'
       read: 'Sudah dibaca'

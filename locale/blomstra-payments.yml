@@ -10,7 +10,7 @@ blomstra-payments:
     edit-tag:
       bump-others: '(PTB) Izinkan orang lain mempromosikan diskusi'
       bump-others-description: "Aktifkan ini agar orang lain selain penulis juga dapat membayar untuk mempromosikan diskusi\n"
-      select-bounty-product: Hadiah
+      select-bounty-product: Bounty
       select-bounty-product-description: "Pilih produk yang akan disiapkan untuk hadiah. Produk hanya dapat memiliki satu Harga dengan model: \"Custom chooses price\". Salin ID produk yang dimulai dengan <code>prod_</code> ke dalam kolom ini.\n"
       select-ptb-product: 'Promosi Berbayar'
       select-ptb-product-description: "Memilih produk akan membutuhkan pembayaran produk tersebut sebelum dapat mempromosikan diskusi.\n"
@@ -23,7 +23,7 @@ blomstra-payments:
     permission:
       enable-bounties: 'Mengaktifkan hadiah'
     settings:
-      assign-bounty-tag-id: 'Tag untuk ditetapkan ke diskusi setelah hadiah pertama dikirimkan'
+      assign-bounty-tag-id: 'Tag untuk ditetapkan ke diskusi setelah bounty pertama dikirimkan'
       link-access-portal: 'Tautkan portal akses di bawah menu dropdown sesi pengguna'
       link-to-terms: 'URL Ketentuan Pembayaran'
       pk: 'Publishable (api) key'
@@ -46,11 +46,11 @@ blomstra-payments:
       pledged: Berjanji
     bounties:
       enable-control: 'Aktifkan Hadiah'
-      purchase-control: 'Tambahkan Hadiah'
+      purchase-control: 'Tambahkan Bounty'
     choose-bounty-amount-modal:
       checkout-control: Checkout
       description: 'Pilih jumlah yang Anda inginkan untuk mendukung "{subject}" atau pilih jumlah khusus.'
-      title: 'Pilih jumlah hadiah'
+      title: 'Pilih jumlah bounty'
     exceptions:
       out-of-bounds-amount:
         max: 'Pembayaran sebesar {amount} tidak diperbolehkan, {max} adalah jumlah tertinggi.'
@@ -75,11 +75,11 @@ blomstra-payments:
       description: "Pilih salah satu opsi berikut untuk memulai akses Anda ke grup. Anda akan diarahkan ke penyedia pembayaran kami, Stripe, untuk proses pembayaran.\n"
       title: 'Opsi pembayaran untuk mendapatkan akses ke {group}'
     post_stream:
-      bounty_added_text: '{username} menambahkan hadiah sebesar {amount}.'
+      bounty_added_text: '{username} menambahkan bounty sebesar {amount}.'
     stripe:
       interval_once: sekali
     subscription-card:
-      bounty: Hadiah
+      bounty: Bounty
       cancel-control: Batal
       none: 'Tidak ada pembayaran atau langganan aktif'
       pta: 'Akses Berbayar'

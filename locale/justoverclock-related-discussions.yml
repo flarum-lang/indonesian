@@ -12,6 +12,7 @@ justoverclock-related-discussions:
     showExcerpt: 'Tampilkan Kutipan Ringkasan'
     showTooltip: 'Tampilkan Tooltip dengan Kutipan'
   forum:
+    avatarTooltip: 'membuat postingan di'
     deleted: Dihapus
     hasBestAnswer: Selesai
     hasBestAnswer-title: 'Diskusi ini ditandai sebagai selesai'
@@ -19,3 +20,4 @@ justoverclock-related-discussions:
     postedOn: 'di:'
     postnumber: 'Jumlah postingan'
     reldiscussion: 'Diskusi Yang Disarankan:'
+    repliedOn: membalas

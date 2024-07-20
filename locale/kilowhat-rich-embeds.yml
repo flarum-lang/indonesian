@@ -75,6 +75,8 @@ kilowhat-rich-embeds:
       flarum:
         discussion:
           stats:
+            commentCount: Balasan
+            createdAt: 'Tanggal mulai'
             participantCount: Peserta
           type: Diskusi
         user:
@@ -88,13 +90,22 @@ kilowhat-rich-embeds:
         issue:
           stats:
             commentCount: Komentar
+            createdAt: 'Dibuat pada'
+          type: Issue
         privateRepoSuffix: '[pribadi]'
         pull:
           stats:
             commentCount: Komentar
+            commitCount: Commit
+            createdAt: 'Dibuat pada'
+            reviewCount: Tinjauan
+          type: 'Pull request'
         repo:
           stats:
+            forkCount: Fork
+            openIssueCount: 'Issue terbuka'
             stargazerCount: Bintang
+            subscriberCount: Pengamat
           type:
             private: 'Repositori pribadi'
             public: 'Repositori publik'
@@ -115,6 +126,7 @@ kilowhat-rich-embeds:
             commentCount: Komentar
             likeCount: Suka
             publishedAt: 'Diterbitkan pada'
+            viewCount: Penayangan
           thumbnailAlt: 'Thumbnail video'
           type: Video
     error:

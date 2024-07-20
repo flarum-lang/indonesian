@@ -5,9 +5,11 @@
 clarkwinkelmann-external-email-validation:
   admin:
     settings:
+      body: 'Request Body'
       body-help: 'Anda dapat memasukkan kode pendek untuk diganti dengan email value, lihat file README.'
       default-error-message: 'Pesan kesalahan default'
       default-error-message-help: "Pesan ini akan ditampilkan kepada User saat validasi email gagal jika tidak ada pesan lain yang dapat ditemukan. Apabila Anda membutuhkan pesan ini untuk diterjemahkan, biarkan kolom ini kosong dan sesuaikan pesan kesalahan default bawaan dengan Linguist.\n"
+      headers: 'Request Header'
       headers-help: 'Satu header per baris'
       method: 'Metode Request'
       response-error-key: 'Path to JSON attribute dengan pesan error'

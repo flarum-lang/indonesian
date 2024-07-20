@@ -49,6 +49,7 @@ fof-reactions:
     mod_item: 'Lihat Reaksi'
     modal:
       anonymous_count: '{count, plural, one {# pengguna anonim} other {# pengguna anonim}}'
+      no_reactions: 'Belum ada reaksi'
       title: Bereaksi
     notification: '{username} bereaksi dengan {reaction} ke post Anda'
     react_button_label: Bereaksi

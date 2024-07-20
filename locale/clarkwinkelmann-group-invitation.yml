@@ -24,6 +24,7 @@ clarkwinkelmann-group-invitation:
       no-usages-left: 'Undangan tidak dapat digunakan lagi'
       not-found: 'Kode undangan tidak ditemukan'
   forum:
+    apply: 'Gabung grup'
     generic-title: 'Undangan grup'
     invitation:
       no-usages-left: 'Undangan grup ini tidak dapat digunakan lagi.'
