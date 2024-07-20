@@ -77,6 +77,7 @@ v17development-flarum-badges:
       earning_reason: 'Alasan memperoleh badge'
       name: 'Nama badge'
       no_earning_reason: 'Tidak ada alasan perolehan yang ditetapkan'
+      received_on: 'Diterima pada {date}'
       update_earning_reason: 'Update alasan memperoleh badge'
     badge_information: 'Informasi tentang badge'
     badges_in_card:

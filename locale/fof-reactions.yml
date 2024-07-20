@@ -27,17 +27,17 @@ fof-reactions:
         allow-anonymous-help: 'Jika diaktifkan, tamu dan pengguna anonim akan dapat bereaksi terhadap postingan. Perhatikan bahwa reaksi anonim tidak akan dihubungkan ke profil pengguna dan akan dikumpulkan dalam daftar reaksi.'
         integrations:
           gamification:
-            downvoteHelptext: 'Masukkan pengidentifikasi reaksi yang ingin Anda ubah secara otomatis menjadi Downvote'
-            downvoteLabel: 'Ubah reaksi menjadi Downvote'
+            downvoteHelptext: 'Masukkan pengidentifikasi reaksi yang ingin Anda ubah secara otomatis menjadi Dukung Turun'
+            downvoteLabel: 'Ubah reaksi menjadi Dukung Turun'
             legend: Gamification
-            upvoteHelptext: 'Masukkan pengenal reaksi yang ingin Anda ubah secara otomatis menjadi Upvote'
-            upvoteLabel: 'Ubah reaksi menjadi Upvote'
+            upvoteHelptext: 'Masukkan pengenal reaksi yang ingin Anda ubah secara otomatis menjadi Dukung Naik'
+            upvoteLabel: 'Ubah reaksi menjadi Dukung Naik'
           legend: Integrasi
           likes:
             Helptext: 'Masukkan pengenal reaksi yang ingin Anda ubah secara otomatis menjadi "Suka"'
             Label: 'Ubah reaction menjadi Suka'
             legend: Suka
-          warning: 'Reaksi yang sama <strong>tidak dapat</strong> dikonversi menjadi Suka <strong>dan</strong> Upvote'
+          warning: 'Reaksi yang sama <strong>tidak dapat</strong> dikonversi menjadi Suka <strong>dan</strong> Dukung Naik'
         react_own_posts_help: 'Ketika diaktifkan, tergantung pada perizinan, pengguna dapat memberikan reaksi terhadap postingan mereka sendiri di forum. Untuk mencegah pengguna memberikan reaksi terhadap postingan mereka sendiri, nonaktifkan pengaturan ini.'
         react_own_posts_label: 'Pengguna dapat memberikan reaksi pada postingan mereka sendiri,'
         save_settings: 'Simpan Pengaturan'

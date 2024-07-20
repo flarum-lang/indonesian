@@ -367,6 +367,7 @@ kilowhat-formulaire:
       seeOwnUser: 'Melihat kolom profil sendiri'
     submission-meta:
       created_at: 'Tanggal Pembuatan'
+      hidden_at: 'Tanggal Penghapusan Lunak (Soft Delete)'
       link_id: 'ID sumber daya yang ditautkan'
       locked_at: 'Tanggal Penguncian'
       uid: 'ID Pengajuan'

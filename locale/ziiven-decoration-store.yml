@@ -75,9 +75,11 @@ ziven-decoration-store:
     processing: Memproses...
     purchase-add-cart: 'Tambahkan ke keranjang'
     purchase-confirmation: 'Konfirmasi Pembelian'
+    purchase-error: 'Kesalahan Pembelian'
     purchase-error-insufficient-fund: 'Dana tidak mencukupi'
     purchase-error-item-alreay-have: 'Anda sudah memiliki item ini'
     purchase-history: 'Riwayat Pembelian'
+    purchase-now: 'Ayo Berbelanja'
     purchase-subscribe-confirmation: 'Apakah Anda yakin untuk membayar {cost} untuk berlangganan item ini?'
     purchase-success: 'Pembelian Berhasil'
     purchase-unsubscribe-confirmation: 'Apakah Anda yakin untuk berhenti berlangganan item ini?'

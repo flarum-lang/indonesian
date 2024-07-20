@@ -69,10 +69,12 @@ v17development-flarum-support:
     knowledge_base: 'Basis pengetahuan'
     modals:
       article_ratings:
+        article_not_rated: 'Artikel ini belum mendapat rating.'
         confirm_delete_rating: 'Apakah Anda yakin ingin menghapus rating ini?'
         feedback: 'Umpan balik'
         loading_ratings: 'Memuat rating'
         no_ratings_found: 'Tidak ditemukan rating yang sesuai dengan kriteria pencarian Anda'
+        rated_on: 'Diberikan rating pada'
         rating: Rating
         title: 'Rating artikel'
         username: '=> core.ref.username'
@@ -161,6 +163,7 @@ v17development-flarum-support:
           placeholder: 'Beri tahu Kami apa yang dapat Kami bantu'
           title: 'Informasi tiket'
         language:
+          description: 'Tiket dukungan Anda akan ditangani dalam bahasa {language}.'
           empty: 'Tidak ada bahasa yang dipilih'
           placeholder: 'Pilih bahasa'
           title: Bahasa
@@ -186,7 +189,9 @@ v17development-flarum-support:
       new_tickets_dropdown:
         no_tickets: 'Tidak ada notifikasi tiket'
         ticket_new: '{username} membuat tiket {ticket}'
+        ticket_updated: '{username} memposting di {ticket}'
         title: 'Notifikasi Tiket'
+      opened_on: 'Dibuka pada'
       overview:
         all_tickets: 'Semua tiket'
         description: 'Tersenyumlah, Anda adalah pahlawan yang menyelamatkan hari orang lain.'
@@ -205,6 +210,11 @@ v17development-flarum-support:
         selection_closed: 'Tiket tertutup'
         selection_open: 'Tiket terbuka'
         selection_unfiltered: 'Tidak difilter'
+        sort:
+          least_recent: 'Aktivitas terakhir yang paling sedikit'
+          newest: Terbaru
+          oldest: Terlama
+          recent_activity: 'Aktivitas terkini'
         title: 'Gambaran umum tiket'
       reminders_sent: '{count, plural, one {Satu pengingat terkirim} other {# pengingat terkirim}}'
       return_to_overview: 'Kembali ke gambaran umum tiket'

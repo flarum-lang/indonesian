@@ -6,17 +6,17 @@ core:
   forum:
     index_sort:
       hot_button: Trending
-      votes_button: Upvote
+      votes_button: 'Dukung Naik'
 fof-gamification:
   admin:
     page:
       alt_votes:
         icon_name: 'Nama ikon layout alternatif'
       convert:
-        button: 'Mengonversi "Suka" menjadi Upvote'
+        button: 'Mengonversi "Suka" menjadi Dukung Naik'
         converted: 'Berhasil mengkonversi semua ({number} suka)'
         converting: 'Jumlah "Suka" Anda sekarang sedang dikonversi. Refresh situs Anda setelah beberapa menit untuk melihat prosesnya selesai. (Waktu konversi mungkin memerlukan waktu agak lama, tergantung pada total "Suka" di forum Anda)'
-        help: 'Mengkonversi "Suka" Anda yang sebelumnya dari flarum-ext-likes menjadi Upvote, serta menghitung tingkat kepopuleran untuk semua diskusi saat ini.'
+        help: 'Mengkonversi "Suka" Anda yang sebelumnya dari flarum-ext-likes menjadi Dukung Naik, serta menghitung tingkat kepopuleran untuk semua diskusi saat ini.'
       groups:
         add: 'Tambahkan aturan baru'
         column:
@@ -39,7 +39,7 @@ fof-gamification:
       ranks:
         help:
           color: '#ffffff'
-          help: 'Masukkan jumlah Upvote yang diperlukan, nama peringkat, dan kode warna HEX peringkat'
+          help: 'Masukkan jumlah Dukung Naik yang diperlukan, nama peringkat, dan kode warna HEX peringkat'
           name: Nama
           points: Poin
         number_title: 'Berapa banyak badge peringkat yang harus ditampilkan?'
@@ -50,23 +50,24 @@ fof-gamification:
         allow_self_votes: 'Pengguna dapat melakukan voting pada postingan mereka sendiri'
         alternate_layout: 'Gunakan tata letak voting alternatif pada daftar diskusi'
         alternate_post_layout: 'Gunakan tata letak voting alternatif pada postingan'
-        auto_upvote: 'Berikan Upvote secara otomatis pada postingan saat diposting'
+        auto_upvote: 'Berikan Dukungan Naik secara otomatis pada postingan saat diposting'
         color_holder: '#ffffff'
         discussion_page: 'Tampilkan total vote dari postingan awal pada daftar diskusi'
-        first_post_only: 'Hanya diizinkan untuk memberikan Upvote/Downvote pada postingan awal dalam sebuah diskusi'
+        first_post_only: 'Hanya diizinkan untuk memberikan Dukungan Naik/Turun pada postingan awal dalam sebuah diskusi'
         icon_help: 'Masukkan ikon Font-Awesome apa pun yang diakhiri dengan -up dan -down. Contoh: arrow, thumbs, chevron'
-        icon_name: 'Ikon Upvote/Downvote'
+        icon_name: 'Ikon Dukung Naik/Turun'
         points_placeholder: 'Poin: '
+        points_title: 'Tempat Penampung Poin'
         rate_limit: 'Terapkan batas kecepatan dalam memberikan vote (10 detik)'
         title: Vote
-        upvotes_only: 'Hanya diizinkan untuk memberikan Upvote'
+        upvotes_only: 'Hanya diizinkan untuk memberikan Dukung Naik'
     permissions:
-      downvote_notifications: 'Menerima notifikasi tentang Downvote'
+      downvote_notifications: 'Menerima notifikasi tentang Dukung Turun'
       see_ranking_page: 'Melihat halaman peringkat'
       see_voters_label: 'Melihat siapa yang memberikan vote'
-      see_votes_label: 'Melihat penghitungan Upvote/Downvote'
-      upvote_notifications: 'Menerima notifikasi tentang Upvote'
-      vote_label: 'Memberikan Upvote/Downvote pada postingan'
+      see_votes_label: 'Melihat penghitungan Dukungan Naik/Turun'
+      upvote_notifications: 'Menerima notifikasi tentang Dukung Naik'
+      vote_label: 'Memberikan Dukungan Naik/Turun pada postingan'
   email:
     body:
       postVoted: "Hai {recipient_display_name},\n\n{actor_display_name} baru saja memberikan vote pada postingan Anda di {discussion_title}.\n\nLihat di sini: {discussion_url}\n"
@@ -75,16 +76,19 @@ fof-gamification:
   forum:
     mod_item: 'Lihat Voter'
     modal:
-      downvotes_label: 'Downvoter:'
+      downvotes_label: 'Pendukung Turun:'
       title: Voter
-      upvotes_label: 'Upvoter:'
+      upvotes_label: 'Pendukung Naik:'
     nav:
       name: Peringkat
     notification:
-      downvote: '{username} memberikan Downvote pada post Anda'
+      downvote: '{username} memberikan Dukung Turun pada post Anda'
       prefrences:
-        vote: 'Ketika salah satu dari postingan Saya mendapatkan Upvote/Downvote'
-      upvote: '{username} memberikan Upvote pada post Anda'
+        vote: 'Ketika salah satu dari postingan Saya mendapatkan dukungan Naik/Turun'
+      upvote: '{username} memberikan Dukungan Naik pada post Anda'
+    post:
+      downvote_button: 'Dukung Turun'
+      upvote_button: 'Dukung Naik'
     ranking:
       amount: Poin
       name: Pengguna

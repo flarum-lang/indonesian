@@ -104,6 +104,8 @@ imeepo-more-bbcode:
       unordered_list_tooltip: 'Tambahkan bulleted list'
     like_to_see: 'Konten ini memerlukan {like} dan terlihat setelah refresh halaman'
     login_to_see: 'Konten ini memerlukan {login} dan terlihat setelah refresh halaman'
+    quote:
+      wrote: menulis
     reply_to_see: 'Konten ini memerlukan {reply} dan ditampilkan setelah refresh halaman'
     size_18: 'Ukuran 18'
     size_20: 'Ukuran 20'

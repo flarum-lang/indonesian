@@ -11,6 +11,7 @@ ordinaryjellyfish-automod:
       filter_help: 'Ini adalah filter yang Saya buat secara pribadi untuk membantu menjaga keamanan forum Anda. Filter yang diaktifkan akan menandai secara otomatis seperti halnya kategori moderasi.'
       filter_label: 'Filter Siap Pakai'
       filters:
+        doxxing: 'Penyebaran informasi pribadi'
         doxxing_help: 'Tindakan mengungkapkan informasi pribadi yang sebelumnya bersifat rahasia kepada publik tentang individu atau organisasi, biasanya dengan maksud jahat.'
         flag_unsafe_images: 'Gambar Tidak Aman'
         flag_unsafe_images_help: 'Menjalankan deteksi Penelusuran Aman Google dan menandai gambar yang tidak aman. Perlu diketahui bahwa hal ini dapat menambah waktu tunggu saat memposting komentar Anda.'
@@ -26,6 +27,7 @@ ordinaryjellyfish-automod:
     moderate_categories:
       death: 'Kematian, Bahaya & Tragedi'
       death_help: 'Kematian seseorang, tragedi, kecelakaan, bencana, dan melukai diri sendiri.'
+      derogatory: Merendahkan
       derogatory_help: 'Komentar negatif atau berbahaya yang menargetkan identitas dan/atau atribut yang dilindungi.'
       drugs: 'Obat Terlarang'
       drugs_help: 'Obat-obatan untuk rekreasional dan obat-obatan terlarang; perlengkapan dan budidaya obat-obatan terlarang, toko obat, dll. Termasuk penggunaan obat-obatan yang biasanya digunakan untuk rekreasional (misalnya ganja).'
@@ -39,6 +41,7 @@ ordinaryjellyfish-automod:
       legal_help: 'Konten yang berhubungan dengan hukum, termasuk firma hukum, informasi hukum, materi hukum primer, layanan paralegal, publikasi dan teknologi hukum, saksi ahli, konsultan litigasi, dan penyedia layanan hukum lainnya.'
       politics: Politik
       politics_help: 'Berita dan media politik; diskusi tentang kebijakan sosial, pemerintahan, dan publik.'
+      profanity: 'Kata-kata kasar'
       profanity_help: 'Bahasa yang tidak senonoh atau vulgar seperti umpatan.'
       public_safety: 'Keamanan Publik'
       public_safety_help: 'Layanan dan organisasi yang memberikan bantuan dan memastikan keamanan publik.'
@@ -46,6 +49,7 @@ ordinaryjellyfish-automod:
       religion_help: 'Sistem kepercayaan yang berhubungan dengan kemungkinan adanya hukum dan makhluk supranatural; agama, keyakinan, kepercayaan, praktik spiritual, gereja, dan tempat ibadah. Termasuk astrologi dan okultisme.'
       sexual: Seksual
       sexual_help: 'Berisi referensi tentang tindakan seksual atau konten cabul lainnya.'
+      toxic: Toxic
       toxic_help: 'Konten yang tidak sopan, tidak menghormati, atau tidak masuk akal.'
       violent: Kekerasan
       violent_help: 'Menjelaskan skenario yang menggambarkan kekerasan terhadap individu atau kelompok, atau deskripsi umum tentang kekerasan.'

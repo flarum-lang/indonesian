@@ -23,6 +23,7 @@ flarum-extension-manager:
       remove_button_label: 'Hapus metode autentikasi'
       title: 'Metode Autentikasi'
       types:
+        bearer: 'HTTP Bearer'
         github-oauth: 'GitHub OAuth'
         gitlab-oauth: 'GitLab OAuth'
         gitlab-token: 'Token GitLab'
@@ -71,6 +72,9 @@ flarum-extension-manager:
       successful_install: '{extension} berhasil dipasang, mengalihkan..'
       successful_remove: 'Ekstensi berhasil dihapus.'
       successful_update: '{extension} berhasil diperbarui, mengalihkan..'
+      update: Update
+      update_hard_label: 'Hard update'
+      update_soft_label: 'Soft update'
     file_permissions: "Manajer ekstensi memerlukan izin baca dan tulis pada file dan direktori berikut ini: composer.json, composer.lock, vendor, storage, storage/.composer\n"
     major_updater:
       description: "Pembaruan utama Flarum tidak kompatibel dengan versi sebelumnya, yang berarti bahwa beberapa ekstensi yang saat ini Anda instal, dan modifikasi yang dilakukan secara manual mungkin tidak akan berfungsi dengan versi baru ini. Pastikan untuk membuat backup database dan file Anda sebelum melanjutkan.\n"
@@ -80,6 +84,7 @@ flarum-extension-manager:
         desc: 'Pembaruan besar terakhir gagal, beberapa ekstensi yang terinstal tidak kompatibel dengan rilis besar yang baru.'
         why: 'Ketahui lebih lanjut'
       title: 'Pembaruan Utama Flarum {version} Telah Tersedia'
+      update: Update
     minor_update_confirmation:
       content: 'Ini juga akan memperbarui ekstensi/paket lain dengan pembaruan yang tersedia.'
     sections:
@@ -105,7 +110,9 @@ flarum-extension-manager:
           why_not: 'Menganalisa mengapa sebuah paket tidak dapat diperbarui'
         output_modal:
           cause_unknown: 'Tidak diketahui'
+          command: 'Composer Command'
           guessed_cause: Penyebab
+          output: Keluaran
         refresh: 'Refresh daftar tugas'
         statuses:
           failure: Gagal
