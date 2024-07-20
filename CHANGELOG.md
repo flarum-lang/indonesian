@@ -7,6 +7,7 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
 * [`flarum/markdown`](https://github.com/flarum/markdown)
 * [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
 
