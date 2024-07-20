@@ -34,16 +34,21 @@ fof-webhooks:
             ipwasunbanned: 'Tidak dicekal'
             title: 'FriendsOfFlarum Ban IPs'
           byobu:
+            discussionmadepublic: 'Diskusi Dipublikasikan'
             title: 'FriendsOfFlarum Byobu'
           gamification:
+            postwasvoted: 'Dukung Naik/Dukung Turun'
             title: 'FriendsOfFlarum Gamification'
           polls:
             pollwascreated: Dibuat
             pollwasvoted: Dipilih
             title: 'FriendsOfFlarum Polls'
           reactions:
+            postwasreacted: 'Posting Bereaksi'
+            postwasunreacted: 'Posting Tidak Bereaksi'
             title: 'FriendsOfFlarum Reactions'
           twofactor:
             title: 'FriendsOfFlarum Two Factor'
+            userenabledtwofactor: 'Pengguna Mengaktifkan 2FA'
       services:
         custom: Khusus

@@ -43,6 +43,7 @@ kilowhat-custom-paths:
         clarkwinkelmann-group-list: 'Daftar grup'
         clarkwinkelmann-post-bookmarks: 'Bookmark Post'
         discussion: Diskusi
+        flags: 'Flags (di mobile)'
         flamarkt-account: Akun
         flamarkt-balance: 'Saldo Akun'
         flamarkt-cart: Keranjang
@@ -67,9 +68,12 @@ kilowhat-custom-paths:
         index: 'Daftar diskusi (jika bukan beranda)'
         notifications: 'Notifikasi (di perangkat seluler)'
         settings: Pengaturan
+        tag: 'Tag diskusi'
         tags: 'Daftar tag'
         user: 'Profil pengguna'
         user-discussions: 'Diskusi pengguna'
+        user-likes: 'Pengguna menyukai'
+        user-mentions: 'Pengguna menyebutkan'
         user-security: Keamanan
         v17development-blog-category: Kategori
         v17development-blog-compose: Menulis

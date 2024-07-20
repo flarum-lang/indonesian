@@ -35,11 +35,13 @@ ziven-decoration-store:
     item-type-selection: 'Pilih jenis item'
     settings:
       display-name: 'Nama Tampilan'
+      display-name-default: 'Toko Dekorasi'
       timezone: 'Zona waktu'
       timezone-default: Asia/Shanghai
       timezone-help: 'Atur zona waktu untuk waktu transfer. Defaultnya adalah "Asia/Shanghai"'
   forum:
     display-name: 'Nama Tampilan'
+    display-name-default: 'Toko Dekorasi'
     equipment-modal-title: 'Daftar Item'
     item-already-have: 'Item sudah dibeli'
     item-expired: 'Berhenti berlangganan'
@@ -66,6 +68,8 @@ ziven-decoration-store:
     item-subscribe: Berlangganan
     item-subscription-deduction-days: 'Pemotongan biaya berlangganan dalam {days} hari'
     item-unsubscribe: 'Berhenti berlangganan'
+    my-decoration: 'Dekorasi Saya'
+    navigate: Navigasi
     notification-receive-subscription: 'Potongan biaya berlangganan'
     notifications:
       subscription-expired: 'Langganan Anda untuk {title} telah kedaluwarsa'

@@ -17,6 +17,7 @@ fof-reactions:
         help: 'Jika Anda baru saja memperbarui ekstensi Anda, reaksi Anda harus dikonversi. Jika Anda baru saja menginstal ekstensi ini, Anda bisa mengabaikan pesan ini.'
       reactions:
         Helptext: 'Masukkan nama (pengidentifikasi) dari emoji atau ikon font-awesome dan pilih jenis yang Anda inginkan.'
+        delete_confirmation: 'Apakah Anda yakin ingin menghapus reaksi ini? Tindakan ini tidak dapat dibatalkan.'
         help:
           display: Tampilan
           identifier: Pengidentifikasi
@@ -42,6 +43,7 @@ fof-reactions:
         react_own_posts_label: 'Pengguna dapat memberikan reaksi pada postingan mereka sendiri,'
         save_settings: 'Simpan Pengaturan'
     permissions:
+      delete_post_reactions_label: 'Menghapus reaksi pada postingan'
       react_posts_label: 'Memberikan reaksi terhadap postingan'
       see_reactions_label: 'Melihat siapa yang memberikan reaksi pada postingan'
   forum:

@@ -4,6 +4,7 @@
 
 datlechin-simple-tour-guide:
   admin:
+    add_step: 'Tambahkan step baru'
     description: Deskripsi
     description_placeholder: 'Penjelasan mengenai step tersebut.'
     edit_modal:
@@ -25,6 +26,7 @@ datlechin-simple-tour-guide:
     target_placeholder: 'Elemen target dari step tersebut (misal. #elemen-id).'
     title: Judul
     title_placeholder: 'Judul step.'
+    trigger_click: 'Klik pemicu'
     'yes': Ya
   forum:
     done_btn_text: Selesai
