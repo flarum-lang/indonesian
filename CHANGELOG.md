@@ -40,6 +40,7 @@ CHANGELOG
 * [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
 * [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 * [`fof/stopforumspam`](https://github.com/FriendsOfFlarum/stopforumspam)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
 * [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge)
 * [`justoverclock/related-discussions`](https://flarum.org/extension/justoverclock/related-discussions)
@@ -67,6 +68,7 @@ CHANGELOG
 * [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
 * [`ziiven/flarum-decoration-store`](https://flarum.org/extension/ziiven/flarum-decoration-store)
 * [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
+* [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
 
 
 Semua perubahan: [1.18.1...1.18.2](https://github.com/flarum-lang/indonesian/compare/1.18.1...1.18.2).
