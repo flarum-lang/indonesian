@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.18.3 (XXXX-XX-XX)
+-------------------
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`flarum/markdown`](https://github.com/flarum/markdown)
+* [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
+
+
+Semua perubahan: [1.18.2...1.18.3](https://github.com/flarum-lang/indonesian/compare/1.18.2...1.18.3).
+
+
 1.18.2 (2024-07-20)
 -------------------
 
