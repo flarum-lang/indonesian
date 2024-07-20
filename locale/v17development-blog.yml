@@ -84,6 +84,7 @@ v17development-flarum-blog:
       approve_article: 'Setujui artikel'
       approve_article_approved: 'Artikel telah disetujui dan telah diterbitkan'
       pending_review: 'Artikel ini sedang dalam proses peninjauan dan belum diterbitkan'
+      pending_review_title: 'Peninjauan tertunda'
     tools:
       approve_article: 'Setujui artikel'
       article_settings: 'Pengaturan artikel'

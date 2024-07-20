@@ -37,6 +37,8 @@ ianm-twofactor:
         kill_inactive_tokens_age_days_help: 'Jumlah hari tidak aktif setelah token akses akan dihapus.'
         kill_inactive_tokens_help: 'Secara otomatis mematikan token akses yang tidak aktif selama jangka waktu tertentu.'
   email:
+    body:
+      status_changed: "Halo {recipient_display_name},\n\nAutentikasi Dua Faktor telah menggunakan {type} untuk akun Anda di {forum_url}.\n\nJika Anda memulai tindakan ini, tidak ada langkah lebih lanjut yang diperlukan. Jika Anda tidak mengizinkan perubahan ini, harap segera hubungi administrator forum.\n"
     status_type:
       disabled: dinonaktifkan
       enabled: diaktifkan

@@ -120,6 +120,7 @@ xelson-chat:
             kicked: '{editorname} mengeluarkan {usernames}'
         type:
           code: '<Code />'
+          event: Event
           url: URL
         you: Anda
       moder: Moderator

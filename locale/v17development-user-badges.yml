@@ -69,21 +69,26 @@ v17development-flarum-badges:
     all_users: 'Lihat semua pengguna'
     badge:
       badge: Badge
+      badge_details: 'Detail badge'
       badges: Badge
       category: 'Kategori badge'
       description: 'Deskripsi badge'
       earned_by_count: '{count, plural, one {Diperoleh oleh <b># pengguna</b>} other {Diperoleh oleh <b># pengguna</b>}}'
       earned_count: '{count, plural, one {<b># pengguna</b> telah mendapatkan badge ini} other {<b># pengguna</b> telah mendapatkan badge ini}}'
+      earned_on: 'Lencana diperoleh pada'
       earning_reason: 'Alasan memperoleh badge'
       name: 'Nama badge'
       no_earning_reason: 'Tidak ada alasan perolehan yang ditetapkan'
+      others_link: '+ {count} Lagi'
       received_on: 'Diterima pada {date}'
       update_earning_reason: 'Update alasan memperoleh badge'
     badge_information: 'Informasi tentang badge'
     badges_in_card:
       description: 'Anda dapat mengubah badge yang terlihat pada user card dengan salah satu badge lainnya. Jika Anda tidak memilih salah satu, maka badge akan dipilih secara otomatis.'
       hit_limit: 'Hanya tersedia untuk <b> {limit, plural, one {<b>satu badge</b>} other {<b># badge</b>}}</b> di user card Anda. Batalkan pilihan badge untuk memberi ruang bagi badge ini.'
+      manage_badges: 'Kelola badge'
       select_limit: 'Anda dapat memilih {limit, plural, one {<b>satu badge</b>} other {<b># badge</b>}} untuk ditampilkan di user card Anda.'
+      title: 'Badge di kartu pengguna'
     give_badge: 'Berikan badge'
     moderation:
       give_badge: 'Berikan badge'

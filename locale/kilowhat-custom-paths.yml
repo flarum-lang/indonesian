@@ -36,6 +36,7 @@ kilowhat-custom-paths:
       paths:
         askvortsov-categories: Kategori
         clarkwinkelmann-composer-page: 'Halaman Penulisan'
+        clarkwinkelmann-composer-page-tag: 'Halaman Penulisan Tag'
         clarkwinkelmann-discussion-bookmarks: 'Bookmark Diskusi'
         clarkwinkelmann-discussion-list: Daftar
         clarkwinkelmann-discussion-lists-profile: 'Daftar pengguna'
@@ -44,12 +45,15 @@ kilowhat-custom-paths:
         discussion: Diskusi
         flamarkt-account: Akun
         flamarkt-balance: 'Saldo Akun'
+        flamarkt-cart: Keranjang
         flamarkt-categories: 'Daftar kategori'
+        flamarkt-category: 'Kategori produk'
         flamarkt-identity: 'Identitas Akun'
         flamarkt-product: Produk
         flamarkt-products: 'Indeks produk'
         flamarkt-signup: Daftar
         fof-byobu: 'Diskusi pribadi'
+        fof-byobu-profile: 'Diskusi pengguna'
         fof-gamification: Peringkat
         fof-masquerade: 'Halaman profil'
         fof-moderator-notes-user-notes: 'Catatan profil'

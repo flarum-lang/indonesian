@@ -85,6 +85,7 @@ fof-linguist:
       ref: 'Ref (digunakan kembali pada kolom lain)'
     known-namespace:
       core: 'Flarum Core'
+      validation: 'Kesalahan Validasi'
     locales:
       all: Semua
     permissions:

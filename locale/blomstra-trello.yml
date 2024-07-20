@@ -33,6 +33,7 @@ blomstra-trello:
         labels: 'Pengaturan Label'
       mapping:
         add_new: 'Tambahkan pemetaan'
+        mapping_description: 'akan menjadi'
         modal_title: 'Pemetaan tag baru'
         no_mappings_for_board: 'Tidak ada pemetaan tag aktif yang ditetapkan untuk board ini'
       mappings_label: 'Tag forum ke pemetaan Trello label'

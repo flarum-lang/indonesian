@@ -181,6 +181,7 @@ kilowhat-cimaise:
       oldestTake: 'Pengambilan terlama'
     picture-thumbnail:
       by-user: '=> kilowhat-cimaise.ref.by-user'
+      in-album: Di
     post-stream:
       uploaded: '{username} mengunggah {count} gambar'
     upload-modal:
