@@ -40,6 +40,7 @@ v17development-flarum-blog:
       show_tag_hierarchy_text: 'Tambahkan spasi pada anak-kategori dan berikan hierarki pada daftar kategori.'
   forum:
     article:
+      slug: Slug
       summary: Ringkasan
       title: Judul
     article_settings:
@@ -76,6 +77,8 @@ v17development-flarum-blog:
       update_settings: 'Perbarui pengaturan blog'
       view: Lihat
       write: Tulis
+    forum_nav: 'Navigasi Forum'
+    hidden: Tersembunyi
     no_more_posts: 'Tidak ada lagi artikel blog.'
     read_more: 'Baca lebih lanjut'
     recent_posts: 'Artikel blog terbaru'
@@ -100,3 +103,5 @@ v17development-flarum-blog:
       redirect:
         link: '<a>Klik di sini</a> jika halaman ini gagal mengalihkan Anda'
         title: 'Mengalihkan Anda ke artikel blog kami...'
+    validation:
+      missing_id: 'ID tidak ada'

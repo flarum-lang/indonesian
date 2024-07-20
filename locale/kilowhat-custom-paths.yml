@@ -55,6 +55,7 @@ kilowhat-custom-paths:
         fof-byobu: 'Diskusi pribadi'
         fof-byobu-profile: 'Diskusi pengguna'
         fof-gamification: Peringkat
+        fof-gamification-user-votes: 'Suara Pengguna'
         fof-masquerade: 'Halaman profil'
         fof-moderator-notes-user-notes: 'Catatan profil'
         fof-pages: Halaman

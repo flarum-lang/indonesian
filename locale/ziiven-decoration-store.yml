@@ -85,6 +85,7 @@ ziven-decoration-store:
     purchase-unsubscribe-confirmation: 'Apakah Anda yakin untuk berhenti berlangganan item ini?'
     shopping-cart: 'Keranjang Belanja'
     shopping-cart-close: Tutup
+    user-money-amount: 'Anda memiliki'
     view-shopping-cart: 'Keranjang Belanja'
   lib:
     cancel: Batal
