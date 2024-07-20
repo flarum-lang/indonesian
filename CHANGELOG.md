@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.18.2 (XXXX-XX-XX)
+1.18.2 (2024-07-20)
 -------------------
 
 **Terjemahan terbaru untuk ekstensi**:
