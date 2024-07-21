@@ -27,7 +27,7 @@ kilowhat-formulaire:
       history-controls: 'Tampilkan kontrol undo/redo pada halaman pengajuan'
       horizontal-layout: 'Gunakan tata letak formulir horizontal'
       horizontal-layout-locations:
-        discussionComposer: 'Area Pengeditan Diskusi'
+        discussionComposer: 'Area Penulisan Diskusi'
         discussionEdit: 'Jendela Modal Edit Diskusi'
         discussionView: 'Wadah Tampilan Diskusi'
         profileEdit: 'Halaman Edit Profil'

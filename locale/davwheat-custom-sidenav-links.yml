@@ -17,7 +17,7 @@ davwheat:
               above-tags-link: 'Di atas tombol "Tag"'
               below-tags-link: 'Di bawah tombol "Tag"'
         link_table:
-          add_link_btn: 'Tambahkan link baru'
+          add_link_btn: 'Tambah link baru'
           alert:
             fix_errors: 'Anda perlu memperbaiki masalah-masalah di atas sebelum menyimpan perubahan Anda.'
           confirm_delete: 'Konfirmasi penghapusan link "{link}"'

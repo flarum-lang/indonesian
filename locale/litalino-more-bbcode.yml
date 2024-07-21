@@ -26,7 +26,7 @@ imeepo-more-bbcode:
     button_tooltip_dropcap: 'Huruf awal besar'
     button_tooltip_float_left: 'Sisipkan Float Kiri'
     button_tooltip_float_right: 'Sisipkan Float Kanan'
-    button_tooltip_hr: 'Sisipkan horizontal rule'
+    button_tooltip_hr: 'Horizontal rule'
     button_tooltip_iframe: Iframe
     button_tooltip_img: Gambar
     button_tooltip_img_center: 'Gambar di Tengah'
