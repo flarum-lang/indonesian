@@ -55,7 +55,7 @@ fof-upload:
           both: Keduanya
           media-btn: 'Hanya tombol pengelola media'
           upload-btn: 'Hanya upload button'
-        title: Tombol-tombol
+        title: Tombol
       disable-download-logging:
         title: 'Nonaktifkan pencatatan download'
         toggle: Nonaktifkan
