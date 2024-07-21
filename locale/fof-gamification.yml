@@ -6,7 +6,7 @@ core:
   forum:
     index_sort:
       hot_button: Trending
-      votes_button: 'Dukung Naik'
+      votes_button: 'Dukungan Naik'
 fof-gamification:
   admin:
     page:
