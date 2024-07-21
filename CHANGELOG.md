@@ -11,6 +11,7 @@ CHANGELOG
 * [`akr/chevereto`](https://github.com/AKR-Developers/flarum-chevereto)
 * [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
 * [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
+* [`clarkwinkelmann/flarum-ext-shadow-ban`](https://github.com/clarkwinkelmann/flarum-ext-shadow-ban)
 * [`dalez/flarum-msemoji`](https://github.com/DellZHackintosh/flarum-msemoji)
 * [`dalez/flarum-twemoji`](https://github.com/DellZHackintosh/flarum-twemoji)
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
@@ -19,7 +20,9 @@ CHANGELOG
 * [`flarum/markdown`](https://github.com/flarum/markdown)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`katosdev/signature`](https://github.com/katosdev/signature)
 * [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
+* [`kilowhat/flarum-ext-rich-embeds`](https://flarum.org/extension/kilowhat/flarum-ext-rich-embeds)
 * [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
 * [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs)
 
