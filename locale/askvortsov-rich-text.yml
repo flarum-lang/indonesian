@@ -19,7 +19,7 @@ askvortsov-rich-text:
       code_tooltip: 'Kode sebaris <{modifierKey}-`>'
       header_tooltip: 'Ubah ke header {level} <shift-{modifierKey}-{level}>'
       horizontal_rule_tooltip: 'Garis horizontal'
-      image_tooltip: 'Tambahkan gambar'
+      image_tooltip: Gambar
       insert_button: Sisipkan
       insert_image:
         src_placeholder: Link
@@ -30,7 +30,7 @@ askvortsov-rich-text:
         text_placeholder: Teks
         title_placeholder: 'Judul (ditampilkan saat kursor diarahkan)'
       italic_tooltip: 'Teks miring <{modifierKey}-i>'
-      link_tooltip: 'Tambahkan link'
+      link_tooltip: Link
       ordered_list_tooltip: 'List bernomor <shift-{modifierKey}-9>'
       paragraph_tooltip: 'Ubah ke paragraf <shift-{modifierKey}-0>'
       quote_tooltip: 'Sisipkan quote <{modifierKey}-q>'
