@@ -19,6 +19,8 @@ CHANGELOG
 * [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links)
 * [`flarum/markdown`](https://github.com/flarum/markdown)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
 * [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
