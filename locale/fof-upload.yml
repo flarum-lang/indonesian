@@ -13,7 +13,7 @@ fof-upload:
   admin:
     help_texts:
       client_extension: "Secara default, Upload akan memilih ekstensi file yang aman berdasarkan MIME type.\nUntuk beberapa jenis file yang berbasis ZIP atau data biner, hal ini dapat mengakibatkan ekstensi umum digunakan, alih-alih ekstensi yang diharapkan.\nDi sini Anda dapat memasukkan daftar ekstensi file yang dipisahkan dengan tanda koma yang akan disimpan secara kata demi kata.\n"
-      composer_buttons: "Secara default, tombol pengelola media dan tombol upload terlihat. Anda juga dapat memilih untuk hanya menampilkan satu tombol saja.\n"
+      composer_buttons: "Secara default, tombol pengelola media dan tombol upload akan terlihat. Anda juga dapat memilih untuk hanya menampilkan satu tombol saja.\n"
       custom_s3_url: "Gunakan pengaturan ini jika Anda menggunakan layanan yang kompatibel dengan S3 yang memerlukan format URL tertentu (misalnya, Backblaze B2) atau jika Anda mengalami masalah dengan format URL default. Pengaturan ini umumnya tidak diperlukan untuk sebagian besar layanan. Pastikan URL menyertakan protokol (https://) dan diformat dengan benar. Contoh: https://your-bucket.s3.your-region.example.com\n"
       disable-download-logging: "Menonaktifkan pencatatan setiap download yang dilakukan oleh pengguna forum Anda. Dengan mengaktifkannya, Anda dapat melihat jumlah download dan metrik lainnya.\n"
       disable-hotlink-protection: "Hotlink protection berfungsi untuk mencegah download yang dilakukan dari situs lain. Metode saat ini memerlukan token csrf dan post id.\n"
@@ -103,7 +103,7 @@ fof-upload:
       view_user_uploads_label: 'Melihat data upload pengguna'
     shared-uploads:
       description: 'Upload file yang dapat digunakan oleh semua pengguna forum Anda.'
-      introduction: "Unggahan bersama adalah file yang dapat digunakan oleh semua pengguna forum Anda. Unggahan ini tidak dilampirkan pada postingan apa pun, tetapi dapat disisipkan ke dalam postingan dengan menggunakan pengelola media. \n\n<strong>Peringatan:</strong> Unggahan bersama tidak dilindungi oleh izin apa pun. Siapapun yang memiliki URL dapat melihatnya.\n"
+      introduction: "Unggahan bersama adalah file yang dapat digunakan oleh semua pengguna forum Anda. Unggahan ini tidak dilampirkan pada postingan apa pun, tetapi dapat dimasukkan ke dalam postingan dengan menggunakan pengelola media. \n\n<strong>Peringatan:</strong> Unggahan bersama tidak dilindungi oleh izin apa pun. Siapapun yang memiliki URL akan dapat melihatnya.\n"
       no-files: 'Belum ada file bersama yang diupload.'
       title: 'Unggahan Bersama'
       upload-new-button: 'Upload file baru'

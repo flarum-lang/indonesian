@@ -5,27 +5,27 @@
 clarkwinkelmann-shadow-ban:
   admin:
     permission:
-      ban: 'Meng-shadow ban user'
-      hide: 'Meng-shadow hide diskusi dan post'
+      ban: 'Memblokir pengguna secara shadow'
+      hide: 'Menyembunyikan diskusi dan post secara shadow'
     setting:
-      hideUsers: 'Sembunyikan profil user yang terkena shadow ban'
+      hideUsers: 'Sembunyikan profil pengguna yang diblokir secara shadow'
   forum:
     badge:
-      discussion: 'Shadow hidden'
-      post: 'Shadow hidden'
-      user: 'Shadow banned'
+      discussion: 'Shadow disembunyikan'
+      post: 'Shadow disembunyikan'
+      user: 'Shadow diblokir'
     banUser:
       quick: 'Pilihan cepat'
       quickChoiceDays: '{count, plural, one {# hari} other {# hari}}'
-      quickChoiceReset: 'Tidak ditangguhkan'
+      quickChoiceReset: 'Tidak diblokir'
       submit: Simpan
       title: 'Tangguhkan {username}'
       until: 'Hingga tanggal (UTC)'
     discussionControl:
-      hide: 'Shadow hide'
+      hide: 'Sembunyikan shadow'
       restore: 'Pulihkan shadow'
     postControl:
-      hide: 'Shadow hide'
+      hide: 'Sembunyikan shadow'
       restore: 'Pulihkan shadow'
     userControl:
-      ban: 'Shadow ban'
+      ban: 'Blokir shadow'
