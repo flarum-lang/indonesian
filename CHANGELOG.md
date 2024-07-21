@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
 * [`flarum/markdown`](https://github.com/flarum/markdown)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
 
 
