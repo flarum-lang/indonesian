@@ -9,8 +9,8 @@ antoinefr-money:
       metric_name: Money
     autoremove:
       - 'Jangan pernah menghapus money'
-      - 'Ketika diskusi/postingan disembunyikan atau dipulihkan (default)'
-      - 'Ketika diskusi/postingan dihapus'
+      - 'Ketika diskusi/post disembunyikan atau dipulihkan (default)'
+      - 'Ketika diskusi/post dihapus'
     permissions:
       edit_money_label: 'Mengedit money'
     settings:
@@ -27,6 +27,6 @@ antoinefr-money:
     modal:
       current: 'Saat ini:'
       submit_button: '=> core.ref.save_changes'
-      title: '{username} money'
+      title: 'Money - {username}'
     user_controls:
       money_button: 'Edit money'

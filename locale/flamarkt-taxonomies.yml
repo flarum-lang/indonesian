@@ -12,7 +12,7 @@ flamarkt-taxonomies:
         color: '=> flamarkt-taxonomies.ref.field.color'
         countRequired: 'Jumlah istilah yang diperlukan'
         countRequiredDescription: "Masukkan jumlah minimum dan maksimum istilah dari taksonomi ini yang dapat diterapkan ke sumber daya.\n"
-        customValueSlugger: 'Slugger untuk nilai khusus'
+        customValueSlugger: 'Slugger untuk value khusus'
         customValueSluggerDescription: "Pilih bagaimana Anda ingin slug dihasilkan. Jika slug sudah ada, prefiks numerik akan secara otomatis ditambahkan. Untuk opsi Transliterator, Anda perlu menginstal dan mengonfigurasi ekstensi lain terlebih dahulu.\n"
         customValueValidation: 'Validasi untuk nilai khusus'
         description: '=> flamarkt-taxonomies.ref.field.description'
@@ -48,7 +48,7 @@ flamarkt-taxonomies:
         edit: '=> flamarkt-taxonomies.ref.submit.edit'
         new: '=> flamarkt-taxonomies.ref.submit.new'
       title:
-        edit: 'Mengedit Taksonomi'
+        edit: 'Edit Taksonomi'
         new: 'Membuat Taksonomi'
       type-options:
         discussions: Diskusi
