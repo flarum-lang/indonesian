@@ -6,10 +6,10 @@ pay-to-see:
   admin:
     error_need_one_tag: 'Pilih setidaknya satu tag'
     permission:
-      allow_bypass_pay2see: 'Mengizinkan bypass untuk melihat konten bayar untuk melihat'
-      allow_purchase_pay2see: 'Mengizinkan pembelian bayar untuk melihat konten'
-      allow_set_pay2see: 'Mengizinkan pengaturan bayar untuk melihat untuk diskusi pengguna lain'
-      allow_use_pay2see: 'Mengizinkan penggunaan bayar untuk melihat'
+      allow_bypass_pay2see: 'Izinkan bypass untuk melihat konten bayar untuk melihat'
+      allow_purchase_pay2see: 'Izinkan pembelian bayar untuk melihat konten'
+      allow_set_pay2see: 'Izinkan pengaturan bayar untuk melihat untuk diskusi pengguna lain'
+      allow_use_pay2see: 'Izinkan penggunaan bayar untuk melihat'
     set_permission_tag: 'Pengaturan Perizinan Tag'
     set_permission_tag_help: 'Ketika seorang pengguna memulai diskusi, dia dapat menggunakan P2S dengan memilih tag apa pun yang memiliki izin'
     settings:

@@ -11,7 +11,7 @@ michaelbelgium-discussion-views:
   admin:
     permissions:
       reset_views_label: 'Reset jumlah tampilan diskusi'
-      view_number_label: 'Lihat jumlah tampilan diskusi'
+      view_number_label: 'Melihat jumlah tampilan diskusi'
     settings:
       abbr_numbers_label: 'Menyingkat angka tampilan'
       abbr_numbers_text: 'Jika diaktifkan, angka besar untuk jumlah tampilan akan disingkat (misalnya, 1000 = 1K)'
@@ -19,7 +19,7 @@ michaelbelgium-discussion-views:
       ignore_crawlers_text: 'Mencegah bot dan crawler untuk meningkatkan jumlah tampilan'
       max_viewcount_label: 'Jumlah maksimal item daftar jumlah tampilan'
       max_viewcount_text: 'Mengatur jumlah maksimum pengguna dalam daftar jumlah tampilan (berlaku untuk daftar jumlah tampilan footer dan sidebar)'
-      show_filter_label: 'Aktifkan kolom sortir (tidak) populer'
+      show_filter_label: 'Aktifkan kolom sortir populer / tidak populer'
       show_footer_viewlist_label: 'Aktifkan daftar jumlah tampilan footer'
       show_footer_viewlist_text: 'Mengaktifkan daftar pengunjung di bagian footer pada postingan awal dari sebuah diskusi'
       show_viewlist_label: 'Aktifkan daftar jumlah tampilan'
