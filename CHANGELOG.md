@@ -5,21 +5,30 @@ CHANGELOG
 1.18.3 (XXXX-XX-XX)
 -------------------
 
+**Perubahan umum**:
+
+* Memperbarui terjemahan untuk Flarum core.
+
+
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`acpl/my-tags`](https://github.com/android-com-pl/my-tags)
 * [`akr/chevereto`](https://github.com/AKR-Developers/flarum-chevereto)
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
 * [`blomstra/gdpr`](https://github.com/blomstra/flarum-ext-gdpr)
+* [`clarkwinkelmann/flarum-ext-create-user-modal`](https://github.com/clarkwinkelmann/flarum-ext-create-user-modal)
 * [`clarkwinkelmann/flarum-ext-shadow-ban`](https://github.com/clarkwinkelmann/flarum-ext-shadow-ban)
 * [`dalez/flarum-msemoji`](https://github.com/DellZHackintosh/flarum-msemoji)
 * [`dalez/flarum-twemoji`](https://github.com/DellZHackintosh/flarum-twemoji)
 * [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
 * [`davwheat/flarum-ext-ads`](https://github.com/davwheat/flarum-ext-ads)
 * [`davwheat/custom-sidenav-links`](https://github.com/davwheat/flarum-ext-custom-sidenav-links)
+* [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
 * [`flarum/markdown`](https://github.com/flarum/markdown)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
