@@ -17,7 +17,7 @@ datlechin-chatgpt:
       max_tokens_label: 'Maksimum Token'
       model_help: 'Pelajari lebih lanjut tentang <a>models</a> (default: <code>text-davinci-003</code>).'
       model_label: Model
-      user_prompt_badge_help: 'Teks yang akan ditampilkan di sebelah perintah User.'
-      user_prompt_badge_label: 'Badge Perintah User'
-      user_prompt_help: 'Masukkan id pengguna yang akan digunakan untuk menghasilkan jawaban. Defaultnya adalah siapa yang memulai diskusi.'
-      user_prompt_label: 'Perintah User'
+      user_prompt_badge_help: 'Teks yang akan ditampilkan di sebelah prompt pengguna.'
+      user_prompt_badge_label: 'Badge Prompt Pengguna'
+      user_prompt_help: 'Masukkan ID pengguna yang akan digunakan untuk menghasilkan jawaban. Defaultnya adalah siapa yang memulai diskusi.'
+      user_prompt_label: 'Prompt Pengguna'

@@ -9,19 +9,19 @@ michaelbelgium-mybb-to-flarum:
       description_text: 'Memigrasikan forum MyBB ke dalam Flarum instance. Isi data yang diperlukan, kemudian klik "migrasi".'
       form:
         general:
-          migrate_categories_label: 'Memigrasikan kategori'
-          migrate_threadsPosts_label: 'Memigrasikan thread dan postingan'
-          migrate_userGroups_label: 'Memigrasikan grup pengguna'
-          migrate_users_label: 'Memigrasikan pengguna'
+          migrate_categories_label: 'Migrasikan kategori'
+          migrate_threadsPosts_label: 'Migrasikan thread dan postingan'
+          migrate_userGroups_label: 'Migrasikan grup pengguna'
+          migrate_users_label: 'Migrasikan pengguna'
           title: 'Opsi umum'
         mybb:
-          db_label: 'Nama database'
+          db_label: 'Database: Nama'
           host_label: 'Host database'
-          password_label: 'Password database'
+          password_label: 'Database: Password'
           path_label: 'Path MyBB absolut'
           prefix_label: 'Prefiks tabel'
           title: 'Pengaturan MyBB'
-          user_label: 'Pengguna database'
+          user_label: 'Database: User'
         options:
           migrate_attachments_label: 'Memigrasikan lampiran (attachment)'
           migrate_avatars_label: 'Memigrasikan avatar'

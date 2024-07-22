@@ -4,4 +4,4 @@
 
 datlechin-usercard-uid:
   forum:
-    uid_text: 'ID User: {uid}'
+    uid_text: 'ID Pengguna: {uid}'

@@ -27,7 +27,7 @@ kilowhat-audit:
         filterClient: 'Tampilkan catatan berdasarkan client type ini'
         filterDiscussion: 'Tampilkan catatan yang mempengaruhi diskusi yang sama'
         filterIp: 'Tampilkan catatan berdasarkan IP ini'
-        filterUser: 'Tampilkan catatan yang mempengaruhi user yang sama'
+        filterUser: 'Tampilkan catatan yang mempengaruhi pengguna yang sama'
         hideRaw: 'Sembunyikan raw log'
         showRaw: 'Tampilkan raw log'
       deletedResource:
@@ -35,7 +35,7 @@ kilowhat-audit:
         group: 'Grup #{id}'
         post: 'Post #{id}'
         tag: 'Tag #{id}'
-        user: 'User #{id}'
+        user: 'Pengguna #{id}'
       discussion:
         create_date_changed: 'Perubahan tanggal mulai {discussion} dari {old_date} ke {new_date}'
         created: 'Memulai diskusi {discussion}'
