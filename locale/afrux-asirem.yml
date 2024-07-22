@@ -18,14 +18,14 @@ afrux-theme-base:
       footer_bottom_line: 'Garis Bawah Footer'
       footer_description: 'Deskripsi Footer'
       hero_banner: 'Gambar Welcome Hero'
-      hero_banner_position: 'Posisi CSS Hero Image (contoh: ''center top'' atau ''center 20%'')'
+      hero_banner_position: 'CSS - Posisi Gambar Hero (contoh: ''center top'' or ''center 20%'')'
       links_modal:
         add_group: 'Grup Link Baru'
         add_link: 'Tambah link'
         group_name: 'Nama Grup {number}'
         group_title: 'Judul Grup Link'
         link_label: 'Label Link'
-        link_url: 'Link URL'
+        link_url: 'URL Link'
     users:
       grid:
         columns:

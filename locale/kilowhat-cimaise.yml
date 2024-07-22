@@ -65,7 +65,7 @@ kilowhat-cimaise:
     picture-edit:
       unauthorized:
         author: 'Penulis tidak valid, edit tidak diizinkan'
-        crop: 'Crop tidak valid, edit tidak diizinkan'
+        crop: 'Pemotongan tidak valid, pengeditan tidak diizinkan'
         description: 'Deskripsi tidak valid, edit tidak diizinkan'
         isApprovedApprove: 'Pernyataan persetujuan tidak valid, tidak diizinkan untuk menyetujui'
         isApprovedUnApprove: 'Pernyataan persetujuan tidak valid, tidak diizinkan untuk membatalkan persetujuan'
