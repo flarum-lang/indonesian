@@ -13,6 +13,7 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`acpl/my-tags`](https://github.com/android-com-pl/my-tags)
+* [`afrux/asirem`](https://github.com/afrux/asirem)
 * [`akr/chevereto`](https://github.com/AKR-Developers/flarum-chevereto)
 * [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`askvortsov/flarum-rich-text`](https://github.com/askvortsov1/flarum-rich-text)
@@ -30,12 +31,15 @@ CHANGELOG
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
+* [`kilowhat/flarum-ext-cimaise`](https://flarum.org/extension/kilowhat/flarum-ext-cimaise)
 * [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
 * [`kilowhat/flarum-ext-rich-embeds`](https://flarum.org/extension/kilowhat/flarum-ext-rich-embeds)
 * [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
 * [`therealsujitk/flarum-ext-gifs`](https://github.com/therealsujitk/flarum-ext-gifs)
+* [`widayn/flarum-avatar-cropper`](https://github.com/WiDayn/flarum-avatar-cropper)
 
 
 Semua perubahan: [1.18.2...1.18.3](https://github.com/flarum-lang/indonesian/compare/1.18.2...1.18.3).
