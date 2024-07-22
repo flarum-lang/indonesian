@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`acpl/my-tags`](https://github.com/android-com-pl/my-tags)
 * [`afrux/asirem`](https://github.com/afrux/asirem)
+* [`afrux/forum-widgets-core`](https://github.com/afrux/forum-widgets-core)
 * [`akr/chevereto`](https://github.com/AKR-Developers/flarum-chevereto)
 * [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories)
@@ -34,13 +35,18 @@ CHANGELOG
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/markdown`](https://github.com/flarum/markdown)
+* [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`justoverclock/last-post-useravatar`](https://github.com/justoverclockl/last-post-useravatar)
 * [`katosdev/signature`](https://github.com/katosdev/signature)
 * [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
 * [`kilowhat/flarum-ext-audit-pro`](https://flarum.org/extension/kilowhat/flarum-ext-audit-pro)
@@ -58,6 +64,7 @@ CHANGELOG
 * [`ziiven/flarum-daily-check-in`](https://github.com/Ziiven/flarum-daily-check-in)
 * [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
 * [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
+* [`ziiven/flarum-pay-to-see`](https://flarum.org/extension/ziiven/flarum-pay-to-see)
 
 
 Semua perubahan: [1.18.2...1.18.3](https://github.com/flarum-lang/indonesian/compare/1.18.2...1.18.3).
