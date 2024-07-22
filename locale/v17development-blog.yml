@@ -7,7 +7,7 @@ v17development-flarum-blog:
     blog: Blog
     permissions:
       approve_posts: 'Dapat menyetujui artikel blog'
-      auto_approve_posts: 'Mem-posting artikel tanpa persetujuan'
+      auto_approve_posts: 'Memposting artikel tanpa persetujuan'
       write_articles: 'Menulis dan mengedit artikel blog'
     settings:
       add_hero_label: 'Tampilkan welcome banner'

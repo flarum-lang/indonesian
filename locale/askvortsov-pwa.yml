@@ -24,7 +24,7 @@ askvortsov-pwa:
         theme_color_text: 'Warna ini terkadang digunakan oleh perangkat saat menampilkan aplikasi Anda, misalnya pada task switcher Android, sebagai warna yang berada di sekitar situs.'
       firebase_config:
         heading: Firebase
-        help_text: 'Untuk menambahkan dukungan untuk push notification saat menerbitkan aplikasi Anda di Apple App Store, Anda perlu menggunakan Firebase untuk menambahkan push notification ke aplikasi Anda. Buatlah Konfigurasi Layanan Firebase Anda dan upload di sini.'
+        help_text: 'Untuk menambahkan dukungan untuk push notification saat mempublikasikan aplikasi Anda di Apple App Store, Anda perlu menggunakan Firebase untuk menambahkan push notification ke aplikasi Anda. Buatlah Firebase Service Config dan unggah di sini.'
         see_documentation_here: 'Lihat dokumentasinya di sini'
         upload_file: 'Unggah file'
         upload_successful: 'Konfigurasi firebase Anda telah berhasil diunggah'
@@ -40,7 +40,7 @@ askvortsov-pwa:
         reset_vapid_success: 'VAPID key berhasil diatur ulang. {count} subscription telah diatur ulang. Muat ulang halaman untuk melihat laporan pemeriksaan status yang diperbarui.'
         reset_vapid_text: 'Ini akan membuat ulang VAPID key, dan menghapus semua subscription yang ada dengan menggunakan VAPID key saat ini.'
       other:
-        force_portrait_text: 'Paksa orientasi portait?'
+        force_portrait_text: 'Paksa orientasi portrait?'
         heading: Lainnya
         push_notif_preference_default_to_email_label: 'Preferensi Push Default untuk Email?'
         push_notif_preference_default_to_email_text: 'Jika true, pengguna akan mengaktifkan push notification secara default untuk semua jenis notifikasi di mana notifikasi email diaktifkan secara default. Jika false, pengguna akan menonaktifkan push notification secara default.'
