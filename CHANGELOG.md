@@ -45,6 +45,7 @@ CHANGELOG
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
 * [`fof/profile-image-crop`](https://github.com/FriendsOfFlarum/profile-image-crop)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
