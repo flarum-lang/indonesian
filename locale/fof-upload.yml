@@ -12,23 +12,23 @@ blomstra-gdpr:
 fof-upload:
   admin:
     help_texts:
-      client_extension: "Secara default, Upload akan memilih ekstensi file yang aman berdasarkan MIME type.\nUntuk beberapa jenis file yang berbasis ZIP atau data biner, hal ini dapat mengakibatkan ekstensi umum digunakan, alih-alih ekstensi yang diharapkan.\nDi sini Anda dapat memasukkan daftar ekstensi file yang dipisahkan koma yang akan disimpan kata demi kata.\n"
+      client_extension: "Secara default, Upload akan memilih ekstensi file yang aman berdasarkan jenis MIME.\nUntuk beberapa jenis file yang berbasis ZIP atau data biner, hal ini dapat mengakibatkan ekstensi umum digunakan, alih-alih ekstensi yang diharapkan.\nDi sini Anda dapat memasukkan daftar ekstensi file yang dipisahkan koma yang akan disimpan kata demi kata.\n"
       composer_buttons: "Secara default, tombol pengelola media dan tombol upload akan terlihat. Anda juga dapat memilih untuk hanya menampilkan satu tombol saja.\n"
       custom_s3_url: "Gunakan pengaturan ini jika Anda menggunakan layanan yang kompatibel dengan S3 yang memerlukan format URL tertentu (misalnya, Backblaze B2) atau jika Anda mengalami masalah dengan format URL default. Pengaturan ini umumnya tidak diperlukan untuk sebagian besar layanan. Pastikan URL menyertakan protokol (https://) dan diformat dengan benar. Contoh: https://your-bucket.s3.your-region.example.com\n"
       disable-download-logging: "Menonaktifkan pencatatan setiap download yang dilakukan oleh pengguna forum Anda. Dengan mengaktifkannya, Anda dapat melihat jumlah download dan metrik lainnya.\n"
       disable-hotlink-protection: "Hotlink protection berfungsi untuk mencegah download yang dilakukan dari situs lain. Metode saat ini memerlukan token csrf dan post id.\n"
       download_templates: "Template download adalah bagaimana upload ditampilkan di forum Anda, misalnya pratinjau, tombol. Saat ini tersedia:\n"
-      mime_types: "Silakan konfigurasikan mapping Anda di sini. Setiap regular expression bertipe mime akan ditangani oleh adaptor upload dan template download tertentu.\n"
+      mime_types: "Silakan konfigurasikan mapping Anda di sini. Setiap regular expression untuk jenis MIME akan ditangani oleh adaptor upload dan template download tertentu.\n"
       resize: "Pilih apakah Anda ingin mengubah ukuran gambar sebelum diunggah. Anda dapat memilih lebar dan tinggi maksimum, dalam piksel. Proses pengubahan ukuran akan mempertahankan aspect ratio gambar.\n"
       s3_acl: "ACL yang harus diterapkan pada objek yang diunggah (default: private). Untuk value-nya, lihat https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html#canned-acl\n"
       s3_compatible_storage: "Pengaturan berikut ini hanya diperlukan bila menggunakan penyimpanan yang kompatibel dengan S3. Jika Anda menggunakan AWS, Anda dapat mengosongkannya.\n"
       s3_instance_profile: "Biarkan key dan secret kosong untuk menggunakan kredensial di instance profile.\n"
       watermark: "Tentukan apakah gambar akan ditambahkan watermark saat di-upload. Watermark ditambahkan ke non-gif berdasarkan preferensi Anda di bawah ini.\n"
     inspect-mime:
-      description: "FoF Upload menggunakan library <a>PHP Mime Detector</a> untuk common MIME types dan PHP Fileinfo sebagai fallback.\nNilai MIME yang dikembalikan oleh Fileinfo dapat berbeda dari server ke server!\n"
+      description: "FoF Upload menggunakan library <a>PHP Mime Detector</a> untuk jenis MIME umum dan PHP Fileinfo sebagai fallback.\nValue dari MIME yang dikembalikan oleh Fileinfo dapat berbeda dari server ke server!\n"
       guessed-extension: 'Ekstensi file default (jika original tidak masuk ke dalam whitelist)'
       laravel-validation: 'Validasi File Laravel'
-      mime-detector: 'Pendeteksi Mime (primer)'
+      mime-detector: 'Pendeteksi MIME (primer)'
       mime-fileinfo: 'Informasi File PHP (fallback)'
       no-file-selected: 'Tidak ada file'
       not-available: 'Tidak ada hasil'
@@ -72,7 +72,7 @@ fof-upload:
         title: 'Pengaturan local storage'
       preferences:
         max_file_size: 'Ukuran file maksimum (dalam kilobyte)'
-        mime_types: 'Konfigurasikan mime type Anda, upload adapter mapping'
+        mime_types: 'Konfigurasikan jenis MIME Anda, upload adapter mapping'
         php_ini_values: 'Value <code>php.ini</code> Anda adalah <code>post_max_size={post}</code> dan <code>upload_max_filesize={upload}</code>. Pastikan value yang ditetapkan di sini berada di bawah ambang batas ini, atau sesuaikan dengan kebutuhan Anda. Jika menggunakan <code>Nginx</code>, pastikan juga bahwa <code>client_max_body_size</code> memiliki ukuran yang cukup untuk batas maksimal yang Anda pilih.'
         title: 'Preferensi umum'
       qiniu:
@@ -131,7 +131,7 @@ fof-upload:
   api:
     upload_errors:
       cannot_write_to_disk: 'Tidak dapat menulis ke disk.'
-      could_not_detect_mime: 'Tidak dapat mendeteksi MIME type file ini, harap coba lagi.'
+      could_not_detect_mime: 'Tidak dapat mendeteksi jenis MIME file ini, harap coba lagi.'
       forbidden_type: 'Meng-upload file jenis ini tidak diperbolehkan.'
       max_upload_file_size_form: 'Batas ukuran file maksimum yang dapat di-upload dari form.'
       max_upload_file_size_ini: 'Batas maksimal ukuran file yang di-upload dari php.ini.'
@@ -139,7 +139,7 @@ fof-upload:
       no_files_made_it_to_upload: 'Harap meng-upload file tidak lebih besar dari {max} kb.'
       no_upload_tmp_folder: 'Tidak ada folder tmp (temporary/sementara) untuk meng-upload file.'
       partial_upload: 'Upload sebagian.'
-      unsupported_type: 'Adaptor upload tidak mendukung mime type yang disediakan: {mime}.'
+      unsupported_type: 'Adaptor upload tidak mendukung jenis MIME yang disediakan: {mime}.'
       upload_blocked_by_php_extension: 'Sebuah ekstensi php memblokir proses upload.'
   forum:
     buttons:
