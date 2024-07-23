@@ -50,6 +50,8 @@ kilowhat-custom-paths:
         flamarkt-categories: 'Daftar kategori'
         flamarkt-category: 'Kategori produk'
         flamarkt-identity: 'Identitas Akun'
+        flamarkt-order: 'Flamarkt - Order'
+        flamarkt-orders: 'Flamarkt - Account Orders'
         flamarkt-product: Produk
         flamarkt-products: 'Indeks produk'
         flamarkt-signup: Daftar
