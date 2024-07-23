@@ -17,6 +17,7 @@ fof-user-directory:
       back_to_user_directory_tooltip: 'Kembali ke Direktori Pengguna'
     page:
       empty_text: 'Kami tidak dapat menemukan pengguna yang cocok dengan pencarian Anda.'
+      filter_button: 'Filter Berdasarkan Group'
       load_more_button: '=> core.ref.load_more'
       nav: 'Direktori Pengguna'
       refresh_tooltip: '=> core.forum.index.refresh_tooltip'

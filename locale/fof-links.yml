@@ -9,7 +9,7 @@ fof-links:
       delete_link_confirmation: 'Apakah Anda yakin ingin menghapus link ini?'
       everyone-label: Semua
       guests-label: Tamu
-      icon_additional_text: 'Jika Anda ingin menggunakan ikon brand, awalannya adalah <code>fab fa-</code>.'
+      icon_additional_text: 'Jika Anda ingin menggunakan ikon brand, prefiksnya adalah <code>fab fa-</code>.'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       internal_link: 'Apakah ini link internal?'

@@ -18,7 +18,7 @@ the-turk-flamoji:
         load_more_button: '=> core.forum.post_stream.load_more_button'
       export_json_button: 'Ekspor JSON'
       heading_title: 'Emoji Khusus'
-      import_emojis_message: 'Ini hanya akan mengimpor konfigurasi emoji. Anda perlu meng-upload gambar emoji secara manual.'
+      import_emojis_message: 'Ini hanya akan mengimpor konfigurasi emoji. Anda perlu mengunggah gambar emoji secara manual.'
       import_json_button: 'Impor JSON'
     settings:
       auto_hide_label: 'Sembunyikan otomatis'

@@ -20,7 +20,7 @@ v17development-flarum-blog:
       categories_heading: Kategori
       default_article_image_label: 'Gambar artikel bawaan'
       default_article_image_text: 'Pilih gambar artikel bawaan untuk ditampilkan apabila tidak ada gambar yang ditetapkan.'
-      featured_count_label: 'Maksimum Postingan Unggulan'
+      featured_count_label: 'Jumlah Maksimum Postingan Unggulan'
       featured_count_text: 'Berapa banyak post yang harus ditampilkan dalam grid besar di bagian atas halaman blog?'
       hide_on_discussion_list_label: 'Jangan tampilkan dalam daftar diskusi'
       hide_on_discussion_list_text: 'Sembunyikan postingan blog di daftar diskusi.'
@@ -68,7 +68,7 @@ v17development-flarum-blog:
       comment_section: 'Bagian komentar tidak tersedia saat menulis artikel.'
       edit_categories: 'Edit kategori'
       enter_message_here: 'Masukkan pesan Anda di sini'
-      no_blog_tags_selected: 'Tidak satu pun dari tag yang Anda pilih adalah tag blog. Silakan pilih setidaknya satu.'
+      no_blog_tags_selected: 'Tidak ada satu pun dari tag yang Anda pilih adalah tag blog. Silakan pilih setidaknya satu.'
       no_title: 'Tidak ada judul'
       nothing_to_preview: 'Tidak ada yang dapat dipratinjau'
       post_article: 'Posting artikel'

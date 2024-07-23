@@ -27,6 +27,7 @@ fof-merge-discussions:
       load_preview_button: Pratinjau
       ordering_date_help: 'Postingan dalam diskusi yang dihasilkan diurutkan berdasarkan tanggal pembuatannya masing-masing'
       ordering_date_label: 'Menggabungkan postingan berdasarkan tanggal pembuatan'
+      ordering_heading: 'Urutan penggabungan'
       ordering_suffix_help: 'Postingan yang digabungkan ke dalam diskusi yang masih aktif akan ditambahkan di akhir diskusi'
       ordering_suffix_label: 'Tambahkan postingan yang digabungkan ke akhir diskusi'
       submit_button: '=> fof-merge-discussions.ref.merge'
