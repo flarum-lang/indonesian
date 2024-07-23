@@ -61,6 +61,7 @@ CHANGELOG
 * [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
 * [`kilowhat/flarum-ext-audit-pro`](https://flarum.org/extension/kilowhat/flarum-ext-audit-pro)
 * [`kilowhat/flarum-ext-cimaise`](https://flarum.org/extension/kilowhat/flarum-ext-cimaise)
+* [`kilowhat/flarum-ext-custom-paths`](https://flarum.org/extension/kilowhat/flarum-ext-custom-paths)
 * [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
 * [`kilowhat/flarum-ext-rich-embeds`](https://flarum.org/extension/kilowhat/flarum-ext-rich-embeds)
 * [`litalino/flarum-more-bbcode`](https://github.com/Litalino/flarum-more-bbcode)
