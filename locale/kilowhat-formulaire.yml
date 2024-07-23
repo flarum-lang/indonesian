@@ -45,7 +45,8 @@ kilowhat-formulaire:
         far-square: 'Ikon FontAwesome Regular Square'
         fas-circle: 'Ikon FontAwesome Solid Circle'
         fas-square: 'Ikon FontAwesome Solid Square'
-        native: 'Kontrol browser bawaan'
+        native: 'Kontrol bawaan browser'
+        switch: 'Tombol peralihan Flarum'
       title: 'Pengaturan global formulir'
       uniformComposerLayout: 'Tata letak penulisan diskusi yang seragam'
       uniformComposerLayoutHelp: "Mengubah gaya tag, judul, dan bidang konten agar sesuai dengan Formulaire. Tata letak ini akan membutuhkan lebih banyak ruang, jadi Anda disarankan untuk menginstal dan mengaktifkan ekstensi <a>Composer Page</a>.\n"
@@ -76,6 +77,7 @@ kilowhat-formulaire:
   forum:
     auto-discussion-options-modal:
       field:
+        content: Konten
         tags: 'Tag diskusi'
         tags-help: "Daftar slug tag yang dipisahkan dengan koma. Tag yang dipilih akan ditambahkan sebagai tambahan pada tag yang terhubung dengan formulir ini.\n"
         title: 'Judul diskusi'
@@ -90,6 +92,7 @@ kilowhat-formulaire:
       other-placeholder: Ketik...
     confirmation-email-options-modal:
       field:
+        message: Isi
         title: Judul
       submit: 'Validasi perubahan'
       title: 'Template email'
@@ -116,7 +119,9 @@ kilowhat-formulaire:
         ods: ODS
         xls: XLS
         xlsx: XLSX
+      heading: 'Heading / key'
       heading-options:
+        key: 'Key kolom'
         none: 'Tidak ada baris header'
         title: 'Judul kolom'
       meta: Metadata
@@ -320,6 +325,7 @@ kilowhat-formulaire:
       description: Deskripsi
       duplicate: 'Duplikat kolom'
       email: Email
+      fill-permission: '(Expert) Isi perizinan'
       integer: 'Bilangan bulat'
       key: '(Expert) Kunci JSON dalam payload pengajuan'
       max: Maksimum

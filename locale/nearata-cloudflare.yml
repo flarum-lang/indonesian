@@ -8,7 +8,7 @@ nearata-cloudflare:
       title: 'Mode Cloudflare Development aktif'
     settings:
       api_key: 'API Key'
-      api_key_help: 'Ikuti panduan <strong><url>Membuat API Token</url></strong> untuk membuat API Token.'
+      api_key_help: 'Ikuti panduan <strong><url>Membuat Token API</url></strong> untuk membuat Token API.'
       confirm_text: 'Apakah Anda yakin?'
       minify_setting:
         css: 'Minify CSS'

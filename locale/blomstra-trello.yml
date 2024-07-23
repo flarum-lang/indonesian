@@ -6,9 +6,9 @@ blomstra-trello:
   admin:
     modals:
       fields:
-        board: 'Pilih Trello board'
+        board: 'Pilih board Trello'
         forum_tags: 'Pilih tag Forum yang akan dipetakan'
-        trello_label: 'Pilih Trello label'
+        trello_label: 'Pilih label Trello'
       no_available_labels_label: 'Tidak ada label yang tersedia'
       no_available_tags_label: 'Tidak ada tag forum yang tersedia'
     permissions:
@@ -16,8 +16,8 @@ blomstra-trello:
     settings:
       api_key_help: 'Masukkan API key dari {link} agar ekstensi ini dapat terhubung dengan Trello.'
       api_key_label: 'API Key'
-      api_token_help: 'Masukkan API token agar ekstensi ini dapat terhubung dengan Trello. Kunjungi {link} dan klik <code>Generate a Token</code>'
-      api_token_label: 'API Token'
+      api_token_help: 'Masukkan token API agar ekstensi ini dapat terhubung dengan Trello. Kunjungi {link} dan klik <code>Generate a Token</code>'
+      api_token_label: 'Token API'
       available_boards_label: 'Board yang tersedia'
       button:
         add: Tambah

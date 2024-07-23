@@ -52,3 +52,8 @@ foskym-oauth-center:
       load_more: 'Muat Lebih Lanjut'
       no_more_records: 'Tidak ada lagi catatan'
       no_records: 'Tidak ada catatan'
+    page:
+      label:
+        authorized: 'Log Otorisasi'
+      title:
+        authorize: Mengizinkan

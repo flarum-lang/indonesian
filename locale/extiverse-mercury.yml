@@ -14,7 +14,7 @@ extiverse-mercury:
       updates: '{count, plural, =0 {Tidak ada pembaruan} one {Satu pembaruan} other {# pembaruan}}'
     settings:
       token: 'Token Extiverse (<a>request</a>)'
-      token-description: "Ambil API token dari Extiverse sehingga <a>Extiverse</a> dapat berkomunikasi dengan aman dengan komunitas Flarum Anda.\n"
+      token-description: "Ambil token API dari Extiverse sehingga <a>Extiverse</a> dapat berkomunikasi dengan aman dengan komunitas Flarum Anda.\n"
   email:
     new-extension-update:
       body: "Hai {recipient_display_name}!\n\n{count} pembaruan telah ditemukan di komunitas Flarum Anda. Sangat disarankan untuk \nmemperbarui sesegera mungkin.\n\nPembaruan mencakup ekstensi berikut {extensions}.\n\nSilakan kunjungi komunitas Anda untuk informasi lebih lanjut: {url}.\n"

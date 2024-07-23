@@ -95,6 +95,7 @@ ziven-decoration-store:
     cancel: Batal
     close: Tutup
     confirm: Konfirmasi
+    delete-error: 'Error - Hapus'
     item-amount: Stok
     item-cost: Biaya
     item-cost-free: Gratis
@@ -123,5 +124,6 @@ ziven-decoration-store:
     list-load-more: 'Muat Lebih Banyak'
     none: 'Tidak ada'
     ok: OK
+    save-error: 'Error - Simpan'
     save-error-item-expired: 'Item kedaluwarsa'
     submit-error-field-empty: 'Anda harus mengisi nilai yang dibutuhkan'
