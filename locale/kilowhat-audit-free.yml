@@ -14,7 +14,7 @@ kilowhat-audit:
   lib:
     browser:
       audit_log_cleared: 'Menghapus {deleted_count} entri dari catatan audit'
-      cache_cleared: 'Bersihkan cache secara manual'
+      cache_cleared: 'Cache dibersihkan secara manual'
       client:
         access_token: 'Token akses'
         api_key: 'API key'
@@ -41,7 +41,7 @@ kilowhat-audit:
         created: 'Memulai diskusi {discussion}'
         deleted: 'Hapus: diskusi {discussion}'
         hidden: 'Menyembunyikan diskusi {discussion}'
-        locked: 'Diskusi terkunci {discussion}'
+        locked: 'Diskusi {discussion} terkunci'
         merged_away: 'Menggabungkan {discussion} ke dalam {new_discussion}'
         merged_into: 'Menggabungkan postingan {post_count} dari diskusi {original_discussion_ids_count} ke dalam {discussion}'
         renamed: 'Perubahan nama diskusi dari {old_title} menjadi {new_title}'
