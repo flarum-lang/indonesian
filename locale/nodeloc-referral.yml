@@ -14,6 +14,7 @@ nodeloc-referral:
   forum:
     actives: Aktif
     cost: Biaya
+    create_time: 'Waktu pembuatan'
     invite_code: 'Kode undangan'
     is_expire: 'Kedaluwarsa?'
     purchase_expire_tip: 'Kode undangan akan kedaluwarsa dalam {invite_code_expires} hari'
