@@ -45,6 +45,7 @@ CHANGELOG
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
 * [`fof/formatting`](https://github.com/FriendsOfFlarum/formatting)
 * [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/merge-discussions`](https://github.com/FriendsOfFlarum/merge-discussions)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
@@ -68,6 +69,7 @@ CHANGELOG
 * [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * [`michaelbelgium/mybb-to-flarum`](https://github.com/MichaelBelgium/mybb_to_flarum)
+* [`migratetoflarum/fake-data`](https://github.com/migratetoflarum/fake-data)
 * [`nearata/flarum-ext-cloudflare`](https://github.com/Nearata/flarum-ext-cloudflare)
 * `nodeloc-referral`
 * [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
