@@ -11,7 +11,7 @@ fof-user-directory:
       disable-global-search-source: 'Jangan menambahkan Direktori Pengguna ke kolom pencarian global Flarum'
       link: 'Tambahkan link di beranda agar para pengguna dapat melihat direktori'
       link-group-mentions: 'Tautkan sebutan grup dalam postingan ke Direktori Pengguna'
-      use-small-cards: 'Gunakan user card berukuran kecil'
+      use-small-cards: 'Gunakan model kartu pengguna berukuran kecil'
   forum:
     header:
       back_to_user_directory_tooltip: 'Kembali ke Direktori Pengguna'
@@ -36,10 +36,10 @@ fof-user-directory:
       default: Default
       least_discussions: 'Diskusi paling sedikit'
       least_posts: 'Postingan paling sedikit'
-      most_discussions: 'Diskusi terbanyak'
-      most_posts: 'Postingan terbanyak'
+      most_discussions: 'Diskusi paling banyak'
+      most_posts: 'Postingan paling banyak'
       newest: Terbaru
-      not_specified: 'Gunakan standar Flarum'
+      not_specified: 'Pengaturan default Flarum'
       oldest: Terlama
       username_az: 'Username (a-z)'
       username_za: 'Username (z-a)'
