@@ -314,7 +314,7 @@ kilowhat-formulaire:
       form-closed: 'Formulir ini ditutup.'
       form-full: 'Formulir ini telah mencapai jumlah maksimum pengumpulan.'
       hide: Hapus
-      lock: Kunci
+      lock: Gembok
       restore: Pulihkan
       submit-other: 'Ajukan yang lain'
       submitted-successfully: 'Pengajuan Anda telah berhasil dikirim.'

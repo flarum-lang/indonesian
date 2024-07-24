@@ -12,7 +12,7 @@ clarkwinkelmann-catch-the-fish:
       participate: 'Berpartisipasi dalam ronde dan menangkap ikan'
       visible: 'Melihat ikan-ikan'
     settings:
-      alert-round: 'Menampilkan peringatan dengan nama putaran dan durasi di beranda'
+      alert-round: 'Tampilkan peringatan dengan nama ronde dan durasi di beranda'
       animate-flip: 'Balik gambar ikan berdasarkan arah'
       discussion: Diskusi
       discussion-age: 'Berapa usia diskusi agar ikan dapat ditempatkan di atasnya (hari)'
@@ -90,7 +90,7 @@ clarkwinkelmann-catch-the-fish:
       delete: 'Hapus ikan'
       delete-confirmation: 'Menghapus ikan "{name}" ?'
       name: Nama
-      name-help: 'Nama ikan saat ini. Dapat diedit oleh pemain jika mereka memiliki izin untuk mengganti nama ikan'
+      name-help: 'Nama ikan saat ini. Dapat diubah oleh pemain jika mereka memiliki izin untuk mengganti nama ikan'
       save: 'Simpan ikan'
     edit-round-modal:
       title: 'Mengedit Ronde "{name}"'
