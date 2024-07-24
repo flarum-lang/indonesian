@@ -7,7 +7,7 @@ acpl-lscache:
     cache_enabled_help: 'Lihat <a>Halaman informasi</a> untuk mengetahui cara menguji cache. CATATAN: Saat menonaktifkan cache, semua entri yang tersimpan dalam cache untuk situs ini akan dihapus.'
     cache_enabled_label: 'Aktifkan LSCache'
     cache_exclude_help: 'Path yang mengandung string ini tidak akan di-cache. Untuk <code>/mypath/mypage?aa=bb</code>, Anda bisa menggunakan <code>mypage?aa=</code>. Untuk mencocokkan pada bagian awal, tambahkan <code>^</code> di bagian awal. Untuk pencocokan yang sama persis, tambahkan <code>$</code> di akhir URL. Satu per baris.'
-    cache_exclude_label: 'Kecualikan Path dari Caching'
+    cache_exclude_label: 'Kecualikan Path dari Penyimpanan Cache'
     clearing_cache_listener_label: 'Bersihkan LSCache Saat Cache Flarum Dihapus'
     drop_qs_help: "Gunakan fitur ini untuk menghapus query string tertentu, seperti <code>fbclid</code> atau <code>utm*</code>, saat men-cache. Hal ini untuk mencegah cache berlebihan pada halaman dengan query string \"sampah (junk)\" seperti kode UTM, yang digunakan untuk pelacakan namun tidak memengaruhi konten halaman. Ini membutuhkan LSWS v5.2.3 atau yang versi yang lebih baru. Buat daftar query string yang akan dihapus, satu query string per baris. <a>Pelajari lebih lanjut tentang menghapus query string</a>.<br></br>\n⚠️ Pengaturan ini akan mengubah file .htaccess.\n"
     drop_qs_label: 'Hapus Query String'

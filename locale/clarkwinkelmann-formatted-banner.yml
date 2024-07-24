@@ -6,7 +6,7 @@ clarkwinkelmann-formatted-banner:
   admin:
     settings:
       dismissible: 'Izinkan untuk menghilangkan banner'
-      guestContent: 'Tamu - Konten yang diformat'
+      guestContent: 'Tamu - Format Konten'
       guestHtml: 'Tamu - Konten HTML'
       hideWelcomeHero: 'Sembunyikan Welcome Hero'
       memberContent: 'Anggota - Konten yang diformat'
