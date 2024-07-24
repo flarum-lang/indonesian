@@ -17,7 +17,7 @@ clarkwinkelmann-catch-the-fish:
       discussion: Diskusi
       discussion-age: 'Berapa usia diskusi agar ikan dapat ditempatkan di atasnya (hari)'
       discussion-tags: 'Tag - whitelist'
-      discussion-tags-help: "Jika Anda tidak memilih tag apa pun, diskusi apa pun yang cocok dengan pengaturan waktu di atas dapat dipilih. Jika ada sejumlah tag yang dipilih, sebuah diskusi harus memiliki setidaknya satu dari tag yang dipilih untuk dipilih. Probabilitas adalah peluang untuk dipilih setelah semua pilihan sebelumnya telah dicoba. Tag terakhir dalam list akan selalu bertindak sebagai fallback, jadi pastikan tag tersebut memiliki setidaknya satu diskusi yang valid di dalamnya.\n"
+      discussion-tags-help: "Jika Anda tidak memilih tag apa pun, diskusi apa pun yang cocok dengan pengaturan waktu di atas dapat dipilih. Jika ada sejumlah tag yang dipilih, sebuah diskusi harus memiliki setidaknya satu dari tag yang dipilih untuk dipilih. Probabilitas adalah peluang untuk dipilih setelah semua pilihan sebelumnya telah dicoba. Tag terakhir dalam list akan selalu bertindak sebagai alternatif pengganti, jadi pastikan tag tersebut memiliki setidaknya satu diskusi yang valid di dalamnya.\n"
       discussion-tags-unavailable: 'Pengaturan tidak tersedia karena ekstensi Tag tidak aktif.'
       general: Umum
       post: Postingan
@@ -30,6 +30,7 @@ clarkwinkelmann-catch-the-fish:
         down: 'Pindah ke bawah'
         up: 'Pindah ke atas'
       tags-fallback:
+        last-line: Alternatif
         single-line: 'Setidaknya diperlukan 2 tag untuk probabilitas'
       tags-header:
         probability: Probabilitas

@@ -25,11 +25,11 @@ fof-upload:
       s3_instance_profile: "Biarkan key dan secret kosong untuk menggunakan kredensial di instance profile.\n"
       watermark: "Tentukan apakah gambar akan ditambahkan watermark saat di-upload. Watermark ditambahkan ke non-gif berdasarkan preferensi Anda di bawah ini.\n"
     inspect-mime:
-      description: "FoF Upload menggunakan library <a>PHP Mime Detector</a> untuk jenis MIME umum dan PHP Fileinfo sebagai fallback.\nValue dari MIME yang dikembalikan oleh Fileinfo dapat berbeda dari server ke server!\n"
+      description: "FoF Upload menggunakan library <a>PHP Mime Detector</a> untuk jenis MIME umum dan PHP Fileinfo sebagai alternatif pengganti.\nValue dari MIME yang dikembalikan oleh Fileinfo dapat berbeda dari server ke server!\n"
       guessed-extension: 'Ekstensi file default (jika original tidak masuk ke dalam whitelist)'
       laravel-validation: 'Validasi File Laravel'
       mime-detector: 'Pendeteksi MIME (primer)'
-      mime-fileinfo: 'Informasi File PHP (fallback)'
+      mime-fileinfo: 'Informasi File PHP (alternatif)'
       no-file-selected: 'Tidak ada file'
       not-available: 'Tidak ada hasil'
       select: 'Pilih file di bawah ini untuk memeriksa nilai yang akan digunakan. File tidak akan disimpan.'

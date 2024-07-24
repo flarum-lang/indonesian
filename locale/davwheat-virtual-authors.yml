@@ -35,6 +35,7 @@ davwheat-virtual-authors:
       add_button: Tambah
       add_new: 'Pilih virtual author baru'
       added_button: Ditambahkan
+      credit_placeholder: 'Kredit (opsional)'
       delete_button: Hapus
       delete_confirmation: 'Menghapus virtual author dari diskusi?'
       existing: 'Virtual author saat ini'
@@ -45,7 +46,7 @@ davwheat-virtual-authors:
       title: 'Atur virtual author'
       virtual_author_exists: 'Sudah dipilih!'
     virtual_author_page:
-      credited_discussions: 'Diskusi dikreditkan ke {displayName}'
+      credited_discussions: 'Diskusi dikreditkan kepada {displayName}'
       discussion_count: '=> davwheat-virtual-authors.ref.discussion_count'
       meta_title: '{displayName} - Author'
     virtual_authors_list:
