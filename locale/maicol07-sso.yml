@@ -24,7 +24,7 @@ maicol07-sso:
       logout_url: 'URL Logout'
       manage_account_btn_open_in_new_tab: 'Buka manajemen akun di tab baru'
       manage_account_url: 'Kelola URL akun'
-      provider_mode: 'Aktifkan opsi ini untuk menggunakan mode provider (SSO antar Flarum instance). Mengizinkan Flarum instance lain untuk login sebagai user Flarum instance ini. Ini akan menonaktifkan fitur SSO standar dengan situs web lain.'
+      provider_mode: 'Aktifkan opsi ini untuk menggunakan mode provider (SSO antar Flarum instance). Mengizinkan Flarum instance lain untuk masuk sebagai pengguna Flarum instance ini. Ini akan menonaktifkan fitur SSO standar dengan situs web lain.'
       remove_login_btn: 'Hapus tombol login'
       remove_signup_btn: 'Hapus tombol pendaftaran'
       signup_url: 'URL Pendaftaran'

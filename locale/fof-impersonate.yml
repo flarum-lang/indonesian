@@ -5,17 +5,17 @@
 fof-impersonate:
   admin:
     permissions:
-      login: 'Login sebagai pengguna lain'
+      login: 'Masuk sebagai pengguna lain'
     settings:
       no_settings_available: 'Tidak ada pengaturan yang tersedia saat ini. Coba install fof/moderator-notes'
       require_reason: 'Memasukkan alasan sebelum melanjutkan untuk menyamar sebagai pengguna lain.'
       title: 'FoF Impersonate'
   forum:
     modal:
-      impersonate_username: 'Login sebagai {username}'
+      impersonate_username: 'Masuk sebagai {username}'
       label: 'Dengan kekuatan besar datanglah tanggung jawab yang besar. Dengan melanjutkan, Anda akan menjadi {username} sampai Anda keluar.'
       placeholder_optional: '(Opsional) Berikan alasan Anda untuk beralih ke pengguna ini'
       placeholder_required: 'Anda harus memberikan alasan untuk beralih ke pengguna ini sebelum melanjutkan'
-      title: 'Login sebagai pengguna lain'
+      title: 'Masuk sebagai pengguna lain'
     user_controls:
-      impersonate_button: 'Login sebagai user'
+      impersonate_button: 'Masuk sebagai pengguna'

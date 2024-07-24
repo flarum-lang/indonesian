@@ -37,6 +37,7 @@ pay-to-see:
     purchase_success: 'Pembelian Berhasil'
     purchase_unlocked_button: 'Konten Tidak Terkunci'
     purchased_content: 'Konten yang Dibeli'
+    purchased_users: Pelanggan
     purchased_users_empty: 'Belum ada yang membeli'
     remove: Hapus
     remove_pay_to_see_price_success: 'Konten “Bayar Untuk Melihat” Dihapus'

@@ -15,6 +15,7 @@ migratetoflarum-fake-data:
     generator:
       bulk-mode: 'Mode massal'
       bulk-mode-description: 'Menghasilkan satu nilai acak dan menggunakannya kembali untuk setiap entri'
+      date: 'Inisialisasi Tanggal'
       date-interval-placeholder: 'Interval (default: 1 detik)'
       date-start-placeholder: 'Tanggal mulai (default: sekarang)'
       discussion-count: 'Jumlah diskusi yang akan dibuat'
