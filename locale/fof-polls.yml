@@ -28,7 +28,7 @@ fof-polls:
   forum:
     answers: Jawaban
     compose:
-      add_title: 'Tambah Polling'
+      add_title: 'Tambahkan Polling'
       continue_editing: 'Lanjutkan Pengeditan'
       edit_title: 'Edit Polling'
       polls_manager: 'Manajer Polling'
@@ -74,9 +74,9 @@ fof-polls:
       subtitle_placeholder: 'Teks/Deskripsi (opsional)'
       tooltip:
         options:
-          add-button: 'Tambah Jawaban'
+          add-button: 'Tambahkan Jawaban'
     moderation:
-      add: 'Tambah Polling'
+      add: 'Tambahkan Polling'
       delete: 'Hapus Polling'
       delete_confirm: 'Apakah anda yakin ingin menghapus polling ini?'
       edit: 'Edit polling'

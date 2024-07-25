@@ -17,7 +17,7 @@ xsoft-mason-tag:
       save-field: 'Simpan perubahan kolom'
       show-user-answers: 'Tampilkan jawaban yang tidak disarankan ({count})'
     fields:
-      add: 'Tambahkan kolom{field}'
+      add: 'Tambahkan kolom {field}'
       description: 'Deskripsi kolom'
       description-help: "Deskripsi opsional untuk menjelaskan penggunaan/kebutuhan dari kolom ini.\n"
       edit: 'Edit kolom {field}'

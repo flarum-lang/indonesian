@@ -5,5 +5,5 @@
 blomstra-sort-order-toggle:
   forum:
     sort-toggle:
-      asc-label: 'Urutkan secara menaik (tekan untuk mengganti)'
-      desc-label: 'Urutkan secara menurun (tekan untuk mengganti)'
+      asc-label: 'Urutkan secara menaik (tekan untuk beralih)'
+      desc-label: 'Urutkan secara menurun (tekan untuk beralih)'

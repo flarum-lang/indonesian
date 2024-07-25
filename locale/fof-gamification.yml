@@ -18,7 +18,7 @@ fof-gamification:
         converting: 'Jumlah "Suka" Anda sekarang sedang dikonversi. Refresh situs Anda setelah beberapa menit untuk melihat prosesnya selesai. (Waktu konversi mungkin memerlukan waktu agak lama, tergantung pada total "Suka" di forum Anda)'
         help: 'Mengkonversi "Suka" Anda yang sebelumnya dari flarum-ext-likes menjadi Dukung Naik, serta menghitung tingkat kepopuleran untuk semua diskusi saat ini.'
       groups:
-        add: 'Tambahkan aturan baru'
+        add: 'Tambah aturan baru'
         column:
           group: Grup
           maxPoints: 'Poin maksimum (inklusif)'

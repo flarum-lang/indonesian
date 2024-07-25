@@ -4,7 +4,7 @@
 
 ianm-html-head:
   admin:
-    create_button: Membuat
+    create_button: Buat
     modal:
       create_title: 'Membuat item baru'
       description_label: Deskripsi

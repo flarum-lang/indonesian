@@ -32,7 +32,7 @@ davwheat-virtual-authors:
     discussion_controls:
       set_virtual_authors: 'Atur virtual author'
     set_modal:
-      add_button: Tambah
+      add_button: Tambahkan
       add_new: 'Pilih virtual author baru'
       added_button: Ditambahkan
       credit_placeholder: 'Kredit (opsional)'

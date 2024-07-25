@@ -5,7 +5,7 @@
 clarkwinkelmann-group-list:
   admin:
     items:
-      add: 'Tambahkan grup'
+      add: 'Tambah grup'
     permissions:
       see: 'Melihat daftar grup'
     settings:
