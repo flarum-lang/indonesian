@@ -434,7 +434,7 @@ core:
       revoke_access_token: Cabut
       revoke_access_token_confirmation: '=> core.ref.generic_confirmation_message'
       session_terminated: '{count, plural, one {Sesi dihentikan} other {# Sesi dihentikan}}.'
-      session_termination_failed: 'Terjadi kesalahan saat mengakhiri sesi Anda.'
+      session_termination_failed: 'Terjadi error saat mengakhiri sesi Anda.'
       sessions_heading: 'Sesi Yang Aktif'
       show_access_token: 'Lihat Token'
       terminate_all_other_sessions: 'Mengakhiri semua sesi lainnya'

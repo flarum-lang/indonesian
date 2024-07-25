@@ -138,7 +138,7 @@ kilowhat-wordpress:
       login: 'Akun ini terhubung dengan WordPress. Gunakan formulir login situs web utama untuk terhubung.'
       password_reset: 'Akun ini terhubung dengan WordPress. Gunakan formulir masuk situs web utama untuk mereset password Anda.'
     health:
-      api-error-401: 'Mencoba mengakses API WordPress menghasilkan error 401. Verifikasi kecocokan " API Key Bersama" antara pengaturan Flarum dan WordPress'
+      api-error-401: 'Mencoba mengakses API WordPress menghasilkan error 401. Verifikasi kecocokan "API Key Bersama" antara pengaturan Flarum dan WordPress'
       api-error-json: 'Mencoba mengakses API WordPress mengakibatkan error: {message} - Body: {body}'
       api-error-other: 'Mencoba mengakses API WordPress mengakibatkan error: {message}'
       api-key-mismatch: 'Pengaturan "API Key Bersama" di WordPress tidak sesuai dengan pengaturan "API Key Bersama" di Flarum (diharapkan: "{expected}", aktual: "{actual}")'

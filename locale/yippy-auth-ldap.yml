@@ -5,7 +5,7 @@
 yippy-auth-ldap:
   admin:
     settings:
-      display_detailed_error: 'Tampilkan kesalahan LDAP terperinci untuk upaya login yang gagal'
+      display_detailed_error: 'Tampilkan detail error LDAP untuk upaya login yang gagal'
       domains:
         add: 'Tambah Domain'
         banner: 'Domain {index}'

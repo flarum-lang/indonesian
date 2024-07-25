@@ -84,5 +84,5 @@ askvortsov-pwa:
       share_button: Bagikan
   views:
     offline:
-      header: 'Kesalahan koneksi jaringan'
+      header: 'Gangguan koneksi jaringan'
       text: 'Aplikasi ini membutuhkan koneksi jaringan; tidak dapat digunakan secara offline. Silakan periksa koneksi Anda.'
