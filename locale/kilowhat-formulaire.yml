@@ -159,7 +159,7 @@ kilowhat-formulaire:
         create: 'Hanya membuat'
         disabled: Konsep
         edit: 'Hanya mengedit'
-        enabled: Diaktifkan
+        enabled: Aktif
       back: Kembali
       category:
         discussion: '=> kilowhat-formulaire.ref.type.discussion'

@@ -38,7 +38,7 @@ v17development-flarum-badges:
       blockview: 'Tampilan blok'
       blockview_description: 'Menampilkan kategori-badge dalam bentuk tampilan blok pada ikhtisar badge. Jika dinonaktifkan, semua badge akan ditampilkan dalam bentuk tabel.'
       description: 'Deskripsi kategori'
-      enabled: Diaktifkan
+      enabled: Aktif
       enabled_description: 'Mengaktifkan kategori ini. Ketika dinonaktifkan, semua badge akan dinonaktifkan dan kategori akan disembunyikan.'
       name: 'Nama kategori'
     confirm_dialog:

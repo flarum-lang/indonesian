@@ -32,7 +32,7 @@ the-turk-mathren:
       katex_options_heading: 'Parameter KaTeX'
       macros_label: Makro
       macros_text: 'Koleksi makro khusus.'
-      maximum_expand_limit_text: 'Batas perluasan maksimum'
+      maximum_expand_limit_text: 'Batas maksimum perluasan'
       maximum_size_text: 'Ukuran maksimum (em)'
       minimum_thickness_text: 'Ketebalan minimum (em)'
       other_options_heading: 'Parameter Lainnya'

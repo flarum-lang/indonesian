@@ -16,8 +16,8 @@ clarkwinkelmann-author-change:
       edited_at: 'Waktu pengeditan'
       submit: Simpan
       sync-impossible: 'Tidak dapat menemukan postingan pertama. Coba scroll ke bagian awal diskusi.'
-      sync-with-discussion: 'Sinkronkan dengan diskusi'
-      sync-with-post: 'Sinkronkan dengan postingan pertama'
+      sync-with-discussion: 'Sinkronisasi dengan diskusi'
+      sync-with-post: 'Sinkronisasi dengan postingan pertama'
       title-discussion: 'Edit Penulis dan Tanggal Diskusi'
       title-post: 'Edit Penulis dan Tanggal Postingan'
       user: Penulis

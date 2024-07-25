@@ -19,7 +19,7 @@ fof-webhooks:
       unreacted: 'Menghapus reaksi mereka dari sebuah postingan'
       upvoted: 'Dukung naik'
     user:
-      enabled2fa: 'Mengaktifkan 2FA'
+      enabled2fa: 'Aktifkan 2FA'
   admin:
     settings:
       actions:

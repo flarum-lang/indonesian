@@ -120,7 +120,7 @@ kilowhat-wordpress:
     tabs:
       comments: 'Integrasi Komentar'
       disabled: 'Tidak Aktif'
-      enabled: Diaktifkan
+      enabled: Aktif
       general: 'Pengaturan Umum'
       sso: 'Integrasi SSO'
       wizard: 'Install wizard'

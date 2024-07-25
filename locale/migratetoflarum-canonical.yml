@@ -11,7 +11,7 @@ migratetoflarum-canonical:
       option:
         301: '301 (Pengalihan permanen, untuk produksi)'
         302: '302 (Pengalihan sementara, untuk pengujian)'
-        disabled: 'Dinonaktifkan (ekstensi tidak akan melakukan apa pun)'
+        disabled: 'Tidak Aktif (ekstensi tidak akan melakukan apa pun)'
       step:
         admin_on_canonical: 'Akses panel admin melalui canonical URL'
         check_config_url: 'Pastikan bahwa url yang ditetapkan di config.php adalah canonical URL pilihan Anda (saat ini: {url})'

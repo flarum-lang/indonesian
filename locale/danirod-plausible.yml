@@ -10,7 +10,7 @@ danirod-plausible:
         label: Domain
       enable:
         help: 'Aktifkan opsi ini untuk benar-benar menyertakan kode pelacakan.'
-        label: Diaktifkan
+        label: Aktif
       exclude_admin:
         help: 'Akan mencegah tampilan dari admin untuk dihitung dalam pelacakan jika masuk.'
         label: 'Kecualikan admin'

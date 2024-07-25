@@ -10,7 +10,7 @@ nearata-dsts:
       can_bypass_reply: 'Dapat melewati keharusan untuk membalas'
       can_use_bbcode: 'Dapat menggunakan BBCode'
     settings:
-      enabled: Diaktifkan
+      enabled: Aktif
       fof_upload:
         enabled: '=> nearata-dsts.admin.settings.enabled'
         require_like: '=> nearata-dsts.admin.settings.require_like'

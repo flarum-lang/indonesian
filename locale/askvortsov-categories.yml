@@ -17,9 +17,9 @@ askvortsov-categories:
       full_page_desktop: 'Haruskah menu navigasi sidebar dikecilkan menjadi satu baris (seperti pada halaman tag tradisional)? Hal ini juga akan menyembunyikan widget (seperti Friends of Flarum Forum Statistics) dari navbar halaman kategori.'
       small_forum_optimized: 'Hal ini akan memberikan jumlah diskusi/post yang lebih akurat, tetapi akan memperlambat forum berukuran sedang dan besar secara signifikan.'
     labels:
-      child_bare_icon: 'Ikon bare child?'
+      child_bare_icon: 'Ikon anak tanpa background?'
       compact_mobile_mode: 'Mode compact mobile'
-      full_page_desktop: 'Desktop halaman penuh?'
+      full_page_desktop: 'Desktop satu halaman penuh?'
       keep_tags_nav: 'Pertahankan link halaman tag di navigasi sidebar?'
       parent_remove_description: 'Sembunyikan deskripsi untuk top-level tag?'
       parent_remove_icon: 'Sembunyikan ikon untuk top-level tag?'

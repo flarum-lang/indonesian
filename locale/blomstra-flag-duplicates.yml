@@ -16,7 +16,7 @@ blomstra-flag-duplicates:
       reason_duplicate_text: 'Diskusi ini merupakan duplikasi dari diskusi lainnya.'
     post_stream:
       deleted_discussion: '[diskusi telah dihapus]'
-      flagged_duplicate_text: '{username} menandai diskusi ini sebagai berpotensi duplikat dari {duplicate}. Seorang moderator akan segera melakukan investigasi.'
+      flagged_duplicate_text: '{username} menandai diskusi ini sebagai potensi duplikasi dari {duplicate}. Seorang moderator akan segera menyelidikinya.'
 flarum-flags:
   forum:
     flag_post:

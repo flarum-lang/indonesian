@@ -5,8 +5,8 @@
 sycho-ace:
   admin:
     categories:
-      disabled: Dinonaktifkan
-      enabled: Diaktifkan
+      disabled: 'Tidak Aktif'
+      enabled: Aktif
       none: A-Z
     category_selection:
       label: 'Mengategorikan Berdasarkan'
