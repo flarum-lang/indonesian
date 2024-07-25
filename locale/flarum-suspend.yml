@@ -12,7 +12,7 @@ flarum-suspend:
       body: "Hai {recipient_display_name},\n\nAnda telah ditangguhkan karena alasan berikut:\n\n---\n{suspension_message}\n---\n"
       subject: 'Akun Anda telah ditangguhkan'
     unsuspended:
-      body: "Hei {recipient_display_name},\n\nAnda telah dihentikan penangguhannya. Anda dapat kembali ke forum dengan mengklik link berikut:\n\n{forum_url}\n"
+      body: "Halo {recipient_display_name},\n\nAnda telah dihentikan penangguhannya. Anda dapat kembali ke forum dengan mengklik link berikut:\n\n{forum_url}\n"
       subject: 'Akun Anda telah dihentikan penangguhannya'
   forum:
     notifications:

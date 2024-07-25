@@ -26,7 +26,7 @@ kilowhat-rich-embeds:
       blacklist: 'Daftar Hitam URL'
       blacklistHelp: 'Periksa dokumentasi untuk format. URL ini tidak akan pernah memiliki rich embeds, dan tidak dapat diproksi melalui proksi gambar'
       cacheProxy: 'Cache gambar yang diproksi'
-      cacheProxyHelp: 'Gambar akan di-cache ke disk sesuai dengan header HTTP-nya'
+      cacheProxyHelp: 'Gambar akan disimpan dalam cache ke disk sesuai dengan header HTTP-nya'
       flarumApiPreviews: 'Aktifkan pratinjau Flarum tingkat lanjut'
       flarumApiPreviewsHelp: "Fitur ini mem-parsing data JSON tambahan yang sudah disertakan dalam HTML oleh semua forum yang didukung oleh Flarum. Fitur ini akan bekerja dengan semua forum yang menjalankan Flarum 1.4+ dan mengiklankan header <code>X-Powered-By</code>.\n"
       githubApiKey: 'API Key GitHub'

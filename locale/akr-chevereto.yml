@@ -5,7 +5,7 @@
 akr-chevereto:
   admin:
     setting:
-      insert_type: 'Sematkan kode untuk dimasukkan secara otomatis ke dalam konten target yang dapat diedit'
+      insert_type: 'Sematkan kode untuk dimasukkan secara otomatis ke dalam target konten yang dapat diedit'
       url: 'URL dari target situs web Chevereto'
   forum:
     composer:
