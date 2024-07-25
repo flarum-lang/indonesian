@@ -229,7 +229,7 @@ kilowhat-formulaire:
         accept-submissions: Buka
         actions: Tindakan
         allow-modification: Modifikasi
-        enabled: Diaktifkan
+        enabled: Aktif
         submissions: Pengajuan
         title: Judul
       edit: Edit
@@ -278,7 +278,7 @@ kilowhat-formulaire:
       disabled_members_button: 'Anggota yang tidak diaktifkan dan ditangguhkan'
       everyone_button: '=> core.admin.permissions_controls.everyone_button'
       inherit: 'Gunakan default'
-      members_button: 'Anggota yang diaktifkan'
+      members_button: 'Anggota aktif'
     rich-text:
       preview-placeholder: 'Mulai mengetik untuk pratinjau'
     save-controls:

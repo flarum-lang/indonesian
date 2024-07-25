@@ -94,8 +94,8 @@ flamarkt-taxonomies:
       editOwnUser: 'Mengedit taksonomi pada pengguna sendiri'
       heading: Taksonomi
       moderate: 'Mengonfigurasi taksonomi yang tersedia'
-      ownDisabledEveryone: 'Anggota yang tidak diaktifkan dan ditangguhkan'
-      ownDisabledMembers: 'Anggota yang diaktifkan'
+      ownDisabledEveryone: 'Anggota yang tidak aktif dan ditangguhkan'
+      ownDisabledMembers: 'Anggota aktif'
       seeAnyDiscussion: 'Melihat taksonomi di semua diskusi'
       seeAnyUser: 'Melihat taksonomi pada pengguna mana pun'
       seeOwnDiscussion: 'Melihat taksonomi pada diskusi sendiri'
