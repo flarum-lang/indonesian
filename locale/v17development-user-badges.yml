@@ -61,7 +61,7 @@ v17development-flarum-badges:
       give_badge: 'Memberikan badge kepada pengguna'
       take_badge: 'Mengambil badge dari pengguna'
     show_badges_on_user_card: 'Tampilkan badge pada kartu pengguna'
-    uncategorized: 'Tak Berkategori'
+    uncategorized: 'Tidak dikategorikan'
     update_badge: 'Perbarui badge'
     update_category: 'Perbarui kategori'
   forum:
