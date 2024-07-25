@@ -25,7 +25,7 @@ nearata-twofactor:
         setup:
           close_button_label: Tutup
           disable:
-            button_label: Nonaktifkan
+            button_label: Matikan
             enter_code_disable: 'Masukkan kode untuk menonaktifkan Aplikasi Autentikasi Dua Faktor.'
             success: 'Aplikasi Autentikasi dinonaktifkan.'
           enable:

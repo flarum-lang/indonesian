@@ -31,7 +31,7 @@ flarum-suspend:
       submit_button: '=> core.ref.save_changes'
       title: 'Tangguhkan {username}'
     suspension_info:
-      dismiss_button: Tutup
+      dismiss_button: Singkirkan
       indefinite: 'Ini adalah penangguhan tanpa batas waktu'
       limited: 'Penangguhan ini akan berlaku hingga {date}'
       title: 'Akun ini ditangguhkan'

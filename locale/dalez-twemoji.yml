@@ -8,7 +8,7 @@ flarum-twemoji:
       base: Basis
       basehelp: 'Tips: Tanda $ akan diganti dengan nomor versi otomatis. Sensitif terhadap huruf besar/kecil.'
       baseph: 'Contoh: https://www.example.com/'
-      disable_autocomplete: 'Nonaktifkan Auto Complete'
+      disable_autocomplete: 'Matikan Auto Complete'
       ext: Ekstensi
       extph: 'Contoh: .gif'
       folder: Folder

@@ -92,7 +92,7 @@ v17development-flarum-blog:
       approve_article: 'Setujui artikel'
       article_settings: 'Pengaturan artikel'
       delete_forever: 'Hapus selamanya'
-      disable_comments: 'Nonaktifkan komentar'
+      disable_comments: 'Matikan komentar'
       edit_article: 'Edit artikel'
       enable_comments: 'Aktifkan komentar'
       hide_article: 'Sembunyikan artikel'

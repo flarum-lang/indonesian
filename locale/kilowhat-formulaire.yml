@@ -168,7 +168,7 @@ kilowhat-formulaire:
       controls: Kontrol
       delete: 'Hapus permanen'
       delete-confirmation: 'Formulir "{title}" akan dihapus secara permanen'
-      disable-expert-mode: 'Nonaktifkan mode expert'
+      disable-expert-mode: 'Matikan mode expert'
       enable-expert-mode: 'Aktifkan mode expert'
       fields:
         private-title: 'Judul pribadi'

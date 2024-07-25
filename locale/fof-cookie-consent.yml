@@ -7,7 +7,7 @@ fof-cookie-consent:
     settings:
       backgroundColor: Background
       buttonBackgroundColor: Background
-      buttonText: 'Teks Tombol Tutup'
+      buttonText: 'Teks Tombol Singkirkan'
       buttonTextColor: Teks
       ccTheme: Tema
       configuration_button_title: 'Tombol Pelajari Lebih Lanjut'
@@ -16,7 +16,7 @@ fof-cookie-consent:
       learnMoreLinkText: Teks
       learnMoreLinkUrl: Link
       textColor: Teks
-      theme_dismiss_title: 'Warna Tombol Tutup'
+      theme_dismiss_title: 'Warna Tombol Singkirkan'
       theme_popup_title: 'Warna Popup'
       theme_title: 'Pilihan Tema'
       themes:

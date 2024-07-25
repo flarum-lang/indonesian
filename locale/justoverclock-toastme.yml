@@ -10,7 +10,7 @@ flarum-ext-toastme:
     destdesc: 'URL yang harus dituju oleh browser saat toast alert di-klik'
     duration: 'Durasi toast alert harus ditampilkan, isi -1 untuk menampilkan secara permanen'
     durdesc: 'Gunakan milidetik - contoh "3000" untuk 3 detik'
-    enabletoast: 'Aktifkan/Non-aktifkan Toast Alert'
+    enabletoast: 'Aktifkan/Nonaktifkan Toast Alert'
     gravdesc: 'Atur posisi toast, di atas atau di bawah'
     gravity: 'Gravitasi - Bisa "atas" atau "bawah"'
     helpenable: 'Gunakan pengaturan ini untuk mengaktifkan atau menonaktifkan toast alert'
