@@ -68,7 +68,7 @@ malago-achievements:
     settings:
       link-left-column: 'Tambahkan link ke Achievements di sidebar'
       show-post-footer: 'Setiap footer postingan'
-      show-user-card: 'User card'
+      show-user-card: 'Kartu pengguna'
   forum:
     achievement_points: Poin
     achievement_total_points: Total

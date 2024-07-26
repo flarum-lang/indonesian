@@ -11,7 +11,7 @@ datlechin-pronouns:
       prefix_label: 'Prefiks kata ganti'
   forum:
     change_pronouns:
-      help: 'Kata ganti Anda akan muncul di profil dan user card. <a>Apa itu personal pronouns dan mengapa itu penting?</a>'
+      help: 'Kata ganti Anda akan muncul di profil dan kartu pengguna. <a>Apa itu personal pronouns dan mengapa itu penting?</a>'
       submit_button: '=> core.ref.save_changes'
       title: 'Mengubah Kata Ganti'
     settings:

@@ -76,5 +76,5 @@ ianm-follow-users:
       unfollow:
         description: "Tidak menerima notifikasi apa pun terkait aktivitas <em>{username}</em>.\n"
         name: 'Tidak mengikuti'
-    following_link: 'Pengguna Yang Diikuti'
+    following_link: Mengikuti
     unfollow: 'Berhenti mengikuti'
