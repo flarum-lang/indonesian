@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+1.19.0 (XXXX-XX-XX)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`foskym/flarum-issue-tracking`](https://github.com/FoskyM/flarum-issue-tracking)
+* [`mattoid/flarum-ext-store-auto-check-in`](https://github.com/Mattoids/flarum-ext-store-auto-check-in)
+* [`mattoid/flarum-ext-store-check-in`](https://github.com/Mattoids/flarum-ext-store-check-in)
+* [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
+* [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store)
+* [`xypp/forum-quests`](https://github.com/zxy19/flarum-forum-quests)
+* [`xypp/sticky-card`](https://github.com/zxy19/flarum-sticky-card)
+* [`xypp/store-auto-checkin`](https://github.com/zxy19/flarum-store-auto-checkin)
+* [`xypp/store-doorman`](https://github.com/zxy19/flarum-store-doorman)
+* [`xypp/store-group`](https://github.com/zxy19/flarum-store-group)
+* [`xypp/store`](https://github.com/zxy19/store)
+* [`xypp/user-decoration`](https://github.com/zxy19/user-decoration)
+
+
+Semua perubahan: [1.18.4...1.19.0](https://github.com/flarum-lang/indonesian/compare/1.18.4...1.19.0).
+
+
 1.18.4 (2024-07-26)
 -------------------
 
