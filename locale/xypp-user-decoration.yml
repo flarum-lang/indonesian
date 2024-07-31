@@ -2,14 +2,51 @@
 # Use https://weblate.rob006.net/projects/flarum/xypp-user-decoration/id/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
-xypp-user-decoration:
+xypp-store:
   forum:
     create-modal:
+      providers:
+        decoration: Dekorasi
+    type:
+      decoration: Dekorasi
+xypp-user-decoration:
+  admin:
+    permissions:
+      create_decoration: 'Membuat/Mengedit dekorasi'
+      view-all: 'Melihat semua dekorasi'
+    settings:
+      view-all:
+        desc: 'Apakah "tampilkan semua" diaktifkan?'
+        title: 'Tampilkan Semua'
+  forum:
+    create: Buat
+    create-modal:
+      button: Buat
       delete-button: Hapus
       desc: Deskripsi
+      edit-button: Edit
       name: nama
+      style: 'Style Sheet'
+      tip: 'Gunakan selector .base untuk memilih target, .element-xxx untuk menambahkan element baru'
+      title: 'Buat Dekorasi'
       type:
         avatar: Avatar
+        title: Jenis
         username: Username
+    decoration-box:
+      error: 'Jenis Tidak Diketahui'
+      loading: Memuat
+    decoration-no-available: 'Tidak ada dekorasi yang tersedia'
     decoration:
+      change_button: Ubah
       delete_button: Hapus
+      delete_confirm: 'Apakah Anda yakin untuk menghapus dekorasi ini?'
+      remove_button: Hapus
+    decorations: Dekorasi
+    delete-success: 'Berhasil Menghapus'
+    delete_confirm: 'Apakah Anda yakin untuk menghapus dekorasi ini?'
+    modal:
+      loading: Memuat
+      tip: 'Silakan pilih dekorasi'
+    page:
+      show-decorations: Dekorasi

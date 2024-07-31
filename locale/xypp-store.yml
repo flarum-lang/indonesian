@@ -3,15 +3,52 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 xypp-store:
+  admin:
+    permissions:
+      add-item: 'Menambahkan Item Toko'
+      remove-history: 'Menghapus pembelian orang lain'
+      remove-item: 'Menghapus Item Toko'
+      view-history: 'Melihat pembelian orang lain'
   forum:
+    create: 'Buat Item'
     create-modal:
+      button: Buat
       delete-button: Hapus
       desc: Deskripsi
       edit-button: Edit
+      edit-title: 'Edit Item#{0}'
+      expire_time_tip: 'Biarkan kosong untuk menonaktifkan, atau atur ke angka untuk kedaluwarsa setelah beberapa detik.'
       name: Nama
       price: Harga
+      rest_cnt_tip: 'Biarkan kosong agar tak terbatas, atau atur ke angka untuk membatasinya.'
+      title: 'Buat Item'
+    edit-result:
+      fail:
+        not-found: 'Item tidak ditemukan'
     edit_button: Edit
     history:
       delete_button: Hapus
+      forever: 'Tersedia selamanya'
+      not_found: 'Item tidak ditemukan'
+    item:
+      infinity_count: 'Tersedia tanpa batas'
+      no_available: 'Tidak ada item yang tersedia'
+      not_found: 'Item tidak ditemukan'
+      rest_cnt: 'Sisa {0}'
+    price_free: Gratis
     provider:
       all: Semua
+    purchase-confirm: 'Konfirmasi Pembelian?'
+    purchase_result:
+      fail:
+        cannot: 'Tidak dapat membeli Item ini'
+        not_enough_money: 'Uang tidak cukup'
+        unknown: 'Error Tidak Diketahui'
+      success: Sukses
+    store: Toko
+    time_segs: hari|jam|menit
+    use_result:
+      fail:
+        expired: 'Item kedaluwarsa'
+        fail_expire: 'Gagal saat mencoba mengakhiri Item ini'
+        id_not_found: 'ID item tidak ditemukan'
