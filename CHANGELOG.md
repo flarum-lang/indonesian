@@ -21,6 +21,11 @@ CHANGELOG
 * [`xypp/user-decoration`](https://github.com/zxy19/user-decoration)
 
 
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`gbcl/userip`](https://github.com/GBCLStudio/userip)
+
+
 Semua perubahan: [1.18.4...1.19.0](https://github.com/flarum-lang/indonesian/compare/1.18.4...1.19.0).
 
 
