@@ -13,6 +13,7 @@ xypp-store:
     create: 'Buat Item'
     create-modal:
       button: Buat
+      confirm_delete: 'Apakah Anda yakin ingin menghapus item ini?'
       delete-button: Hapus
       desc: Deskripsi
       edit-button: Edit
@@ -20,6 +21,9 @@ xypp-store:
       expire_time_tip: 'Biarkan kosong untuk menonaktifkan, atau atur ke angka untuk kedaluwarsa setelah beberapa detik.'
       name: Nama
       price: Harga
+      provider_data_default: 'Data default'
+      providers:
+        special_data: 'Data Yang Dipilih'
       rest_cnt_tip: 'Biarkan kosong agar tak terbatas, atau atur ke angka untuk membatasinya.'
       title: 'Buat Item'
     edit-result:
@@ -30,6 +34,7 @@ xypp-store:
       delete_button: Hapus
       forever: 'Tersedia selamanya'
       not_found: 'Item tidak ditemukan'
+      title: Pembelian
     item:
       infinity_count: 'Tersedia tanpa batas'
       no_available: 'Tidak ada item yang tersedia'
@@ -39,6 +44,7 @@ xypp-store:
     provider:
       all: Semua
     purchase-confirm: 'Konfirmasi Pembelian?'
+    purchase-history: Pembelian
     purchase_result:
       fail:
         cannot: 'Tidak dapat membeli Item ini'
