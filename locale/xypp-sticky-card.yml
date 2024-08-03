@@ -4,10 +4,13 @@
 
 xypp-sticky-card:
   forum:
+    already: 'Diskusi sudah diberi sticky.'
     default: Default
+    giveup: 'Berhenti Membeli'
     loading: Memuat...
     no-card: 'Tidak ada kartu yang dapat digunakan.'
     not-used: 'Tidak Digunakan'
     sticky-card: 'Sticky Card'
+    success: 'Sukses menggunakan'
     use-sticky-card: 'Gunakan Sticky Card'
     used: 'Digunakan pada {0}'

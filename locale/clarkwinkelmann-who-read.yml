@@ -33,7 +33,7 @@ clarkwinkelmann-who-read:
     modal:
       behind: 'Pengguna yang tidak membaca hingga akhir'
       past-this-post: 'Pengguna yang membaca postingan ini'
-      title: 'Para pembaca'
+      title: Pembaca
       to-the-end: 'Pengguna yang membaca hingga akhir'
       up-to-this-post: 'Pengguna yang membaca hingga ke post ini'
     more:

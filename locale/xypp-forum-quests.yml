@@ -6,23 +6,53 @@ xypp-forum-quests:
   admin:
     allow_update: 'Izinkan pengguna memperbarui secara manual'
     create-modal:
+      button: Buat
+      button-edit: Edit
+      condition: Kondisi
+      condition-alter_name: 'Nama Tampilan'
+      condition-name: 'Nama Kondisi'
+      condition-value: Value
       description: Deskripsi
+      hidden: Tersembunyi
       icon: Ikon
       name: Nama
+      new_item: 'Item Baru'
+      reward-alter_name: 'Nama Tampilan'
+      reward-get_value: 'Dapatkan Value'
+      reward-value: Value
     data: Data
+    re_available:
+      day: 'Sebelum X hari'
+      hour: 'Setelah X jam'
+      none: Sekali
     settings: Pengaturan
     table:
+      create: Buat
       description: Deskripsi
       id: '#'
+      load_more: 'Muat Lebih'
       name: Nama
     timezone: 'Zona waktu'
   api:
     condition_not_allow_frontend: 'Kondisi tidak dapat dipicu di frontend'
+    manual_condition_cannot_hidden: 'Kondisi manual tidak dapat digunakan dalam task tersembunyi:{condition}'
     no_manual_update: 'Tidak perlu pembaruan manual'
   forum:
+    condition:
+      condition: Kondisi
+      span: 'Dalam {span} hari'
     condition_view:
+      button: 'Lihat Kondisi'
       name: Nama
+      title: 'Tampilan Kondisi'
+      value: Value
+    quest:
+      load_more: 'Muat Lebih'
     quest_done:
       all: Semua
+      'true': Selesai
+    re_available:
+      none: 'Hanya Sekali'
     reward:
       and: ' dan '
+      format: '<b>{name}</b>:{value}'

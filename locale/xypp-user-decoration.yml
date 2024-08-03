@@ -15,6 +15,12 @@ xypp-user-decoration:
       create_decoration: 'Membuat/Mengedit dekorasi'
       view-all: 'Melihat semua dekorasi'
     settings:
+      avatar_hijack:
+        desc: 'Plugin ini akan mencoba membajak metode avatar dari model pengguna dan menyisipkan beberapa informasi identitas untuk mengenali pengguna. Jika beberapa plugin lain mengalami kerusakan akibat pembajakan, Anda dapat menonaktifkan fungsi ini untuk menyelesaikan masalah.'
+        title: 'Pembajakan Avatar'
+      username_hijack:
+        desc: 'Plugin ini akan mencoba membajak metode username dari model pengguna dan menyisipkan beberapa informasi identitas untuk mengenali pengguna. Jika beberapa plugin lain mengalami kerusakan akibat pembajakan, Anda dapat menonaktifkan fungsi ini untuk menyelesaikan masalah.'
+        title: 'Pembajakan Username'
       view-all:
         desc: 'Apakah "tampilkan semua" diaktifkan?'
         title: 'Tampilkan Semua'
@@ -31,11 +37,17 @@ xypp-user-decoration:
       title: 'Buat Dekorasi'
       type:
         avatar: Avatar
+        post: Post
         title: Jenis
         username: Username
     decoration-box:
+      avatar: 'Desain Avatar'
+      card: 'Desain Kartu Pengguna'
       error: 'Jenis Tidak Diketahui'
       loading: Memuat
+      name: 'Desain Username'
+      no-login: 'Login untuk melihat pratinjau'
+      post: 'Desain Post'
     decoration-no-available: 'Tidak ada dekorasi yang tersedia'
     decoration:
       change_button: Ubah

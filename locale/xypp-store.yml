@@ -33,7 +33,9 @@ xypp-store:
     history:
       delete_button: Hapus
       forever: 'Tersedia selamanya'
+      no_record: 'Tidak ada pembelian'
       not_found: 'Item tidak ditemukan'
+      rest_cnt: 'Dapat digunakan {0} kali'
       title: Pembelian
     item:
       infinity_count: 'Tersedia tanpa batas'
