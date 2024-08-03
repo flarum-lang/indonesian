@@ -32,7 +32,7 @@ clarkwinkelmann-who-read:
       read-to-end: '{count, plural, =0 {Tidak ada yang membaca sampai akhir} one {Satu pengguna telah membaca sampai akhir} other {# pengguna telah membaca sampai akhir}}'
     modal:
       behind: 'Pengguna yang tidak membaca hingga akhir'
-      past-this-post: 'Pengguna yang membaca postingan ini'
+      past-this-post: 'Pengguna yang telah membaca post ini'
       title: Pembaca
       to-the-end: 'Pengguna yang membaca hingga akhir'
       up-to-this-post: 'Pengguna yang membaca hingga ke post ini'
