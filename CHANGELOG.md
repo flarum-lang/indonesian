@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.19.1 (XXXX-XX-XX)
+-------------------
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`gbcl/userip`](https://github.com/GBCLStudio/userip)
+* [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store)
+
+
+Semua perubahan: [1.19.0...1.19.1](https://github.com/flarum-lang/indonesian/compare/1.19.0...1.19.1).
+
+
 1.19.0 (2024-08-03)
 -------------------
 
