@@ -5,9 +5,20 @@
 mattoid-store-invite:
   admin:
     settings:
+      auto-review-help: 'Setelah pemeriksaan, sistem akan secara otomatis melewatkan dan menyelesaikan operasi peninjauan'
+      auto-review-username-help: 'Ketika audit otomatis diaktifkan, sistem akan menanyakan pengguna yang dimasukkan'
+      calm-down-period-help: 'Setelah permohonan ditolak, tidak diperbolehkan untuk mengajukan permohonan kembali selama N hari sejak tanggal ditolaknya permohonan'
+      mail: 'Template email'
       mail-template: 'Halo [user], Kode undangan Anda adalah [code]'
+      mail-title: 'Judul email'
   forum:
     confirm-adopt: konfirmasi
+    error:
+      invite-not-exist: 'Informasi permohonan telah ditinjau atau tidak ada. Silakan refresh halaman dan coba lagi'
+      review-failed: 'Anda baru saja menerima informasi permohonan yang ditolak. Silakan coba lagi setelah [{date}]'
+      unaudited: 'Anda memiliki informasi permohonan yang belum disetujui dan tidak dapat melanjutkan saat ini'
+    mail:
+      send-invite-title: 'Kode undangan'
   lib:
     item-status-all: Semua
     item-status-confirm: 'Belum diaudit'
