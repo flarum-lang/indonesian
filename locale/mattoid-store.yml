@@ -35,7 +35,9 @@ mattoid-store:
     ckeck-goods-outtime: 'Periksa waktu kedaluwarsa produk'
     days: hari
     error:
+      file-exist: 'file sudah ada'
       insufficient-inventory: 'Persediaan tidak mencukupi'
+      invalid-product: 'Produk tidak valid'
       store-goods-non-existent: 'Produk tersebut tidak ada atau telah dihapus dari daftar'
       user-balance-low: 'Saldo pengguna tidak mencukup'
     free: Gratis
@@ -46,6 +48,7 @@ mattoid-store:
     confirm: Ok
     item-cart-button-cancel: Batal
     item-cart-button-use: Aktifkan
+    item-cart-created: 'Waktu pembelian'
     item-cart-outtime: 'Tanggal kedaluwarsa'
     item-cart-pay-amt: 'Jumlah pembayaran'
     item-cart-price: Harga
@@ -59,3 +62,4 @@ mattoid-store:
     item-price: Harga
     item-status-0: 'Hapus dari rak'
     list-empty: 'Tempat ini sepenuhnya kosong'
+    list-load-more: lainnya
