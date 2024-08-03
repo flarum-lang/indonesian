@@ -7,12 +7,14 @@ CHANGELOG
 
 **Menambahkan dukungan untuk ekstensi**:
 
+* [`foskym/flarum-issue-tracking-youtrack`](https://github.com/FoskyM/flarum-issue-tracking-youtrack)
 * [`foskym/flarum-issue-tracking`](https://github.com/FoskyM/flarum-issue-tracking)
 * [`mattoid/flarum-ext-store-auto-check-in`](https://github.com/Mattoids/flarum-ext-store-auto-check-in)
 * [`mattoid/flarum-ext-store-check-in`](https://github.com/Mattoids/flarum-ext-store-check-in)
 * [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
 * [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store)
 * [`xypp/forum-quests`](https://github.com/zxy19/flarum-forum-quests)
+* [`xypp/pay-to-read`](https://github.com/zxy19/flarum-pay-to-read)
 * [`xypp/sticky-card`](https://github.com/zxy19/flarum-sticky-card)
 * [`xypp/store-auto-checkin`](https://github.com/zxy19/flarum-store-auto-checkin)
 * [`xypp/store-doorman`](https://github.com/zxy19/flarum-store-doorman)
@@ -24,6 +26,7 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
 
 
