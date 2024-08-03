@@ -12,7 +12,7 @@ xypp-store-doorman:
       submit: Konfirmasi
       title: 'Pilih Data'
     has_used: 'Telah digunakan {count} kali'
-    key: 'Kunci undangan'
+    key: 'Invite key'
     key-not-found: 'Kunci tidak ditemukan'
     send:
       cancel: Batal

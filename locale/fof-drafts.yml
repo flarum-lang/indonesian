@@ -46,7 +46,7 @@ fof-drafts:
       unschedule_warning: 'Apakah Anda yakin ingin membatalkan jadwal konsep ini?'
     user:
       settings:
-        draft_autosave_enable: 'Mengaktifkan Penyimpanan Otomatis Konsep?'
+        draft_autosave_enable: 'Aktifkan penyimpanan konsep secara otomatis?'
         draft_autosave_interval_button: 'Perbarui Interval'
         draft_autosave_interval_invalid: 'Interval harus bilangan bulat lebih besar dari 4.'
         draft_autosave_interval_label: 'Interval Penyimpanan Otomatis (detik)'
