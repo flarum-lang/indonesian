@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
 * [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store)
+* [`nodeloc/lottery`](https://github.com/nodeloc/lottery)
 
 
 Semua perubahan: [1.19.0...1.19.1](https://github.com/flarum-lang/indonesian/compare/1.19.0...1.19.1).
