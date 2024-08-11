@@ -19,8 +19,12 @@ nodeloc-lottery:
       options_color_blend: 'Perpaduan warna teks dalam opsi undian'
       options_color_blend_help: 'Gunakan ini untuk menggunakan pencampuran warna agar opsi undian lebih mudah dibaca. Nonaktifkan jika fitur ini menyebabkan masalah pada tampilan forum Anda, sehingga mengurangi keterbacaan.'
   email:
+    body:
+      drawLottery: "Hai {recipient_display_name},\n\nSelamat, Anda memenangkan {discussion_title} dari{actor_display_name}.\n\nLihat di sini: {discussion_url}\n"
+      fail: "Hai {recipient_display_name},\n\nMaaf, {discussion_title} mengalami kegagalan karena jumlah peserta tidak mencukupi.\n\nSilahkan lihat: {discussion_url}\n"
+      finish: "Hei {recipient_display_name},\n\nSelamat! undian telah selesai dengan sukses.\n\nKunjungi diskusi di sini: {discussion_url}, dan selesaikan undiannya.\n\nTerima kasih!\n"
     subject:
-      drawLottery: 'Notifikasi pengambilan undian'
+      drawLottery: 'Notifikasi pengambilan undian {discussion_title}'
   forum:
     composer_discussion:
       add_lottery: '=> nodeloc-lottery.forum.moderation.add'
@@ -75,6 +79,7 @@ nodeloc-lottery:
       posts_made: 'Postingan yang dibuat'
       price: Harga
       public_lottery_label: 'Izinkan orang untuk melihat siapa yang memilih'
+      read_permission: Perizinan
       submit: Submit
     moderation:
       add: 'Tambahkan undian'
@@ -82,8 +87,14 @@ nodeloc-lottery:
       delete_confirm: 'Apakah Anda yakin ingin menghapus undian ini?'
       edit: 'Edit undian'
     no_permission: 'Anda tidak memiliki izin untuk masuk'
+    notification:
+      drawLottery: 'Selamat, Anda memenangkan undian.'
+      fail: 'Undian gagal karena jumlah peserta tidak mencukupi.'
+      finish: 'Undian Berhasil, Mohon kirimkan kepada para pemenang.'
     participants_modal:
+      lottery_canceled: 'Dibatalkan karena jumlah peserta tidak mencukupi.'
       title: Peserta
+      title_winners: Pemenang
     public_lottery: 'Lihat Peserta'
     seconds: Detik
     too_many_participants: 'Terlalu banyak peserta'
