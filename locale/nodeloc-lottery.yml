@@ -8,6 +8,7 @@ nodeloc-lottery:
       canCancelEnter: 'Dapat mengubah input'
       enter: 'Dapat mengikuti undian'
       moderate: 'Mengedit & menghapus undian'
+      seeParticipants: 'Melihat peserta'
       self_edit: 'Mengedit undian yang telah dibuat (membutuhkan izin edit post)'
       self_post_edit: 'Mengedit *semua* undian pada postingan sendiri (membutuhkan izin edit post)'
       start: 'Memulai undian'
@@ -26,6 +27,7 @@ nodeloc-lottery:
       edit_lottery: '=> nodeloc-lottery.forum.moderation.edit'
       in_queue_alert: 'Anda telah mengikuti undian.'
       no_permission_alert: 'Anda tidak memiliki izin untuk memulai undian.'
+      no_post_in_discussion_alert: 'Anda belum membalas diskusi.'
     days: Hari
     days_remaining: 'undian berakhir {time}.'
     endDateText: 'Undian telah berakhir!'
