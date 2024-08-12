@@ -21,10 +21,17 @@ xypp-store:
       expire_time_tip: 'Biarkan kosong untuk menonaktifkan, atau atur ke angka untuk kedaluwarsa setelah beberapa detik.'
       name: Nama
       price: Harga
+      provider: Provider
+      provider_data: 'Data Provider'
       provider_data_default: 'Data default'
+      provider_data_error: 'Pilih provider dan data'
       providers:
+        no_select_data: 'Pilih Data Provider'
         special_data: 'Data Yang Dipilih'
+        unknown: 'Pilih Provider'
+        unknown_data: 'Perlu memilih provider terlebih dahulu'
       rest_cnt_tip: 'Biarkan kosong agar tak terbatas, atau atur ke angka untuk membatasinya.'
+      success: 'Item dibuat'
       title: 'Buat Item'
     edit-result:
       fail:
@@ -50,13 +57,22 @@ xypp-store:
     purchase_result:
       fail:
         cannot: 'Tidak dapat membeli Item ini'
+        not_enough_item: 'Item tidak cukup'
         not_enough_money: 'Uang tidak cukup'
         unknown: 'Error Tidak Diketahui'
       success: Sukses
     store: Toko
     time_segs: hari|jam|menit
+    unavailable:
+      common:
+        unknown: 'Tidak Dapat Membeli'
     use_result:
       fail:
+        cannot: 'Tidak dapat menggunakan Item ini'
+        error: 'Terjadi error saat menggunakan item'
         expired: 'Item kedaluwarsa'
         fail_expire: 'Gagal saat mencoba mengakhiri Item ini'
         id_not_found: 'ID item tidak ditemukan'
+        not_enough: 'Jumlah penggunaan tidak cukup'
+        unknown: 'Error Tidak Diketahui'
+      success: Sukses

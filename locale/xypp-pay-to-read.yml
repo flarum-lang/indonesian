@@ -7,12 +7,22 @@ xypp-pay-to-read:
     permission:
       bypass: 'Melewati pembayaran.'
   forum:
+    editor:
+      help: 'Atur id ke 0 atau kosongkan untuk Pay-to-read yang baru, bukan mengubah ID asli, maka pengguna yang sudah membayar dapat membaca.'
+      label: 'Tambahkan Pay-to-read'
     error:
       internal_err: 'Error internal.'
       missing: 'Tidak ada konten.'
       no_enough_money: 'Anda tidak memiliki cukup dana.'
       paid: 'Anda telah membayar untuk konten ini. Refresh halaman.'
+    payment-notfound: 'ID pembayaran #{0} tidak ditemukan。periksa id di pos atau hapus saja ''id={0}''。'
+    payment-req:
+      btn: Bayar
+      text: 'Penulis telah menetapkan konten untuk dibayar. Harga {0}'
     payment:
+      btn: 'Bayar untuk itu'
       loading: 'Memuat informasi pembayaran'
       tip: 'Membayar konten ini akan dikenakan biaya {0}, saat ini Anda memiliki {1}. Konfirmasi?'
       title: 'Konfirmasi Pembayaran'
+    paymentTip: 'Konten Pay-to-read'
+    paymentTipMail: 'Konten Pay-to-read disembunyikan. Silakan lihat tulisan aslinya.'

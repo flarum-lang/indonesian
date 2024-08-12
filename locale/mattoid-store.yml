@@ -10,11 +10,14 @@ mattoid-store:
       days: hari
       decorationStoreTimezone: 'zona waktu'
       decorationStoreTimezone-requirement: 'Atur zona waktu. Default “Asia/Shanghai”'
+      goods-auto-deduction: 'Pemotongan Otomatis'
       goods-code: Kode
       goods-delete: Hapus
       goods-desc: Desc
       goods-discount: Diskon(%)
+      goods-discount-limit-unit: Unit
       goods-edit: Edit
+      goods-hide: 'Tidak ada otoritas untuk menyembunyikan produk untuk waktu yang terbatas'
       goods-icon: Ikon
       goods-item-delete: 'Apakah Anda yakin ingin menghapus item ini?'
       goods-item-status-0: 'Apakah Anda yakin ingin mencantumkan item ini？'

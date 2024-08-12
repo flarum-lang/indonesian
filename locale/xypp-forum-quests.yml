@@ -11,14 +11,18 @@ xypp-forum-quests:
       condition: Kondisi
       condition-alter_name: 'Nama Tampilan'
       condition-name: 'Nama Kondisi'
+      condition-operator: Operator
       condition-value: Value
       description: Deskripsi
       hidden: Tersembunyi
       icon: Ikon
       name: Nama
       new_item: 'Item Baru'
+      re_available: 'Tersedia kembali'
+      reward: Reward
       reward-alter_name: 'Nama Tampilan'
       reward-get_value: 'Dapatkan Value'
+      reward-name: 'Nama Reward'
       reward-value: Value
     data: Data
     re_available:
@@ -39,20 +43,29 @@ xypp-forum-quests:
     no_manual_update: 'Tidak perlu pembaruan manual'
   forum:
     condition:
+      and: ' dan '
       condition: Kondisi
+      format: '<b>{name}</b> {operator}{value} {span} '
       span: 'Dalam {span} hari'
+    condition_not_found: 'Kondisi {condition} tidak ditemukan'
     condition_view:
       button: 'Lihat Kondisi'
       name: Nama
       title: 'Tampilan Kondisi'
       value: Value
     quest:
+      done: '[Selesai]'
       load_more: 'Muat Lebih'
     quest_done:
       all: Semua
+      'false': Tidak
       'true': Selesai
     re_available:
+      day: 'Tersedia kembali sebelum {value} hari'
+      hour: 'Tersedia kembali setelah {value} jam'
       none: 'Hanya Sekali'
     reward:
       and: ' dan '
       format: '<b>{name}</b>:{value}'
+      reward: Reward
+    reward_not_found: 'Reward {reward} tidak ditemukan'
