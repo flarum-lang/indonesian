@@ -6,14 +6,17 @@ mattoid-store:
   admin:
     error:
       invalid-product: 'Produk tidak valid'
+      validate-fail: 'Gagal pada item barang'
     settings:
+      add-store-goods: 'Tambah barang'
       days: hari
       decorationStoreTimezone: 'zona waktu'
       decorationStoreTimezone-requirement: 'Atur zona waktu. Default “Asia/Shanghai”'
+      edit-store-goods: 'Edit Barang'
       goods-auto-deduction: 'Pemotongan Otomatis'
       goods-code: Kode
       goods-delete: Hapus
-      goods-desc: Desc
+      goods-desc: Deskripsi
       goods-discount: Diskon(%)
       goods-discount-limit-unit: Unit
       goods-edit: Edit
@@ -23,8 +26,12 @@ mattoid-store:
       goods-item-status-0: 'Apakah Anda yakin ingin mencantumkan item ini？'
       goods-item-status-1: 'Apakah Anda yakin ingin menghapus item ini dari rak?'
       goods-price: Harga
+      goods-repeat: 'Izinkan barang duplikat'
       goods-status: Status
+      goods-stock: Stok
       goods-title: Judul
+      goods-upload-button: Upload
+      group-view: 'Izinkan grup pengguna untuk mengakses toko'
       show-icon-button: Galeri
       store-name: 'Nama Toko'
       store-name-requirement: 'Nama toko akan ditampilkan di menu beranda dan title bar'
@@ -33,22 +40,28 @@ mattoid-store:
   forum:
     auto-deduction: 'Pengurangan biaya otomatis untuk produk：{title}'
     button: Beli
+    buy-goods: 'Barang：{title}'
     buy-goods-fail: 'Pengembalian dana produk: {title}'
     cart: keranjang
     ckeck-goods-outtime: 'Periksa waktu kedaluwarsa produk'
     days: hari
     error:
+      automatic-renewal: 'Perpanjangan otomatis tidak diaktifkan'
+      buy-goods-fail: 'Pembelian barang gagal [{title}]'
+      cannot-Goods-repeatedly: 'Tidak diperbolehkan duplikasi Barang dalam periode masa berlaku'
       file-exist: 'file sudah ada'
       insufficient-inventory: 'Persediaan tidak mencukupi'
       invalid-product: 'Produk tidak valid'
       store-goods-non-existent: 'Produk tersebut tidak ada atau telah dihapus dari daftar'
       user-balance-low: 'Saldo pengguna tidak mencukup'
+      validate-fail: 'Gagal pada item barang'
     free: Gratis
     infinite: 'Tidak terbatas'
     tital: Toko
   lib:
     cancel: Batal
     confirm: Ok
+    item-cart-auto-deduction: 'Perpanjangan otomatis'
     item-cart-button-cancel: Batal
     item-cart-button-use: Aktifkan
     item-cart-created: 'Waktu pembelian'
@@ -56,13 +69,27 @@ mattoid-store:
     item-cart-pay-amt: 'Jumlah pembayaran'
     item-cart-price: Harga
     item-cart-status: 'status pembayaran'
+    item-cart-title: 'Judul Barang'
+    item-cart-type: 'Jenis Barang'
+    item-desc: 'Deskripsi Barang'
     item-discount: diskon
+    item-discount_limit: 'Periode diskon'
     item-id: ID
+    item-invalid: 'Perpanjangan otomatis'
     item-limit-unit-days: hari
     item-limit-unit-hour: jam
     item-limit-unit-minute: menit
     item-limit-unit-second: detik
     item-price: Harga
+    item-status: 'Status Barang'
     item-status-0: 'Hapus dari rak'
+    item-status-1: Terdaftar
+    item-status-all: 'Semua status produk'
+    item-status-down: Diturunkan
+    item-status-up: Terdaftar
+    item-stock: Stok
+    item-title: 'Judul Barang'
+    item-type: 'Jenis barang'
+    item-type-all: 'Semua jenis barang'
     list-empty: 'Tempat ini sepenuhnya kosong'
     list-load-more: lainnya
