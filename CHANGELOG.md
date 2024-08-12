@@ -7,9 +7,12 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`blomstra/payments`](https://flarum.org/extension/blomstra/payments)
+* [`clarkwinkelmann/flarum-ext-money-rewards`](https://github.com/clarkwinkelmann/flarum-ext-money-rewards)
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
 * [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store)
 * [`nodeloc/lottery`](https://github.com/nodeloc/lottery)
+* `nodeloc-referral`
 * [`xypp/forum-quests`](https://github.com/zxy19/flarum-forum-quests)
 * [`xypp/pay-to-read`](https://github.com/zxy19/flarum-pay-to-read)
 * [`xypp/store`](https://github.com/zxy19/store)
