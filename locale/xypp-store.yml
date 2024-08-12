@@ -18,6 +18,7 @@ xypp-store:
       desc: Deskripsi
       edit-button: Edit
       edit-title: 'Edit Item#{0}'
+      expire_time: 'Waktu Kedaluwarsa'
       expire_time_tip: 'Biarkan kosong untuk menonaktifkan, atau atur ke angka untuk kedaluwarsa setelah beberapa detik.'
       name: Nama
       price: Harga
@@ -30,28 +31,39 @@ xypp-store:
         special_data: 'Data Yang Dipilih'
         unknown: 'Pilih Provider'
         unknown_data: 'Perlu memilih provider terlebih dahulu'
-      rest_cnt_tip: 'Biarkan kosong agar tak terbatas, atau atur ke angka untuk membatasinya.'
+      rest_cnt: 'Sisa Batas Penggunaan'
+      rest_cnt_tip: 'Kosongkan untuk tidak terbatas, atau isi dengan angka untuk membatasi jumlah.'
       success: 'Item dibuat'
       title: 'Buat Item'
+      use_cnt: 'Batas penggunaan'
     edit-result:
       fail:
         not-found: 'Item tidak ditemukan'
     edit_button: Edit
     history:
+      confirm_delete: 'Yakin ingin menghapus item yang telah Anda beli ini?'
       delete_button: Hapus
+      expire: 'Kedaluwarsa pada {0}'
       forever: 'Tersedia selamanya'
+      infinity_use: 'Penggunaan tidak terbatas'
       no_record: 'Tidak ada pembelian'
       not_found: 'Item tidak ditemukan'
       rest_cnt: 'Dapat digunakan {0} kali'
       title: Pembelian
+      unable_to_use: 'Item ini tidak dapat digunakan'
     item:
+      expire: 'Berlaku selama {0}'
       infinity_count: 'Tersedia tanpa batas'
       no_available: 'Tidak ada item yang tersedia'
       not_found: 'Item tidak ditemukan'
       rest_cnt: 'Sisa {0}'
+      use_cnt: 'Digunakan {0} kali'
     price_free: Gratis
     provider:
       all: Semua
+      error:
+        title: 'Provider tidak diketahui'
+    purchase: Pembelian
     purchase-confirm: 'Konfirmasi Pembelian?'
     purchase-history: Pembelian
     purchase_result:
@@ -61,6 +73,7 @@ xypp-store:
         not_enough_money: 'Uang tidak cukup'
         unknown: 'Error Tidak Diketahui'
       success: Sukses
+    show_case: Etalase
     store: Toko
     time_segs: hari|jam|menit
     unavailable:

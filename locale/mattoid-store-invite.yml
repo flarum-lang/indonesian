@@ -5,9 +5,12 @@
 mattoid-store-invite:
   admin:
     settings:
-      auto-review-help: 'Setelah pemeriksaan, sistem akan secara otomatis melewatkan dan menyelesaikan operasi peninjauan'
-      auto-review-username-help: 'Ketika audit otomatis diaktifkan, sistem akan menanyakan pengguna yang dimasukkan'
-      calm-down-period-help: 'Setelah permohonan ditolak, tidak diperbolehkan untuk mengajukan permohonan kembali selama N hari sejak tanggal ditolaknya permohonan'
+      auto-review: 'Tinjauan otomatis dilewati'
+      auto-review-help: 'Setelah pemeriksaan, sistem akan secara otomatis menyetujui dan menyelesaikan proses peninjauan'
+      auto-review-username: 'Tinjau pengguna secara otomatis'
+      auto-review-username-help: 'Ketika peninjauan otomatis diaktifkan, sistem akan memeriksa kueri pengguna yang dimasukkan'
+      calm-down-period: 'Periode jeda pengajuan'
+      calm-down-period-help: 'Setelah pengajuan ditolak, tidak diperbolehkan untuk mengajukan permohonan kembali selama N hari sejak tanggal ditolaknya permohonan'
       group-admin-view: 'Izin audit'
       group-view: 'Menampilkan produk ke pengguna'
       mail: 'Template email'
@@ -22,9 +25,12 @@ mattoid-store-invite:
   forum:
     confirm-adopt: konfirmasi
     confirm-refuse: tolak
+    email: 'Email undangan'
     email-help: 'Email penerima undangan akan dihubungkan ke email yang terdaftar di forum.'
     error:
+      email-exist: 'Email undangan sudah ada'
       email-inconsistency: 'Email dan informasi undangan tidak sama. Silakan gunakan email yang menerima kode undangan'
+      exception: 'Tinjauan otomatis gagal [{message}]'
       invite-not-exist: 'Informasi permohonan telah ditinjau atau tidak ada. Silakan refresh halaman dan coba lagi'
       lock-resources: 'Resource saat ini terkunci. Silakan coba lagi nanti'
       review-failed: 'Anda baru saja menerima informasi permohonan yang ditolak. Silakan coba lagi setelah [{date}]'
@@ -36,14 +42,26 @@ mattoid-store-invite:
     link-help: 'Konfirmasi informasi undangan oleh peninjau (informasi ini hanya dapat dilihat oleh peninjau dan bagian yang mengeluarkan)'
     mail:
       send-invite-title: 'Kode undangan'
+    my-invite: Undanganku
+    remark: catatan
     remark-help: 'Hanya dapat dilihat oleh diri sendiri dan manajemen (dapat dikosongkan).'
     system-review: 'Sistem peninjauan otomatis'
-    username-help: 'Nama pengguna undangan tidak terhubung dengan nama pengguna yang terdaftar di forum'
+    title: Undangan
+    username: 'Username undangan'
+    username-help: 'Username undangan tidak terhubung dengan username yang terdaftar di forum'
   lib:
-    item-confirm-status: 'Status peninjauan'
+    item-apply-rmark: 'Terapkan Catatan'
+    item-button-expand: perluas
+    item-button-retract: tutup
+    item-confirm-remark: 'Komentar review'
+    item-confirm-status: 'Status review'
+    item-confirm-time: 'Waktu review'
     item-confirm-user: Peninjau
+    item-email: 'Email undangan'
     item-query: 'Cari berdasarkan pengundang/penerima/email'
-    item-status-adopt: adopsi
+    item-status-adopt: diterapkan
     item-status-all: Semua
     item-status-confirm: 'Belum diaudit'
     item-status-refuse: ditolak
+    item-user: Pengundang
+    item-username: 'Username undangan'

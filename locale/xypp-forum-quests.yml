@@ -12,8 +12,10 @@ xypp-forum-quests:
       condition-alter_name: 'Nama Tampilan'
       condition-name: 'Nama Kondisi'
       condition-operator: Operator
+      condition-span: 'Rentang Waktu'
       condition-value: Value
       description: Deskripsi
+      edit: 'Edit Quest'
       hidden: Tersembunyi
       icon: Ikon
       name: Nama
@@ -24,6 +26,7 @@ xypp-forum-quests:
       reward-get_value: 'Dapatkan Value'
       reward-name: 'Nama Reward'
       reward-value: Value
+      title: 'Buat Quest'
     data: Data
     re_available:
       day: 'Sebelum X hari'
@@ -51,11 +54,17 @@ xypp-forum-quests:
     condition_view:
       button: 'Lihat Kondisi'
       name: Nama
+      set_span: 'Atur Rentang'
+      span: 'Dalam Rentang'
       title: 'Tampilan Kondisi'
       value: Value
+    notification:
+      quest_done: 'Anda baru saja menyelesaikan quest {name}!'
+      quest_done_label: 'Quest Selesai'
     quest:
       done: '[Selesai]'
       load_more: 'Muat Lebih'
+      quest: Quest
     quest_done:
       all: Semua
       'false': Tidak

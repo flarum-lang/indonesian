@@ -18,6 +18,7 @@ mattoid-store:
       goods-delete: Hapus
       goods-desc: Deskripsi
       goods-discount: Diskon(%)
+      goods-discount-limit: 'Batas diskon'
       goods-discount-limit-unit: Unit
       goods-edit: Edit
       goods-hide: 'Tidak ada otoritas untuk menyembunyikan produk untuk waktu yang terbatas'
@@ -47,8 +48,10 @@ mattoid-store:
     days: hari
     error:
       automatic-renewal: 'Perpanjangan otomatis tidak diaktifkan'
+      automatic-renewal-fail: 'Perpanjangan otomatis gagal [{message}]'
       buy-goods-fail: 'Pembelian barang gagal [{title}]'
       cannot-Goods-repeatedly: 'Tidak diperbolehkan duplikasi Barang dalam periode masa berlaku'
+      cart-use-fail: 'Penggunaan barang gagal'
       file-exist: 'file sudah ada'
       insufficient-inventory: 'Persediaan tidak mencukupi'
       invalid-product: 'Produk tidak valid'
@@ -71,6 +74,7 @@ mattoid-store:
     item-cart-status: 'status pembayaran'
     item-cart-title: 'Judul Barang'
     item-cart-type: 'Jenis Barang'
+    item-created-at: 'Waktu pembuatan'
     item-desc: 'Deskripsi Barang'
     item-discount: diskon
     item-discount_limit: 'Periode diskon'
@@ -91,5 +95,7 @@ mattoid-store:
     item-title: 'Judul Barang'
     item-type: 'Jenis barang'
     item-type-all: 'Semua jenis barang'
+    item-type-limit: 'Masa berlaku terbatas'
+    item-type-permanent: 'Masa berlaku permanen'
     list-empty: 'Tempat ini sepenuhnya kosong'
     list-load-more: lainnya

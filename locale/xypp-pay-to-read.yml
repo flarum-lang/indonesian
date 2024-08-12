@@ -15,6 +15,8 @@ xypp-pay-to-read:
       missing: 'Tidak ada konten.'
       no_enough_money: 'Anda tidak memiliki cukup dana.'
       paid: 'Anda telah membayar untuk konten ini. Refresh halaman.'
+    haspaidTip: '{0} pengguna telah membayar'
+    nopaidTip: 'Tidak ada yang membayar'
     payment-notfound: 'ID pembayaran #{0} tidak ditemukan。periksa id di pos atau hapus saja ''id={0}''。'
     payment-req:
       btn: Bayar

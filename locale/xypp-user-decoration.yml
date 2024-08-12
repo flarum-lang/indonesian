@@ -9,11 +9,17 @@ xypp-store:
         decoration: Dekorasi
     type:
       decoration: Dekorasi
+    unavailable:
+      decoration:
+        dumplicate: 'Sudah Memiliki'
 xypp-user-decoration:
   admin:
     permissions:
       create_decoration: 'Membuat/Mengedit dekorasi'
+      delete_decoration: 'Menghapus dekorasi orang lain'
+      offer_decoration: 'Tawarkan dekorasi'
       view-all: 'Melihat semua dekorasi'
+      view_decoration: 'Melihat dekorasi orang lain'
     settings:
       avatar_hijack:
         desc: 'Plugin ini akan mencoba membajak metode avatar dari model pengguna dan menyisipkan beberapa informasi identitas untuk mengenali pengguna. Jika beberapa plugin lain mengalami kerusakan akibat pembajakan, Anda dapat menonaktifkan fungsi ini untuk menyelesaikan masalah.'
@@ -31,6 +37,7 @@ xypp-user-decoration:
       delete-button: Hapus
       desc: Deskripsi
       edit-button: Edit
+      edit-title: 'Edit Dekorasi #{0}'
       name: nama
       style: 'Style Sheet'
       tip: 'Gunakan selector .base untuk memilih target, .element-xxx untuk menambahkan element baru'
@@ -39,10 +46,13 @@ xypp-user-decoration:
         avatar: Avatar
         post: Post
         title: Jenis
+        usercard: 'Kartu Pengguna'
         username: Username
+    create-success: 'Dekorasi berhasil dibuat'
     decoration-box:
       avatar: 'Desain Avatar'
       card: 'Desain Kartu Pengguna'
+      closed: Ditutup
       error: 'Jenis Tidak Diketahui'
       loading: Memuat
       name: 'Desain Username'
@@ -58,7 +68,11 @@ xypp-user-decoration:
     delete-success: 'Berhasil Menghapus'
     delete_confirm: 'Apakah Anda yakin untuk menghapus dekorasi ini?'
     modal:
+      button: Tawarkan
       loading: Memuat
       tip: 'Silakan pilih dekorasi'
+      title: 'Tawarkan Dekorasi'
     page:
       show-decorations: Dekorasi
+    user_controls:
+      offer: 'Tawarkan Dekorasi'
