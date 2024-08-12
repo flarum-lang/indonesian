@@ -11,12 +11,14 @@ CHANGELOG
 * [`blomstra/sort-order-toggle`](https://github.com/blomstra/flarum-ext-sort-order-toggle)
 * [`clarkwinkelmann/flarum-ext-money-rewards`](https://github.com/clarkwinkelmann/flarum-ext-money-rewards)
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
+* [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
 * [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store)
 * [`nodeloc/lottery`](https://github.com/nodeloc/lottery)
 * `nodeloc-referral`
 * [`xypp/forum-quests`](https://github.com/zxy19/flarum-forum-quests)
 * [`xypp/pay-to-read`](https://github.com/zxy19/flarum-pay-to-read)
 * [`xypp/store`](https://github.com/zxy19/store)
+* [`xypp/user-decoration`](https://github.com/zxy19/user-decoration)
 
 
 Semua perubahan: [1.19.0...1.19.1](https://github.com/flarum-lang/indonesian/compare/1.19.0...1.19.1).
