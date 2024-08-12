@@ -8,6 +8,7 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`blomstra/payments`](https://flarum.org/extension/blomstra/payments)
+* [`blomstra/sort-order-toggle`](https://github.com/blomstra/flarum-ext-sort-order-toggle)
 * [`clarkwinkelmann/flarum-ext-money-rewards`](https://github.com/clarkwinkelmann/flarum-ext-money-rewards)
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
 * [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store)
