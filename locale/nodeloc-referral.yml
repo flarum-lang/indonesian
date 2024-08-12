@@ -10,7 +10,7 @@ nodeloc-referral:
       expires: Kedaluwarsa
       max_number: 'Angka maksimal'
       price: Harga
-      reward: Hadiah
+      reward: Reward
   forum:
     actives: Aktif
     cost: Biaya

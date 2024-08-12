@@ -8,7 +8,7 @@ clarkwinkelmann-money-rewards:
       createMoney: 'Membuat money baru dalam bentuk reward'
       customAmounts: 'Menentukan jumlah khusus untuk reward'
       rewardWithMoney: 'Memberikan reward kepada pengguna lain dengan money'
-      seeMoneyRewardHistory: 'Melihat history hadiah dari pengguna lain'
+      seeMoneyRewardHistory: 'Melihat riwayat reward pengguna lain'
     settings:
       decimals: 'Jumlah desimal maksimum untuk jumlah khusus'
       max: 'Nilai maksimum untuk jumlah khusus'
