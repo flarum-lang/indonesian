@@ -62,6 +62,7 @@ xypp-store:
     provider:
       all: Semua
       error:
+        no-preview: 'Tidak ada pratinjau'
         title: 'Provider tidak diketahui'
     purchase: Pembelian
     purchase-confirm: 'Konfirmasi Pembelian?'
@@ -78,7 +79,8 @@ xypp-store:
     time_segs: hari|jam|menit
     unavailable:
       common:
-        unknown: 'Tidak Dapat Membeli'
+        no_rest: 'Tidak tersisa'
+        unknown: 'Tidak Dapat Dibeli'
     use_result:
       fail:
         cannot: 'Tidak dapat menggunakan Item ini'

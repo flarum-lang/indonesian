@@ -39,6 +39,8 @@ xypp-forum-quests:
       id: '#'
       load_more: 'Muat Lebih'
       name: Nama
+      operation: Tindakan
+      remove_confirm: 'Apakah Anda yakin ingin menghapus quest ini?'
     timezone: 'Zona waktu'
   api:
     condition_not_allow_frontend: 'Kondisi tidak dapat dipicu di frontend'
