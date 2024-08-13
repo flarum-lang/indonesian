@@ -8,7 +8,7 @@ fof-linguist:
       apply: Terapkan
       copy-original: 'Salin teks asli'
       delete-all: 'Hapus semua terjemahan'
-      delete-all-confirm: "Ini akan menghapus SEMUA terjemahan khusus {count} Anda. Pastikan Anda telah mengekspor atau mem-backup semua yang mungkin ingin Anda simpan.\n"
+      delete-all-confirm: "Ini akan menghapus SEMUA dari {count} terjemahan khusus Anda. Pastikan Anda telah mengekspor atau mem-backup semua yang mungkin ingin Anda simpan.\n"
       delete-redundant: 'Hapus terjemahan yang tidak perlu'
       delete-redundant-confirm: "Ini akan menghapus {count} terjemahan yang memiliki nilai asli dan nilai khusus yang sama. Ini dapat berguna untuk membersihkan setelah pembaruan paket bahasa.\n"
       load-more: 'Muat lebih banyak'
@@ -28,15 +28,15 @@ fof-linguist:
         namespace: Namespace
         total: Total
       count:
-        details: 'total {total} / {original} asli / {custom} khusus'
+        details: 'total {total} / {original} original / {custom} khusus'
         percent: '{percent} %'
         total: '{translated} / {total}'
       total-options:
-        count: Perhitungan
-        percent: Persen
+        count: Jumlah
+        percent: Persentase
     export:
       download: Download
-      include-all: 'Sertakan terjemahan yang ditetapkan untuk "Semua" bahasa'
+      include-all: 'Sertakan terjemahan yang didefinisikan untuk "semua" bahasa'
       include-originals: 'Sertakan terjemahan aslinya'
       locale: 'Bahasa lokal'
       locale-all: 'Pseudo-locale "Semua"'
@@ -63,8 +63,8 @@ fof-linguist:
       results: 'Menampilkan {shown} dari {total} terjemahan yang cocok'
       search: 'Cari string terjemahan...'
       type-options:
-        any: 'Asli atau Khusus'
-        original: Asli
+        any: 'Original atau Khusus'
+        original: Original
         own: Khusus
       with-own-translations: 'Terjemahan saya'
     import:
@@ -72,7 +72,7 @@ fof-linguist:
       input-placeholder: 'Tarik dan lepas atau paste file Yaml di sini'
       locale: 'Bahasa lokal'
       locale-all: 'Pseudo-locale "Semua"'
-      override-existing: 'Mengesampingkan terjemahan khusus Saya yang sudah ada'
+      override-existing: 'Timpa terjemahan khusus Saya yang sudah ada'
       results: "Impor selesai. String {imported} telah diimpor dan string {identical} yang identik dilewati. Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.\n"
       results-with-ignore: "Impor telah selesai. String {imported} telah diimpor, string {ignored} yang sudah ada telah diabaikan dan string {identical} yang identik telah dilewati. Halaman sekarang akan di-refresh untuk menampilkan terjemahan yang baru.\n"
       submit: Impor

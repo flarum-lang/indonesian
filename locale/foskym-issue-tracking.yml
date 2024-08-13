@@ -31,6 +31,8 @@ foskym-issue-tracking:
       submit_button: Submit
       title: 'Buat issue baru'
       title_placeholder: 'Judul Issue'
+    discussion:
+      issue_link: Lihat
     header:
       back_to_issues_tooltip: 'Kembali ke Issue'
     hero:

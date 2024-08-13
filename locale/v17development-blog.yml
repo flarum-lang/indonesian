@@ -28,7 +28,7 @@ v17development-flarum-blog:
       hide_tags_in_taglist_text: 'Ketika diaktifkan, ekstensi ini akan menyembunyikan tag blog dari Beranda Anda.'
       no_categories_selected: 'Tidak ada kategori yang dipilih'
       redirect_articles_label: 'Alihkan artikel blog'
-      redirect_articles_text: 'Ketika diaktifkan, ekstensi ini akan mengalihkan URL diskusi yang asli ke URL blog mereka.'
+      redirect_articles_text: 'Ketika diaktifkan, ekstensi ini akan mengalihkan URL diskusi original ke URL blog mereka.'
       redirect_tags_label: 'Alihkan tag blog'
       redirect_tags_text: 'Ketika diaktifkan, ekstensi ini mengalihkan URL tag blog ke URL kategori blog.'
       redirects_heading: Pengalihan

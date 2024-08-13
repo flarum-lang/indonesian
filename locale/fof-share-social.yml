@@ -7,7 +7,7 @@ fof-share-social:
     settings:
       canonical-urls: 'Gunakan URL kanonis untuk berbagi'
       default-option: 'Pilihan default untuk berbagi'
-      default-option-help: "Memilih opsi default akan mengubah jendela modal menjadi tombol dropdown.\nJika \"Native Share\" dipilih, ini hanya akan ditampilkan jika browser mendukungnya, jika tidak, perilaku akan kembali ke jendela modal asli.\n"
+      default-option-help: "Memilih opsi default akan mengubah jendela modal menjadi tombol dropdown.\nJika \"Native Share\" dipilih, ini hanya akan ditampilkan jika browser mendukungnya, jika tidak, perilaku akan kembali ke jendela modal original.\n"
       plain-copy: 'Tampilkan salinan URL biasa'
   forum:
     discussion:
