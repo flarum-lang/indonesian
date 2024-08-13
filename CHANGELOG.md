@@ -5,6 +5,11 @@ CHANGELOG
 1.19.1 (XXXX-XX-XX)
 -------------------
 
+**Perubahan umum**:
+
+* Memperbarui terjemahan untuk Flarum core.
+
+
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`blomstra/payments`](https://flarum.org/extension/blomstra/payments)
@@ -26,6 +31,8 @@ CHANGELOG
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
 * [`foskym/flarum-issue-tracking`](https://github.com/FoskyM/flarum-issue-tracking)
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
+* [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
+* [`kilowhat/flarum-ext-audit-pro`](https://flarum.org/extension/kilowhat/flarum-ext-audit-pro)
 * [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
 * [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store)
 * [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
