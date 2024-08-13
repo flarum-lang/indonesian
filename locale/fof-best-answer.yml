@@ -28,7 +28,7 @@ fof-best-answer:
         reminders_notice: 'Agar pengingat dapat berfungsi, Anda harus mengatur Flarum scheduler dengan benar.'
         search: Pencarian
         tags: 'Tag Best Answer'
-      remind_tags_help: 'Pilih tag yang mana, jika ada, yang akan dikirimkan pengingat. Pengingat hanya akan dikirim untuk diskusi dengan tag ini.'
+      remind_tags_help: 'Pilih tag mana, jika ada, untuk mengirim pengingat. Pengingat hanya akan dikirim untuk diskusi dengan tag ini.'
       remind_tags_label: 'Tag Pengingat'
       schedule_log_output: 'Tambahkan output penjadwal ke penyimpanan log'
       schedule_on_one_server: 'Gunakan direktif ''onOneServer()'' untuk task scheduler'

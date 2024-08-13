@@ -42,7 +42,7 @@ kilowhat-audit:
         unknown: 'Client tidak diketahui'
       controls:
         filterAction: 'Tampilkan log dari tindakan yang sama'
-        filterActor: 'Tampilkan log oleh pengguna ini'
+        filterActor: 'Tampilkan log berdasarkan pengguna ini'
         filterClient: 'Tampilkan log berdasarkan jenis client ini'
         filterDiscussion: 'Tampilkan log yang mempengaruhi diskusi yang sama'
         filterIp: 'Tampilkan log berdasarkan IP ini'
