@@ -5,7 +5,7 @@
 xypp-pay-to-read:
   admin:
     permission:
-      bypass: 'Melewati pembayaran.'
+      bypass: 'Bypass pembayaran.'
   forum:
     editor:
       help: 'Atur id ke 0 atau kosongkan untuk Pay-to-read yang baru, bukan mengubah ID asli, maka pengguna yang sudah membayar dapat membaca.'

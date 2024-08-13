@@ -34,7 +34,7 @@ ziven-transfer-money:
     transfer-list-transfer-amount: Jumlah
     transfer-list-transfer-notes: Catatan
     transfer-list-transfer-notes-none: 'Tidak ada'
-    transfer-list-type: Tipe
+    transfer-list-type: Jenis
     transfer-money: 'Transfer Money'
     transfer-money-history: 'Riwayat Transfer'
     transfer-money-in: 'Transfer Masuk'

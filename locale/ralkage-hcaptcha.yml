@@ -10,7 +10,7 @@ ralkage-hcaptcha:
       help_text: 'Dapatkan kredensial hCaptcha Anda <a>di sini</a>.'
       secret_key_label: 'Secret Key'
       site_key_label: 'Site Key'
-      type_label: 'Tipe hCaptcha'
+      type_label: 'Jenis hCaptcha'
   forum:
     error: 'Terjadi error saat mengirimkan hCaptcha. Coba lagi.'
 validation:

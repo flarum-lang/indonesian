@@ -26,7 +26,7 @@ fof-masquerade:
       prefix-help: "Menampilkan prefiks Anda di depan value yang dimasukkan oleh pengguna untuk kolom ini.\n"
       required: 'Tandai kolom yang harus diisi'
       title: Kolom
-      type: Tipe
+      type: Jenis
       validation: Validasi
       validation-help: "Periksa <a>aturan validasi Laravel</a> yang didukung. Misalnya: \"string|min:5\" atau \"url\"..\n"
     general-options: 'Pilihan umum'

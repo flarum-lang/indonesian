@@ -9,7 +9,7 @@ nearata-maintenance-mode:
         detail: 'Selama pemeliharaan, hanya pengguna yang berwenang yang dapat melihat forum.'
         title: 'Mode pemeliharaan aktif'
     permissions:
-      bypass: 'Dapat melewati Mode Pemeliharaan'
+      bypass: 'Dapat mem-bypass Mode Pemeliharaan'
     settings:
       maintenance_mode_enabled:
         label: 'Mode Pemeliharaan'

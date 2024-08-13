@@ -87,7 +87,7 @@ flamarkt-taxonomies:
       reset-term-order: 'Reset daftar istilah ke urutan abjad'
       title: Taksonomi
     permissions:
-      bypassTermCounts: 'Melewati persyaratan jumlah istilah'
+      bypassTermCounts: 'Bypass persyaratan jumlah istilah'
       editAnyDiscussion: 'Mengedit taksonomi pada diskusi apa pun'
       editAnyUser: 'Mengedit taksonomi pada pengguna mana pun'
       editOwnDiscussion: 'Mengedit taksonomi pada diskusi sendiri'
@@ -120,7 +120,7 @@ flamarkt-taxonomies:
       nav: Taksonomi
   lib:
     modal:
-      bypassTermCounts: 'Lewati jumlah istilah'
+      bypassTermCounts: 'Bypass jumlah istilah'
       custom: 'Gunakan {value}'
       placeholder: '{count, plural, one {Pilih istilah...} other {Pilih # istilah...}}'
       placeholderOptional: Pilih...
