@@ -10,15 +10,28 @@ CHANGELOG
 * [`blomstra/payments`](https://flarum.org/extension/blomstra/payments)
 * [`blomstra/sort-order-toggle`](https://github.com/blomstra/flarum-ext-sort-order-toggle)
 * [`clarkwinkelmann/flarum-ext-money-rewards`](https://github.com/clarkwinkelmann/flarum-ext-money-rewards)
+* [`datitisev/flarum-maintenance`](https://flarum.org/extension/datitisev/flarum-maintenance)
+* [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
+* [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/stopforumspam`](https://github.com/FriendsOfFlarum/stopforumspam)
 * [`gbcl/userip`](https://github.com/GBCLStudio/userip)
 * [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
 * [`mattoid/flarum-ext-store`](https://github.com/Mattoids/flarum-ext-store)
+* [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
+* [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode)
 * [`nodeloc/lottery`](https://github.com/nodeloc/lottery)
 * `nodeloc-referral`
+* [`ordinaryjellyfish/automod`](https://flarum.org/extension/ordinaryjellyfish/automod)
+* [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
 * [`xypp/forum-quests`](https://github.com/zxy19/flarum-forum-quests)
 * [`xypp/pay-to-read`](https://github.com/zxy19/flarum-pay-to-read)
 * [`xypp/store`](https://github.com/zxy19/store)
 * [`xypp/user-decoration`](https://github.com/zxy19/user-decoration)
+* [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
 
 
 Semua perubahan: [1.19.0...1.19.1](https://github.com/flarum-lang/indonesian/compare/1.19.0...1.19.1).
