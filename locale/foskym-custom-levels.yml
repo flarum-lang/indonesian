@@ -4,6 +4,7 @@
 
 foskym-custom-levels:
   admin:
+    preview: 'Pratinjau (perlu disimpan)'
     settings:
       expDesc: 'Variabel yang tersedia：[expTotal]'
       expFormula: 'Masukkan rumus exp (misalnya「[discussionCount] * 40 + [commentCount] / 20」）'
@@ -21,3 +22,5 @@ foskym-custom-levels:
       expFormula: '[discussionCount] * 40 + [commentCount] / 20'
       level: Lv.
       levelFormula: '[expTotal] / (100 * [level])'
+    error:
+      calculation: 'Perhitungan level exp salah, silakan periksa rumusnya.'

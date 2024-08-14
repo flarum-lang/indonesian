@@ -4,6 +4,10 @@
 
 foskym-oauth-center:
   admin:
+    action:
+      delete_all_records_button: 'Hapus semua catatan'
+      delete_all_records_confirm: 'Konfirmasi hapus semua catatan'
+      delete_all_records_success: 'Berhasil menghapus semua catatan'
     clients:
       add_button: 'Tambah Client'
       client_desc: Deskripsi
@@ -13,6 +17,7 @@ foskym-oauth-center:
       client_name: Nama
       client_secret: 'Client Secret'
       edit_client: 'Edit Client'
+      grant_types: 'Jenis Grant'
       redirect_uri: 'URI Pengalihan'
       scope: Cakupan
     page:
@@ -34,6 +39,7 @@ foskym-oauth-center:
       visible_fields: 'Kolom Yang Terlihat'
     settings:
       access_lifetime: 'Masa Berlaku Token Akses (detik)'
+      allow_delete_records: 'Izinkan Hapus Catatan Otorisasi'
       allow_implicit: 'Izinkan Implicit Grant (response_type = token)'
       authorization_method_fetch: 'Metode Otorisasi Pengambilan (Tidak langsung mengarahkan ke)'
       display_mode: 'Mode Tampilan'
@@ -49,6 +55,9 @@ foskym-oauth-center:
       deny: Tolak
       require_these_scopes: 'Membutuhkan cakupan ini'
     authorized:
+      delete_all_button: 'Hapus semua log'
+      delete_all_confirm: 'Konfirmasi hapus semua log'
+      delete_button: 'Hapus log ini'
       load_more: 'Muat Lebih Lanjut'
       no_more_records: 'Tidak ada lagi catatan'
       no_records: 'Tidak ada catatan'
