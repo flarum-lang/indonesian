@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.20.0 (XXXX-XX-XX)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`datlechin/flarum-cbox`](https://github.com/datlechin/flarum-cbox)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`xypp/pay-to-read`](https://github.com/zxy19/flarum-pay-to-read)
+
+
+Semua perubahan: [1.19.1...1.20.0](https://github.com/flarum-lang/indonesian/compare/1.19.1...1.20.0).
+
+
 1.19.1 (2024-08-14)
 -------------------
 
