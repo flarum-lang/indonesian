@@ -24,6 +24,9 @@ xypp-user-decoration:
       avatar_hijack:
         desc: 'Plugin ini akan mencoba membajak metode avatar dari model pengguna dan menyisipkan beberapa informasi identitas untuk mengenali pengguna. Jika beberapa plugin lain mengalami kerusakan akibat pembajakan, Anda dapat menonaktifkan fungsi ini untuk menyelesaikan masalah.'
         title: 'Pembajakan Avatar'
+      no_decorate_class_filter:
+        desc: 'Nama kelas yang mencegah avatar/username di dalamnya berubah bentuk karena dekorasi. Satu baris awal tanpa titik awalan'
+        title: 'Tidak Ada Filter Kelas Dekorasi'
       username_hijack:
         desc: 'Plugin ini akan mencoba membajak metode username dari model pengguna dan menyisipkan beberapa informasi identitas untuk mengenali pengguna. Jika beberapa plugin lain mengalami kerusakan akibat pembajakan, Anda dapat menonaktifkan fungsi ini untuk menyelesaikan masalah.'
         title: 'Pembajakan Username'
