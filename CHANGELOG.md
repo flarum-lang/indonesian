@@ -13,6 +13,7 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`xypp/pay-to-read`](https://github.com/zxy19/flarum-pay-to-read)
+* [`xypp/user-decoration`](https://github.com/zxy19/user-decoration)
 
 
 Semua perubahan: [1.19.1...1.20.0](https://github.com/flarum-lang/indonesian/compare/1.19.1...1.20.0).
