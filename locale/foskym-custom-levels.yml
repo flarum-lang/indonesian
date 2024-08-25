@@ -13,14 +13,16 @@ foskym-custom-levels:
       expFormulaDesc3: 'Butuh Plugin（[money] [likesReceived] [bestAnswerCount]）'
       expText: 'Masukkan teks yang akan ditampilkan untuk exp（misalnya「[expTotal] Exp」）'
       levelDesc: 'Variabel yang tersedia：[level]'
-      levelFormula: 'Masukkan rumus level（misalnya「[expTotal] / (100 + 5 * [level])」）'
-      levelFormulaDesc: 'Anda dapat menggunakan variabel ini [expTotal] [level]'
+      levelFormula: 'Masukkan rumus level（misalnya「log([expTotal], 2)」）'
+      levelFormulaDesc: 'Anda dapat menggunakan variabel ini [expTotal]'
       levelText: 'Masukkan teks yang akan ditampilkan untuk level (misalnya Rank, Level)'
+      round: Pembulatan
+      roundDesc: 'Membulatkan exp saat melakukan perhitungan'
   lib:
     defaults:
       exp: '[expTotal] Exp'
       expFormula: '[discussionCount] * 40 + [commentCount] / 20'
       level: Lv.
-      levelFormula: '[expTotal] / (100 * [level])'
+      levelFormula: 'log([expTotal], 2)'
     error:
       calculation: 'Perhitungan level exp salah, silakan periksa rumusnya.'
