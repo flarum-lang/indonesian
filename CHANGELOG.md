@@ -12,6 +12,7 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
 * [`xypp/pay-to-read`](https://github.com/zxy19/flarum-pay-to-read)
 * [`xypp/user-decoration`](https://github.com/zxy19/user-decoration)
 
