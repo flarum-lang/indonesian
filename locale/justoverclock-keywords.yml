@@ -11,7 +11,7 @@ flarum-ext-keywords:
     word: Kata
   forum:
     definition: Definisi
-    loadMore: 'Muat Lebih Banyak'
+    loadMore: 'Muat Lainnya'
     pagetitle: 'Halaman Glosarium'
     searchtext: 'Ketik untuk mencari di glosarium...'
     tagline: 'Apakah Anda ingin tahu lebih banyak tentang istilah yang digunakan di situs ini? Lihat Glosarium untuk mengetahui lebih lanjut'

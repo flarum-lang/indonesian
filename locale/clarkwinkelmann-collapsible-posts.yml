@@ -27,4 +27,4 @@ clarkwinkelmann-collapsible-posts:
     stream:
       explanation: 'Mengapa Saya melihat ini?'
       hidden: '{count, plural, one {# post disembunyikan sebagai {reason}} other {# post disembunyikan sebagai {reason}}}'
-      load: 'Muat lebih banyak'
+      load: 'Muat Lainnya'

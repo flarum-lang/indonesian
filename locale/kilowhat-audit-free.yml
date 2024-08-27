@@ -65,7 +65,7 @@ kilowhat-audit:
       genericResource:
         comment: Tanggapan
         post: Post
-      loadMore: 'Muat lebih banyak'
+      loadMore: 'Muat Lainnya'
       noReason: '(tidak ada alasan)'
       noValue: '(tidak ada nilai)'
       permissionGroup:

@@ -58,7 +58,7 @@ foskym-oauth-center:
       delete_all_button: 'Hapus semua log'
       delete_all_confirm: 'Konfirmasi hapus semua log'
       delete_button: 'Hapus log ini'
-      load_more: 'Muat Lebih Lanjut'
+      load_more: 'Muat Lainnya'
       no_more_records: 'Tidak ada lagi catatan'
       no_records: 'Tidak ada catatan'
     page:

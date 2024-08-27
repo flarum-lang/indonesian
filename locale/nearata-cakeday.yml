@@ -30,5 +30,5 @@ nearata-cakeday:
         today: 'Hari ini'
         tomorrow: Besok
         upcoming: Mendatang
-      load_more_button: 'Memuat lebih banyak'
+      load_more_button: 'Muat Lainnya'
       title: 'Hari Jadi'

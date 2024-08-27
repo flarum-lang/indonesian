@@ -121,7 +121,7 @@ ziven-decoration-store:
     item-type-profileBackground: 'Background Profil'
     item-type-usernameColor: 'Warna Username'
     list-empty: 'Tidak ada konten'
-    list-load-more: 'Muat Lebih Banyak'
+    list-load-more: 'Muat Lainnya'
     none: 'Tidak ada'
     ok: OK
     save-error: 'Error - Simpan'

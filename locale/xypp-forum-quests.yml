@@ -37,7 +37,7 @@ xypp-forum-quests:
       create: Buat
       description: Deskripsi
       id: '#'
-      load_more: 'Muat Lebih'
+      load_more: 'Muat Lainnya'
       name: Nama
       operation: Tindakan
       remove_confirm: 'Apakah Anda yakin ingin menghapus quest ini?'
@@ -65,7 +65,7 @@ xypp-forum-quests:
       quest_done_label: 'Quest Selesai'
     quest:
       done: '[Selesai]'
-      load_more: 'Muat Lebih'
+      load_more: 'Muat Lainnya'
       quest: Quest
     quest_done:
       all: Semua

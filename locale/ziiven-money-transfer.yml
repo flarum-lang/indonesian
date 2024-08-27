@@ -29,7 +29,7 @@ ziven-transfer-money:
     transfer-list-empty: 'Tidak ada riwayat transfer'
     transfer-list-from-user: 'Dari Pengguna'
     transfer-list-id: ID
-    transfer-list-load-more: 'Muat Lebih Banyak'
+    transfer-list-load-more: 'Muat Lainnya'
     transfer-list-target-user: 'Pengguna Target'
     transfer-list-transfer-amount: Jumlah
     transfer-list-transfer-notes: Catatan

@@ -9,6 +9,10 @@ fof-user-directory:
       most_exp: '=> foskym-custom-levels.lib.integrations.user-directory.most_exp'
 foskym-custom-levels:
   admin:
+    auto_remove:
+      - 'Tidak pernah menghapus exp'
+      - 'Ketika sebuah postingan/balasan disembunyikan atau dihapus (default)'
+      - 'Ketika sebuah postingan/balasan dihapus secara permanen'
     automoderator:
       action_name: 'Berikan Exp'
       metric_name: Exp
@@ -16,9 +20,12 @@ foskym-custom-levels:
       add_button: 'Tambah Level'
       delete_confirmation: 'Konfirmasi untuk menghapus level ini?'
       edit_level: 'Edit Level'
+      min_exp_required: 'Exp Minimum yang Dibutuhkan'
       name: 'Nama Level'
     pages:
       levels: Level
+    permissions:
+      edit_exp: 'Edit Exp Pengguna'
     preview: Pratinjau
     settings:
       autoRemove: 'Hapus exp secara otomatis'
@@ -46,12 +53,34 @@ foskym-custom-levels:
       roundDesc: 'Membulatkan exp saat melakukan perhitungan'
   forum:
     log:
+      load_more: 'Muat Lainnya'
+      no_more: 'Tidak ada lagi'
+      no_records: 'Tidak ada catatan'
       reason: Alasan
       time: Waktu
+      type:
+        admin_edit: 'Diedit oleh Admin'
+        automoderator: 'Moderator otomatis'
+        comment_deleted_in_deleted_discussion: 'Komentar dihapus dalam diskusi yang dihapus'
+        discussion_deleted: 'Diskusi dihapus'
+        discussion_hidden: 'Diskusi disembunyikan'
+        discussion_restored: 'Diskusi dipulihkan'
+        discussion_started: 'Diskusi dimulai'
+        post_deleted: 'Post dihapus'
+        post_hidden: 'Post disembunyikan'
+        post_liked: 'Post disukai'
+        post_posted: 'Post dibuat'
+        post_restored: 'Post dipulihkan'
+    modal:
+      current: 'Saat Ini'
+      submit_button: Simpan
+      title: 'Edit Exp'
     notifications:
       level_updated: 'Selamat! Anda telah mencapai level {level}!'
     settings:
       notify_level_updated: 'Beri tahu saat level diperbarui'
+    user_controls:
+      edit_exp_button: 'Edit Exp'
   lib:
     defaults:
       exp: '[expTotal] Exp'
@@ -60,6 +89,17 @@ foskym-custom-levels:
       levelFormula: 'log([expTotal], 2)'
     error:
       calculation: 'Perhitungan level exp salah.'
+    integrations:
+      automoderator:
+        action_name: 'Berikan Exp'
+        metric_name: Exp
+      forum-quests:
+        reward_name: Exp
+      store:
+        item_name: Exp
+      user-directory:
+        least_exp: 'Exp Terendah'
+        most_exp: 'Exp Tertinggi'
 nodeloc-leaderboard:
   lib:
     sort:

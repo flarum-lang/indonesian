@@ -238,7 +238,7 @@ kilowhat-formulaire:
         discuss: 'Diskusi di Flarum Discuss'
         documentation: 'Dokumentasi online lengkap'
         title: '=> kilowhat-formulaire.ref.manager'
-      load-more: 'Muat lebih banyak'
+      load-more: 'Muat Lainnya'
       new: 'Formulir baru'
       search: 'Cari formulir...'
       show: Tampilkan
@@ -300,7 +300,7 @@ kilowhat-formulaire:
       form-edit: 'Edit formulir'
       form-show: 'Pengajuan baru'
       guest: Tamu
-      load-more: 'Muat lebih banyak'
+      load-more: 'Muat Lainnya'
       search: 'Cari pengajuan...'
       show: Tampilkan
     submission-sort:
