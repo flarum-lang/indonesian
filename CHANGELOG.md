@@ -5,6 +5,11 @@ CHANGELOG
 1.20.0 (XXXX-XX-XX)
 -------------------
 
+**Perubahan umum**:
+
+* Memperbarui terjemahan untuk Flarum core.
+
+
 **Menambahkan dukungan untuk ekstensi**:
 
 * [`datlechin/flarum-cbox`](https://github.com/datlechin/flarum-cbox)
@@ -12,9 +17,22 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`clarkwinkelmann/flarum-ext-collapsible-posts`](https://github.com/clarkwinkelmann/flarum-ext-collapsible-posts)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 * [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
+* [`justoverclock/flarum-ext-keywords`](https://github.com/justoverclockl/flarum-ext-keywords)
+* [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
+* [`kilowhat/flarum-ext-audit-pro`](https://flarum.org/extension/kilowhat/flarum-ext-audit-pro)
+* [`kilowhat/flarum-ext-cimaise`](https://flarum.org/extension/kilowhat/flarum-ext-cimaise)
+* [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
+* [`nearata/flarum-ext-cakeday`](https://github.com/Nearata/flarum-ext-cakeday)
+* [`xypp/forum-quests`](https://github.com/zxy19/flarum-forum-quests)
 * [`xypp/pay-to-read`](https://github.com/zxy19/flarum-pay-to-read)
 * [`xypp/user-decoration`](https://github.com/zxy19/user-decoration)
+* [`ziiven/flarum-decoration-store`](https://flarum.org/extension/ziiven/flarum-decoration-store)
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
+* [`ziiven/money-transfer`](https://github.com/Ziiven/ziven-money-transfer)
 
 
 Semua perubahan: [1.19.1...1.20.0](https://github.com/flarum-lang/indonesian/compare/1.19.1...1.20.0).
