@@ -4,9 +4,9 @@
 
 foskym-custom-levels:
   admin:
-    preview: 'Pratinjau (perlu disimpan)'
+    preview: Pratinjau
     settings:
-      expDesc: 'Variabel yang tersedia：[expTotal]'
+      expDesc: 'Variabel yang tersedia：[expTotal] [expPercent] [nextLevel] [expToNextLevel]'
       expFormula: 'Masukkan rumus exp (misalnya「[discussionCount] * 40 + [commentCount] / 20」）'
       expFormulaDesc1: 'Anda dapat menggunakan variabel ini:'
       expFormulaDesc2: 'Core（[discussionCount] [commentCount]）'
@@ -25,4 +25,4 @@ foskym-custom-levels:
       level: Lv.
       levelFormula: 'log([expTotal], 2)'
     error:
-      calculation: 'Perhitungan level exp salah, silakan periksa rumusnya.'
+      calculation: 'Perhitungan level exp salah.'
