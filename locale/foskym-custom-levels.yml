@@ -2,6 +2,11 @@
 # Use https://weblate.rob006.net/projects/flarum/foskym-custom-levels/id/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+fof-user-directory:
+  lib:
+    sort:
+      least_exp: '=> foskym-custom-levels.lib.integrations.user-directory.least_exp'
+      most_exp: '=> foskym-custom-levels.lib.integrations.user-directory.most_exp'
 foskym-custom-levels:
   admin:
     automoderator:
@@ -55,3 +60,8 @@ foskym-custom-levels:
       levelFormula: 'log([expTotal], 2)'
     error:
       calculation: 'Perhitungan level exp salah.'
+nodeloc-leaderboard:
+  lib:
+    sort:
+      least_exp: '=> foskym-custom-levels.lib.integrations.user-directory.least_exp'
+      most_exp: '=> foskym-custom-levels.lib.integrations.user-directory.most_exp'
