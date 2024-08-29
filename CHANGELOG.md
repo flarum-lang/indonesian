@@ -17,7 +17,9 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`clarkwinkelmann/flarum-ext-carving-contest`](https://github.com/clarkwinkelmann/flarum-ext-carving-contest)
 * [`clarkwinkelmann/flarum-ext-collapsible-posts`](https://github.com/clarkwinkelmann/flarum-ext-collapsible-posts)
+* [`clarkwinkelmann/flarum-ext-jwt-cookie-login`](https://github.com/clarkwinkelmann/flarum-ext-jwt-cookie-login)
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 * [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
 * [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
@@ -27,6 +29,7 @@ CHANGELOG
 * [`kilowhat/flarum-ext-cimaise`](https://flarum.org/extension/kilowhat/flarum-ext-cimaise)
 * [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
 * [`nearata/flarum-ext-cakeday`](https://github.com/Nearata/flarum-ext-cakeday)
+* [`v17development/flarum-support`](https://flarum.org/extension/v17development/flarum-support)
 * [`xypp/forum-quests`](https://github.com/zxy19/flarum-forum-quests)
 * [`xypp/pay-to-read`](https://github.com/zxy19/flarum-pay-to-read)
 * [`xypp/user-decoration`](https://github.com/zxy19/user-decoration)
