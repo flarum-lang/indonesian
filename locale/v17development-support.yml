@@ -236,7 +236,7 @@ v17development-flarum-support:
           title: Ditangguhkan
         open:
           description: 'Tiket ini memiliki tanggapan baru dan sedang menunggu balasan dari Anda.'
-          title: Buka
+          title: Dibuka
         pending:
           description: 'Tiket ini menunggu balasan dari pengguna.'
           description_user: 'Kami menunggu balasan dari Anda atau menandai tiket ini sebagai tiket yang telah diselesaikan.'

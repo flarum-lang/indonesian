@@ -44,7 +44,7 @@ ziven-decoration-store:
     display-name-default: 'Toko Dekorasi'
     equipment-modal-title: 'Daftar Item'
     item-already-have: 'Item sudah dibeli'
-    item-expired: 'Berhenti berlangganan'
+    item-expired: 'Tidak berlangganan'
     item-property-style-text-effect: 'Teks Pratinjau'
     item-purchase-cost: 'Biaya pembelian'
     item-purchase-date: 'Tanggal pembelian'
