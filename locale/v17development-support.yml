@@ -181,7 +181,7 @@ v17development-flarum-support:
           placeholder: 'Subjek tiket'
           title: Subjek
       load_more:
-        title: 'Muat lebih banyak tiket'
+        title: 'Memuat tiket lainnya'
       my_tickets:
         description: 'Di halaman ini Anda dapat menemukan semua tiket pribadi Anda.'
         no_tickets: 'Anda belum memiliki tiket.'

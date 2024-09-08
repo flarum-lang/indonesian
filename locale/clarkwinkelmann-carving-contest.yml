@@ -39,7 +39,7 @@ clarkwinkelmann-carving-contest:
         liked_by_text: '{count, plural, one {{users} menyukai ini.} other {{users} menyukai ini.}}'
         others_link: '=> core.ref.some_others'
         you_text: '=> core.ref.you'
-      load-more: 'Muat lebih banyak entri'
+      load-more: 'Memuat entri lainnya'
       loading: 'Memuat entri...'
       participate: Berpartisipasi
       refresh: Refresh
