@@ -52,7 +52,10 @@ foskym-custom-levels:
       round: Pembulatan
       roundDesc: 'Membulatkan exp saat melakukan perhitungan'
   forum:
+    label:
+      exp_logs: 'Log Exp'
     log:
+      exp: 'Perubahan Exp'
       load_more: 'Muat Lainnya'
       no_more: 'Tidak ada lagi'
       no_records: 'Tidak ada catatan'

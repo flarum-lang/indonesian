@@ -4,7 +4,13 @@
 
 foskym-activity-graph:
   admin:
+    permissons:
+      query-others-activity-graph: 'Query Grafik Aktivitas Lainnya'
     settings:
+      count_custom_levels_exp_logs: 'Log Level Exp Khusus (membutuhkan foskym/flarum-custom-levels)'
+      from_year_help: 'Tahun awal dari grafik aktivitas'
+      times_display_format: 'Format Tampilan Waktu'
+      times_display_format_help: 'Digunakan untuk menampilkan waktu dalam grafik aktivitas, misalnya, “times”, “[count] times”'
       tooltip_position: 'Posisi Tooltip'
       tooltip_position_options:
         bottom: Bawah
@@ -13,7 +19,12 @@ foskym-activity-graph:
         top: Atas
   forum:
     label:
+      activity_graph: 'Grafik Aktivitas'
       categories:
         comments: Komentar
+        custom_levels_exp_logs: 'Perubahan Exp'
         discussions: Diskusi
+        likes: Suka
+        username_requests_nickname: 'Permintaan Perubahan Nickname'
+        username_requests_username: 'Permintaan Perubahan Username'
       name_map: en
