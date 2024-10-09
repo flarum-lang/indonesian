@@ -237,6 +237,8 @@ core:
             title: Grup
           join_time:
             title: Bergabung
+          user_actions:
+            title: Tindakan
           user_id:
             title: ID
           username:
@@ -508,6 +510,10 @@ core:
       hidden_tooltip: Disembunyikan
     data_segment:
       label: '{label}:'
+    datetime_formats:
+      humanTimeLong: ll
+      humanTimeShort: 'D MMM'
+      scrubber: 'MMMM YYYY'
     debug_button: Debug
     dropdown:
       toggle_dropdown_accessible_label: 'Menampilkan menu dropdown'

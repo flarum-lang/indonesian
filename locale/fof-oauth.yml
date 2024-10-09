@@ -82,6 +82,7 @@ fof-oauth:
       settings:
         linked-account:
           help: 'Akun yang terhubung ini memungkinkan Anda untuk masuk ke forum menggunakan provider lain.'
+          identification-label: 'ID {provider}'
           identifier-label: 'ID {provider}'
           label: 'Akun terhubung'
           last-used-label: 'Terakhir digunakan'
