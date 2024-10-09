@@ -2,6 +2,32 @@ CHANGELOG
 =========
 
 
+1.21.0 (XXXX-XX-XX)
+-------------------
+
+**Perubahan umum**:
+
+* Memperbarui terjemahan untuk Flarum core.
+
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`foskym/flarum-activity-graph`](https://github.com/FoskyM/flarum-activity-graph)
+* [`foskym/flarum-better-user-directory`](https://github.com/FoskyM/flarum-better-user-directory)
+* [`gbcl/minecraft-oauth`](https://github.com/GBCLStudio/Flarum-MinecraftAuth)
+* [`shebaoting/repost`](https://github.com/shebaoting/Repost)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
+
+
+Semua perubahan: [1.20.0...1.21.0](https://github.com/flarum-lang/indonesian/compare/1.20.0...1.21.0).
+
+
 1.20.0 (2024-09-08)
 -------------------
 
