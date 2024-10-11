@@ -20,6 +20,7 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
 * [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
