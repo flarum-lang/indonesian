@@ -2,6 +2,11 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-geoip/id/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+fof-default-user-preferences:
+  admin:
+    settings:
+      showIPCountry: 'Tampilkan bendera negara tempat pengguna memposting'
+      showIPCountry-help: 'Hal ini didasarkan pada alamat IP mereka pada saat memposting. Bendera negara (jika diaktifkan) akan terlihat oleh semua pengguna. Pengguna admin dan moderator akan melihat alamat IP di tooltip.'
 fof-geoip:
   admin:
     settings:
@@ -21,6 +26,8 @@ fof-geoip:
       service_ipstack_description: 'Gunakan <b>https://ipstack.com</b> untuk melakukan hingga 10.000 pencarian per bulan secara gratis. Paket berbayar mencakup info tentang koneksi (ISP, organisasi) dan tingkat ancaman.'
       service_ipstack_label: IPStack
       service_label: Layanan
+      show_flag_help: 'Tanpa mengungkapkan alamat IP, tunjukkan bendera negara dari alamat IP penulis post.'
+      show_flag_label: 'Tampilkan bendera negara di setiap post'
       title: 'FriendsOfFlarum GeoIP'
   forum:
     alerts:
@@ -39,3 +46,6 @@ fof-geoip:
       threat_types: 'Jenis Ancaman'
       title: 'Informasi IP'
       zip_code: 'Kode Pos'
+    user:
+      settings:
+        ip_country: 'Tampilkan bendera negara tempat Saya memposting, berdasarkan alamat IP Saya'
