@@ -9,6 +9,8 @@ fof-default-user-preferences:
       showIPCountry-help: 'Hal ini didasarkan pada alamat IP mereka pada saat memposting. Bendera negara (jika diaktifkan) akan terlihat oleh semua pengguna. Pengguna admin dan moderator akan melihat alamat IP di tooltip.'
 fof-geoip:
   admin:
+    permissions:
+      see_country: 'Selalu tampilkan negara dari alamat IP'
     settings:
       access_key_label: 'Kunci Akses'
       quota_label: 'Kuota pencarian'
@@ -26,7 +28,7 @@ fof-geoip:
       service_ipstack_description: 'Gunakan <b>https://ipstack.com</b> untuk melakukan hingga 10.000 pencarian per bulan secara gratis. Paket berbayar mencakup info tentang koneksi (ISP, organisasi) dan tingkat ancaman.'
       service_ipstack_label: IPStack
       service_label: Layanan
-      show_flag_help: 'Tanpa mengungkapkan alamat IP, tunjukkan bendera negara dari alamat IP penulis post.'
+      show_flag_help: 'Tanpa mengungkapkan alamat IP, tampilkan bendera negara dari alamat IP penulis post, ketika pengguna memilih melalui preferensi mereka.'
       show_flag_label: 'Tampilkan bendera negara di setiap post'
       title: 'FriendsOfFlarum GeoIP'
   forum:
