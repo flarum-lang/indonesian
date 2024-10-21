@@ -13,6 +13,12 @@ fof-geoip:
       see_country: 'Selalu tampilkan negara dari alamat IP'
     settings:
       access_key_label: 'Kunci Akses'
+      general:
+        heading: 'Pengaturan Umum'
+        help: 'Pengaturan ini mengontrol perilaku umum ekstensi.'
+      providers:
+        heading: 'Layanan Pencarian IP'
+        help: 'Pilih layanan yang akan digunakan untuk pencarian IP. Beberapa layanan memiliki pembatasan layanan, jadi pastikan untuk memeriksa dokumentasi layanan untuk informasi lebih lanjut.'
       quota_label: 'Kuota pencarian'
       security_label: 'Modul Keamanan (butuh professional plus)'
       service_ipapi-pro_description: 'Gunakan <b>https://members.ip-api.com/#pricing</b>. Paket Pro memiliki penggunaan tidak terbatas.'
@@ -34,6 +40,7 @@ fof-geoip:
   forum:
     alerts:
       ip_copied: 'Alamat IP Yang Disalin'
+    copy_ip_label: 'Salin IP ke clipboard'
     map_button_label: 'Info IP'
     map_modal:
       as: ASN
