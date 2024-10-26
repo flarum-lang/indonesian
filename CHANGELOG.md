@@ -15,16 +15,26 @@ CHANGELOG
 * [`foskym/flarum-activity-graph`](https://github.com/FoskyM/flarum-activity-graph)
 * [`foskym/flarum-better-user-directory`](https://github.com/FoskyM/flarum-better-user-directory)
 * [`gbcl/minecraft-oauth`](https://github.com/GBCLStudio/Flarum-MinecraftAuth)
+* [`gbcl/oauth-logto`](https://github.com/GBCLStudio/flarum-oauth-logto)
+* [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress)
 * [`shebaoting/repost`](https://github.com/shebaoting/Repost)
+* [`xypp/flarum-answer-bounty`](https://github.com/zxy19/flarum-answer-bounty)
 
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`clarkwinkelmann/flarum-ext-username-blacklist`](https://github.com/clarkwinkelmann/flarum-ext-username-blacklist)
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
 * [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
+* [`justoverclock/flarum-ext-purify`](https://github.com/justoverclockl/flarum-ext-purify)
+* [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
+* [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
 * [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
 
 
