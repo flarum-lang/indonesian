@@ -5,9 +5,9 @@
 clarkwinkelmann-reset-preferences:
   admin:
     permissions:
-      reset: 'Mereset preferensi sendiri'
+      reset: 'Atur ulang preferensi sendiri'
   forum:
     preferences:
       confirm: 'Semua notifikasi dan preferensi Anda akan dikembalikan ke nilai default. Lanjutkan?'
-      done: 'Pengaturan ulang preferensi!'
-      reset: 'Reset semua preferensi'
+      done: 'Preferensi diatur ulang!'
+      reset: 'Atur ulang semua preferensi'
