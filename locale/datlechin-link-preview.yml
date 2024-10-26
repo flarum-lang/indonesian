@@ -6,7 +6,7 @@ datlechin-link-preview:
   admin:
     settings:
       blacklist_help: 'Masukkan daftar domain atau url yang dipisahkan dengan koma untuk dikecualikan dari pratinjau tautan.'
-      blacklist_label: 'Daftar Hitam'
+      blacklist_label: Blacklist
       blacklist_placeholder: 'contohnya facebook.com,https://domain.com/path'
       cache_time_help: 'Jumlah menit link yang dirayapi akan disimpan dalam cache sebelum diakses kembali. Atur ke 0 untuk menonaktifkan cache link. Defaultnya adalah 60 menit jika tidak diatur.'
       cache_time_label: 'Waktu Cache'

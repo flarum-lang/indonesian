@@ -19,3 +19,12 @@ fof-impersonate:
       title: 'Masuk sebagai pengguna lain'
     user_controls:
       impersonate_button: 'Masuk sebagai pengguna'
+  lib:
+    modal:
+      impersonate_username: 'Login sebagai {username}'
+      label: 'Dengan kekuatan besar datang tanggung jawab besar. Dengan melanjutkan, Anda akan menjadi {username} sampai Anda logout.'
+      placeholder_optional: '(Opsional) Berikan alasan Anda untuk beralih ke pengguna ini'
+      placeholder_required: 'Anda harus memberikan alasan Anda untuk beralih ke pengguna ini sebelum melanjutkan'
+      title: 'Login sebagai pengguna lain'
+    user_controls:
+      impersonate_button: 'Beralih sebagai pengguna lain'

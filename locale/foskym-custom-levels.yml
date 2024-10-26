@@ -74,6 +74,8 @@ foskym-custom-levels:
         post_liked: 'Post disukai'
         post_posted: 'Post dibuat'
         post_restored: 'Post dipulihkan'
+        system_clear: 'Pembersihan sistem'
+        system_refresh: 'Penyegaran sistem'
     modal:
       current: 'Saat Ini'
       submit_button: Simpan

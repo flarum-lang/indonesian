@@ -11,7 +11,10 @@ mattoid-store-invite:
       auto-review-username-help: 'Ketika peninjauan otomatis diaktifkan, sistem akan memeriksa kueri pengguna yang dimasukkan'
       calm-down-period: 'Periode jeda pengajuan'
       calm-down-period-help: 'Setelah pengajuan ditolak, tidak diperbolehkan untuk mengajukan permohonan kembali selama N hari sejak tanggal ditolaknya permohonan'
+      group: 'Daftarkan Grup Pengguna'
       group-admin-view: 'Izin audit'
+      group-blacklist-view: 'Grup daftar hitam pengguna (pengguna dalam grup ini tidak akan dapat membeli produk)'
+      group-help: 'Setelah mendaftar, pengguna secara default menjadi anggota grup pengguna'
       group-view: 'Menampilkan produk ke pengguna'
       mail: 'Template email'
       mail-help: 'Isi dari konten email'
@@ -30,8 +33,10 @@ mattoid-store-invite:
     error:
       email-exist: 'Email undangan sudah ada'
       email-inconsistency: 'Email dan informasi undangan tidak sama. Silakan gunakan email yang menerima kode undangan'
+      email-not-exist: 'Email tidak boleh kosong'
       exception: 'Tinjauan otomatis gagal [{message}]'
       invite-not-exist: 'Informasi permohonan telah ditinjau atau tidak ada. Silakan refresh halaman dan coba lagi'
+      link-not-exist: 'tautan undangan tidak boleh kosong'
       lock-resources: 'Resource saat ini terkunci. Silakan coba lagi nanti'
       review-failed: 'Anda baru saja menerima informasi permohonan yang ditolak. Silakan coba lagi setelah [{date}]'
       unaudited: 'Anda memiliki informasi permohonan yang belum disetujui dan tidak dapat melanjutkan saat ini'
@@ -58,10 +63,13 @@ mattoid-store-invite:
     item-confirm-time: 'Waktu review'
     item-confirm-user: Peninjau
     item-email: 'Email undangan'
+    item-invite-code: Undangan
+    item-pass-total-num: 'Akumulasi jumlah pengiriman yang lolos'
     item-query: 'Cari berdasarkan pengundang/penerima/email'
     item-status-adopt: diterapkan
     item-status-all: Semua
     item-status-confirm: 'Belum diaudit'
     item-status-refuse: ditolak
+    item-total-num: 'Akumulasi jumlah pengiriman'
     item-user: Pengundang
     item-username: 'Username undangan'
