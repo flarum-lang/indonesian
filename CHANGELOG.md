@@ -12,6 +12,7 @@ CHANGELOG
 
 **Menambahkan dukungan untuk ekstensi**:
 
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`foskym/flarum-activity-graph`](https://github.com/FoskyM/flarum-activity-graph)
 * [`foskym/flarum-better-user-directory`](https://github.com/FoskyM/flarum-better-user-directory)
 * [`foskym/flarum-sorts-for-user-directory`](https://github.com/FoskyM/flarum-sorts-for-user-directory)
