@@ -19,8 +19,14 @@ fof-byobu:
       delete_on_last_recipient_left_help: 'Jika diaktifkan, Diskusi Pribadi akan dihapus secara permanen dari database ketika pengguna terakhir keluar. Jika tidak, Diskusi Pribadi akan dihapus secara soft-deleted/disembunyikan.'
       enable-make-public-option: 'Aktifkan kemampuan "jadikan publik"'
       enable-make-public-option-help: 'Menambahkan kemampuan bagi mereka yang memiliki izin untuk menghapus semua penerima, menetapkan tag baru, dan membuat diskusi dapat dilihat oleh publik (sesuai dengan pengaturan visibilitas tag yang dipilih).'
+      general:
+        heading: 'Pengaturan Umum'
+        help: 'Pengaturan ini mengontrol fitur dasar byobu.'
       hide_from_all_discussions_page: 'Sembunyikan Diskusi Pribadi dari halaman "Semua Diskusi"'
       hide_from_all_discussions_page_help: 'Diskusi pribadi hanya dapat diakses dari halaman "Diskusi Pribadi" atau profil pengguna'
+      icon:
+        heading: 'Pengaturan Ikon'
+        help: 'Pengaturan ini mengontrol ikon yang digunakan oleh byobu di forum.'
       post-event-icon: 'Byobu Post Event'
   email:
     body:

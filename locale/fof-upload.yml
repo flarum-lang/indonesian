@@ -9,6 +9,13 @@ blomstra-gdpr:
         anonymize_description: 'Menghapus referensi pengguna dari file yang diupload. File-file itu sendiri tetap dapat diakses oleh pengguna yang dapat melihatnya sebelum dianonimkan.'
         delete_description: 'Menghapus semua file yang diupload oleh pengguna.'
         export_description: 'Semua file yang diupload oleh pengguna.'
+flarum-gdpr:
+  lib:
+    data:
+      uploads:
+        anonymize_description: 'Menghapus referensi pengguna dari file yang diunggah. File-file itu sendiri tetap dapat diakses oleh pengguna yang dapat melihatnya sebelum dianonimkan.'
+        delete_description: 'Menghapus semua file yang diunggah oleh pengguna.'
+        export_description: 'Semua file yang diunggah oleh pengguna.'
 fof-upload:
   admin:
     help_texts:

@@ -3,6 +3,8 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 xypp-sticky-card:
+  api:
+    already_sticky: 'Diskusi ini sudah di-sticky.'
   forum:
     already: 'Diskusi sudah diberi sticky.'
     default: Default
@@ -11,6 +13,8 @@ xypp-sticky-card:
     no-card: 'Tidak ada kartu yang dapat digunakan.'
     not-used: 'Tidak Digunakan'
     sticky-card: 'Sticky Card'
+    sticky_card_expire: 'Sticky Card {username} Kedaluwarsa'
+    sticky_card_take_effect: '{username} Menggunakan Sticky Card'
     success: 'Sukses menggunakan'
     use-sticky-card: 'Gunakan Sticky Card'
     used: 'Digunakan pada {0}'

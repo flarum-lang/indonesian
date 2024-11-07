@@ -12,7 +12,7 @@ fof-analytics:
         googleTrackingCode: 'ID Kode Pelacakan'
         optTrackingCode: 'Optimalkan Kode Pelacakan (opsional)'
         piwikAliasUrl: 'URL Alias'
-        piwikAuthToken: 'Token Otentikasi'
+        piwikAuthToken: 'Token Autentikasi'
         piwikHideAliasUrl: 'Dalam laporan "Link Keluar", sembunyikan klik ke URL alias yang dikenal'
         piwikPrependDomain: 'Menyesuaikan domain situs dengan judul halaman saat melakukan pelacakan'
         piwikSiteId: 'ID Situs'

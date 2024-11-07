@@ -7,7 +7,11 @@ foskym-activity-graph:
     permissons:
       query-others-activity-graph: 'Query Grafik Aktivitas Lainnya'
     settings:
+      count_comments: 'Jumlah Komentar'
       count_custom_levels_exp_logs: 'Log Level Exp Khusus (membutuhkan foskym/flarum-custom-levels)'
+      count_discussions: 'Jumlah Diskusi'
+      count_likes: 'Jumlah Suka (like)'
+      from_year: 'Dari Tahun'
       from_year_help: 'Tahun awal dari grafik aktivitas'
       times_display_format: 'Format Tampilan Waktu'
       times_display_format_help: 'Digunakan untuk menampilkan waktu dalam grafik aktivitas, misalnya, “times”, “[count] times”'
@@ -28,3 +32,4 @@ foskym-activity-graph:
         username_requests_nickname: 'Permintaan Perubahan Nickname'
         username_requests_username: 'Permintaan Perubahan Username'
       name_map: en
+      total_times: 'Total {total} di tahun ini'

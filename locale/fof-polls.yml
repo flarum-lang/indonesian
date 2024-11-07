@@ -20,6 +20,15 @@ fof-polls:
       allow_option_image: 'Izinkan URL gambar disediakan untuk setiap opsi polling'
       enable_global_polls: 'Aktifkan polling global'
       enable_global_polls_help: 'Polling global tidak terikat pada post tertentu, dan dapat diakses dari halaman polling tersendiri.'
+      general:
+        heading: 'Pengaturan Umum'
+        help: 'Pengaturan ini mengontrol fitur dasar ekstensi Polls.'
+      global_polls:
+        heading: 'Polling Global'
+        help: 'Pengaturan ini mengontrol fitur polling global.'
+      image:
+        heading: 'Pengaturan Gambar'
+        help: 'Pengaturan ini mengontrol pengaturan gambar untuk polling.'
       image_height: 'Ubah ukuran tinggi gambar'
       image_width: 'Ubah ukuran lebar gambar'
       max_options: 'Jumlah opsi maksimum per polling'
