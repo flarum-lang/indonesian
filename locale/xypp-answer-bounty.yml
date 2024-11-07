@@ -27,3 +27,4 @@ xypp-answer-bounty:
       submit: Kirim
       title: 'Tetapkan Hadiah'
     tip: 'Diskusi ini mencari jawaban terbaik dengan hadiah <span>{money}</span>.'
+    tip-ans: 'Hadiah Terkirim <span>{money}</span>'
