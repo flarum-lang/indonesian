@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.22.0 (XXXX-XX-XX)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
+
+
+Semua perubahan: [1.21.0...1.22.0](https://github.com/flarum-lang/indonesian/compare/1.21.0...1.22.0).
+
+
 1.21.0 (2024-11-07)
 -------------------
 
