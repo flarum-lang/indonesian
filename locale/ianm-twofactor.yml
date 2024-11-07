@@ -8,6 +8,12 @@ blomstra-gdpr:
       twofactordata:
         delete_description: 'Menghapus semua data yang terkait dengan 2FA.'
         export_description: 'Mengekspor status 2FA dan kode cadangan terenkripsi.'
+flarum-gdpr:
+  lib:
+    data:
+      twofactordata:
+        delete_description: 'Menghapus semua data yang terkait dengan 2FA.'
+        export_description: 'Mengekspor status 2FA dan kode cadangan terenkripsi.'
 ianm-twofactor:
   admin:
     edit_group:
