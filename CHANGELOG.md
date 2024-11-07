@@ -33,6 +33,7 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-username-blacklist`](https://github.com/clarkwinkelmann/flarum-ext-username-blacklist)
 * [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
 * [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
 * [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
