@@ -18,8 +18,11 @@ CHANGELOG
 * [`foskym/flarum-sorts-for-user-directory`](https://github.com/FoskyM/flarum-sorts-for-user-directory)
 * [`gbcl/minecraft-oauth`](https://github.com/GBCLStudio/Flarum-MinecraftAuth)
 * [`gbcl/oauth-logto`](https://github.com/GBCLStudio/flarum-oauth-logto)
+* [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
 * [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress)
+* [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
 * [`shebaoting/repost`](https://github.com/shebaoting/Repost)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
 * [`xypp/flarum-answer-bounty`](https://github.com/zxy19/flarum-answer-bounty)
 
 
