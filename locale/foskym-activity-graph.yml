@@ -7,10 +7,20 @@ foskym-activity-graph:
     permissons:
       query-others-activity-graph: 'Query Grafik Aktivitas Lainnya'
     settings:
+      count_achievements_achieved: 'Jumlah Achievement yang Telah Dicapai (membutuhkan malago/achievements)'
+      count_badges_assigned: 'Jumlah Badge yang Ditetapkan (membutuhkan v17development/flarum-user-badges)'
+      count_best_answer_marked: 'Jumlah Jawaban Terbaik yang Ditandai (membutuhkan fof/best-answer)'
       count_comments: 'Jumlah Komentar'
       count_custom_levels_exp_logs: 'Log Level Exp Khusus (membutuhkan foskym/flarum-custom-levels)'
       count_discussions: 'Jumlah Diskusi'
+      count_invite_user_invites: 'Jumlah Undangan Pengguna (membutuhkan xypp/flarum-invite-user)'
       count_likes: 'Jumlah Suka (like)'
+      count_polls_create_polls: 'Jumlah Polling yang Dibuat (membutuhkan fof/polls)'
+      count_polls_votes: 'Jumlah Suara Polling (membutuhkan fof/polls)'
+      count_quest_done: 'Jumlah Quest yang Telah Selesai (membutuhkan xypp/forum-quests)'
+      count_store_purchases: 'Jumlah Pembelian Toko (membutuhkan xypp/store)'
+      count_username_requests_nickname: 'Jumlah Permintaan Perubahan Nickname (membutuhkan fof/username-requests dan flarum-nicknames)'
+      count_username_requests_username: 'Jumlah Permintaan Perubahan Username (membutuhkan fof/username-requests)'
       from_year: 'Dari Tahun'
       from_year_help: 'Tahun awal dari grafik aktivitas'
       times_display_format: 'Format Tampilan Waktu'
@@ -25,10 +35,18 @@ foskym-activity-graph:
     label:
       activity_graph: 'Grafik Aktivitas'
       categories:
+        achievements_achieved: Achievement
+        badges_assigned: Badge
+        best_answer_marked: 'Jawaban Terbaik'
         comments: Komentar
         custom_levels_exp_logs: 'Perubahan Exp'
         discussions: Diskusi
+        invite_user_invites: Undangan
         likes: Suka
+        polls_create_polls: Polling
+        polls_votes: 'Suara Polling'
+        quest_done: Quest
+        store_purchases: 'Pembelian Toko'
         username_requests_nickname: 'Permintaan Perubahan Nickname'
         username_requests_username: 'Permintaan Perubahan Username'
       name_map: en
