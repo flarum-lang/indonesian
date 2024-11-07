@@ -2,6 +2,66 @@ CHANGELOG
 =========
 
 
+1.21.0 (2024-11-07)
+-------------------
+
+**Perubahan umum**:
+
+* Memperbarui terjemahan untuk Flarum core.
+
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`foskym/flarum-activity-graph`](https://github.com/FoskyM/flarum-activity-graph)
+* [`foskym/flarum-better-user-directory`](https://github.com/FoskyM/flarum-better-user-directory)
+* [`foskym/flarum-sorts-for-user-directory`](https://github.com/FoskyM/flarum-sorts-for-user-directory)
+* [`gbcl/minecraft-oauth`](https://github.com/GBCLStudio/Flarum-MinecraftAuth)
+* [`gbcl/oauth-logto`](https://github.com/GBCLStudio/flarum-oauth-logto)
+* [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
+* [`krombox/flarum-ext-oauth-wordpress`](https://github.com/krombox/flarum-ext-oauth-wordpress)
+* [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
+* [`shebaoting/repost`](https://github.com/shebaoting/Repost)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
+* [`xypp/flarum-answer-bounty`](https://github.com/zxy19/flarum-answer-bounty)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`clarkwinkelmann/flarum-ext-reset-preferences`](https://github.com/clarkwinkelmann/flarum-ext-reset-preferences)
+* [`clarkwinkelmann/flarum-ext-username-blacklist`](https://github.com/clarkwinkelmann/flarum-ext-username-blacklist)
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
+* [`ianm/boring-avatars`](https://github.com/imorland/flarum-ext-boring-avatars)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/translate`](https://flarum.org/extension/ianm/translate)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+* [`justoverclock/flarum-ext-purify`](https://github.com/justoverclockl/flarum-ext-purify)
+* [`maicol07/flarum-oidc-client`](https://flarum.org/extension/maicol07/flarum-oidc-client)
+* [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
+* [`nearata/flarum-ext-twofactor`](https://github.com/Nearata/flarum-ext-twofactor)
+* [`v17development/flarum-seo`](https://github.com/v17development/flarum-seo)
+* [`xypp/sticky-card`](https://github.com/zxy19/flarum-sticky-card)
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
+
+
+Semua perubahan: [1.20.0...1.21.0](https://github.com/flarum-lang/indonesian/compare/1.20.0...1.21.0).
+
+
 1.20.0 (2024-09-08)
 -------------------
 
