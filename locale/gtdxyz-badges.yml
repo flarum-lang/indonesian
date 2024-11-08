@@ -82,7 +82,7 @@ gtdxyz-flarum-badges:
       others_link: '+ {count} Lagi'
       received_on: 'Diterima pada {date}'
       update_earning_reason: 'Update alasan memperoleh badge'
-    badge_information: 'Informasi tentang badge'
+    badge_information: Badge
     badges_in_card:
       description: 'Anda dapat mengubah badge yang terlihat pada kartu pengguna dengan salah satu badge lainnya. Jika Anda tidak memilih salah satu, maka badge akan dipilih secara otomatis.'
       hit_limit: 'Hanya tersedia untuk <b> {limit, plural, one {<b>satu badge</b>} other {<b># badge</b>}}</b> di kartu pengguna Anda. Batalkan pilihan badge untuk memberi ruang bagi badge ini.'
@@ -90,6 +90,7 @@ gtdxyz-flarum-badges:
       select_limit: 'Anda dapat memilih {limit, plural, one {<b>satu badge</b>} other {<b># badge</b>}} untuk ditampilkan di kartu pengguna Anda.'
       title: 'Badge di kartu pengguna'
     give_badge: 'Berikan badge'
+    hidden_badges: 'Pengguna ini tidak menampilkan badge.'
     moderation:
       give_badge: 'Berikan badge'
       remove_badge: 'Hapus badge dari pengguna'
