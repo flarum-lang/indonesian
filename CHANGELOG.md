@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.22.0 (2024-11-15)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
+
+
+Semua perubahan: [1.21.0...1.22.0](https://github.com/flarum-lang/indonesian/compare/1.21.0...1.22.0).
+
+
 1.21.0 (2024-11-07)
 -------------------
 
