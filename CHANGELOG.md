@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.23.0 (XXXX-XX-XX)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl)
+
+
+Semua perubahan: [1.22.0...1.23.0](https://github.com/flarum-lang/indonesian/compare/1.22.0...1.23.0).
+
+
 1.22.0 (2024-11-15)
 -------------------
 
