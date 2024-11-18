@@ -8,6 +8,12 @@ blomstra-gdpr:
       userpolicydata:
         delete_description: 'Menghapus persetujuan pengguna terhadap persyaratan'
         export_description: 'Rincian tentang persetujuan pengguna terhadap persyaratan'
+flarum-gdpr:
+  lib:
+    data:
+      userpolicydata:
+        delete_description: 'Menghapus pernyataan persetujuan pengguna terhadap persyaratan'
+        export_description: 'Rincian tentang pernyataan persetujuan pengguna terhadap persyaratan'
 fof-terms:
   admin:
     buttons:

@@ -19,7 +19,7 @@ blomstra-s3-assets:
         help: 'Endpoint S3'
         label: Endpoint
       s3key:
-        help: 'Kunci akses S3'
+        help: bantuan
         label: Key
       s3path-style-endpoint:
         help: 'Beralih ke path-style storage'

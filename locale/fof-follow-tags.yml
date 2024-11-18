@@ -8,6 +8,12 @@ blomstra-gdpr:
       tagsubscription:
         anonymize_description: 'Menghapus langganan pengguna ke tag.'
         export_description: 'Mengekspor rincian tingkat berlangganan untuk sebuah tag, jika ada.'
+flarum-gdpr:
+  lib:
+    data:
+      tagsubscription:
+        anonymize_description: 'Menghapus langganan pengguna ke sebuah tag.'
+        export_description: 'Ekspor rincian tingkat langganan untuk sebuah tag, jika ada.'
 fof-follow-tags:
   admin:
     settings:

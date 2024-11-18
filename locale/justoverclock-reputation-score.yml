@@ -26,6 +26,7 @@ justoverclock-reputation-score:
       discussionPoints: 'Poin untuk diskusi baru yang dibuat'
       discussionPointsHelp: 'Masukkan jumlah poin yang diperoleh pengguna untuk membuat diskusi baru (mis. 0,55)'
       discussionRewardThreshold: 'Ambang batas reward jumlah diskusi'
+      discussionRewardThresholdHelp: "<p>Tuliskan jumlah diskusi minimum untuk memberikan medali kepada pengguna.</p>\n<span>\n  Setiap pengguna bisa mendapatkan 3 reward berdasarkan jumlah diskusi, jika Anda\n  menetapkan misalnya “50”, pengali internal (x1, x3, x8) akan memberikan reward\n  untuk diskusi “50”, “150”, dan “400” (masing-masing perunggu, perak, dan emas).\n</span>\n"
       flagPoints: 'Poin untuk pelaporan postingan'
       flagPointsHelp: 'Masukkan jumlah poin yang diperoleh pengguna saat melaporkan postingan'
       likePoints: 'Poin untuk Like (suka) yang diterima'
@@ -35,7 +36,9 @@ justoverclock-reputation-score:
       postPoints: 'Poin untuk postingan yang dibuat'
       postPointsHelp: 'Masukkan jumlah poin yang diperoleh pengguna saat membuat postingan baru (poin dikalikan berdasarkan panjang postingan)'
       postRewardThreshold: 'Ambang batas reward jumlah post'
+      postRewardThresholdHelp: "<p>Tuliskan jumlah post minimum untuk memberi reward kepada pengguna dengan medali.</p>\n<span>\n  Setiap pengguna bisa mendapatkan 3 reward berdasarkan jumlah postingan, jika Anda\n  menetapkan misalnya “50”, pengali internal (x1, x3, x8) akan memberikan reward tersebut\n  untuk postingan “50”, “150”, dan “400” (perunggu, perak, dan emas).\n</span>\n"
       seniorityRewardThreshold: 'Ambang batas senioritas'
+      seniorityRewardThresholdHelp: "<p>Tuliskan tahun minimum senioritas untuk memberi pengguna medali.</p>\n<span>\n  Setiap pengguna bisa mendapatkan 3 reward berdasarkan senioritasnya, jika Anda\n  menetapkan misalnya “1”, pengali internal (x1, x3, x5) akan memberikan reward\n  untuk senioritas “1”, “3”, dan “5” tahun (masing-masing untuk tingkat perunggu, perak, dan emas).\n</span>\n"
     threeYearSeniority: '3+ tahun senioritas'
   forum:
     discussionCount: 'Jumlah Diskusi'
