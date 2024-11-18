@@ -8,6 +8,17 @@ CHANGELOG
 **Menambahkan dukungan untuk ekstensi**:
 
 * [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`blomstra/s3-assets`](https://github.com/blomstra/flarum-ext-s3-assets)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
 
 
 Semua perubahan: [1.22.0...1.23.0](https://github.com/flarum-lang/indonesian/compare/1.22.0...1.23.0).
