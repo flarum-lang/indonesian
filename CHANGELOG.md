@@ -14,6 +14,8 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`blomstra/s3-assets`](https://github.com/blomstra/flarum-ext-s3-assets)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
