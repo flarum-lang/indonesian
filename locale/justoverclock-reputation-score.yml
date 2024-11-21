@@ -17,6 +17,11 @@ justoverclock-reputation-score:
     historyPostDeleted: 'Poin reputasi berkurang karena penghapusan atau penyembunyian postingan.'
     like: suka
     oneYearSeniority: '1+ tahun senioritas'
+    permission:
+      canEarnReputationForDiscussion: 'Dapat memperoleh poin reputasi dengan membuat diskusi'
+      canEarnReputationForLikes: 'Dapat memperoleh poin reputasi dengan memberi suka (like)'
+      canEarnReputationForPost: 'Dapat memperoleh poin reputasi dengan membuat post'
+      canPostWithReputation: 'Akses dengan poin reputasi minimum'
     pointsDecreased: 'Poin Menurun'
     pointsIncreased: 'Poin Meningkat'
     posts: post
@@ -33,6 +38,8 @@ justoverclock-reputation-score:
       likePointsHelp: 'Masukkan jumlah poin yang diperoleh pengguna saat menerima like (suka)'
       maxPoints: 'Poin reputasi maksimum'
       maxPointsHelp: 'Masukkan jumlah poin reputasi maksimum yang diperbolehkan, misalnya “1000”'
+      minReputationThreshold: 'Poin Reputasi Minimum untuk membuat atau berpartisipasi dalam thread'
+      minReputationThresholdHelp: 'Poin reputasi minimum untuk memungkinkan pengguna memposting atau membuat thread baru'
       postPoints: 'Poin untuk postingan yang dibuat'
       postPointsHelp: 'Masukkan jumlah poin yang diperoleh pengguna saat membuat postingan baru (poin dikalikan berdasarkan panjang postingan)'
       postRewardThreshold: 'Ambang batas reward jumlah post'

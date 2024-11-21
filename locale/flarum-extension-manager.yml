@@ -141,3 +141,13 @@ flarum-extension-manager:
       updater_title: Pembaruan
     why_not_modal:
       title: 'Mengapa Tidak Dapat Diperbarui'
+  validation:
+    attributes:
+      bearer: 'HTTP Bearer'
+      'bearer.*': 'HTTP Bearer'
+      github_oauth: 'GitHub OAuth'
+      'github_oauth.*': 'GitHub OAuth'
+      gitlab_oauth: 'GitLab OAuth'
+      'gitlab_oauth.*': 'GitLab OAuth'
+      gitlab_token: 'GitLab Token'
+      'gitlab_token.*': 'GitLab Token'
