@@ -185,7 +185,7 @@ kilowhat-cimaise:
     post-stream:
       uploaded: '{username} mengupload {count} gambar'
     upload-modal:
-      drop-file: 'atau seret dan letakkan di sini'
+      drop-file: 'atau tarik dan lepaskan di sini'
       processing: Memproses
       publishSilently: 'Publikasikan secara diam-diam'
       reload: 'Muat ulang daftar konsep'

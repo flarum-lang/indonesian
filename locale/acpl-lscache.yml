@@ -19,3 +19,5 @@ acpl-lscache:
     purge_on_discussion_update_label: 'Bersihkan URL atau cache Tag pada Pembaruan Diskusi'
     serve_stale_help: 'Jika diaktifkan, versi lama dari halaman yang disimpan dalam cache akan ditampilkan kepada pengunjung hingga salinan cache yang baru dibuat. Hal ini mengurangi beban server. Jika dinonaktifkan, halaman akan dibuat secara dinamis selama proses pembaruan cache, yang dapat meningkatkan waktu tunggu. Secara desain, opsi ini dapat menyajikan konten yang sudah kedaluwarsa. Jangan aktifkan ini jika Anda merasa hal tersebut tidak dapat diterima.'
     serve_stale_label: 'Sajikan Konten Yang Sudah Usang'
+    status_codes_cache_help: 'Tentukan kode status HTTP dan jumlah detik untuk menyimpan cache halaman tersebut, dipisahkan dengan spasi. Satu per baris.'
+    status_codes_cache_label: 'Kode Status HTTP Default Halaman TTL'

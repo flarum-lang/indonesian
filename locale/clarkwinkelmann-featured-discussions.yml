@@ -40,4 +40,4 @@ clarkwinkelmann-featured-discussions:
       drop-error: 'Link diskusi tidak valid'
       drop-here: 'Letakkan di sini untuk menjadwalkan'
       empty: 'Tidak ada diskusi'
-      help: "Seret dan letakkan diskusi di halaman atau dari jendela lain untuk mengubah jadwalnya. Untuk menghapus jadwal, gunakan menu 3-titik.\n"
+      help: "Tarik dan letakkan diskusi di halaman atau dari kotak lain untuk mengubah jadwalnya. Untuk menghapus jadwal, gunakan menu 3-titik.\n"

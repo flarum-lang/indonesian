@@ -218,7 +218,7 @@ fof-upload:
       release_to_upload: 'Lepaskan untuk mengupload'
       select_file_a11y_label: 'Pilih file "{fileName}"'
     upload-shared-file-modal:
-      dropzone: 'Seret dan letakkan file di sini atau klik untuk menelusuri'
+      dropzone: 'Tarik dan lepaskan file di sini atau klik untuk menelusuri'
       hide-from-media-gallery: 'Sembunyikan dari galeri media pengguna'
       title: 'File bersama baru'
       upload: Upload
