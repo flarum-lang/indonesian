@@ -13,14 +13,23 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`blomstra/s3-assets`](https://github.com/blomstra/flarum-ext-s3-assets)
+* [`clarkwinkelmann/flarum-ext-predefined-avatars`](https://github.com/clarkwinkelmann/flarum-ext-predefined-avatars)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
 * [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
+* [`kilowhat/flarum-ext-cimaise`](https://flarum.org/extension/kilowhat/flarum-ext-cimaise)
+* [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
+* [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload)
+* [`nodeloc/flarum-ext-my-emoji`](https://github.com/nodeloc/flarum-ext-my-emoji)
+* [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
 
 
 Semua perubahan: [1.22.0...1.23.0](https://github.com/flarum-lang/indonesian/compare/1.22.0...1.23.0).
