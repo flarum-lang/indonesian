@@ -11,12 +11,12 @@ fof-polls:
       self_post_edit: 'Mengedit *semua* polling pada postingan Anda sendiri (memerlukan izin edit postingan)'
       start: 'Memulai polling'
       start_global: 'Memulai polling global'
-      upload_images: 'Izinkan pengguna mengunggah gambar untuk polling'
+      upload_images: 'Izinkan pengguna melakukan upload gambar untuk polling'
       view_results_without_voting: 'Melihat hasil tanpa melakukan voting'
       vote: 'Memberikan vote pada polling'
     settings:
       allow_image_uploads: 'Izinkan unggahan gambar untuk polling dan pilihannya'
-      allow_image_uploads_help: 'Jika diaktifkan, pengguna akan dapat mengunggah gambar di samping memberikan URL gambar (jika diaktifkan untuk opsi, selalu diaktifkan untuk polling itu sendiri).'
+      allow_image_uploads_help: 'Jika diaktifkan, pengguna akan dapat mengupload gambar sekaligus memberikan URL gambar (jika diaktifkan untuk opsi, selalu diaktifkan untuk polling itu sendiri).'
       allow_option_image: 'Izinkan URL gambar disediakan untuk setiap opsi polling'
       enable_global_polls: 'Aktifkan polling global'
       enable_global_polls_help: 'Polling global tidak terikat pada post tertentu, dan dapat diakses dari halaman polling tersendiri.'
@@ -73,7 +73,7 @@ fof-polls:
         alt_label: 'Teks Alt Gambar'
         help: 'Upload gambar untuk ditampilkan di samping polling (opsional).'
         label: 'Gambar Polling'
-        later_help: 'Anda akan dapat mengunggah gambar setelah membuat polling.'
+        later_help: 'Anda akan dapat mengupload gambar setelah membuat polling.'
       poll_option_image:
         help: 'Upload gambar untuk ditampilkan bersama jawaban polling (opsional).'
         label: 'Gambar Jawaban Polling'

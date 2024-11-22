@@ -16,5 +16,5 @@ imgur-upload:
   forum:
     done: Selesai!
     error: Error
-    loading: Mengunggah...
+    loading: Mengupload...
     upload: 'Tekan / paste untuk upload'

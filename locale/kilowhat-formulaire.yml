@@ -351,7 +351,7 @@ kilowhat-formulaire:
         upload: Upload
     upload-editor:
       remove: 'Hapus file'
-      uploading: Mengunggah...
+      uploading: Mengupload...
   mail:
     edit: Edit
     footer: 'Dikirim dari {title}'
