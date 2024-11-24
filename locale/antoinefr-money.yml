@@ -14,19 +14,19 @@ antoinefr-money:
     permissions:
       edit_money_label: 'Mengedit money'
     settings:
-      autoremove: 'Perbarui money secara otomatis'
+      autoremove: 'Perbarui Dana secara otomatis'
       helpextensionlikes: 'Membutuhkan ekstensi <code>flarum/likes</code>'
-      moneyfordiscussion: 'Money yang diberikan untuk diskusi baru'
-      moneyforlike: 'Money yang diberikan ketika sebuah postingan disukai'
-      moneyforpost: 'Money yang diberikan untuk postingan baru'
+      moneyfordiscussion: 'Dana yang diberikan untuk diskusi baru'
+      moneyforlike: 'Dana yang diberikan ketika sebuah postingan disukai'
+      moneyforpost: 'Dana yang diberikan untuk postingan baru'
       moneyname: 'Nama money (contoh: [money] points)'
       noshowzero: 'Jangan tampilkan jika nilainya nol'
-      postminimumlength: 'Panjang postingan minimum untuk mendapatkan money (0 untuk menonaktifkan)'
+      postminimumlength: 'Panjang postingan minimum untuk mendapatkan dana (0 untuk menonaktifkan)'
       title: Pengaturan
   forum:
     modal:
       current: 'Saat ini:'
       submit_button: '=> core.ref.save_changes'
-      title: 'Money - {username}'
+      title: 'Dana {username}'
     user_controls:
       money_button: 'Edit money'
