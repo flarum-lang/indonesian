@@ -8,12 +8,15 @@ CHANGELOG
 **Menambahkan dukungan untuk ekstensi**:
 
 * [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl)
+* [`shebaoting/money`](https://github.com/shebaoting/money)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
+* [`xypp/flarum-invite-user`](https://github.com/zxy19/flarum-invite-user)
 
 
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
 * [`blomstra/s3-assets`](https://github.com/blomstra/flarum-ext-s3-assets)
 * [`clarkwinkelmann/flarum-ext-featured-discussions`](https://github.com/clarkwinkelmann/flarum-ext-featured-discussions)
