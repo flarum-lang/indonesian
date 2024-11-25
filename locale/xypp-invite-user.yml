@@ -12,7 +12,7 @@ xypp-invite-user:
         description: 'Pengguna dapat mengundang pengguna yang mengundangnya atau tidak.'
         title: 'Saling Mengundang'
       invite_new_user_only:
-        description: 'Tidak memperbolehkan mengundang pengguna yang waktu pendaftarannya lebih lama dari dirinya.'
+        description: 'Jangan izinkan mengundang pengguna yang waktu registrasinya kurang dari dirinya.'
         title: 'Izinkan Mengundang Pengguna Baru Saja'
       reward_be_invited:
         description: 'Reward untuk pengguna yang diundang (Memerlukan antoinefr/flarum-ext-money)'

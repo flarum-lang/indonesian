@@ -42,10 +42,27 @@ shebaoting-money:
     log_type_withdrawal: Penarikan
     logs_description:
       admin_updated: 'Admin memperbarui poin, jumlah perubahan sebesar {amount}.'
+      created_discussion: 'Membuat diskusi › <a href="{url}">{title}</a>'
+      created_reply: 'Membuat balasan › <a href="{url}">{title}</a>'
+      discussion_deleted: 'Menghapus diskusi › <a href="{url}">{title}</a>'
+      discussion_hidden: 'Menyembunyikan diskusi › <a href="{url}">{title}</a>'
+      discussion_restored: 'Memulihkan diskusi › <a href="{url}">{title}</a>'
+      discussion_started: 'Memulai diskusi › <a href="{url}">{title}</a>'
       extra_characters: 'Konten melebihi ambang batas sebanyak {extra_chars} karakter, {points} poin telah {action}.'
       initial_registration: 'Menerima poin awal saat pendaftaran.'
+      liked_by: 'Post disukai oleh {username} › <a href="{url}">{title}</a>'
       no_permission: 'Anda tidak memiliki izin untuk melihat catatan poin orang lain.'
+      posted_reply: 'Menanggapi sebuah diskusi › <a href="{url}">{title}</a>'
+      reply_received: 'Menerima balasan dari {username} › <a href="{url}">{title}</a>'
     logs_type:
+      discussion_deleted: 'Menghapus Diskusi'
+      discussion_hidden: 'Diskusi Disembunyikan'
+      discussion_restored: 'Pemulihan Diskusi'
+      discussion_started: 'Memulai Diskusi'
+      post_created: 'Membuat Post'
+      post_deleted: 'Menghapus Post'
+      post_hidden: 'Post Disembunyikan'
+      post_restored: 'Memulihkan Post'
       registration: 'Bonus Pendaftaran'
     modal:
       current: 'Saat ini:'
