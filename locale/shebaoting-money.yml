@@ -50,10 +50,13 @@ shebaoting-money:
       discussion_started: 'Memulai diskusi › <a href="{url}">{title}</a>'
       extra_characters: 'Konten melebihi ambang batas sebanyak {extra_chars} karakter, {points} poin telah {action}.'
       initial_registration: 'Menerima poin awal saat pendaftaran.'
+      liked: 'Menyukai postingan › <a href="{url}">{title}</a> oleh {user}'
       liked_by: 'Post disukai oleh {username} › <a href="{url}">{title}</a>'
       no_permission: 'Anda tidak memiliki izin untuk melihat catatan poin orang lain.'
       posted_reply: 'Menanggapi sebuah diskusi › <a href="{url}">{title}</a>'
       reply_received: 'Menerima balasan dari {username} › <a href="{url}">{title}</a>'
+      unliked_by: 'Postingan tidak disukai oleh {username} › <a href="{url}">{title}</a>'
+      unliked_post: 'Tidak menyukai postingan › <a href="{url}">{title}</a>'
     logs_type:
       discussion_deleted: 'Menghapus Diskusi'
       discussion_hidden: 'Diskusi Disembunyikan'

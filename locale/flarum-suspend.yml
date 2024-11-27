@@ -39,3 +39,6 @@ flarum-suspend:
       suspended_tooltip: Ditangguhkan
     user_controls:
       suspend_button: Tangguhkan
+  validation:
+    attributes:
+      suspendedUntil: 'ditangguhkan hingga'
