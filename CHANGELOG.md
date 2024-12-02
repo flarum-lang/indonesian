@@ -2,6 +2,47 @@ CHANGELOG
 =========
 
 
+1.23.0 (2024-12-02)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`irmmr/flarum-ext-rtl`](https://github.com/irmmr/flarum-ext-rtl)
+* [`shebaoting/money`](https://github.com/shebaoting/money)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
+* [`xypp/flarum-invite-user`](https://github.com/zxy19/flarum-invite-user)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`askvortsov/flarum-pwa`](https://github.com/askvortsov1/flarum-pwa)
+* [`blomstra/s3-assets`](https://github.com/blomstra/flarum-ext-s3-assets)
+* [`clarkwinkelmann/flarum-ext-external-email-validation`](https://github.com/clarkwinkelmann/flarum-ext-external-email-validation)
+* [`clarkwinkelmann/flarum-ext-featured-discussions`](https://github.com/clarkwinkelmann/flarum-ext-featured-discussions)
+* [`clarkwinkelmann/flarum-ext-predefined-avatars`](https://github.com/clarkwinkelmann/flarum-ext-predefined-avatars)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/drafts`](https://github.com/FriendsOfFlarum/drafts)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
+* [`kilowhat/flarum-ext-cimaise`](https://flarum.org/extension/kilowhat/flarum-ext-cimaise)
+* [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
+* [`matteocontrini/flarum-imgur-upload`](https://github.com/matteocontrini/flarum-imgur-upload)
+* [`nodeloc/flarum-ext-my-emoji`](https://github.com/nodeloc/flarum-ext-my-emoji)
+* [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
+
+
+Semua perubahan: [1.22.0...1.23.0](https://github.com/flarum-lang/indonesian/compare/1.22.0...1.23.0).
+
+
 1.22.0 (2024-11-15)
 -------------------
 
