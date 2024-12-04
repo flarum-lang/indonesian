@@ -53,6 +53,8 @@ ianm-translate:
         url:
           help: 'URL server LibreTranslate. Jika Anda menjalankan contoh Anda sendiri, masukkan URL di sini. Skema harus berupa `http` atau `https`.'
           label: 'URL Server'
+      multi-lang-search: 'Pencarian multi-bahasa'
+      multi-lang-search-help: 'Ketika diaktifkan, pencarian akan menyertakan semua terjemahan konten.'
       provider: 'Penyedia terjemahan'
       providers:
         heading: 'Pengaturan Penyedia Layanan Penerjemahan'
@@ -80,6 +82,9 @@ ianm-translate:
         detected-language: '{postLang}'
     manage-translations:
       button-label: 'Kelola terjemahan'
+      discussion:
+        title: 'Mengelola terjemahan judul diskusi'
+      original-language: 'Bahasa asli ({detectedLang})'
       poll:
         image-alt: 'Teks ALT gambar polling (jika ada)'
         option: 'Opsi polling {number}'
@@ -87,6 +92,8 @@ ianm-translate:
         question: 'Pertanyaan polling'
         subtitle: 'Subjudul polling'
         title: 'Mengelola terjemahan Polling'
+      post:
+        title: 'Mengelola terjemahan Post'
       save-changes: '=> core.ref.save_changes'
       translations-label: Terjemahan
     original-content:
