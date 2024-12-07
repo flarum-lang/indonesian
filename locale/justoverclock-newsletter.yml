@@ -15,3 +15,33 @@ flarum-ext-newsletter:
     prconsent: 'Persetujuan Privasi'
     submitbutton: Submit
     subscribe: 'Berlangganan buletin kami. Silakan masukkan email Anda dan tekan submit.'
+justoverclock-newsletter:
+  admin:
+    ctaText: 'Kunjungi komunitas kami'
+    emailSentErrorMessage: 'Gagal mengirim email.'
+    emailSentSuccessMessage: 'Email berhasil terkirim!'
+    emailTitle: 'Judul Buletin'
+    lastNewsletterSent: 'Buletin terakhir yang dikirim'
+    lastNewsletterSentDescription: 'judul buletin terakhir yang dikirim'
+    newsLetterOptOutFooter: 'Tidak suka dengan email ini?'
+    newsLetterOptOutFooterUnsubscribe: 'Berhenti berlangganan.'
+    newsletterCountText: 'Buletin Anda akan dikirim ke semua pelanggan di atas.'
+    noNewsletterSent: 'Tidak ada data'
+    sendEmailButtonText: 'Kirim Email ke Semua Pelanggan'
+    sendingText: Mengirim...
+    textOrHtml: 'Isi Buletin (teks atau html)'
+  forum:
+    emailNotFound: 'Pelanggan tidak ditemukan atau sudah dihapus'
+    emailRequired: 'Email diperlukan'
+    invalidEmailHint: 'Email tidak valid'
+    newsLetterDescription: 'ke buletin kami. Silakan masukkan email Anda dan tekan enter'
+    newsLetterModalTitle: 'Kebijakan pengolahan data *'
+    newsLetterTitle: Berlangganan
+    optOutPageDescription: "<p>Kami memahami bahwa preferensi dapat berubah, dan kami mohon maaf jika Anda harus berhenti berlangganan. Jika Anda tidak lagi ingin menerima\nbuletin kami, cukup klik tombol di bawah ini. Anda akan berhenti menerima pembaruan, penawaran, dan berita dari kami di masa mendatang.</p>\n<p>Kami ingin tahu apakah ada yang bisa kami lakukan untuk meningkatkan buletin kami atau jika Anda memiliki umpan balik untuk dibagikan.\nJika Anda berubah pikiran, Anda selalu dapat berlangganan kembali di masa mendatang!</p>\n<p>Terima kasih atas waktu Anda, dan kami berharap dapat terus berhubungan.</p>\n"
+    optOutPageTitle: 'Kotak masuk terasa sedikit penuh? Di sini Anda dapat memilih untuk tidak menerima buletin kami.'
+    optOutPlaceholder: 'Ketik email Anda di sini...'
+    subscribe: Berlangganan
+    subscriberDeleted: 'Pelanggan berhasil dihapus'
+    successMessage: 'Anda sekarang sudah berlangganan buletin kami!'
+    successUnsubscribedMessage: 'Anda sekarang berhenti berlangganan buletin kami!'
+    unSubscribe: 'Berhenti berlangganan'
