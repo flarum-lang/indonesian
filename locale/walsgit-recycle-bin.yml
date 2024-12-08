@@ -6,8 +6,8 @@ walsgit-recycle-bin:
   admin:
     actions: Tindakan
     bulk_actions: 'Tindakan untuk diskusi yang dipilih: '
-    bulk_delete_label: 'Menghapus diskusi yang dipilih'
-    bulk_restore_label: 'Memulihkan diskusi yang dipilih'
+    bulk_delete_label: 'Hapus diskusi yang dipilih'
+    bulk_restore_label: 'Pulihkan diskusi yang dipilih'
     created_at: 'Dibuat pada'
     delete_discussion:
       confirmation: 'Apakah Anda yakin ingin <u>menghapus secara permanen</u> diskusi ini (tidak dapat dikembalikan):'

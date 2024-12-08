@@ -30,6 +30,8 @@ justoverclock-newsletter:
     sendEmailButtonText: 'Kirim Email ke Semua Pelanggan'
     sendingText: Mengirim...
     textOrHtml: 'Isi Buletin (teks atau html)'
+    totalSubscribers: 'Jumlah pelanggan'
+    totalSubscribersCount: 'jumlah total pelanggan'
   forum:
     emailNotFound: 'Pelanggan tidak ditemukan atau sudah dihapus'
     emailRequired: 'Email diperlukan'
@@ -42,6 +44,7 @@ justoverclock-newsletter:
     optOutPlaceholder: 'Ketik email Anda di sini...'
     subscribe: Berlangganan
     subscriberDeleted: 'Pelanggan berhasil dihapus'
+    subscriberExist: 'Email ini sudah berlangganan.'
     successMessage: 'Anda sekarang sudah berlangganan buletin kami!'
     successUnsubscribedMessage: 'Anda sekarang berhenti berlangganan buletin kami!'
     unSubscribe: 'Berhenti berlangganan'
