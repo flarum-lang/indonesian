@@ -7,8 +7,10 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`ianm/translate`](https://flarum.org/extension/ianm/translate)
 * [`justoverclock/newsletter`](https://github.com/justoverclockl/newsletter)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
 
 
 Semua perubahan: [1.23.0...1.23.1](https://github.com/flarum-lang/indonesian/compare/1.23.0...1.23.1).
