@@ -49,7 +49,7 @@ walsgit-recycle-bin:
       title: 'Pulihkan diskusi'
     restore_tooltip: 'Memulihkan diskusi'
     search_help_text: 'Mencari kata-kata dalam judul serta dalam pesan diskusi'
-    search_placeholder: 'Mencari diskusi'
+    search_placeholder: 'Cari diskusi'
     title: 'Recycle Bin'
     total_hidden_discussions: 'Total diskusi yang tersembunyi'
     unknown_date: 'Tanggal tidak diketahui'

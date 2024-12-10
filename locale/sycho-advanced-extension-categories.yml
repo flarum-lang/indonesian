@@ -9,7 +9,7 @@ sycho-ace:
       enabled: Aktif
       none: A-Z
     category_selection:
-      label: 'Mengategorikan Berdasarkan'
+      label: 'Kategorikan Berdasarkan'
       options:
         availability: Ketersediaan
         default: Default

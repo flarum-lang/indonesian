@@ -59,6 +59,7 @@ fof-polls:
       edit_title: 'Edit polling'
       error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Sembunyikan vote hingga polling berakhir'
+      hide_votes_label_help: 'Pengguna yang memulai polling akan selalu dapat melihat hasil voting.'
       image_option_placeholder: 'URL Gambar (optional)'
       include_question: 'Anda harus memasukkan pertanyaan'
       max: 'Anda dapat memiliki maksimum {max} jawaban'

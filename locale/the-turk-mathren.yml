@@ -14,8 +14,8 @@ the-turk-mathren:
       bbcode_delimiters_rule_text: 'Delimiter BBCode harus disusun dengan huruf besar atau huruf kecil dan tanda hubung saja.'
       block_asciimath_delimiters_text: 'Delimiter <strong>BBCode</strong> untuk block AsciiMath expression'
       block_delimiters_text: 'Delimiter <strong>BBCode</strong> untuk block expression'
-      cdn_asciimath2tex_text: 'CDN URL untuk <strong>asciimath2tex</strong>'
-      cdn_katex_text: 'CDN URL untuk <strong>KaTeX</strong>'
+      cdn_asciimath2tex_text: 'URL CDN untuk <strong>asciimath2tex</strong>'
+      cdn_katex_text: 'URL CDN untuk <strong>KaTeX</strong>'
       cdn_options_heading: 'Parameter CDN'
       color_is_text_color_label: 'Izinkan command <code>\color</code> untuk mengambil dua argumen (colorIsTextColor)'
       delimiters_label: Delimiter
@@ -31,7 +31,7 @@ the-turk-mathren:
       java_syntax_text: 'Anda harus menulisnya menggunakan syntax JavaScript.'
       katex_options_heading: 'Parameter KaTeX'
       macros_label: Makro
-      macros_text: 'Koleksi makro khusus.'
+      macros_text: 'Kumpulan makro khusus.'
       maximum_expand_limit_text: 'Batas maksimum perluasan'
       maximum_size_text: 'Ukuran maksimum (em)'
       minimum_thickness_text: 'Ketebalan minimum (em)'
