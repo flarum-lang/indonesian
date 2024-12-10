@@ -8,11 +8,16 @@ neoncube-private-messages:
       allow_users_to_receive_email_notifications: 'Izinkan pengguna menerima pemberitahuan email saat mereka menerima pesan pribadi'
       start_label: 'Memulai percakapan pribadi'
     settings:
-      return_key: 'Tombol enter (return) akan mengirim pesan'
+      message_recipient_background_color: 'Warna khusus untuk pesan penerima'
+      message_recipient_background_color_help: .
+      return_key: 'Tombol return (enter) akan mengirim pesan'
+      return_key_help: 'Atur agar penekanan tombol return (tombol “enter”) akan mengirimkan pesan. Jika ini dinonaktifkan, menekan tombol return akan memulai baris baru, dan pengguna harus mengklik tombol “Kirim pesan” untuk mengirim pesan.'
+      show_read_receipts_help: 'Tampilkan kotak centang di samping pesan ketika penerima telah membacanya.'
   forum:
     chat:
       cant_start: 'Tidak Dapat Memulai Percakapan'
       chat_with: 'Mengobrol dengan {username}'
+      message_read: 'Pesan telah dibaca'
       messages_multiple: '{count} total pesan'
       messages_single: 'Percakapan Baru'
       read: Baca
