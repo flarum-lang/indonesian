@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.23.1 (XXXX-XX-XX)
+-------------------
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/translate`](https://flarum.org/extension/ianm/translate)
+* [`justoverclock/newsletter`](https://github.com/justoverclockl/newsletter)
+* [`sycho/flarum-advanced-extension-categories`](https://github.com/SychO9/flarum-advanced-extension-categories)
+* [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
+
+
+Semua perubahan: [1.23.0...1.23.1](https://github.com/flarum-lang/indonesian/compare/1.23.0...1.23.1).
+
+
 1.23.0 (2024-12-02)
 -------------------
 
