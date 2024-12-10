@@ -12,6 +12,7 @@ CHANGELOG
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
 * [`ianm/translate`](https://flarum.org/extension/ianm/translate)
 * [`justoverclock/newsletter`](https://github.com/justoverclockl/newsletter)
+* [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
 * [`sycho/flarum-advanced-extension-categories`](https://github.com/SychO9/flarum-advanced-extension-categories)
 * [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren)
 * [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
