@@ -7,6 +7,13 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`flarum/emoji`](https://github.com/flarum/emoji)
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
 * [`ianm/follow-users`](https://github.com/imorland/follow-users)
