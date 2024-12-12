@@ -10,9 +10,17 @@ flarum-suspend:
     no_reason_given: 'Tidak ada alasan yang diberikan untuk penangguhan ini.'
     suspended:
       body: "Hai {recipient_display_name},\n\nAnda telah ditangguhkan karena alasan berikut:\n\n---\n{suspension_message}\n---\n"
+      html:
+        body: 'Anda telah ditangguhkan dari {forumTitle} karena alasan berikut:'
+      plain:
+        body: "Anda telah ditangguhkan karena alasan berikut:\n\n---\n{suspension_message}\n---\n"
       subject: 'Akun Anda telah ditangguhkan'
     unsuspended:
       body: "Halo {recipient_display_name},\n\nAnda telah dihentikan penangguhannya. Anda dapat kembali ke forum dengan mengklik link berikut:\n\n{forum_url}\n"
+      html:
+        body: 'Anda telah dibebaskan dari penangguhan. Anda dapat kembali ke [{forumTitle}]({forum_url}) saat Anda siap.'
+      plain:
+        body: "Anda telah ditangguhkan. Anda dapat kembali ke forum dengan mengeklik link berikut:\n\n{forum_url}\n"
       subject: 'Akun Anda telah dihentikan penangguhannya'
   forum:
     notifications:

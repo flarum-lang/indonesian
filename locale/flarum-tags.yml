@@ -70,6 +70,11 @@ flarum-tags:
       meta_description_text: 'Semua diskusi dengan tag {tag}'
   lib:
     deleted_tag_text: Dihapus
+    gambits:
+      discussions:
+        tag:
+          hint: 'nama tag, atau daftar nama tag yang dipisahkan dengan koma, atau “tanpa tag”'
+          key: tag
     tag_selection_modal:
       bypass_requirements: 'Bypass persyaratan tag'
       choose_primary_placeholder: '{count, plural, one {Pilih sebuah tag primer} other {Pilih # tag primer}}'

@@ -12,12 +12,24 @@ flarum-mentions:
   email:
     group_mentioned:
       body: "Halo {recipient_display_name}!\n\n{mentioner_display_name} menyebutkan sebuah grup yang Anda ikuti di {title}.\n\n{url}\n\n---\n\n{content}\n"
+      html:
+        body: '{mentioner_display_name} menyebutkan grup tempat Anda menjadi anggotanya di [{title}]({url}).'
+      plain:
+        body: "{mentioner_display_name} menyebutkan grup tempat Anda menjadi anggotanya di {title}.\n\n{url}\n\n---\n\n{content}\n"
       subject: '{mentioner_display_name} menyebutkan grup yang Anda ikuti di {title}'
     post_mentioned:
       body: "Halo {recipient_display_name}!\n\n{replier_display_name} membalas post Anda (#{post_number}) di {title}.\n\n{url}\n\n---\n\n{content}\n"
+      html:
+        body: '{replier_display_name} membalas postingan Anda (#{post_number}) di [{title}]({url}).'
+      plain:
+        body: "{replier_display_name} membalas postingan Anda (#{post_number}) di {title}.\n\n{url}\n\n---\n\n{content}\n"
       subject: '{replier_display_name} membalas kiriman Anda di {title}'
     user_mentioned:
       body: "Halo {recipient_display_name}!\n\n{mentioner_display_name} menyebut Anda dalam sebuah postingan di {title}.\n\n{url}\n\n---\n\n{content}\n"
+      html:
+        body: '{mentioner_display_name} menyebutkan Anda dalam sebuah postingan di [{title}]({url}).'
+      plain:
+        body: "{mentioner_display_name} menyebutkan Anda dalam sebuah postingan di {title}.\n\n{url}\n\n---\n\n{content}\n"
       subject: '{mentioner_display_name} menyebutkan Anda di {title}'
   forum:
     composer:
@@ -49,3 +61,8 @@ flarum-mentions:
       notify_user_mentioned_label: 'Seseorang menyebut Saya dalam sebuah postingan'
     user:
       mentions_link: Penyebutan
+  lib:
+    gambits:
+      posts:
+        mentioned:
+          hint: 'ID atau username dari pengguna yang disebutkan'

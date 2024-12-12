@@ -27,3 +27,8 @@ flarum-likes:
       notify_post_liked_label: 'Seseorang menyukai salah satu postingan saya'
     user:
       likes_link: Suka
+  lib:
+    gambits:
+      posts:
+        likedBy:
+          hint: 'ID atau username pengguna'
