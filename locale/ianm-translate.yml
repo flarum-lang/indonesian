@@ -63,6 +63,10 @@ ianm-translate:
       readme-none: 'Tidak ada pengaturan tambahan yang diperlukan untuk driver ini.'
       seemless: 'Terjemahan Yang Mulus'
       seemless-help: 'Fitur beta. Ketika diaktifkan, semua konten pengguna akan diterjemahkan secara otomatis ke semua bahasa forum yang tersedia. Ketika pengguna melihat konten multi-bahasa, terjemahan akan ditampilkan secara otomatis.'
+      seo:
+        default-lang-help: 'Ketika diaktifkan, bahasa default forum akan ditambahkan ke dalam path untuk tag hreflang <code>x-default</code>.'
+        heading: 'Pengaturan SEO'
+        help: 'Pengaturan ini mengontrol perilaku sistem penerjemahan yang berhubungan dengan pengoptimalan mesin pencari.'
       translate-all-enabled: 'Aktifkan semua terjemahan bahasa'
       translate-all-help: 'Jika diaktifkan, pengguna admin dan orang lain yang memiliki izin dapat menerjemahkan konten ke bahasa forum yang diinstal.'
       translate-polls: 'Menerjemahkan polling'
