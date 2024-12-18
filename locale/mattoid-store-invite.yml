@@ -45,6 +45,8 @@ mattoid-store-invite:
       user-balance-low: 'Saldo pengguna tidak mencukupi'
       username-inconsistency: 'Username tidak sesuai dengan informasi undangan. Silakan lakukan pendaftaran menggunakan username yang diberikan dalam email'
     invite: 'Tinjauan undangan'
+    link: 'Tautan undangan pribadi'
+    link-2: 'Tautan Undangan 2'
     link-2-help: 'Konfirmasi informasi undangan oleh peninjau (informasi ini hanya dapat dilihat oleh peninjau dan bagian yang mengeluarkan)'
     link-help: 'Konfirmasi informasi undangan oleh peninjau (informasi ini hanya dapat dilihat oleh peninjau dan bagian yang mengeluarkan)'
     mail:
@@ -66,6 +68,8 @@ mattoid-store-invite:
     item-confirm-user: Peninjau
     item-email: 'Email undangan'
     item-invite-code: Undangan
+    item-link: 'Tautan undangan pribadi'
+    item-link-2: 'Tautan Undangan 2'
     item-pass-total-num: 'Akumulasi jumlah pengiriman yang lolos'
     item-query: 'Cari berdasarkan pengundang/penerima/email'
     item-status-adopt: diterapkan
