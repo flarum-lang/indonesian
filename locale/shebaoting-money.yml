@@ -5,6 +5,7 @@
 shebaoting-money:
   admin:
     automoderator:
+      action_name: 'Transfer money'
       metric_name: Money
     autoremove:
       - 'Jangan pernah menghapus money'
@@ -60,8 +61,11 @@ shebaoting-money:
     logs_type:
       discussion_deleted: 'Menghapus Diskusi'
       discussion_hidden: 'Diskusi Disembunyikan'
+      discussion_replied: 'Membalas Diskusi'
       discussion_restored: 'Pemulihan Diskusi'
       discussion_started: 'Memulai Diskusi'
+      liked: 'Suka Post'
+      liked_by_others: 'Post Disukai oleh Pengguna Lain'
       post_created: 'Membuat Post'
       post_deleted: 'Menghapus Post'
       post_hidden: 'Post Disembunyikan'
@@ -71,6 +75,7 @@ shebaoting-money:
       current: 'Saat ini:'
       submit_button: '=> core.ref.save_changes'
       title: 'Dana {username}'
+    no_money_logs: 'Tidak ada riwayat money yang tersedia'
     point_log:
       empty_text: 'Tidak ada catatan perubahan poin yang ditemukan.'
       link: 'Catatan Poin'
