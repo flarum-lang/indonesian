@@ -21,6 +21,7 @@ CHANGELOG
 * [`justoverclock/newsletter`](https://github.com/justoverclockl/newsletter)
 * [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
 * [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
+* [`shebaoting/money`](https://github.com/shebaoting/money)
 * [`sycho/flarum-advanced-extension-categories`](https://github.com/SychO9/flarum-advanced-extension-categories)
 * [`the-turk/flarum-mathren`](https://github.com/the-turk/flarum-mathren)
 * [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
