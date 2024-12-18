@@ -2,8 +2,14 @@ CHANGELOG
 =========
 
 
-1.23.1 (XXXX-XX-XX)
+1.24.0 (XXXX-XX-XX)
 -------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
+* [`tohsakarat/post-camera`](https://github.com/tohsakrat/post-camera)
+
 
 **Terjemahan terbaru untuk ekstensi**:
 
@@ -28,7 +34,7 @@ CHANGELOG
 * [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
 
 
-Semua perubahan: [1.23.0...1.23.1](https://github.com/flarum-lang/indonesian/compare/1.23.0...1.23.1).
+Semua perubahan: [1.23.0...1.24.0](https://github.com/flarum-lang/indonesian/compare/1.23.0...1.24.0).
 
 
 1.23.0 (2024-12-02)
