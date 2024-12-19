@@ -5,11 +5,33 @@
 huseyinfiliz-modern-footer:
   admin:
     settings:
+      about: Tentang
+      about_us: 'Tentang Kami'
+      about_us_help: 'Area Teks: Bidang ini tidak mendukung pemformatan HTML. Untuk membuat baris baru, cukup tekan tombol Enter.'
+      all_pages: 'Tampilkan di semua halaman'
+      block: Block
+      blocks: Block
+      bottom: Bawah
+      bottom_help: 'Contoh: © 2025, Semua Hak Cipta Dilindungi Undang-Undang'
+      bottom_section: 'Bagian Bawah'
       contact: 'Teks Tombol Kontak'
       contact-link: 'Link Kontak'
       copyright: 'Teks Hak Cipta'
+      custom: Khusus
+      custom_html: 'Kode HTML Khusus'
+      custom_js: 'JS Khusus'
+      custom_js_code: 'Kode JavaScript Khusus'
+      display_mode: 'Mode Tampilan Footer'
+      font_awesome_icon: 'Ikon Font Awesome'
+      forum_logo: 'Logo Forum'
+      forum_logo_help: 'Tambahkan URL untuk logo forum. Jika URL yang diberikan valid, logo akan ditampilkan. Sebagai alternatif, Anda dapat menambahkan kode seperti untuk membuatnya berperilaku seperti judul block lainnya:'
+      general: Umum
+      hide_everywhere: 'Sembunyikan di semua halaman'
+      hide_except_index: 'Sembunyikan di semua halaman kecuali halaman indeks'
+      hide_on_discussions: 'Sembunyikan di diskusi'
       js: 'JS Khusus'
       js-help: 'Contoh Kode Google Analytics'
+      link: Link
       link-1: 'Link 1 - URL'
       link-2: 'Link 2 - URL'
       link-3: 'Link 3 - URL'
@@ -18,7 +40,13 @@ huseyinfiliz-modern-footer:
       link-6: 'Link 2 - URL'
       link-7: 'Link 3 - URL'
       link-8: 'Link 4 - URL'
+      manage_footer_sections: 'Mengelola Bagian Footer'
+      mobile_tab_height: 'Tinggi Mobile Tab'
+      mobile_tab_height_help: 'Jika ekstensi Mobile Tab telah terpasang, Anda dapat menggunakan value: var(--mobile-tab-height)'
       right-text: 'Tentang Kami - Teks'
+      social_link: 'Link Sosial'
+      social_media_button: 'Tombol Media Sosial'
+      text: Teks
       text-1: 'Link 1 - Teks'
       text-2: 'Link 2 - Teks'
       text-3: 'Link 3 - Teks'
@@ -27,6 +55,7 @@ huseyinfiliz-modern-footer:
       text-6: 'Link 2 - Teks'
       text-7: 'Link 3 - Teks'
       text-8: 'Link 4 - Teks'
+      title: Judul
       title-1: 'Judul Forum'
       title-1-help: 'Anda dapat menambahkan logo Anda dengan tag <img> atau cukup tulis nama forumnya.'
       title-2: 'Judul Link Utama'
