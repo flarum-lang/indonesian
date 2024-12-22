@@ -16,8 +16,9 @@ justoverclock-related-discussions:
     deleted: Dihapus
     hasBestAnswer: Selesai
     hasBestAnswer-title: 'Diskusi ini ditandai sebagai selesai'
-    participants: Peserta
+    noRelatedFound: 'Tidak ada diskusi terkait yang ditemukan...'
+    participants: peserta
     postedOn: 'di:'
-    postnumber: 'Jumlah postingan'
+    postnumber: 'jumlah balasan'
     reldiscussion: 'Diskusi Yang Disarankan:'
-    repliedOn: membalas
+    repliedOn: 'balasan terakhir'
