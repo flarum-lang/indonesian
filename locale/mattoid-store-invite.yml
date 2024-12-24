@@ -23,6 +23,7 @@ mattoid-store-invite:
       mail-template: 'Halo [user], Kode undangan Anda adalah [code]'
       mail-title: 'Judul email'
       mail-title-help: 'Judul dari konten'
+      post-num-help: 'Jika jumlah post kurang dari nilai saat ini, halaman ulasan akan menampilkan nilai dalam warna merah'
       price: 'Pengurangan biaya'
       price-help: 'Pengurangan dana setelah disetujui'
       show-index: 'Tambahkan ke halaman depan'
@@ -68,6 +69,7 @@ mattoid-store-invite:
     item-confirm-user: Peninjau
     item-email: 'Email undangan'
     item-invite-code: Undangan
+    item-last-year-total-num: 'Jumlah pengajuan pada tahun sebelumnya'
     item-link: 'Tautan undangan pribadi'
     item-link-2: 'Tautan Undangan 2'
     item-pass-total-num: 'Akumulasi jumlah pengiriman yang lolos'
@@ -78,4 +80,5 @@ mattoid-store-invite:
     item-status-refuse: ditolak
     item-total-num: 'Akumulasi jumlah pengiriman'
     item-user: Pengundang
+    item-user-create-time: 'Waktu Bergabung Pengguna'
     item-username: 'Username undangan'
