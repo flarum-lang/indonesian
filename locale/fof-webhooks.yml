@@ -88,6 +88,8 @@ fof-webhooks:
         group_label: Grup
         max_post_content_length_help: 'Tetapkan angka untuk membatasi konten postingan di semua event yang berkaitan dengan postingan. Ubah ke 0 atau kosongkan untuk menghilangkan limit.'
         max_post_content_length_label: 'Panjang Maksimum Konten Postingan'
+        name_help: 'Nama webhook. Ini akan digunakan untuk hal-hal seperti username Discord, nama bot Slack, dsb.'
+        name_label: Nama
         title: 'Pengaturan Webhook'
         use_plain_text_label: 'Kurangi jumlah pemformatan dalam konten post'
       services:

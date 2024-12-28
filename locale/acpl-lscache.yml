@@ -11,9 +11,11 @@ acpl-lscache:
     clearing_cache_listener_label: 'Bersihkan LSCache Saat Cache Flarum Dihapus'
     drop_qs_help: "Gunakan fitur ini untuk menghapus query string tertentu, seperti <code>fbclid</code> atau <code>utm*</code>, saat melakukan penyimpanan cache. Hal ini untuk mencegah cache berlebihan pada halaman dengan query string \"sampah (junk)\" seperti kode UTM, yang digunakan untuk pelacakan namun tidak memengaruhi konten halaman. Ini membutuhkan LSWS v5.2.3 atau yang versi yang lebih baru. Buat daftar query string yang akan dihapus, satu query string per baris. <a>Pelajari lebih lanjut tentang menghapus query string</a>.<br></br>\n⚠️ Pengaturan ini akan mengubah file .htaccess.\n"
     drop_qs_label: 'Hapus Query String'
+    permissions:
+      purge: '=> acpl-lscache.ref.purge_cache'
     public_cache_ttl_help: 'Tentukan berapa lama, dalam detik, halaman publik harus disimpan dalam cache. Nilai default adalah 604800 detik ( 1 minggu).'
     public_cache_ttl_label: 'Durasi Cache Untuk Halaman Publik'
-    purge_all: 'Bersihkan Semua LSCache'
+    purge_all: '=> acpl-lscache.ref.purge_cache'
     purge_all_success: 'LiteSpeed Web Server telah diberikan instruksi untuk membersihkan semua entri LSCache'
     purge_on_discussion_update_help: 'Masukkan URL atau Tag cache yang ingin Anda hapus saat diskusi diperbarui, satu per baris. URL harus dimulai dengan <code>/</code>, misalnya <code>/rankings</code>, dan Tag cache harus diawali dengan <code>tag=</code>, misalnya <code>tag=rankings</code>. Untuk beberapa route, tambahkan aturan di .htaccess dengan regular expression yang memberikan tag pada route dan hanya memasukkan tag ini di sini akan lebih cepat. <a>Pelajari lebih lanjut</a>. Secara default, cache untuk beranda dan diskusi yang diperbarui akan dihapus.'
     purge_on_discussion_update_label: 'Bersihkan URL atau cache Tag pada Pembaruan Diskusi'
@@ -21,3 +23,11 @@ acpl-lscache:
     serve_stale_label: 'Sajikan Konten Yang Sudah Usang'
     status_codes_cache_help: 'Tentukan kode status HTTP dan jumlah detik untuk menyimpan cache halaman tersebut, dipisahkan dengan spasi. Satu per baris.'
     status_codes_cache_label: 'Kode Status HTTP Default Halaman TTL'
+  forum:
+    purge:
+      discussion: '=> acpl-lscache.ref.purge_cache'
+  lib:
+    purge_all_success: 'Memberitahukan LiteSpeed Server untuk membersihkan semua entri LSCache'
+    purge_success: 'Memberitahukan LiteSpeed Server untuk membersihkan entri LSCache'
+  ref:
+    purge_cache: 'Bersihkan LSCache'
