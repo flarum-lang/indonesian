@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.25.0 (XXXX-XX-XX)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`dalez/flarum-identityagent`](https://github.com/DellZHackintosh/flarum-identityagent)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
+
+
+Semua perubahan: [1.24.0...1.25.0](https://github.com/flarum-lang/indonesian/compare/1.24.0...1.25.0).
+
+
 1.24.0 (2025-01-01)
 -------------------
 
