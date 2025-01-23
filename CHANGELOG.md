@@ -13,6 +13,7 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 
 
 Semua perubahan: [1.24.0...1.25.0](https://github.com/flarum-lang/indonesian/compare/1.24.0...1.25.0).
