@@ -5,6 +5,7 @@
 walsgit-recycle-bin:
   admin:
     actions: Tindakan
+    author: Penulis
     bulk_actions: 'Tindakan untuk diskusi yang dipilih: '
     bulk_delete_label: 'Hapus diskusi yang dipilih'
     bulk_restore_label: 'Pulihkan diskusi yang dipilih'
@@ -14,6 +15,12 @@ walsgit-recycle-bin:
       delete_button: 'Hapus diskusi ini selamanya'
       success: 'Berhasil menghapus diskusi'
       title: 'Hapus selamanya'
+    delete_post:
+      confirmation: 'Apakah Anda yakin ingin <u>menghapus</u> postingan ini secara permanen (tidak dapat dipulihkan):'
+      delete_button: 'Hapus post ini'
+      success: 'Berhasil menghapus post'
+      title: 'Hapus permanen'
+    delete_post_tooltip: 'Menghapus post'
     delete_tooltip: 'Menghapus diskusi'
     discussion_author: Penulis
     discussion_id: ID
@@ -35,6 +42,12 @@ walsgit-recycle-bin:
       text_end: ' diskusi yang dipilih?'
       text_start: 'Apakah Anda yakin ingin melakukan pemulihan ini '
       title: 'Memulihkan diskusi yang dipilih'
+    mass_restore_post_modal:
+      submit_button: 'Pulihkan post ini'
+      success: 'Berhasil memulihkan post yang dipilih'
+      text_end: ' post yang dipilih?'
+      text_start: 'Apakah kamu yakin ingin memulihkan ini '
+      title: 'Pulihkan post yang dipilih'
     pagination:
       back_button: 'Kembali ke halaman sebelumnya'
       first_page_button: 'Pergi ke halaman pertama'
@@ -47,10 +60,17 @@ walsgit-recycle-bin:
       restore_button: 'Pulihkan diskusi ini'
       success: 'Berhasil memulihkan diskusi'
       title: 'Pulihkan diskusi'
+    restore_post:
+      confirmation: 'Apakah Anda yakin ingin memulihkan postingan ini dari diskusi '
+      restore_button: 'Pulihkan post ini'
+      success: 'Mencari post'
+    restore_post_tooltip: 'Memulihkan post'
     restore_tooltip: 'Memulihkan diskusi'
     search_help_text: 'Mencari kata-kata dalam judul serta dalam pesan diskusi'
     search_placeholder: 'Cari diskusi'
+    search_post_help_text: 'Mencari kata di post yang tersembunyi'
     title: 'Recycle Bin'
     total_hidden_discussions: 'Total diskusi yang tersembunyi'
+    total_hidden_posts: 'Total post tersembunyi'
     unknown_date: 'Tanggal tidak diketahui'
     unknownn_user: 'Pengguna tidak dikenal'
