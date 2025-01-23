@@ -99,6 +99,7 @@ fof-polls:
       cannot_start_poll_button: 'Tidak Dapat Memulai Polling'
       start_poll_button: 'Mulai Polling Global'
       submit_button: Vote
+      total_votes: '{count, plural, one {# voting telah diberikan} other {# voting telah diberikan}}'
     poll_controls:
       delete_confirmation: 'Apakah Anda yakin ingin menghapus polling ini?'
       delete_error_message: 'Terjadi kesalahan saat menghapus polling.'
