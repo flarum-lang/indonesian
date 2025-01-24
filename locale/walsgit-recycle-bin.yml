@@ -8,6 +8,9 @@ walsgit-recycle-bin:
     author: Penulis
     bulk_actions: 'Tindakan untuk diskusi yang dipilih: '
     bulk_delete_label: 'Hapus diskusi yang dipilih'
+    bulk_post_actions: 'Tindakan untuk post yang dipilih : '
+    bulk_post_delete_label: 'Hapus post yang dipilih'
+    bulk_post_restore_label: 'Pulihkan post yang dipilih'
     bulk_restore_label: 'Pulihkan diskusi yang dipilih'
     created_at: 'Dibuat pada'
     delete_discussion:
@@ -27,6 +30,8 @@ walsgit-recycle-bin:
     discussion_link_tooltip: 'Lihat diskusi'
     discussion_title: 'Judul Diskusi'
     empty_list: 'Tidak ada diskusi di recycle bin.'
+    grid:
+      invalid_column_content: 'Konten tidak valid!'
     hidden_at: 'Disembunyikan pada'
     hidden_discussions: 'Diskusi tersembunyi'
     mass_delete_modal:
@@ -35,6 +40,12 @@ walsgit-recycle-bin:
       text_end: ' diskusi yang dipilih?'
       text_start: 'Apakah Anda yakin ingin <u>menghapus secara permanen</u> '
       title: 'Menghapus diskusi ini selamanya'
+    mass_delete_post_modal:
+      submit_button: 'Hapus post ini selamanya'
+      success: 'Berhasil menghapus post yang dipilih'
+      text_end: ' post yang dipilih?'
+      text_start: 'Apakah Anda yakin ingin <u>menghapus</u> ini selamanya '
+      title: 'Hapus post ini selamanya'
     mass_help_text: 'Harap tunggu penyegaran halaman setelah mengonfirmasi pemulihan atau penghapusan massal'
     mass_restore_modal:
       submit_button: 'Pulihkan diskusi ini'
@@ -55,6 +66,8 @@ walsgit-recycle-bin:
       last_page_button: 'Buka halaman terakhir'
       next_button: 'Buka halaman berikutnya'
       page_counter: 'Halaman {current} dari {total}'
+    post:
+      id: ID
     restore_discussion:
       confirmation: 'Apakah Anda yakin ingin memulihkan diskusi ini:'
       restore_button: 'Pulihkan diskusi ini'
@@ -64,11 +77,13 @@ walsgit-recycle-bin:
       confirmation: 'Apakah Anda yakin ingin memulihkan postingan ini dari diskusi '
       restore_button: 'Pulihkan post ini'
       success: 'Mencari post'
+      title: 'Pulihkan post'
     restore_post_tooltip: 'Memulihkan post'
     restore_tooltip: 'Memulihkan diskusi'
     search_help_text: 'Mencari kata-kata dalam judul serta dalam pesan diskusi'
     search_placeholder: 'Cari diskusi'
     search_post_help_text: 'Mencari kata di post yang tersembunyi'
+    search_post_placeholder: 'Cari post'
     title: 'Recycle Bin'
     total_hidden_discussions: 'Total diskusi yang tersembunyi'
     total_hidden_posts: 'Total post tersembunyi'
