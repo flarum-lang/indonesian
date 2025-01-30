@@ -5,6 +5,7 @@
 clarkwinkelmann-emojionearea:
   admin:
     settings:
+      closeOnPick: 'Tutup picker saat emoji dipilih'
       enableRecent: 'Aktifkan yang terbaru'
       enableSearch: 'Aktifkan pencarian'
       enableTones: 'Aktifkan tone'
@@ -12,5 +13,11 @@ clarkwinkelmann-emojionearea:
       hideFlarumButton: 'Sembunyikan tombol emoji picker Flarum'
       searchPosition: 'Pindahkan pencarian dan tone ke bagian bawah'
   forum:
+    filters:
+      activity: Aktivitas
+      flags: Bendera
+      food_drink: 'Makanan & Minuman'
+      objects: Objek
+      symbols: Simbol
     picker_button: 'Emoji Picker'
     search_placeholder: Cari...
