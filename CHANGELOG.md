@@ -13,10 +13,27 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
+* [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
+* [`cadiducho/bbcode`](https://github.com/EdorasMinecraft/BBcode)
 * [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
+* [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
+* [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read)
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
+* [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
+* [`justoverclock/frontend-blog`](https://flarum.org/extension/justoverclock/frontend-blog)
+* [`kilowhat/flarum-ext-audit-free`](https://github.com/kilowhat/flarum-ext-audit-free)
+* [`kilowhat/flarum-ext-audit-pro`](https://flarum.org/extension/kilowhat/flarum-ext-audit-pro)
+* [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
+* [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress)
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 * [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
+* [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
 
 
 Semua perubahan: [1.24.0...1.25.0](https://github.com/flarum-lang/indonesian/compare/1.24.0...1.25.0).
