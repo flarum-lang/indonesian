@@ -208,7 +208,7 @@ kilowhat-wordpress:
     summary-post:
       blog_link: 'Baca di blog'
       head_label: 'Post WordPress'
-      read_more: 'Baca lebih lanjut'
+      read_more: 'Baca selengkapnya'
     thumbnail_alt_fallback: 'Thumbnail postingan WordPress'
     welcome-modal:
       default_message: 'Selamat datang di forum. Pilih username dan Anda siap untuk memulai!'

@@ -16,7 +16,7 @@ foskym-custom-levels:
     automoderator:
       action_name: 'Berikan Exp'
       metric_name: Exp
-    go_to_forum_quests: 'Pengaturan lebih lanjut di Forum Quest'
+    go_to_forum_quests: 'Pengaturan lainnya di Forum Quests'
     levels:
       add_button: 'Tambah Level'
       delete_confirmation: 'Konfirmasi untuk menghapus level ini?'

@@ -11,7 +11,7 @@ clarkwinkelmann-who-read:
       see-unread: 'Melihat status yang belum dibaca dari pengguna lain'
     settings:
       hide-when-behind: 'Sembunyikan pengguna sepenuhnya jika mereka berada di balik banyaknya postingan'
-      max-visible: 'Jumlah maksimum pengguna yang akan ditampilkan sebelum "baca selengkapnya"'
+      max-visible: 'Jumlah maksimum pengguna yang akan ditampilkan sebelum teks "baca selengkapnya"'
       only-groups: 'Hanya tampilkan status baca dari pengguna yang termasuk dalam grup tersebut'
       show-between-posts: 'Tampilkan status sudah dibaca di antara postingan'
       show-count-of-readers-who-stopped: 'Tampilkan jumlah pengguna yang berhenti membaca, bukan total baca di antara post'
@@ -38,7 +38,7 @@ clarkwinkelmann-who-read:
       up-to-this-post: 'Pengguna yang membaca hingga ke post ini'
     more:
       info: 'Dan {count} lainnya'
-      show: 'Tampilkan {count} lagi'
+      show: 'Tampilkan {count} lainnya'
     tooltip:
       last-read-at: '{username} membaca {ago}'
       last-read-at-behind: '{username} terakhir membaca {ago} dan tertinggal'

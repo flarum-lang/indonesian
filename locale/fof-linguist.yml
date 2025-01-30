@@ -11,7 +11,7 @@ fof-linguist:
       delete-all-confirm: "Ini akan menghapus SEMUA dari {count} terjemahan khusus Anda. Pastikan Anda telah mengekspor atau mem-backup semua yang mungkin ingin Anda simpan.\n"
       delete-redundant: 'Hapus terjemahan yang tidak perlu'
       delete-redundant-confirm: "Ini akan menghapus {count} terjemahan yang memiliki nilai asli dan nilai khusus yang sama. Ini dapat berguna untuk membersihkan setelah pembaruan paket bahasa.\n"
-      load-more: 'Muat Lainnya'
+      load-more: 'Muat lainnya'
       reset: 'Kembali ke asli'
     clear-cache:
       button: 'Hapus cache'

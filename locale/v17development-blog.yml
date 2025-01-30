@@ -80,7 +80,7 @@ v17development-flarum-blog:
     forum_nav: 'Navigasi Forum'
     hidden: Tersembunyi
     no_more_posts: 'Tidak ada lagi artikel blog.'
-    read_more: 'Baca lebih lanjut'
+    read_more: 'Baca selengkapnya'
     recent_posts: 'Artikel blog terbaru'
     return_to_overview: 'Kembali ke ikhtisar blog '
     review_article:

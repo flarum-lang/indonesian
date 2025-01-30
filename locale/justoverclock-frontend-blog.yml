@@ -22,7 +22,7 @@ justoverclock-frontend-blog:
     menuButton: Menu
     post: '{count, plural, one {# POST} other {# POST}}'
     postedOn: ' Diposting pada: '
-    readMore: 'Baca Lebih Lanjut'
+    readMore: 'Baca Selengkapnya'
     recentDiscussions: 'Diskusi Terbaru:'
     signupButton: Daftar
     stickyTitle: 'Diskusi Yang Disematkan'

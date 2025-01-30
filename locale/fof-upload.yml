@@ -212,7 +212,7 @@ fof-upload:
         show_confirmation: 'Apakah Anda yakin ingin menjadikan "{fileName}" publik? Menjadikan file publik akan membuatnya dapat diakses oleh siapa saja yang memiliki URL publik dan siapa saja dapat membagikannya menggunakan pengelola media.'
         show_fail: 'Tidak dapat membuat file "{fileName}" menjadi publik'
         show_success: 'File tersedia untuk umum'
-      load_more_files_btn: 'Muat lebih banyak file'
+      load_more_files_btn: 'Memuat file lainnya'
       loading: 'Memuat file...'
       modal_empty_desktop: 'Daftar file Anda kosong. Klik tombol atau tarik file ke sini untuk mengupload.'
       modal_empty_phone: 'Daftar file Anda kosong. Klik tombol di atas untuk mengupload file.'

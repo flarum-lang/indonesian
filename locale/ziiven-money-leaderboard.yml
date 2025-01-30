@@ -16,7 +16,7 @@ ziven-money-leaderboard:
       leaderboard-icon: 'Ikon leaderboard'
       leaderboard-icon-help: 'Masukkan nama kelas ikon FontAwesome apa pun, termasuk prefiks <code>fas fa-</code>.'
       leaderboard-init-load-count: 'Jumlah beban awal'
-      leaderboard-load-more-count: 'Muat lebih banyak hitungan'
+      leaderboard-load-more-count: 'Memuat hitungan lainnya'
       leaderboard-max-load-count: 'Jumlah beban maks'
       leaderboard-slug: Slug
   forum:
