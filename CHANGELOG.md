@@ -13,6 +13,7 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
+* [`clarkwinkelmann/flarum-ext-emojionearea`](https://github.com/clarkwinkelmann/flarum-ext-emojionearea)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/webhooks`](https://github.com/FriendsOfFlarum/webhooks)
 * [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
