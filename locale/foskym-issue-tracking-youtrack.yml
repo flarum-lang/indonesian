@@ -11,7 +11,7 @@ foskym-issue-tracking-youtrack:
       project_help: 'ID project yang ingin Anda lacak. Anda dapat menemukannya di URL halaman project.'
       project_label: 'YouTrack - ID Project'
       resolved_state_help: "Nilai kolom status yang merepresentasikan issue yang telah diselesaikan.\nContoh: Selesai| Diperbaiki| Teratasi\n"
-      resolved_state_label: 'Keadaan Terselesaikan'
+      resolved_state_label: 'Status Selesai'
       state_field_help: "Nama kolom di project YouTrack Anda yang merepresentasikan status issue.\nIni akan digunakan untuk menentukan kemajuan dari sebuah issue.\nVariabel [Resolved_State] akan diganti dengan nilai dari kolom Status Selesai.\nContoh: Diserahkan, Dibuka, Dibuka kembali, Untuk didiskusikan, Sedang dalam proses, [Resolved_State]\n"
       state_field_label: 'Kolom status'
       token_help: 'Token permanen untuk API YouTrack. Anda dapat membuatnya di pengaturan profil YouTrack Anda.'
