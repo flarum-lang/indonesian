@@ -8,6 +8,8 @@ CHANGELOG
 **Menambahkan dukungan untuk ekstensi**:
 
 * [`dalez/flarum-identityagent`](https://github.com/DellZHackintosh/flarum-identityagent)
+* [`justoverclock/profile-stories`](https://github.com/justoverclockl/profile-stories)
+* [`ramon/colored`](https://github.com/ram0ng1/colored)
 
 
 **Terjemahan terbaru untuk ekstensi**:
@@ -19,10 +21,13 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
 * [`clarkwinkelmann/flarum-ext-who-read`](https://github.com/clarkwinkelmann/flarum-ext-who-read)
 * [`datitisev/flarum-maintenance`](https://flarum.org/extension/datitisev/flarum-maintenance)
+* [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content)
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
 * [`flarum/mentions`](https://github.com/flarum/mentions)
 * [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
 * [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
@@ -36,9 +41,14 @@ CHANGELOG
 * [`kilowhat/flarum-ext-cimaise`](https://flarum.org/extension/kilowhat/flarum-ext-cimaise)
 * [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
 * [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress)
+* [`nearata/flarum-ext-dsts`](https://github.com/Nearata/flarum-ext-dsts)
+* [`nearata/flarum-ext-maintenance-mode`](https://github.com/Nearata/flarum-ext-maintenance-mode)
+* [`ordinaryjellyfish/automod`](https://flarum.org/extension/ordinaryjellyfish/automod)
 * [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
 * [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
+* [`xypp/pay-to-read`](https://github.com/zxy19/flarum-pay-to-read)
 * [`ziiven/flarum-money-leaderboard`](https://github.com/Ziiven/flarum-money-leaderboard)
+* [`ziiven/flarum-pay-to-see`](https://flarum.org/extension/ziiven/flarum-pay-to-see)
 
 
 Semua perubahan: [1.24.0...1.25.0](https://github.com/flarum-lang/indonesian/compare/1.24.0...1.25.0).
