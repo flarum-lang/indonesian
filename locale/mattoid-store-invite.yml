@@ -30,6 +30,7 @@ mattoid-store-invite:
       show-index-help: 'Menampilkan menu ulasan di halaman depan'
   forum:
     confirm-adopt: konfirmasi
+    confirm-invite-price: 'Harga Kirim Undangan'
     confirm-refuse: tolak
     email: 'Email undangan'
     email-help: 'Email penerima undangan akan dihubungkan ke email yang terdaftar di forum.'

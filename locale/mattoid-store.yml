@@ -26,11 +26,13 @@ mattoid-store:
       goods-item-delete: 'Apakah Anda yakin ingin menghapus item ini?'
       goods-item-status-0: 'Apakah Anda yakin ingin mencantumkan item ini？'
       goods-item-status-1: 'Apakah Anda yakin ingin menghapus item ini dari rak?'
+      goods-outtime: 'Masa Berlaku'
       goods-price: Harga
       goods-repeat: 'Izinkan barang duplikat'
       goods-status: Status
       goods-stock: Stok
       goods-title: Judul
+      goods-type: 'Jenis Pembelian'
       goods-upload-button: Upload
       group-view: 'Izinkan grup pengguna untuk mengakses toko'
       show-icon-button: Galeri

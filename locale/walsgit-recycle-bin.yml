@@ -20,7 +20,7 @@ walsgit-recycle-bin:
       title: 'Hapus selamanya'
     delete_post:
       confirmation: 'Apakah Anda yakin ingin <u>menghapus</u> postingan ini secara permanen (tidak dapat dipulihkan):'
-      delete_button: 'Hapus post ini'
+      delete_button: 'Hapus post ini selamanya'
       success: 'Berhasil menghapus post'
       title: 'Hapus permanen'
     delete_post_tooltip: 'Menghapus post'
@@ -68,6 +68,8 @@ walsgit-recycle-bin:
       page_counter: 'Halaman {current} dari {total}'
     post:
       id: ID
+      open_post: Buka
+      title: Teks
     restore_discussion:
       confirmation: 'Apakah Anda yakin ingin memulihkan diskusi ini:'
       restore_button: 'Pulihkan diskusi ini'
