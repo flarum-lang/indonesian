@@ -12,11 +12,11 @@ datitisev-maintenance:
       disable_maintenance_mode_button: 'Nonaktifkan Mode Pemeliharaan'
       enable_maintenance_mode_button: 'Aktifkan Mode Pemeliharaan'
     permissions:
-      allow_bypass_maintenance_label: 'Bypass mode pemeliharaan (pengaturan harus diaktifkan)'
+      allow_bypass_maintenance_label: 'Mengabaikan mode pemeliharaan (pengaturan harus aktif)'
     settings:
       active_label: 'Mode pemeliharaan'
-      allow_bypass_hint: 'Tidak akan melakukan bypass jika DB tidak dapat diakses. Berlaku untuk forum & API (kecuali API dinonaktifkan sepenuhnya melalui <code>config.php</code>). Jika dinonaktifkan, admin akan tetap dapat mengakses API (kecuali API dinonaktifkan sepenuhnya) untuk mencegah Anda terkunci.'
-      allow_bypass_label: 'Izinkan bypass pemeliharaan forum & API menggunakan perizinan'
+      allow_bypass_hint: 'Tidak akan berfungsi jika database tidak dapat diakses. Berlaku untuk forum & API (kecuali API dinonaktifkan sepenuhnya melalui <code>config.php</code>). Jika dinonaktifkan, admin tetap dapat mengakses API (kecuali API dinonaktifkan sepenuhnya) untuk mencegah penguncian akses.'
+      allow_bypass_label: 'Izinkan pengabaian pemeliharaan forum & API dengan izin'
       disable_admin_label: 'Nonaktifkan akses admin'
       disable_api_label: 'Matikan semua akses API'
       error_page_file_hint: 'Lokasi dari Flarum root - tempat <code>vendor</code> dan <code>penyimpanan</code> berada.'
@@ -24,9 +24,9 @@ datitisev-maintenance:
       error_page_hint: 'Anda dapat menggunakan $app, $translator, $settings, $title, dan $message dengan blade.'
       error_page_label: 'Halaman Error HTML/Blade'
       message_label: 'Pesan Halaman Error'
-      prefer_db_hint: 'Biasanya, value dalam <code>config.php</code> akan menggantikan value yang terlihat di sini. Aktifkan opsi ini untuk membuat opsi-opsi ini mengesampingkan opsi-opsi yang ada di dalam file konfigurasi - jadi opsi-opsi tersebut hanya digunakan jika DB tidak dapat diakses.'
+      prefer_db_hint: 'Pada umumnya, value dalam <code>config.php</code> akan menimpa value yang ditampilkan di sini. Aktifkan opsi ini untuk membuat opsi-opsi ini mengesampingkan opsi-opsi yang ada di dalam file konfigurasi - sehingga hanya digunakan apabila database tidak dapat diakses.'
       prefer_db_label: 'Lebih mengutamakan pengaturan DB daripada pengaturan yang ada di <code>config.php</code>'
-      settings_notice: 'Pengaturan ini mungkin bukan merupakan pengaturan saat ini. Pastikan pengaturan tersebut tidak ditimpa oleh file <code>config.php</code>.'
+      settings_notice: 'Pengaturan ini mungkin tidak sesuai dengan yang saat ini. Pastikan pengaturan tersebut tidak ditimpa oleh file <code>config.php</code>.'
       title: 'Mode Pemeliharaan'
       title_label: 'Judul Halaman Error'
   lib:

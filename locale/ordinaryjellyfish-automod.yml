@@ -5,7 +5,7 @@
 ordinaryjellyfish-automod:
   admin:
     permissions:
-      bypass: 'Bypass filter otomatis'
+      bypass: 'Melewati filter otomatis'
     settings:
       filter_enable: 'Aktifkan Filter Siap Pakai'
       filter_help: 'Ini adalah filter yang Saya buat secara pribadi untuk membantu menjaga keamanan forum Anda. Filter yang diaktifkan akan menandai secara otomatis seperti halnya kategori moderasi.'

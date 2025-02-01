@@ -5,19 +5,24 @@
 clarkwinkelmann-emojionearea:
   admin:
     settings:
-      closeOnPick: 'Tutup picker saat emoji dipilih'
+      closeOnPick: 'Tutup kotak pemilihan emoji saat emoji dipilih'
       enableRecent: 'Aktifkan yang terbaru'
       enableSearch: 'Aktifkan pencarian'
       enableTones: 'Aktifkan tone'
       filtersPosition: 'Pindahkan kategori ke bagian bawah'
-      hideFlarumButton: 'Sembunyikan tombol emoji picker Flarum'
+      hideFlarumButton: 'Sembunyikan tombol kotak pemilihan emoji Flarum'
       searchPosition: 'Pindahkan pencarian dan tone ke bagian bawah'
   forum:
     filters:
       activity: Aktivitas
+      animals_nature: 'Hewan & Alam'
       flags: Bendera
       food_drink: 'Makanan & Minuman'
       objects: Objek
+      recent: Terbaru
+      smileys_people: 'Senyum & Manusia'
       symbols: Simbol
+      tones: Keragaman
+      travel_places: 'Perjalanan & Tempat wisata'
     picker_button: 'Emoji Picker'
     search_placeholder: Cari...

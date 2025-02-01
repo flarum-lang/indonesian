@@ -28,7 +28,7 @@ fof-filter:
       desc: 'Filter post dengan kata-kata'
       text: Filter
     permission:
-      bypass_filter_label: 'Bypass filter kata'
+      bypass_filter_label: 'Mengabaikan filter kata'
     title: Filter
   forum:
     flag_message: 'Mengandung string yang diblokir'
