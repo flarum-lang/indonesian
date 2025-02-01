@@ -4,8 +4,10 @@
 
 colored:
   admin:
+    donate: 'Dukung ekstensi ini'
     settings:
       custom_css_help: 'Tambahkan CSS yang ingin Anda terapkan di sini.'
+      custom_css_label: 'CSS Khusus'
       elements:
         alerts_description: 'Menambahkan garis berwarna pada notifikasi sistem'
         alerts_help: 'Aktifkan pewarnaan untuk peringatan.'
@@ -13,6 +15,11 @@ colored:
         button_description: 'Memberi warna pada elemen utama, contohnya tombol, link, dan item menu'
         button_help: 'Aktifkan pewarnaan pada elemen utama'
         button_label: 'Item Utama'
+        composer_description: 'Menerapkan warna pada latar belakang editor teks'
+        composer_help: 'Aktifkan pewarnaan untuk editor postingan.'
+        composer_label: 'Editor Teks'
+        custom_help: 'Aktifkan penggunaan CSS khusus.'
+        custom_label: 'CSS Khusus'
         dropdown_description: 'Menerapkan warna pada latar belakang menu dropdown'
         dropdown_help: 'Aktifkan pewarnaan untuk menu dropdown.'
         dropdown_label: 'Menu Dropdown'
@@ -31,12 +38,14 @@ colored:
         usercard_description: 'Menambahkan garis berwarna pada kartu pengguna'
         usercard_help: 'Aktifkan pewarnaan untuk kartu pengguna.'
         usercard_label: 'Kartu Pengguna'
+      tag_mode_custom: Khusus
       tag_mode_first: 'Tag Pertama'
       tag_mode_label: 'Mode Warna Tag'
       tag_mode_second: 'Tag Kedua'
       tag_position_help: 'Pilih posisi tag untuk penyesuaian.'
       tag_position_label: 'Posisi Tag'
       transition_custom_help: 'Masukkan waktu transisi dalam hitungan detik (misalnya 0,7)'
+      transition_custom_label: 'Kecepatan Khusus'
       transition_delay_help: 'Pilih kecepatan transisi warna'
       transition_delay_label: 'Kecepatan Animasi'
       transition_speeds:
