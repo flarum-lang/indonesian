@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.25.1 (XXXX-XX-XX)
+-------------------
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+
+
+Semua perubahan: [1.25.0...1.25.1](https://github.com/flarum-lang/indonesian/compare/1.25.0...1.25.1).
+
+
 1.25.0 (2025-02-05)
 -------------------
 
