@@ -2,15 +2,20 @@ CHANGELOG
 =========
 
 
-1.25.1 (XXXX-XX-XX)
+1.26.0 (XXXX-XX-XX)
 -------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile)
+
 
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 
 
-Semua perubahan: [1.25.0...1.25.1](https://github.com/flarum-lang/indonesian/compare/1.25.0...1.25.1).
+Semua perubahan: [1.25.0...1.26.0](https://github.com/flarum-lang/indonesian/compare/1.25.0...1.26.0).
 
 
 1.25.0 (2025-02-05)
