@@ -13,6 +13,8 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 
 
 Semua perubahan: [1.25.0...1.26.0](https://github.com/flarum-lang/indonesian/compare/1.25.0...1.26.0).
