@@ -8,6 +8,7 @@ CHANGELOG
 **Menambahkan dukungan untuk ekstensi**:
 
 * [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile)
+* [`ordinaryjellyfish/flarum-dicebear`](https://github.com/OrdinaryJellyfish/flarum-dicebear)
 
 
 **Terjemahan terbaru untuk ekstensi**:
@@ -15,6 +16,7 @@ CHANGELOG
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
 
 
 Semua perubahan: [1.25.0...1.26.0](https://github.com/flarum-lang/indonesian/compare/1.25.0...1.26.0).
