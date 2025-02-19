@@ -68,17 +68,24 @@ mattoid-store-invite:
     item-confirm-status: 'Status review'
     item-confirm-time: 'Waktu review'
     item-confirm-user: Peninjau
+    item-create-time: 'Tanggal Pembuatan'
     item-email: 'Email undangan'
     item-invite-code: Undangan
+    item-last-year-pass-num: 'Jumlah yang Lolos di Tahun Lalu'
+    item-last-year-reject-num: 'Jumlah yang Ditolak di Tahun Lalu'
     item-last-year-total-num: 'Jumlah pengajuan pada tahun sebelumnya'
     item-link: 'Tautan undangan pribadi'
     item-link-2: 'Tautan Undangan 2'
     item-pass-total-num: 'Akumulasi jumlah pengiriman yang lolos'
     item-query: 'Cari berdasarkan pengundang/penerima/email'
+    item-reject-total-num: 'Akumulasi jumlah yang ditolak'
     item-status-adopt: diterapkan
     item-status-all: Semua
     item-status-confirm: 'Belum diaudit'
     item-status-refuse: ditolak
+    item-this-year-pass-num: 'Jumlah yang lolos tahun ini'
+    item-this-year-reject-num: 'Jumlah yang ditolak tahun ini'
+    item-this-year-total-num: 'Jumlah commit tahun ini'
     item-total-num: 'Akumulasi jumlah pengiriman'
     item-user: Pengundang
     item-user-create-time: 'Waktu Bergabung Pengguna'
