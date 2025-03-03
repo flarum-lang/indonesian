@@ -17,6 +17,7 @@ CHANGELOG
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
+* [`nodeloc/whisper`](https://github.com/nodeloc/whisper)
 
 
 Semua perubahan: [1.25.0...1.26.0](https://github.com/flarum-lang/indonesian/compare/1.25.0...1.26.0).
