@@ -32,3 +32,13 @@ nodeloc-whisper:
       search_recipients: 'Ketik username...'
       submit: Kirim
       title: 'Kirim pesan'
+    notifications:
+      email:
+        new_private_message:
+          subject: 'Pesan dari {user}'
+          viewMessage: 'Lihat pesan'
+          youHaveReceivedNewMessage: 'Anda telah menerima pesan baru dari {user}!'
+      new_private_message: 'Seseorang mengirim pesan kepada saya'
+      web:
+        new_private_message:
+          body: 'Pesan dari {fromUser}'
