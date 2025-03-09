@@ -7,8 +7,10 @@ CHANGELOG
 
 **Menambahkan dukungan untuk ekstensi**:
 
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
 * [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile)
 * [`ordinaryjellyfish/flarum-dicebear`](https://github.com/OrdinaryJellyfish/flarum-dicebear)
+* [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
 
 
 **Terjemahan terbaru untuk ekstensi**:
