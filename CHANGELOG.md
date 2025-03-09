@@ -16,6 +16,7 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
 * [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
