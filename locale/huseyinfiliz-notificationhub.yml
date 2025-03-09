@@ -13,6 +13,7 @@ huseyinfiliz-notificationhub:
       delete_confirm: 'Apakah Anda yakin ingin menghapus jenis notifikasi ini dan semua notifikasi terkait?'
       edit_notification_type: 'Edit Jenis Notifikasi'
       fields:
+        actions: Tindakan
         active: Aktif
         color: 'Warna Jenis Notifikasi'
         default_message_key: 'Pesan Default'
