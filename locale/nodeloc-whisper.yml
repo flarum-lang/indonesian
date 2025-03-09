@@ -35,9 +35,11 @@ nodeloc-whisper:
     notifications:
       email:
         new_private_message:
+          manageEmailSettings: 'Mengelola pengaturan email'
           subject: 'Pesan dari {user}'
           viewMessage: 'Lihat pesan'
           youHaveReceivedNewMessage: 'Anda telah menerima pesan baru dari {user}!'
+      message_received: Test
       new_private_message: 'Seseorang mengirim pesan kepada saya'
       web:
         new_private_message:
