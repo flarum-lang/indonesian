@@ -2,6 +2,30 @@ CHANGELOG
 =========
 
 
+1.26.0 (2025-03-11)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile)
+* [`ordinaryjellyfish/flarum-dicebear`](https://github.com/OrdinaryJellyfish/flarum-dicebear)
+* [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
+* [`nodeloc/whisper`](https://github.com/nodeloc/whisper)
+
+
+Semua perubahan: [1.25.0...1.26.0](https://github.com/flarum-lang/indonesian/compare/1.25.0...1.26.0).
+
+
 1.25.0 (2025-02-05)
 -------------------
 
