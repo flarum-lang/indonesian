@@ -17,6 +17,7 @@ huseyinfiliz-notificationhub:
         active: Aktif
         color: 'Warna Jenis Notifikasi'
         default_message_key: 'Pesan Default'
+        default_recipients: 'Penerima Default'
         default_url: 'Link Default'
         description: Deskripsi
         icon: 'Ikon Default'
@@ -27,7 +28,10 @@ huseyinfiliz-notificationhub:
     title:
       page_title: 'Jenis Notifikasi'
   api:
+    message_required: 'Pesan dibutuhkan.'
     no_valid_recipients: 'Tidak ditemukan penerima yang valid.'
+    subject_id_required: 'Jenis Notifikasi dibutuhkan.'
+    user_ids_required: 'ID pengguna dibutuhkan.'
   forum:
     links:
       notification_all: 'Kirim Notifikasi'

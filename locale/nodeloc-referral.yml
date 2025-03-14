@@ -4,19 +4,25 @@
 
 nodeloc-referral:
   admin:
+    items:
+      add: Tambah
     permissions:
       referral_key: 'Siapa yang dapat mengundang'
     settings:
       expires: Kedaluwarsa
+      key_count: 'Berapa banyak undangan gratis untuk anggota baru'
       max_number: 'Angka maksimal'
       price: Harga
       reward: Reward
   forum:
     actives: Aktif
+    claim_failed: 'Klaim gagal.'
     claim_now: 'Klaim Sekarang'
     cost: Biaya
     count: Tersedia
     create_time: 'Waktu pembuatan'
+    free_help_tip: 'Anda bisa mendapatkan {amount} kode undangan setiap {days} hari.'
+    free_invite_code: 'Kode Undangan Gratis'
     invite_code: 'Kode undangan'
     is_expire: 'Kedaluwarsa?'
     next_available: 'Anda harus menunggu selama {hours} jam untuk membuat kode undangan gratis yang baru.'
@@ -25,3 +31,8 @@ nodeloc-referral:
     purchase_invite_code: 'Kode Undangan Pembelian'
     purchase_max_tip: 'Kuantitas Pembelian (hingga {invite_code_max_number} sekaligus)'
     referral: Referral
+    registers: Register
+    sign_up:
+      get_invite_link_text: 'Klik di sini untuk mendapatkannya'
+      no_invite_text: 'Tidak punya kode undangan?'
+    wait_to_claim: 'Tunggu untuk Mengklaim'
