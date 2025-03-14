@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.27.0 (XXXX-XX-XX)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`kk14569/flarum-anti-gmail-alias`](https://github.com/kk14569/flarum-anti-gmail-alias)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`nodeloc/flarum-ext-referral`](https://github.com/nodeloc/flarum-ext-referral)
+
+
+Semua perubahan: [1.26.0...1.27.0](https://github.com/flarum-lang/indonesian/compare/1.26.0...1.27.0).
+
+
 1.26.0 (2025-03-11)
 -------------------
 
