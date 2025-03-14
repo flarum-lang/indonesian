@@ -13,11 +13,13 @@ nodeloc-referral:
       reward: Reward
   forum:
     actives: Aktif
+    claim_now: 'Klaim Sekarang'
     cost: Biaya
     count: Tersedia
     create_time: 'Waktu pembuatan'
     invite_code: 'Kode undangan'
     is_expire: 'Kedaluwarsa?'
+    next_available: 'Anda harus menunggu selama {hours} jam untuk membuat kode undangan gratis yang baru.'
     purchase_expire_tip: 'Kode undangan akan kedaluwarsa dalam {invite_code_expires} hari'
     purchase_help_tip: 'Setiap kode undangan dikenakan biaya {invite_code_price} energi. Untuk setiap pengguna yang berhasil diundang, Anda akan diberi hadiah {invite_code_reward} energi.'
     purchase_invite_code: 'Kode Undangan Pembelian'
