@@ -16,6 +16,8 @@ mattoid-store-invite:
       group-blacklist-view: 'Grup daftar hitam pengguna (pengguna dalam grup ini tidak akan dapat membeli produk)'
       group-help: 'Setelah mendaftar, pengguna secara default menjadi anggota grup pengguna'
       group-view: 'Menampilkan produk ke pengguna'
+      invite-calm-down-period: 'Periode masa tunggu undangan (hari)'
+      invite-calm-down-period-help: 'Setelah undangan dikirimkan, pengajuan ulang tidak diperbolehkan selama N hari sejak tanggal persetujuan'
       invite-validity-period: 'Masa berlaku kode undangan (hari)'
       invite-validity-period-help: 'Setelah tinjauan disetujui, kode verifikasi yang melebihi batas waktu akan secara otomatis menjadi tidak valid'
       mail: 'Template email'
@@ -35,6 +37,7 @@ mattoid-store-invite:
     email: 'Email undangan'
     email-help: 'Email penerima undangan akan dihubungkan ke email yang terdaftar di forum.'
     error:
+      blacklist: 'Pengguna dalam daftar hitam, undangan dilarang!'
       email-exist: 'Email undangan sudah ada'
       email-inconsistency: 'Email dan informasi undangan tidak sama. Silakan gunakan email yang menerima kode undangan'
       email-not-exist: 'Email tidak boleh kosong'
