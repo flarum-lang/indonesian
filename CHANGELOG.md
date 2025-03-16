@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
 * [`nodeloc/flarum-ext-referral`](https://github.com/nodeloc/flarum-ext-referral)
 
 
