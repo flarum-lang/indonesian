@@ -32,6 +32,7 @@ fof-links:
     links:
       create_button: '=> fof-links.ref.create_link'
       links: '=> fof-links.ref.links'
+      preconfigured: 'Link pada forum ini telah dikonfigurasikan sebelumnya dan tidak dapat diedit di sini.'
     settings:
       show_icons_only_on_tablet: 'Tampilkan ikon hanya pada layar tablet'
   ref:
