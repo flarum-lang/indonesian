@@ -12,6 +12,7 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`fof/links`](https://github.com/FriendsOfFlarum/links)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
