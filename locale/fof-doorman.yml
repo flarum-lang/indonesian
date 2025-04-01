@@ -6,6 +6,28 @@ fof-doorman:
   admin:
     doorkey_required: 'Anda harus memberikan Kode Undangan'
     invalid_doorkey: 'Kode undangan yang Anda berikan tidak valid.'
+    list:
+      columns:
+        activates_user: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        group: '=> fof-doorman.admin.ref.fields.group.label'
+        id: ID
+        key: '=> fof-doorman.admin.ref.fields.key.label'
+        max_uses: '=> fof-doorman.admin.ref.fields.max_uses.label'
+      content:
+        delete: 'Apakah Anda yakin ingin menghapus kode undangan “{key}”?'
+        invalid_column: '=> core.admin.users.grid.columns.invalid_column'
+        no_created_by: 'Pengguna Tidak Diketahui'
+        no_group: '=> core.admin.users.grid.columns.group_badges.no_badges'
+        uses:
+          total_uses: '{totalUses, plural, one {Digunakan {totalUses} kali} other {Digunakan {totalUses} kali}}'
+          used_times: '{remaining, plural, =0 {Penggunaan tidak terbatas} one {{remainingUses} kali penggunaan tersisa} other {{remainingUses} kali penggunaan tersisa}}'
+      pagination:
+        back_button: '=> core.admin.users.pagination.back_button'
+        first_page_button: '=> core.admin.users.pagination.first_page_button'
+        go_to_page_textbox_a11y_label: '=> core.admin.users.pagination.go_to_page_textbox_a11y_label'
+        last_page_button: '=> core.admin.users.pagination.last_page_button'
+        next_button: '=> core.admin.users.pagination.next_button'
+        page_counter: '=> core.admin.users.pagination.page_counter'
     modal:
       group: 'Mengirim undangan untuk grup {group}'
       help: 'Menerima daftar yang dipisahkan koma, spasi, atau koma-spasi. Ketik email satu per satu atau paste list-nya lalu tekan spasi untuk menambahkannya.'
@@ -15,6 +37,47 @@ fof-doorman:
       send: 'Kirim Email'
       success: 'Email berhasil dikirim'
       title: 'Kirim Kode Undangan'
+    modals:
+      create_doorkey:
+        activates_user:
+          help: '=> fof-doorman.admin.ref.fields.activates_user.help'
+          label: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        group:
+          help: '=> fof-doorman.admin.ref.fields.group.help'
+          label: '=> fof-doorman.admin.ref.fields.group.label'
+        key:
+          help: '=> fof-doorman.admin.ref.fields.key.help'
+          label: '=> fof-doorman.admin.ref.fields.key.label'
+        max_uses:
+          help: '=> fof-doorman.admin.ref.fields.max_uses.help'
+          label: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        submit_and_create_another_button: 'Buat dan tambahkan yang lain'
+        submit_button: 'Buat Kode Undangan'
+        title: 'Buat Kode Undangan Baru'
+      edit_doorkey:
+        activates_user:
+          help: '=> fof-doorman.admin.ref.fields.activates_user.help'
+          label: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        group:
+          help: '=> fof-doorman.admin.ref.fields.group.help'
+          label: '=> fof-doorman.admin.ref.fields.group.label'
+        key:
+          help: '=> fof-doorman.admin.ref.fields.key.help'
+          label: '=> fof-doorman.admin.ref.fields.key.label'
+        max_uses:
+          help: '=> fof-doorman.admin.ref.fields.max_uses.help'
+          label: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        submit_button: 'Simpan Perubahan'
+        title: 'Edit Kode Undangan'
+      send_invites:
+        group: 'Mengirim undangan untuk grup {group}'
+        help: 'Menerima sebuah daftar yang dipisahkan dengan koma, spasi, atau spasi. Ketik satu email atau paste daftar tersebut, lalu tekan spasi untuk menambahkannya.'
+        invalid_emails: 'Email berikut ini tidak valid: {emails}'
+        max_use_conflict: 'Jumlah email melebihi jumlah maksimum penggunaan kode ini.'
+        placeholder: 'Masukkan email di sini'
+        send: 'Kirim Email'
+        success: 'Email berhasil dikirim'
+        title: 'Kirim Kode Undangan'
     nav:
       desc: 'Membuat kode undangan untuk pendaftaran pengguna baru dan dimasukkan ke dalam grup'
     page:
@@ -39,6 +102,26 @@ fof-doorman:
         used_times: '{remaining, plural, =0 {Tanpa batas} one {Sisa {remaining}} other {Sisa {remaining}}}'
         warning: 'Kode undangan ini telah digunakan berkali-kali.'
       title: Doorman
+    ref:
+      fields:
+        activates_user:
+          help: 'Mengaktifkan pengguna secara otomatis saat mereka mendaftar.'
+          label: 'Aktifkan Pengguna'
+        group:
+          help: 'Grup yang akan ditambahkan pengguna saat mendaftar menggunakan kode undangan.'
+          label: Grup
+        key:
+          help: 'Kode yang akan diketikkan pengguna saat mendaftar.'
+        max_uses:
+          help: 'Atur ke 0 untuk penggunaan tak terbatas'
+          label: 'Penggunaan Maksimum'
+    settings:
+      create_doorkey_button: 'Buat Kode Undangan'
+      optional_usage: 'Jadikan kode undangan opsional saat mendaftar'
+      search: 'Cari doorkey'
+      total_doorkeys: 'Total doorkey: {count}'
+  email:
+    body: "Halo,\n\nAnda telah diundang untuk mendaftar ke {forum}.\n\nJika Anda sudah siap untuk membuat akun, cukup klik link berikut dan masukkan kode saat mendaftar:\n\nUrl: {url}\nKode undangan: {code}\n\nJika Anda menerima email ini karena terjadi kesalahan, harap abaikan email ini.\n"
   forum:
     email:
       body: "Halo,\n\nAnda telah diundang untuk mendaftar ke {forum}.\n\nJika Anda sudah siap untuk membuat akun, cukup klik link berikut dan masukkan kode saat mendaftar:\n\nUrl: {url}\nKode undangan: {code}\n\nJika Anda menerima email ini karena kesalahan, harap abaikan email ini.\n"
