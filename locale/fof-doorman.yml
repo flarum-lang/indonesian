@@ -9,10 +9,13 @@ fof-doorman:
     list:
       columns:
         activates_user: '=> fof-doorman.admin.ref.fields.activates_user.label'
+        created_by: 'Dibuat Oleh'
         group: '=> fof-doorman.admin.ref.fields.group.label'
         id: ID
         key: '=> fof-doorman.admin.ref.fields.key.label'
+        manage: Kelola
         max_uses: '=> fof-doorman.admin.ref.fields.max_uses.label'
+        uses: Penggunaan
       content:
         delete: 'Apakah Anda yakin ingin menghapus kode undangan “{key}”?'
         invalid_column: '=> core.admin.users.grid.columns.invalid_column'
@@ -21,6 +24,7 @@ fof-doorman:
         uses:
           total_uses: '{totalUses, plural, one {Digunakan {totalUses} kali} other {Digunakan {totalUses} kali}}'
           used_times: '{remaining, plural, =0 {Penggunaan tidak terbatas} one {{remainingUses} kali penggunaan tersisa} other {{remainingUses} kali penggunaan tersisa}}'
+        warning: 'Kode undangan ini telah digunakan sebanyak maksimalnya.'
       pagination:
         back_button: '=> core.admin.users.pagination.back_button'
         first_page_button: '=> core.admin.users.pagination.first_page_button'
@@ -88,14 +92,14 @@ fof-doorman:
         heading:
           activate: 'Aktivasi Pengguna'
           group: Grup
-          key: Key
+          key: Kunci
           max_uses: 'Maks Penggunaan'
         help:
           activates: 'Aktivasi Pengguna: Secara otomatis mengaktifkan pengguna ketika mereka melakukan pendaftaran.'
           group: 'Grup: Grup yang akan ditambahkan ke pengguna saat mereka melakukan pendaftaran.'
-          key: 'Key: Kode yang akan dimasukkan oleh pengguna saat melakukan pendaftaran.'
+          key: 'Kunci: Kode yang akan digunakan pengguna saat mendaftar.'
           max: 'Maks Penggunaan: Jumlah maksimum penggunaan kode, atur ke 0 untuk penggunaan tanpa batas'
-        key: Key
+        key: Kunci
         max_uses: 'Maks Penggunaan'
         title: 'Kode Undangan'
         total_uses: '{totalUses, plural, one {Digunakan {totalUses} kali} other {Digunakan {totalUses} kali}}'
@@ -111,7 +115,8 @@ fof-doorman:
           help: 'Grup yang akan ditambahkan pengguna saat mendaftar menggunakan kode undangan.'
           label: Grup
         key:
-          help: 'Kode yang akan diketikkan pengguna saat mendaftar.'
+          help: 'Kode yang akan digunakan pengguna saat mendaftar.'
+          label: Kunci
         max_uses:
           help: 'Atur ke 0 untuk penggunaan tak terbatas'
           label: 'Penggunaan Maksimum'
@@ -122,6 +127,7 @@ fof-doorman:
       total_doorkeys: 'Total doorkey: {count}'
   email:
     body: "Halo,\n\nAnda telah diundang untuk mendaftar ke {forum}.\n\nJika Anda sudah siap untuk membuat akun, cukup klik link berikut dan masukkan kode saat mendaftar:\n\nUrl: {url}\nKode undangan: {code}\n\nJika Anda menerima email ini karena terjadi kesalahan, harap abaikan email ini.\n"
+    subject: 'Undangan Untuk Bergabung'
   forum:
     email:
       body: "Halo,\n\nAnda telah diundang untuk mendaftar ke {forum}.\n\nJika Anda sudah siap untuk membuat akun, cukup klik link berikut dan masukkan kode saat mendaftar:\n\nUrl: {url}\nKode undangan: {code}\n\nJika Anda menerima email ini karena kesalahan, harap abaikan email ini.\n"
