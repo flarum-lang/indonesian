@@ -9,7 +9,8 @@ fof-socialprofile:
       editOwn: 'Mengedit profil sosial sendiri'
       view: 'Melihat profil sosial'
     settings:
-      allow_external_favicons_label: 'Izinkan ikon situs web eksternal (menggunakan API favicon DuckDuckGo)'
+      allow_external_favicons_label: 'Izinkan ikon situs web eksternal (menggunakan API favicon penyedia eksternal)'
+      favicon_provider_label: 'Penyedia Favicon Eksternal'
   forum:
     edit:
       add: 'Tambahkan tombol ke media sosial Anda'
