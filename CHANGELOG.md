@@ -7,6 +7,7 @@ CHANGELOG
 
 **Menambahkan dukungan untuk ekstensi**:
 
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
 * [`kk14569/flarum-anti-gmail-alias`](https://github.com/kk14569/flarum-anti-gmail-alias)
 
 
