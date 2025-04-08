@@ -28,13 +28,16 @@ fof-horizon:
         max-runtime: 'Maksimum Waktu Berjalan'
         max-throughput: 'Hasil Maksimum'
         max-wait-time: 'Maksimum Waktu Tunggu'
+        redis-blocked-clients: 'Klien Yang Diblokir'
+        redis-connected-clients: 'Klien Terhubung'
         redis-cpu-sys: 'Sistem CPU Redis'
         redis-cpu-user: 'Pengguna CPU Redis'
-        redis-max-memory: 'Memori Maksimum Redis'
-        redis-memory-policy: 'Kebijakan Memori Redis'
+        redis-max-memory: 'Redis: Memori Maksimum'
+        redis-memory-policy: 'Redis: Kebijakan Memori'
         redis-memory-policy-tooltip: "Kebijakan memori adalah cara Redis akan memilih apa yang akan dihapus ketika \nbatas maksimal memori tercapai. Standarnya adalah `noeviction`: Nilai-nilai baru \ntidak akan disimpan ketika batas memori tercapai. Klik untuk melihat dokumentasi.\n"
-        redis-peak-memory: 'Memori Puncak Redis'
-        redis-used-memory: 'Memori Yang Digunakan Redis'
+        redis-ops-per-sec: 'Ops Per Detik'
+        redis-peak-memory: 'Redis: Memori Puncak'
+        redis-used-memory: 'Redis: Memori Yang Digunakan'
         status:
           inactive: 'Tidak Aktif'
           label: Status
@@ -42,4 +45,4 @@ fof-horizon:
         total-processes: 'Total Proses'
       full_dashboard: 'Dashboard Horizon'
       heading: 'Gambaran Umum Antrian'
-      refresh: Refresh
+      refresh: Segarkan
