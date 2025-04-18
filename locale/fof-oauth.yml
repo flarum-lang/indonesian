@@ -43,10 +43,13 @@ fof-oauth:
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: 'Buatlah aplikasi di {link}.'
           hosted_domain_label: 'Domain Yang Dihosting (G suite/Google Apps for Business, opsional)'
+        group_help: 'Pilih grup yang akan ditetapkan secara otomatis ke pengguna yang mendaftar menggunakan penyedia ini.'
+        group_label: 'Tetapkan Grup'
         linkedin:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: 'Buatlah aplikasi di {link}.'
+        no_group_label: 'Tidak ada penetapan grup'
         twitter:
           api_key_label: 'API Key'
           api_secret_label: 'API Secret'
