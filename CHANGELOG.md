@@ -2,6 +2,32 @@ CHANGELOG
 =========
 
 
+1.27.0 (2025-04-19)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+* [`kk14569/flarum-anti-gmail-alias`](https://github.com/kk14569/flarum-anti-gmail-alias)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`ianm/twofactor`](https://github.com/imorland/flarum-ext-twofactor)
+* [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
+* [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages)
+* [`nodeloc/flarum-ext-referral`](https://github.com/nodeloc/flarum-ext-referral)
+
+
+Semua perubahan: [1.26.0...1.27.0](https://github.com/flarum-lang/indonesian/compare/1.26.0...1.27.0).
+
+
 1.26.0 (2025-03-11)
 -------------------
 
