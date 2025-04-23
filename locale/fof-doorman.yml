@@ -18,7 +18,7 @@ fof-doorman:
         uses: Penggunaan
       content:
         delete: 'Apakah Anda yakin ingin menghapus kode undangan “{key}”?'
-        invalid_column: '=> core.admin.users.grid.columns.invalid_column'
+        invalid_column: '=> core.admin.users.grid.invalid_column_content'
         no_created_by: 'Pengguna Tidak Diketahui'
         no_group: '=> core.admin.users.grid.columns.group_badges.no_badges'
         uses:
