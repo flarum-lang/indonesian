@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.28.0 (2025-04-27)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/follow-tags`](https://github.com/FriendsOfFlarum/follow-tags)
+
+
+Semua perubahan: [1.27.0...1.28.0](https://github.com/flarum-lang/indonesian/compare/1.27.0...1.28.0).
+
+
 1.27.0 (2025-04-19)
 -------------------
 
