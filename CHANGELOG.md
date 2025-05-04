@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.29.0 (XXXX-XX-XX)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+
+
+Semua perubahan: [1.28.0...1.29.0](https://github.com/flarum-lang/indonesian/compare/1.28.0...1.29.0).
+
+
 1.28.0 (2025-04-27)
 -------------------
 
