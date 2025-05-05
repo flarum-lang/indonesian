@@ -7,6 +7,7 @@ CHANGELOG
 
 **Menambahkan dukungan untuk ekstensi**:
 
+* [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
 
 
