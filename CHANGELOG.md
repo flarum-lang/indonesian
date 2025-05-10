@@ -11,6 +11,11 @@ CHANGELOG
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
 
 
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
+
+
 Semua perubahan: [1.28.0...1.29.0](https://github.com/flarum-lang/indonesian/compare/1.28.0...1.29.0).
 
 
