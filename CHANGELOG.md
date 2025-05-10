@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.29.0 (XXXX-XX-XX)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile)
+* [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
+
+
+Semua perubahan: [1.28.0...1.29.0](https://github.com/flarum-lang/indonesian/compare/1.28.0...1.29.0).
+
+
 1.28.0 (2025-04-27)
 -------------------
 
