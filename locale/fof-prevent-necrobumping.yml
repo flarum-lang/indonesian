@@ -17,6 +17,8 @@ fof-prevent-necrobumping:
     composer:
       warning:
         checkbox_label: 'Saya sadar bahwa diskusi ini sudah agak lama, tetapi saya masih ingin menjawabnya.'
+        cta: 'Apakah Anda ingin memulai diskusi baru?'
+        cta_button: '=> core.ref.start_a_discussion'
         description: 'Kemungkinan besar hal ini tidak perlu didiskusikan lebih lanjut dan dengan demikian tidak ada gunanya untuk membahasnya.'
         error: 'Diskusi ini sudah terlalu lama untuk dijawab.'
         title: 'Diskusi ini berusia lebih dari <b>{time}</b>.'
