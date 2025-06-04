@@ -119,7 +119,7 @@ kilowhat-wordpress:
       wordpress_username: 'Username admin WordPress'
     tabs:
       comments: 'Integrasi Komentar'
-      disabled: 'Tidak Aktif'
+      disabled: 'Tidak aktif'
       enabled: Aktif
       general: 'Pengaturan Umum'
       sso: 'Integrasi SSO'

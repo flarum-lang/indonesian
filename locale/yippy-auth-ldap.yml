@@ -8,7 +8,7 @@ yippy-auth-ldap:
       display_detailed_error: 'Tampilkan detail error LDAP untuk upaya login yang gagal'
       domains:
         add: 'Tambah Domain'
-        banner: 'Domain {index}'
+        banner: 'Domain {index} - [{isEnabled}]'
         data:
           admin_dn: 'Distinguished name (DNs)'
           admin_dn_help: 'Biarkan kosong untuk pengikatan anonim'
@@ -21,6 +21,7 @@ yippy-auth-ldap:
           follow_referrals: 'Ikuti referral untuk bind ke server LDAP'
           host: 'Domain atau alamat IP server'
           host_help: 'Dipisahkan dengan koma'
+          is_enabled: 'Aktifkan Server LDAP'
           port: Port
           port_help: 'Bukan SSL (Port 389) atau SSL (Port 636).'
           search_user_fields: 'Kolom pencarian'
@@ -42,6 +43,9 @@ yippy-auth-ldap:
           search_fields: 'Pencarian Akun LDAP'
           search_fields_description: 'Buat daftar kolom LDAP untuk dibandingkan dengan Username yang diberikan Pengguna.'
           server: 'Pengaturan Server LDAP'
+        is_enabled:
+          disabled: 'Tidak aktif'
+          enabled: Aktifkan
         title: 'Domain LDAP'
       method_name: 'Nama server LDAP (akan muncul setelah "Masuk dengan")'
       onlyUse: 'Sembunyikan metode login standar Flarum'

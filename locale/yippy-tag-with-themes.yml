@@ -26,8 +26,10 @@ yippy-tag-with-themes:
       title: 'Tema Desain Khusus untuk Tag'
     helps:
       design_default: 'Pilih layout desain default'
+      display_themes: 'Hanya izinkan tema untuk grup tertentu'
     labels:
       design_default: 'Layout Desain Diskusi'
+      display_themes: 'Aktifkan Tag untuk Izin Tema'
     options:
       design_options:
         basic: Basic
@@ -46,6 +48,7 @@ yippy-tag-with-themes:
         flat_border_tag: 'Flat Border (Tag Primer)'
         flat_tab: 'Flat (Tab Primer)'
         flat_tag: 'Flat (Tag Primer)'
+        none: 'Tidak ada'
         sticky_note: 'Sticky Note'
         sticky_note_banner: 'Sticky Note (Banner Utama)'
         sticky_note_outline: 'Sticky Note - Bergaris'
