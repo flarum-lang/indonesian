@@ -22,6 +22,8 @@ yippy-auth-ldap:
           host: 'Domain atau alamat IP server'
           host_help: 'Dipisahkan dengan koma'
           is_enabled: 'Aktifkan Server LDAP'
+          permission_groups: 'Tetapkan Izin Tertentu'
+          permission_groups_help: 'Ini diterapkan saat pendaftaran'
           port: Port
           port_help: 'Bukan SSL (Port 389) atau SSL (Port 636).'
           search_user_fields: 'Kolom pencarian'
