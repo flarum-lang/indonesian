@@ -23,6 +23,9 @@ yippy-tag-with-themes:
       header:
         color_theme: 'Sesuaikan Skema Warna Default'
         theme: 'Tema Khusus'
+      is_enabled:
+        disabled: 'Tidak aktif'
+        enabled: Aktifkan
       title: 'Tema Desain Khusus untuk Tag'
     helps:
       design_default: 'Pilih layout desain default'
@@ -49,6 +52,12 @@ yippy-tag-with-themes:
         flat_tab: 'Flat (Tab Primer)'
         flat_tag: 'Flat (Tag Primer)'
         none: 'Tidak ada'
+        rounded_flat_banner: 'Rounded Flat (Banner Utama)'
+        rounded_flat_border_banner: 'Rounded Flat Border (Banner Utama)'
+        rounded_flat_border_tab: 'Rounded Flat Border (Tab Primer)'
+        rounded_flat_border_tag: 'Rounded Flat Border (Tag Primer)'
+        rounded_flat_tab: 'Rounded Flat (Tab Primer)'
+        rounded_flat_tag: 'Rounded Flat (Tag Primer)'
         sticky_note: 'Sticky Note'
         sticky_note_banner: 'Sticky Note (Banner Utama)'
         sticky_note_outline: 'Sticky Note - Bergaris'
