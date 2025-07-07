@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.29.1 (XXXX-XX-XX)
+-------------------
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
+
+
+Semua perubahan: [1.29.0...1.29.1](https://github.com/flarum-lang/indonesian/compare/1.29.0...1.29.1).
+
+
 1.29.0 (2025-06-15)
 -------------------
 
