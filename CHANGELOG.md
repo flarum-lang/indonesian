@@ -2,8 +2,14 @@ CHANGELOG
 =========
 
 
-1.29.1 (XXXX-XX-XX)
+1.30.0 (XXXX-XX-XX)
 -------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`shebaoting/dependency-collector`](https://github.com/shebaoting/dependency-collector)
+* [`xypp/flarum-pay-cccyun`](https://flarum.org/extension/xypp/flarum-pay-cccyun)
+
 
 **Terjemahan terbaru untuk ekstensi**:
 
@@ -16,7 +22,7 @@ CHANGELOG
 * [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
 
 
-Semua perubahan: [1.29.0...1.29.1](https://github.com/flarum-lang/indonesian/compare/1.29.0...1.29.1).
+Semua perubahan: [1.29.0...1.30.0](https://github.com/flarum-lang/indonesian/compare/1.29.0...1.30.0).
 
 
 1.29.0 (2025-06-15)
