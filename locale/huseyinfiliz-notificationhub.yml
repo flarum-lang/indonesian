@@ -20,9 +20,11 @@ huseyinfiliz-notificationhub:
         default_recipients: 'Penerima Default'
         default_url: 'Link Default'
         description: Deskripsi
+        excerpt_key: 'Kutipan Default'
         icon: 'Ikon Default'
         name: Nama
         permission: 'Perizinan Jenis Notifikasi'
+        sort_order: 'Urutan Sortir'
       no_data: 'Belum ada jenis notifikasi.'
       save: Simpan
     title:

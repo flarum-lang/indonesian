@@ -13,5 +13,7 @@ blazite-turnstile:
       site_key: 'Site key'
   forum:
     not_loaded_error: 'Gagal memuat Cloudflare Turnstile. Silakan refresh halaman, dan periksa adblocker Anda.'
+    validation_error: 'Silakan selesaikan tantangan Turnstile.'
 validation:
+  required: 'Silakan selesaikan tantangan Turnstile.'
   turnstile: 'Kita tidak bisa memverifikasi apakah Anda robot atau bukan. Silakan refresh halaman dan coba lagi.'

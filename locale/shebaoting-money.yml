@@ -59,6 +59,7 @@ shebaoting-money:
       unliked_by: 'Postingan tidak disukai oleh {username} › <a href="{url}">{title}</a>'
       unliked_post: 'Tidak menyukai postingan › <a href="{url}">{title}</a>'
     logs_type:
+      admin_updated: 'Admin Diperbarui'
       discussion_deleted: 'Menghapus Diskusi'
       discussion_hidden: 'Diskusi Disembunyikan'
       discussion_replied: 'Membalas Diskusi'

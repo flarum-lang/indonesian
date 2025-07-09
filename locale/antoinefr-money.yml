@@ -12,10 +12,13 @@ antoinefr-money:
       - 'Ketika diskusi/post disembunyikan atau dipulihkan (default)'
       - 'Ketika diskusi/post dihapus'
     permissions:
+      disable_money_label: 'Matikan money'
       edit_money_label: 'Mengedit money'
     settings:
       autoremove: 'Perbarui Dana secara otomatis'
+      cascaderemove: 'Hapus dana untuk post saat diskusi dihapus'
       helpextensionlikes: 'Membutuhkan ekstensi <code>flarum/likes</code>'
+      ignore_notifying_users: 'Saat memeriksa jumlah kata balasan, hanya fokus pada bagian konten'
       moneyfordiscussion: 'Dana yang diberikan untuk diskusi baru'
       moneyforlike: 'Dana yang diberikan ketika sebuah postingan disukai'
       moneyforpost: 'Dana yang diberikan untuk postingan baru'
