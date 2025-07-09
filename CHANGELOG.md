@@ -7,7 +7,12 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`afrux/top-posters-widget`](https://github.com/afrux/top-posters-widget)
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`shebaoting/money`](https://github.com/shebaoting/money)
 * [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
 
 
