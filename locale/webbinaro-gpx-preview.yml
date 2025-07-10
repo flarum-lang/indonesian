@@ -5,7 +5,7 @@
 gpx-preview:
   admin:
     settings:
-      gkey: 'API Key Google dengan akses ke Maps API.'
+      gkey: 'Kunci API Google dengan akses ke Maps API.'
     templates:
       gpx: 'Pratinjau GPX Route'
       gpx.file_description: 'Menyematkan peta Google dengan overlay file GPX yang diunggah.'

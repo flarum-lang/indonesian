@@ -29,14 +29,14 @@ kilowhat-rich-embeds:
       cacheProxyHelp: 'Gambar akan disimpan dalam cache ke disk sesuai dengan header HTTP-nya'
       flarumApiPreviews: 'Aktifkan pratinjau Flarum tingkat lanjut'
       flarumApiPreviewsHelp: "Fitur ini mem-parsing data JSON tambahan yang sudah disertakan dalam HTML oleh semua forum yang didukung oleh Flarum. Fitur ini akan bekerja dengan semua forum yang menjalankan Flarum 1.4+ dan mengiklankan header <code>X-Powered-By</code>.\n"
-      githubApiKey: 'API Key GitHub'
+      githubApiKey: 'Kunci API GitHub'
       githubApiKeyHelp: 'Isi untuk mengaktifkan pratinjau GitHub yang didukung API untuk repositori, issue, dan PR, termasuk repositori pribadi.'
       githubOrgWhitelist: 'Daftar putih organisasi'
-      githubOrgWhitelistHelp: "Daftar organisasi GitHub yang dipisahkan dengan koma yang akan menggunakan pratinjau yang didukung API. Gunakan kolom ini untuk mencegah setiap repo pribadi yang dapat diakses oleh API key terekspos, untuk mengurangi penggunaan API atau hanya mengubah gaya sematan organisasi Anda. Jika dibiarkan kosong, repo apa pun yang dapat diakses oleh API key dapat dipratinjau.\n"
+      githubOrgWhitelistHelp: "Daftar organisasi GitHub yang dipisahkan dengan koma yang akan menggunakan pratinjau yang didukung oleh API. Gunakan kolom ini untuk mencegah setiap repo privat yang dapat diakses oleh kunci API terekspos, untuk mengurangi penggunaan API atau hanya mengubah embed style organisasi Anda sendiri. Jika dibiarkan kosong, repo apa pun yang dapat diakses oleh kunci API dapat ditampilkan.\n"
       googleApiAuthConfig: 'Google SDK Auth Config Path atau JSON'
-      googleApiAuthConfigHelp: "Pengaturan ini digunakan bersama dengan pengaturan YouTube dan Google Drive di bawah ini. Pengaturan ini harus berisi absolute path ke file autentikasi JSON di sistem file lokal, atau konten file tersebut. Jika dibiarkan kosong, API key atau akun layanan akan secara otomatis ditemukan melalui environment variable oleh Google API SDK.\n"
-      googleApiKey: 'API key Google SDK'
-      googleApiKeyHelp: "Pengaturan ini digunakan bersamaan dengan pengaturan YouTube dan Google Drive di bawah ini. Jika dibiarkan kosong, API key atau akun layanan akan secara otomatis ditemukan melalui environment variable oleh Google API SDK.\n"
+      googleApiAuthConfigHelp: "Pengaturan ini digunakan bersama dengan pengaturan YouTube dan Google Drive di bawah ini. Pengaturan ini harus berisi absolute path ke file JSON authentication di sistem file lokal, atau konten file tersebut. Jika dibiarkan kosong, kunci API atau akun layanan akan secara otomatis ditemukan melalui environment variable oleh Google API SDK.\n"
+      googleApiKey: 'Kunci API Google SDK'
+      googleApiKeyHelp: "Pengaturan ini digunakan bersamaan dengan pengaturan YouTube dan Google Drive di bawah ini. Jika dibiarkan kosong, kunci API atau akun layanan akan secara otomatis ditemukan melalui environment variable oleh Google API SDK.\n"
       googledriveApiPreviews: 'Aktifkan pratinjau Google Drive yang didukung API tingkat lanjut'
       googledriveApiPreviewsHelp: "Google API SDK harus dikonfigurasi di atas. Fitur ini akan menampilkan judul dan pratinjau file Google Drive. Gunakan akun layanan dengan akses ke Drive pribadi untuk mengaktifkan pratinjau file pribadi.\n"
       imageEmbeds: 'Rich Embeds untuk Gambar'

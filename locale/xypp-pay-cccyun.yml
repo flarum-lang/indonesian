@@ -17,6 +17,7 @@ xypp-pay-cccyun:
     settings:
       amount-max: 'Jumlah maksimum'
       amount-min: 'Jumlah minimum'
+      base_url: 'URL Dasar (Diakhiri dengan /)'
       expired_minutes: 'Waktu kedaluwarsa (Menit)'
       ignore_ssl: 'Abaikan kesalahan SSL'
       money-rate: 'Kurs Uang: 1 CNY -> Uang X'
@@ -42,7 +43,6 @@ xypp-pay-cccyun:
     add_money:
       amount: Jumlah
       button: 'Isi ulang'
-      confirm: Bayar
       title: 'Isi Ulang Dana'
     history:
       amount: '￥{amount}'
@@ -67,6 +67,7 @@ xypp-pay-cccyun:
       window: 'Selesaikan pembayaran di jendela baru'
     recharge-modal:
       amount: Jumlah
+      money: 'Biaya ￥{amount}'
       title: 'Isi ulang'
   lib:
     alipay: Alipay

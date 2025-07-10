@@ -4,7 +4,7 @@
 
 therealsujitk-gifs:
   admin:
-    apiKey: 'API Key'
+    apiKey: 'Kunci API'
     engine: 'Mesin Pencari'
     rating: 'Peringkat Konten / Filter Konten'
     ratingHigh: 'G / Tinggi'

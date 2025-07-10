@@ -5,8 +5,8 @@
 justoverclock-igdb-api:
   admin:
     composerAlert: 'Tampilkan Notifikasi Composer pada diskusi baru'
-    rawgApi: 'RawG Api Key'
-    rawgApi-help: 'Paste di sini Api Key gratis yang Anda dapatkan dari https://rawg.io/signup'
+    rawgApi: 'Kunci API RawG'
+    rawgApi-help: 'Paste di sini Kunci API gratis yang Anda dapatkan dari https://rawg.io/signup'
   forum:
     availableOn: 'Tersedia di'
     game-title-alert-box: 'Apakah diskusi ini membahas seputar game?'

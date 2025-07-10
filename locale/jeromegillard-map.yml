@@ -17,8 +17,8 @@ jeromegillard-map:
         help: 'Pilih gaya untuk tampilan map. <a>Lihatlah gaya mereka</a>.'
         label: 'Gaya default untuk {provider}'
       thunderforest:
-        help: 'Daftar secara gratis di <a>thunderforest.com</a> untuk mendapatkan API key. Harap ikuti <b>ketentuan penggunaan</b> mereka.'
-        label: 'Thunderforest API key'
+        help: 'Daftar secara gratis di <a>thunderforest.com</a> untuk mendapatkan kunci API. Harap ikuti <b>ketentuan penggunaan</b> mereka.'
+        label: 'Kunci API Thunderforest'
       tiles_provider:
         help: 'Pilih penyedia tile layer yang muncul di latar belakang'
         label: 'Penyedia tile layer default'

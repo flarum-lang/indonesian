@@ -4,6 +4,7 @@
 
 ordinaryjellyfish-sentra:
   admin:
+    api_key: 'Kunci API'
     enable: Aktifkan
     modules:
       heading: Modul

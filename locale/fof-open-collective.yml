@@ -11,5 +11,5 @@ fof-open-collective:
       personal_token_label: 'Personal Token'
       slug_label: 'Collective Slug'
       title: 'FriendsOfFlarum Open Collective'
-      use_legacy_api_key_help: "Jika Anda memiliki API key yang lama, Anda dapat terus menggunakannya, tetapi disarankan untuk beralih ke Personal Token. Saat ini, personal token tampaknya berfungsi dalam mode API Key (yaitu, \"API-Key\" header), tetapi ini tidak didokumentasikan.\n"
+      use_legacy_api_key_help: "Jika Anda memiliki Kunci API yang lama, Anda dapat terus menggunakannya, tetapi disarankan untuk beralih ke Personal Token. Saat ini, personal token tampaknya berfungsi dalam mode Kunci API (yaitu, \"API-Key\" header), tetapi ini tidak didokumentasikan.\n"
       use_legacy_api_key_label: 'Gunakan Application API Key Yang Lama'

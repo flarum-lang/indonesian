@@ -5,7 +5,7 @@
 nomiscz-auth-steam:
   admin:
     settings:
-      api_key_label: 'API Key'
+      api_key_label: 'Kunci API'
       title: 'Pengaturan Autentikasi Steam'
       use_steam_powered_domain: 'Gunakan domain steampowered.com, jangan steamcommunity.com (diblokir di Cina)'
   forum:

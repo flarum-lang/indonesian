@@ -17,7 +17,7 @@ kilowhat-audit:
       cache_cleared: 'Cache dibersihkan secara manual'
       client:
         access_token: 'Token akses'
-        api_key: 'API key'
+        api_key: 'Kunci API'
         cli: 'Baris perintah'
         session: 'Sesi web'
         unknown: 'Client tidak diketahui'

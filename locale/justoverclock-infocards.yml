@@ -4,8 +4,8 @@
 
 flarum-ext-infocards:
   admin:
-    apikeyhelp: 'Buat api key gratis di https://countapi.xyz/'
-    createapikey: 'Api Key'
+    apikeyhelp: 'Buat kunci API gratis di https://countapi.xyz/'
+    createapikey: 'Kunci API'
   forum:
     forumstats: 'Statistik Forum'
     friday: Jumat

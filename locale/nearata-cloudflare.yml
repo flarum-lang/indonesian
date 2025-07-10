@@ -7,7 +7,7 @@ nearata-cloudflare:
     development_mode_widget:
       title: 'Mode Cloudflare Development aktif'
     settings:
-      api_key: 'API Key'
+      api_key: 'Kunci API'
       api_key_help: 'Ikuti panduan <strong><url>Membuat Token API</url></strong> untuk membuat Token API.'
       confirm_text: 'Apakah Anda yakin?'
       minify_setting:

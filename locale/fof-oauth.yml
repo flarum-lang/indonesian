@@ -51,7 +51,7 @@ fof-oauth:
           description: 'Buatlah aplikasi di {link}.'
         no_group_label: 'Tidak ada penetapan grup'
         twitter:
-          api_key_label: 'API Key'
+          api_key_label: 'Kunci API'
           api_secret_label: 'API Secret'
           description: 'Buatlah aplikasi di {link}. Anda perlu menetapkan URL untuk Ketentuan Layanan dan Kebijakan Privasi. Pastikan untuk menambahkan izin permintaan melalui email.'
       update_email_from_provider_help: 'Jika diaktifkan, alamat email pengguna akan diperbarui agar sesuai dengan yang disediakan oleh provider OAuth pada setiap login ke forum. Tidak semua penyedia menyediakan email yang diperbarui, dalam hal ini pengaturan ini tidak akan berpengaruh pada penyedia tersebut.'

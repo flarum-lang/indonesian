@@ -40,9 +40,9 @@ kilowhat-wordpress:
       unsaved-changes: 'Anda memiliki perubahan yang belum tersimpan'
       validation-errors: 'Kami menemukan beberapa kesalahan dalam pengajuan Anda'
     settings:
-      api_key: 'API Key Bersama'
-      api_key_reset: 'Hasilkan API Key baru'
-      api_key_reset_confirm: "Apakah Anda benar-benar ingin membuat API Key Bersama yang baru? Yang lama akan berhenti berfungsi dan harus diperbarui secara manual di pengaturan plugin WordPress.\n"
+      api_key: 'Kunci API Bersama'
+      api_key_reset: 'Hasilkan Kunci API baru'
+      api_key_reset_confirm: "Apakah Anda benar-benar ingin membuat Kunci API Bersama yang baru? Yang lama akan berhenti berfungsi dan harus diperbarui secara manual di pengaturan plugin WordPress.\n"
       comment_author_sync: 'Menetapkan penulis diskusi dari SSO'
       comment_author_sync_help: 'Jika penulis Wordpress telah membuat akun Flarum melalui SSO, akun Flarum tersebut akan ditetapkan sebagai pemilik diskusi komentar.'
       comment_tag: 'Tag untuk thread komentar baru'
@@ -138,11 +138,11 @@ kilowhat-wordpress:
       login: 'Akun ini terhubung dengan WordPress. Gunakan formulir login situs web utama untuk terhubung.'
       password_reset: 'Akun ini terhubung dengan WordPress. Gunakan formulir masuk situs web utama untuk mereset password Anda.'
     health:
-      api-error-401: 'Mencoba mengakses API WordPress menghasilkan error 401. Verifikasi kecocokan "API Key Bersama" antara pengaturan Flarum dan WordPress'
+      api-error-401: 'Upaya untuk mengakses API WordPress menghasilkan error 401. Verifikasi kecocokan “ Kunci API Bersama” antara pengaturan Flarum dan WordPress'
       api-error-json: 'Mencoba mengakses API WordPress mengakibatkan error: {message} - Body: {body}'
       api-error-other: 'Mencoba mengakses API WordPress mengakibatkan error: {message}'
-      api-key-mismatch: 'Pengaturan "API Key Bersama" di WordPress tidak sesuai dengan pengaturan "API Key Bersama" di Flarum (diharapkan: "{expected}", aktual: "{actual}")'
-      api-key-missing: '"API Key Flarum" tidak ada. Coba refresh panel admin dan periksa file log untuk kemungkinan adanya error'
+      api-key-mismatch: 'Pengaturan "Kunci API Bersama" di WordPress tidak sesuai dengan pengaturan "Kunci API Bersama" di Flarum (diharapkan: "{expected}", aktual: "{actual}")'
+      api-key-missing: '“Kunci API Flarum” tidak ditemukan. Coba refresh panel admin dan periksa file log untuk kemungkinan adanya error'
       comments-mismatch-flarum: 'Integrasi Komentar diaktifkan di Flarum, tetapi tidak di WordPress'
       comments-mismatch-wordpress: 'Integrasi Komentar diaktifkan di WordPress, tetapi tidak di Flarum'
       config-url-https: 'URL Flarum yang didefinisikan di config.php haruslah HTTPS (nilai saat ini: "{url}")'
@@ -175,7 +175,7 @@ kilowhat-wordpress:
       wordpress-username-missing: 'Pengaturan "Username admin WordPress" harus diisi'
     sync_setting_error: "Terjadi error saat melakukan sinkronisasi pengaturan ke WordPress. Periksa secara manual apakah kotak centang di sisi WordPress diatur ke nilai yang sama seperti di Flarum. Error: {exception}.\n"
     wizard:
-      already_installed: "Flarum sudah terhubung dengan WordPress. Untuk menjalankan wizard lagi, hapus pengaturan \"URL WordPress\" di Flarum dan pengaturan \"API Key Bersama\" Flarum di WordPress.\n"
+      already_installed: "Flarum sudah terhubung dengan WordPress. Untuk menjalankan wizard lagi, hapus pengaturan \"URL WordPress\" di Flarum dan pengaturan \"Kunci API Bersama\" Flarum di WordPress.\n"
       api_error_generic: "Error saat melakukan POST request ke endpoint pengaturan plugin WordPress ({exception}). Pastikan plugin Flarum Integration WordPress telah diinstal dan diaktifkan.\n"
       api_error_get: 'Terjadi kesalahan saat melakukan GET request ke pengaturan WordPress ({exception}).'
       api_error_post: 'Terjadi kesalahan saat melakukan POST request ke pengaturan WordPress ({exception}).'

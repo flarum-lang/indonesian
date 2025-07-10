@@ -5,8 +5,8 @@
 maicol07-sso:
   admin:
     settings:
-      client_api_key: 'API key'
-      client_api_key_help: 'API key dari Flarum instance Anda.'
+      client_api_key: 'Kunci API'
+      client_api_key_help: 'Kunci API dari Flarum instance Anda.'
       client_name: Nama
       client_name_help: 'Nama Flarum instance'
       client_password_token: 'Token password'
