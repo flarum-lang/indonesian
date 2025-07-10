@@ -17,6 +17,8 @@ CHANGELOG
 * [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`blazite/flarum-turnstile`](https://github.com/blazite/flarum-ext-turnstile)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
+* [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
 * [`shebaoting/money`](https://github.com/shebaoting/money)
 * [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
