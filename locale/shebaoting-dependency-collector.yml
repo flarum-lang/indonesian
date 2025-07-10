@@ -20,14 +20,20 @@ shebaoting-dependency-collector:
       tag_icon_help: 'Temukan ikon di <a>Font Awesome</a>.'
       tag_icon_label: 'Ikon (mis., fas fa-code)'
       tag_name_label: Nama
+    nav:
+      description: 'Mengelola dependensi dan tag plugin yang dikirimkan.'
+      title: 'Kolektor Dependensi'
     page:
       approved_items_title: 'Dependensi yang Disetujui'
+      manage_tags_title: 'Mengelola Tag Plugin'
       no_approved_items: 'Belum ada dependensi yang disetujui.'
       no_pending_items: 'Tidak ada dependensi yang menunggu untuk ditinjau.'
+      no_plugin_tags: 'Belum ada tag plugin yang dibuat.'
       pending_items_title: 'Dependensi yang Menunggu Peninjauan'
     permissions:
       delete_label: 'Hapus dependensi'
       favorite_items_label: 'Dependensi favorit'
+      manage_tags_label: 'Mengelola tag plugin'
       moderate_label: 'Moderasi dependensi (menyetujui, menolak, mengedit, menghapus)'
       submit_label: 'Submit dependensi'
     table:
@@ -64,5 +70,7 @@ shebaoting-dependency-collector:
       submit_button: Submit
       submit_title: 'Kirim Dependensi Baru'
       tags_help: 'Pilih setidaknya satu tag yang relevan.'
+      tags_label: 'Tag Plugin'
       title_label: Judul
+      title_placeholder: 'misalnya, Awesome Library'
     nav_title: Dependensi
