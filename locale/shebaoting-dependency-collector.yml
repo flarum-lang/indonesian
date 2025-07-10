@@ -50,6 +50,7 @@ shebaoting-dependency-collector:
       delete_confirmation_title: 'Hapus Dependensi'
       favorite_button_label: Favorit
       pending_approval: 'Menunggu Persetujuan'
+      unfavorite_button_label: 'Tidak Favorit'
     list:
       all_tags: Semua
       empty_text: 'Tidak ada dependensi yang ditemukan.'

@@ -76,6 +76,7 @@ foskym-custom-levels:
         post_liked: 'Post disukai'
         post_posted: 'Post dibuat'
         post_restored: 'Post dipulihkan'
+        post_unliked: 'Post tidak disukai'
         store_purchase: 'Pembelian di toko'
         system_clear: 'Pembersihan sistem'
         system_refresh: 'Penyegaran sistem'
