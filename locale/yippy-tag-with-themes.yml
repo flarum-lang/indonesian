@@ -6,7 +6,7 @@ yippy-tag-with-themes:
   admin:
     designs:
       add: 'Tambahkan Desain untuk Tag'
-      banner: 'Tema Desain {index}'
+      banner: 'Tema Desain {index} - [{isEnabled}]'
       data:
         child_background_color: 'Warna Background Anak'
         child_font_class: 'Font anak'
