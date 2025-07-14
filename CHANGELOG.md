@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.30.1 (XXXX-XX-XX)
+-------------------
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`ianm/oauth-line`](https://github.com/imorland/flarum-ext-oauth-line)
+
+
+Semua perubahan: [1.30.0...1.30.1](https://github.com/flarum-lang/indonesian/compare/1.30.0...1.30.1).
+
+
 1.30.0 (2025-07-13)
 -------------------
 
