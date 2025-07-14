@@ -7,7 +7,7 @@ fof-oauth:
     settings:
       providers:
         line:
-          client_id_label: 'Channel ID'
+          client_id_label: 'ID Channel'
           client_secret_label: 'Channel secret'
           description: 'Daftarkan forum Anda ke LINE Developers Console {link}'
   forum:
