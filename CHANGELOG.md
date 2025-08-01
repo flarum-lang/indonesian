@@ -7,7 +7,9 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`ianm/oauth-line`](https://github.com/imorland/flarum-ext-oauth-line)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
 
 
 Semua perubahan: [1.30.0...1.30.1](https://github.com/flarum-lang/indonesian/compare/1.30.0...1.30.1).
