@@ -7,7 +7,9 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 * [`ianm/oauth-line`](https://github.com/imorland/flarum-ext-oauth-line)
 * [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
 
