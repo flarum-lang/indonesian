@@ -29,7 +29,7 @@ fof-sitemap:
       risky_performance_improvements_help: 'Peningkatan ini membuat pekerjaan CRON berjalan lebih cepat pada dataset jutaan baris, tetapi mungkin merusak kompatibilitas dengan beberapa ekstensi.'
       soft_404:
         heading: 'Pencegahan soft 404'
-        help: 'Jika model tidak memiliki atau hanya memiliki sedikit konten yang relevan, Google dan crawler lainnya dapat menandainya sebagai halaman "soft 404". Untuk menghilangkan hal ini, tetapkan jumlah minimum item yang diperlukan untuk setiap item yang memenuhi syarat di sini.'
+        help: 'Ketika sebuah halaman tidak memiliki atau memiliki sedikit konten yang relevan, Google dan crawler lainnya mungkin menandai halaman-halaman ini sebagai “soft 404”. Untuk menghilangkan hal ini, atur jumlah minimum item yang diperlukan untuk setiap item yang memenuhi syarat di sini.'
         tags:
           discussion:
             minimum_item_threshold_help: 'Jumlah minimum diskusi yang harus dimiliki oleh sebuah tag agar dapat disertakan dalam sitemap.'
