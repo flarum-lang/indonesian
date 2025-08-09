@@ -6,7 +6,7 @@ clarkwinkelmann-post-stream-search:
   admin:
     settings:
       authorQuickFilter: 'Quick filter untuk penulis post'
-      authorQuickFilterHelp: 'Shortcut akan ditambahkan ke setiap post dropdown untuk memfilter berdasarkan pengguna.'
+      authorQuickFilterHelp: 'Sebuah shortcut akan ditambahkan ke menu dropdown setiap postingan untuk memfilter berdasarkan pengguna tersebut.'
       dropdownAccess: 'Akses melalui menu dropdown diskusi'
       dropdownAccessHelp: 'Jika dinonaktifkan, toolbar hanya akan tersedia melalui shortcut keyboard atau shortcut lain yang diaktifkan di bawah ini.'
       originalPosterBadge: 'Tampilkan badge OP interaktif'

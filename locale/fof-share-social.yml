@@ -5,14 +5,14 @@
 fof-share-social:
   admin:
     settings:
-      canonical-urls: 'Gunakan URL kanonis untuk berbagi'
-      default-option: 'Pilihan default untuk berbagi'
+      canonical-urls: 'Gunakan URL kanonis untuk membagikan'
+      default-option: 'Pilihan default untuk membagikan'
       default-option-help: "Memilih opsi default akan mengubah jendela modal menjadi tombol dropdown.\nJika \"Native Share\" dipilih, ini hanya akan ditampilkan jika browser mendukungnya, jika tidak, perilaku akan kembali ke jendela modal original.\n"
       plain-copy: 'Tampilkan salinan URL biasa'
   forum:
     discussion:
       share_button: Bagikan
-      share_dropdown_accessible_label: 'Mengganti menu dropdown berbagi diskusi'
+      share_dropdown_accessible_label: 'Tampilkan/Sembunyikan menu dropdown bagikan diskusi'
     modal:
       copy_button: Salin
       title: Bagikan

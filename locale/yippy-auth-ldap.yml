@@ -56,7 +56,7 @@ yippy-auth-ldap:
     account_found: 'Menemukan akun di {server}'
     errors:
       account:
-        disabled: 'Akun Anda dinonaktifkan, hubungi administrasi {server} Anda.'
+        disabled: 'Akun Anda telah dinonaktifkan, hubungi administrasi {server} Anda.'
         expired: 'Akun Anda telah kedaluwarsa, hubungi administrasi {server} Anda.'
         incorrect_details: 'Password yang dimasukkan salah.'
         invalid_inputs: 'Kolom input tidak boleh kosong'

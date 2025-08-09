@@ -320,7 +320,7 @@ core:
       rename_button: '=> core.ref.rename'
       reply_button: '=> core.ref.reply'
       restore_button: '=> core.ref.restore'
-      toggle_dropdown_accessible_label: 'Beralih ke menu dropdown tindakan diskusi'
+      toggle_dropdown_accessible_label: 'Tampilkan/Sembunyikan menu dropdown tindakan diskusi'
     discussion_list:
       empty_text: 'Sepertinya tidak ada diskusi di sini.'
       load_more_button: '=> core.ref.load_more'
@@ -346,7 +346,7 @@ core:
       search_clear_button_accessible_label: 'Hapus kueri penelusuran'
       search_placeholder: Cari
       search_role_label: Cari
-      session_dropdown_accessible_label: 'Beralih ke menu dropdown pilihan sesi'
+      session_dropdown_accessible_label: 'Tampilkan/Sembunyikan menu dropdown opsi sesi'
       settings_button: '=> core.ref.settings'
       sign_up_link: '=> core.ref.sign_up'
     index:
@@ -357,7 +357,7 @@ core:
       meta_title_text: '=> core.ref.all_discussions'
       refresh_tooltip: Refresh
       start_discussion_button: '=> core.ref.start_a_discussion'
-      toggle_sidenav_dropdown_accessible_label: 'Beralih ke menu dropdown navigasi'
+      toggle_sidenav_dropdown_accessible_label: 'Tampilkan/Sembunyikan menu dropdown navigasi'
     index_sort:
       latest_button: Terkini
       newest_button: Terbaru
@@ -395,7 +395,7 @@ core:
       edit_button: '=> core.ref.edit'
       hide_confirmation: 'Anda yakin ingin menghapus post ini?'
       restore_button: '=> core.ref.restore'
-      toggle_dropdown_accessible_label: 'Beralih ke menu dropdown kontrol publikasi'
+      toggle_dropdown_accessible_label: 'Tampilkan/Sembunyikan menu dropdown kontrol postingan'
     post_scrubber:
       now_link: 'Saat ini'
       original_post_link: 'Postingan Awal'
@@ -487,7 +487,7 @@ core:
       delete_error_message: 'Penghapusan pengguna <i>{username} ({email})</i> gagal'
       delete_success_message: 'Pengguna <i>{username} ({email})</i> telah dihapus'
       edit_button: '=> core.ref.edit'
-      toggle_dropdown_accessible_label: 'Beralih ke menu dropdown kontrol pengguna'
+      toggle_dropdown_accessible_label: 'Tampilkan/Sembunyikan menu dropdown kontrol pengguna'
     user_email_confirmation:
       alert_message: '=> core.ref.confirmation_email_sent'
       resend_button: 'Kirim Ulang Email Konfirmasi'
@@ -516,7 +516,7 @@ core:
       scrubber: 'MMMM YYYY'
     debug_button: Debug
     dropdown:
-      toggle_dropdown_accessible_label: 'Menampilkan menu dropdown'
+      toggle_dropdown_accessible_label: 'Tampilkan/Sembunyikan menu dropdown'
     edit_user:
       activate_button: 'Aktifkan Pengguna'
       email_heading: '=> core.ref.email'
