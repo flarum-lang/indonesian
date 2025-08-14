@@ -2,12 +2,17 @@ CHANGELOG
 =========
 
 
-1.30.1 (XXXX-XX-XX)
+1.31.0 (XXXX-XX-XX)
 -------------------
 
 **Perubahan umum**:
 
 * Memperbarui terjemahan untuk Flarum core.
+
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`zhihe/primary-posts`](https://github.com/echolocked/zhihe-primary-posts)
 
 
 **Terjemahan terbaru untuk ekstensi**:
@@ -26,7 +31,7 @@ CHANGELOG
 * [`yippy/flarum-ext-auth-ldap`](https://github.com/Yippy/flarum-ext-auth-ldap)
 
 
-Semua perubahan: [1.30.0...1.30.1](https://github.com/flarum-lang/indonesian/compare/1.30.0...1.30.1).
+Semua perubahan: [1.30.0...1.31.0](https://github.com/flarum-lang/indonesian/compare/1.30.0...1.31.0).
 
 
 1.30.0 (2025-07-13)
