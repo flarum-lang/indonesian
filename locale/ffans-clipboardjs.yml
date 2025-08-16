@@ -22,4 +22,4 @@ ffans-clipboardjs:
     error_btn: Error
     msg: 'Tekan {actionKey} untuk {action}'
     no_support: 'Tidak ada dukungan'
-    ok_btn: Disalin
+    ok_btn: 'Berhasil disalin'

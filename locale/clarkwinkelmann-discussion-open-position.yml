@@ -10,7 +10,7 @@ clarkwinkelmann-discussion-open-position:
         always: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.always'
         never: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.never'
         unread: '=> clarkwinkelmann-discussion-open-position.ref.openLastOptions.unread'
-      suggestFirstTime: 'Tampilkan permintaan kepada pengguna untuk mengubah pengaturan saat pertama kali mereka membuka diskusi'
+      suggestFirstTime: 'Tampilkan pesan kepada pengguna untuk mengubah pengaturan saat pertama kali mereka membuka diskusi'
   forum:
     firstTimePrompt:
       fromAlways: 'Link diskusi mengarah ke postingan yang terakhir Anda baca'
