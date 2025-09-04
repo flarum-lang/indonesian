@@ -12,6 +12,9 @@ CHANGELOG
 
 **Menambahkan dukungan untuk ekstensi**:
 
+* [`huseyinfiliz/guest`](https://github.com/huseyinfiliz/guest)
+* [`huseyinfiliz/sort-changer`](https://github.com/huseyinfiliz/sort-changer)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
 * [`zhihe/primary-posts`](https://github.com/echolocked/zhihe-primary-posts)
 
 
@@ -25,6 +28,8 @@ CHANGELOG
 * [`ffans/clipboardjs`](https://github.com/FFans/clipboardjs)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
 * [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
 * [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
