@@ -5,10 +5,10 @@
 zhihe-primary-posts:
   forum:
     all_posts: 'Tampilkan Semua'
-    chapter_n: 'Bab {number}'
+    chapter_n: 'Chapter {number}'
     filter_posts: 'Filter Postingan'
-    mark_primary: 'Tandai sebagai Utama'
-    primary_checkbox: Utama
+    mark_primary: 'Tandai sebagai Primary'
+    primary_checkbox: Primary
     primary_only: 'Hanya Yang Utama'
-    primary_post: Utama
-    unmark_primary: 'Batalkan Tandai Utama'
+    primary_post: Primary
+    unmark_primary: 'Batalkan Tandai Primary'
