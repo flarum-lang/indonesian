@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.32.0 (XXXX-XX-XX)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`klxf/flarum-maintenance`](https://github.com/klxf/flarum-maintenance)
+* [`mshuo/reply-to-see`](https://github.com/MShuoo/reply-to-see)
+
+
+Semua perubahan: [1.31.0...1.32.0](https://github.com/flarum-lang/indonesian/compare/1.31.0...1.32.0).
+
+
 1.31.0 (2025-09-14)
 -------------------
 
