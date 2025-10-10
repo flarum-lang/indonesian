@@ -7,8 +7,11 @@ CHANGELOG
 
 **Menambahkan dukungan untuk ekstensi**:
 
+* [`club-1/flarum-ext-content-permissions`](https://github.com/club-1/flarum-ext-content-permissions)
+* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
 * [`klxf/flarum-maintenance`](https://github.com/klxf/flarum-maintenance)
 * [`mshuo/reply-to-see`](https://github.com/MShuoo/reply-to-see)
+* [`startracex/flarum-dark`](https://github.com/startracex/flarum-dark)
 
 
 Semua perubahan: [1.31.0...1.32.0](https://github.com/flarum-lang/indonesian/compare/1.31.0...1.32.0).
