@@ -23,6 +23,7 @@ foskym-issue-tracking:
     enable_create_issue_label: 'Izinkan pengguna untuk membuat issue di Flarum'
     enable_import_by_display_name_label: 'Impor issue berdasarkan nama tampilan'
     enable_import_by_username_label: 'Impor issue berdasarkan username'
+    provider_heading: 'Penyedia Platform'
   forum:
     cannot_create_issue: 'Hanya Baca'
     composer:

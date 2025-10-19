@@ -13,6 +13,8 @@ fof-geoip:
       see_country: 'Selalu tampilkan negara dari alamat IP'
     settings:
       access_key_label: 'Kunci Akses'
+      error_code_prefix: 'Kode:'
+      error_prefix: 'Error:'
       general:
         heading: 'Pengaturan Umum'
         help: 'Pengaturan ini mengontrol perilaku umum ekstensi.'
@@ -20,6 +22,10 @@ fof-geoip:
         heading: 'Layanan Pencarian IP'
         help: 'Pilih layanan yang akan digunakan untuk pencarian IP. Beberapa layanan memiliki pembatasan layanan, jadi pastikan untuk memeriksa dokumentasi layanan untuk informasi lebih lanjut.'
       quota_label: 'Kuota pencarian'
+      raw_http_response_label: 'Isi Respons Raw HTTP'
+      request_options_label: 'Opsi Permintaan'
+      request_url_label: 'URL Permintaan'
+      response_headers_label: 'Header Respons'
       security_label: 'Modul Keamanan (butuh professional plus)'
       service_ipapi-pro_description: 'Gunakan <b>https://members.ip-api.com/#pricing</b>. Paket Pro memiliki penggunaan tidak terbatas.'
       service_ipapi-pro_label: 'IP Api Pro'
@@ -27,6 +33,8 @@ fof-geoip:
       service_ipapi_label: 'IP Api'
       service_ipdata_description: 'Gunakan <b>https://ipdata.co</b> untuk membuat hingga 1.500 pencarian setiap hari secara gratis. Paket berbayar untuk batas penggunaan yang lebih tinggi juga tersedia.'
       service_ipdata_label: IPData
+      service_ipinfo-lite_description: 'Gunakan <b>https://ipinfo.io</b> untuk mengambil informasi IP tanpa batasan kecepatan atau pembatasan apa pun. Registrasi diperlukan untuk mendapatkan API key gratis.'
+      service_ipinfo-lite_label: 'IPInfo Lite'
       service_iplocation_description: 'Gunakan <b>https://www.iplocation.net/</b> untuk mengambil data negara dan penyedia layanan internet. Lookup rate limit tidak diketahui.'
       service_iplocation_label: 'Lokasi IP'
       service_ipsevenex_description: 'Gunakan <b>https://7x.ax</b> untuk mendapatkan kunci API gratis hingga 20 request per menit. Paket berbayar untuk batas penggunaan yang lebih tinggi juga tersedia.'
@@ -36,6 +44,26 @@ fof-geoip:
       service_label: Layanan
       show_flag_help: 'Tanpa mengungkapkan alamat IP, tampilkan bendera negara dari alamat IP penulis post, ketika pengguna memilih melalui preferensi mereka.'
       show_flag_label: 'Tampilkan bendera negara di setiap post'
+      status_error: '✗ Error'
+      status_success: '✓ Berhasil'
+      status_unknown: 'Tidak Diketahui'
+      test:
+        heading: 'Konfigurasi Layanan Pengujian'
+        help: 'Uji konfigurasi layanan pencarian alamat IP Anda dengan alamat IP contoh. Pastikan untuk menyimpan pengaturan Anda terlebih dahulu sebelum melakukan pengujian.'
+      test_button: 'Uji Layanan'
+      test_error: 'Terjadi kesalahan saat menguji layanan.'
+      test_error_details_label: 'Rincian Error:'
+      test_http_status_code_label: 'Kode Status HTTP:'
+      test_ip_required: 'Silakan masukkan alamat IP untuk pengujian.'
+      test_processed_service_response_label: 'Respons Layanan yang Diproses:'
+      test_response_time_label: 'Waktu Respons:'
+      test_result_title: 'Hasil Pengujian'
+      test_service_help: 'Masukkan alamat IPv4 atau IPv6 untuk menguji konfigurasi layanan saat ini.'
+      test_service_label: 'Uji Layanan Pencarian Alamat IP'
+      test_service_label_result: 'Layanan:'
+      test_status_label: 'Status:'
+      test_timestamp_label: 'Stempel Waktu:'
+      testing: 'Sedang diuji...'
       title: 'FriendsOfFlarum GeoIP'
   forum:
     alerts:

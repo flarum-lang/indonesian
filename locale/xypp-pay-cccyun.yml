@@ -17,7 +17,7 @@ xypp-pay-cccyun:
     settings:
       amount-max: 'Jumlah maksimum'
       amount-min: 'Jumlah minimum'
-      base_url: 'URL Dasar (Diakhiri dengan /)'
+      base_url: 'Base URL (Diakhiri dengan /)'
       expired_minutes: 'Waktu kedaluwarsa (Menit)'
       ignore_ssl: 'Abaikan kesalahan SSL'
       key: '(V1) MD5 Key'
@@ -48,6 +48,7 @@ xypp-pay-cccyun:
     add_money:
       amount: Jumlah
       button: 'Isi ulang'
+      cost: 'Membutuhkan ￥{cost} (CNY)'
       title: 'Isi Ulang Dana'
     history:
       amount: '￥{amount}'

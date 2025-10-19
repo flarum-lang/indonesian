@@ -27,6 +27,7 @@ justoverclock-newsletter:
     newsLetterOptOutFooter: 'Tidak suka dengan email ini?'
     newsLetterOptOutFooterUnsubscribe: 'Berhenti berlangganan.'
     newsletterCountText: 'Buletin Anda akan dikirim ke semua pelanggan di atas.'
+    newsletterCountTextTwo: pengguna!
     noNewsletterSent: 'Tidak ada data'
     sendEmailButtonText: 'Kirim Email ke Semua Pelanggan'
     sendingText: Mengirim...

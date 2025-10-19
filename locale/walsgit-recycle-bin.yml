@@ -29,6 +29,7 @@ walsgit-recycle-bin:
     discussion_id: ID
     discussion_link_tooltip: 'Lihat diskusi'
     discussion_title: 'Judul Diskusi'
+    discussions_bin: 'Bin Diskusi'
     empty_list: 'Tidak ada diskusi di recycle bin.'
     grid:
       invalid_column_content: 'Konten tidak valid!'
@@ -70,6 +71,7 @@ walsgit-recycle-bin:
       id: ID
       open_post: Buka
       title: Teks
+    posts_bin: 'Bin Postingan'
     restore_discussion:
       confirmation: 'Apakah Anda yakin ingin memulihkan diskusi ini:'
       restore_button: 'Pulihkan diskusi ini'
