@@ -96,6 +96,7 @@ validation:
   prohibited_unless: 'Bidang :attribute dilarang kecuali :other ada di dalam :values.'
   regex: 'Format :attribute tidak valid.'
   required: 'Bidang :attribute harus diisi.'
+  required_array_keys: 'Array :attribute harus berisi entri untuk: :values.'
   required_if: 'Bidang :attribute harus diisi bila :other adalah :value.'
   required_unless: 'Bidang :attribute harus diisi, kecuali :other memiliki nilai :values.'
   required_with: 'Bidang :attribute harus diisi bila terdapat :values.'

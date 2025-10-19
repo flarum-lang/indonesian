@@ -32,6 +32,7 @@ foskym-oauth-center:
       edit_scope: 'Edit Cakupan'
       is_default: Default
       method: Metode
+      resource_path: 'Resource Path'
       scope: Cakupan
       scope_desc: Deskripsi
       scope_icon: Ikon
