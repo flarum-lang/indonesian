@@ -29,7 +29,7 @@ fof-anti-spam:
         delete_user_help: 'Ini akan menghapus pengguna secara permanen. Ketika dinonaktifkan, pengguna akan ditangguhkan.'
         delete_user_label: 'Hapus pengguna'
         heading: 'Tindakan moderasi bawaan'
-        introduction: "Ketika seorang pengguna ditandai sebagai spammer, moderator dapat memilih dari berbagai tindakan untuk menangani kasus tertentu. Pengaturan ini memungkinkan Anda untuk menetapkan tindakan yang biasanya akan diambil secara umum, guna mempercepat proses, namun juga memungkinkan penyesuaian sesuai kebutuhan.\n"
+        introduction: 'Ketika seorang pengguna ditandai sebagai spammer, moderator dapat memilih berbagai tindakan untuk menangani kasus penggunaan tertentu. Pengaturan ini memungkinkan Anda untuk menetapkan tindakan yang biasanya akan diambil secara default, guna mempercepat proses, namun juga memungkinkan penyesuaian sesuai kebutuhan.'
         move_discussions_to_tags_help: 'Ini akan memindahkan semua diskusi yang dimulai oleh pengguna ini ke tag yang Anda tentukan. Hapus pilihan tag untuk membiarkan diskusi tetap berada di tag aslinya. Tidak berpengaruh jika opsi ''Hapus diskusi'' diaktifkan.'
         move_discussions_to_tags_label: 'Memindahkan diskusi ke tag'
       stopforumspam:
