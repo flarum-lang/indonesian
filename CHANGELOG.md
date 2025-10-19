@@ -5,6 +5,12 @@ CHANGELOG
 1.32.0 (XXXX-XX-XX)
 -------------------
 
+**Perubahan umum**:
+
+* Memperbarui terjemahan untuk Flarum core.
+* Memperbarui terjemahan untuk validasi.
+
+
 **Menambahkan dukungan untuk ekstensi**:
 
 * [`capybash/magicbb`](https://github.com/capybash/magicbb)
@@ -14,21 +20,29 @@ CHANGELOG
 * [`datlechin/flarum-ai-summarize`](https://github.com/datlechin/flarum-ai-summarize)
 * [`datlechin/flarum-ai`](https://github.com/datlechin/flarum-ai)
 * [`foskym/flarum-pagination`](https://github.com/FoskyM/flarum-pagination)
+* [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page)
 * [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback)
 * [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
 * [`justoverclock/profile-comments`](https://github.com/justoverclockl/flarum-profile-comments)
 * [`klxf/flarum-maintenance`](https://github.com/klxf/flarum-maintenance)
 * [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
 * [`mshuo/reply-to-see`](https://github.com/MShuoo/reply-to-see)
+* [`muhammedsaidckr/flarum-chatgpt`](https://github.com/muhammedsaidckr/flarum-chatgpt)
 * [`startracex/flarum-dark`](https://github.com/startracex/flarum-dark)
+* [`xypp/collector`](https://github.com/zxy19/flarum-collector)
+* [`xypp/store-virtual-item`](https://github.com/zxy19/store-virtual-item)
 
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
 * [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
 * [`ordinaryjellyfish/flarum-dicebear`](https://github.com/OrdinaryJellyfish/flarum-dicebear)
 * [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
+* [`xypp/flarum-pay-cccyun`](https://flarum.org/extension/xypp/flarum-pay-cccyun)
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
 
 
 Semua perubahan: [1.31.0...1.32.0](https://github.com/flarum-lang/indonesian/compare/1.31.0...1.32.0).
