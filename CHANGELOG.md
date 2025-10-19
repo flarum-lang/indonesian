@@ -9,10 +9,12 @@ CHANGELOG
 
 * [`capybash/magicbb`](https://github.com/capybash/magicbb)
 * [`capybash/magicread`](https://github.com/capybash/magicread)
+* [`capybash/magicslider`](https://github.com/capybash/magicslider)
 * [`club-1/flarum-ext-content-permissions`](https://github.com/club-1/flarum-ext-content-permissions)
 * [`datlechin/flarum-ai-summarize`](https://github.com/datlechin/flarum-ai-summarize)
 * [`datlechin/flarum-ai`](https://github.com/datlechin/flarum-ai)
 * [`foskym/flarum-pagination`](https://github.com/FoskyM/flarum-pagination)
+* [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback)
 * [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
 * [`justoverclock/profile-comments`](https://github.com/justoverclockl/flarum-profile-comments)
 * [`klxf/flarum-maintenance`](https://github.com/klxf/flarum-maintenance)
@@ -25,6 +27,8 @@ CHANGELOG
 
 * [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
 * [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
+* [`ordinaryjellyfish/flarum-dicebear`](https://github.com/OrdinaryJellyfish/flarum-dicebear)
+* [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
 
 
 Semua perubahan: [1.31.0...1.32.0](https://github.com/flarum-lang/indonesian/compare/1.31.0...1.32.0).
