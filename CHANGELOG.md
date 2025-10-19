@@ -7,11 +7,24 @@ CHANGELOG
 
 **Menambahkan dukungan untuk ekstensi**:
 
+* [`capybash/magicbb`](https://github.com/capybash/magicbb)
+* [`capybash/magicread`](https://github.com/capybash/magicread)
 * [`club-1/flarum-ext-content-permissions`](https://github.com/club-1/flarum-ext-content-permissions)
+* [`datlechin/flarum-ai-summarize`](https://github.com/datlechin/flarum-ai-summarize)
+* [`datlechin/flarum-ai`](https://github.com/datlechin/flarum-ai)
+* [`foskym/flarum-pagination`](https://github.com/FoskyM/flarum-pagination)
 * [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
+* [`justoverclock/profile-comments`](https://github.com/justoverclockl/flarum-profile-comments)
 * [`klxf/flarum-maintenance`](https://github.com/klxf/flarum-maintenance)
+* [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
 * [`mshuo/reply-to-see`](https://github.com/MShuoo/reply-to-see)
 * [`startracex/flarum-dark`](https://github.com/startracex/flarum-dark)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
 
 
 Semua perubahan: [1.31.0...1.32.0](https://github.com/flarum-lang/indonesian/compare/1.31.0...1.32.0).
