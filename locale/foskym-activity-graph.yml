@@ -51,3 +51,7 @@ foskym-activity-graph:
         username_requests_username: 'Permintaan Perubahan Username'
       name_map: en
       total_times: 'Total {total} di tahun ini'
+  lib:
+    defaults:
+      times_display_format:
+        - Jumlah

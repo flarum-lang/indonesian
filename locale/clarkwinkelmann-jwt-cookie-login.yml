@@ -9,7 +9,8 @@ clarkwinkelmann-jwt-cookie-login:
       actorIdHelp: "Pengguna Flarum ini akan digunakan sebagai pelaksana untuk permintaan REST API internal yang membuat pengguna baru. Pengguna tersebut haruslah pengguna admin.\n"
       audience: 'JWT Audiens / ID Firebase Project'
       audienceHelp: 'Memvalidasi <code>aud</code> attribute pada token. Opsional jika tidak menggunakan Firebase'
-      authorizationHeaderHelp: 'Jika kolom ini dibiarkan kosong, <code>Authorization</code> header akan berisi <code>Token <JWT token></code>.'
+      authorizationHeader: 'Nilai header Authorization kustom'
+      authorizationHeaderHelp: 'Jika kolom ini dibiarkan kosong, header <code>Authorization</code> akan berisi <code>Token <JWT token></code>.'
       autoLoginDelay: 'Iframe Tersembunyi - Login Otomatis (milidetik)'
       autoLoginDelayHelp: "Selama berapa detik halaman diizinkan untuk di-refresh tanpa adanya interaksi pengguna jika iframe tersembunyi mengembalikan status login. Setelah melewati penundaan tersebut, pengguna akan menerima peringatan untuk menanyakan apakah mereka ingin me-refresh halaman.\n"
       cookieName: 'Nama Cookie'

@@ -16,10 +16,12 @@ shebaoting-dependency-collector:
     modal:
       create_tag_title: 'Membuat Tag Baru'
       edit_tag_title: 'Edit Tag - {name}'
+      tag_color_label: 'Warna (misalnya,'
       tag_description_label: 'Deskripsi (Opsional)'
       tag_icon_help: 'Temukan ikon di <a>Font Awesome</a>.'
-      tag_icon_label: 'Ikon (mis., fas fa-code)'
+      tag_icon_label: 'Ikon (misalnya, fas fa-code)'
       tag_name_label: Nama
+      tag_slug_label: Slug
     nav:
       description: 'Mengelola dependensi dan tag plugin yang dikirimkan.'
       title: 'Kolektor Dependensi'
@@ -47,6 +49,7 @@ shebaoting-dependency-collector:
       tag_icon: Ikon
       tag_item_count: Item
       tag_name: Nama
+      tag_slug: Slug
       tags: Tag
       title: Judul
   forum:

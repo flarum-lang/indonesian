@@ -12,6 +12,7 @@ justoverclock-profile-stories:
     uploadLabel: 'Upload banner untuk halaman story pengguna'
     uploadLabelHelp: 'Harap diingat bahwa gambar harus memiliki lebar minimal 1920px'
   forum:
+    StoryModalTitle: Story
     createStory: 'Buat story'
     editStoryModal: 'Edit story'
     editStoryModalBtn: Konfirmasi
@@ -19,6 +20,7 @@ justoverclock-profile-stories:
     globalStoriesDescription: 'Bagian ini berisi semua story yang dihasilkan oleh pengguna kami!'
     globalStoriesEmpty: 'Belum ada story.'
     globalStoriesTitle: 'Story pengguna'
+    heroTitle: Story
     nextPage: selanjutnya
     nextStepBtn: 'step selanjutnya'
     notifications:

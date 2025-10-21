@@ -79,6 +79,8 @@ xypp-store:
     query-modal:
       purchase:
         title: 'Beli Item'
+      use:
+        title: 'Gunakan Item'
     show_case: Etalase
     store: Toko
     time_segs: hari|jam|menit

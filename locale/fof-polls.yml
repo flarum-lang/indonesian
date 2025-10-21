@@ -122,6 +122,7 @@ fof-polls:
         add_title: 'Tambahkan Grup Polling'
         delete: 'Hapus Grup Polling'
         edit_title: 'Edit Grup Polling'
+        groups_manager: 'Pengelola Grup Polling'
         save_changes: '=> core.ref.save_changes'
         success: 'Grup polling berhasil disimpan.'
         view_group: 'Lihat Grup Polling'

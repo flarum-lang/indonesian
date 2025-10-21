@@ -24,6 +24,7 @@ foskym-custom-levels:
       min_exp_required: 'Exp Minimum yang Dibutuhkan'
       name: 'Nama Level'
     pages:
+      index: Beranda
       levels: Level
     permissions:
       edit_exp: 'Edit Exp Pengguna'

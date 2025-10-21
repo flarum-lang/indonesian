@@ -16,6 +16,7 @@ xypp-store-virtual-item:
       title: 'Buat item virtual'
     table:
       all: Semua
+      assign: Tetapkan
       check: '-'
       create: Buat
       delete: Hapus
