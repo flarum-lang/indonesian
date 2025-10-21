@@ -48,11 +48,14 @@ xypp-pay-cccyun:
     add_money:
       amount: Jumlah
       button: 'Isi ulang'
+      confirm: Bayar
       cost: 'Membutuhkan ￥{cost} (CNY)'
       title: 'Isi Ulang Dana'
     history:
       amount: '￥{amount}'
+      create: Dibuat
       expire: Kedaluwarsa
+      pay: Pembayaran
       status_expired: Kedaluwarsa
       status_pending: Tertunda
       status_success: Berhasil
@@ -69,10 +72,12 @@ xypp-pay-cccyun:
       qr: 'Pindai Kode QR untuk menyelesaikan pembayaran'
       qr-fail: 'Gagal memuat Kode QR'
       tip: 'Anda akan mengisi ulang {money} ke {u}'
+      title: Pembayaran
       wechat: 'Menghubungkan ke WeChat untuk membayar'
       window: 'Selesaikan pembayaran di jendela baru'
     recharge-modal:
       amount: Jumlah
+      confirm: Bayar
       money: 'Biaya ￥{amount}'
       title: 'Isi ulang'
   lib:

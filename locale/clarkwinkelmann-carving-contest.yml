@@ -15,7 +15,7 @@ clarkwinkelmann-carving-contest:
       participate: Berpartisipasi
       view: 'Lihat entri'
     settings:
-      colorMode: 'Gunakan mode warna alih-alih mode ukiran'
+      colorMode: 'Gunakan mode warna , daripada mode ukiran'
       maxEntriesPerUser: 'Maks pengajuan per pengguna'
   forum:
     likes_modal:

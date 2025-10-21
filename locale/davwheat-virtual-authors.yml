@@ -8,7 +8,7 @@ davwheat-virtual-authors:
       set_virtual_authors: 'Atur virtual author pada diskusi'
       view_virtual_authors_page: 'Lihat halaman detail semua virtual author'
     settings:
-      authors_in_sidebar: 'Tampilkan penulis di sidebar, alih-alih di atas postingan pertama'
+      authors_in_sidebar: 'Tampilkan penulis di sidebar, bukan di atas postingan pertama'
       authors_in_sidebar_help: 'Hal ini tidak berpengaruh pada ekstensi Blog.'
       auto_save_message: 'Membuat virtual author baru dan mengedit virtual author yang sudah ada akan tersimpan secara otomatis.'
       create_new: 'Membuat virtual author baru'

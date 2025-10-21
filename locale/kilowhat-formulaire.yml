@@ -29,7 +29,7 @@ kilowhat-formulaire:
       horizontal-layout-locations:
         discussionComposer: 'Area Penulisan Diskusi'
         discussionEdit: 'Jendela Modal Edit Diskusi'
-        discussionView: 'Wadah Tampilan Diskusi'
+        discussionView: 'Kotak Tampilan Diskusi'
         profileEdit: 'Halaman Edit Profil'
         profileView: 'Halaman Tampilan Profil'
         signUp: 'Jendela Modal Pendaftaran (hanya kolom Formulaire)'
@@ -71,9 +71,9 @@ kilowhat-formulaire:
     formatter-parsing-error: 'Tidak dapat mengurai konten: {message}'
     not-allowed-to-fill-field: 'Anda tidak diperkenankan untuk mengubah nilai dari kolom ini'
     unauthorized-form: 'Anda tidak memiliki izin yang diperlukan untuk mengisi formulir ID {id}'
-    unauthorized-scoped-form: 'Anda tidak dapat mengisi formulir ID {id} dengan kombinasi tag saat ini'
+    unauthorized-scoped-form: 'Anda tidak dapat mengisi ID formulir {id} dengan kombinasi tag saat ini'
     unknown-form: 'Formulir ID {id} tidak dikenal'
-    unsupported-discussion-form: 'Anda tidak dapat mengisi formulir ID {id} pada jenis diskusi ini'
+    unsupported-discussion-form: 'Anda tidak dapat mengisi ID formulir {id} pada jenis diskusi ini'
   forum:
     auto-discussion-options-modal:
       field:
@@ -138,14 +138,14 @@ kilowhat-formulaire:
         user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
         user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
       more-meta: 'Opsi meta lainnya'
-      option-keys: 'Tombol opsi ekspor alih-alih judul untuk kotak centang, radio, dan pilihan'
+      option-keys: 'Ekspor kunci opsi alih-alih judul untuk kotak centang, radio, dan pilihan'
       preview: Pratinjau
       preview-primitives:
         boolean-false: 'False'
         boolean-true: 'True'
         excel-date: '(EXCEL DATE)'
       submit: Download
-      title: 'Pengajuan ekspor'
+      title: 'Ekspor Pengajuan'
     form-create:
       button:
         create: 'Buat formulir'
@@ -249,7 +249,7 @@ kilowhat-formulaire:
         user: '=> kilowhat-formulaire.ref.type.user'
     form-sort:
       latest: 'Formulir baru'
-      oldest: 'Formulir paling lama'
+      oldest: 'Formulir terlama'
     global-settings:
       admin-only: 'Hanya administrator forum yang dapat mengedit pengaturan global'
       permissions:

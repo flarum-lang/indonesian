@@ -42,6 +42,7 @@ xypp-store:
     edit_button: Edit
     history:
       confirm_delete: 'Yakin ingin menghapus item yang telah Anda beli ini?'
+      confirm_use: 'Konfirmasi untuk menggunakan?'
       delete_button: Hapus
       expire: 'Kedaluwarsa pada {0}'
       forever: 'Tersedia selamanya'
@@ -51,6 +52,7 @@ xypp-store:
       rest_cnt: 'Dapat digunakan {0} kali'
       title: Pembelian
       unable_to_use: 'Item ini tidak dapat digunakan'
+      use: Penggunaan
     item:
       expire: 'Berlaku selama {0}'
       infinity_count: 'Tersedia tanpa batas'
@@ -74,6 +76,9 @@ xypp-store:
         not_enough_money: 'Uang tidak cukup'
         unknown: 'Error Tidak Diketahui'
       success: Sukses
+    query-modal:
+      purchase:
+        title: 'Beli Item'
     show_case: Etalase
     store: Toko
     time_segs: hari|jam|menit
