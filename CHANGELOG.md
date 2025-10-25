@@ -20,6 +20,7 @@ CHANGELOG
 * [`datlechin/flarum-ai-summarize`](https://github.com/datlechin/flarum-ai-summarize)
 * [`datlechin/flarum-ai`](https://github.com/datlechin/flarum-ai)
 * [`foskym/flarum-pagination`](https://github.com/FoskyM/flarum-pagination)
+* [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump)
 * [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page)
 * [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback)
 * [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
@@ -36,6 +37,7 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`afrux/forum-widgets-core`](https://github.com/afrux/forum-widgets-core)
+* [`blomstra/payments`](https://flarum.org/extension/blomstra/payments)
 * [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
 * [`clarkwinkelmann/flarum-ext-carving-contest`](https://github.com/clarkwinkelmann/flarum-ext-carving-contest)
 * [`clarkwinkelmann/flarum-ext-jwt-cookie-login`](https://github.com/clarkwinkelmann/flarum-ext-jwt-cookie-login)
