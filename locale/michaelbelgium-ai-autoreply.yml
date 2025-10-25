@@ -9,17 +9,19 @@ michaelbelgium-ai-autoreply:
     settings:
       api_key_help: 'Dapatkan API key dari <a>{platform}</a>.'
       api_key_label: 'API Key'
-      enable_on_discussion_started_help: 'Diskusi akan menerima jawaban berdasarkan konten posting pertama saat diskusi dimulai.'
+      enable_on_discussion_started_help: 'Saat diaktifkan, AI hanya membalas saat diskusi dimulai. Saat dinonaktifkan, diskusi menjadi obrolan antara OP dan asisten; asisten membalas setiap postingan OP.'
       enable_on_discussion_started_label: 'Aktifkan saat diskusi dimulai'
-      enabled_tags_help: 'Pilih tag mana yang akan digunakan untuk menghasilkan jawaban.'
-      enabled_tags_label: 'Tag Aktif'
+      enabled_tags_help: 'Pilih tag yang digunakan asisten untuk menghasilkan respons.'
+      enabled_tags_label: Tag
       max_tokens_help: '<a>Apa itu token dan bagaimana menghitungnya?</a>'
       max_tokens_label: 'Jumlah Token Maksimum'
       model_help: 'Pelajari lebih lanjut tentang <a>model {platform}</a> (default: <code>{model}</code>)..'
       model_label: Model
       platform_help: 'Pilih platform AI yang akan digunakan.'
       platform_label: Platform
-      user_prompt_badge_help: 'Teks yang akan ditampilkan di samping prompt pengguna.'
-      user_prompt_badge_label: 'Label Prompt Pengguna'
-      user_prompt_help: 'Masukkan ID pengguna yang akan digunakan untuk menghasilkan jawaban. Default adalah pengguna yang memulai diskusi.'
-      user_prompt_label: 'Prompt Pengguna'
+      temperature_help: 'Mengontrol keacakan. Rentangnya biasanya antara 0 dan 2, tetapi beberapa platform memiliki rentang lain.'
+      temperature_label: Suhu
+      user_prompt_badge_help: 'Teks yang akan ditampilkan di bawah asisten pengguna .'
+      user_prompt_badge_label: 'Badge asisten pengguna'
+      user_prompt_help: 'Masukkan ID pengguna yang akan digunakan untuk menghasilkan respons AI.'
+      user_prompt_label: 'Asisten pengguna'
