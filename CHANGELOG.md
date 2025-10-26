@@ -2,6 +2,72 @@ CHANGELOG
 =========
 
 
+1.32.0 (2025-10-26)
+-------------------
+
+**Perubahan umum**:
+
+* Memperbarui terjemahan untuk Flarum core.
+* Memperbarui terjemahan untuk validasi.
+
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`capybash/magicbb`](https://github.com/capybash/magicbb)
+* [`capybash/magicread`](https://github.com/capybash/magicread)
+* [`capybash/magicslider`](https://github.com/capybash/magicslider)
+* [`club-1/flarum-ext-content-permissions`](https://github.com/club-1/flarum-ext-content-permissions)
+* [`datlechin/flarum-ai-summarize`](https://github.com/datlechin/flarum-ai-summarize)
+* [`datlechin/flarum-ai`](https://github.com/datlechin/flarum-ai)
+* [`foskym/flarum-pagination`](https://github.com/FoskyM/flarum-pagination)
+* [`huseyinfiliz/bump`](https://github.com/huseyinfiliz/bump)
+* [`huseyinfiliz/custom-profile-page`](https://github.com/huseyinfiliz/custom-profile-page)
+* [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback)
+* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
+* [`justoverclock/profile-comments`](https://github.com/justoverclockl/flarum-profile-comments)
+* [`klxf/flarum-maintenance`](https://github.com/klxf/flarum-maintenance)
+* [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
+* [`mshuo/reply-to-see`](https://github.com/MShuoo/reply-to-see)
+* [`muhammedsaidckr/flarum-chatgpt`](https://github.com/muhammedsaidckr/flarum-chatgpt)
+* [`startracex/flarum-dark`](https://github.com/startracex/flarum-dark)
+* [`xypp/collector`](https://github.com/zxy19/flarum-collector)
+* [`xypp/store-virtual-item`](https://github.com/zxy19/store-virtual-item)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`afrux/forum-widgets-core`](https://github.com/afrux/forum-widgets-core)
+* [`blomstra/payments`](https://flarum.org/extension/blomstra/payments)
+* [`blomstra/trello`](https://github.com/blomstra/flarum-ext-trello)
+* [`clarkwinkelmann/flarum-ext-carving-contest`](https://github.com/clarkwinkelmann/flarum-ext-carving-contest)
+* [`clarkwinkelmann/flarum-ext-jwt-cookie-login`](https://github.com/clarkwinkelmann/flarum-ext-jwt-cookie-login)
+* [`clarkwinkelmann/flarum-ext-money-rewards`](https://github.com/clarkwinkelmann/flarum-ext-money-rewards)
+* [`davwheat/virtual-authors`](https://flarum.org/extension/davwheat/virtual-authors)
+* [`flarum/akismet`](https://github.com/flarum/akismet)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`foskym/flarum-activity-graph`](https://github.com/FoskyM/flarum-activity-graph)
+* [`foskym/flarum-custom-levels`](https://github.com/FoskyM/flarum-custom-levels)
+* [`foskym/flarum-issue-tracking`](https://github.com/FoskyM/flarum-issue-tracking)
+* [`foskym/flarum-oauth-center`](https://github.com/FoskyM/flarum-oauth-center)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
+* [`justoverclock/newsletter`](https://github.com/justoverclockl/newsletter)
+* [`justoverclock/profile-stories`](https://github.com/justoverclockl/profile-stories)
+* [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
+* [`mattoid/flarum-ext-store-invite`](https://github.com/Mattoids/flarum-ext-store-invite)
+* [`ordinaryjellyfish/flarum-dicebear`](https://github.com/OrdinaryJellyfish/flarum-dicebear)
+* [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
+* [`shebaoting/dependency-collector`](https://github.com/shebaoting/dependency-collector)
+* [`walsgit/recycle-bin`](https://github.com/WalsGit/recycle-bin)
+* [`xypp/flarum-pay-cccyun`](https://flarum.org/extension/xypp/flarum-pay-cccyun)
+* [`xypp/store`](https://github.com/zxy19/store)
+* [`yippy/flarum-tag-with-themes`](https://github.com/Yippy/flarum-tag-with-themes)
+
+
+Semua perubahan: [1.31.0...1.32.0](https://github.com/flarum-lang/indonesian/compare/1.31.0...1.32.0).
+
+
 1.31.0 (2025-09-14)
 -------------------
 
