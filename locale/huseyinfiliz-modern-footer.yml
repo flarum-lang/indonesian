@@ -41,9 +41,12 @@ huseyinfiliz-modern-footer:
       link-7: 'Link 3 - URL'
       link-8: 'Link 4 - URL'
       manage_footer_sections: 'Mengelola Bagian Footer'
-      mobile_tab_height: 'Tinggi Mobile Tab'
+      mobile_tab_height: 'Tinggi Tab Mobile'
       mobile_tab_height_help: 'Jika ekstensi Mobile Tab telah terpasang, Anda dapat menggunakan value: var(--mobile-tab-height)'
       right-text: 'Tentang Kami - Teks'
+      show_to_everyone: 'Tampilkan ke Semua Orang'
+      show_to_guests_only: 'Tampilkan ke Tamu Saja'
+      show_to_members_only: 'Tampilkan ke Anggota Saja'
       social_link: 'Link Sosial'
       social_media_button: 'Tombol Media Sosial'
       text: Teks
@@ -61,3 +64,4 @@ huseyinfiliz-modern-footer:
       title-2: 'Judul Link Utama'
       title-3: 'Judul Link Akhir'
       title-4: 'Tentang Kami - Judul'
+      visibility_mode: 'Mode Visibilitas Footer'
