@@ -63,6 +63,7 @@ fof-upload:
           media-btn: 'Hanya tombol pengelola media'
           upload-btn: 'Hanya upload button'
         title: Tombol
+      configured_by_environment: 'Pengaturan penyimpanan Anda telah dikonfigurasi secara default melalui variabel environment.'
       disable-download-logging:
         title: 'Nonaktifkan pencatatan download'
         toggle: Matikan
