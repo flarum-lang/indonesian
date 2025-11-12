@@ -2,15 +2,20 @@ CHANGELOG
 =========
 
 
-1.32.1 (XXXX-XX-XX)
+1.33.0 (XXXX-XX-XX)
 -------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+
 
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
 
 
-Semua perubahan: [1.32.0...1.32.1](https://github.com/flarum-lang/indonesian/compare/1.32.0...1.32.1).
+Semua perubahan: [1.32.0...1.33.0](https://github.com/flarum-lang/indonesian/compare/1.32.0...1.33.0).
 
 
 1.32.0 (2025-10-26)
