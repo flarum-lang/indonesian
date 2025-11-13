@@ -12,8 +12,9 @@ flectar-turnstile:
       signup: '=> core.forum.sign_up.title'
       site_key: 'Site key'
   forum:
+    error: 'Terjadi kesalahan saat memverifikasi bahwa Anda adalah manusia. Silakan coba lagi.'
     not_loaded_error: 'Gagal memuat Cloudflare Turnstile. Silakan refresh halaman, dan periksa adblocker Anda.'
     validation_error: 'Silakan selesaikan tantangan Turnstile.'
 validation:
-  required: 'Silakan selesaikan tantangan Turnstile.'
+  required: 'Silakan selesaikan Turnstile challenge.'
   turnstile: 'Kita tidak bisa memverifikasi apakah Anda robot atau bukan. Silakan refresh halaman dan coba lagi.'
