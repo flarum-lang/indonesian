@@ -61,6 +61,7 @@ fof-gamification:
         rate_limit: 'Terapkan batas kecepatan dalam memberikan vote (10 detik)'
         title: Vote
         upvotes_only: 'Hanya diizinkan untuk memberikan Dukung Naik'
+        vote_color: 'Warna yang terpilih'
     permissions:
       downvote_notifications: 'Menerima notifikasi tentang Dukung Turun'
       see_ranking_page: 'Melihat halaman peringkat'
