@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.33.0 (2025-11-16)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
+* [`huseyinfiliz/modern-footer`](https://github.com/huseyinfiliz/modern-footer)
+
+
+Semua perubahan: [1.32.0...1.33.0](https://github.com/flarum-lang/indonesian/compare/1.32.0...1.33.0).
+
+
 1.32.0 (2025-10-26)
 -------------------
 
