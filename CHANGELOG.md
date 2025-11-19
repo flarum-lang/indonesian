@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.33.1 (XXXX-XX-XX)
+-------------------
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+
+
+Semua perubahan: [1.33.0...1.33.1](https://github.com/flarum-lang/indonesian/compare/1.33.0...1.33.1).
+
+
 1.33.0 (2025-11-16)
 -------------------
 
