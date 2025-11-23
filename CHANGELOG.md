@@ -2,15 +2,20 @@ CHANGELOG
 =========
 
 
-1.33.1 (XXXX-XX-XX)
+1.34.0 (XXXX-XX-XX)
 -------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem)
+
 
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
 
 
-Semua perubahan: [1.33.0...1.33.1](https://github.com/flarum-lang/indonesian/compare/1.33.0...1.33.1).
+Semua perubahan: [1.33.0...1.34.0](https://github.com/flarum-lang/indonesian/compare/1.33.0...1.34.0).
 
 
 1.33.0 (2025-11-16)
