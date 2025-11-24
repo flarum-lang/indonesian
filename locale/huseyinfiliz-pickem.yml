@@ -13,6 +13,8 @@ huseyinfiliz-pickem:
       recalc_confirm: 'Apakah Anda yakin? Proses ini berjalan di latar belakang.'
       recalc_help: 'Menghitung ulang semua skor berdasarkan hasil pertandingan. Berjalan di latar belakang.'
       recalc_queued: 'Penghitungan ulang telah masuk antrean.'
+      reverse_display_help: 'Jika diaktifkan, tim Tandang akan ditampilkan di sebelah kiri (atau atas) dan tim Kandang di sebelah kanan (atau bawah). Mengikuti format olahraga Amerika (Tandang @ Kandang).'
+      reverse_display_label: 'Balik Tampilan Kandang/Tandang'
   forum:
     notification: 'Hasil: {home} {hScore} - {aScore} {away}'
     picks:
@@ -59,8 +61,11 @@ huseyinfiliz-pickem:
       home_team: 'Tim Kandang'
       logo_url: 'URL Logo'
       name: Nama
+      no_week: 'Tidak Ada Pekan'
+      search_team: 'Cari Tim...'
       select_season: 'Pilih Musim'
       select_team: 'Pilih Tim'
+      select_week: 'Pilih Pekan'
       slug: Slug
       start_date: 'Tanggal Mulai'
     headers:
