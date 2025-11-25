@@ -20,6 +20,8 @@ ordinaryjellyfish-sentra:
         severity_level_unknown: 'Tidak diketahui'
       requires: 'Membutuhkan <b>{services}</b>'
       requires_error: 'Aktifkan dan konfigurasikan semua layanan yang diperlukan untuk menggunakan modul ini.'
+    permissions:
+      bypass: 'Bypass Sentra'
     services:
       content_safety: 'Azure AI Content Safety'
       content_safety_help: 'Azure AI Content Safety adalah layanan yang mendeteksi potensi konten yang menyinggung atau tidak diinginkan dalam teks dan gambar.'
