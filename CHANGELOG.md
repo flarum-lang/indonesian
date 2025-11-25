@@ -12,9 +12,13 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+* [`foskym/flarum-issue-tracking`](https://github.com/FoskyM/flarum-issue-tracking)
 * [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
 * [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
+* [`xypp/flarum-pay-cccyun`](https://flarum.org/extension/xypp/flarum-pay-cccyun)
 
 
 Semua perubahan: [1.33.0...1.34.0](https://github.com/flarum-lang/indonesian/compare/1.33.0...1.34.0).
