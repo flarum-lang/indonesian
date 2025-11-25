@@ -145,9 +145,18 @@ flarum-extension-manager:
     attributes:
       bearer: 'HTTP Bearer'
       'bearer.*': 'HTTP Bearer'
+      extension_id: 'ID ekstensi'
       github_oauth: 'GitHub OAuth'
       'github_oauth.*': 'GitHub OAuth'
       gitlab_oauth: 'GitLab OAuth'
       'gitlab_oauth.*': 'GitLab OAuth'
       gitlab_token: 'GitLab Token'
       'gitlab_token.*': 'GitLab Token'
+      minimum_stability: 'stabilitas minimum'
+      package: paket
+      repositories: repositori
+      'repositories.*': repositori
+      'repositories.*.type': 'jenis repositori'
+      'repositories.*.url': 'URL repositori'
+      update_mode: 'mode pembaruan'
+      version: versi

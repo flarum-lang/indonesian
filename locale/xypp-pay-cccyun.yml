@@ -67,6 +67,7 @@ xypp-pay-cccyun:
       back: Kembali
       done: Selesai
       invalid-amount: 'Jumlah yang tidak valid (antara {min} dan {max} diperbolehkan)'
+      no-limit: '[apa pun]'
       open_wechat: 'Jika tidak ada pembayaran yang muncul, klik di sini.'
       open_window: 'Jika tidak ada jendela popup, klik di sini.'
       qr: 'Pindai Kode QR untuk menyelesaikan pembayaran'

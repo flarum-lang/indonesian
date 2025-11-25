@@ -89,5 +89,10 @@ flarum-tags:
     tags: Tag
   validation:
     attributes:
+      color: warna
+      description: deskripsi
+      is_hidden: tersembunyi
+      name: nama
+      slug: slug
       tag_count_primary: '=> validation.attributes.tag_count_primary'
       tag_count_secondary: '=> validation.attributes.tag_count_secondary'

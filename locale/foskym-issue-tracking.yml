@@ -46,6 +46,9 @@ foskym-issue-tracking:
     last_updated: 'Terakhir diperbarui {time}'
     new_issue: 'Issue Baru'
     progress: Progres
+    provider:
+      error:
+        title: 'Kesalahan Provider'
     sort:
       latest_button: Terkini
       newest_button: Terbaru
