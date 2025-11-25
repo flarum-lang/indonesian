@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
 * [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
+* [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
 
 
 Semua perubahan: [1.33.0...1.34.0](https://github.com/flarum-lang/indonesian/compare/1.33.0...1.34.0).
