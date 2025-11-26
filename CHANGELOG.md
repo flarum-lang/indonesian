@@ -15,8 +15,10 @@ CHANGELOG
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`foskym/flarum-issue-tracking`](https://github.com/FoskyM/flarum-issue-tracking)
 * [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
+* [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
 * [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
 * [`xypp/flarum-pay-cccyun`](https://flarum.org/extension/xypp/flarum-pay-cccyun)
 
