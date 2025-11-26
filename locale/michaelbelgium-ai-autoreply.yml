@@ -19,6 +19,9 @@ michaelbelgium-ai-autoreply:
       model_label: Model
       platform_help: 'Pilih platform AI yang akan digunakan.'
       platform_label: Platform
+      system_prompt_help: 'Berikan konteks dan instruksi kepada Asisten, seperti menentukan tujuan atau peran tertentu.'
+      system_prompt_label: 'Prompt sistem'
+      system_prompt_placeholder: 'Anda adalah asisten yang membantu di forum Flarum.'
       temperature_help: 'Mengontrol keacakan. Rentangnya biasanya antara 0 dan 2, tetapi beberapa platform memiliki rentang lain.'
       temperature_label: Suhu
       user_prompt_badge_help: 'Teks yang akan ditampilkan di bawah asisten pengguna .'
