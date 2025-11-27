@@ -14,6 +14,7 @@ CHANGELOG
 
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
 * [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
 * [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 * [`foskym/flarum-issue-tracking`](https://github.com/FoskyM/flarum-issue-tracking)
