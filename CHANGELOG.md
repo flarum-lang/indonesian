@@ -2,6 +2,31 @@ CHANGELOG
 =========
 
 
+1.34.0 (2025-11-28)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/default-user-preferences`](https://github.com/FriendsOfFlarum/default-user-preferences)
+* [`fof/horizon`](https://github.com/FriendsOfFlarum/horizon)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
+* [`foskym/flarum-issue-tracking`](https://github.com/FoskyM/flarum-issue-tracking)
+* [`glowingblue/redis-setup`](https://github.com/glowingblue/flarum-ext-redis-setup)
+* [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
+* [`ordinaryjellyfish/sentra`](https://github.com/OrdinaryJellyfish/sentra)
+* [`xypp/flarum-pay-cccyun`](https://flarum.org/extension/xypp/flarum-pay-cccyun)
+
+
+Semua perubahan: [1.33.0...1.34.0](https://github.com/flarum-lang/indonesian/compare/1.33.0...1.34.0).
+
+
 1.33.0 (2025-11-16)
 -------------------
 
