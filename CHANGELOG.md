@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.34.1 (XXXX-XX-XX)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`songnguxyz/oauth-mediawiki`](https://github.com/songnguxyz/flarum-ext-oauth-mediawiki)
+
+
+Semua perubahan: [1.34.0...1.34.1](https://github.com/flarum-lang/indonesian/compare/1.34.0...1.34.1).
+
+
 1.34.0 (2025-11-28)
 -------------------
 
