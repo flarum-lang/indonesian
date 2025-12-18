@@ -10,6 +10,14 @@ CHANGELOG
 * [`songnguxyz/oauth-mediawiki`](https://github.com/songnguxyz/flarum-ext-oauth-mediawiki)
 
 
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`fof/sentry`](https://github.com/FriendsOfFlarum/sentry)
+* [`huseyinfiliz/pickem`](https://github.com/huseyinfiliz/pickem)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
+
+
 Semua perubahan: [1.34.0...1.34.1](https://github.com/flarum-lang/indonesian/compare/1.34.0...1.34.1).
 
 
