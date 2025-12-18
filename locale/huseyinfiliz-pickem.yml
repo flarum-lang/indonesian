@@ -68,6 +68,7 @@ huseyinfiliz-pickem:
       select_week: 'Pilih Pekan'
       slug: Slug
       start_date: 'Tanggal Mulai'
+      week_number: 'Nomor Pekan'
     headers:
       accuracy: Akurasi
       correct: Benar
@@ -79,6 +80,7 @@ huseyinfiliz-pickem:
       rank: Peringkat
       slug: Slug
       total: Total
+      week_number: 'Nomor Pekan'
     messages:
       delete_confirm: 'Apakah Anda yakin ingin menghapus ini?'
       deleted: 'Berhasil dihapus.'

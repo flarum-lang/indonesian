@@ -7,11 +7,17 @@ ianm-log-viewer:
     permissions:
       access_logfile_api: 'Mengakses data file log melalui API'
     settings:
+      max-file-size: 'Ukuran Maksimum File Log (MB)'
+      max-file-size-help: 'Jika ukuran file log melebihi batas ini, file tersebut akan dibagi menjadi beberapa bagian. Atur ke 0 untuk menonaktifkan pembagian. Nilai default adalah 1MB. Ukuran maksimum yang diizinkan adalah 150MB.'
       purge-days: 'Bersihkan file log setelah beberapa hari'
       purge-days-help: 'Bergantung pada Flarum scheduler yang aktif. 0 untuk dinonaktifkan.'
     viewer:
       available_logs_heading: 'File yang tersedia'
+      confirm_delete: 'Apakah Anda yakin ingin menghapus file log ini? Tindakan ini tidak dapat dibatalkan.'
+      delete_log: 'Hapus file log'
+      download_log: 'Download file log'
       file_contents_heading: 'Isi file'
       file_size: 'Ukuran (byte): {size}'
       last_updated: 'Terakhir diperbarui: {updated}'
       no_file_selected: 'Pilih file log untuk melihat isinya.'
+      view_log: 'Lihat file log'

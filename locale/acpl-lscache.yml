@@ -23,6 +23,7 @@ acpl-lscache:
     serve_stale_label: 'Sajikan Konten Yang Sudah Usang'
     status_codes_cache_help: 'Tentukan kode status HTTP dan jumlah detik untuk menyimpan cache halaman tersebut, dipisahkan dengan spasi. Satu per baris.'
     status_codes_cache_label: 'Kode Status HTTP Default Halaman TTL'
+    test_failed_alert: 'Sepertinya server Anda tidak mendukung LSCache. Periksa konfigurasi server Anda. Server yang terdeteksi: <b>{server}</b>, jenis LiteSpeed yang terdeteksi: <b>{type}</b>.'
   forum:
     purge:
       discussion: '=> acpl-lscache.ref.purge_cache'
