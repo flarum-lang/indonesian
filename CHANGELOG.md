@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.34.2 (XXXX-XX-XX)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+
+
+Semua perubahan: [1.34.1...1.34.2](https://github.com/flarum-lang/indonesian/compare/1.34.1...1.34.2).
+
+
 1.34.1 (2025-12-19)
 -------------------
 
