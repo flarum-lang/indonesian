@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.34.2 (2025-12-29)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings)
+* [`huoxin/relative-url`](https://github.com/huoxin233/flarum-ext-relative-url)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`fof/github-sponsors`](https://github.com/FriendsOfFlarum/github-sponsors)
+* [`fof/open-collective`](https://github.com/FriendsOfFlarum/open-collective)
+
+
+Semua perubahan: [1.34.1...1.34.2](https://github.com/flarum-lang/indonesian/compare/1.34.1...1.34.2).
+
+
 1.34.1 (2025-12-19)
 -------------------
 
