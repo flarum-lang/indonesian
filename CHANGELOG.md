@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.34.2 (XXXX-XX-XX)
+1.34.2 (2025-12-29)
 -------------------
 
 **Menambahkan dukungan untuk ekstensi**:
