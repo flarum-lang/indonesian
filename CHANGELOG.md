@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.34.3 (XXXX-XX-XX)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
+
+
+Semua perubahan: [1.34.2...1.34.3](https://github.com/flarum-lang/indonesian/compare/1.34.2...1.34.3).
+
+
 1.34.2 (2025-12-29)
 -------------------
 
