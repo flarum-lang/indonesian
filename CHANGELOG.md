@@ -8,6 +8,7 @@ CHANGELOG
 **Menambahkan dukungan untuk ekstensi**:
 
 * [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
+* [`forumaker/magicread`](https://github.com/forumaker/magicread)
 
 
 Semua perubahan: [1.34.2...1.34.3](https://github.com/flarum-lang/indonesian/compare/1.34.2...1.34.3).
