@@ -5,7 +5,7 @@
 ianm-log-viewer:
   admin:
     permissions:
-      access_logfile_api: 'Mengakses data file log melalui API'
+      access_logfile_api: 'Lihat dan kelola berkas log'
     settings:
       max-file-size: 'Ukuran Maksimum File Log (MB)'
       max-file-size-help: 'Jika ukuran file log melebihi batas ini, file tersebut akan dibagi menjadi beberapa bagian. Atur ke 0 untuk menonaktifkan pembagian. Nilai default adalah 1MB. Ukuran maksimum yang diizinkan adalah 150MB.'

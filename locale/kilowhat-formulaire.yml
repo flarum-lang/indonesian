@@ -39,6 +39,10 @@ kilowhat-formulaire:
       noByobuFields: 'Jangan mengintegrasikan bidang diskusi dengan diskusi pribadi dari ekstensi Byobu'
       noByobuFieldsHelp: 'Secara default, bidang diskusi yang tidak diberi tag akan berlaku untuk semua diskusi termasuk diskusi pribadi.'
       radio-style: 'Gaya radio'
+      replacementPatternLocale: 'Bahasa yang digunakan saat menerapkan pola penggantian (replacement pattern)'
+      replacementPatternLocaleHelp: "Opsi default \"auto\" berarti bahasa pengguna yang mengirimkan formulir akan digunakan jika tidak ada antrean aktif. Jika ada antrean aktif, maka bahasa default forum yang digunakan. Pengaturan ini memengaruhi email notifikasi dan pembuatan diskusi otomatis.\n"
+      replacementPatternLocaleOptions:
+        auto: Otomatis
       side-nav-on-submission: 'Tampilkan navigasi samping pada halaman pengajuan'
       style-options:
         far-circle: 'Ikon FontAwesome Regular Circle'
@@ -48,6 +52,10 @@ kilowhat-formulaire:
         native: 'Kontrol bawaan browser'
         switch: 'Tombol peralihan Flarum'
       title: 'Pengaturan global formulir'
+      translateManually: 'Aktifkan terjemahan formulir secara manual'
+      translateManuallyHelp: "Ketika pengaturan ini aktif, nama field dapat diterjemahkan langsung di antarmuka pengelola formulir (Form Manager UI). Beberapa bahasa harus sudah diaktifkan di forum Anda.\n"
+      translateWithTranslator: 'Aktifkan terjemahan formulir menggunakan Flarum Translator API'
+      translateWithTranslatorHelp: "Ketika pengaturan ini aktif, nama field dapat disesuaikan melalui local extenders dan paket bahasa. Lihat dokumentasi untuk cara menggunakan fitur ini.\n"
       uniformComposerLayout: 'Tata letak penulisan diskusi yang seragam'
       uniformComposerLayoutHelp: "Mengubah gaya tag, judul, dan bidang konten agar sesuai dengan Formulaire. Tata letak ini akan membutuhkan lebih banyak ruang, jadi Anda disarankan untuk menginstal dan mengaktifkan ekstensi <a>Composer Page</a>.\n"
   api:
@@ -64,7 +72,9 @@ kilowhat-formulaire:
         user_activated: '=> kilowhat-formulaire.ref.submission-meta.user_activated'
         user_displayname: '=> kilowhat-formulaire.ref.submission-meta.user_displayname'
         user_email: '=> kilowhat-formulaire.ref.submission-meta.user_email'
+        user_groups: '=> kilowhat-formulaire.ref.submission-meta.user_groups'
         user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
+        user_joined_at: '=> kilowhat-formulaire.ref.submission-meta.user_joined_at'
         user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
     file-already-belongs-form: 'File {id} milik formulir lain'
     file-already-belongs-submission: 'File {id} milik pengajuan lain'
@@ -135,7 +145,9 @@ kilowhat-formulaire:
         user_activated: '=> kilowhat-formulaire.ref.submission-meta.user_activated'
         user_displayname: '=> kilowhat-formulaire.ref.submission-meta.user_displayname'
         user_email: '=> kilowhat-formulaire.ref.submission-meta.user_email'
+        user_groups: '=> kilowhat-formulaire.ref.submission-meta.user_groups'
         user_id: '=> kilowhat-formulaire.ref.submission-meta.user_id'
+        user_joined_at: '=> kilowhat-formulaire.ref.submission-meta.user_joined_at'
         user_username: '=> kilowhat-formulaire.ref.submission-meta.user_username'
       more-meta: 'Opsi meta lainnya'
       option-keys: 'Ekspor kunci opsi alih-alih judul untuk kotak centang, radio, dan pilihan'
@@ -175,19 +187,21 @@ kilowhat-formulaire:
         slug: 'Slug URL khusus (opsional)'
       hide: Hapus
       restore: Pulihkan
+      show-advanced-attributes: 'Tampilkan atribut lanjutan...'
       tabs:
         access: Akses
         notifications: Notifikasi
         placement: Penempatan
         submissions: Pengajuan
         template: Template
+        translate: Terjemahkan
       template-export: 'Impor/ekspor template'
     form-edit:
       auto-discussion-options: 'Opsi untuk diskusi baru'
       email-confirmation-options: 'Template email konfirmasi'
       email-notification-options: 'Template email pemberitahuan'
       exiting-with-unsaved-data: 'Anda memiliki perubahan yang belum disimpan. Apakah Anda benar-benar ingin keluar dari halaman?'
-      expert-mode-warning: "Mode expert diaktifkan. Hal ini memungkinkan Anda untuk menyesuaikan pengenal kolom dan izin per kolom. Pastikan Anda membaca dokumentasi tentang fitur-fitur tersebut, karena Anda mungkin akan merusaknya!\n"
+      expert-mode-warning: "Atribut bidang lanjutan terlihat. Pastikan Anda membaca dokumentasi tentang fitur-fitur tersebut, karena Anda mungkin dapat merusak sesuatu!\n"
       field:
         accept-submissions: 'Terima pengajuan baru'
         allow-modification: 'Izinkan pengguna untuk mengedit pengajuan mereka yang sudah ada'
@@ -201,6 +215,9 @@ kilowhat-formulaire:
         permission-edit-own: 'Mengedit pengajuan sendiri'
         permission-see-any: 'Melihat pengajuan apa pun'
         permission-see-own: 'Melihat pengajuan sendiri'
+        require-submission:
+          switch: 'Harus mengirimkan formulir untuk menggunakan forum'
+          warning: 'Setelah menyimpan, pengguna dengan formulir yang belum lengkap akan diblokir dari forum hingga mereka mengirimkan kembali. Lanjutkan?'
         send-confirmation-to-participants: 'Mengirimkan email konfirmasi kepada peserta'
         show-on-creation:
           discussion: 'Tampilkan dalam area penulisan diskusi'
@@ -222,6 +239,7 @@ kilowhat-formulaire:
       warnings:
         auto-link-permission-warning: "Formulir dengan opsi \"secara otomatis membuat diskusi\" menggunakan izin pengisian global ketika diakses secara mandiri.\n"
         linked-form-is-draft: "Formulir ini saat ini dalam mode konsep. Aktifkan di bawah \"Akses\" agar kolom dapat muncul di forum.\n"
+        require-submission-invalid-permissions: "Anda perlu mengatur izin “lihat sendiri” dan “edit sendiri” untuk anggota yang belum disetujui agar dapat menggunakan fitur “harus mengirimkan formulir untuk menggunakan forum”.\n"
         show-on-composer-invalid-permissions: "Pastikan izin \"lihat sendiri\" dan \"edit sendiri\" sesuai dengan siapa yang dapat memulai diskusi dengan tag yang dipilih untuk menggunakan \"tampilkan di area penulisan\". Atur ke \"anggota\" jika tidak yakin. Pesan ini dapat muncul meskipun pengaturan Anda sudah benar.\n"
         show-on-signup-invalid-permissions: "Anda perlu menyetel izin \"lihat milik sendiri\" dan \"edit milik sendiri\" kepada anggota yang tidak disetujui untuk menggunakan \"tampilkan saat mendaftar\".\n"
     form-index:
@@ -270,6 +288,7 @@ kilowhat-formulaire:
       forms: '=> kilowhat-formulaire.ref.manager'
     options-editor:
       columns:
+        defaultValue: 'Secara default'
         key: '(Expert) Kunci unik'
         title: Judul
       new-placeholder: 'Opsi baru...'
@@ -279,6 +298,9 @@ kilowhat-formulaire:
       everyone_button: '=> core.admin.permissions_controls.everyone_button'
       inherit: 'Gunakan default'
       members_button: 'Anggota aktif'
+    require-submission-alert:
+      action: 'Buka Formulir'
+      message: 'Kami telah membatasi akses ke akun Anda untuk sementara waktu sampai Anda mengisi formulir “{title}”.'
     rich-text:
       preview-placeholder: 'Mulai mengetik untuk pratinjau'
     save-controls:
@@ -290,6 +312,11 @@ kilowhat-formulaire:
       validation-errors: 'Kami menemukan beberapa kesalahan dalam pengajuan Anda'
     select:
       choose: 'Pilih sebuah opsi'
+    show-advanced-attributes-modal:
+      attribute:
+        fillPermission: 'Izin pengisian'
+      close: Tutup
+      title: 'Tampilkan atribut field lanjutan'
     submission-index:
       columns:
         actions: Tindakan
@@ -321,6 +348,7 @@ kilowhat-formulaire:
       unlock: 'Buka Kunci'
     template-editor:
       add-field: 'Tambahkan kolom'
+      defaultValue: 'Nilai default'
       delete: 'Hapus kolom'
       description: Deskripsi
       duplicate: 'Duplikat kolom'
@@ -349,6 +377,9 @@ kilowhat-formulaire:
         select: Dropdown
         short: 'Teks pendek'
         upload: Upload
+    translate:
+      option-heading: 'Opsi #{number}'
+      switch-tab-to-edit: 'Beralih ke tab Template untuk mengubah konfigurasi field'
     upload-editor:
       remove: 'Hapus file'
       uploading: Mengupload...
@@ -381,7 +412,9 @@ kilowhat-formulaire:
       user_activated: 'Akun Aktif'
       user_displayname: 'Nama Tampilan Pengguna'
       user_email: 'Email Pengguna'
+      user_groups: 'Grup Pengguna'
       user_id: 'ID Pengguna'
+      user_joined_at: 'Tanggal Pendaftaran Pengguna'
       user_username: '=> core.ref.username'
     type:
       discussion: 'Kolom diskusi'

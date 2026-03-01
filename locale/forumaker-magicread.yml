@@ -7,7 +7,9 @@ forumaker-magicread:
     settings:
       enable_counter: 'Penghitung karakter real-time di Editor'
       enable_pagination: 'Paginasi dalam diskusi'
+      enable_readmore: 'Baca lebih lanjut pratinjau di halaman profil'
       section_main: Pengaturan
   forum:
     counter:
       label: Karakter
+    read_more: 'Baca lebih lanjut'
