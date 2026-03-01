@@ -57,6 +57,12 @@ core:
     dashboard:
       clear_cache_button: 'Hapus Cache'
       description: 'Sekilas tentang forum Anda.'
+      info_button: 'Info Sistem'
+      info_modal:
+        copy_button: 'Salin ke Clipboard'
+        copy_error: 'Gagal menyalin ke clipboard'
+        copy_success: 'Informasi sistem telah disalin ke clipboard'
+        title: 'Informasi Sistem'
       io_error_message: 'Tidak dapat menulis ke filesystem. Periksa izin filesystem Anda dan coba lagi. Atau coba jalankan dari command line.'
       status:
         headers:
