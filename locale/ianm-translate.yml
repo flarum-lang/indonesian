@@ -152,6 +152,8 @@ ianm-translate:
   forum:
     composer:
       multi-languages: 'Petunjuk: Anda dapat mengetikkan pilihan bahasa Anda, forum akan menerjemahkannya untuk Anda.'
+    composer_edit:
+      language: 'Perbarui konten terjemahan dalam {language}'
     detected-language: 'Post ini dalam bahasa {postLang}'
     discussion:
       post:
@@ -165,6 +167,9 @@ ianm-translate:
       discussion:
         title: 'Mengelola terjemahan judul diskusi'
       original-language: 'Bahasa asli ({detectedLang})'
+      poll-group:
+        name: 'Nama grup'
+        title: 'Kelola terjemahan grup polling'
       poll:
         image-alt: 'Teks ALT gambar (jika ada)'
         option: 'Opsi {number}'
@@ -203,5 +208,6 @@ ianm-translate:
       google-cloud: 'Google Cloud Translate'
       google-free: 'Google Translate'
       libre: 'Libre Translate'
+      openai: OpenAI
     settings:
       api-key: 'Kunci API'

@@ -291,6 +291,7 @@ kilowhat-formulaire:
         defaultValue: 'Secara default'
         key: '(Expert) Kunci unik'
         title: Judul
+        titleTranslationKey: '(Expert) Kunci terjemahan'
       new-placeholder: 'Opsi baru...'
       remove: 'Hapus opsi'
     permission-controls:
@@ -315,6 +316,8 @@ kilowhat-formulaire:
     show-advanced-attributes-modal:
       attribute:
         fillPermission: 'Izin pengisian'
+        key: Kunci
+        translationKey: 'Kunci terjemahan'
       close: Tutup
       title: 'Tampilkan atribut field lanjutan'
     submission-index:
@@ -348,9 +351,11 @@ kilowhat-formulaire:
       unlock: 'Buka Kunci'
     template-editor:
       add-field: 'Tambahkan kolom'
+      contentTranslationKey: '(Expert) Kunci terjemahan konten'
       defaultValue: 'Nilai default'
       delete: 'Hapus kolom'
       description: Deskripsi
+      descriptionTranslationKey: '(Expert) Kunci terjemahan deskripsi'
       duplicate: 'Duplikat kolom'
       email: Email
       fill-permission: '(Expert) Isi perizinan'
@@ -366,6 +371,7 @@ kilowhat-formulaire:
       required: Dibutuhkan
       rich: 'Rich text (TextFormatter)'
       title: Judul
+      titleTranslationKey: '(Expert) Kunci terjemahan judul'
       type:
         checkbox: 'Kotak centang'
         content: Konten
