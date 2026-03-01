@@ -19,7 +19,16 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`datitisev/flarum-maintenance`](https://flarum.org/extension/datitisev/flarum-maintenance)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`ianm/follow-users`](https://github.com/imorland/follow-users)
+* [`ianm/log-viewer`](https://github.com/imorland/flarum-ext-log-viewer)
+* [`ianm/translate`](https://flarum.org/extension/ianm/translate)
+* [`kilowhat/flarum-ext-formulaire`](https://flarum.org/extension/kilowhat/flarum-ext-formulaire)
+* [`kilowhat/flarum-ext-rich-embeds`](https://flarum.org/extension/kilowhat/flarum-ext-rich-embeds)
+* [`kilowhat/flarum-ext-wordpress`](https://flarum.org/extension/kilowhat/flarum-ext-wordpress)
 
 
 Semua perubahan: [1.34.2...1.34.3](https://github.com/flarum-lang/indonesian/compare/1.34.2...1.34.3).
