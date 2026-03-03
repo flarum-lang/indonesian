@@ -21,6 +21,7 @@ ianm-translate:
       source:
         code: 'Didefinisikan dalam kode'
         database: 'Disimpan di database'
+        default: 'Terintegrasi secara default'
       terms:
         current: '{count, plural, one {# istilah} other {# istilah}} saat ini didefinisikan'
     permission:
