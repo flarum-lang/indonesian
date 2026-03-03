@@ -20,6 +20,7 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`datitisev/flarum-maintenance`](https://flarum.org/extension/datitisev/flarum-maintenance)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
 * [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
 * [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
