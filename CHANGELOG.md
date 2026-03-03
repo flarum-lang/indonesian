@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.34.4 (XXXX-XX-XX)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`import-ai/flarum-webhook`](https://github.com/import-ai/flarum-webhook)
+
+
+Semua perubahan: [1.34.3...1.34.4](https://github.com/flarum-lang/indonesian/compare/1.34.3...1.34.4).
+
+
 1.34.3 (2026-03-03)
 -------------------
 
