@@ -17,7 +17,7 @@
 		"source": "https://github.com/flarum-lang/indonesian"
 	},
 	"require": {
-		"flarum/core": "^1.7"
+		"flarum/core": "^2.0"
 	},
 	"minimum-stability": "dev",
 	"prefer-stable": true,
