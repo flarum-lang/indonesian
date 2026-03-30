@@ -20,9 +20,15 @@ fof-badges:
     category_enabled: Diaktifkan
     category_enabled_help: 'Kategori yang dinonaktifkan beserta badgenya tidak akan muncul dalam daftar badge.'
     category_name: Nama
+    create_badge: 'Buat Badge'
+    create_category: 'Buat Kategori'
     delete: Hapus
+    delete_badge_confirm: 'Apakah Anda yakin ingin menghapus badge "{name}"? Tindakan ini juga akan menghapusnya dari semua pengguna yang telah mendapatkannya.'
+    delete_category_confirm: 'Apakah Anda yakin ingin menghapus kategori "{name}"?'
+    delete_category_confirm_with_badges: 'Apakah Anda yakin ingin menghapus kategori "{name}"? {count, plural, one {# badge} other {# badges}} akan menjadi tidak terkategori.'
     disabled: Dinonaktifkan
     edit: Edit
+    edit_badge: 'Edit Badge'
     edit_category: 'Edit Kategori'
     enabled: Diaktifkan
     headers:
@@ -44,22 +50,53 @@ fof-badges:
     no_categories: 'Belum ada kategori. Buat kategori pertama Anda!'
     no_category: 'Tidak ada kategori'
     no_group: 'Jangan tambahkan ke grup'
+    permissions:
+      give_manually: 'Tetapkan badge secara manual'
+      moderate: 'Kelola badge'
+      view_list: 'Lihat daftar badge'
+      view_user_badges: 'Lihat badge pengguna'
     preview: Pratinjau
+    recalculate: 'Hitung ulang'
+    recalculate_confirm: 'Ini akan menghitung ulang semua badge otomatis untuk semua pengguna. Proses ini akan berjalan di latar belakang. Lanjutkan?'
+    recalculate_error: 'Gagal menghitung ulang badge. Silakan coba lagi.'
+    recalculate_success: 'Perhitungan ulang selesai! Diberikan: {awarded}, Dibatalkan: {revoked}, Pengguna yang diproses: {users}'
+    recalculate_tab:
+      all_badges: 'Semua badge otomatis'
+      badge_help: 'Pilih badge tertentu atau hitung ulang semua badge otomatis.'
+      badge_label: 'Badge yang akan dihitung ulang'
+      info: 'Perhitungan ulang memproses pengguna secara bertahap untuk menghindari batas waktu antrian. Setiap tahap dijalankan sebagai tugas latar belakang terpisah.'
+      title: 'Mulai Perhitungan Ulang'
     recalculation:
+      already_running: 'Perhitungan ulang badge sedang berlangsung.'
       cancel: Batal
       cancel_confirm: 'Apakah Anda yakin ingin membatalkan penghitungan ulang? Hasil yang telah dicapai akan hilang.'
       cancel_error: 'Gagal membatalkan penghitungan ulang.'
+      cancelled: 'Perhitungan ulang dibatalkan'
+      completed: 'Penghitungan ulang selesai!'
+      failed: 'Penghitungan ulang gagal'
+      pending: 'Mempersiapkan perhitungan ulang...'
+      running: 'Sedang menghitung ulang badge...'
+      started: 'Perhitungan ulang badge dimulai. Ini akan berjalan di latar belakang.'
     recalculation_jobs:
       cancel: Batal
       force_cancel: 'Paksa Batal'
       mark_failed: 'Tandai sebagai Gagal'
+      status:
+        cancelled: Dibatalkan
+        completed: Selesai
+        failed: Gagal
+        pending: Menunggu
+        running: 'Sedang berjalan'
     save: Simpan
     settings:
       display_title: 'Tampilkan Pengaturan'
+      integrations_help: 'Metrik badge yang bergantung pada ekstensi lain. Pasang ekstensi tersebut untuk membuka metrik terkait.'
+      integrations_title: 'Integrasi ekstensi'
       new_badge_highlight: 'Tampilkan tag "BARU" pada badge yang baru didapat'
       new_badge_highlight_help: 'Menampilkan tag "BARU" pada badge yang diperoleh dalam 7 hari terakhir.'
       post_badge_display_limit: 'Batas tampilan badge di postingan'
       post_badge_display_limit_help: 'Jumlah maksimum badge yang ditampilkan di bawah postingan. Setel ke 0 untuk menonaktifkan.'
+      primary_badge_display: 'Tampilan badge utama'
       primary_badge_display_help: 'Bagaimana badge utama pengguna ditampilkan di samping username.'
       primary_badge_hidden: Sembunyikan
       primary_badge_icon: 'Hanya ikon'
