@@ -10,6 +10,8 @@ fof-sitemap:
       build_button_help: 'Memicu pembaruan instan semua berkas sitemap. Tugas akan dikirim ke antrean jika dikonfigurasi, jika tidak, akan dijalankan segera.'
       build_error: 'Gagal memasukkan pembuatan ulang sitemap ke antrian. Silakan periksa log dan konfigurasi antrian Anda.'
       build_success: 'Pembuatan ulang sitemap telah berhasil dimasukkan ke antrian. Periksa log Anda untuk memantau kemajuan.'
+      column_pruning: 'Aktifkan pemangkasan kolom'
+      column_pruning_help: 'Hanya mengambil kolom yang diperlukan untuk menghasilkan URL (contoh: id, slug, username, tanggal) alih-alih SELECT *. Secara signifikan mengurangi penggunaan memori per model pada forum besar. Diaktifkan secara default — nonaktifkan hanya jika driver slug khusus atau scope visibilitas memerlukan kolom yang tidak ada dalam pilihan default.'
       exclude_tags: 'Kecualikan semua halaman tag dari sitemap'
       exclude_tags_help: 'Secara default, semua tag yang terlihat oleh pengunjung akan diindeks'
       exclude_users: 'Mengecualikan semua profil pengguna dari sitemap'

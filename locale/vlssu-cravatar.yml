@@ -5,6 +5,9 @@
 vlssu-flarum-cravatar:
   admin:
     settings:
+      allow-user-toggle:
+        helptext: 'Ketika diaktifkan, pengguna dapat memilih untuk menggunakan gambar Cravatar atau avatar yang mereka unggah ke forum.'
+        title: 'Izinkan pengguna beralih antara Cravatar dan avatar yang diunggah'
       defaults:
         helptext: 'Apa yang terjadi jika alamat email tidak memiliki gambar Cravatar yang cocok? Cravatar memiliki sejumlah opsi bawaan yang dapat Anda gunakan sebagai default. Sebagian besar opsi ini bekerja dengan mengambil hash email yang diminta dan menggunakannya untuk menghasilkan gambar bertema yang unik untuk alamat email tersebut.'
         identicon_label: 'identicon: pola geometris berdasarkan hash email'
@@ -33,3 +36,5 @@ vlssu-flarum-cravatar:
   forum:
     settings:
       edit-cravatar: 'Kelola avatar di cravatar.cn'
+      use-cravatar: 'Gunakan avatar Cravatar'
+      use-uploaded: 'Gunakan avatar yang telah diunggah'
