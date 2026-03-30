@@ -5,9 +5,29 @@ CHANGELOG
 1.34.4 (XXXX-XX-XX)
 -------------------
 
+**Perubahan umum**:
+
+* Memperbarui terjemahan untuk Flarum core.
+
+
 **Menambahkan dukungan untuk ekstensi**:
 
+* [`ekumanov/flarum-ext-inline-audio`](https://github.com/ekumanov/flarum-ext-inline-audio)
+* [`ekumanov/flarum-ext-new-posts-notice`](https://github.com/ekumanov/flarum-ext-new-posts-notice)
+* [`fof/badges`](https://github.com/FriendsOfFlarum/badges)
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
+* [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
 * [`import-ai/flarum-webhook`](https://github.com/import-ai/flarum-webhook)
+* [`ralkage/flarum-ext-word-censor`](https://github.com/Ralkage/flarum-ext-word-censor)
+* [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`flarum/nicknames`](https://github.com/flarum/nicknames)
+* [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
 
 
 Semua perubahan: [1.34.3...1.34.4](https://github.com/flarum-lang/indonesian/compare/1.34.3...1.34.4).
