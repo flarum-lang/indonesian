@@ -13,6 +13,7 @@ fof-rich-text:
   lib:
     composer:
       additional_items_tooltip: 'Kontrol Tambahan'
+      code_block_tooltip: 'Tambahkan blok kode'
       horizontal_rule_tooltip: 'Sisipkan garis horizontal'
       image_tooltip: 'Tambahkan gambar'
       insert_button: Sisipkan
@@ -24,6 +25,7 @@ fof-rich-text:
         remove_button: Hapus
         text_placeholder: Teks
         title_placeholder: 'Judul (ditampilkan saat hover)'
+      link_tooltip: 'Tambahkan link'
       spoiler_block_tooltip: 'Blok Spoiler/Dropdown'
       text_type_tooltip: 'Pilih Jenis Teks'
       toggle_button: 'Alihkan Mode Rich Text'

@@ -7,16 +7,23 @@ fof-categories:
     basics:
       categories_label: Kategori
     headings:
+      child_display: 'Tampilan Kategori Anak'
       layout: 'Tata Letak'
       nav: Navigasi
+      parent_display: 'Tampilan Kategori Induk'
       performance: Kinerja
     help:
+      child_bare_icon: 'Apakah ikon pada kategori anak harus ditampilkan tanpa latar belakang lingkaran?'
       full_page_desktop: 'Haruskah menu navigasi bilah samping dilipat menjadi satu baris (seperti pada halaman tag tradisional)? Ini juga akan menyembunyikan widget (seperti Friends of Flarum Forum Statistics) dari bilah navigasi halaman kategori.'
       small_forum_optimized: 'Ini akan memberikan jumlah diskusi/posting yang lebih akurat, tetapi akan memperlambat forum berukuran menengah dan besar secara drastis.'
     labels:
       compact_mobile_mode: 'Mode seluler ringkas'
       full_page_desktop: 'Halaman penuh untuk desktop?'
       keep_tags_nav: 'Simpan link halaman tag di bilah navigasi?'
+      parent_remove_description: 'Sembunyikan deskripsi untuk tag tingkat atas?'
+      parent_remove_icon: 'Sembunyikan ikon untuk tag tingkat atas?'
+      parent_remove_last_discussion: 'Sembunyikan diskusi terbaru untuk tag tingkat atas?'
+      parent_remove_stats: 'Sembunyikan statistik untuk tag tingkat atas?'
       small_forum_optimized: 'Optimalkan untuk forum kecil?'
     title: 'Pengaturan Kategori'
   forum:
