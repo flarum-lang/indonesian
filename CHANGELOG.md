@@ -19,6 +19,7 @@ CHANGELOG
 * [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
 * [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
 * [`import-ai/flarum-webhook`](https://github.com/import-ai/flarum-webhook)
+* [`ralkage/flarum-ext-account-lockout`](https://github.com/Ralkage/flarum-ext-account-lockout)
 * [`ralkage/flarum-ext-cap-captcha`](https://github.com/Ralkage/flarum-ext-cap-captcha)
 * [`ralkage/flarum-ext-word-censor`](https://github.com/Ralkage/flarum-ext-word-censor)
 * [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter)
@@ -28,6 +29,7 @@ CHANGELOG
 
 * [`flarum/nicknames`](https://github.com/flarum/nicknames)
 * [`fof/sitemap`](https://github.com/FriendsOfFlarum/sitemap)
+* [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha)
 * [`vlssu/flarum-cravatar`](https://github.com/vlssu/flarum-cravatar)
 
 
