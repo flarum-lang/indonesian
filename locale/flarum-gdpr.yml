@@ -86,7 +86,10 @@ flarum-gdpr:
       anonymization_button: 'Anonimkan pengguna'
       comments_label: 'Komentar (opsional)'
       confirm: 'Apakah Anda yakin ingin menghapus akun {name} dalam mode {mode}?'
+      confirmed_at: 'Dikonfirmasi: {date}'
       deletion_button: 'Hapus pengguna'
+      eligible_at: 'Layak untuk pemrosesan otomatis: {date}'
+      requested_at: 'Diminta: {date}'
       text: '{name} telah meminta penghapusan akun.'
       title: 'Proses permintaan penghapusan'
     request_erasure:
