@@ -13,6 +13,9 @@ fof-rich-text:
   lib:
     composer:
       additional_items_tooltip: 'Kontrol Tambahan'
+      bold_tooltip: 'Bold <{modifierKey}-b>'
+      code_block_tooltip: 'Tambahkan blok kode'
+      code_tooltip: 'Kode sebaris <{modifierKey}-`>'
       header_tooltip: 'Ubah menjadi header level {level} <shift-{modifierKey}-{level}>'
       horizontal_rule_tooltip: 'Sisipkan garis horizontal'
       image_tooltip: 'Tambahkan gambar'
@@ -25,8 +28,15 @@ fof-rich-text:
         remove_button: Hapus
         text_placeholder: Teks
         title_placeholder: 'Judul (ditampilkan saat hover)'
+      italic_tooltip: 'Italic <{modifierKey}-i>'
+      link_tooltip: 'Tambahkan link'
+      ordered_list_tooltip: 'Daftar bernomor <shift-{modifierKey}-9>'
       paragraph_tooltip: 'Ubah menjadi paragraf <shift-{modifierKey}-0>'
       quote_tooltip: 'Sisipkan kutipan <{modifierKey}-q>'
       spoiler_block_tooltip: 'Blok Spoiler/Dropdown'
+      spoiler_inline_tooltip: 'Spoiler  <{modifierKey}-;>'
+      sub_tooltip: 'Subskrip <{modifierKey}-,>'
+      sup_tooltip: 'Superskrip <{modifierKey}-.>'
       text_type_tooltip: 'Pilih Jenis Teks'
       toggle_button: 'Alihkan Mode Rich Text'
+      unordered_list_tooltip: 'Daftar berpoin <shift-{modifierKey}-8>'
