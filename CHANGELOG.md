@@ -18,12 +18,14 @@ CHANGELOG
 * [`fof/categories`](https://github.com/FriendsOfFlarum/categories)
 * [`fof/move-posts`](https://github.com/FriendsOfFlarum/move-posts)
 * [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
+* [`huseyinfiliz/private-profile-plus`](https://github.com/huseyinfiliz/private-profile-plus)
 * [`import-ai/flarum-webhook`](https://github.com/import-ai/flarum-webhook)
 * [`ralkage/flarum-ext-account-lockout`](https://github.com/Ralkage/flarum-ext-account-lockout)
 * [`ralkage/flarum-ext-ad-management`](https://github.com/Ralkage/flarum-ext-ad-management)
 * [`ralkage/flarum-ext-cap-captcha`](https://github.com/Ralkage/flarum-ext-cap-captcha)
 * [`ralkage/flarum-ext-word-censor`](https://github.com/Ralkage/flarum-ext-word-censor)
 * [`ralkage/flarum-ext-word-counter`](https://github.com/Ralkage/flarum-ext-word-counter)
+* [`resofire/discussion-participants`](https://github.com/ResofireV2/discussion-participants)
 
 
 **Terjemahan terbaru untuk ekstensi**:
