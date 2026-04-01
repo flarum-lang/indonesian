@@ -118,7 +118,10 @@ fof-badges:
       badge_help: 'Pilih badge tertentu atau hitung ulang semua badge otomatis.'
       badge_label: 'Badge yang akan dihitung ulang'
       badges_to_check: 'Badge yang akan diperiksa'
+      chunk_size_help: 'Jumlah pengguna yang diproses per job. Semakin kecil ukurannya, semakin stabil, tetapi waktu pemrosesan keseluruhan menjadi lebih lama.'
+      chunk_size_label: 'Ukuran bagian'
       default: default
+      estimated_chunks: 'Perkiraan jumlah bagian'
       info: 'Perhitungan ulang memproses pengguna secara bertahap untuk menghindari batas waktu antrian. Setiap tahap dijalankan sebagai tugas latar belakang terpisah.'
       jobs_empty: 'Belum ada job perhitungan ulang.'
       jobs_title: 'Riwayat Job'
@@ -144,6 +147,7 @@ fof-badges:
       cancel_confirm: 'Apakah Anda yakin ingin membatalkan penghitungan ulang? Hasil yang telah dicapai akan hilang.'
       cancel_error: 'Gagal membatalkan penghitungan ulang.'
       cancelled: 'Perhitungan ulang dibatalkan'
+      chunks: 'Bagian: {processed} / {total}'
       completed: 'Penghitungan ulang selesai!'
       dismiss: Tutup
       failed: 'Penghitungan ulang gagal'
@@ -153,9 +157,15 @@ fof-badges:
       started: 'Perhitungan ulang badge dimulai. Ini akan berjalan di latar belakang.'
       stats: 'Diberikan: {awarded} | Dibatalkan: {revoked}'
     recalculation_jobs:
+      button: Job
       cancel: Batal
+      cancel_error: 'Gagal membatalkan job.'
+      cancelled: 'Job berhasil dibatalkan.'
+      empty: 'Tidak ada job perhitungan ulang yang ditemukan.'
       force_cancel: 'Paksa Batal'
       mark_failed: 'Tandai sebagai Gagal'
+      mark_failed_error: 'Gagal menandai job sebagai gagal.'
+      marked_failed: 'Job ditandai sebagai gagal.'
       results: 'Diberikan: {awarded} | Dibatalkan: {revoked}'
       status:
         cancelled: Dibatalkan
@@ -163,6 +173,8 @@ fof-badges:
         failed: Gagal
         pending: Menunggu
         running: 'Sedang berjalan'
+      stuck: Terhenti
+      title: 'Job Perhitungan Ulang'
       users: '{processed} / {total} evaluasi'
     revoke: Batalkan
     revoke_confirm: 'Apakah Anda yakin ingin membatalkan badge "{badge}" dari {username}?'
