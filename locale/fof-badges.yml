@@ -120,6 +120,8 @@ fof-badges:
       badges_to_check: 'Badge yang akan diperiksa'
       default: default
       info: 'Perhitungan ulang memproses pengguna secara bertahap untuk menghindari batas waktu antrian. Setiap tahap dijalankan sebagai tugas latar belakang terpisah.'
+      jobs_empty: 'Belum ada job perhitungan ulang.'
+      jobs_title: 'Riwayat Job'
       no_automatic_badges: 'Belum ada badge otomatis yang dikonfigurasi. Buat badge dengan kondisi pemicu terlebih dahulu.'
       no_revoke_help: 'Jika diaktifkan, pengguna yang tidak lagi memenuhi syarat akan tetap menyimpan badge mereka.'
       no_revoke_label: 'Jangan batalkan badge yang sudah ada'
@@ -136,6 +138,8 @@ fof-badges:
       total_users: 'Total pengguna'
     recalculation:
       already_running: 'Perhitungan ulang badge sedang berlangsung.'
+      auto_refresh_off: 'Penyegaran otomatis'
+      auto_refresh_on: 'Penyegaran otomatis aktif'
       cancel: Batal
       cancel_confirm: 'Apakah Anda yakin ingin membatalkan penghitungan ulang? Hasil yang telah dicapai akan hilang.'
       cancel_error: 'Gagal membatalkan penghitungan ulang.'

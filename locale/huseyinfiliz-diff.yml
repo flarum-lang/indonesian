@@ -14,14 +14,23 @@ huseyinfiliz-diff:
       archiveInfo: 'Perlu diingat bahwa Anda dapat menonaktifkan kedua opsi tersebut dan menjalankan perintah <code>php flarum diff:archive</code> untuk mengarsipkan revisi lama secara manual.'
       archiveOlds: 'Arsipkan revisi lama'
       archiveOldsInfo: 'Jika <strong>x ≥ A</strong>, maka <strong>y=mx+b</strong> revisi pertama dari postingan tersebut akan disimpan dalam bentuk gabungan & terkompresi. <strong>x</strong> adalah jumlah revisi postingan tersebut. Nilai desimal dari <strong>y</strong> akan dibulatkan ke bawah.'
+      charLevel: Karakter
       dbOptimisation: 'Optimasi Database'
+      detailLevel: 'Level Detail'
+      lineLevel: Baris
       mainPostOnly: 'Hanya simpan revisi postingan utama'
+      mergeThreshold: 'Ambang Batas Penggabungan untuk Tampilan Terpadu'
+      mergeThresholdHelp: 'Menentukan apakah blok perubahan (replace) perlu digabungkan atau tidak, berdasarkan rasio perubahan konten, dengan nilai antara 0 hingga 1.'
+      neighborLines: 'Baris Konteks'
+      neighborLinesHelp: 'Tentukan jumlah baris konteks yang ingin ditampilkan.'
+      noneLevel: 'Tidak ada'
       onlyUnsigned: 'Hanya <strong>unsigned integer</strong> yang diperbolehkan!'
       separateBlock: 'Tampilkan pemisah di antara setiap bagian perbandingan dalam renderer HTML'
       textFormatting: 'Aktifkan pemformatan teks untuk pratinjau'
       useCrons: 'Gunakan cron untuk mengarsipkan revisi lama'
       useCronsHelp: 'Anda harus menambahkan entri Cron di server agar opsi ini berfungsi. Akan berjalan setiap hari Minggu pukul 02:00 pagi. Jika opsi ini dinonaktifkan dan opsi di atas diaktifkan, semua revisi postingan akan dipindai saat postingan tersebut direvisi.'
       usePoint: 'Gunakan <strong>titik</strong> sebagai pemisah desimal untuk nilai float.'
+      wordLevel: Kata
   forum:
     confirmDelete: 'Apakah Anda yakin ingin menghapus isi perubahan ini dari riwayat?'
     confirmRollback: 'Apakah Anda yakin ingin mengubah postingan Anda saat ini?'
@@ -53,7 +62,7 @@ huseyinfiliz-diff:
     rollbackSuccessMessage: 'Perubahan Anda telah dikembalikan ke versi sebelumnya.'
     rollbackToOriginalButton: 'Kembali ke Asli'
     tooltips:
-      combined: Gabungan
+      combined: Terpadu
       inline: 'Baris demi Baris'
       mostRecent: terbaru
       originalContent: '=> huseyinfiliz-diff.ref.originalContent'
