@@ -38,8 +38,8 @@ fof-sitemap:
       modes:
         multi_file: Multi-file
         runtime: Runtime
-      risky_performance_improvements: 'Aktifkan peningkatan kinerja yang berisiko'
-      risky_performance_improvements_help: 'Peningkatan ini membuat pekerjaan CRON berjalan lebih cepat pada dataset jutaan baris, tetapi mungkin merusak kompatibilitas dengan beberapa ekstensi.'
+      risky_performance_improvements: 'Aktifkan ukuran blok besar (berisiko)'
+      risky_performance_improvements_help: 'Meningkatkan ukuran blok pengambilan data dari 75.000 menjadi 150.000 baris. Mempercepat proses pembuatan pada kumpulan data berukuran jutaan baris, tetapi menggandakan penggunaan RAM model Eloquent maksimum per blok. Aktifkan hanya jika Anda telah memastikan ketersediaan memori server yang cukup. Juga mengaktifkan pemangkasan kolom (lihat di atas).'
       soft_404:
         heading: 'Pencegahan soft 404'
         help: 'Ketika sebuah halaman tidak memiliki atau memiliki sedikit konten yang relevan, Google dan crawler lainnya mungkin menandai halaman-halaman ini sebagai “soft 404”. Untuk menghilangkan hal ini, atur jumlah minimum item yang diperlukan untuk setiap item yang memenuhi syarat di sini.'
