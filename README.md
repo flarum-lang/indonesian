@@ -14,7 +14,7 @@ This language pack contains Indonesian translations for Flarum (compatible with 
 You can install language pack using [Composer](https://getcomposer.org/):
 
 ```console
-composer require flarum-lang/indonesian
+composer require "flarum-lang/indonesian:*"
 ```
 
 Then enable extension in admin panel of your Flarum.
