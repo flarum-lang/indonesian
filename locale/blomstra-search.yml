@@ -5,13 +5,20 @@
 blomstra-search:
   admin:
     analyzer:
-      help: "Penganalisis membuat pencarian memahami kata henti dan melakukan perbaikan \nkhusus bahasa untuk pengindeksan.\n"
+      help: "Alat analisis ini membantu mesin pencari mengenali kata-kata penghalang dan melakukan penyempurnaan \nkhusus bahasa untuk proses pengindeksan. Untuk menerapkan perubahan ini, diperlukan proses pembuatan ulang indeks secara penuh.\n"
       label: 'Penganalisis bahasa'
     elastic-endpoint: 'Elastic Endpoint'
     elastic-index: Index
     elastic-password: '=> core.ref.password'
     elastic-username: '=> core.ref.username'
+    index-settings-changed: 'Pengaturan indeks pencarian telah berubah. Jalankan: php flarum blomstra:search:index build'
     match-sentences: 'Cocokkan istilah pencarian dengan kalimat lengkap'
     match-words: 'Cocokkan istilah pencarian dengan kata-kata yang lengkap'
+    min-search-length:
+      help: "Jumlah karakter minimum yang diperlukan agar pencarian dimulai. Kurangi nilai ini menjadi 1 atau 2\nuntuk komunitas CJK (Mandarin, Jepang, Korea) di mana satu karakter sudah memiliki makna lengkap.\nPerubahan ini memerlukan proses pembuatan ulang indeks secara penuh agar berlaku.\n"
+      label: 'Panjang kueri pencarian minimum'
+    reindex-required:
+      detail: 'Indeks pencarian tidak kompatibel dengan versi ekstensi ini. Jalankan: php flarum blomstra:search:index build'
+      title: 'Diperlukan pembaruan indeks pencarian'
     search-discussion-subjects: 'Cari di dalam judul diskusi'
     search-post-bodies: 'Cari di dalam komentar'
