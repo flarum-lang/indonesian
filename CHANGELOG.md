@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.34.5 (XXXX-XX-XX)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget)
+* [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
+
+
+Semua perubahan: [1.34.4...1.34.5](https://github.com/flarum-lang/indonesian/compare/1.34.4...1.34.5).
+
+
 1.34.4 (2026-04-06)
 -------------------
 
