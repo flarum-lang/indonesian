@@ -41,6 +41,12 @@ core:
       logo_text: 'Upload gambar untuk ditampilkan sebagai pengganti judul forum.'
       title: Tampilan
     basics:
+      abandoned_extensions_heading: 'Ekstensi yang Telah Ditinggalkan'
+      abandoned_extensions_notify_admins_label: 'Kirim email ke admin saat ekstensi yang baru ditinggalkan terdeteksi selama pemeriksaan mingguan'
+      abandoned_extensions_sync_button: 'Periksa Sekarang'
+      abandoned_extensions_sync_error: 'Gagal mengambil daftar ekstensi yang ditinggalkan. Silakan coba lagi nanti.'
+      abandoned_extensions_sync_success: 'Daftar ekstensi yang ditinggalkan telah diperbarui. Ditemukan {count} ekstensi terinstal.'
+      abandoned_extensions_text: 'Flarum mengelola <a>daftar ekstensi komunitas yang telah ditinggalkan</a>. Jika sebuah ekstensi yang terpasang muncul dalam daftar tersebut, ekstensi tersebut akan ditandai di panel admin.'
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Bahasa Default'
       description: 'Tetapkan judul forum, bahasa, dan pengaturan dasar lainnya.'
@@ -178,6 +184,7 @@ core:
         discussion: Diskusi
         feature: Fitur
         formatting: 'Pengaturan format'
+        forum-widget: 'Widget Forum'
         language: Bahasa
         moderation: Moderasi
         other: 'Ekstensi Lainnya'
@@ -273,6 +280,8 @@ core:
       must_not_be_array_message: 'Filter {filter} tidak boleh berupa array.'
       must_not_be_multidimensional_array_message: 'Filter {filter} tidak boleh berupa array multidimensi.'
   email:
+    abandoned_extensions:
+      subject: 'Tindakan yang diperlukan: terdeteksi ekstensi yang ditinggalkan'
     activate_account:
       subject: 'Aktifkan Akun Baru Anda'
     confirm_email:
