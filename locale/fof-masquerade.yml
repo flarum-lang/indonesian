@@ -17,6 +17,7 @@ fof-masquerade:
       edit-field: 'Simpan perubahan'
     fields:
       add: 'Tambahkan kolom {field}'
+      delete-confirmation: 'Apakah Anda yakin ingin menghapus kolom {field}? Tindakan ini tidak dapat dibatalkan.'
       description: 'Deskripsi kolom'
       description-help: "Deskripsi opsional untuk menjelaskan penggunaan/kebutuhan dari kolom ini.\n"
       edit: 'Edit kolom {field}'
