@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.1 (XXXX-XX-XX)
+------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
+
+
+Semua perubahan: [2.0.0...2.0.1](https://github.com/flarum-lang/indonesian/compare/2.0.0...2.0.1).
+
+
 2.0.0 (2026-04-22)
 ------------------
 
