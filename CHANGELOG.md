@@ -15,8 +15,10 @@ CHANGELOG
 * [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
 * [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget)
 * [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core)
+* [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing)
 * [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget)
 * [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget)
+* [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
 * [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget)
 * [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
 
@@ -25,6 +27,8 @@ CHANGELOG
 
 * [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
 * [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`muhammedsaidckr/flarum-chatgpt`](https://github.com/muhammedsaidckr/flarum-chatgpt)
 
 
 Semua perubahan: [1.34.4...1.34.5](https://github.com/flarum-lang/indonesian/compare/1.34.4...1.34.5).
