@@ -4,6 +4,64 @@
 
 core:
   admin:
+    advanced:
+      description: 'Konfigurasikan pengaturan lanjutan untuk forum Anda.'
+      fontawesome:
+        cdn_url_help: 'URL lengkap ke berkas CSS FontAwesome di CDN'
+        cdn_url_label: 'URL CDN'
+        config_override:
+          help: 'Pengaturan FontAwesome saat ini ditetapkan dalam file config.php Anda dan tidak dapat diubah di sini.'
+          label: 'Konfigurasi Pengganti'
+        kit_url_help: 'URL script FontAwesome Kit Anda (dari kit.fontawesome.com)'
+        kit_url_label: 'URL Kit'
+        preview:
+          fa5_fa6_label: 'Alias FA5/FA6'
+          help: 'Verifikasi pengaturan FontAwesome Anda. Ikon yang ditampilkan berarti tingkatan tersebut tersedia; kotak yang rusak berarti ikon tersebut tidak dimuat.'
+          pro_label: 'Hanya untuk Pro'
+        section_label: 'Ikon FontAwesome'
+        source_cdn: CDN
+        source_help: 'Pilih cara pemuatan ikon FontAwesome. Lokal menggunakan font yang disertakan, CDN dimuat dari CDN, dan Kit menggunakan FontAwesome Kits dengan ikon custom.'
+        source_kit: 'FontAwesome Kit'
+        source_label: 'Sumber Ikon'
+        source_local: 'Lokal (Disertakan)'
+      maintenance:
+        bisect:
+          help: 'Membantu mengidentifikasi ekstensi yang menyebabkan masalah yang Anda temukan. Ini secara otomatis akan menempatkan forum dalam mode pemeliharaan (rendah) hingga proses selesai.'
+        bisect_modal:
+          description: "Ini akan menempatkan forum dalam mode pemeliharaan (rendah) hingga proses selesai. Pada setiap langkah, beberapa ekstensi akan dinonaktifkan hingga kami menemukan yang menyebabkan masalah. Jadi jangan kaget jika melihat fitur yang hilang atau desain tema yang berbeda. Biarkan halaman ini tetap terbuka, dan coba buat ulang masalah tersebut setelah setiap langkah di halaman terpisah. Anda selalu bisa kembali ke halaman ini jika tidak sengaja menutupnya.\n"
+          end_button: 'Tutup dan buka halaman ekstensi'
+          issue_question: 'Apakah masalah masih terjadi?'
+          issue_question_help: 'Coba ulangi masalah tersebut di halaman terpisah dan jawab berdasarkan hasilnya.'
+          no_button: Tidak
+          steps_left: 'Langkah yang tersisa: {steps}'
+          total_steps: 'Proses ini akan memakan waktu sekitar {steps} langkah.'
+          yes_button: Ya
+        config_override:
+          help: 'Anda masih dapat mengubah pengaturan ini di sini, tetapi pengaturan tersebut tidak akan berlaku sampai Anda mengatur <code>offline</code> menjadi <code>0</code> di file <code>config.php</code> Anda.'
+          label: 'File <code>config.php</code> Anda menggantikan pengaturan ini.'
+        help: 'Atur forum Anda ke mode pemeliharaan untuk mencegah pengguna mengaksesnya.'
+        options:
+          high: 'Mode pemeliharaan tinggi. Tidak ada yang dapat mengakses forum (hanya dapat diaktifkan melalui config.php)'
+          low: 'Mode pemeliharaan rendah. Admin dapat mengakses forum.'
+          none: 'Tanpa pemeliharaan.'
+          safe: 'Mode aman. Tidak ada ekstensi yang dijalankan dan hanya admin yang dapat mengakses forum.'
+        safe_mode_extensions: 'Ekstensi yang diizinkan untuk dijalankan selama mode aman'
+        safe_mode_extensions_override_help: 'Pengaturan ini digantikan oleh <code>safe_mode_extensions</code> di berkas <code>config.php</code> Anda. (<b>{extensions}</b>)'
+        section_label: Pemeliharaan
+      pgsql:
+        search_configuration: 'Konfigurasi pencarian yang akan digunakan'
+      queue:
+        custom_driver: 'Forum Anda menggunakan driver queue {driver}, yang disediakan oleh ekstensi.'
+        sync_help: 'Untuk kinerja dan pengalaman pengguna yang lebih baik, pertimbangkan untuk menggunakan driver database queue. Pelajari lebih lanjut di dokumentasi.'
+        sync_info: 'Forum Anda menggunakan driver synchronous queue. Pekerjaan diproses segera di main process thread.'
+      search:
+        driver_heading: 'Driver Pencarian: {model}'
+        driver_options:
+          default: 'Pencarian basis data default'
+        driver_text: 'Pilih driver yang akan digunakan untuk mencari model ini.'
+        no_other_drivers: 'Belum ada driver pencarian yang tersedia. Instal ekstensi driver pencarian agar dapat mengonfigurasinya.'
+        section_label: 'Driver Pencarian'
+      title: Lanjutan
     announcements:
       about: 'Berita dan pengumuman terbaru diambil dari komunitas resmi Flarum di discuss.flarum.org.'
       comments_label: '{count, plural, one {# komentar} other {# komentar}}'
@@ -18,6 +76,14 @@ core:
       title: Pengumuman
       view_all: 'Lihat semua di discuss.flarum.org'
     appearance:
+      allow_user_color_scheme_label: 'Izinkan pengguna memilih skema warna mereka sendiri'
+      color_scheme_label: 'Skema Warna (default)'
+      color_schemes:
+        auto_mode_label: 'Sistem pengguna atau preferensi yang dikonfigurasi'
+        dark_hc_mode_label: '=> core.ref.dark_hc_mode_label'
+        dark_mode_label: '=> core.ref.dark_mode_label'
+        light_hc_mode_label: '=> core.ref.light_hc_mode_label'
+        light_mode_label: '=> core.ref.light_mode_label'
       colored_header_label: 'Header Berwarna'
       colors_heading: Warna
       colors_primary_label: 'Warna Primer'
@@ -37,6 +103,8 @@ core:
       enter_hex_message: 'Masukkan kode warna heksadesimal.'
       favicon_heading: Favicon
       favicon_text: 'Upload gambar untuk ditampilkan sebagai forum shortcut icon.'
+      logo_dark_mode_heading: 'Logo mode gelap'
+      logo_dark_mode_text: 'Upload logo alternatif untuk ditampilkan saat mode gelap diaktifkan.'
       logo_heading: Logo
       logo_text: 'Upload gambar untuk ditampilkan sebagai pengganti judul forum.'
       title: Tampilan
@@ -48,6 +116,10 @@ core:
       abandoned_extensions_sync_success: 'Daftar ekstensi yang ditinggalkan telah diperbarui. Ditemukan {count} ekstensi terinstal.'
       abandoned_extensions_text: 'Flarum mengelola <a>daftar ekstensi komunitas yang telah ditinggalkan</a>. Jika sebuah ekstensi yang terpasang muncul dalam daftar tersebut, ekstensi tersebut akan ditandai di panel admin.'
       all_discussions_label: '=> core.ref.all_discussions'
+      avatar_driver_heading: 'Avatar Pengguna'
+      avatar_driver_options:
+        default: Default
+      avatar_driver_text: 'Pilih driver yang akan digunakan untuk avatar pengguna jika tidak ada avatar yang diunggah oleh pengguna. Secara default, avatar tidak akan ditampilkan jika pengguna belum mengunggah avatar.'
       default_language_heading: 'Bahasa Default'
       description: 'Tetapkan judul forum, bahasa, dan pengaturan dasar lainnya.'
       display_name_heading: 'Nama Tampilan Pengguna'
@@ -59,6 +131,14 @@ core:
       home_page_text: 'Pilih halaman yang pertama kali dilihat pengguna ketika mereka mengunjungi forum Anda.'
       show_language_selector_label: 'Tampilkan pilihan bahasa'
       slug_driver_heading: 'Slug Driver: {model}'
+      slug_driver_options:
+        discussions:
+          default: 'ID dengan slug'
+          utf8: 'ID dengan slug UTF-8'
+        users:
+          default: Username
+          id: ID
+          id_with_display_name: 'ID dengan Nama Tampilan'
       slug_driver_text: 'Pilih driver yang akan digunakan untuk slugging model ini.'
       title: 'Pengaturan Dasar'
       welcome_banner_heading: 'Banner Selamat Datang'
@@ -125,6 +205,9 @@ core:
       description: 'Konfigurasikan driver, pengaturan, dan alamat yang akan digunakan forum Anda untuk mengirim email.'
       driver_heading: 'Pilih Driver'
       driver_label: Driver
+      format:
+        html_option: HTML
+        plain_option: 'Teks Biasa'
       from_label: Pengirim
       mail_encryption_label: Enkripsi
       mail_host_label: Host
@@ -168,6 +251,21 @@ core:
         no_readme: 'Ekstensi ini tampaknya tidak memiliki file README'
         title: 'Dokumentasi {extName}'
       replaced: Diganti
+    extensions-health-widget:
+      abandoned_no_replacement: 'Tidak ada pengganti yang tersedia'
+      abandoned_with_replacement: 'Digantikan oleh {replacement}'
+      all_healthy: 'Semua ekstensi dalam kondisi baik.'
+      section_abandoned_empty: 'Tidak ditemukan masalah.'
+      section_abandoned_heading: 'Perlu Perhatian'
+      section_abandoned_help: 'Ekstensi ini tidak lagi dipelihara atau mungkin memiliki masalah kompatibilitas. Pertimbangkan untuk memperbarui, mengganti, atau menghapusnya.'
+      section_disabled_empty: 'Semua ekstensi diaktifkan.'
+      section_disabled_heading: Dinonaktifkan
+      section_disabled_help: 'Ekstensi ini telah diinstal tetapi saat ini tidak diaktifkan. Aktifkan dari halaman pengaturannya, atau hapus jika tidak lagi diperlukan.'
+      section_suggested_empty: 'Tidak ada saran.'
+      section_suggested_heading: Disarankan
+      section_suggested_help: 'Ekstensi Flarum dapat menambahkan fitur tambahan opsional dengan menentukan ekstensi atau paket lain. Hal ini mungkin akan menambah lebih banyak fitur atau integrasi.'
+      suggested_by: 'Disarankan oleh {extension}'
+      title: 'Kesehatan Ekstensi'
     header:
       get_help: Bantuan
       log_out_button: '=> core.ref.log_out'
@@ -279,6 +377,7 @@ core:
       must_be_numeric_message: 'Filter {filter} harus berupa angka.'
       must_not_be_array_message: 'Filter {filter} tidak boleh berupa array.'
       must_not_be_multidimensional_array_message: 'Filter {filter} tidak boleh berupa array multidimensi.'
+    invalid_username_message: 'Username hanya boleh berisi huruf, angka, dan tanda hubung. Dengan setidaknya satu huruf.'
   email:
     abandoned_extensions:
       subject: 'Tindakan yang diperlukan: terdeteksi ekstensi yang ditinggalkan'
@@ -286,10 +385,25 @@ core:
       subject: 'Aktifkan Akun Baru Anda'
     confirm_email:
       subject: 'Konfirmasi Alamat Email Baru Anda'
+    greeting: 'Halo {displayName},'
+    informational:
+      default_title: Informasi
+      footer: 'Email ini dikirimkan ke {userEmail} sebagai layanan informasi terkait akun Anda di [{forumTitle}]({forumUrl}).'
+      footer_plain: 'Email ini dikirim ke {userEmail} sebagai layanan informasi terkait akun Anda di {forumTitle}.'
+    notification:
+      default_title: Notifikasi
+      footer:
+        main_text: 'Email ini dikirim ke {email} karena Anda berlangganan notifikasi "{type}" di [{forumTitle}]({forumUrl}).'
+        main_text_plain: 'Email ini dikirim ke {email} karena Anda berlangganan notifikasi "{type}" di {forumTitle}.'
+        settings_text: 'Kelola pengaturan notifikasi Anda [di sini]({settingsLink}).'
+        settings_text_plain: 'Kelola pengaturan notifikasi Anda di sini: {settingsLink}'
+        unsubscribe_text: 'Jika Anda ingin berhenti menerima jenis notifikasi ini, [unsubscribe here]({unsubscribeLink}).'
+        unsubscribe_text_plain: 'Jika Anda ingin berhenti menerima notifikasi jenis ini, berhenti berlangganan di sini: {unsubscribeLink}'
     reset_password:
       subject: '=> core.ref.reset_your_password'
     send_test:
       subject: 'Tes Email Flarum'
+    signoff: 'Tim {forumTitle}'
   forum:
     change_email:
       confirm_password_placeholder: '=> core.ref.confirm_password'
@@ -585,6 +699,9 @@ core:
     generic_confirmation_message: 'Apakah Anda yakin ingin melanjutkan? Tindakan ini tidak dapat dibatalkan.'
     icon: Ikon
     icon_text: 'Masukkan nama kelas ikon <a>FontAwesome</a> apa pun, <em>termasuk</em> prefiks <code>fas fa-</code>.'
+    invalid_login_message: 'Detail login Anda salah.'
+    light_hc_mode_label: 'Mode Terang Kontras Tinggi'
+    light_mode_label: 'Mode Terang'
     load_more: 'Muat Lainnya'
     loading: Memuat...
     log_in: Login
@@ -611,6 +728,7 @@ core:
     some_others: '{count, plural, one {# lainnya} other {# lainnya}}'
     start_a_discussion: 'Mulai Diskusi'
     username: Username
+    username_or_email_placeholder: 'Username atau Email'
     users: Pengguna
     view: Lihat
     write_a_reply: 'Tulis Balasan...'
@@ -653,6 +771,13 @@ core:
       all_discussions_heading: '=> core.ref.all_discussions'
       next_page_button: '=> core.ref.next_page'
       previous_page_button: '=> core.ref.previous_page'
+    log_in:
+      invalid_login_message: '=> core.ref.invalid_login_message'
+      password_placeholder: '=> core.ref.password'
+      remember_me_label: '=> core.ref.remember_me_label'
+      submit_button: '=> core.ref.log_in'
+      title: '=> core.ref.log_in'
+      username_or_email_placeholder: '=> core.ref.username_or_email_placeholder'
     log_out:
       log_out_button: '=> core.ref.log_out'
       log_out_confirmation: 'Apakah Anda yakin ingin keluar dari {forum}?'
@@ -662,3 +787,11 @@ core:
       new_password_label: 'Password Baru'
       submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.reset_your_password'
+    unsubscribe_email:
+      confirm_button: Konfirmasi
+      confirm_message: 'Anda telah meminta untuk berhenti berlangganan pemberitahuan email "{type}" dari {forumTitle}.'
+      immediate_helptext: 'Anda akan segera berhenti berlangganan setelah mengonfirmasi.'
+      invalid_message: 'Link berhenti berlangganan ini tidak valid atau sudah pernah digunakan. Untuk perubahan apa pun pada notifikasi email Anda dari {forumTitle}, silakan [periksa pengaturan Anda]({settingsLink}).'
+      return_to_forum: 'Kembali ke {forumTitle}'
+      success_message: 'Anda telah berhasil berhenti berlangganan pemberitahuan "{type}" dari {forumTitle}. Jika Anda ingin menerimanya kembali, silakan [perbarui pengaturan Anda]({settingsLink}).'
+      title: 'Konfirmasi Berhenti Berlangganan'
