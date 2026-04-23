@@ -52,6 +52,8 @@ core:
         search_configuration: 'Konfigurasi pencarian yang akan digunakan'
       queue:
         custom_driver: 'Forum Anda menggunakan driver queue {driver}, yang disediakan oleh ekstensi.'
+        memory_label: 'Batas Memori (MB)'
+        rest_label: 'Jeda Waktu (detik)'
         sync_help: 'Untuk kinerja dan pengalaman pengguna yang lebih baik, pertimbangkan untuk menggunakan driver database queue. Pelajari lebih lanjut di dokumentasi.'
         sync_info: 'Forum Anda menggunakan driver synchronous queue. Pekerjaan diproses segera di main process thread.'
       search:
@@ -122,10 +124,12 @@ core:
       avatar_driver_text: 'Pilih driver yang akan digunakan untuk avatar pengguna jika tidak ada avatar yang diunggah oleh pengguna. Secara default, avatar tidak akan ditampilkan jika pengguna belum mengunggah avatar.'
       default_language_heading: 'Bahasa Default'
       description: 'Tetapkan judul forum, bahasa, dan pengaturan dasar lainnya.'
+      display_name_driver_options:
+        username: Username
       display_name_heading: 'Nama Tampilan Pengguna'
       display_name_text: 'Pilih driver yang akan digunakan untuk nama tampilan pengguna. Secara default, username akan ditampilkan.'
       forum_description_heading: 'Deskripsi Forum'
-      forum_description_text: 'Masukkan satu atau dua kalimat pendek yang menggambarkan komunitas Anda. Ini akan muncul di tag meta dan muncul di mesin pencari.'
+      forum_description_text: 'Masukkan satu atau dua kalimat singkat yang menggambarkan forum Anda. Teks ini akan dimasukkan ke dalam tag meta dan muncul di mesin pencari.'
       forum_title_heading: 'Judul Forum'
       home_page_heading: Beranda
       home_page_text: 'Pilih halaman yang pertama kali dilihat pengguna ketika mereka mengunjungi forum Anda.'
@@ -207,22 +211,35 @@ core:
       driver_label: Driver
       format:
         html_option: HTML
+        multipart_option: 'Multipart (disarankan)'
         plain_option: 'Teks Biasa'
+      format_heading: 'Format Email Keluar'
+      format_help: 'Pilih format yang akan digunakan untuk mengirim email keluar. Opsi yang disarankan adalah <code>multipart</code>, karena hal ini akan memungkinkan klien email pengguna Anda menampilkan format yang paling sesuai.'
       from_label: Pengirim
       mail_encryption_label: Enkripsi
+      mail_encryption_none_help: 'Tanpa enkripsi. Tidak disarankan untuk penggunaan produksi.'
+      mail_encryption_ssl_help: 'Koneksi dienkripsi sejak awal (Implicit TLS). Biasanya digunakan dengan port 465.'
+      mail_encryption_tls_help: 'Koneksi dimulai tanpa enkripsi dan ditingkatkan ke TLS (STARTTLS). Biasanya digunakan dengan port 587 atau 25.'
       mail_host_label: Host
       mail_mailgun_domain_label: Domain
       mail_mailgun_region_label: Wilayah
       mail_mailgun_secret_label: 'Secret key'
       mail_password_label: '=> core.ref.password'
       mail_port_label: Port
+      mail_postmark_message_stream_label: 'Aliran pesan'
+      mail_postmark_token_label: 'Token server'
+      mail_smtp_verify_peer_help: 'Verifikasi sertifikat SSL server saat menggunakan enkripsi TLS atau SSL. Nonaktifkan hanya jika server email Anda menggunakan sertifikat yang ditandatangani sendiri.'
+      mail_smtp_verify_peer_label: 'Verifikasi Sertifikat SSL'
       mail_username_label: '=> core.ref.username'
       mailgun_heading: 'Pengaturan Mailgun'
       not_sending_message: 'Flarum saat ini tidak dapat mengirim email. Hal ini dapat disebabkan oleh driver yang dipilih, atau kesalahan dalam konfigurasinya.'
+      postmark_description: 'Kirim email melalui Postmark HTTP API. Anda juga dapat menentukan aliran pesan untuk menggunakan aliran non-default.'
+      postmark_heading: 'Pengaturan Postmark'
       send_test_mail_button: Kirim
       send_test_mail_heading: 'Kirim Test Mail'
       send_test_mail_success: 'Email percobaan berhasil terkirim!'
       send_test_mail_text: 'Email akan dikirim menggunakan konfigurasi di atas ke email Anda, {email}.'
+      smtp_description: 'Konfigurasikan pengaturan koneksi SMTP. Konfigurasi umum: Port 587 dengan TLS, atau Port 465 dengan SSL.'
       smtp_heading: 'Pengaturan SMTP'
       title: '=> core.ref.email'
     extension:
@@ -230,6 +247,7 @@ core:
       abandoned_with_replacement: 'Extensi ini telah digantikan oleh {replacement}. Pertimbangkan untuk beralih ke paket pengganti.'
       configure_scopes: 'Konfigurasi Cakupan'
       confirm_purge: 'Pembersihan akan menghapus semua entri database dan aset yang terkait dengan ekstensi. Hal ini tidak akan menghapus ekstensi; serta harus dilakukan melalui Composer. Apakah Anda yakin ingin melanjutkan?'
+      database_driver_mismatch: 'Ekstensi ini tidak mendukung driver basis data yang Anda gunakan.'
       deprecated: 'Tidak lagi didukung'
       disabled: 'Tidak Aktif'
       enable_to_see: 'Aktifkan ekstensi untuk melihat dan mengubah pengaturan.'
@@ -251,6 +269,14 @@ core:
         no_readme: 'Ekstensi ini tampaknya tidak memiliki file README'
         title: 'Dokumentasi {extName}'
       replaced: Diganti
+      reset_settings:
+        button: 'Atur Ulang Pengaturan'
+        cancel_button: Batal
+        confirm_button: 'Atur Ulang'
+        title: 'Atur Ulang Pengaturan'
+        title_extension: 'Atur Ulang Pengaturan {extensionTitle}'
+        warning: 'Tindakan ini tidak dapat dibatalkan. Pengaturan di bawah ini akan dihapus secara permanen dari basis data dan dikembalikan ke pengaturan default. Data ekstensi ini tidak akan terpengaruh.'
+      safe_mode_warning: 'Mode aman saat ini diaktifkan. Ekstensi tidak dimuat dan pengaturannya tidak dapat diakses.'
     extensions-health-widget:
       abandoned_no_replacement: 'Tidak ada pengganti yang tersedia'
       abandoned_with_replacement: 'Digantikan oleh {replacement}'
@@ -269,20 +295,30 @@ core:
     header:
       get_help: Bantuan
       log_out_button: '=> core.ref.log_out'
+      search_placeholder: Cari...
+      search_role_label: Cari
     loading:
       title: 'Mohon Menunggu...'
+    models:
+      discussions: '=> core.ref.discussions'
+      posts: '=> core.ref.posts'
+      users: '=> core.ref.users'
     nav:
+      advanced_button: '=> core.admin.advanced.title'
+      advanced_title: '=> core.admin.advanced.description'
       appearance_button: '=> core.admin.appearance.title'
       appearance_title: '=> core.admin.appearance.description'
       basics_button: '=> core.admin.basics.title'
       basics_title: '=> core.admin.basics.description'
       categories:
+        analytics: Analitik
         authentication: Autentikasi
         core: 'Konfigurasi Dasar'
         discussion: Diskusi
         feature: Fitur
         formatting: 'Pengaturan format'
         forum-widget: 'Widget Forum'
+        infrastructure: Infrastruktur
         language: Bahasa
         moderation: Moderasi
         other: 'Ekstensi Lainnya'
@@ -339,8 +375,12 @@ core:
       members_button: '=> core.group.members'
       signup_closed_button: Ditutup
       signup_open_button: Terbuka
+    search_source:
+      general:
+        heading: Umum
     settings:
       saved_message: 'Perubahan Anda telah disimpan.'
+      select_dropdown_custom_label: Custom
       submit_button: '=> core.ref.save_changes'
     upload_image:
       remove_button: '=> core.ref.remove'
@@ -362,6 +402,9 @@ core:
           join_time:
             title: Bergabung
           user_actions:
+            edit_user:
+              button: '=> core.ref.edit'
+              tooltip: 'Edit {username}'
             title: Tindakan
           user_id:
             title: ID
@@ -380,6 +423,10 @@ core:
     invalid_username_message: 'Username hanya boleh berisi huruf, angka, dan tanda hubung. Dengan setidaknya satu huruf.'
   email:
     abandoned_extensions:
+      body_intro: 'Ekstensi yang terpasang berikut ini telah ditandai sebagai ekstensi yang telah ditinggalkan:'
+      body_outro: 'Silakan periksa ekstensi-ekstensi ini dan pertimbangkan untuk beralih ke alternatif yang tersedia.'
+      line_no_replacement: '{package} (tidak ada pengganti yang tersedia)'
+      line_with_replacement: '{package} (pengganti yang disarankan: {replacement})'
       subject: 'Tindakan yang diperlukan: terdeteksi ekstensi yang ditinggalkan'
     activate_account:
       subject: 'Aktifkan Akun Baru Anda'
@@ -455,6 +502,7 @@ core:
       empty_text: 'Sepertinya tidak ada diskusi di sini.'
       load_more_button: '=> core.ref.load_more'
       replied_text: '{username} membalas {ago}'
+      skip_discussion_list_pane: 'Lewati panel daftar diskusi'
       started_text: '{username} memulai {ago}'
       total_replies_a11y_label: '{count, plural, one {# balasan} other {# balasan}}'
       unread_replies_a11y_label: '{count, plural, one {# balasan belum dibaca} other {# balasan belum dibaca}}. Tandai {count, plural, one {balasan} other {balasan}} yang belum dibaca sebagai sudah dibaca.'
@@ -484,19 +532,28 @@ core:
       mark_all_as_read_confirmation: 'Anda yakin ingin menandai semua diskusi sebagai telah dibaca?'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       meta_title_text: '=> core.ref.all_discussions'
+      refresh_tooltip: '=> core.ref.refresh'
+      skip_to_main_content: 'Langsung ke konten utama'
       start_discussion_button: '=> core.ref.start_a_discussion'
       toggle_sidenav_dropdown_accessible_label: 'Tampilkan/Sembunyikan menu dropdown navigasi'
     index_sort:
       latest_button: Terkini
+      newest_button: '=> core.ref.newest'
+      oldest_button: '=> core.ref.oldest'
+      relevance_button: '=> core.ref.relevance'
       toggle_dropdown_accessible_label: 'Ubah pengurutan daftar diskusi'
       top_button: Top
     log_in:
       forgot_password_link: 'Lupa password?'
+      invalid_login_message: '=> core.ref.invalid_login_message'
       password_placeholder: '=> core.ref.password'
+      remember_me_label: '=> core.ref.remember_me_label'
       sign_up_text: 'Tidak memiliki akun? <a>Daftar</a>'
       submit_button: '=> core.ref.log_in'
       title: '=> core.ref.log_in'
+      username_or_email_placeholder: '=> core.ref.username_or_email_placeholder'
     notifications:
+      delete_all_confirm: 'Apakah Anda yakin ingin menghapus semua notifikasi? Tindakan ini tidak dapat dibatalkan'
       delete_all_tooltip: 'Hapus semua notifikasi'
       discussion_renamed_text: '{username} mengubah judul'
       empty_text: 'Tidak Ada Notifikasi'
@@ -517,6 +574,10 @@ core:
       hide_confirmation: 'Anda yakin ingin menghapus post ini?'
       restore_button: '=> core.ref.restore'
       toggle_dropdown_accessible_label: 'Tampilkan/Sembunyikan menu dropdown kontrol postingan'
+    post_list:
+      empty_text: 'Sepertinya tidak ada postingan di sini.'
+      in_discussion_text: 'Di {discussion}'
+      load_more_button: '=> core.ref.load_more'
     post_scrubber:
       now_link: 'Saat ini'
       original_post_link: 'Postingan Awal'
@@ -528,6 +589,13 @@ core:
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
       time_lapsed_text: '{period} kemudian'
+    posts:
+      meta_title_text: 'Tampilkan hasil pencarian'
+      refresh_tooltip: '=> core.ref.refresh'
+    posts_sort:
+      newest_button: '=> core.ref.newest'
+      oldest_button: '=> core.ref.oldest'
+      relevance_button: '=> core.ref.relevance'
     rename_discussion:
       submit_button: '=> core.ref.rename'
       title: 'Ganti Nama Diskusi'
@@ -567,6 +635,16 @@ core:
       account_heading: Akun
       change_email_button: '=> core.ref.change_email'
       change_password_button: '=> core.ref.change_password'
+      color_scheme_heading: 'Skema Warna'
+      color_schemes:
+        auto_mode_label: 'Preferensi sistem'
+        dark_hc_mode_label: '=> core.ref.dark_hc_mode_label'
+        dark_mode_label: '=> core.ref.dark_mode_label'
+        light_hc_mode_label: '=> core.ref.light_hc_mode_label'
+        light_mode_label: '=> core.ref.light_mode_label'
+      device_heading: Perangkat
+      haptic_feedback_help: 'Hanya tersedia di perangkat seluler yang didukung'
+      haptic_feedback_label: 'Aktifkan umpan balik haptic'
       notification_checkbox_a11y_label_template: 'Terima notifikasi "{description}" via {method}'
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: '=> core.ref.email'
@@ -628,9 +706,11 @@ core:
     data_segment:
       label: '{label}:'
     datetime_formats:
+      fullTime: LLLL
       humanTimeLong: ll
       humanTimeShort: 'D MMM'
       scrubber: 'MMMM YYYY'
+      userListJoinDate: LLL
     debug_button: Debug
     dropdown:
       toggle_dropdown_accessible_label: 'Tampilkan/Sembunyikan menu dropdown'
@@ -659,6 +739,26 @@ core:
       permission_denied_message: 'Anda tidak memiliki izin untuk melakukan itu.'
       rate_limit_exceeded_message: 'Anda terlihat terlalu cepat. Silakan coba lagi dalam beberapa detik.'
       render_failed_message: 'Maaf, kami mengalami error saat menampilkan konten ini. Jika Anda seorang pengguna, silakan coba lagi nanti. Jika Anda seorang administrator, lihatlah file log Flarum Anda untuk informasi lebih lanjut.'
+    gambits:
+      discussions:
+        author:
+          hint: 'username atau daftar username yang dipisahkan dengan koma'
+        created:
+          hint: '2020-12-31 or 2020-12-31..2021-09-30'
+          key: dibuat
+      posts:
+        discussion:
+          hint: 'ID diskusi'
+          key: diskusi
+      users:
+        email:
+          hint: example@machine.local
+          key: email
+        group:
+          hint: 'nama kelompok tunggal atau jamak'
+          key: grup
+    input:
+      clear_button: 'Bersihkan input'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
     meta_titles:
@@ -666,15 +766,52 @@ core:
       without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Halaman # - {forumName}}}'
     modal:
       close: Tutup
+    multi_select:
+      placeholder: 'Pilih beberapa opsi'
     nav:
       drawer_button: 'Buka Drawer Navigasi'
+    notices:
+      maintenance_mode_low: 'Sedang dalam pemeliharaan. Hanya administrator yang dapat mengakses forum.'
+      maintenance_mode_safe: 'Sedang dalam pemeliharaan dengan mode aman. Hanya administrator yang dapat mengakses forum dan tidak ada ekstensi yang dijalankan.'
     number_suffix:
       kilo_text: K
       mega_text: M
+    pagination:
+      back_button: 'Halaman sebelumnya'
+      first_button: 'Buka halaman pertama'
+      go_to_page_textbox_a11y_label: 'Langsung ke nomor halaman'
+      last_button: 'Buka halaman terakhir'
+      next_button: 'Halaman berikutnya'
+      page_counter: 'Halaman {current} dari {total}'
+    search:
+      gambit_minus_button_a11y_label: 'Tambahkan filter negatif'
+      gambit_plus_button_a11y_label: 'Tambahkan filter positif'
+      no_results_text: 'Sepertinya tidak ada hasil di sini.'
+      no_search_text: 'Anda belum mencari apa pun.'
+      options_heading: 'Opsi pencarian'
+      placeholder: Cari...
+      preview_heading: 'Pratinjau pencarian'
+      search_clear_button_accessible_label: 'Hapus kueri pencarian'
+      title: Cari
+    search_source:
+      discussions:
+        all_button: 'Cari semua diskusi untuk "{query}"'
+        heading: '=> core.ref.discussions'
+      posts:
+        all_button: 'Cari semua post untuk "{query}"'
+        heading: '=> core.ref.posts'
+      users:
+        heading: '=> core.ref.users'
     series:
       glue_text: ', '
       three_text: '{first}, {second}, dan {third}'
       two_text: '{first} dan {second}'
+    user_selection_modal:
+      empty_results: 'Tidak ada pengguna yang sesuai dengan pencarian Anda.'
+      max_items_to_select: '{count, plural, one {Pilih hingga to # pengguna} other {Pilih hingga to # pengguna}}'
+      search_placeholder: '=> core.ref.search_users'
+      submit_button: '=> core.ref.okay'
+      title: 'Pilih pengguna yang relevan'
     username:
       deleted_text: '[dihapus]'
   ref:
@@ -689,6 +826,8 @@ core:
     custom_footer_title: 'Edit Footer Khusus'
     custom_header_text: 'Tambahkan HTML untuk ditampilkan di bagian paling atas halaman, di atas header Flarum.'
     custom_header_title: 'Edit Header Khusus'
+    dark_hc_mode_label: 'Mode Gelap Kontras Tinggi'
+    dark_mode_label: 'Mode Gelap'
     delete: Hapus
     delete_forever: 'Hapus Permanen'
     discussions: Diskusi
@@ -698,7 +837,7 @@ core:
     extensions: Ekstensi
     generic_confirmation_message: 'Apakah Anda yakin ingin melanjutkan? Tindakan ini tidak dapat dibatalkan.'
     icon: Ikon
-    icon_text: 'Masukkan nama kelas ikon <a>FontAwesome</a> apa pun, <em>termasuk</em> prefiks <code>fas fa-</code>.'
+    icon_text: 'Masukkan nama kelas ikon <a>FontAwesome</a> apa pun, <em>termasuk</em> prefiksnya (misalnya <code>fas fa-flag</code> atau <code>fa-solid fa-flag</code>).'
     invalid_login_message: 'Detail login Anda salah.'
     light_hc_mode_label: 'Mode Terang Kontras Tinggi'
     light_mode_label: 'Mode Terang'
@@ -709,12 +848,17 @@ core:
     mark_all_as_read: 'Tandai Semua telah Dibaca'
     never: 'Tidak pernah'
     new_token: 'Token Baru'
+    newest: Terbaru
     next_page: 'Halaman Selanjutnya'
     notifications: Notifikasi
     okay: OK
+    oldest: Terlama
     password: Password
     posts: Post
     previous_page: 'Halaman Sebelumnya'
+    refresh: Segarkan
+    relevance: Relevansi
+    remember_me_label: 'Ingat Saya'
     remove: Hapus
     rename: 'Ganti nama'
     reply: Balas
@@ -761,6 +905,9 @@ core:
       csrf_token_mismatch: 'Anda sudah terlalu lama tidak aktif.'
       csrf_token_mismatch_return_link: 'Kembali, untuk mencoba lagi'
       invalid_confirmation_token: 'Link konfirmasi ini sudah pernah digunakan atau tidak valid.'
+      maintenance_mode_link: 'Masuk sebagai administrator'
+      maintenance_mode_message: 'Forum ini sedang dalam pemeliharaan. Silakan coba lagi nanti.'
+      maintenance_mode_title: Pemeliharaan
       method_not_allowed: 'Halaman ini tidak mendukung metode request tersebut.'
       not_authenticated: 'Anda tidak memiliki izin untuk mengakses halaman ini. Coba lagi setelah Anda login.'
       not_found: 'Halaman yang Anda minta tidak dapat ditemukan.'
@@ -771,6 +918,8 @@ core:
       all_discussions_heading: '=> core.ref.all_discussions'
       next_page_button: '=> core.ref.next_page'
       previous_page_button: '=> core.ref.previous_page'
+    layout:
+      skip_to_content: 'Langsung ke konten'
     log_in:
       invalid_login_message: '=> core.ref.invalid_login_message'
       password_placeholder: '=> core.ref.password'
