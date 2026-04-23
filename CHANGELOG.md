@@ -21,6 +21,7 @@ CHANGELOG
 * [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
 * [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget)
 * [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
+* [`little100/fontawesome`](https://github.com/Little100/flarum-ext-fontawesome)
 
 
 **Terjemahan terbaru untuk ekstensi**:
