@@ -5,6 +5,11 @@ CHANGELOG
 2.0.1 (XXXX-XX-XX)
 ------------------
 
+**Perubahan umum**:
+
+* Memperbarui terjemahan untuk Flarum core.
+
+
 **Menambahkan dukungan untuk ekstensi**:
 
 * [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
