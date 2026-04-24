@@ -28,7 +28,9 @@ CHANGELOG
 
 * [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
 * [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage)
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`muhammedsaidckr/flarum-chatgpt`](https://github.com/muhammedsaidckr/flarum-chatgpt)
 
 
