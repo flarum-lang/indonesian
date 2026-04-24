@@ -5,12 +5,12 @@
 core:
   admin:
     permissions:
-      can_push_to_frontpage_label: 'Dapat mendorong ke Halaman Depan'
+      can_push_to_frontpage_label: 'Dapat Dipindahkan ke Halaman Utama'
   forum:
     badge:
-      frontpage_tooltip: 'Ditandai sebagai Halaman Depan'
+      frontpage_tooltip: 'Ditandai sebagai Halaman Utama'
     index_sort:
-      front_button: 'Halaman Depan'
+      front_button: 'Halaman Utama'
     post_controls:
-      pull_from_front_button: 'Tarik dari Halaman Depan'
-      push_to_front_button: 'Dorong ke Halaman Depan'
+      pull_from_front_button: 'Hapus dari Halaman Utama'
+      push_to_front_button: 'Pindahkan ke Halaman Utama'

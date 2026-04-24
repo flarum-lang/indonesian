@@ -13,8 +13,8 @@ fof-recaptcha:
       signin: '=> core.forum.log_in.title'
       signup: '=> core.forum.sign_up.title'
       site_key_label: 'Site Key'
-      type_help: 'Ekstensi ini hanya mendukung reCAPTCHA v2. Tipe yang dipilih harus sesuai dengan tipe kredensial reCAPTCHA Anda.'
-      type_label: 'Tipe reCAPTCHA'
+      type_help: 'Ekstensi ini hanya mendukung reCAPTCHA v2. Jenis yang dipilih harus sesuai dengan jenis kredensial reCAPTCHA Anda.'
+      type_label: 'Jenis reCAPTCHA'
     test:
       help_text: "Tes ini akan menggunakan nilai saat ini yang dimasukkan di atas. Pastikan untuk memuat ulang tes setelah memodifikasi pengaturan, dan jangan lupa untuk menyimpannya setelah tes selesai!\nDi bawah ini mungkin tidak mencerminkan pengaturan yang disimpan.\n"
       load_test_button: Memuat
