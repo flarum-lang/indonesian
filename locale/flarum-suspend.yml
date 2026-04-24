@@ -9,8 +9,16 @@ flarum-suspend:
   email:
     no_reason_given: 'Tidak ada alasan yang diberikan untuk penangguhan ini.'
     suspended:
+      html:
+        body: 'Anda telah ditangguhkan dari {forumTitle} karena alasan berikut:'
+      plain:
+        body: "Anda telah ditangguhkan karena alasan berikut:\n\n---\n{suspension_message}\n---\n"
       subject: 'Akun Anda telah ditangguhkan'
     unsuspended:
+      html:
+        body: 'Penangguhan akun Anda telah berakhir. Anda dapat kembali ke [{forumTitle}]({forum_url}) kapan pun Anda siap.'
+      plain:
+        body: "Penangguhan akun And telah berakhir. Anda dapat kembali ke forum dengan mengklik link berikut:\n\n{forum_url}\n"
       subject: 'Akun Anda telah dihentikan penangguhannya'
   forum:
     notifications:
@@ -37,3 +45,8 @@ flarum-suspend:
       suspended_tooltip: Ditangguhkan
     user_controls:
       suspend_button: Tangguhkan
+  lib:
+    gambits:
+      users:
+        suspended:
+          key: suspended

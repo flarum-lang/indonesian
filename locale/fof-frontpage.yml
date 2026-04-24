@@ -4,5 +4,18 @@
 
 core:
   forum:
+    badge:
+      frontpage_tooltip: 'Ditandai sebagai Halaman Utama'
     index_sort:
-      front_button: 'Halaman Depan'
+      front_button: 'Halaman Utama'
+    post_controls:
+      pull_from_front_button: 'Hapus dari Halaman Utama'
+      push_to_front_button: 'Pindahkan ke Halaman Utama'
+fof-frontpage:
+  admin:
+    permissions:
+      can_push_to_frontpage_label: 'Dapat Dipindahkan ke Halaman Utama'
+  lib:
+    gambits:
+      frontpage:
+        key: frontpage

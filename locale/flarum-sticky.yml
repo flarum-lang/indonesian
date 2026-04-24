@@ -6,6 +6,10 @@ flarum-sticky:
   admin:
     permissions:
       sticky_discussions_label: 'Sticky Diskusi'
+    settings:
+      enable_display_excerpt: 'Tampilkan cuplikan postingan pertama saat diskusi yang di-sticky belum dibaca'
+      only_sticky_unread_discussions_help: 'Di halaman Semua Diskusi, diskusi yang di-sticky dan belum dibaca akan ditampilkan di bagian atas, sedangkan diskusi yang di-sticky dan sudah dibaca mengikuti urutan biasa.'
+      only_sticky_unread_discussions_label: 'Hanya diskusi yang di-sticky dan belum dibaca'
   forum:
     badge:
       sticky_tooltip: '=> flarum-sticky.ref.sticky'
@@ -15,5 +19,10 @@ flarum-sticky:
     post_stream:
       discussion_stickied_text: '{username} men-sticky diskusi {time}.'
       discussion_unstickied_text: '{username} menghapus sticky dikusi ini {time}.'
+  lib:
+    gambits:
+      discussions:
+        sticky:
+          key: sticky
   ref:
     sticky: Sticky
