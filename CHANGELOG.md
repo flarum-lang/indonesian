@@ -17,7 +17,13 @@ CHANGELOG
 
 **Terjemahan terbaru untuk ekstensi**:
 
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork)
+* [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage)
+* [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 
 
 Semua perubahan: [2.0.0...2.0.1](https://github.com/flarum-lang/indonesian/compare/2.0.0...2.0.1).
