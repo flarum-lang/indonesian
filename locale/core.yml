@@ -429,8 +429,10 @@ core:
       line_with_replacement: '{package} (pengganti yang disarankan: {replacement})'
       subject: 'Tindakan yang diperlukan: terdeteksi ekstensi yang ditinggalkan'
     activate_account:
+      body: "Seseorang (semoga Anda!) telah mendaftar di {forum} menggunakan alamat email ini.\n\nJika itu Anda, cukup klik link berikut dan akun Anda akan diaktifkan:\n{url}\n\nJika Anda tidak mendaftar, silakan abaikan email ini.\n"
       subject: 'Aktifkan Akun Baru Anda'
     confirm_email:
+      body: "Seseorang (semoga Anda!) telah mengubah alamat emailnya di {forum} menjadi alamat ini.\n\nJika itu Anda, cukup klik link berikut dan alamat email Anda akan terkonfirmasi:\n{url}\n\nJika bukan Anda, silakan abaikan email ini.\n"
       subject: 'Konfirmasi Alamat Email Baru Anda'
     greeting: 'Halo {displayName},'
     informational:
@@ -447,8 +449,10 @@ core:
         unsubscribe_text: 'Jika Anda ingin berhenti menerima jenis notifikasi ini, [unsubscribe here]({unsubscribeLink}).'
         unsubscribe_text_plain: 'Jika Anda ingin berhenti menerima notifikasi jenis ini, berhenti berlangganan di sini: {unsubscribeLink}'
     reset_password:
+      body: "Seseorang (semoga Anda!) telah mengajukan permintaan pemulihan password untuk akun Anda di {forum}.\n\nJika itu Anda, klik link berikut untuk mengatur ulang password Anda:\n{url}\n\nJika Anda tidak ingin mengubah password Anda, abaikan saja email ini dan semuanya akan tetap seperti semula.\n"
       subject: '=> core.ref.reset_your_password'
     send_test:
+      body: "Ini adalah email uji coba untuk memastikan bahwa konfigurasi email Flarum Anda berfungsi dengan baik.\n\nJika Anda yang menerima email ini, berarti konfigurasi Anda berfungsi dengan baik!\n\nJika bukan Anda yang seharusnya menerima email ini, silakan abaikan saja.\n"
       subject: 'Tes Email Flarum'
     signoff: 'Tim {forumTitle}'
   forum:
@@ -729,8 +733,10 @@ core:
       username_label: '=> core.ref.username'
     error:
       circular_dependencies_message: 'Circular dependencies terdeteksi: {extensions}. Membatalkan. Nonaktifkan salah satu ekstensi dan coba lagi.'
+      db_error_message: 'Kueri basis data gagal. Hal ini mungkin disebabkan oleh ketidakcocokan antara ekstensi dan driver basis data Anda.'
       dependent_extensions_message: 'Tidak dapat menonaktifkan {extension} sebelum ekstensi dependen berikut dinonaktifkan: {extensions}'
       extension_initialiation_failed_message: '{extension} gagal untuk menginisialisasi, periksa konsol browser untuk informasi lebih lanjut.'
+      extension_runtime_failed_message: '{extension} mengalami error saat dijalankan. Silakan periksa console browser untuk informasi lebih lanjut.'
       generic_cross_origin_message: 'Ups! Terjadi kesalahan saat melakukan cross-origin request. Silakan muat ulang halaman dan coba lagi.'
       generic_message: 'Ups! Ada yang tidak beres. Silakan muat ulang halaman dan coba lagi.'
       missing_dependencies_message: 'Tidak dapat mengaktifkan {extension} sebelum dependensi berikut diaktifkan: {extensions}'
