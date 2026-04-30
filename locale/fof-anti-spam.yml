@@ -21,6 +21,15 @@ fof-anti-spam:
       spamblock_users_label: 'Menandai pengguna sebagai pengirim spam'
     settings:
       button: Pengaturan
+      content-filter:
+        detect_emails_help: 'Tandai konten yang berisi alamat email.'
+        detect_phones_help: 'Tandai konten yang berisi nomor telepon dalam format internasional.'
+        detectors_heading: 'Metode Deteksi'
+        enabled_help: 'Jika diaktifkan, postingan dan diskusi dari pengguna baru akan dianalisis untuk mendeteksi tanda-tanda spam.'
+        flag_threshold_help: 'Konten dengan skor spam yang sama dengan atau lebih tinggi dari nilai ini akan ditandai untuk ditinjau (membutuhkan ekstensi flarum/flags).'
+        introduction: 'Mendeteksi dan menandai konten spam dari pengguna baru secara otomatis. Sistem ini memantau postingan dan diskusi dari pengguna yang baru saja mendaftar untuk mencari indikator spam umum seperti nomor telepon, alamat email, dan URL yang mencurigakan.'
+        monitor_hours_old_help: 'Hanya analisis konten dari pengguna yang akunnya dibuat kurang dari sekian jam yang lalu. Atur ke 0 untuk menonaktifkan pemeriksaan usia.'
+        monitor_post_count_help: 'Hanya analisis konten dari pengguna yang telah membuat postingan kurang dari jumlah ini. Atur ke 0 untuk menonaktifkan pemeriksaan jumlah postingan.'
       default-actions:
         delete_discussions_help: 'Ini akan menghapus secara permanen semua diskusi yang dimulai oleh pengguna ini. Jika dinonaktifkan, diskusi akan dihapus sementara.'
         delete_discussions_label: 'Hapus diskusi'

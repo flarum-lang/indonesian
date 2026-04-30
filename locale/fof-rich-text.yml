@@ -5,6 +5,7 @@
 fof-rich-text:
   admin:
     settings:
+      force_compact_paragraphs: 'Terapkan paragraf ringkas untuk semua pengguna (Tombol Enter akan membuat jeda baris, bukan paragraf baru)'
       toggle_on_editor: 'Tampilkan tombol alih mode Rich Text di editor?'
   forum:
     settings:
