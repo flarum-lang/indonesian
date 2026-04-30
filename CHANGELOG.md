@@ -32,6 +32,7 @@ CHANGELOG
 * [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`muhammedsaidckr/flarum-chatgpt`](https://github.com/muhammedsaidckr/flarum-chatgpt)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
 
 
 Semua perubahan: [1.34.4...1.34.5](https://github.com/flarum-lang/indonesian/compare/1.34.4...1.34.5).
