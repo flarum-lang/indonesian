@@ -2,6 +2,42 @@ CHANGELOG
 =========
 
 
+1.34.5 (XXXX-XX-XX)
+-------------------
+
+**Perubahan umum**:
+
+* Memperbarui terjemahan untuk Flarum core.
+
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`fof/checklist`](https://github.com/FriendsOfFlarum/checklist)
+* [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget)
+* [`fof/forum-widgets-core`](https://github.com/FriendsOfFlarum/forum-widgets-core)
+* [`fof/mailing`](https://github.com/FriendsOfFlarum/mailing)
+* [`fof/news-widget`](https://github.com/FriendsOfFlarum/news-widget)
+* [`fof/online-users-widget`](https://github.com/FriendsOfFlarum/online-users-widget)
+* [`fof/photoswipe`](https://github.com/FriendsOfFlarum/photoswipe)
+* [`fof/top-posters-widget`](https://github.com/FriendsOfFlarum/top-posters-widget)
+* [`fof/usercard-stats`](https://github.com/FriendsOfFlarum/usercard-stats)
+* [`little100/fontawesome`](https://github.com/Little100/flarum-ext-fontawesome)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
+* [`fof/forum-statistics-widget`](https://github.com/FriendsOfFlarum/forum-statistics-widget)
+* [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`muhammedsaidckr/flarum-chatgpt`](https://github.com/muhammedsaidckr/flarum-chatgpt)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
+
+
+Semua perubahan: [1.34.4...1.34.5](https://github.com/flarum-lang/indonesian/compare/1.34.4...1.34.5).
+
+
 1.34.4 (2026-04-06)
 -------------------
 
