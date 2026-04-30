@@ -2,6 +2,41 @@ CHANGELOG
 =========
 
 
+2.0.1 (XXXX-XX-XX)
+------------------
+
+**Perubahan umum**:
+
+* Memperbarui terjemahan untuk Flarum core.
+
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`flarum/messages`](https://github.com/flarum/messages)
+* [`flarum/realtime`](https://github.com/flarum/realtime)
+* [`fof/prevent-necrobumping`](https://github.com/FriendsOfFlarum/prevent-necrobumping)
+* [`ianm/oauth-reddit`](https://github.com/imorland/flarum-ext-oauth-reddit)
+* [`ianm/syndication`](https://github.com/imorland/syndication)
+* [`michaelbelgium/flarum-ai-autoreply`](https://github.com/MichaelBelgium/flarum-ai-autoreply)
+* [`walsgit/flarum-discussion-cards`](https://github.com/WalsGit/flarum-discussion-cards)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam)
+* [`fof/clockwork`](https://github.com/FriendsOfFlarum/clockwork)
+* [`fof/frontpage`](https://github.com/FriendsOfFlarum/frontpage)
+* [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
+
+
+Semua perubahan: [2.0.0...2.0.1](https://github.com/flarum-lang/indonesian/compare/2.0.0...2.0.1).
+
+
 2.0.0 (2026-04-22)
 ------------------
 
