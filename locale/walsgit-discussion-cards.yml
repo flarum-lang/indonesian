@@ -34,7 +34,7 @@ walsgit_discussion_cards:
         previewText_label: 'Teks pratinjau'
         primaryCardOptions_info: 'Tetapkan apakah dan bagaimana Anda ingin menggunakan kartu utama (kartu yang lebih besar di bagian atas setiap halaman menggunakan kartu diskusi). 0 untuk tidak ada.'
         primaryCardOptions_title: 'Opsi Kartu Utama'
-        primaryCards_help: 'Jumlah kartu yang lebih besar ditampilkan di bagian atas setiap halaman menggunakan kartu diskusi. (angka positif 0 atau lebih)'
+        primaryCards_help: 'Jumlah kartu yang lebih besar yang ditampilkan di bagian atas setiap halaman menggunakan kartu diskusi. Angka positif (0 jika tidak ada).'
         primaryCards_label: 'Jumlah kartu utama'
         repostExtension_notActivated: '{icon} Ekstensi ini harus diaktifkan agar pengaturan ini dapat berfungsi.'
         repostExtension_notInstalled: '{icon} Ekstensi ini harus dipasang & diaktifkan agar pengaturan ini dapat berfungsi.'
@@ -65,6 +65,8 @@ walsgit_discussion_cards:
         viewsExtension_notInstalled: '{icon} Salah satu ekstensi ini perlu diinstal & diaktifkan agar pengaturan ini berfungsi.'
         where_info: 'Tetapkan di mana Anda ingin menggunakan kartu diskusi.'
         where_title: 'Di mana?'
+      statsToolsBanner:
+        refreshStats: 'Statistik gambar telah berhasil diperbarui'
     tag_modal:
       desktopCardWidth_help: 'Tetapkan lebar (dalam %) kartu utama di desktop (pengaturan global: {default}%, min: 10% & maks: 100%).'
       desktopCardWidth_label: 'Lebar kartu utama di desktop'
