@@ -18,18 +18,33 @@ fof-anti-spam:
       title: 'Pendaftaran Yang Diblokir'
       username: Username
     permissions:
-      spamblock_users_label: 'Menandai pengguna sebagai pengirim spam'
+      spamblock_users_label: 'Tandai pengguna sebagai pengirim spam'
     settings:
       button: Pengaturan
       content-filter:
+        advanced_block_patterns_help: 'Pola regex custom untuk pengguna tingkat lanjut. Gunakan dengan hati-hati — pola yang tidak valid akan dilewati. Formatnya harus berupa array JSON yang berisi objek-objek dengan kunci "pattern" dan kunci "description" (opsional).'
+        advanced_block_patterns_label: 'Pola lanjutan (regex)'
+        advanced_patterns_heading: 'Pola Blok Tingkat Lanjut'
+        auto_flag_help: 'Jika diaktifkan, konten yang mencapai ambang batas penandaan akan secara otomatis ditandai untuk ditinjau oleh moderator (memerlukan flarum/flags). Alasan penandaan akan mencakup detail mengenai mengapa konten tersebut terdeteksi sebagai spam.'
+        auto_flag_label: 'Tandai konten spam secara otomatis'
+        auto_unapprove_help: 'Jika diaktifkan, konten yang mencapai ambang batas spam akan dikirim ke antrean peninjauan (membutuhkan flarum/approval). Moderator harus menyetujui konten tersebut sebelum konten tersebut dapat dilihat.'
+        blocked_words_help: 'Kata atau frasa yang harus diblokir sebagai spam. Masukkan satu per baris. Tidak membedakan huruf besar/kecil dan hanya mencocokkan kata secara utuh. Misalnya, "viagra" akan cocok dengan "viagra" tetapi tidak dengan "niagara".'
         detect_emails_help: 'Tandai konten yang berisi alamat email.'
         detect_phones_help: 'Tandai konten yang berisi nomor telepon dalam format internasional.'
         detectors_heading: 'Metode Deteksi'
         enabled_help: 'Jika diaktifkan, postingan dan diskusi dari pengguna baru akan dianalisis untuk mendeteksi tanda-tanda spam.'
+        enabled_label: 'Aktifkan penyaringan konten'
         flag_threshold_help: 'Konten dengan skor spam yang sama dengan atau lebih tinggi dari nilai ini akan ditandai untuk ditinjau (membutuhkan ekstensi flarum/flags).'
+        heading: 'Penyaring Konten'
         introduction: 'Mendeteksi dan menandai konten spam dari pengguna baru secara otomatis. Sistem ini memantau postingan dan diskusi dari pengguna yang baru saja mendaftar untuk mencari indikator spam umum seperti nomor telepon, alamat email, dan URL yang mencurigakan.'
         monitor_hours_old_help: 'Hanya analisis konten dari pengguna yang akunnya dibuat kurang dari sekian jam yang lalu. Atur ke 0 untuk menonaktifkan pemeriksaan usia.'
         monitor_post_count_help: 'Hanya analisis konten dari pengguna yang telah membuat postingan kurang dari jumlah ini. Atur ke 0 untuk menonaktifkan pemeriksaan jumlah postingan.'
+        monitor_post_count_label: 'Pantau pengguna berdasarkan jumlah posting'
+        no_action_extensions: 'Pasang ekstensi flarum/approval dan/atau flarum/flags untuk mengaktifkan tindakan moderasi otomatis. Spam yang terdeteksi akan dikelola melalui antrian peninjauan bawaan Flarum dan sistem penandaan.'
+        spam_threshold_help: 'Konten dengan skor spam yang sama dengan atau lebih tinggi dari nilai ini akan secara otomatis ditolak (membutuhkan ekstensi flarum/approval).'
+        system_user_id_help: 'ID pengguna yang akan ditetapkan sebagai pembuat penandaan spam otomatis. Biasanya ini adalah akun admin atau sistem. Secara default menggunakan ID pengguna 1 jika tidak dikonfigurasi.'
+        system_user_id_label: 'ID pengguna sistem untuk penandaan'
+        user_targeting_heading: 'Penargetan Pengguna'
       default-actions:
         delete_discussions_help: 'Ini akan menghapus secara permanen semua diskusi yang dimulai oleh pengguna ini. Jika dinonaktifkan, diskusi akan dihapus sementara.'
         delete_discussions_label: 'Hapus diskusi'
