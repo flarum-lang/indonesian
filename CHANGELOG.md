@@ -36,6 +36,7 @@ CHANGELOG
 * [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`fof/rich-text`](https://github.com/FriendsOfFlarum/rich-text)
+* [`forumaker/magicbb`](https://github.com/forumaker/magicbb)
 
 
 Semua perubahan: [2.0.0...2.0.1](https://github.com/flarum-lang/indonesian/compare/2.0.0...2.0.1).
