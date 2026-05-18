@@ -30,6 +30,7 @@ forumaker-magicbb:
       audio_button: 'Tambahkan audio'
       center_button: 'Rata tengah'
       color_button: 'Tambahkan warna'
+      image_button: 'Tambahkan gambar'
       info_button: 'Tambahkan peringatan'
       justify_button: 'Rata kiri-kanan'
       more_button: Lainnya
