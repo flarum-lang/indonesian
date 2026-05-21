@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.2 (XXXX-XX-XX)
+------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+
+
+Semua perubahan: [2.0.1...2.0.2](https://github.com/flarum-lang/indonesian/compare/2.0.1...2.0.2).
+
+
 2.0.1 (2026-05-19)
 ------------------
 
