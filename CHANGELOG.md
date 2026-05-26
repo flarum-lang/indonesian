@@ -7,6 +7,7 @@ CHANGELOG
 
 **Menambahkan dukungan untuk ekstensi**:
 
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 
 
