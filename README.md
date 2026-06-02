@@ -155,6 +155,7 @@ php flarum cache:clear
 | --- | --- |
 | [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum2/id/acpl-lscache/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/acpl-lscache/id/) |
 | [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum2/id/acpl-my-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/acpl-my-tags/id/) |
+| [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum2/id/antoinefr-money/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/antoinefr-money/id/) |
 | [`datlechin/flarum-bbcode-hide-content`](https://github.com/datlechin/flarum-bbcode-hide-content) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum2/id/datlechin-bbcode-hide-content/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-bbcode-hide-content/id/) |
 | [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum2/id/datlechin-birthdays/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-birthdays/id/) |
 | [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum2/id/datlechin-copy-links/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/datlechin-copy-links/id/) |
