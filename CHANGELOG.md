@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
 * [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
