@@ -79,6 +79,7 @@ php flarum cache:clear
 
 | Ekstensi | Status |
 | --- | --- |
+| [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum2/id/fof-amazon-affiliation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-amazon-affiliation/id/) |
 | [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum2/id/fof-analytics/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-analytics/id/) |
 | [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum2/id/fof-anti-spam/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-anti-spam/id/) |
 | [`fof/badges`](https://github.com/FriendsOfFlarum/badges) | [![Status terjemahan](https://weblate.rob006.net/widgets/flarum2/id/fof-badges/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/fof-badges/id/) |
