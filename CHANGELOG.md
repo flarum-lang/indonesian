@@ -16,6 +16,9 @@ CHANGELOG
 * [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
 * [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+* [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector)
+* [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money)
+* [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
 
 
 Semua perubahan: [2.0.1...2.0.2](https://github.com/flarum-lang/indonesian/compare/2.0.1...2.0.2).
