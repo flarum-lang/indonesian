@@ -12,6 +12,7 @@ CHANGELOG
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
 * [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
 * [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
 * [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
 * [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
