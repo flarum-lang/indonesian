@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.34.6 (XXXX-XX-XX)
+-------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+
+
+Semua perubahan: [1.34.5...1.34.6](https://github.com/flarum-lang/indonesian/compare/1.34.5...1.34.6).
+
+
 1.34.5 (2026-05-19)
 -------------------
 
