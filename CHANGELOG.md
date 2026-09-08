@@ -2,6 +2,42 @@ CHANGELOG
 =========
 
 
+2.0.2 (XXXX-XX-XX)
+------------------
+
+**Menambahkan dukungan untuk ekstensi**:
+
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
+* [`ffans/geetest`](https://github.com/FFans/geetest)
+* [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
+* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
+* [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+* [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector)
+* [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money)
+* [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
+
+
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+
+
+Semua perubahan: [2.0.1...2.0.2](https://github.com/flarum-lang/indonesian/compare/2.0.1...2.0.2).
+
+
 2.0.1 (2026-05-19)
 ------------------
 
