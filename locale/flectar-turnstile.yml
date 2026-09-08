@@ -16,5 +16,4 @@ flectar-turnstile:
     not_loaded_error: 'Gagal memuat Cloudflare Turnstile. Silakan refresh halaman, dan periksa adblocker Anda.'
     validation_error: 'Silakan selesaikan Turnstile challenge.'
 validation:
-  required: 'Silakan selesaikan Turnstile challenge.'
   turnstile: 'Kita tidak bisa memverifikasi apakah Anda robot atau bukan. Silakan refresh halaman dan coba lagi.'
