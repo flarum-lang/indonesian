@@ -30,6 +30,11 @@ CHANGELOG
 * [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
 
 
+**Terjemahan terbaru untuk ekstensi**:
+
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+
+
 Semua perubahan: [2.0.1...2.0.2](https://github.com/flarum-lang/indonesian/compare/2.0.1...2.0.2).
 
 
