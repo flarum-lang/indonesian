@@ -13,6 +13,8 @@ CHANGELOG
 **Terjemahan terbaru untuk ekstensi**:
 
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`ordinaryjellyfish/sentra-prime`](https://flarum.org/extension/ordinaryjellyfish/sentra-prime)
 
 
 Semua perubahan: [1.34.5...1.34.6](https://github.com/flarum-lang/indonesian/compare/1.34.5...1.34.6).
