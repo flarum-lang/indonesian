@@ -27,7 +27,7 @@ ordinaryjellyfish-sentra:
       language_help: 'Azure AI Language adalah layanan yang menggunakan pemrosesan bahasa alami untuk menganalisis teks.'
   email:
     suspend_permanent_reason: 'Anda telah otomatis ditangguhkan karena perilaku negatif yang berulang. Penangguhan ini bersifat permanen. Jika Anda merasa ini adalah kesalahan, silakan hubungi staf forum.'
-    suspend_temporary_reason: 'Anda telah otomatis ditangguhkan karena perilaku negatif yang berulang. Penangguhan ini berlaku selama {duration, plural, one {1 hari} plural {# hari}} dan akan dicabut secara otomatis. Jika Anda merasa ini adalah kesalahan, silakan hubungi staf forum.'
+    suspend_temporary_reason: 'Anda telah otomatis ditangguhkan karena perilaku negatif yang berulang. Penangguhan ini berlaku selama {duration, plural, one {1 hari} other {# hari}} dan akan dicabut secara otomatis. Jika Anda merasa ini adalah kesalahan, silakan hubungi staf forum.'
   forum:
     pii: 'Informasi Yang Dapat Mengidentifikasi Seseorang'
     undo_post_score: '=> ordinaryjellyfish-sentra.lib.undo_post_score'
