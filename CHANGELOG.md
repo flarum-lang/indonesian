@@ -13,6 +13,7 @@ CHANGELOG
 **Updated translations for extensions**:
 
 * [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (1 removed)
+* [`fof/anti-spam`](https://github.com/FriendsOfFlarum/anti-spam) (1 changed)
 * [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) (2 changed)
 * [`ordinaryjellyfish/sentra-prime`](https://flarum.org/extension/ordinaryjellyfish/sentra-prime) (1 changed)
 
