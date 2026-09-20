@@ -5,7 +5,7 @@ CHANGELOG
 2.0.2 (XXXX-XX-XX)
 ------------------
 
-**Menambahkan dukungan untuk ekstensi**:
+**Added support for new extensions**:
 
 * [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
@@ -31,12 +31,12 @@ CHANGELOG
 * [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
 
 
-**Terjemahan terbaru untuk ekstensi**:
+**Updated translations for extensions**:
 
-* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (1 removed)
 
 
-Semua perubahan: [2.0.1...2.0.2](https://github.com/flarum-lang/indonesian/compare/2.0.1...2.0.2).
+All changes: [2.0.1...2.0.2](https://github.com/flarum-lang/indonesian/compare/2.0.1...2.0.2).
 
 
 2.0.1 (2026-05-19)
