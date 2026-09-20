@@ -18,7 +18,7 @@ fof-anti-spam:
       title: 'Pendaftaran Yang Diblokir'
       username: Username
     permissions:
-      spamblock_users_label: 'Menandai pengguna sebagai pengirim spam'
+      spamblock_users_label: 'Tandai pengguna sebagai pengirim spam'
     settings:
       button: Pengaturan
       default-actions:
