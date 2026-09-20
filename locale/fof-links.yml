@@ -22,7 +22,6 @@ fof-links:
       use_rel_me: 'Tambahkan atribut <code>rel="me"</code> untuk verifikasi identitas di situs lain'
       visibility:
         guest-only:
-          help: 'Hanya {guest} yang dapat melihat link ini. Izin di atas harus ditetapkan ke ''{everyone}''.'
           label: 'Hanya {guest}?'
         help: 'Link secara default hanya dapat dilihat oleh pengguna <code>{admin}</code>. Sesuaikan izin untuk menentukan siapa saja yang dapat melihat link ini.'
         help-disabled: 'Simpan link sebelum mengubah pengaturan visibilitas.'
