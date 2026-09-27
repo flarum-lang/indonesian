@@ -7,34 +7,34 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
-* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries)
-* [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
-* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide)
-* [`ffans/geetest`](https://github.com/FFans/geetest)
-* [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
-* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
-* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
-* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
-* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
-* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
-* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
-* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
-* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
-* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title)
-* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
-* [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
-* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso)
-* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
-* [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector)
-* [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money)
-* [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost)
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money) (83% complete)
+* [`datitisev/flarum-post-galleries`](https://github.com/dsevillamartin/flarum-post-galleries) (100% complete)
+* [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts) (5% complete)
+* [`datlechin/flarum-simple-tour-guide`](https://github.com/datlechin/flarum-simple-tour-guide) (0% complete)
+* [`ffans/geetest`](https://github.com/FFans/geetest) (87% complete)
+* [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation) (66% complete)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) (89% complete)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog) (83% complete)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent) (11% complete)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman) (82% complete)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter) (100% complete)
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter) (100% complete)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength) (50% complete)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub) (68% complete)
+* [`huseyinfiliz/sticky-title`](https://github.com/huseyinfiliz/sticky-title) (82% complete)
+* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget) (100% complete)
+* [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus) (78% complete)
+* [`maicol07/flarum-ext-sso`](https://github.com/maicol07/flarum-ext-sso) (100% complete)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) (100% complete)
+* [`shebaoting/flarum-dependency-collector`](https://github.com/shebaoting/flarum-dependency-collector) (55% complete)
+* [`shebaoting/flarum-money`](https://github.com/shebaoting/flarum-money) (58% complete)
+* [`shebaoting/flarum-repost`](https://github.com/shebaoting/flarum-repost) (100% complete)
 
 
 **Updated translations for extensions**:
 
-* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (1 removed)
-* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 removed)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile) (1 removed, 83% complete)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 removed, 43% complete)
 
 
 All changes: [2.0.1...2.0.2](https://github.com/flarum-lang/indonesian/compare/2.0.1...2.0.2).
