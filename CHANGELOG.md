@@ -2,6 +2,19 @@ CHANGELOG
 =========
 
 
+2.0.3 (2026-10-18)
+------------------
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-prominent-post-numbers`](https://github.com/clarkwinkelmann/flarum-ext-prominent-post-numbers) (100% complete)
+* [`clarkwinkelmann/flarum-ext-selective-mediaembed`](https://github.com/clarkwinkelmann/flarum-ext-selective-mediaembed) (80% complete)
+* [`huseyinfiliz/traderfeedback`](https://github.com/huseyinfiliz/traderfeedback) (88% complete)
+
+
+All changes: [2.0.2...2.0.3](https://github.com/flarum-lang/indonesian/compare/2.0.2...2.0.3).
+
+
 2.0.2 (2026-09-30)
 ------------------
 
