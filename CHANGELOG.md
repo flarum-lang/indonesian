@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+2.0.4 (2026-10-26)
+------------------
+
+**Added support for new extensions**:
+
+* [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) (100% complete)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language) (59% complete)
+* [`fof/mason`](https://github.com/FriendsOfFlarum/mason) (65% complete)
+* [`huoxin/auto-follow-discussion`](https://github.com/huoxin233/flarum-ext-auto-follow-discussion) (100% complete)
+* [`ianm/gravatar`](https://github.com/imorland/gravatar) (100% complete)
+* [`tpokorra/flarum-ext-post-notification`](https://github.com/tpokorra/flarum-ext-post-notification) (100% complete)
+
+
+All changes: [2.0.3...2.0.4](https://github.com/flarum-lang/indonesian/compare/2.0.3...2.0.4).
+
+
 2.0.3 (2026-10-18)
 ------------------
 
