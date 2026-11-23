@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.34.7 (2026-11-23)
+-------------------
+
+**General changes**:
+
+* Updated Day.js translations.
+
+
+All changes: [1.34.6...1.34.7](https://github.com/flarum-lang/indonesian/compare/1.34.6...1.34.7).
+
+
 1.34.6 (2026-09-30)
 -------------------
 
