@@ -1,27 +1,31 @@
 {
 	"name": "flarum-lang/indonesian",
+	"description": "Indonesian Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Indonesian language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/indonesian",
 	"keywords": [
-		"locale",
-		"flarum",
-		"flarum-locale",
-		"id-locale",
-		"indonesian-locale",
-		"indonesian"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/indonesian",
 	"license": "MIT",
+	"authors": [
+		{
+			"name": "realodix",
+			"homepage": "https://github.com/realodix",
+			"role": "Maintainer"
+		}
+	],
 	"support": {
 		"issues": "https://github.com/flarum-lang/indonesian/issues",
+		"forum": "https://discuss.flarum.org/d/1358",
 		"source": "https://github.com/flarum-lang/indonesian"
 	},
 	"require": {
 		"flarum/core": "^1.7"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
+		"branch-alias": {
+			"dev-master": "1.x-dev"
+		},
 		"flarum-extension": {
 			"title": "Indonesian",
 			"category": "language",
@@ -33,13 +37,7 @@
 		},
 		"flarum-locale": {
 			"code": "id",
-			"title": "Indonesian"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
+			"title": "Bahasa Indonesia"
 		}
 	}
 }
